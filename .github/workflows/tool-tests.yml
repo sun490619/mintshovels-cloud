@@ -1,0 +1,45 @@
+name: 功能测试
+
+on:
+  push:
+    paths:
+      - 'tools/**'
+      - 'test_tools.mjs'
+  workflow_dispatch:
+
+jobs:
+  test-tools:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+      
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: 安装依赖
+        run: npm install playwright
+      
+      - name: 安装 Chromium
+        run: npx playwright install chromium
+      
+      - name: 运行功能测试
+        run: node test_tools.mjs
+        env:
+          BASE_URL: ${{ secrets.BASE_URL || 'http://localhost:8765' }}
+      
+      - name: 提交测试结果
+        run: |
+          git config user.name "MintShovels Bot"
+          git config user.email "bot@mintshovels.com"
+          git add test_results.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "测试结果无变化"
+          else
+            git commit -m "🧪 功能测试结果更新"
+            git push
+          fi

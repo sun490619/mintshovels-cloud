@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>需求雷达 · 控制台</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #0f1117;
+  color: #e1e4e8;
+  min-height: 100vh;
+}
+.header {
+  background: linear-gradient(135deg, #1a1c2e 0%, #161b22 100%);
+  border-bottom: 1px solid #30363d;
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 { font-size: 20px; font-weight: 600; color: #58a6ff; }
+.header .time { font-size: 13px; color: #8b949e; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 28px; }
+.stat-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.stat-card.pass { border-left: 3px solid #3fb950; }
+.stat-card.warn { border-left: 3px solid #d29922; }
+.stat-card.block { border-left: 3px solid #f85149; }
+.stat-card .number { font-size: 42px; font-weight: 700; }
+.stat-card.pass .number { color: #3fb950; }
+.stat-card.warn .number { color: #d29922; }
+.stat-card.block .number { color: #f85149; }
+.stat-card .label { font-size: 13px; color: #8b949e; margin-top: 4px; }
+.stat-card .sub { font-size: 12px; color: #484f58; margin-top: 2px; }
+
+.section { margin-bottom: 24px; }
+.section-title {
+  font-size: 16px; font-weight: 600; padding: 10px 0;
+  border-bottom: 1px solid #21262d; margin-bottom: 12px;
+  display: flex; align-items: center; gap: 8px;
+}
+.section-title .icon { font-size: 18px; }
+.section-title .count { color: #8b949e; font-weight: 400; font-size: 13px; }
+
+/* Review Queue */
+.review-list { display: flex; flex-direction: column; gap: 10px; }
+.review-item {
+  background: #161b22; border: 1px solid #30363d; border-radius: 10px;
+  padding: 16px 20px; transition: all 0.2s;
+}
+.review-item:hover { border-color: #d29922; }
+.review-item .name { font-size: 15px; font-weight: 600; color: #d29922; margin-bottom: 6px; }
+.review-item .desc { font-size: 13px; color: #8b949e; line-height: 1.5; margin-bottom: 8px; }
+.review-item .reason { font-size: 12px; color: #f85149; background: #1d1117; padding: 8px 12px; border-radius: 6px; margin-bottom: 12px; }
+.review-item .actions { display: flex; gap: 10px; }
+.btn {
+  padding: 8px 18px; border-radius: 6px; font-size: 13px; font-weight: 500;
+  cursor: pointer; border: 1px solid #30363d; background: #21262d; color: #c9d1d9;
+  transition: all 0.15s;
+}
+.btn:hover { background: #30363d; }
+.btn.approve { background: #1b3825; border-color: #2ea043; color: #3fb950; }
+.btn.approve:hover { background: #1f4a2d; }
+.btn.reject { background: #3d1a1a; border-color: #da3633; color: #f85149; }
+.btn.reject:hover { background: #4b1d1d; }
+
+/* PASS tools grid */
+.tool-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.tool-card {
+  background: #161b22; border: 1px solid #21262d; border-radius: 10px;
+  padding: 14px 16px; transition: border-color 0.2s;
+}
+.tool-card:hover { border-color: #3fb95044; }
+.tool-card .tool-name { font-size: 14px; font-weight: 600; color: #7ee787; margin-bottom: 4px; }
+.tool-card .tool-type { font-size: 11px; color: #58a6ff; background: #1a2537; padding: 2px 8px; border-radius: 10px; display: inline-block; margin-bottom: 6px; }
+.tool-card .tool-desc { font-size: 12px; color: #8b949e; line-height: 1.5; }
+.tool-card .tool-original { font-size: 11px; color: #484f58; margin-top: 6px; font-style: italic; }
+
+.empty { text-align: center; color: #484f58; padding: 40px; font-size: 14px; }
+.badge {
+  font-size: 11px; padding: 2px 8px; border-radius: 10px;
+  display: inline-block; margin-left: 6px;
+}
+.badge.l1 { background: #3d1a1a; color: #f85149; }
+.badge.l2 { background: #3d2e1a; color: #d29922; }
+
+.footer { text-align: center; padding: 20px; color: #30363d; font-size: 12px; }
+
+/* Toast */
+.toast {
+  position: fixed; top: 20px; right: 20px; z-index: 9999;
+  padding: 12px 20px; border-radius: 8px; font-size: 14px; font-weight: 500;
+  opacity: 0; transform: translateY(-10px); transition: all 0.3s;
+  pointer-events: none;
+}
+.toast.show { opacity: 1; transform: translateY(0); }
+.toast.success { background: #1b3825; border: 1px solid #3fb950; color: #7ee787; }
+.toast.error { background: #3d1a1a; border: 1px solid #f85149; color: #f85149; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>🔭 需求雷达 · MintShovels</h1>
+    <span style="font-size:12px;color:#8b949e;">自动发现全网工具需求，帮你找到下一个爆款</span>
+  </div>
+  <div class="time" id="updateTime">--</div>
+</div>
+
+<div class="container">
+
+  <!-- 统计卡片 -->
+  <div class="stats">
+    <div class="stat-card pass">
+      <div class="number" id="passCount">0</div>
+      <div class="label">✅ 值得做</div>
+      <div class="sub">AI 判断能做，技术可行</div>
+    </div>
+    <div class="stat-card warn">
+      <div class="number" id="warnCount">0</div>
+      <div class="label">⚠️ 等你决定</div>
+      <div class="sub">模棱两可，需要你拍板</div>
+    </div>
+    <div class="stat-card block">
+      <div class="number" id="blockCount">0</div>
+      <div class="label">🚫 不是需求</div>
+      <div class="sub">技术问答/非工具需求</div>
+    </div>
+  </div>
+
+  <!-- 待审核 -->
+  <div class="section" id="reviewSection">
+    <div class="section-title">
+      <span class="icon">👨‍⚖️</span> 等你翻牌
+      <span class="count" id="reviewCount">0 条</span>
+    </div>
+    <div class="review-list" id="reviewList"></div>
+    <div class="empty" id="reviewEmpty" style="display:none">🎉 暂无待审核项，一切尽在掌控</div>
+  </div>
+
+  <!-- PAA 工具列表 -->
+  <div class="section">
+    <div class="section-title">
+      <span class="icon">💡</span> 值得做的工具
+      <span class="count" id="toolCount">0 个</span>
+    </div>
+    <div class="tool-grid" id="toolGrid"></div>
+  </div>
+
+</div>
+
+<div class="footer">需求雷达自动运行中 · 数据来源：Stack Overflow / Hacker News / GitHub</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// 从本地 JSON 加载数据
+let data = { pass: [], warn: [], block: [], summary: {}, timestamp: '' };
+
+async function loadData() {
+  try {
+    const resp = await fetch('dashboard_data.json?' + Date.now());
+    data = await resp.json();
+  } catch(e) {
+    console.error('加载数据失败:', e);
+    return;
+  }
+  render();
+}
+
+function render() {
+  const s = data.summary;
+  document.getElementById('passCount').textContent = s.pass || 0;
+  document.getElementById('warnCount').textContent = s.warn || 0;
+  document.getElementById('blockCount').textContent = s.block || 0;
+  document.getElementById('toolCount').textContent = (s.pass || 0) + ' 个';
+  document.getElementById('reviewCount').textContent = (s.warn || 0) + ' 条';
+  document.getElementById('updateTime').textContent = '更新于 ' + new Date(data.timestamp).toLocaleString('zh-CN');
+
+  // 渲染审核队列
+  const reviewList = document.getElementById('reviewList');
+  const reviewEmpty = document.getElementById('reviewEmpty');
+  reviewList.innerHTML = '';
+  if (data.warn.length === 0) {
+    reviewEmpty.style.display = 'block';
+  } else {
+    reviewEmpty.style.display = 'none';
+    data.warn.forEach((item, i) => {
+      const div = document.createElement('div');
+      div.className = 'review-item';
+      div.id = 'warn-' + i;
+      div.innerHTML = `
+        <div class="name">⚠️ ${item.name || '未命名需求'}</div>
+        <div class="desc">📝 需求：${item.text || ''}</div>
+        <div class="desc">🤔 AI判断：${item.reason || ''}</div>
+        <div class="reason">❌ 为什么打问号：${item.feasibility || 'AI 无法在网页端直接实现底层系统交互'}</div>
+        <div class="actions">
+          <button class="btn approve" onclick="approve(${i})">✅ 批准（值得做）</button>
+          <button class="btn reject" onclick="reject(${i})">🚫 驳回（做不了）</button>
+        </div>
+      `;
+      reviewList.appendChild(div);
+    });
+  }
+
+  // 渲染工具卡片
+  const toolGrid = document.getElementById('toolGrid');
+  toolGrid.innerHTML = '';
+  if (data.pass.length === 0) {
+    toolGrid.innerHTML = '<div class="empty">暂无数据，等待雷达扫描...</div>';
+  } else {
+    data.pass.forEach(item => {
+      const card = document.createElement('div');
+      card.className = 'tool-card';
+      card.innerHTML = `
+        <div class="tool-name">🔧 ${item.name || '未命名'}</div>
+        <span class="tool-type">${item.type || '工具'}</span>
+        <div class="tool-desc">${item.reason || ''}</div>
+        <div class="tool-original">来源：${item.text || ''}</div>
+      `;
+      toolGrid.appendChild(card);
+    });
+  }
+}
+
+function showToast(msg, type) {
+  const toast = document.getElementById('toast');
+  toast.textContent = msg;
+  toast.className = 'toast ' + type + ' show';
+  setTimeout(() => { toast.className = 'toast'; }, 2000);
+}
+
+function approve(index) {
+  const item = data.warn[index];
+  // 移到 pass
+  data.pass.push(item);
+  data.warn.splice(index, 1);
+  data.summary.pass++;
+  data.summary.warn--;
+  // 保存到后端
+  fetch('/api/review', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ action: 'approve', index, name: item.name })
+  }).catch(() => {});
+  render();
+  showToast('已批准 ✅ — 该需求已加入"值得做"清单', 'success');
+}
+
+function reject(index) {
+  const item = data.warn[index];
+  // 移到 block
+  data.block.push(item);
+  data.warn.splice(index, 1);
+  data.summary.block++;
+  data.summary.warn--;
+  fetch('/api/review', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ action: 'reject', index, name: item.name })
+  }).catch(() => {});
+  render();
+  showToast('已驳回 🚫', 'error');
+}
+
+// 每30秒自动刷新
+loadData();
+setInterval(loadData, 30000);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>MintShovels 工具库</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;padding:40px 20px}
+.container{max-width:1100px;margin:0 auto}
+.header{text-align:center;margin-bottom:32px}
+.header h1{font-size:28px;color:#58a6ff;margin-bottom:6px}
+.header p{font-size:14px;color:#8b949e}
+.stats{display:flex;gap:16px;justify-content:center;margin-bottom:28px;flex-wrap:wrap}
+.stat{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px 24px;text-align:center}
+.stat .num{font-size:28px;font-weight:700;color:#3fb950}
+.stat .label{font-size:12px;color:#8b949e;margin-top:2px}
+.section-title{font-size:18px;color:#c9d1d9;margin: 28px 0 16px 0;padding-bottom:8px;border-bottom:1px solid #21262d}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.card{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:20px;transition:all .2s;text-decoration:none;color:inherit;display:block}
+.card:hover{border-color:#58a6ff44;transform:translateY(-2px)}
+.card .icon{font-size:28px;margin-bottom:10px}
+.card .name{font-size:16px;font-weight:600;color:#e1e4e8;margin-bottom:6px}
+.card .for-who{font-size:11px;color:#d29922;margin-bottom:8px;background:#2e2e1e;display:inline-block;padding:2px 10px;border-radius:10px}
+.card .plain-desc{font-size:13px;color:#8b949e;line-height:1.6;margin-bottom:10px}
+.card .what-it-does{font-size:12px;color:#c9d1d9;line-height:1.5;margin-bottom:6px;border-left:2px solid #238636;padding-left:10px}
+.card .tags{margin-top:10px;display:flex;gap:4px;flex-wrap:wrap}
+.tag{padding:3px 10px;border-radius:10px;font-size:10px;font-weight:500}
+.tag.converter{background:#1e2e1e;color:#3fb950}
+.tag.formatter{background:#2e1e1e;color:#ff7b72}
+.tag.generator{background:#1e2e3a;color:#58a6ff}
+.tag.analyzer{background:#2e2e1e;color:#d29922}
+.tag.reference{background:#2e1e2e;color:#bc8cff}
+.tag.utility{background:#1e2e2e;color:#7ee787}
+.tag.visual{background:#2e1e2e;color:#f778ba}
+.footer{margin-top:32px;text-align:center;color:#30363d;font-size:12px}
+.hint{font-size:11px;color:#484f58;margin-top:4px}
+.quality-bar{display:flex;align-items:center;gap:8px;margin-bottom:24px;background:#161b22;border:1px solid #21262d;border-radius:10px;padding:14px 20px}
+.quality-bar .dot{width:10px;height:10px;border-radius:50%;background:#3fb950}
+.quality-bar a{color:#58a6ff;text-decoration:none;font-size:13px;margin-left:auto}
+.quality-bar a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>MintShovels 工具库</h1>
+<p>从 Stack Overflow 真实需求自动发现 · AI 判断可行 · 纯前端一键使用 · 无需安装任何环境</p>
+</div>
+<div class="stats">
+<div class="stat"><div class="num">16</div><div class="label">已上线工具</div></div>
+<div class="stat"><div class="num">37</div><div class="label">需求雷达 PASS</div></div>
+<div class="stat"><div class="num">100%</div><div class="label">可用率</div></div>
+</div>
+
+<div class="quality-bar">
+<span class="dot"></span>
+<span style="font-size:13px;color:#c9d1d9"><strong>全部工具已通过功能测试</strong></span>
+<span style="font-size:12px;color:#8b949e">每个工具都验证了核心功能：输入 → 产出结果</span>
+<a href="/quality_dashboard.html" style="font-size:13px">📊 查看质量看板 →</a>
+</div>
+
+<div class="section-title">📋 工具清单（附白话说明书）</div>
+<div class="grid">
+
+<a class="card" href="fstring_converter.html">
+<div class="icon">🔄</div><div class="name">Python 字符串格式转换</div>
+<div class="for-who">给写 Python 的人用</div>
+<div class="plain-desc">把旧式 <code style="background:#1c2128;padding:1px 4px;border-radius:3px;font-size:11px">%s % name</code> 或 <code style="background:#1c2128;padding:1px 4px;border-radius:3px;font-size:11px">.format()</code> 写法一键转成现代 f-string。不用记新语法，粘代码进去就输出改好的。</div>
+<div class="what-it-does">📥 粘旧代码 → 📤 出来f-string版</div>
+<div class="tags"><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="json_schema_generator.html">
+<div class="icon">📋</div><div class="name">JSON → Schema 自动生成</div>
+<div class="for-who">给后端/API开发者用</div>
+<div class="plain-desc">你有一堆JSON数据（比如API返回结果），粘进去自动生成 JSON Schema 定义文档。不用手写schema了，省时间。</div>
+<div class="what-it-does">📥 粘JSON → 📤 出来Schema定义</div>
+<div class="tags"><span class="tag converter">转换器</span><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="js_formatter.html">
+<div class="icon">🎨</div><div class="name">JavaScript 代码一键格式化</div>
+<div class="for-who">给前端/JS开发者用</div>
+<div class="plain-desc">网上复制的JS经常是压缩成一团的乱码。粘进来一键展开成整齐可读的格式，可选2空格/4空格/Tab缩进。</div>
+<div class="what-it-does">📥 粘压缩代码 → 📤 出来整齐代码</div>
+<div class="tags"><span class="tag formatter">格式化</span></div>
+</a>
+
+<a class="card" href="regexp_lookahead.html">
+<div class="icon">🔍</div><div class="name">正则表达式预查生成器</div>
+<div class="for-who">给需要写正则的人用</div>
+<div class="plain-desc">不用记 <code style="background:#1c2128;padding:1px 4px;border-radius:3px;font-size:11px">(?!...)</code> 这种反人类语法。直接选择"我要匹配X，但排除X后面跟着Y"，自动生成正则，还能实时测试看对不对。</div>
+<div class="what-it-does">📥 选匹配规则 → 📤 出正则表达式 + 测试</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="csharp_getter_setter.html">
+<div class="icon">⚙️</div><div class="name">C# Getter/Setter 代码生成</div>
+<div class="for-who">给C#/.NET开发者用</div>
+<div class="plain-desc">输入属性名和类型，自动生成完整C#类代码。支持4种风格：简洁自动属性、完整get/set、表达式体、INotifyPropertyChanged。</div>
+<div class="what-it-does">📥 填属性名+类型 → 📤 出C#完整类代码</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="css_computed_analyzer.html">
+<div class="icon">🎨</div><div class="name">CSS 属性来源分析器</div>
+<div class="for-who">给前端/CSS开发者用</div>
+<div class="plain-desc">分析HTML元素上的CSS属性到底是从哪来的——是你手动写的内联样式？从父元素继承的？还是浏览器自带的默认值？不用再F12一个个找了。</div>
+<div class="what-it-does">📥 选属性 → 📤 显示每个属性的来源</div>
+<div class="tags"><span class="tag analyzer">分析器</span></div>
+</a>
+
+<a class="card" href="python_tree_generator.html">
+<div class="icon">🌳</div><div class="name">Python 树结构代码生成</div>
+<div class="for-who">给学数据结构/刷算法题的人用</div>
+<div class="plain-desc">选择树类型（二叉树、BST、Trie、AVL），自动生成完整Python代码，自带插入、搜索、遍历、打印方法。不用手写TreeNode类了。</div>
+<div class="what-it-does">📥 选树类型 → 📤 出完整Python代码</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="jquery_events.html">
+<div class="icon">📚</div><div class="name">jQuery 事件速查表</div>
+<div class="for-who">给用jQuery的前端开发者用</div>
+<div class="plain-desc">46个jQuery事件类型大全。可以搜索、按分类（鼠标/键盘/表单/窗口）筛选，点一下就复制事件名直接用。</div>
+<div class="what-it-does">📥 搜索/筛选 → 📤 查看事件名和说明</div>
+<div class="tags"><span class="tag reference">参考</span></div>
+</a>
+
+<a class="card" href="svg_path_extractor.html">
+<div class="icon">✂️</div><div class="name">SVG Path 路径提取器</div>
+<div class="for-who">给做SVG/图标设计的人用</div>
+<div class="plain-desc">把SVG文件里的所有 path 路径数据提取出来。支持预览、单条复制、全部复制。做图标库的时候特别好用。</div>
+<div class="what-it-does">📥 粘SVG代码 → 📤 出每条path数据</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="file_line_extractor.html">
+<div class="icon">📄</div><div class="name">文件指定行提取器</div>
+<div class="for-who">给需要从大文件里提取特定行的人用</div>
+<div class="plain-desc">比如1000行日志文件，你只要看第5行和第10-20行。输入行号范围（如 1,3,5-8,12），直接提取出来。不用手动数行号了。</div>
+<div class="what-it-does">📥 粘文本 + 输入行号 → 📤 出指定行内容</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="world_map_generator.html">
+<div class="icon">🗺️</div><div class="name">随机世界地图生成器</div>
+<div class="for-who">给做游戏/地图/视觉项目的人用</div>
+<div class="plain-desc">一键生成随机世界地图，用Perlin噪声算法模拟真实地形。可调参数（种子、海平面、比例），支持下载PNG图片。</div>
+<div class="what-it-does">📥 调参数 → 📤 出地图PNG</div>
+<div class="tags"><span class="tag generator">生成器</span><span class="tag visual">可视化</span></div>
+</a>
+
+<a class="card" href="typing_macro.html">
+<div class="icon">⌨️</div><div class="name">真人打字宏脚本生成</div>
+<div class="for-who">给需要模拟真人打字的人用</div>
+<div class="plain-desc">输入文字，自动生成带随机延迟的打字脚本（Python/AHK/JS三种格式）。不是瞬间粘贴，是模拟人类逐字输入。页面上还能先看演示效果。</div>
+<div class="what-it-does">📥 填文字 → 📤 出打字脚本 + 页面演示</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="sql_formatter.html">
+<div class="icon">📐</div><div class="name">SQL 格式化工具</div>
+<div class="for-who">给写SQL的人用</div>
+<div class="plain-desc">混乱的SQL粘进来，一键格式化：关键字自动大写、SELECT/FROM/WHERE等子句换行对齐、缩进清晰。从一坨乱码变成一眼能看懂。</div>
+<div class="what-it-does">📥 粘混乱SQL → 📤 出整齐SQL</div>
+<div class="tags"><span class="tag formatter">格式化</span></div>
+</a>
+
+<a class="card" href="dotnet_cli_parser.html">
+<div class="icon">⚙️</div><div class="name">.NET 命令行参数解析生成</div>
+<div class="for-who">给写C#命令行工具的人用</div>
+<div class="plain-desc">定义参数名和类型（如 --input string, --verbose bool），自动生成完整的C#命令行参数解析代码，支持 --flag 和 --name=value 两种格式。</div>
+<div class="what-it-does">📥 定义参数 → 📤 出C#解析代码</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="java_object_mapper.html">
+<div class="icon">🔄</div><div class="name">Java 对象映射代码生成</div>
+<div class="for-who">给Java后端开发者用</div>
+<div class="plain-desc">定义两个对象之间的字段映射关系（比如 UserDTO.name → UserEntity.userName），自动生成Java转换代码。支持手动映射、Builder、Stream三种风格。</div>
+<div class="what-it-does">📥 定义字段映射 → 📤 出Java Mapper代码</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="code_generator_hub.html">
+<div class="icon">🛠️</div><div class="name">多合一代码工具箱</div>
+<div class="for-who">给C/C++/CMake开发者用</div>
+<div class="plain-desc">三个功能打包：①CMake清理脚本生成（bash/bat/ps1）②C++ include依赖分析（哪个头文件是标准库、哪个是项目的）③两个目录文件列表差异对比。</div>
+<div class="what-it-does">📥 三个tab切换使用 → 📤 各出各的结果</div>
+<div class="tags"><span class="tag generator">生成器</span><span class="tag analyzer">分析器</span><span class="tag utility">工具</span></div>
+</a>
+
+</div>
+<div class="footer">MintShovels 需求雷达自动发现 · 持续更新中 · 白话说明书帮助非技术人员理解每个工具</div>
+</div>
+</body>
+</html>

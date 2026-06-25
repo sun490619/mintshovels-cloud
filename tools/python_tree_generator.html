@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Python Tree Data Structure Generator</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;display:flex;justify-content:center;padding:40px 20px}
+.container{max-width:800px;width:100%}
+h1{font-size:22px;color:#58a6ff;margin-bottom:6px}
+.sub{font-size:13px;color:#8b949e;margin-bottom:24px}
+.box{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px;margin-bottom:16px}
+.box h3{font-size:14px;color:#8b949e;margin-bottom:12px}
+.row{display:flex;gap:12px;align-items:center;margin-bottom:10px;flex-wrap:wrap}
+label{font-size:13px;color:#8b949e;min-width:70px}
+input,select{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:8px 12px;color:#c9d1d9;font-size:13px;outline:none}
+input:focus,select:focus{border-color:#58a6ff}
+pre{background:#0d1117;border:1px solid #3fb950;border-radius:6px;padding:16px;font-size:13px;overflow:auto;max-height:500px;font-family:'SF Mono',Monaco,monospace;line-height:1.6;white-space:pre}
+.btn{background:#238636;color:#fff;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;font-size:14px;font-weight:500;margin-right:8px;margin-top:8px}
+.btn:hover{background:#2ea043}
+.btn.s{background:#21262d;border:1px solid #30363d;color:#c9d1d9}
+.btn.s:hover{background:#30363d}
+.toast{position:fixed;top:20px;right:20px;background:#238636;color:#fff;padding:10px 18px;border-radius:6px;font-size:13px;opacity:0;transition:opacity .3s;z-index:999}
+.toast.show{opacity:1}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🌳 Python Tree Data Structure Generator</h1>
+<p class="sub">选择树类型 → 自动生成完整的 Python 树结构代码</p>
+
+<div class="box">
+<div class="row">
+<label>树类型:</label>
+<select id="treeType" onchange="generate()">
+<option value="binary">二叉树 (Binary Tree)</option>
+<option value="bst">二叉搜索树 (BST)</option>
+<option value="general">通用树 (N-ary)</option>
+<option value="trie">前缀树 (Trie)</option>
+<option value="avl">AVL 树</option>
+</select>
+</div>
+<div class="row">
+<label>节点类型:</label>
+<select id="valType" onchange="generate()">
+<option value="int">整数 (int)</option>
+<option value="str">字符串 (str)</option>
+<option value="generic">泛型 (Generic T)</option>
+</select>
+</div>
+<div class="row">
+<label>额外方法:</label>
+<label style="min-width:auto;display:flex;align-items:center;gap:6px"><input type="checkbox" id="optInsert" checked onchange="generate()"> 插入</label>
+<label style="min-width:auto;display:flex;align-items:center;gap:6px"><input type="checkbox" id="optSearch" checked onchange="generate()"> 搜索</label>
+<label style="min-width:auto;display:flex;align-items:center;gap:6px"><input type="checkbox" id="optTraverse" checked onchange="generate()"> 遍历</label>
+<label style="min-width:auto;display:flex;align-items:center;gap:6px"><input type="checkbox" id="optPrint" checked onchange="generate()"> 打印</label>
+</div>
+<button class="btn" onclick="generate()">⚡ 生成</button>
+</div>
+
+<div class="box">
+<h3>📤 Python 代码</h3>
+<pre id="output">点击"生成"按钮...</pre>
+<button class="btn s" onclick="copyResult()">📋 复制</button>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+function generate(){
+  let type=document.getElementById('treeType').value;
+  let vt=document.getElementById('valType').value;
+  let T=vt==='generic'?'T':'';
+  let V=vt==='int'?'int':vt==='str'?'str':'T';
+
+  let code=`from __future__ import annotations\nfrom typing import Optional, List, TypeVar, Generic\nfrom collections import deque\n\nT = TypeVar('T')\n\n`;
+
+  if(type==='binary'||type==='bst'){
+    code+=`class TreeNode(${T?'Generic[T]':''}):\n    """${type==='bst'?'二叉搜索树':'二叉树'}节点"""\n    def __init__(self, val: ${V}, left: Optional[TreeNode] = None, right: Optional[TreeNode] = None):\n        self.val = val\n        self.left = left\n        self.right = right\n\n\nclass BinaryTree${T?'['+T+']':''}:\n    def __init__(self):\n        self.root: Optional[TreeNode${T?'['+T+']':''}] = None\n`;
+  }else if(type==='general'){
+    code+=`class TreeNode(${T?'Generic[T]':''}):\n    """通用树节点 (N-ary)"""\n    def __init__(self, val: ${V}, children: Optional[List[TreeNode]] = None):\n        self.val = val\n        self.children = children or []\n\n\nclass Tree${T?'['+T+']':''}:\n    def __init__(self):\n        self.root: Optional[TreeNode${T?'['+T+']':''}] = None\n`;
+  }else if(type==='trie'){
+    code+=`class TrieNode:\n    """前缀树节点"""\n    def __init__(self):\n        self.children: dict[str, TrieNode] = {}\n        self.is_end: bool = False\n\n\nclass Trie:\n    def __init__(self):\n        self.root = TrieNode()\n`;
+  }else if(type==='avl'){
+    code+=`class AVLNode(${T?'Generic[T]':''}):\n    """AVL 树节点"""\n    def __init__(self, val: ${V}):\n        self.val = val\n        self.left: Optional[AVLNode] = None\n        self.right: Optional[AVLNode] = None\n        self.height: int = 1\n\n\nclass AVLTree${T?'['+T+']':''}:\n    def __init__(self):\n        self.root: Optional[AVLNode${T?'['+T+']':''}] = None\n`;
+  }
+
+  // Insert
+  if(document.getElementById('optInsert').checked){
+    if(type==='binary'){
+code+=`\n    def insert(self, val: ${V}) -> None:\n        """层序插入"""\n        if not self.root:\n            self.root = TreeNode(val)\n            return\n        q = deque([self.root])\n        while q:\n            node = q.popleft()\n            if not node.left:\n                node.left = TreeNode(val)\n                return\n            q.append(node.left)\n            if not node.right:\n                node.right = TreeNode(val)\n                return\n            q.append(node.right)\n`;
+    }else if(type==='bst'){
+code+=`\n    def insert(self, val: ${V}) -> None:\n        self.root = self._insert(self.root, val)\n\n    def _insert(self, node, val: ${V}):\n        if not node:\n            return TreeNode(val)\n        if val < node.val:\n            node.left = self._insert(node.left, val)\n        elif val > node.val:\n            node.right = self._insert(node.right, val)\n        return node\n`;
+    }else if(type==='trie'){
+code+=`\n    def insert(self, word: str) -> None:\n        node = self.root\n        for ch in word:\n            if ch not in node.children:\n                node.children[ch] = TrieNode()\n            node = node.children[ch]\n        node.is_end = True\n`;
+    }else if(type==='avl'){
+code+=`\n    def _height(self, node) -> int:\n        return node.height if node else 0\n\n    def _balance(self, node):\n        return self._height(node.left) - self._height(node.right)\n\n    def _rotate_right(self, y):\n        x = y.left; T2 = x.right\n        x.right = y; y.left = T2\n        y.height = 1 + max(self._height(y.left), self._height(y.right))\n        x.height = 1 + max(self._height(x.left), self._height(x.right))\n        return x\n\n    def _rotate_left(self, x):\n        y = x.right; T2 = y.left\n        y.left = x; x.right = T2\n        x.height = 1 + max(self._height(x.left), self._height(x.right))\n        y.height = 1 + max(self._height(y.left), self._height(y.right))\n        return y\n\n    def insert(self, val: ${V}) -> None:\n        self.root = self._insert(self.root, val)\n\n    def _insert(self, node, val: ${V}):\n        if not node:\n            return AVLNode(val)\n        if val < node.val:\n            node.left = self._insert(node.left, val)\n        elif val > node.val:\n            node.right = self._insert(node.right, val)\n        else:\n            return node\n        node.height = 1 + max(self._height(node.left), self._height(node.right))\n        bal = self._balance(node)\n        # LL\n        if bal > 1 and val < node.left.val: return self._rotate_right(node)\n        # RR\n        if bal < -1 and val > node.right.val: return self._rotate_left(node)\n        # LR\n        if bal > 1 and val > node.left.val:\n            node.left = self._rotate_left(node.left)\n            return self._rotate_right(node)\n        # RL\n        if bal < -1 and val < node.right.val:\n            node.right = self._rotate_right(node.right)\n            return self._rotate_left(node)\n        return node\n`;
+    }else if(type==='general'){
+code+=`\n    def insert(self, parent: TreeNode, child_val: ${V}) -> None:\n        parent.children.append(TreeNode(child_val))\n`;
+    }
+  }
+
+  // Search
+  if(document.getElementById('optSearch').checked){
+    if(type==='bst'){
+code+=`\n    def search(self, val: ${V}) -> Optional[TreeNode]:\n        node = self.root\n        while node:\n            if val == node.val: return node\n            node = node.left if val < node.val else node.right\n        return None\n`;
+    }else if(type==='trie'){
+code+=`\n    def search(self, word: str) -> bool:\n        node = self.root\n        for ch in word:\n            if ch not in node.children: return False\n            node = node.children[ch]\n        return node.is_end\n\n    def starts_with(self, prefix: str) -> bool:\n        node = self.root\n        for ch in prefix:\n            if ch not in node.children: return False\n            node = node.children[ch]\n        return True\n`;
+    }
+  }
+
+  // Traverse
+  if(document.getElementById('optTraverse').checked){
+code+=`\n    def inorder(self) -> List[${V}]:\n        result = []\n        self._inorder(self.root, result)\n        return result\n\n    def _inorder(self, node, result):\n        if node:\n            self._inorder(node.left, result)\n            result.append(node.val)\n            self._inorder(node.right, result)\n\n    def preorder(self) -> List[${V}]:\n        result = []\n        self._preorder(self.root, result)\n        return result\n\n    def _preorder(self, node, result):\n        if node:\n            result.append(node.val)\n            self._preorder(node.left, result)\n            self._preorder(node.right, result)\n\n    def level_order(self) -> List[List[${V}]]:\n        if not self.root: return []\n        result, q = [], deque([self.root])\n        while q:\n            level = []\n            for _ in range(len(q)):\n                node = q.popleft()\n                level.append(node.val)\n                if node.left: q.append(node.left)\n                if node.right: q.append(node.right)\n            result.append(level)\n        return result\n`;
+  }
+
+  // Print
+  if(document.getElementById('optPrint').checked){
+code+=`\n    def print_tree(self) -> None:\n        """打印树结构"""\n        if not self.root:\n            print("空树")\n            return\n        levels = self.level_order()\n        for i, level in enumerate(levels):\n            print(f"第{i}层: {level}")\n`;
+  }
+
+code+=`\n\n# ===== 使用示例 =====
+if __name__ == "__main__":
+    tree = ${type==='trie'?'Trie()':type==='avl'?'AVLTree()':type==='bst'?'BinaryTree()  # BST':'BinaryTree()'}\n`;
+  if(type==='trie'){
+code+=`    words = ["hello", "world", "help", "heap"]\n    for w in words: tree.insert(w)\n    print(tree.search("hello"))  # True\n    print(tree.starts_with("hel"))  # True\n`;
+  }else{
+code+=`    for val in [5, 3, 7, 2, 4, 6, 8]:\n        tree.insert(val)\n    ${document.getElementById('optTraverse').checked?'print("中序:", tree.inorder())':''}\n    ${document.getElementById('optPrint').checked?'tree.print_tree()':''}\n`;
+  }
+
+  document.getElementById('output').textContent=code;
+}
+
+function copyResult(){
+  navigator.clipboard.writeText(document.getElementById('output').textContent);
+  showToast('代码已复制!');
+}
+function showToast(msg){
+  let t=document.getElementById('toast');t.textContent=msg;t.className='toast show';
+  setTimeout(()=>t.className='toast',1500);
+}
+generate();
+</script>
+</body>
+</html>

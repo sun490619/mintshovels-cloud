@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>MintShovels 质量看板</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;padding:30px 20px}
+.container{max-width:900px;margin:0 auto}
+
+/* Header */
+.header{text-align:center;margin-bottom:28px}
+.header h1{font-size:26px;color:#58a6ff;margin-bottom:4px}
+.header p{font-size:13px;color:#8b949e}
+
+/* Big Status Card */
+.status-card{background:#161b22;border:2px solid #3fb950;border-radius:14px;padding:28px;text-align:center;margin-bottom:24px}
+.status-card.warn{border-color:#d29922}
+.status-card.bad{border-color:#f85149}
+.status-icon{font-size:48px;margin-bottom:8px}
+.status-card .big-text{font-size:32px;font-weight:700;color:#3fb950;margin-bottom:4px}
+.status-card.warn .big-text{color:#d29922}
+.status-card.bad .big-text{color:#f85149}
+.status-card .sub-text{font-size:14px;color:#8b949e;margin-bottom:12px}
+
+/* Progress Bar */
+.progress-wrap{background:#21262d;border-radius:10px;height:10px;margin:12px auto;max-width:400px;overflow:hidden}
+.progress-fill{height:100%;background:#3fb950;border-radius:10px;transition:width .5s}
+.progress-fill.warn{background:#d29922}
+.progress-fill.bad{background:#f85149}
+.progress-label{font-size:12px;color:#8b949e;margin-top:4px}
+
+/* Stats Row */
+.stats-row{display:flex;gap:12px;justify-content:center;margin-bottom:24px;flex-wrap:wrap}
+.stat-box{background:#161b22;border:1px solid #21262d;border-radius:10px;padding:14px 20px;text-align:center;min-width:100px}
+.stat-box .num{font-size:24px;font-weight:700;color:#e1e4e8}
+.stat-box .label{font-size:11px;color:#8b949e;margin-top:2px}
+.stat-box.good .num{color:#3fb950}
+.stat-box.warn .num{color:#d29922}
+
+/* Info bar */
+.info-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px}
+.info-bar .time{font-size:12px;color:#484f58}
+.info-bar .actions{display:flex;gap:8px}
+.btn{background:#21262d;border:1px solid #30363d;color:#c9d1d9;padding:8px 16px;border-radius:6px;cursor:pointer;font-size:13px;text-decoration:none}
+.btn:hover{background:#30363d}
+.btn.primary{background:#238636;border-color:#238636;color:#fff}
+.btn.primary:hover{background:#2ea043}
+
+/* Tool List */
+.tool-list{display:flex;flex-direction:column;gap:6px}
+.tool-item{background:#161b22;border:1px solid #21262d;border-radius:8px;padding:12px 16px;display:flex;align-items:center;gap:12px;transition:all .15s}
+.tool-item:hover{border-color:#30363d}
+.tool-item .status-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.tool-item .status-dot.pass{background:#3fb950;box-shadow:0 0 6px #3fb95055}
+.tool-item .status-dot.fail{background:#f85149;box-shadow:0 0 6px #f8514955}
+.tool-item .name{font-size:14px;color:#e1e4e8;flex:1}
+.tool-item .detail{font-size:11px;color:#8b949e;max-width:300px;text-align:right}
+.tool-item .link{font-size:11px;color:#58a6ff;text-decoration:none;white-space:nowrap}
+.tool-item .link:hover{text-decoration:underline}
+
+/* Fail item highlight */
+.tool-item.failing{border-color:#f8514922;background:#1a1115}
+
+/* Refreshing indicator */
+@keyframes spin{to{transform:rotate(360deg)}}
+.spinner{display:none;width:14px;height:14px;border:2px solid #30363d;border-top-color:#58a6ff;border-radius:50%;animation:spin .6s linear infinite;margin-left:8px}
+.spinner.active{display:inline-block}
+
+.footer{margin-top:28px;text-align:center;color:#21262d;font-size:11px}
+.footer a{color:#30363d}
+
+/* Tooltip info */
+.test-info{font-size:11px;color:#484f58;line-height:1.6;margin-top:4px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>📊 MintShovels 质量看板</h1>
+<p>每次工具上线后自动运行深度功能测试 · 实时展示测试结果</p>
+</div>
+
+<div class="status-card" id="statusCard">
+<div class="status-icon" id="statusIcon">✅</div>
+<div class="big-text" id="statusText">全部正常</div>
+<div class="sub-text" id="statusSub">所有工具核心功能测试通过</div>
+<div class="progress-wrap"><div class="progress-fill" id="progressBar" style="width:100%"></div></div>
+<div class="progress-label"><span id="passNum">16</span>/<span id="totalNum">16</span> 通过（<span id="rateNum">100</span>%）</div>
+</div>
+
+<div class="stats-row">
+<div class="stat-box good"><div class="num" id="passCount">16</div><div class="label">🟢 通过</div></div>
+<div class="stat-box warn"><div class="num" id="failCount">0</div><div class="label">🔴 失败</div></div>
+<div class="stat-box"><div class="num" id="errorCount">0</div><div class="label">⚠️ JS 错误</div></div>
+<div class="stat-box"><div class="num" id="totalTools">16</div><div class="label">📦 工具总数</div></div>
+</div>
+
+<div class="info-bar">
+<div class="time">🕐 最近测试: <strong id="testTime">--</strong></div>
+<div class="actions">
+<a href="/tools/index.html" class="btn">🔙 返回工具库</a>
+<button class="btn primary" onclick="runTest()" id="retestBtn">🔄 重新测试</button>
+<span class="spinner" id="spinner"></span>
+</div>
+</div>
+
+<div class="test-info" style="margin-bottom:12px">
+💡 <strong>测试说明：</strong>每个工具都经过真实浏览器环境测试，验证核心功能（输入 → 点按钮 → 检查输出）。不是简单的"页面能打开"，而是真的走了一遍用户操作流程。
+</div>
+
+<h3 style="font-size:16px;margin-bottom:12px;color:#8b949e">📋 逐个工具测试详情</h3>
+<div class="tool-list" id="toolList"></div>
+
+<div class="footer">
+MintShovels 质量看板 · 自动化测试 · <a href="test_results.json" target="_blank">查看JSON数据</a>
+</div>
+</div>
+
+<script>
+async function loadResults() {
+  try {
+    const resp = await fetch('/test_results.json');
+    const data = await resp.json();
+    render(data);
+  } catch (e) {
+    document.getElementById('statusText').textContent = '数据加载失败';
+    document.getElementById('statusSub').textContent = e.message;
+  }
+}
+
+function formatTime(iso) {
+  if (!iso) return '--';
+  const d = new Date(iso);
+  const pad = n => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+}
+
+function render(data) {
+  const passed = data.passed || 0;
+  const total = data.total || 0;
+  const rate = data.rate || 0;
+  
+  // Status card
+  const card = document.getElementById('statusCard');
+  card.classList.remove('warn', 'bad');
+  
+  if (rate === 100) {
+    document.getElementById('statusIcon').textContent = '✅';
+    document.getElementById('statusText').textContent = '全部正常';
+    document.getElementById('statusSub').textContent = '所有工具核心功能测试通过 · 用户可以放心使用';
+    document.getElementById('progressBar').classList.remove('warn', 'bad');
+  } else if (rate >= 80) {
+    card.classList.add('warn');
+    document.getElementById('statusIcon').textContent = '⚠️';
+    document.getElementById('statusText').textContent = '部分异常';
+    document.getElementById('statusSub').textContent = `${total - passed} 个工具测试未通过，需要关注`;
+    document.getElementById('progressBar').classList.add('warn');
+  } else {
+    card.classList.add('bad');
+    document.getElementById('statusIcon').textContent = '🔴';
+    document.getElementById('statusText').textContent = '严重异常';
+    document.getElementById('statusSub').textContent = `${total - passed} 个工具测试未通过，需立即修复`;
+    document.getElementById('progressBar').classList.add('bad');
+  }
+  
+  document.getElementById('progressBar').style.width = rate + '%';
+  document.getElementById('passNum').textContent = passed;
+  document.getElementById('totalNum').textContent = total;
+  document.getElementById('rateNum').textContent = rate;
+  
+  // Stats
+  document.getElementById('passCount').textContent = passed;
+  document.getElementById('failCount').textContent = total - passed;
+  document.getElementById('totalTools').textContent = total;
+  
+  // Time
+  document.getElementById('testTime').textContent = formatTime(data.timestamp);
+  
+  // Tool list
+  const list = document.getElementById('toolList');
+  let html = '';
+  (data.results || []).forEach(r => {
+    const cls = r.passed ? '' : 'failing';
+    const dot = r.passed ? 'pass' : 'fail';
+    html += `<div class="tool-item ${cls}">
+      <div class="status-dot ${dot}"></div>
+      <div class="name">${r.name}</div>
+      <a class="link" href="/tools/${r.id}.html" target="_blank">打开 →</a>
+      <div class="detail">${r.detail}</div>
+    </div>`;
+  });
+  list.innerHTML = html;
+}
+
+async function runTest() {
+  const btn = document.getElementById('retestBtn');
+  const spinner = document.getElementById('spinner');
+  btn.disabled = true;
+  btn.textContent = '测试中...';
+  spinner.classList.add('active');
+  
+  try {
+    const resp = await fetch('/api/run-tests', { method: 'POST' });
+    if (resp.ok) {
+      await loadResults();
+    } else {
+      alert('测试启动失败');
+    }
+  } catch (e) {
+    alert('无法连接测试服务: ' + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = '🔄 重新测试';
+    spinner.classList.remove('active');
+  }
+}
+
+loadResults();
+</script>
+</body>
+</html>

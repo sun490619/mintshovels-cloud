@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>MintShovels · 数据看板</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", sans-serif;
+            background: #f0f2f5; color: #1a1a2e; padding: 16px; max-width: 500px; margin: 0 auto;
+            -webkit-font-smoothing: antialiased;
+        }
+        .header { text-align: center; padding: 20px 0 12px; }
+        .header h1 { font-size: 24px; font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .header .time { font-size: 13px; color: #888; margin-top: 4px; }
+        .summary-row { display: flex; gap: 8px; margin-bottom: 14px; }
+        .summary-card { flex:1; background:#fff; border-radius:14px; padding:10px 8px;
+            text-align:center; box-shadow: 0 1px 6px rgba(0,0,0,0.05); font-size:12px; }
+        .summary-card .sval { font-size:16px; font-weight:700; }
+        .summary-card .slbl { font-size:10px; color:#888; margin-top:2px; }
+        .wow { font-size:11px; border-radius:8px; padding:1px 6px; }
+        .wow.up { background:#dcfce7; color:#16a34a; }
+        .wow.down { background:#fef2f2; color:#dc2626; }
+        .card { background:#fff; border-radius:16px; padding:16px; margin-bottom:12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+        .card.green { border-left: 4px solid #4ade80; }
+        .card.blue { border-left: 4px solid #60a5fa; }
+        .card.purple { border-left: 4px solid #a78bfa; }
+        .card.red { border-left: 4px solid #f87171; }
+        .card-header { font-size:15px; font-weight:600; margin-bottom:12px; color:#374151; }
+        .card-body { display:grid; gap:8px; }
+        .card-body.cols4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+        .card-body.cols3 { grid-template-columns: 1fr 1fr 1fr; }
+        .card-body.cols2 { grid-template-columns: 1fr 1fr; }
+        .metric { text-align:center; padding:4px 2px; }
+        .metric .value { display:block; font-size:24px; font-weight:700; color:#1f2937; line-height:1.2; }
+        .metric .label { font-size:11px; color:#9ca3af; margin-top:2px; }
+        .card-stats { display:flex; flex-wrap:wrap; gap:10px; margin-top:8px; padding-top:8px;
+            border-top:1px solid #f3f4f6; font-size:11px; color:#6b7280; }
+        .card-footer { margin-top:10px; padding-top:10px; border-top:1px solid #f3f4f6;
+            font-size:12px; color:#6b7280; }
+        .note { font-size:13px; color:#6b7280; line-height:1.5; }
+        .note.small { font-size:11px; color:#9ca3af; }
+        .mini-table { width:100%; border-collapse:collapse; font-size:12px; }
+        .mini-table td { padding:4px 0; border-bottom:1px solid #f9fafb; }
+        .mini-table td.right { text-align:right; color:#6b7280; }
+        .mini-table tr:last-child td { border-bottom:none; }
+        .chart-bars { display:flex; align-items:flex-end; gap:4px; height:110px; padding:4px 0; }
+        .bar-col { flex:1; display:flex; flex-direction:column; align-items:center; height:100%; justify-content:flex-end; }
+        .bar { width:100%; max-width:38px; background:linear-gradient(180deg,#60a5fa,#3b82f6);
+            border-radius:4px 4px 0 0; min-height:3px; }
+        .bar-label { font-size:9px; color:#9ca3af; margin-top:3px; white-space:nowrap; }
+        .diag-item { padding:8px 0; border-bottom:1px dashed #e5e7eb; }
+        .diag-item:last-child { border-bottom:none; }
+        .diag-title { font-size:13px; font-weight:600; }
+        .diag-detail { font-size:12px; color:#6b7280; margin:4px 0; line-height:1.5; }
+        .diag-action { font-size:11px; color:#2563eb; background:#eff6ff; padding:4px 8px; border-radius:6px; line-height:1.5; }
+        .seo-grid { display:grid; grid-template-columns:1fr 1fr; gap:6px; margin-top:10px; }
+        .seo-item { font-size:12px; padding:4px 8px; border-radius:6px; }
+        .seo-item.pass { background:#f0fdf4; color:#16a34a; }
+        .seo-item.fail { background:#fef2f2; color:#dc2626; }
+        .score-circle { width:60px; height:60px; border-radius:50%; display:flex;
+            align-items:center; justify-content:center; color:#fff; font-size:24px; font-weight:700;
+            margin:8px auto; }
+        .link-btn { display:inline-block; padding:8px 16px; background:#667eea; color:#fff;
+            border-radius:8px; text-decoration:none; font-size:13px; }
+        .footer { text-align:center; padding:20px 0; font-size:11px; color:#bbb; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🛠️ MintShovels 数据管家 v3</h1>
+        <div class="time">更新时间: 2026-06-25 22:52</div>
+    </div>
+    <div class="summary-row"><div class="summary-card">🔴<div class="sval"></div><div class="slbl">Cloudflare</div></div><div class="summary-card">🟢<div class="sval"><span class="wow up">新增</span></div><div class="slbl">GA4</div></div><div class="summary-card">🟢<div class="sval"></div><div class="slbl">GSC</div></div><div class="summary-card">⚪<div class="sval"></div><div class="slbl">Bing</div></div></div><div class="card red"><div class="card-header">🌐 Cloudflare</div><div class="card-body"><p class="note">error: HTTP Error 400: Bad Request</p></div></div>
+        <div class="card blue">
+            <div class="card-header">📈 GA4 今日 <span class="wow up">新增</span></div>
+            <div class="card-body cols4">
+                <div class="metric"><span class="value">10</span><span class="label">活跃用户</span></div>
+                <div class="metric"><span class="value">18</span><span class="label">会话</span></div>
+                <div class="metric"><span class="value">32</span><span class="label">浏览</span></div>
+                <div class="metric"><span class="value">707.6s</span><span class="label">均时长</span></div>
+            </div>
+            <div class="card-stats">
+                <span>🚪 跳出率 100%</span>
+                <span>📱 手机</span>
+            </div>
+            <div class="card-footer">
+                7天共 61 用户 · 338 浏览 · 92 会话
+            </div>
+        </div><div class="card"><div class="card-header">🌍 流量来源 Top 5</div><table class="mini-table"><tbody><tr><td>(direct)</td><td class="right">53</td></tr><tr><td>(not set)</td><td class="right">3</td></tr></tbody></table></div>
+        <div class="card purple">
+            <div class="card-header">🔍 Google 搜索 近7天 </div>
+            <div class="card-body cols3">
+                <div class="metric"><span class="value">0</span><span class="label">点击</span></div>
+                <div class="metric"><span class="value">0</span><span class="label">展示</span></div>
+                <div class="metric"><span class="value">0.0%</span><span class="label">CTR</span></div>
+            </div>
+            
+        </div><div class="card"><div class="card-header">🩺 系统诊断 (2项)</div><div class="diag-item diag-ℹ️">
+                <div class="diag-title">ℹ️ GSC 0搜索数据</div>
+                <div class="diag-detail">新站正常，谷歌需要几周收录</div>
+                <div class="diag-action">🔧 提交sitemap→GSC、在社交媒体分享链接加速收录</div>
+            </div><div class="diag-item diag-🟡">
+                <div class="diag-title">🟡 跳出率100.0%过高</div>
+                <div class="diag-detail">用户停留时间短</div>
+                <div class="diag-action">🔧 检查首屏加载速度、增加明确CTA按钮</div>
+            </div></div><div class="card"><div class="card-header">🎯 SEO 健康评分</div>
+        <div class="score-circle" style="background:#f59e0b">65</div>
+        <div class="seo-grid"><div class="seo-item fail">❌ Google 已收录</div><div class="seo-item fail">❌ 搜索CTR 0.0%</div><div class="seo-item fail">❌ 跳出率 100%</div><div class="seo-item pass">✅ 停留时长 708s</div><div class="seo-item pass">✅ 有移动端访客</div><div class="seo-item fail">❌ 缓存率 0%</div></div></div><div class="card"><div class="card-header">📹 用户行为录屏</div><div class="card-body"><a href="https://clarity.microsoft.com/projects/xavbiwb9dt/dashboard" class="link-btn" target="_blank">打开 Clarity 看板 →</a></div></div>
+    <div class="footer">MintShovels Data Agent v3 · 自动生成于 2026-06-25 22:52</div>
+</body>
+</html>

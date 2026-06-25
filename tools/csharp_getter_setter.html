@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>C# Getter/Setter Generator</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;display:flex;justify-content:center;padding:40px 20px}
+.container{max-width:800px;width:100%}
+h1{font-size:22px;color:#58a6ff;margin-bottom:6px}
+.sub{font-size:13px;color:#8b949e;margin-bottom:24px}
+.box{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px;margin-bottom:16px}
+.box h3{font-size:14px;color:#8b949e;margin-bottom:12px}
+.form-row{display:flex;gap:12px;align-items:center;margin-bottom:10px;flex-wrap:wrap}
+.form-row label{font-size:13px;color:#8b949e;min-width:70px}
+.form-row input{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:8px 12px;color:#c9d1d9;font-family:'SF Mono',Monaco,monospace;font-size:13px;outline:none;width:140px}
+.form-row input:focus{border-color:#58a6ff}
+select{background:#21262d;border:1px solid #30363d;color:#c9d1d9;padding:8px 12px;border-radius:6px;font-size:13px;outline:none}
+.props-list{display:flex;flex-direction:column;gap:4px;margin:10px 0}
+.prop-row{display:flex;gap:8px;align-items:center}
+.prop-row input{flex:1;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:6px 10px;color:#c9d1d9;font-family:'SF Mono',Monaco,monospace;font-size:12px;outline:none}
+.prop-row input:focus{border-color:#58a6ff}
+.prop-row .remove-btn{background:#3d1a1a;border:1px solid #da3633;color:#f85149;padding:5px 10px;border-radius:4px;cursor:pointer;font-size:11px}
+.prop-row .remove-btn:hover{background:#4b1d1d}
+pre{background:#0d1117;border:1px solid #3fb950;border-radius:6px;padding:16px;font-size:13px;overflow:auto;max-height:500px;font-family:'SF Mono',Monaco,monospace;line-height:1.6;white-space:pre}
+.btn{background:#238636;color:#fff;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;font-size:14px;font-weight:500;margin-right:8px;margin-top:8px}
+.btn:hover{background:#2ea043}
+.btn.secondary{background:#21262d;border:1px solid #30363d;color:#c9d1d9}
+.btn.secondary:hover{background:#30363d}
+.btn.add{background:#1f2937;border:1px dashed #374151;color:#9ca3af;font-size:12px;padding:5px 14px}
+.btn.add:hover{background:#374151}
+.toast{position:fixed;top:20px;right:20px;background:#238636;color:#fff;padding:10px 18px;border-radius:6px;font-size:13px;opacity:0;transition:opacity .3s;z-index:999}
+.toast.show{opacity:1}
+.keyword{color:#ff7b72}.type{color:#79c0ff}.prop{color:#a5d6ff}.str{color:#a5d6ff}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>⚙️ C# Getter/Setter Generator</h1>
+<p class="sub">输入属性名和类型 → 自动生成完整 C# Getter/Setter 代码</p>
+
+<div class="box">
+<div class="form-row">
+<label>类名:</label><input type="text" id="className" value="Person" placeholder="Person">
+<label>命名空间:</label><input type="text" id="namespace" value="MyApp.Models" placeholder="MyApp.Models">
+</div>
+<div class="form-row">
+<label>风格:</label>
+<select id="style" onchange="generate()">
+<option value="auto">自动属性 { get; set; }</option>
+<option value="full">完整 get/set (带字段)</option>
+<option value="expression">表达式体 =></option>
+<option value="notify">INotifyPropertyChanged</option>
+</select>
+</div>
+
+<h3 style="margin-top:16px">📋 属性列表</h3>
+<div class="props-list" id="propsList">
+<div class="prop-row">
+  <input value="Name" placeholder="属性名" style="flex:1">
+  <input value="string" placeholder="类型" style="flex:1">
+  <button class="remove-btn" onclick="removeProp(this)">✕</button>
+</div>
+<div class="prop-row">
+  <input value="Age" placeholder="属性名" style="flex:1">
+  <input value="int" placeholder="类型" style="flex:1">
+  <button class="remove-btn" onclick="removeProp(this)">✕</button>
+</div>
+<div class="prop-row">
+  <input value="Email" placeholder="属性名" style="flex:1">
+  <input value="string" placeholder="类型" style="flex:1">
+  <button class="remove-btn" onclick="removeProp(this)">✕</button>
+</div>
+</div>
+<button class="btn add" onclick="addProp()">+ 添加属性</button>
+<button class="btn" onclick="generate()" style="float:right">⚡ 生成代码</button>
+</div>
+
+<div class="box">
+<h3>📤 生成的 C# 代码</h3>
+<pre id="output">点击"生成代码"按钮...</pre>
+<button class="btn secondary" onclick="copyResult()">📋 复制代码</button>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+function addProp(){
+  let list=document.getElementById('propsList');
+  let div=document.createElement('div');
+  div.className='prop-row';
+  div.innerHTML='<input placeholder="属性名" style="flex:1"><input placeholder="类型" style="flex:1"><button class="remove-btn" onclick="removeProp(this)">✕</button>';
+  list.appendChild(div);
+}
+function removeProp(btn){btn.closest('.prop-row').remove();}
+
+function generate(){
+  let className=document.getElementById('className').value||'MyClass';
+  let ns=document.getElementById('namespace').value||'MyApp';
+  let style=document.getElementById('style').value;
+  let rows=document.querySelectorAll('.prop-row');
+  let props=[];
+  rows.forEach(r=>{
+    let inputs=r.querySelectorAll('input');
+    let name=inputs[0].value.trim();
+    let type=inputs[1].value.trim();
+    if(name&&type)props.push({name,type,field:'_'+name.charAt(0).toLowerCase()+name.slice(1)});
+  });
+
+  let code=`using System;\nusing System.ComponentModel;\nusing System.Runtime.CompilerServices;\n\nnamespace ${ns}\n{\n    public class ${className}`;
+  if(style==='notify')code+=' : INotifyPropertyChanged';
+  code+='\n    {\n';
+
+  if(style==='full'||style==='notify'){
+    props.forEach(p=>{code+=`        private ${p.type} ${p.field};\n`;});
+  }
+
+  if(style==='notify'){
+    code+=`\n        public event PropertyChangedEventHandler PropertyChanged;\n\n        protected void OnPropertyChanged([CallerMemberName] string name = null)\n        {\n            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));\n        }\n`;
+  }
+
+  code+='\n';
+  props.forEach(p=>{
+    if(style==='auto'){
+      code+=`        public ${p.type} ${p.name} { get; set; }\n`;
+    }else if(style==='full'){
+      code+=`        public ${p.type} ${p.name}\n        {\n            get { return ${p.field}; }\n            set { ${p.field} = value; }\n        }\n`;
+    }else if(style==='expression'){
+      code+=`        public ${p.type} ${p.name} { get => ${p.field}; set => ${p.field} = value; }\n`;
+    }else if(style==='notify'){
+      code+=`        public ${p.type} ${p.name}\n        {\n            get { return ${p.field}; }\n            set\n            {\n                if (${p.field} != value)\n                {\n                    ${p.field} = value;\n                    OnPropertyChanged();\n                }\n            }\n        }\n`;
+    }
+  });
+
+  code+='\n        public override string ToString()\n        {\n';
+  code+='            return $"' + props.map(p=>p.name+': {'+p.name+'}').join(' ') + '";\n        }\n';
+
+  code+='    }\n}\n';
+  document.getElementById('output').textContent=code;
+}
+
+function copyResult(){
+  navigator.clipboard.writeText(document.getElementById('output').textContent);
+  showToast('代码已复制!');
+}
+function showToast(msg){
+  let t=document.getElementById('toast');t.textContent=msg;t.className='toast show';
+  setTimeout(()=>t.className='toast',1500);
+}
+</script>
+</body>
+</html>

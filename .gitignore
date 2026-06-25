@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Node
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+*.err
+
+# Chrome profile
+chrome_profile/
+
+# Credentials
+credentials/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime
+*.pid
+pipeline_bg.pid
+
+# Large generated data
+functional_test_report.json
+analytics_history.json
+scraper_seen.json
+scraper_cache.json
+mistake_book.json
+review_queue.json
+dashboard_data.json
+demand_report.json
+latest_analytics.json
+health_snapshot.json
+bad_cases.json
+garbage_audit_report.json
+live_test_report.json
+test_results.json
+
+# Sensitive
+mintshovels_config.json
+.env
+
+# Playwright test artifacts
+.playwright-cli/

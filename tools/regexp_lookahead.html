@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>RegExp Negative Lookahead Builder</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;display:flex;justify-content:center;padding:40px 20px}
+.container{max-width:750px;width:100%}
+h1{font-size:22px;color:#58a6ff;margin-bottom:6px}
+.sub{font-size:13px;color:#8b949e;margin-bottom:24px}
+.box{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:20px;margin-bottom:16px}
+.box h3{font-size:14px;color:#8b949e;margin-bottom:12px}
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+label{font-size:13px;color:#8b949e;min-width:80px}
+input[type=text]{flex:1;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px 12px;color:#c9d1d9;font-family:'SF Mono',Monaco,monospace;font-size:13px;outline:none;min-width:200px}
+input:focus{border-color:#58a6ff}
+select{background:#21262d;border:1px solid #30363d;color:#c9d1d9;padding:8px 12px;border-radius:6px;font-size:13px;outline:none}
+.result{background:#0d1117;border:1px solid #3fb950;border-radius:8px;padding:20px;text-align:center}
+.result .pattern{font-size:28px;font-family:'SF Mono',Monaco,monospace;color:#3fb950;word-break:break-all;margin:12px 0}
+.result .explain{font-size:12px;color:#8b949e;margin-top:8px}
+.test-area{margin-top:12px}
+.test-area textarea{width:100%;min-height:80px;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px;color:#c9d1d9;font-family:'SF Mono',Monaco,monospace;font-size:13px;resize:vertical;outline:none}
+.test-area textarea:focus{border-color:#58a6ff}
+.highlight-box{padding:12px;font-family:'SF Mono',Monaco,monospace;font-size:13px;line-height:1.8;background:#0d1117;border-radius:6px;min-height:40px}
+.highlight-box .match{background:#1b3825;color:#3fb950;padding:1px 3px;border-radius:3px}
+.btn{background:#238636;color:#fff;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;font-size:14px;font-weight:500;margin-right:8px}
+.btn:hover{background:#2ea043}
+.btn.copy{background:#21262d;border:1px solid #30363d;color:#c9d1d9}
+.btn.copy:hover{background:#30363d}
+.presets{margin-bottom:12px;display:flex;gap:6px;flex-wrap:wrap}
+.preset{background:#1f2937;border:1px solid #374151;color:#9ca3af;padding:6px 14px;border-radius:20px;font-size:12px;cursor:pointer}
+.preset:hover{background:#374151;color:#e1e4e8}
+.toast{position:fixed;top:20px;right:20px;background:#238636;color:#fff;padding:10px 18px;border-radius:6px;font-size:13px;opacity:0;transition:opacity .3s;z-index:999}
+.toast.show{opacity:1}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🔍 RegExp Negative Lookahead Builder</h1>
+<p class="sub">输入"我要匹配X，但不匹配X后面跟着Y的情况" → 自动生成正则</p>
+
+<div class="presets">
+<span class="preset" onclick="setPreset('word','that')">单词后面没有that</span>
+<span class="preset" onclick="setPreset('\\d+','px')">数字后面没有px</span>
+<span class="preset" onclick="setPreset('foo','bar')">foo后面没有bar</span>
+<span class="preset" onclick="setPreset('\\w+','@')">单词后面没有@</span>
+</div>
+
+<div class="box">
+<div class="row">
+<label>匹配目标:</label>
+<input type="text" id="matchWord" value="word" placeholder="例如: \w+, \d+, foo">
+</div>
+<div class="row">
+<label>排除后缀:</label>
+<input type="text" id="excludeWord" value="that" placeholder="不在它后面跟什么">
+</div>
+<div class="row">
+<label>模式类型:</label>
+<select id="mode" onchange="build()">
+<option value="neg-lookahead">否定预查 (?!...) — "X后面不是Y"</option>
+<option value="pos-lookahead">肯定预查 (?=...) — "X后面是Y"</option>
+<option value="neg-lookbehind">否定后顾 (?&lt;!...) — "不是Y后面是X"</option>
+</select>
+</div>
+<button class="btn" onclick="build()">⚡ 生成正则</button>
+</div>
+
+<div class="result">
+<h3 style="color:#8b949e;font-size:14px">📤 生成的正则表达式</h3>
+<div class="pattern" id="pattern">\bword\b(?!that)</div>
+<div class="explain" id="explain">匹配 "word"，但排除 "wordthat"</div>
+<button class="btn copy" onclick="copyRegex()">📋 复制正则</button>
+<button class="btn copy" onclick="copyFull()">📋 复制完整用法</button>
+</div>
+
+<div class="box test-area">
+<h3>🧪 测试</h3>
+<textarea id="testText" placeholder="粘贴测试文本...">word wordthat someword another word is here</textarea>
+<button class="btn" onclick="test()" style="margin-top:8px">▶ 测试</button>
+<div class="highlight-box" id="testResult"></div>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+let currentRegex='';
+
+function setPreset(match,exclude){
+  document.getElementById('matchWord').value=match;
+  document.getElementById('excludeWord').value=exclude;
+  build();
+}
+
+function escapeRegExp(str){
+  return str.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+}
+
+function build(){
+  let match=document.getElementById('matchWord').value;
+  let exclude=document.getElementById('excludeWord').value;
+  let mode=document.getElementById('mode').value;
+  if(!match){document.getElementById('pattern').textContent='请输入匹配目标';return}
+
+  let expMatch=match.startsWith('\\')?match:escapeRegExp(match);
+  let expEx=exclude.startsWith('\\')?exclude:escapeRegExp(exclude);
+  let pattern='';
+  let explain='';
+
+  if(mode==='neg-lookahead'){
+    pattern=`\\b${expMatch}\\b(?!${expEx})`;
+    explain=`匹配 "${match}"，但排除后面紧跟 "${exclude}" 的情况`;
+  }else if(mode==='pos-lookahead'){
+    pattern=`\\b${expMatch}\\b(?=${expEx})`;
+    explain=`只匹配 "${match}" 后面紧跟 "${exclude}" 的情况`;
+  }else if(mode==='neg-lookbehind'){
+    pattern=`(?<!${expEx})\\b${expMatch}\\b`;
+    explain=`匹配 "${match}"，但排除前面是 "${exclude}" 的情况`;
+  }
+
+  currentRegex=pattern;
+  document.getElementById('pattern').textContent=pattern;
+  document.getElementById('explain').textContent=explain;
+  test();
+}
+
+function test(){
+  if(!currentRegex)build();
+  let text=document.getElementById('testText').value;
+  let result=document.getElementById('testResult');
+  try{
+    let re=new RegExp(currentRegex,'gi');
+    let html=text.replace(re,m=>'<span class="match">'+m+'</span>');
+    result.innerHTML=html||'<span style="color:#484f58">无匹配</span>';
+  }catch(e){
+    result.innerHTML='<span style="color:#f85149">正则错误: '+e.message+'</span>';
+  }
+}
+
+function copyRegex(){
+  navigator.clipboard.writeText(currentRegex);
+  showToast('正则已复制!');
+}
+function copyFull(){
+  navigator.clipboard.writeText(`const regex = /${currentRegex}/g;\nconst matches = text.match(regex);`);
+  showToast('完整用法已复制!');
+}
+function showToast(msg){
+  let t=document.getElementById('toast');t.textContent=msg;t.className='toast show';
+  setTimeout(()=>t.className='toast',1500);
+}
+build();
+</script>
+</body>
+</html>

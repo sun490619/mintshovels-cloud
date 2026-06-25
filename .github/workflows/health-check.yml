@@ -1,0 +1,37 @@
+name: 健康巡检
+
+on:
+  schedule:
+    # 每天 UTC 0点、6点、12点、18点 (北京时间 8点、14点、20点、2点)
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+      
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 运行健康巡检
+        run: |
+          python3 auto_health_check.py --verbose
+      
+      - name: 提交巡检结果
+        run: |
+          git config user.name "MintShovels Bot"
+          git config user.email "bot@mintshovels.com"
+          git add health_snapshot.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "✅ 健康状态无变化"
+          else
+            git commit -m "🩺 健康巡检更新 [$(date +'%Y-%m-%d %H:%M UTC')]"
+            git push
+          fi

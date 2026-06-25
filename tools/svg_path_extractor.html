@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SVG Path Extractor</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;padding:40px 20px}
+.container{max-width:900px;margin:0 auto}
+h1{font-size:22px;color:#58a6ff;margin-bottom:6px}
+.sub{font-size:13px;color:#8b949e;margin-bottom:24px}
+.panels{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:700px){.panels{grid-template-columns:1fr}}
+.box{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px}
+.box h3{font-size:14px;color:#8b949e;margin-bottom:10px}
+textarea{width:100%;min-height:200px;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px;color:#c9d1d9;font-family:'SF Mono',Monaco,monospace;font-size:12px;resize:vertical;outline:none}
+textarea:focus{border-color:#58a6ff}
+.path-list{max-height:400px;overflow-y:auto}
+.path-item{background:#0d1117;border:1px solid #21262d;border-radius:6px;padding:10px 12px;margin-bottom:6px;font-size:12px;font-family:'SF Mono',Monaco,monospace;cursor:pointer;transition:all .15s}
+.path-item:hover{border-color:#58a6ff}
+.path-item .d{color:#a5d6ff;word-break:break-all;margin-bottom:4px}
+.path-item .meta{color:#484f58;font-size:11px}
+.path-item .meta span{margin-right:12px}
+.preview-box{background:#fff;border-radius:6px;padding:20px;min-height:200px;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.preview-box svg{max-width:100%;max-height:200px}
+.btn{background:#238636;color:#fff;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;font-size:14px;font-weight:500;margin-right:8px;margin-top:8px}
+.btn:hover{background:#2ea043}
+.btn.s{background:#21262d;border:1px solid #30363d;color:#c9d1d9}
+.btn.s:hover{background:#30363d}
+.copy-all{margin-top:10px;width:100%}
+.toast{position:fixed;top:20px;right:20px;background:#238636;color:#fff;padding:10px 18px;border-radius:6px;font-size:13px;opacity:0;transition:opacity .3s;z-index:999}
+.toast.show{opacity:1}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>✂️ SVG Path Extractor</h1>
+<p class="sub">粘贴 SVG 代码 → 提取所有 &lt;path&gt; 数据 → 预览/CSS 路径</p>
+
+<div class="preview-box" id="preview"></div>
+
+<div class="panels">
+<div class="box">
+<h3>📥 SVG 代码</h3>
+<textarea id="svgInput" placeholder='粘贴 SVG 代码...&#10;&#10;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">&#10;  <path d="M10,10 L90,10 L90,90 L10,90 Z" fill="red"/>&#10;  <circle cx="50" cy="50" r="30" fill="blue"/> (circle不会提取)&#10;</svg>'></textarea>
+<button class="btn" onclick="extract()">⚡ 提取路径</button>
+<button class="btn s" onclick="loadSample()">📎 示例</button>
+</div>
+<div class="box">
+<h3>📤 提取的路径（点击复制）</h3>
+<div class="path-list" id="pathList"><div style="color:#484f58;text-align:center;padding:20px">等待提取...</div></div>
+<button class="btn s copy-all" onclick="copyAll()">📋 复制全部路径数据</button>
+</div>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+function loadSample(){
+  document.getElementById('svgInput').value=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <path d="M20,50 Q50,10 80,50 T140,50" fill="none" stroke="#007acc" stroke-width="3"/>
+  <path d="M30,70 L80,70 L80,95 L30,95 Z" fill="#ff7b72" opacity="0.6"/>
+  <path d="M120,30 A20,20 0 1,1 160,30 A20,20 0 1,1 120,30" fill="#3fb950"/>
+  <circle cx="180" cy="20" r="8" fill="#d29922"/>
+</svg>`;
+  extract();
+}
+
+function extract(){
+  let svgText=document.getElementById('svgInput').value.trim();
+  let preview=document.getElementById('preview');
+  preview.innerHTML=svgText||'<span style="color:#999">SVG预览区</span>';
+
+  // Parse paths from SVG
+  let div=document.createElement('div');
+  div.innerHTML=svgText;
+  let svg=div.querySelector('svg');
+  if(!svg){document.getElementById('pathList').innerHTML='<div style="color:#f85149;padding:10px">未找到 SVG 元素</div>';return}
+
+  let paths=svg.querySelectorAll('path');
+  let list=document.getElementById('pathList');
+  if(paths.length===0){
+    list.innerHTML='<div style="color:#d29922;padding:10px">⚠️ 没有找到 &lt;path&gt; 元素（SVG 中的 circle/rect/line 不是 path，可以用编辑器转换）</div>';
+    return;
+  }
+
+  let html='';
+  paths.forEach((p,i)=>{
+    let d=p.getAttribute('d')||'';
+    let fill=p.getAttribute('fill')||'none';
+    let stroke=p.getAttribute('stroke')||'none';
+    let sw=p.getAttribute('stroke-width')||'1';
+    html+=`<div class="path-item" onclick="copyPath(${i})" title="点击复制">
+<div class="d">#${i+1}: d="${d.length>80?d.slice(0,80)+'...':d}"</div>
+<div class="meta"><span>fill:${fill}</span><span>stroke:${stroke}</span><span>w:${sw}</span></div></div>`;
+  });
+
+  list.innerHTML=html;
+
+  // Store full data for copy
+  window._paths=Array.from(paths).map(p=>({
+    d:p.getAttribute('d')||'',
+    fill:p.getAttribute('fill')||'none',
+    stroke:p.getAttribute('stroke')||'none'
+  }));
+}
+
+function copyPath(i){
+  let p=window._paths[i];
+  navigator.clipboard.writeText(p.d);
+  showToast(`路径 #${i+1} 已复制! d长度: ${p.d.length} 字符`);
+}
+
+function copyAll(){
+  if(!window._paths||!window._paths.length){showToast('请先提取路径');return}
+  let text=window._paths.map((p,i)=>`/* Path #${i+1} */\n"${p.d}"`).join('\n\n');
+  navigator.clipboard.writeText(text);
+  showToast(`全部 ${window._paths.length} 条路径数据已复制!`);
+}
+
+function showToast(msg){
+  let t=document.getElementById('toast');t.textContent=msg;t.className='toast show';
+  setTimeout(()=>t.className='toast',2000);
+}
+</script>
+</body>
+</html>

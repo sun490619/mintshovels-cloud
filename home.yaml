@@ -1,0 +1,367 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4] [cursor=pointer]:
+        - img [ref=e5]
+        - generic [ref=e10]: MintShovels
+      - generic [ref=e11]:
+        - generic [ref=e12]: 21 tools
+        - generic [ref=e17]: Radar Offline
+        - button "EN" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+          - generic [ref=e23]: EN
+          - img [ref=e24]
+  - generic [ref=e26]:
+    - generic [ref=e27]:
+      - heading "Gold Shovel Tool Factory" [level=1] [ref=e28]
+      - paragraph [ref=e29]: A fully automated tool production factory. New tools every day. No account needed. All free.
+      - generic [ref=e31]:
+        - img [ref=e32]
+        - textbox "Search tools... e.g. video download, image compress, PDF merge" [ref=e35]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - separator [ref=e38]
+        - generic [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: 💰
+          - heading "Finance & Crypto" [level=2] [ref=e41]
+          - generic [ref=e42]: 1 live · 3 tools
+          - img [ref=e43]
+        - generic [ref=e45]:
+          - button "All" [ref=e46] [cursor=pointer]
+          - button "Wallet & Portfolio (2)" [ref=e47] [cursor=pointer]
+          - button "DeFi & Trading (1)" [ref=e48] [cursor=pointer]
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - img [ref=e53]
+              - generic [ref=e56]:
+                - generic [ref=e57]: 🔧 Web Tool
+                - generic [ref=e58]: Coming Soon
+            - heading "Crypto Wallet Tracker" [level=3] [ref=e59]
+            - paragraph [ref=e60]: Track wallet balances, transactions across chains. Real-time alerts.
+            - generic [ref=e61]:
+              - generic [ref=e62]: "#crypto"
+              - generic [ref=e63]: "#wallet"
+              - generic [ref=e64]: "#tracker"
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - img [ref=e68]
+              - generic [ref=e71]:
+                - generic [ref=e72]: 🔧 Web Tool
+                - generic [ref=e73]: Coming Soon
+            - heading "Gas Fee Calculator" [level=3] [ref=e74]
+            - paragraph [ref=e75]: Real-time gas fee estimator across ETH, BSC, Polygon, Solana.
+            - generic [ref=e76]:
+              - generic [ref=e77]: "#gas"
+              - generic [ref=e78]: "#eth"
+              - generic [ref=e79]: "#fee"
+          - generic [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]:
+              - img [ref=e83]
+              - generic [ref=e87]:
+                - generic [ref=e88]: 📜 Script
+                - generic [ref=e89]: Live
+            - heading "Multi-Chain Wallet Generator" [level=3] [ref=e90]
+            - paragraph [ref=e91]: "Python script: generate ETH/SOL/BTC wallets in bulk. CSV export."
+            - generic [ref=e92]:
+              - generic [ref=e93]: "#python"
+              - generic [ref=e94]: "#wallet"
+              - generic [ref=e95]: "#eth"
+      - generic [ref=e96]:
+        - separator [ref=e97]
+        - generic [ref=e98] [cursor=pointer]:
+          - generic [ref=e99]: 🎬
+          - heading "Media Creation" [level=2] [ref=e100]
+          - generic [ref=e101]: 2 live · 5 tools
+          - img [ref=e102]
+        - generic [ref=e104]:
+          - button "All" [ref=e105] [cursor=pointer]
+          - button "Video Tools (2)" [ref=e106] [cursor=pointer]
+          - button "Audio Tools (1)" [ref=e107] [cursor=pointer]
+          - button "Image Tools (2)" [ref=e108] [cursor=pointer]
+        - generic [ref=e109]:
+          - generic [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]:
+              - img [ref=e113]
+              - generic [ref=e116]:
+                - generic [ref=e117]: 🔧 Web Tool
+                - generic [ref=e118]: Live
+            - heading "Multi-Platform Media Extractor" [level=3] [ref=e119]
+            - paragraph [ref=e120]: Extract videos from YouTube, X(Twitter), TikTok. No watermarks, no ads.
+            - generic [ref=e121]:
+              - generic [ref=e122]: "#youtube"
+              - generic [ref=e123]: "#tiktok"
+              - generic [ref=e124]: "#twitter"
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - img [ref=e128]
+              - generic [ref=e132]:
+                - generic [ref=e133]: 🔧 Web Tool
+                - generic [ref=e134]: Coming Soon
+            - heading "Image Compressor" [level=3] [ref=e135]
+            - paragraph [ref=e136]: Batch compress images without quality loss. PNG, JPG, WebP.
+            - generic [ref=e137]:
+              - generic [ref=e138]: "#compress"
+              - generic [ref=e139]: "#image"
+              - generic [ref=e140]: "#batch"
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - img [ref=e144]
+              - generic [ref=e147]:
+                - generic [ref=e148]: 🔧 Web Tool
+                - generic [ref=e149]: Coming Soon
+            - heading "Audio Transcriber" [level=3] [ref=e150]
+            - paragraph [ref=e151]: Convert audio/video to text with high accuracy. Multi-language.
+            - generic [ref=e152]:
+              - generic [ref=e153]: "#transcribe"
+              - generic [ref=e154]: "#speech-to-text"
+              - generic [ref=e155]: "#audio"
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - img [ref=e159]
+              - generic [ref=e165]:
+                - generic [ref=e166]: 🔧 Web Tool
+                - generic [ref=e167]: Coming Soon
+            - heading "Background Remover" [level=3] [ref=e168]
+            - paragraph [ref=e169]: AI-powered background removal. One click, perfect cutout.
+            - generic [ref=e170]:
+              - generic [ref=e171]: "#background"
+              - generic [ref=e172]: "#remove"
+              - generic [ref=e173]: "#ai"
+          - generic [ref=e174] [cursor=pointer]:
+            - generic [ref=e175]:
+              - img [ref=e177]
+              - generic [ref=e179]:
+                - generic [ref=e180]: 📜 Script
+                - generic [ref=e181]: Live
+            - heading "Video Dedup Pipeline" [level=3] [ref=e182]
+            - paragraph [ref=e183]: "Python script: download + dedup Shorts. Crop, speed, flip, micro-shake."
+            - generic [ref=e184]:
+              - generic [ref=e185]: "#python"
+              - generic [ref=e186]: "#dedup"
+              - generic [ref=e187]: "#youtube"
+      - generic [ref=e188]:
+        - separator [ref=e189]
+        - generic [ref=e190] [cursor=pointer]:
+          - generic [ref=e191]: 💼
+          - heading "Productivity & Office" [level=2] [ref=e192]
+          - generic [ref=e193]: 1 live · 4 tools
+          - img [ref=e194]
+        - generic [ref=e196]:
+          - button "All" [ref=e197] [cursor=pointer]
+          - button "Document & PDF (1)" [ref=e198] [cursor=pointer]
+          - button "Text & Diff (1)" [ref=e199] [cursor=pointer]
+          - button "Quick Utils (2)" [ref=e200] [cursor=pointer]
+        - generic [ref=e201]:
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - img [ref=e205]
+              - generic [ref=e208]:
+                - generic [ref=e209]: 🔧 Web Tool
+                - generic [ref=e210]: Coming Soon
+            - heading "PDF Toolkit" [level=3] [ref=e211]
+            - paragraph [ref=e212]: Merge, split, compress, convert PDFs. All-in-one document tool.
+            - generic [ref=e213]:
+              - generic [ref=e214]: "#pdf"
+              - generic [ref=e215]: "#merge"
+              - generic [ref=e216]: "#split"
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - img [ref=e220]
+              - generic [ref=e226]:
+                - generic [ref=e227]: 🔧 Web Tool
+                - generic [ref=e228]: Coming Soon
+            - heading "QR Code Generator" [level=3] [ref=e229]
+            - paragraph [ref=e230]: Generate custom QR codes in bulk. Logos, colors, styles.
+            - generic [ref=e231]:
+              - generic [ref=e232]: "#qr"
+              - generic [ref=e233]: "#generator"
+              - generic [ref=e234]: "#batch"
+          - generic [ref=e235]:
+            - generic [ref=e236]:
+              - img [ref=e238]
+              - generic [ref=e239]:
+                - generic [ref=e240]: 🔧 Web Tool
+                - generic [ref=e241]: Coming Soon
+            - heading "Text Diff Checker" [level=3] [ref=e242]
+            - paragraph [ref=e243]: Compare two texts side by side. Highlight changes instantly.
+            - generic [ref=e244]:
+              - generic [ref=e245]: "#diff"
+              - generic [ref=e246]: "#compare"
+              - generic [ref=e247]: "#text"
+          - generic [ref=e248] [cursor=pointer]:
+            - generic [ref=e249]:
+              - img [ref=e251]
+              - generic [ref=e254]:
+                - generic [ref=e255]: 📜 Script
+                - generic [ref=e256]: Live
+            - heading "File Batch Renamer" [level=3] [ref=e257]
+            - paragraph [ref=e258]: "Python script: batch rename files with regex. Dry-run preview."
+            - generic [ref=e259]:
+              - generic [ref=e260]: "#python"
+              - generic [ref=e261]: "#rename"
+              - generic [ref=e262]: "#batch"
+      - generic [ref=e263]:
+        - separator [ref=e264]
+        - generic [ref=e265] [cursor=pointer]:
+          - generic [ref=e266]: 💻
+          - heading "Developer Tools" [level=2] [ref=e267]
+          - generic [ref=e268]: 2 live · 3 tools
+          - img [ref=e269]
+        - generic [ref=e271]:
+          - button "All" [ref=e272] [cursor=pointer]
+          - button "Code Assist (1)" [ref=e273] [cursor=pointer]
+          - button "API & Test (1)" [ref=e274] [cursor=pointer]
+          - button "Encode & Decode (1)" [ref=e275] [cursor=pointer]
+        - generic [ref=e276]:
+          - generic [ref=e277] [cursor=pointer]:
+            - generic [ref=e278]:
+              - img [ref=e280]
+              - generic [ref=e283]:
+                - generic [ref=e284]: 🔧 Web Tool
+                - generic [ref=e285]: Live
+            - heading "JSON Formatter & Validator" [level=3] [ref=e286]
+            - paragraph [ref=e287]: Format, validate, minify JSON. Tree view with syntax highlighting.
+            - generic [ref=e288]:
+              - generic [ref=e289]: "#json"
+              - generic [ref=e290]: "#format"
+              - generic [ref=e291]: "#validate"
+          - generic [ref=e292]:
+            - generic [ref=e293]:
+              - img [ref=e295]
+              - generic [ref=e300]:
+                - generic [ref=e301]: 🔧 Web Tool
+                - generic [ref=e302]: Coming Soon
+            - heading "Base64 Encode / Decode" [level=3] [ref=e303]
+            - paragraph [ref=e304]: Encode/decode Base64 strings & files. Supports text and image.
+            - generic [ref=e305]:
+              - generic [ref=e306]: "#base64"
+              - generic [ref=e307]: "#encode"
+              - generic [ref=e308]: "#decode"
+          - generic [ref=e309] [cursor=pointer]:
+            - generic [ref=e310]:
+              - img [ref=e312]
+              - generic [ref=e314]:
+                - generic [ref=e315]: 📜 Script
+                - generic [ref=e316]: Live
+            - heading "API Rate Limiter Tester" [level=3] [ref=e317]
+            - paragraph [ref=e318]: "Python script: stress test API endpoints with configurable concurrency."
+            - generic [ref=e319]:
+              - generic [ref=e320]: "#python"
+              - generic [ref=e321]: "#api"
+              - generic [ref=e322]: "#test"
+      - generic [ref=e323]:
+        - separator [ref=e324]
+        - generic [ref=e325] [cursor=pointer]:
+          - generic [ref=e326]: 🎮
+          - heading "Gaming & Fun" [level=2] [ref=e327]
+          - generic [ref=e328]: 1 live · 2 tools
+          - img [ref=e329]
+        - generic [ref=e331]:
+          - button "All" [ref=e332] [cursor=pointer]
+          - button "Game Tools (1)" [ref=e333] [cursor=pointer]
+          - button "Fun & Random (1)" [ref=e334] [cursor=pointer]
+        - generic [ref=e335]:
+          - generic [ref=e336] [cursor=pointer]:
+            - generic [ref=e337]:
+              - img [ref=e339]
+              - generic [ref=e342]:
+                - generic [ref=e343]: 🔧 Web Tool
+                - generic [ref=e344]: Live
+            - heading "Random Name Generator" [level=3] [ref=e345]
+            - paragraph [ref=e346]: Generate random names by culture, gender, style. For characters & NPCs.
+            - generic [ref=e347]:
+              - generic [ref=e348]: "#random"
+              - generic [ref=e349]: "#name"
+              - generic [ref=e350]: "#generator"
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - img [ref=e354]
+              - generic [ref=e357]:
+                - generic [ref=e358]: 🔧 Web Tool
+                - generic [ref=e359]: Coming Soon
+            - heading "Dice Roller & Loot Table" [level=3] [ref=e360]
+            - paragraph [ref=e361]: Virtual dice roller for DnD/RPG. Custom loot tables, probability.
+            - generic [ref=e362]:
+              - generic [ref=e363]: "#dice"
+              - generic [ref=e364]: "#dnd"
+              - generic [ref=e365]: "#rpg"
+      - generic [ref=e366]:
+        - separator [ref=e367]
+        - generic [ref=e368] [cursor=pointer]:
+          - generic [ref=e369]: 🤖
+          - heading "AI Intelligence" [level=2] [ref=e370]
+          - generic [ref=e371]: 2 live · 3 tools
+          - img [ref=e372]
+        - generic [ref=e374]:
+          - button "All" [ref=e375] [cursor=pointer]
+          - button "AI Chat (1)" [ref=e376] [cursor=pointer]
+          - button "AI Image (1)" [ref=e377] [cursor=pointer]
+          - button "AI Writing (1)" [ref=e378] [cursor=pointer]
+        - generic [ref=e379]:
+          - generic [ref=e380] [cursor=pointer]:
+            - generic [ref=e381]:
+              - img [ref=e383]
+              - generic [ref=e386]:
+                - generic [ref=e387]: 🔧 Web Tool
+                - generic [ref=e388]: Live
+            - heading "AI Prompt Optimizer" [level=3] [ref=e389]
+            - paragraph [ref=e390]: Optimize your AI prompts for better results. Multi-model support.
+            - generic [ref=e391]:
+              - generic [ref=e392]: "#ai"
+              - generic [ref=e393]: "#prompt"
+              - generic [ref=e394]: "#optimizer"
+          - generic [ref=e395]:
+            - generic [ref=e396]:
+              - img [ref=e398]
+              - generic [ref=e401]:
+                - generic [ref=e402]: 🔧 Web Tool
+                - generic [ref=e403]: Coming Soon
+            - heading "AI Text Summarizer" [level=3] [ref=e404]
+            - paragraph [ref=e405]: Summarize long articles, papers, docs into key points. One click.
+            - generic [ref=e406]:
+              - generic [ref=e407]: "#ai"
+              - generic [ref=e408]: "#summary"
+              - generic [ref=e409]: "#text"
+          - generic [ref=e410] [cursor=pointer]:
+            - generic [ref=e411]:
+              - img [ref=e413]
+              - generic [ref=e417]:
+                - generic [ref=e418]: 📜 Script
+                - generic [ref=e419]: Live
+            - heading "AI Image Batch Generator" [level=3] [ref=e420]
+            - paragraph [ref=e421]: "Python script: batch generate images via OpenAI/Stable Diffusion API."
+            - generic [ref=e422]:
+              - generic [ref=e423]: "#python"
+              - generic [ref=e424]: "#ai"
+              - generic [ref=e425]: "#image"
+      - generic [ref=e426]:
+        - separator [ref=e427]
+        - generic [ref=e428] [cursor=pointer]:
+          - generic [ref=e429]: 🧩
+          - heading "Other Tools" [level=2] [ref=e430]
+          - generic [ref=e431]: 1 tools
+          - img [ref=e432]
+        - generic [ref=e434]:
+          - button "All" [ref=e435] [cursor=pointer]
+          - button "Miscellaneous (1)" [ref=e436] [cursor=pointer]
+        - generic [ref=e438]:
+          - generic [ref=e439]:
+            - img [ref=e441]
+            - generic [ref=e446]:
+              - generic [ref=e447]: 🔧 Web Tool
+              - generic [ref=e448]: Coming Soon
+          - heading "Unit Converter" [level=3] [ref=e449]
+          - paragraph [ref=e450]: "Convert between 100+ units: length, weight, temperature, currency, data."
+          - generic [ref=e451]:
+            - generic [ref=e452]: "#convert"
+            - generic [ref=e453]: "#unit"
+            - generic [ref=e454]: "#length"
+    - contentinfo [ref=e455]:
+      - generic [ref=e456]:
+        - generic [ref=e457]:
+          - img [ref=e458]
+          - generic [ref=e463]: MintShovels
+          - generic [ref=e464]: "|"
+          - generic [ref=e465]: © 2026 Gold Shovel Tool Factory
+        - generic [ref=e466]: Open Source · MIT License

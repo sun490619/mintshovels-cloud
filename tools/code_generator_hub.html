@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Code Generator Hub</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;padding:40px 20px}
+.container{max-width:800px;margin:0 auto}
+h1{font-size:22px;color:#58a6ff;margin-bottom:6px}
+.sub{font-size:13px;color:#8b949e;margin-bottom:24px}
+.tabs{display:flex;gap:4px;margin-bottom:16px;flex-wrap:wrap}
+.tab{background:#21262d;border:1px solid #30363d;color:#8b949e;padding:8px 16px;border-radius:8px 8px 0 0;cursor:pointer;font-size:13px}
+.tab.active{background:#161b22;border-bottom-color:#161b22;color:#58a6ff}
+.box{background:#161b22;border:1px solid #30363d;border-radius:0 8px 8px 8px;padding:20px}
+.box h3{font-size:14px;color:#8b949e;margin-bottom:10px}
+input,textarea,select{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:10px 12px;color:#c9d1d9;font-size:13px;outline:none;font-family:'SF Mono',Monaco,monospace}
+input:focus,textarea:focus,select:focus{border-color:#58a6ff}
+textarea{width:100%;min-height:300px;resize:vertical}
+pre{background:#0d1117;border:1px solid #3fb950;border-radius:6px;padding:16px;font-size:12px;overflow:auto;max-height:400px;font-family:'SF Mono',Monaco,monospace;line-height:1.5;white-space:pre}
+.row{display:flex;gap:12px;margin-bottom:10px;flex-wrap:wrap;align-items:flex-end}
+.row label{font-size:12px;color:#8b949e;display:block;margin-bottom:4px}
+.btn{background:#238636;color:#fff;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;font-size:14px;font-weight:500;margin-right:8px;margin-top:8px}
+.btn:hover{background:#2ea043}
+.btn.s{background:#21262d;border:1px solid #30363d;color:#c9d1d9}
+.btn.s:hover{background:#30363d}
+.toast{position:fixed;top:20px;right:20px;background:#238636;color:#fff;padding:10px 18px;border-radius:6px;font-size:13px;opacity:0;transition:opacity .3s;z-index:999}
+.toast.show{opacity:1}
+.tab-content{display:none}.tab-content.active{display:block}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🛠️ Code Generator Hub</h1>
+<p class="sub">CMake 清理脚本 · C++ Include 依赖 · 目录差异 · 多合一代码生成</p>
+
+<div class="tabs">
+<div class="tab active" onclick="switchTab('cmake')">🧹 CMake Clean</div>
+<div class="tab" onclick="switchTab('include')">📦 C++ Include</div>
+<div class="tab" onclick="switchTab('diff')">📂 目录对比</div>
+</div>
+
+<!-- CMake Clean -->
+<div class="tab-content active" id="tab-cmake">
+<div class="box">
+<h3>🧹 CMake Clean Script Generator</h3>
+<div class="row">
+<div><label>构建目录</label><input id="cmakeDir" value="build" style="width:150px"></div>
+<div><label>脚本格式</label><select id="cmakeFmt"><option>bash</option><option>batch (Windows)</option><option>PowerShell</option></select></div>
+</div>
+<button class="btn" onclick="genCMake()">⚡ 生成</button>
+<pre id="cmakeOut">点击生成...</pre>
+<button class="btn s" onclick="copyById('cmakeOut')">📋 复制</button>
+</div>
+</div>
+
+<!-- C++ Include -->
+<div class="tab-content" id="tab-include">
+<div class="box">
+<h3>📦 C/C++ Include Dependency Visualizer</h3>
+<p style="font-size:12px;color:#8b949e;margin-bottom:10px">粘贴 C/C++ 源码 → 自动提取 #include 并展示依赖关系图</p>
+<textarea id="cppInput" placeholder='粘贴 C/C++ 源代码...&#10;&#10;#include &lt;iostream&gt;&#10;#include &lt;vector&gt;&#10;#include "myclass.h"&#10;#include "utils/helper.h"&#10;&#10;int main() { return 0; }'></textarea>
+<button class="btn" onclick="genInclude()">🔍 分析</button>
+<pre id="includeOut">粘贴代码后点击分析...</pre>
+<button class="btn s" onclick="copyById('includeOut')">📋 复制</button>
+</div>
+</div>
+
+<!-- Directory Diff -->
+<div class="tab-content" id="tab-diff">
+<div class="box">
+<h3>📂 Directory Diff Tool</h3>
+<p style="font-size:12px;color:#8b949e;margin-bottom:10px">粘贴两个目录的文件列表 → 对比差异</p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+<div><h3 style="font-size:13px;color:#8b949e;margin-bottom:6px">📁 目录 A</h3>
+<textarea id="dirA" placeholder="file1.txt&#10;src/main.cpp&#10;include/header.h&#10;lib/utils.js" style="min-height:150px"></textarea></div>
+<div><h3 style="font-size:13px;color:#8b949e;margin-bottom:6px">📁 目录 B</h3>
+<textarea id="dirB" placeholder="file1.txt&#10;src/main.cpp&#10;include/header.h&#10;lib/utils.js&#10;NEW_file.py" style="min-height:150px"></textarea></div>
+</div>
+<button class="btn" onclick="genDiff()">🔍 对比</button>
+<pre id="diffOut">粘贴两个目录后点击对比...</pre>
+<button class="btn s" onclick="copyById('diffOut')">📋 复制</button>
+</div>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+function switchTab(name){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
+  document.querySelector('[onclick="switchTab(\''+name+'\')"]').classList.add('active');
+  document.getElementById('tab-'+name).classList.add('active');
+}
+
+function genCMake(){
+  let dir=document.getElementById('cmakeDir').value||'build';
+  let fmt=document.getElementById('cmakeFmt').value;
+  let code='';
+  if(fmt==='bash'){
+code=`#!/bin/bash
+# CMake Clean Script
+BUILD_DIR="${dir}"
+echo "Cleaning CMake build: \${BUILD_DIR}..."
+
+if [ -d "\${BUILD_DIR}" ]; then
+    rm -rf "\${BUILD_DIR}"/*
+    rm -rf "\${BUILD_DIR}"/.* 2>/dev/null
+    echo "✅ Build directory cleaned"
+else
+    echo "⚠️  Build directory not found"
+fi
+
+# Also remove CMake generated files in source
+find . -name "CMakeCache.txt" -delete 2>/dev/null
+find . -name "CMakeFiles" -type d -exec rm -rf {} + 2>/dev/null
+find . -name "cmake_install.cmake" -delete 2>/dev/null
+find . -name "Makefile" -path "*/CMakeFiles/*" -delete 2>/dev/null
+
+echo "✅ CMake cleanup complete"`;
+  }else if(fmt==='batch (Windows)'){
+code=`@echo off
+REM CMake Clean Script (Windows)
+set BUILD_DIR=${dir}
+echo Cleaning CMake build: %BUILD_DIR%...
+
+if exist "%BUILD_DIR%" (
+    rmdir /s /q "%BUILD_DIR%"
+    mkdir "%BUILD_DIR%"
+    echo ✅ Build directory cleaned
+) else (
+    echo ⚠️ Build directory not found
+)
+
+for /d /r . %%d in (CMakeFiles) do @if exist "%%d" rmdir /s /q "%%d"
+del /s /q CMakeCache.txt >nul 2>&1
+del /s /q cmake_install.cmake >nul 2>&1
+
+echo ✅ CMake cleanup complete
+pause`;
+  }else{
+code=`# PowerShell CMake Clean Script
+$BuildDir = "${dir}"
+Write-Host "Cleaning CMake build: $BuildDir..."
+
+if (Test-Path $BuildDir) {
+    Remove-Item -Path "$BuildDir\*" -Recurse -Force -ErrorAction SilentlyContinue
+    Write-Host "✅ Build directory cleaned" -ForegroundColor Green
+} else {
+    Write-Host "⚠️ Build directory not found" -ForegroundColor Yellow
+}
+
+Get-ChildItem -Recurse -Directory -Filter "CMakeFiles" | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+Get-ChildItem -Recurse -File -Filter "CMakeCache.txt" | Remove-Item -Force -ErrorAction SilentlyContinue
+Get-ChildItem -Recurse -File -Filter "cmake_install.cmake" | Remove-Item -Force -ErrorAction SilentlyContinue
+
+Write-Host "✅ CMake cleanup complete" -ForegroundColor Green`;
+  }
+  document.getElementById('cmakeOut').textContent=code;
+  showToast('脚本已生成!');
+}
+
+function genInclude(){
+  let code=document.getElementById('cppInput').value;
+  let std=[],project=[];
+  code.split('\n').forEach(line=>{
+    let m=line.match(/#include\s*[<"]([^>"]+)[>"]/);
+    if(m){
+      if(line.includes('<'))std.push(m[1]);
+      else project.push(m[1]);
+    }
+  });
+  let out='📦 Include Dependency Analysis\n'+'─'.repeat(40)+'\n\n';
+  out+=`🔷 标准库 (${std.length}):\n`+(std.length?std.map(s=>'  • '+s).join('\n'):'  无')+'\n\n';
+  out+=`🔶 项目头文件 (${project.length}):\n`+(project.length?project.map(s=>'  • '+s).join('\n'):'  无')+'\n\n';
+  out+='📊 依赖层级:\n';
+  out+='  Level 0 (源文件): '+code.split('\n').filter(l=>!l.match(/#include/)).length+' 行代码\n';
+  out+=`  Level 1 (直接依赖): ${std.length+project.length} 个头文件\n`;
+  out+='  Level 2+: 需递归展开\n';
+  document.getElementById('includeOut').textContent=out;
+}
+
+function genDiff(){
+  let a=document.getElementById('dirA').value.split('\n').map(l=>l.trim()).filter(Boolean).sort();
+  let b=document.getElementById('dirB').value.split('\n').map(l=>l.trim()).filter(Boolean).sort();
+  let sa=new Set(a),sb=new Set(b);
+  let onlyA=a.filter(f=>!sb.has(f));
+  let onlyB=b.filter(f=>!sa.has(f));
+  let common=a.filter(f=>sb.has(f));
+  let out='📂 Directory Diff Result\n'+'─'.repeat(40)+'\n\n';
+  out+=`📁 A 有 ${a.length} 个文件 | 📁 B 有 ${b.length} 个文件\n`;
+  out+=`✅ 相同: ${common.length} | ➕ 仅A: ${onlyA.length} | ➖ 仅B: ${onlyB.length}\n\n`;
+  if(onlyA.length){out+='🔴 仅在 A 中:\n'+onlyA.map(f=>'  ✗ '+f).join('\n')+'\n\n';}
+  if(onlyB.length){out+='🟢 仅在 B 中:\n'+onlyB.map(f=>'  ✓ '+f).join('\n')+'\n\n';}
+  if(common.length){out+='⚪ 两边都有:\n'+common.map(f=>'  = '+f).join('\n');}
+  document.getElementById('diffOut').textContent=out;
+}
+
+function copyById(id){navigator.clipboard.writeText(document.getElementById(id).textContent);showToast('已复制!');}
+function showToast(msg){let t=document.getElementById('toast');t.textContent=msg;t.className='toast show';setTimeout(()=>t.className='toast',1500);}
+</script>
+</body>
+</html>
