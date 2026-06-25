@@ -32,6 +32,7 @@ from datetime import datetime
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CACHE_PATH = os.path.join(SCRIPT_DIR, "scraper_cache.json")
 SEEN_PATH = os.path.join(SCRIPT_DIR, "scraper_seen.json")
+REPORT_PATH = os.path.join(SCRIPT_DIR, "demand_report.json")
 
 # ═══ Reddit 搜索目标（通过 DuckDuckGo 间接搜索） ═══
 REDDIT_SUBREDDITS = [
@@ -335,7 +336,35 @@ def run_scheduled(interval_minutes=120, limit=25):
                 print(f"\n🔄 送入流水线: {len(texts)} 条")
                 results = pipeline.process_batch(texts, verbose=False)
                 pipeline.enqueue_warn(results)
+                pipeline.save_results(results, REPORT_PATH)
                 pipeline.print_summary()
+
+                # ── Step 3: 自动生成工具 ──
+                try:
+                    from tool_generator import generate_from_report
+                    print("\n🔧 Step 3: 自动生成工具...")
+                    generated = generate_from_report(dry_run=False)
+                    if generated:
+                        print(f"  ✅ 生成了 {len(generated)} 个新工具")
+
+                        # ── Step 4: 部署到 Cloudflare Pages ──
+                        try:
+                            import subprocess
+                            print("\n🚀 Step 4: 部署到 Cloudflare Pages...")
+                            result = subprocess.run(
+                                ["npx", "wrangler", "pages", "deploy", "tools/",
+                                 "--project-name=mintshovels", "--branch=tools"],
+                                cwd=SCRIPT_DIR,
+                                capture_output=True, text=True, timeout=120
+                            )
+                            if result.returncode == 0:
+                                print("  ✅ 部署成功!")
+                            else:
+                                print(f"  ⚠️  部署失败: {result.stderr[-200:]}")
+                        except Exception as e:
+                            print(f"  ⚠️  部署跳过: {e}")
+                except Exception as e:
+                    print(f"  ⚠️  工具生成跳过: {e}")
             else:
                 print("  📭 没有新增候选\n")
 

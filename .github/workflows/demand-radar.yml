@@ -1,4 +1,4 @@
-name: 需求雷达
+name: 🤖 需求雷达 → 自动生成工具
 
 on:
   schedule:
@@ -7,31 +7,79 @@ on:
   workflow_dispatch:  # 允许手动触发
 
 jobs:
-  scrape-and-classify:
+  scrape-generate-deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     
     steps:
-      - name: 检出代码
+      - name: 📥 检出代码
         uses: actions/checkout@v4
       
-      - name: 设置 Python
+      - name: 🐍 设置 Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
-      - name: 运行需求雷达
+      - name: 🔍 Step 1: 全网需求抓取
         run: |
-          python3 demand_scraper.py --limit 15
+          echo "=== Step 1: 抓取需求 ==="
+          python3 demand_scraper.py --limit 15 --no-pipeline
+          echo "抓取完成，候选数: $(python3 -c "import json; d=json.load(open('scraper_cache.json')); print(len(d.get('candidates',[])))" 2>/dev/null || echo 0)"
       
-      - name: 提交结果
+      - name: 🧠 Step 2: 需求分类
+        run: |
+          echo "=== Step 2: 分类需求 ==="
+          python3 -c "
+          import json
+          from demand_pipeline import DemandPipeline
+          
+          with open('scraper_cache.json') as f:
+              cache = json.load(f)
+          
+          candidates = cache.get('candidates', [])
+          if not candidates:
+              print('📭 没有新候选')
+              exit(0)
+          
+          texts = [c['text'] for c in candidates]
+          pipeline = DemandPipeline()
+          results = pipeline.process_batch(texts, verbose=True)
+          pipeline.enqueue_warn(results)
+          pipeline.print_summary()
+          pipeline.save_results(results, 'demand_report.json')
+          "
+      
+      - name: 🔧 Step 3: 自动生成工具
+        run: |
+          echo "=== Step 3: 生成工具 ==="
+          python3 tool_generator.py
+      
+      - name: 📦 Step 4: 提交新工具
         run: |
           git config user.name "MintShovels Bot"
           git config user.email "bot@mintshovels.com"
+          
+          # 提交抓取+分类结果
           git add scraper_cache.json scraper_seen.json demand_report.json review_queue.json mistake_book.json 2>/dev/null || true
-          if git diff --cached --quiet; then
+          # 提交新生成的工具
+          git add tools/auto_*.html generated_tools_log.json 2>/dev/null || true
+          
+          if git diff --cached --quiet && git diff --quiet; then
             echo "📭 无新增数据"
           else
-            git commit -m "🤖 需求雷达自动更新 [$(date +'%Y-%m-%d %H:%M UTC')]"
+            NEW_TOOLS=$(git diff --cached --name-only -- tools/auto_*.html 2>/dev/null | wc -l | tr -d ' ')
+            git commit -m "🤖 自动更新: 抓取了新需求 + 生成了 ${NEW_TOOLS} 个新工具 [$(date +'%Y-%m-%d %H:%M UTC')]"
             git push
+            echo "✅ 已推送 ${NEW_TOOLS} 个新工具到仓库"
           fi
+      
+      - name: 🚀 Step 5: 部署到 Cloudflare Pages
+        if: success()
+        continue-on-error: true
+        run: |
+          echo "部署到 Cloudflare Pages..."
+          npm install -g wrangler@latest 2>/dev/null
+          npx wrangler pages deploy tools/ --project-name=mintshovels --branch=tools
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
