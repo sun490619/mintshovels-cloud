@@ -68,7 +68,8 @@ TOAST_HTML = '<div class="toast" id="toast"></div>'
 # ─── 模板1: JSON 格式化/压缩器 ───
 TEMPLATE_JSON_FORMATTER = {
     "name": "JSON Formatter",
-    "keywords": ["json", "format", "beautify", "prettify", "minify", "compress", "pretty print"],
+    "keywords": ["json", "format", "beautify", "prettify", "minify", "compress", "pretty print",
+                  "格式化", "美化", "压缩", "json格式化"],
     "html": """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -108,7 +109,8 @@ function minify(){{try{{var j=JSON.parse(document.getElementById("input").value)
 # ─── 模板2: Base64 编解码器 ───
 TEMPLATE_BASE64 = {
     "name": "Base64 Encoder/Decoder",
-    "keywords": ["base64", "encode", "decode", "encoding", "decoding", "b64"],
+    "keywords": ["base64", "encode", "decode", "encoding", "decoding", "b64",
+                  "编码", "解码", "加解密", "base64编码", "base64解码"],
     "html": """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -149,7 +151,8 @@ function swap(){{var inp=document.getElementById("input");var out=document.getEl
 # ─── 模板3: 文本差异对比器 ───
 TEMPLATE_DIFF = {
     "name": "Text Diff Checker",
-    "keywords": ["diff", "compare", "difference", "comparison", "text compare", "text diff"],
+    "keywords": ["diff", "compare", "difference", "comparison", "text compare", "text diff",
+                  "对比", "比较", "差异", "diff对比", "文本对比", "代码对比", "文本比较"],
     "html": """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -188,7 +191,8 @@ function compare(){{var a=document.getElementById("inputA").value.split("\\n");v
 # ─── 模板4: 密码/随机值生成器 ───
 TEMPLATE_GENERATOR = {
     "name": "Random Generator",
-    "keywords": ["generate", "generator", "random", "password", "uuid", "guid", "token", "string generator", "lorem", "ipsum"],
+    "keywords": ["generate", "generator", "random", "password", "uuid", "guid", "token", "string generator", "lorem", "ipsum",
+                  "生成", "随机", "密码", "生成器", "随机生成", "密码生成", "uuid生成", "令牌"],
     "html": """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -233,7 +237,8 @@ function generateUUID(){{var r=[];var cnt=parseInt(document.getElementById("cnt"
 # ─── 模板5: 文本大小写转换器 ───
 TEMPLATE_TEXT_TOOL = {
     "name": "Text Transformer",
-    "keywords": ["text", "case", "uppercase", "lowercase", "capitalize", "title case", "reverse", "count", "word count", "character count", "line", "sort", "deduplicate"],
+    "keywords": ["text", "case", "uppercase", "lowercase", "capitalize", "title case", "reverse", "count", "word count", "character count", "line", "sort", "deduplicate",
+                  "文本", "大小写", "转换", "统计", "字数", "排序", "去重", "反转", "文本处理"],
     "html": """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -285,7 +290,8 @@ function dedup(){{var lines=inp().split("\\n");var seen=new Set();out(lines.filt
 # ─── 模板6: URL 编解码器 ───
 TEMPLATE_URL = {
     "name": "URL Encoder/Decoder",
-    "keywords": ["url", "encode", "decode", "uri", "query", "parameter", "percent encoding"],
+    "keywords": ["url", "encode", "decode", "uri", "query", "parameter", "percent encoding",
+                  "网址", "链接", "url编码", "url解码", "参数解析"],
     "html": """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -328,7 +334,8 @@ function swap(){{var i=document.getElementById("input");var o=document.getElemen
 # ─── 模板7: 正则表达式测试器 ───
 TEMPLATE_REGEX = {
     "name": "Regex Tester",
-    "keywords": ["regex", "regexp", "regular expression", "pattern", "match", "grep", "find", "search"],
+    "keywords": ["regex", "regexp", "regular expression", "pattern", "match", "grep", "find", "search",
+                  "正则", "正则表达式", "匹配", "查找", "搜索", "模式"],
     "html": """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -372,7 +379,8 @@ function testRegex(){{var p=document.getElementById("pattern").value;var t=docum
 # ─── 模板8: 颜色转换器 ───
 TEMPLATE_COLOR = {
     "name": "Color Converter",
-    "keywords": ["color", "colour", "hex", "rgb", "hsl", "convert", "picker"],
+    "keywords": ["color", "colour", "hex", "rgb", "hsl", "convert", "picker",
+                  "颜色", "色彩", "色值", "取色", "调色"],
     "html": """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -423,7 +431,8 @@ function copyAll(){{var h=document.getElementById("hexVal").textContent;var r=do
 # ─── 模板9: Markdown 预览器 ───
 TEMPLATE_MARKDOWN = {
     "name": "Markdown Previewer",
-    "keywords": ["markdown", "md", "preview", "render", "html convert"],
+    "keywords": ["markdown", "md", "preview", "render", "html convert",
+                  "markdown预览", "md预览", "markdown渲染", "文档预览"],
     "html": """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -474,7 +483,8 @@ loadSample()
 # ─── 模板10: 通用数据转换器（CSV↔JSON↔YAML等） ───
 TEMPLATE_DATA_CONVERTER = {
     "name": "Data Converter",
-    "keywords": ["csv", "json", "yaml", "xml", "convert", "transform", "data", "table"],
+    "keywords": ["csv", "json", "yaml", "xml", "convert", "transform", "data", "table",
+                  "数据转换", "表格", "csv转换", "导出", "格式转换", "数据"],
     "html": """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -658,7 +668,7 @@ def load_demand_report() -> list:
 def generate_from_demand(demand_text: str, dry_run: bool = False) -> Optional[str]:
     """从单条需求生成工具"""
     template, score = find_best_template(demand_text)
-    if not template or score < 5:
+    if not template or score < 3:
         print(f"  ⏭️  无匹配模板 (score={score}): {demand_text[:60]}")
         return None
 
