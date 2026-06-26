@@ -1,0 +1,890 @@
+{
+  "generated_at": "2026-06-26T12:23:37.154686+00:00",
+  "radar_version": "2.1",
+  "sources": {
+    "github_trending": [
+      {
+        "repo": "simplex-chat/simplex-chat",
+        "url": "https://github.com/simplex-chat/simplex-chat"
+      },
+      {
+        "repo": "google-labs-code/design.md",
+        "url": "https://github.com/google-labs-code/design.md"
+      },
+      {
+        "repo": "commaai/openpilot",
+        "url": "https://github.com/commaai/openpilot"
+      },
+      {
+        "repo": "kunchenguid/no-mistakes",
+        "url": "https://github.com/kunchenguid/no-mistakes"
+      },
+      {
+        "repo": "apps/github-actions",
+        "url": "https://github.com/apps/github-actions"
+      },
+      {
+        "repo": "grafana/grafana",
+        "url": "https://github.com/grafana/grafana"
+      },
+      {
+        "repo": "apps/renovate",
+        "url": "https://github.com/apps/renovate"
+      },
+      {
+        "repo": "ripienaar/free-for-dev",
+        "url": "https://github.com/ripienaar/free-for-dev"
+      },
+      {
+        "repo": "opendatalab/MinerU",
+        "url": "https://github.com/opendatalab/MinerU"
+      },
+      {
+        "repo": "apps/copilot-pull-request-reviewer",
+        "url": "https://github.com/apps/copilot-pull-request-reviewer"
+      },
+      {
+        "repo": "alchaincyf/zhangxuefeng-skill",
+        "url": "https://github.com/alchaincyf/zhangxuefeng-skill"
+      },
+      {
+        "repo": "mauriceboe/TREK",
+        "url": "https://github.com/mauriceboe/TREK"
+      },
+      {
+        "repo": "xbtlin/ai-berkshire",
+        "url": "https://github.com/xbtlin/ai-berkshire"
+      },
+      {
+        "repo": "calesthio/OpenMontage",
+        "url": "https://github.com/calesthio/OpenMontage"
+      },
+      {
+        "repo": "aws/agent-toolkit-for-aws",
+        "url": "https://github.com/aws/agent-toolkit-for-aws"
+      },
+      {
+        "repo": "apps/dependabot",
+        "url": "https://github.com/apps/dependabot"
+      },
+      {
+        "repo": "NanmiCoder/MediaCrawler",
+        "url": "https://github.com/NanmiCoder/MediaCrawler"
+      },
+      {
+        "repo": "garrytan/gstack",
+        "url": "https://github.com/garrytan/gstack"
+      },
+      {
+        "repo": "IceWhaleTech/CasaOS",
+        "url": "https://github.com/IceWhaleTech/CasaOS"
+      },
+      {
+        "repo": "apps/allcontributors",
+        "url": "https://github.com/apps/allcontributors"
+      }
+    ],
+    "stackoverflow": [
+      "What does the \"yield\" keyword do in Python?",
+      "What does if __name__ == \"__main__\": do?",
+      "Does Python have a ternary conditional operator?",
+      "What are metaclasses in Python?",
+      "How do I check whether a file exists without exceptions?",
+      "How do I merge two dictionaries in a single expression in Python?",
+      "How do I execute a program or call a system command?",
+      "How do I create a directory, and any missing parent directories?",
+      "How can I access the index value in a 'for' loop?",
+      "How do I make a flat list out of a list of lists?",
+      "What is the difference between @staticmethod and @classmethod in Python?",
+      "How slicing in Python works",
+      "How can I find the index for a given item in a list?",
+      "Iterating over a dictionary using a 'for' loop, getting keys",
+      "How can I iterate over rows in a Pandas DataFrame?"
+    ],
+    "v2ex": [
+      "准备订婚了，因为她妈妈以后要不要长期同住这件事，我第一次有点想退了",
+      "如何看待苹果 6 月 25 日 Mac， iPad 全线涨价 20%？",
+      "这种情况该跑路吗？",
+      "有没有必要在车上放“武器”防身？",
+      "V 站越到后面，靠签到领取的铜币会越来越少，被迫发帖讨要铜币",
+      "程序员适合培养哪些爱好？",
+      "油烟问题已顺利解决，这就是权利的滋味",
+      " Apple 平板和电脑涨价",
+      "安徽男物理类总分 677, 排名 1160, 推荐好就业的院校和专业",
+      "[福利] 庆祝 5 款 Mac 效率神器成功上架中国区！ 40 个激活码大派送 + 限免 0 元激活 Pro"
+    ],
+    "devto": [
+      "DEV Community: programming",
+      "The reliability gap: what it actually takes to put an AI agent in production",
+      "From Background Noise to Productive Sound: How Developers Can Use Music as a Marketing Edge Too",
+      "Buy USA Gmail Accounts, Digital Identity Systems",
+      "Unraveling the Secrets of the Past: First-Ever Decoded Herculaneum Scroll Reveals Ancient Mysteries - See What's Inside",
+      "Revolutionize Inventory Management: Unlock the Power of Open-Source Barcode Scanning with Libre Barcode Project",
+      "Buy LinkedIn Accounts and Clean Professional",
+      "AI Customer Service Lost 30% Memory in Week One — I Wrote 3 Pytest Tests to Catch the Culprit",
+      "Building a ‘Developer Focus Stack’: Tasks, Tools, and Sound Working Together",
+      "Code Quality Over Speed",
+      "How I Extracted Amazon Review Text Data from Kaggle's .bz2 Dataset for Sentiment Analysis",
+      "Top 10 Free APIs to Build Profitable Side Projects",
+      "Swift Structs vs Classes: When to Use Which"
+    ],
+    "lobsters": [
+      "The Exhaustion of Talking to a Tool",
+      "What are you doing this weekend?",
+      "Om Malik, 1966-2026",
+      "font-family recommendations",
+      "SPIR-V Backend Progress",
+      "New @bitCast Semantics and LLVM Backend Improvements",
+      "swsim: A software SIM card",
+      "Vibecoding gets Emacs patch rejected",
+      "The Xteink X4 E-Ink Reader",
+      "Oxide Rack 3D Explorer",
+      "All you need is PostgreSQL",
+      "usbliter8: An A12/A13 SecureROM exploit",
+      "OS9Map: OpenStreetMap for Mac OS 9",
+      "Structured Primary Keys",
+      "Design Patterns Suck",
+      "I've gone full Nix: Proxmox to NixOS + Incus",
+      "Chatbots vs Ozone",
+      "Echoes of the AI Winter",
+      "Pierre Zemb from Clever Cloud on FoundationDB",
+      "Are We GlobalShortcuts Yet?"
+    ],
+    "producthunt": [
+      "Engineering \\u0026 Development",
+      "Vibe Coding Tools",
+      "AI Coding Agents",
+      "LLMs",
+      "AI Chatbots",
+      "AI Infrastructure Tools",
+      "Productivity",
+      "AI notetakers",
+      "Note and writing apps",
+      "Team collaboration software",
+      "Marketing \\u0026 Sales",
+      "Lead generation software",
+      "Marketing automation platforms",
+      "Design \\u0026 Creative",
+      "Video editing",
+      "Design resources",
+      "Graphic design tools",
+      "Social \\u0026 Community",
+      "Social Networking",
+      "Professional networking platforms"
+    ],
+    "hacker_news": [
+      "An entire Herculaneum scroll has been read for the first time 🔥1365pts 💬286",
+      "Om Malik has died 🔥969pts 💬118",
+      "The 'papers, please' era of the internet will decimate your privacy 🔥800pts 💬366",
+      "Apple raises prices of MacBooks, iPads 🔥750pts 💬1083",
+      "Hey Nico, you didn't vibe code your data room but stole it from Papermark 🔥402pts 💬166",
+      "Oxide computer 3D rack guided tour 🔥394pts 💬159",
+      "IBM debuts sub-1 nanometer chip technology 🔥335pts 💬180",
+      "Show HN: Chess-Inspired Roguelike 🔥332pts 💬109",
+      "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion 🔥293pts 💬148",
+      "You can't unit test for taste 🔥287pts 💬128",
+      "We All Depend on Open Source. We Will Defend It Together 🔥250pts 💬122",
+      "Zig's new bitCast semantics and LLVM back end improvements 🔥246pts 💬125",
+      "A game where you're an OS and have to manage processes, memory and I/O events 🔥242pts 💬46",
+      "OS9Map 🔥237pts 💬45",
+      "Framework's 10G Ethernet module exposes USB-C's complexity 🔥213pts 💬110",
+      "What happened after 2k people tried to hack my AI assistant 🔥212pts 💬79",
+      "Libre Barcode Project 🔥190pts 💬30",
+      "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed) (2023) 🔥166pts 💬29",
+      "Un-0: Generating Images with Coupled Oscillators 🔥159pts 💬39",
+      "An oral history of Bank Python (2021) 🔥135pts 💬48",
+      "The Doorman's Fallacy in action 🔥134pts 💬194",
+      "The last Romans are still around 🔥106pts 💬141",
+      "Parallel Parentheses Matching 🔥101pts 💬12",
+      "22-year-old Mozart's handwritten notebook unearthed in 'major discovery' 🔥92pts 💬17",
+      "My Steam Machine Is a 50ft HDMI Cable 🔥64pts 💬66"
+    ],
+    "hn_show": [
+      "NT – fly around Git worktrees from your shell — featured on Hacker News (🔥2pts)",
+      "I tracked 47 flights with a smart ring to quantify IMSAFE's blind spot — featured on Hacker News (🔥3pts)",
+      "Git-lazy-mount mount a repo without cloning it. Works with ordinary Git — featured on Hacker News (🔥7pts)",
+      "Kapient – Website monitoring that tells you what to fix — featured on Hacker News (🔥2pts)",
+      "LWDT – A Zephyr-inspired device-tree framework for ESP-IDF — featured on Hacker News (🔥3pts)",
+      "Lofinity – an endless lo-fi track, tuned to you — featured on Hacker News (🔥2pts)",
+      "Font Finder Chrome Extension — featured on Hacker News (🔥2pts)",
+      "Loomabase – Column-level CRDT sync for SQLite + Postgres — featured on Hacker News (🔥2pts)",
+      "Pybench, Pytest but to check non regression of noisy benchmarks — featured on Hacker News (🔥2pts)",
+      "Hikaru Labs – An offline, client-side alternative to CloudConvert — featured on Hacker News (🔥3pts)",
+      "Unofficial cross-platform Shure MV client — featured on Hacker News (🔥2pts)",
+      "Yet another self-hosted web analytics with no UI but MCP — featured on Hacker News (🔥3pts)",
+      "I built a small audit layer for LLM-as-judge decisions — featured on Hacker News (🔥2pts)",
+      "Helios – Business OS for Freelancers — featured on Hacker News (🔥2pts)",
+      "A Transformer Is All You Need — featured on Hacker News (🔥2pts)",
+      "Motif Atlas – recurring patterns behind complex systems — featured on Hacker News (🔥1pts)",
+      "Stackzero - The Smarter Way to Discover Free Developer Tools — featured on Hacker News (🔥1pts)"
+    ],
+    "hn_ask_tools": [
+      "Ask HN: Who remembers Fry's Electronics – the \"church\" of IT people? — user asking for tool recommendation (🔥5pts)",
+      "Ask HN: How do you know when an Ad campaign is doing well? — user asking for tool recommendation (🔥2pts)",
+      "Show HN: I created a Scrabble-like word game with simple rules and fun combos — user asking for tool recommendation (🔥3pts)",
+      "Show HN: Topos – Structural code quality metrics for agent-written programs — user asking for tool recommendation (🔥5pts)",
+      "Show HN: MCP Server for a UK Meat Price Comparison Site — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Better PDF Presentations (+Typst) — user asking for tool recommendation (🔥3pts)",
+      "Show HN: PostgreSQL backup tool Databasus moved to PG 17 native physical backups — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Forte – Cloud infra to get startups to production faster — user asking for tool recommendation (🔥7pts)",
+      "Show HN: Get AI to recommend your product or service — user asking for tool recommendation (🔥4pts)",
+      "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
+      "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
+      "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
+      "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
+      "Which AI coding tools do AIs recommend? Data across 10 models and 1000 responses — user asking for tool recommendation (🔥2pts)",
+      "Ask HN: Non-profit school possibly hacked, locked out of Google Workspace. — user asking for tool recommendation (🔥6pts)",
+      "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal) — user asking for tool recommendation (🔥17pts)",
+      "Show HN: Appaca – AI Workspace for Operators — user asking for tool recommendation (🔥4pts)",
+      "Ask HN: What do you do to save tokens? — user asking for tool recommendation (🔥4pts)",
+      "Do Course Certificates Matter? — user asking for tool recommendation (🔥5pts)",
+      "Show HN: Drawbar – boring linear based workflows for Claude Code — user asking for tool recommendation (🔥2pts)",
+      "Show HN: The most Y Combinator YC application: it applied itself — user asking for tool recommendation (🔥5pts)",
+      "Show HN: Unofficial cross-platform Shure MV client — user asking for tool recommendation (🔥2pts)",
+      "Ask HN: Have you ever given your AI agent a phone number? — user asking for tool recommendation (🔥2pts)",
+      "Show HN: A Claude skill that prunes your AI's memory file, one diff at a time — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Contraband – Ticketed VR cinema for indie and AI-made films — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Claude Code Session Trace/Browse Tool (Python) — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Hikaru Labs – An offline, client-side alternative to CloudConvert — user asking for tool recommendation (🔥3pts)",
+      "Show HN: 1000songs.co.uk – 100 years of music, 10 tracks a year — user asking for tool recommendation (🔥2pts)",
+      "Show HN: I built an Ad-free Pinterest Alternative with AI content filtering — user asking for tool recommendation (🔥3pts)",
+      "Ask HN: Quickbooks Alternative? — user asking for tool recommendation (🔥4pts)"
+    ],
+    "hackernoon": [
+      "Launching a Product Soon? Here's How to Amplify it in 5 Steps",
+      "How Can Beginners Use an AI Trading Robot? 5 Free AI Trading Robot Platforms Offering Trial Access ",
+      "Solstice and Tensorx to Buy $1 Billion in AI Infrastructure to Support EU Sovereign AI Demand",
+      "SentinelIQ: Why I Built a SOC That Reconstructs Attacks Instead of Just Alerting on Them",
+      "How to Build a Production RAG System on AWS From Scratch (Complete Beginner's Guide)",
+      "Your AI Agent Will Lie to You. Your Tests Won't.",
+      "CSP is Not Just a Header — It’s a Contract With the Browser",
+      "Trust Scores for AI: Should Agents Earn Permissions Over Time? Trust Isn’t Granted; It’s Earned",
+      "Unified Payment Rails for Autonomous Agents: Solving Multi-Protocol Fragmentation",
+      "General-Purpose Visual Programming Language \"Pipe\" Earns an 86 Proof of Usefulness Score by Building a Structurally Secure, Self-Healing Language",
+      "The 8 Best Contract Management Software Tools Worth Using in 2026",
+      "Testing AI Agents and Testing With AI Agents Are Two Sides of the Same Coin",
+      "How Entrepreneur Sam Thapaliya Is Building Enterprise Standards Into the Foundation of Digital Asset",
+      "Why Media Agencies Are Still Terrified of Programmatic Advertising (And Why They Shouldn't Be)",
+      "Voice agent APIs in 2026, compared: which one actually hears your users?",
+      "GLM-5.2 Strengthens China's Open-stack Hedge Against U.S.",
+      "DeepSeek-v4-Fable: A Security-Focused AI Agent for CTFs",
+      "AI Agent Costs Are Becoming an Engineering Crisis",
+      "A Buyer's Guide to PCI DSS 6.4.3 and 11.6.1 Compliance Solutions",
+      "Retail Traders Are Automating Fast. Discipline Is the Hard Part"
+    ],
+    "infoq": [
+      "Dapr 1.18 Introduces Verifiable Execution, Bringing Cryptographic Trust to AI Agents and Workflows <img src=\"https://res.infoq.com/news/2026/06/dapr-1-18-cryptographic-ai/en/headerimage/generatedHeaderImage-1782128447195.jpg\"/><p>Diagrid has announc",
+      "Argo CD 3.5 Tightens Supply Chain Security with Internal mTLS and Source Integrity <img src=\"https://res.infoq.com/news/2026/06/argocd-supply-chain-security/en/headerimage/generatedHeaderImage-1782400527464.jpg\"/><p>The Argo CD proje",
+      "How Cloudflare Solved a Congestion Bug in quiche <img src=\"https://res.infoq.com/news/2026/06/cloudflare-bug-quiche/en/headerimage/generatedHeaderImage-1782410835538.jpg\"/><p>Cloudflare has recently ",
+      "Building a European Cloud Orchestration Platform within an Enterprise <img src=\"https://res.infoq.com/news/2026/06/europe-cloud-enterprise/en/headerimage/europe-cloud-enterprise-header-1782131709734.jpg\"/><p>Modern cloud",
+      "Presentation: Rust at the Core - Accelerating Polyglot SDK Development <img src=\"https://res.infoq.com/presentations/rust-polyglot-sdk/en/mediumimage/spencer-judge-medium-1781688097548.jpeg\"/><p>Spencer Judge discusses th",
+      "Cloudflare Ships Agent Skills for Zero Trust Deployment and Migration <img src=\"https://res.infoq.com/news/2026/06/cloudflare-one-stack-agents/en/headerimage/generatedHeaderImage-1782201861296.jpg\"/><p>Cloudflare release",
+      "Slack Outlines Four-Phase Journey to a Multi-Cloud AI Serving Platform <img src=\"https://res.infoq.com/news/2026/06/slack-multicloud/en/headerimage/generatedHeaderImage-1782335922071.jpg\"/><p>Slack has outlined how its AI",
+      "Grab Builds Secure Agentic AI Workload Platform <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>Grab's security team built Palana, a Kubernetes-native secure execution",
+      "Anthropic Lead: HTML Increasingly Better Than Markdown at Keeping Humans Engaged in Agentic Loops <img src=\"https://res.infoq.com/news/2026/06/anthropic-html-markdown-agent/en/headerimage/generatedHeaderImage-1782335059166.jpg\"/><p>Thariq Shihipar,",
+      "Google OpenRL is an Experimental Self-hosted API for LLM Post-Training Fine-Tuning <img src=\"https://res.infoq.com/news/2026/06/google-open-rl-fine-tuning/en/headerimage/google-open-rl-fine-tuning-1782322457170.jpeg\"/><p>Google's GKE",
+      "AI Is Moving up the Software Lifecycle: from Code Review to PRD Governance <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>Technology companies are extending AI beyond code generation into earli",
+      "Presentation: Rules for Understanding Language Models <img src=\"https://res.infoq.com/presentations/5-principles-llm-behavior/en/mediumimage/naomi-saphra-medium-1781688751052.jpg\"/><p>Naomi Saphra discuss",
+      "Article: Beyond CLEAN and MVP: Architecting an Offline-first Reactive Data Layer in Android <img src=\"https://res.infoq.com/articles/rdla-offline-first-reactive-android-data-layer/en/headerimage/rdla-offline-first-reactive-android-data-layer-",
+      "Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects <img src=\"https://res.infoq.com/news/2026/06/lucide-v1-icons/en/headerimage/generatedHeaderImage-1782203932198.jpg\"/><p>Lucide has released version 1.",
+      "Presentation: The Time It Wasn't DNS <img src=\"https://res.infoq.com/presentations/incident-dns/en/mediumimage/sean-klein-medium-1781687984845.jpeg\"/><p>Sean Klein discusses why \"human er"
+    ],
+    "google_trends": [
+      "jalen duren",
+      "resilience",
+      "jamal morton",
+      "ire vs ind",
+      "naomi osaka",
+      "wimbledon",
+      "liberty vote mike lindell dispute",
+      "acute",
+      "john bolton",
+      "maggie haberman"
+    ],
+    "baidu": [
+      "习近平会见孟加拉国总理塔里克",
+      "微信朋友圈互删清空对方全部痕迹",
+      "穆里尼奥：世界杯不该出现7-1这类比分",
+      "“国补”继续 第三批资金已下达",
+      "初中学历女生因面试走红 现状曝光",
+      "董路携足球小将谈世界杯梦想",
+      "“多人将两女子关铁笼游街”系摆拍",
+      "墨西哥女裁判撞脸蔡依林",
+      "新加坡学者：我们都被日本人骗了",
+      "法国人热到不提环保了",
+      "白玉兰奖今晚揭晓 你期待谁",
+      "4种癌症早期筛查真的有用",
+      "考生因高颜值走红 高考分数已过线",
+      "白俄罗斯总统向泽连斯基发出警告",
+      "女子上班收到女儿高考成绩激动不已",
+      "白玉兰红毯嘉宾阵容",
+      "男子病重昏迷 七旬母亲取不出救命钱",
+      "海南高考800分及以上111人",
+      "韩媒集体慌了：连日本队都不帮忙",
+      "14岁女孩为吸毒骗家人朋友十几万"
+    ],
+    "wikipedia": [
+      "Chicago Park School District",
+      "Peter Lalor",
+      "LMU Munich",
+      "André Rodrigues Durães",
+      "Rhyu Si-min",
+      "Kasavuthattam",
+      "Candi Milo",
+      "Cambridgeshire County Council",
+      "Igor Klimov (wrestler)",
+      "Soubey",
+      "Melissa Fahn",
+      "Spitting Image",
+      "3D film",
+      "Richard Steven Horvitz",
+      "City upon a Hill",
+      "Suthee Meanchainun",
+      "Marino Curnis",
+      "Parit Raja (state constituency)",
+      "Natsume Atari",
+      "Alice in Wonderland and Through the Looking-Glass"
+    ],
+    "huggingface": [
+      "all-MiniLM-L6-v2",
+      "sentence-similarity all-MiniLM-L6-v2",
+      "ms-marco-MiniLM-L6-v2",
+      "text-ranking ms-marco-MiniLM-L6-v2",
+      "bge-small-en-v1.5",
+      "feature-extraction bge-small-en-v1.5",
+      "bert-base-uncased",
+      "fill-mask bert-base-uncased",
+      "paraphrase-multilingual-MiniLM-L12-v2",
+      "sentence-similarity paraphrase-multilingual-MiniLM-L12-v2",
+      "electra-base-discriminator",
+      "electra-base-discriminator",
+      "all-mpnet-base-v2",
+      "sentence-similarity all-mpnet-base-v2",
+      "bge-m3",
+      "sentence-similarity bge-m3",
+      "Qwen3-0.6B",
+      "text-generation Qwen3-0.6B",
+      "clip-vit-base-patch32",
+      "zero-shot-image-classification clip-vit-base-patch32",
+      "xlm-roberta-base",
+      "fill-mask xlm-roberta-base",
+      "mobilenetv3_small_100.lamb_in1k",
+      "image-classification mobilenetv3_small_100.lamb_in1k",
+      "nomic-embed-text-v1.5",
+      "sentence-similarity nomic-embed-text-v1.5",
+      "bge-reranker-v2-m3",
+      "text-classification bge-reranker-v2-m3",
+      "Qwen3-4B",
+      "text-generation Qwen3-4B"
+    ],
+    "arxiv": [
+      "Autoregressive Boltzmann Generators Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allo",
+      "Error-Conditioned Neural Solvers Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their ow",
+      "Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching Entity Matching (EM) is a core operation in the data integration pipeline, where records from different sources are compared to determine whether they refer to the same real-world entity. Recent work ",
+      "Language-Based Digital Twins for Elderly Cognitive Assistance Digital twins have emerged as a promising paradigm for personalized healthcare, enabling modeling of individual behavior and health trajectories. In cognitive health, early detection of Mild Cognitive",
+      "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. While small open source MLL",
+      "Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders Sparse autoencoders (SAEs) have become a leading tool for interpreting the representations of vision foundation models, decomposing their polysemantic activations into a larger set of sparse, more mon",
+      "AI Healthcare Chatbots as Information Infrastructure: A Large-Scale Study of User-Reported Breakdowns AI healthcare chatbots are increasingly used to support health information seeking and self-management, yet their performance and impact on users remains to be studied. This study examines over 15,000",
+      "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models Multi-model LLM systems such as routing, voting, cascades, fusion, and mixture-of-agents are used to beat single-model accuracy. We show that their gain is capped by a quantity the field rarely report",
+      "Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings Large language models (LLMs) are increasingly used to screen and rank job applicants, creating incentives for candidates to strategically manipulate algorithmic hiring systems. We study prompt injecti",
+      "Simulation-based inference for rapid Bayesian parameter estimation in epidemiological models: a comparison with MCMC Mechanistic epidemiological models are widely used to support infectious disease forecasting and public-health decision making. Bayesian calibration of such models is commonly performed using Markov c",
+      "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting Earth Observation (EO) forecasting aims to predict future Earth surface dynamics from satellite observations under changing meteorological conditions. In this paper, we view this task as a partially o",
+      "E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation Recently, a few works have made early attempts to study test-time scaling for embodied tasks. However, two major challenges remain unsolved: (1) reasoning can effectively improve the performance of th",
+      "Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy Building persistent embodied agents in unstructured environments demands unified orchestration of heterogeneous tools spanning both cyber (APIs, IoT) and physical (manipulation, navigation) domains, c",
+      "From Celebrities to Anyone: Characterizing AI Nudification Content, Technology, and Community Dynamics on 4chan AI nudification uses generative models to create synthetic non-consensual sexually explicit imagery (SNEACI) of real individuals. Prior work has examined dedicated nudification platforms and model rep",
+      "Bridging Talk and Thought: Understanding Dialogue Dynamics Across Collaborative Problem-Solving Contexts We present a conceptual framework for analyzing dialogue in collaborative problem-solving contexts, with an emphasis on the emerging dynamics of human-AI and multi-agent collaboration. As intelligent "
+    ],
+    "paperswithcode": [],
+    "npm_registry": [
+      "@salesforce/pwa-kit-create-app — npm package: Salesforce's project generator tool",
+      "eurostat-barcode-generator — npm package: a simplified barcode generator tool with options",
+      "insomnia-documenter — npm package: API documentation generator tool for Insomnia.",
+      "tgt — npm package: tpl generator tool",
+      "granturismo — npm package: generator tool",
+      "pwa-kit-create-app — npm package: Salesforce's project generator tool",
+      "conjurate — npm package: Pluggable generator tool",
+      "packs — npm package: Static survey generator tool",
+      "@mobify/create-app — npm package: Mobify's project generator tool",
+      "@finsweet/fluid-design-generator — npm package: Fluid design generator tool for Webflow sites.",
+      "@teld-approval/converter — npm package: converter tool",
+      "@adobe/aem-cs-source-migration-dispatcher-converter — npm package: AEM as a Cloud Service Dispatcher Converter tool",
+      "@adobe/aem-cs-source-migration-index-converter — npm package: AEM as a Cloud Service Index Converter tool",
+      "@tabby_ai/hijri-converter — npm package: Typescript port of an accurate python Hijri-Gregorian dates converter based on the Umm al-Qura calendar: https://github.com/mhalshehri/hijri-converter",
+      "swagger2openapi — npm package: Convert Swagger 2.0 definitions to OpenApi 3.0 and validate",
+      "@toolsnap/risetop-color-converter — npm package: Free online color converter tool",
+      "@kakilangit/unix-time — npm package: WebAssembly bindings for Unix Time Converter tool",
+      "pdf-to-png-converter — npm package: Node.js utility to convert PDF file/buffer pages to PNG files/buffers. No build-time compilation required — pre-built native binaries included for all major platforms.",
+      "swagger-converter — npm package: Converts Swagger documents from version 1.x to version 2.0",
+      "v8-to-istanbul — npm package: convert from v8 coverage format to istanbul's format",
+      "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
+      "jsonmatter — npm package: JSON formatter tool by stream",
+      "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
+      "sql-formatter — npm package: Format whitespace in a SQL query to make it more readable",
+      "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
+      "prettier — npm package: Prettier is an opinionated code formatter",
+      "@expo/xcpretty — npm package: Parse and format xcodebuild logs",
+      "sass-formatter — npm package: TypeScript Sass formatter",
+      "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format",
+      "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
+    ],
+    "github_topics": [
+      "github trending topic: awesome lists",
+      "github trending topic: magix-install",
+      "github trending topic: typescript",
+      "github trending topic: code quality",
+      "github trending topic: css",
+      "github trending topic: java",
+      "github trending topic: node.js",
+      "github trending topic: react native",
+      "github trending topic: magix-trial",
+      "github trending topic: magix-key",
+      "github trending topic: magix-software",
+      "github trending topic: javascript",
+      "github trending topic: react",
+      "github trending topic: database",
+      "github trending topic: project management",
+      "github trending topic: scala",
+      "github trending topic: compiler",
+      "github trending topic: python",
+      "github trending topic: front end",
+      "github trending topic: xapi",
+      "github trending topic: magix",
+      "github trending topic: npm",
+      "github trending topic: magix-download",
+      "github trending topic: chrome",
+      "github trending topic: public-archived"
+    ],
+    "search_log_top": [],
+    "pain_points": []
+  },
+  "tool_suggestions": [
+    {
+      "keyword": "copilot-pull-request-reviewer",
+      "matched": "viewer",
+      "category": "misc",
+      "subcat": "misc",
+      "type": "tool",
+      "name": "Viewer",
+      "name_zh": "查看器"
+    },
+    {
+      "keyword": "AI Coding Agents — tool from ProductHunt",
+      "matched": "ai",
+      "category": "ai",
+      "subcat": "ai-chat",
+      "type": "tool",
+      "name": "AI Assistant",
+      "name_zh": "AI助手"
+    },
+    {
+      "keyword": "LLMs — tool from ProductHunt",
+      "matched": "llm",
+      "category": "ai",
+      "subcat": "ai-chat",
+      "type": "tool",
+      "name": "LLM Tool",
+      "name_zh": "大模型工具"
+    },
+    {
+      "keyword": "AI notetakers — tool from ProductHunt",
+      "matched": "note",
+      "category": "productivity",
+      "subcat": "text",
+      "type": "tool",
+      "name": "Note Taker",
+      "name_zh": "笔记工具"
+    },
+    {
+      "keyword": "Marketing automation platforms — tool from ProductHunt",
+      "matched": "form",
+      "category": "dev",
+      "subcat": "web",
+      "type": "tool",
+      "name": "Form Builder",
+      "name_zh": "表单构建器"
+    },
+    {
+      "keyword": "Video editing — tool from ProductHunt",
+      "matched": "video",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Video Converter",
+      "name_zh": "视频格式转换器"
+    },
+    {
+      "keyword": "Graphic design tools — tool from ProductHunt",
+      "matched": "graph",
+      "category": "productivity",
+      "subcat": "data",
+      "type": "tool",
+      "name": "Graph Tool",
+      "name_zh": "图形工具"
+    },
+    {
+      "keyword": "Social \\u0026 Community — tool from ProductHunt",
+      "matched": "unit",
+      "category": "misc",
+      "subcat": "misc",
+      "type": "tool",
+      "name": "Unit Converter",
+      "name_zh": "单位换算"
+    },
+    {
+      "keyword": "Show HN: Better PDF Presentations (+Typst) — user asking for tool recommendation (🔥3pts)",
+      "matched": "pdf",
+      "category": "productivity",
+      "subcat": "office",
+      "type": "tool",
+      "name": "PDF Editor",
+      "name_zh": "PDF编辑器"
+    },
+    {
+      "keyword": "Ask HN: What do you do to save tokens? — user asking for tool recommendation (🔥4pts)",
+      "matched": "token",
+      "category": "finance",
+      "subcat": "defi",
+      "type": "tool",
+      "name": "Token Analyzer",
+      "name_zh": "代币分析器"
+    },
+    {
+      "keyword": "tgt — npm package: tpl generator tool",
+      "matched": "generator",
+      "category": "misc",
+      "subcat": "misc",
+      "type": "tool",
+      "name": "Generator",
+      "name_zh": "生成器"
+    },
+    {
+      "keyword": "packs — npm package: Static survey generator tool",
+      "matched": "survey",
+      "category": "productivity",
+      "subcat": "data",
+      "type": "tool",
+      "name": "Survey Builder",
+      "name_zh": "问卷构建器"
+    },
+    {
+      "keyword": "@teld-approval/converter — npm package: converter tool",
+      "matched": "convert",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Format Converter",
+      "name_zh": "万能格式转换器"
+    },
+    {
+      "keyword": "@teld-approval/converter — npm package: converter tool",
+      "matched": "converter",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Converter",
+      "name_zh": "格式转换"
+    },
+    {
+      "keyword": "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
+      "matched": "format",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "Formatter",
+      "name_zh": "格式化工具"
+    },
+    {
+      "keyword": "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
+      "matched": "editor",
+      "category": "productivity",
+      "subcat": "text",
+      "type": "tool",
+      "name": "Editor",
+      "name_zh": "编辑器"
+    },
+    {
+      "keyword": "jsonmatter — npm package: JSON formatter tool by stream",
+      "matched": "json",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "JSON Formatter",
+      "name_zh": "JSON格式化"
+    },
+    {
+      "keyword": "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
+      "matched": "sql",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "SQL Formatter",
+      "name_zh": "SQL格式化"
+    },
+    {
+      "keyword": "@expo/xcpretty — npm package: Parse and format xcodebuild logs",
+      "matched": "log",
+      "category": "dev",
+      "subcat": "devops",
+      "type": "tool",
+      "name": "Log Viewer",
+      "name_zh": "日志查看器"
+    }
+  ],
+  "all_keywords": [
+    "copilot-pull-request-reviewer",
+    "agent-toolkit-for-aws",
+    "Building a ‘Developer Focus Stack’: Tasks, Tools, and Sound Working Together",
+    "The Exhaustion of Talking to a Tool",
+    "Engineering \\u0026 Development — tool from ProductHunt",
+    "Vibe Coding Tools — tool from ProductHunt",
+    "AI Coding Agents — tool from ProductHunt",
+    "LLMs — tool from ProductHunt",
+    "AI Chatbots — tool from ProductHunt",
+    "AI Infrastructure Tools — tool from ProductHunt",
+    "Productivity — tool from ProductHunt",
+    "AI notetakers — tool from ProductHunt",
+    "Note and writing apps — tool from ProductHunt",
+    "Team collaboration software — tool from ProductHunt",
+    "Marketing \\u0026 Sales — tool from ProductHunt",
+    "Lead generation software — tool from ProductHunt",
+    "Marketing automation platforms — tool from ProductHunt",
+    "Design \\u0026 Creative — tool from ProductHunt",
+    "Video editing — tool from ProductHunt",
+    "Design resources — tool from ProductHunt",
+    "Graphic design tools — tool from ProductHunt",
+    "Social \\u0026 Community — tool from ProductHunt",
+    "Social Networking — tool from ProductHunt",
+    "Professional networking platforms — tool from ProductHunt",
+    "Show HN: Better PDF Presentations (+Typst) — user asking for tool recommendation (🔥3pts)",
+    "Ask HN: What do you do to save tokens? — user asking for tool recommendation (🔥4pts)",
+    "Do Course Certificates Matter? — user asking for tool recommendation (🔥5pts)",
+    "Ask HN: Quickbooks Alternative? — user asking for tool recommendation (🔥4pts)",
+    "The 8 Best Contract Management Software Tools Worth Using in 2026",
+    "electra-base-discriminator",
+    "electra-base-discriminator",
+    "tgt — npm package: tpl generator tool",
+    "pwa-kit-create-app — npm package: Salesforce's project generator tool",
+    "conjurate — npm package: Pluggable generator tool",
+    "packs — npm package: Static survey generator tool",
+    "@mobify/create-app — npm package: Mobify's project generator tool",
+    "@teld-approval/converter — npm package: converter tool",
+    "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
+    "jsonmatter — npm package: JSON formatter tool by stream",
+    "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
+    "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
+    "prettier — npm package: Prettier is an opinionated code formatter",
+    "@expo/xcpretty — npm package: Parse and format xcodebuild logs",
+    "sass-formatter — npm package: TypeScript Sass formatter"
+  ],
+  "filter_stats": {
+    "raw_count": 174,
+    "valid_count": 44,
+    "rejected_count": 130,
+    "rejection_rate": 74.7,
+    "rejected_samples": [
+      "design.md",
+      "allcontributors",
+      "What does the \"yield\" keyword do in Python?",
+      "Does Python have a ternary conditional operator?",
+      "What are metaclasses in Python?",
+      "How do I merge two dictionaries in a single expression in Python?",
+      "How do I create a directory, and any missing parent directories?",
+      "What is the difference between @staticmethod and @classmethod in Python?",
+      "How slicing in Python works",
+      "The reliability gap: what it actually takes to put an AI agent in production"
+    ]
+  },
+  "trait_analysis": {
+    "total_captured": 355,
+    "chatter_blocked": 21,
+    "chatter_rate": 5.9,
+    "tool_signals_found": 174,
+    "tool_signal_rate": 49.0,
+    "chatter_samples": [
+      {
+        "text": "From Background Noise to Productive Sound: How Developers Can Use Music as a Mar",
+        "category": "entertainment",
+        "matched": [
+          "Music"
+        ]
+      },
+      {
+        "text": "Unraveling the Secrets of the Past: First-Ever Decoded Herculaneum Scroll Reveal",
+        "category": "news",
+        "matched": [
+          [
+            "Reveals",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "Revolutionize Inventory Management: Unlock the Power of Open-Source Barcode Scan",
+        "category": "chatter",
+        "matched": [
+          "vent"
+        ]
+      },
+      {
+        "text": "Oxide computer 3D rack guided tour 🔥394pts 💬159",
+        "category": "entertainment",
+        "matched": [
+          "tour"
+        ]
+      },
+      {
+        "text": "A game where you're an OS and have to manage processes, memory and I/O events 🔥2",
+        "category": "chatter",
+        "matched": [
+          "vent"
+        ]
+      },
+      {
+        "text": "Unofficial cross-platform Shure MV client — featured on Hacker News (🔥2pts)",
+        "category": "entertainment",
+        "matched": [
+          "MV"
+        ]
+      },
+      {
+        "text": "Show HN: Unofficial cross-platform Shure MV client — user asking for tool recomm",
+        "category": "entertainment",
+        "matched": [
+          "MV"
+        ]
+      },
+      {
+        "text": "Show HN: 1000songs.co.uk – 100 years of music, 10 tracks a year — user asking fo",
+        "category": "entertainment",
+        "matched": [
+          "music"
+        ]
+      },
+      {
+        "text": "How Can Beginners Use an AI Trading Robot? 5 Free AI Trading Robot Platforms Off",
+        "category": "job",
+        "matched": [
+          "Offer"
+        ]
+      },
+      {
+        "text": "Trust Scores for AI: Should Agents Earn Permissions Over Time? Trust Isn’t Grant",
+        "category": "chatter",
+        "matched": [
+          "rant"
+        ]
+      }
+    ],
+    "tool_signal_samples": [
+      {
+        "text": "design.md",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['md']"
+        ]
+      },
+      {
+        "text": "copilot-pull-request-reviewer",
+        "confidence": 15,
+        "features": [
+          "英文工具名词: ['viewer']"
+        ]
+      },
+      {
+        "text": "agent-toolkit-for-aws",
+        "confidence": 15,
+        "features": [
+          "英文工具名词: ['tool']"
+        ]
+      },
+      {
+        "text": "allcontributors",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('allcontributors', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "What does the \"yield\" keyword do in Python?",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['Python']"
+        ]
+      },
+      {
+        "text": "Does Python have a ternary conditional operator?",
+        "confidence": 35,
+        "features": [
+          "输入→输出链式: [('operator', 'to', '', '', '', '')]",
+          "技术概念: ['Python']"
+        ]
+      },
+      {
+        "text": "What are metaclasses in Python?",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['Python']"
+        ]
+      },
+      {
+        "text": "How do I merge two dictionaries in a single expression in Python?",
+        "confidence": 25,
+        "features": [
+          "技术概念: ['Python']",
+          "需求表达: [('How do I merge', 'do I', '', '', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "How do I create a directory, and any missing parent directories?",
+        "confidence": 30,
+        "features": [
+          "输入→输出链式: [('directory', 'to', '', '', '', ''), ('directories', 'to', '', '', '', '')]",
+          "需求表达: [('How do I create', 'do I', '', '', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "What is the difference between @staticmethod and @classmethod in Python?",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['Python']"
+        ]
+      },
+      {
+        "text": "How slicing in Python works",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['Python']"
+        ]
+      },
+      {
+        "text": "The reliability gap: what it actually takes to put an AI agent in production",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('takes to put', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "AI Customer Service Lost 30% Memory in Week One — I Wrote 3 Pytest Tests to Catch the Culprit",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Customer', 'to', '', '', '', ''), ('Tests to Catch', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Building a ‘Developer Focus Stack’: Tasks, Tools, and Sound Working Together",
+        "confidence": 35,
+        "features": [
+          "输入→输出链式: [('Working Together', 'To', '', '', '', '')]",
+          "英文工具名词: ['tool']"
+        ]
+      },
+      {
+        "text": "Top 10 Free APIs to Build Profitable Side Projects",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('APIs to Build', 'to', '', '', '', '')]"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,421 @@
+
+╔══════════════════════════════════════════════════════════╗
+║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
+║       启动时间: 2026-06-26T12:23:37.032830+00:00     ║
+╚══════════════════════════════════════════════════════════╝
+
+============================================================
+📊 阶段 -1: 数据引擎采集
+============================================================
+Traceback (most recent call last):
+  File "/home/runner/work/mintshovels-cloud/mintshovels-cloud/data_engine.py", line 467, in <module>
+    data = fetch_all()
+           ^^^^^^^^^^^
+  File "/home/runner/work/mintshovels-cloud/mintshovels-cloud/data_engine.py", line 315, in fetch_all
+    if config is None: config = load_config()
+                                ^^^^^^^^^^^^^
+  File "/home/runner/work/mintshovels-cloud/mintshovels-cloud/data_engine.py", line 17, in load_config
+    with open(CONFIG_PATH) as f:
+         ^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mintshovels-cloud/mintshovels-cloud/mintshovels_config.json'
+
+⚠️ 数据采集有错误（非致命，继续）
+
+============================================================
+📡 阶段 0: 需求雷达
+============================================================
+
+🌐 水系1: 开发者问答枢纽
+🔍 [2/25] Scraping GitHub Trending...
+  ✅ 20 repos
+🔍 [5/25] Fetching Stack Overflow...
+  ✅ 15 questions
+🔍 [4/25] Fetching V2EX...
+  ✅ 10 topics
+🔍 [12/25] Fetching Dev.to...
+  ✅ 13 articles
+🔍 [13/25] Fetching Lobsters...
+  ✅ 20 items
+
+💡 水系2: 海外效率创客社区
+🔍 [1/25] Scraping ProductHunt...
+  ✅ 20 products
+🔍 [11/25] Fetching Hacker News (Algolia API)...
+  ✅ 25 items
+🔍 [26] Scraping Show HN (Algolia)...
+  ✅ 17 Show HN posts
+🔍 [27] Scraping HN tool requests...
+  ✅ 30 tool-related Ask HN posts
+🔍 [30] Fetching HackerNoon...
+  ✅ 20 articles
+🔍 [31] Fetching InfoQ...
+  ✅ 15 articles
+
+🔍 水系3: 全球搜索趋势
+🔍 [7/25] Fetching Google Trends...
+  ✅ 10 items
+🔍 [10/25] Fetching Baidu hot...
+  ✅ 20 hot words
+
+📖 水系4: 维基百科 & AI趋势
+🔍 [8/25] Fetching Wikipedia...
+  ✅ 20 pages
+🔍 [9/25] Fetching HuggingFace...
+  ✅ 40 models
+🔍 [21/25] Fetching arXiv cs.AI...
+  ✅ 15 papers
+🔍 [22/25] Fetching Papers With Code...
+  ⚠️ Failed: Expecting value: line 1 column 1 (char 0)
+
+📦 水系5: 包注册中心 + 技术主题
+🔍 [28] Scraping npm registry search...
+  ✅ 30 npm packages
+🔍 [29] Scraping GitHub Topics...
+  ✅ 25 topics
+🔍 [3/25] Analyzing search logs...
+  ✅ 0 queries
+
+🧠 [最高优先级] 读取 AI 商机捕手用户痛点...
+  📡 捕获 0 条用户真实痛点
+
+============================================================
+🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
+============================================================
+  原始信号总量: 355
+  🚫 闲聊拦截: 21 条 (5.9%)
+  🧠 工具信号: 174 条 (49.0%)
+
+  📋 闲聊拦截样例:
+     [entertainment] From Background Noise to Productive Sound: How Developers Ca
+     [news] Unraveling the Secrets of the Past: First-Ever Decoded Hercu
+     [chatter] Revolutionize Inventory Management: Unlock the Power of Open
+     [entertainment] Oxide computer 3D rack guided tour 🔥394pts 💬159
+     [chatter] A game where you're an OS and have to manage processes, memo
+
+  🧠 工具信号样例:
+     [置信度15%] design.md
+       ↳ 技术概念: ['md']
+     [置信度15%] copilot-pull-request-reviewer
+       ↳ 英文工具名词: ['viewer']
+     [置信度15%] agent-toolkit-for-aws
+       ↳ 英文工具名词: ['tool']
+     [置信度20%] allcontributors
+    
+
+✅ 雷达完成 — 19 条建议
+
+============================================================
+🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
+============================================================
+
+  🧠 雷达特质识别 (v2.0) 摘要:
+     原始抓取: 355 条
+     🚫 闲聊拦截: 21 条 (5.9%)
+     🧠 工具信号: 174 条 (49.0%)
+     闲聊样例: From Background Noise to Productive Sound: How Dev... [entertainment]
+     工具信号样例: design.md... [置信度15%]
+
+  📊 硬核过滤器统计:
+     工具信号 174 → 有效 44
+     拒绝率: 74.7%
+
+  📊 意图分类器审计 — 审查 19 条需求
+  ──────────────────────────────────────────────────────────────────────
+  ✅ 通过 (15):
+     [PASS  |  +55] LLM Tool  [?]
+     [PASS  |  +45] Form Builder  [?]
+     [PASS  |  +70] Video Converter  [?]
+     [PASS  |  +55] Graph Tool  [?]
+     [WARN  |  +36] Unit Converter  [?]
+     [PASS  |  +70] PDF Editor  [?]
+     [PASS  |  +55] Token Analyzer  [?]
+     [PASS  |  +55] Generator  [?]
+     [WARN  |  +29] Survey Builder  [?]
+     [WARN  |  +37] Format Converter  [?]
+     [PASS  |  +55] Converter  [?]
+     [PASS  |  +45] Formatter  [?]
+     [PASS  |  +45] Editor  [?]
+     [PASS  |  +55] JSON Formatter  [?]
+     [PASS  |  +55] SQL Formatter  [?]
+  🚫 拦截 (4):
+     [BLOCK |  +20] Viewer  [?]  ← 多维评分 20 低于门槛 24
+     [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 24
+     [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 24
+     [BLOCK |  +20] Log Viewer  [?]  ← 多维评分 20 低于门槛 24
+
+============================================================
+🏭 阶段 1: 自动工厂
+============================================================
+🏭 MintShovels Auto Factory
+==================================================
+📊 Demand report loaded: 19 suggestions
+   Generated at: 2026-06-26T12:23:37.154686+00:00
+   Already in catalog: 81 tools
+   Previously produced: 0 tools
+   Existing tool pages: 64 files
+   Next shovel ID: shovel-027
+   Next script ID: script-011
+
+🔧 Producing 3 new tools:
+   • Viewer (查看器) [misc/misc]
+   • LLM Tool (大模型工具) [ai/ai-chat]
+   • Note Taker (笔记工具) [productivity/text]
+
+  🛠  Producing: Viewer → shovel-027
+     📄 Page: tools/viewer.html
+     ✅ Gate check passed
+
+  🛠  Producing: LLM Tool → shovel-028
+     📄 Page: tools/llm-tool.html
+     ✅ Gate check passed
+
+  🛠  Producing: Note Taker → shovel-029
+     📄 Page: tools/note-taker.html
+     ✅ Gate check passed
+  ✅ Inserted 3 entries into index.html
+
+  📝 Factory log updated
+
+==================================================
+🧪 TEST PHASE
+
+🧪 Running automated tests...
+----------------------------------------
+  [HTML Structure]
+  ✅ DOCTYPE declaration
+  ✅ <html> tag
+  ✅ </html> tag
+  ✅ <head> tag
+  ✅ <body> tag
+  ✅ <script> tag
+  [CDN Dependencies]
+  ✅ Tailwind CSS CDN
+  ✅ Lucide Icons CDN
+  [TOOLS Database]
+  ✅ TOOLS array defined
+  ✅ TOOLS entries (39)
+  ✅ Has Web Tools (🔧)
+  ✅ Has Scripts (📜)
+  ✅ Has Live tools
+  [Key Functions]
+  ✅ function renderAll()
+  ✅ function renderSections()
+  ✅ function renderToolCard()
+  ✅ function renderToolDetail()
+  ✅ function openToolDetail()
+  ✅ function goHome()
+  ✅ function checkRadar()
+  ✅ function switchLang()
+  ✅ function t()
+  ✅ function filterSubcat()
+  ✅ function toggleCat()
+  ✅ function clearSearch()
+  [i18n Dictionary]
+  ✅ i18n dict defined
+  ✅ has 'en' lang
+  ✅ has 'zh' lang
+  [Potential Issues]
+  ⚠️ No debug code (1 found) [WARNING]
+  ✅ API endpoint configured
+----------------------------------------
+
+  📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
+
+  🌐 Testing local server on port 9942...
+  ✅ Local server: HTTP 200, 357018 bytes
+
+✅ All tests passed!
+
+==================================================
+⏭️  Skipping deployment (--no-deploy)
+==================================================
+
+==================================================
+🏭 Pipeline complete!
+   New tools: 3
+   • shovel-027: Viewer
+   • shovel-028: LLM Tool
+   • shovel-029: Note Taker
+   Tests: ✅ Passed
+==================================================
+
+
+✅ 工厂完成 — 本次生产 3 个工具
+   🛠  Producing: Viewer → shovel-027
+   🛠  Producing: LLM Tool → shovel-028
+   🛠  Producing: Note Taker → shovel-029
+
+============================================================
+🔒 阶段 1.5: 车间门禁检查
+============================================================
+   生产工具健康率: 92.3% (39 个工具, 3 个问题)
+   问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失']
+   ✅ 门禁通过 — 健康率达标
+
+============================================================
+🧪 阶段 2: 全量工具测试
+============================================================
+
+  📋 测试 index.html 结构...
+    ✅ TOOLS 数据库: 39 工具, 39 在线, 36 ready:true, 3 ready:false
+
+  📄 测试独立工具页面...
+    ✅ ai-assistant.html
+    ✅ auto_tool_d41d8cd9.html
+    ✅ auto_x_twitter_post_to_carousel_converter.html
+    ✅ code_generator_hub.html
+    ✅ csharp_getter_setter.html
+    ✅ css_computed_analyzer.html
+    ✅ dotnet_cli_parser.html
+    ✅ editor.html
+    ✅ file_line_extractor.html
+    ✅ fstring_converter.html
+    ✅ generator.html
+    ✅ index.html
+    ✅ java_object_mapper.html
+    ✅ jquery_events.html
+    ✅ js_formatter.html
+    ✅ json_schema_generator.html
+    ✅ llm-tool.html
+    ✅ markdown-editor.html
+    ✅ note-taker.html
+    ✅ pdf-editor.html
+    ✅ prompt-optimizer.html
+    ✅ python_tree_generator.html
+    ✅ regexp_lookahead.html
+    ✅ script-001.html
+    ✅ script-002.html
+    ✅ script-003.html
+    ✅ script-004.html
+    ✅ script-005.html
+    ✅ script-006.html
+    ✅ script-007.html
+    ✅ script-008.html
+    ✅ script-009.html
+    ✅ script-010.html
+    ✅ shovel-001.html
+    ✅ shovel-002.html
+    ✅ shovel-003.html
+    ✅ shovel-004.html
+    ✅ shovel-005.html
+    ✅ shovel-006.html
+    ✅ shovel-007.html
+    ✅ shovel-008.html
+    ✅ shovel-009.html
+    ✅ shovel-010.html
+    ✅ shovel-011.html
+    ✅ shovel-012.html
+    ✅ shovel-013.html
+    ✅ shovel-014.html
+    ✅ shovel-015.html
+    ✅ shovel-016.html
+    ✅ shovel-017.html
+    ✅ shovel-018.html
+    ✅ shovel-019.html
+    ✅ shovel-020.html
+    ✅ shovel-021.html
+    ✅ shovel-022.html
+    ✅ shovel-023.html
+    ✅ shovel-024.html
+    ✅ shovel-025.html
+    ✅ shovel-026.html
+    ✅ sql-formatter.html
+    ✅ sql_formatter.html
+    ✅ svg_path_extractor.html
+    ✅ typing_macro.html
+    ✅ video-converter.html
+    ✅ view.html
+    ✅ viewer.html
+    ✅ world_map_generator.html
+
+  🌐 本地服务器测试...
+    ✅ index.html — HTTP 200, 357018B
+    ✅ tools/ai-assistant.html — HTTP 200
+    ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
+    ✅ tools/auto_x_twitter_post_to_carousel_converter.html — HTTP 200
+    ✅ tools/code_generator_hub.html — HTTP 200
+    ✅ tools/csharp_getter_setter.html — HTTP 200
+    ✅ tools/css_computed_analyzer.html — HTTP 200
+    ✅ tools/dotnet_cli_parser.html — HTTP 200
+    ✅ tools/editor.html — HTTP 200
+    ✅ tools/file_line_extractor.html — HTTP 200
+    ✅ tools/fstring_converter.html — HTTP 200
+    ✅ tools/generator.html — HTTP 200
+    ✅ tools/index.html — HTTP 200
+    ✅ tools/java_object_mapper.html — HTTP 200
+    ✅ tools/jquery_events.html — HTTP 200
+    ✅ tools/js_formatter.html — HTTP 200
+    ✅ tools/json_schema_generator.html — HTTP 200
+    ✅ tools/llm-tool.html — HTTP 200
+    ✅ tools/markdown-editor.html — HTTP 200
+    ✅ tools/note-taker.html — HTTP 200
+    ✅ tools/pdf-editor.html — HTTP 200
+    ✅ tools/prompt-optimizer.html — HTTP 200
+    ✅ tools/python_tree_generator.html — HTTP 200
+    ✅ tools/regexp_lookahead.html — HTTP 200
+    ✅ tools/script-001.html — HTTP 200
+    ✅ tools/script-002.html — HTTP 200
+    ✅ tools/script-003.html — HTTP 200
+    ✅ tools/script-004.html — HTTP 200
+    ✅ tools/script-005.html — HTTP 200
+    ✅ tools/script-006.html — HTTP 200
+    ✅ tools/script-007.html — HTTP 200
+    ✅ tools/script-008.html — HTTP 200
+    ✅ tools/script-009.html — HTTP 200
+    ✅ tools/script-010.html — HTTP 200
+    ✅ tools/shovel-001.html — HTTP 200
+    ✅ tools/shovel-002.html — HTTP 200
+    ✅ tools/shovel-003.html — HTTP 200
+    ✅ tools/shovel-004.html — HTTP 200
+    ✅ tools/shovel-005.html — HTTP 200
+    ✅ tools/shovel-006.html — HTTP 200
+    ✅ tools/shovel-007.html — HTTP 200
+    ✅ tools/shovel-008.html — HTTP 200
+    ✅ tools/shovel-009.html — HTTP 200
+    ✅ tools/shovel-010.html — HTTP 200
+    ✅ tools/shovel-011.html — HTTP 200
+    ✅ tools/shovel-012.html — HTTP 200
+    ✅ tools/shovel-013.html — HTTP 200
+    ✅ tools/shovel-014.html — HTTP 200
+    ✅ tools/shovel-015.html — HTTP 200
+    ✅ tools/shovel-016.html — HTTP 200
+    ✅ tools/shovel-017.html — HTTP 200
+    ✅ tools/shovel-018.html — HTTP 200
+    ✅ tools/shovel-019.html — HTTP 200
+    ✅ tools/shovel-020.html — HTTP 200
+    ✅ tools/shovel-021.html — HTTP 200
+    ✅ tools/shovel-022.html — HTTP 200
+    ✅ tools/shovel-023.html — HTTP 200
+    ✅ tools/shovel-024.html — HTTP 200
+    ✅ tools/shovel-025.html — HTTP 200
+    ✅ tools/shovel-026.html — HTTP 200
+    ✅ tools/sql-formatter.html — HTTP 200
+    ✅ tools/sql_formatter.html — HTTP 200
+    ✅ tools/svg_path_extractor.html — HTTP 200
+    ✅ tools/typing_macro.html — HTTP 200
+    ✅ tools/video-converter.html — HTTP 200
+    ✅ tools/view.html — HTTP 200
+    ✅ tools/viewer.html — HTTP 200
+    ✅ tools/world_map_generator.html — HTTP 200
+
+  📊 测试汇总: 143 通过, 0 失败
+
+  🏷️  标记新工具为 ready:true...
+    🚀 3 个新工具测试通过，已标记 ready:true 正式上线
+
+============================================================
+📊 流水线报告
+============================================================
+  ⏱  耗时: 2026-06-26T12:23:37.032830+00:00 → 2026-06-26T12:23:49.560366+00:00
+  📊 数据采集: WARN
+  📡 雷达: OK
+  🏭 工厂: OK
+  🔒 门禁: ✅ OK
+  💚 健康率: 92.3%
+  🧪 测试: 143✅ 0❌
+  🔧 工具总数: 39
+  🏷️  新上线: 3 个工具 (已标记 ready:true)
+  📄 独立页面: 67
+  🚀 部署: SKIPPED
+  ✅ 全线通过
+============================================================
