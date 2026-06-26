@@ -34,4 +34,5 @@ reports/
 cold_backup_20260623/
 backups/*.json
 !backups/cleanup_ledger*.json
+!backups/generated_tools.json
 20260623_数据死保/
