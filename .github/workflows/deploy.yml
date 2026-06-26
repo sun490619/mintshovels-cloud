@@ -38,6 +38,7 @@ jobs:
     name: 🌐 Deploy to Cloudflare Pages
     runs-on: ubuntu-latest
     needs: deploy
+    if: always() && !cancelled() && needs.deploy.result != 'skipped'
     timeout-minutes: 10
     steps:
       - name: 📥 Checkout code

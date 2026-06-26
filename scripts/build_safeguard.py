@@ -6,8 +6,8 @@
 只要检测到数据污染，立刻抛出 Error 并终止部署链。
 
 校验规则：
-  1. TOOLS 数组必须恰好包含 33 个精品手写工具
-  2. 必须包含 shovel-001 ~ shovel-023（23个网页工具）
+  1. TOOLS 数组必须恰好包含 36 个精品手写工具
+  2. 必须包含 shovel-001 ~ shovel-026（26个网页工具）
   3. 必须包含 script-001 ~ script-010（10个可下载脚本）
   4. getAllTools() 函数中严禁包含 AUTO_TOOLS 引用
   5. 工具 ID 不得重复、不得缺失、不得有多余
@@ -22,10 +22,10 @@ import sys
 import json
 
 INDEX_FILE = "index.html"
-REQUIRED_SHOVELS = [f"shovel-{i:03d}" for i in range(1, 24)]   # 001-023
+REQUIRED_SHOVELS = [f"shovel-{i:03d}" for i in range(1, 27)]   # 001-026
 REQUIRED_SCRIPTS = [f"script-{i:03d}" for i in range(1, 11)]    # 001-010
 REQUIRED_TOOLS = REQUIRED_SHOVELS + REQUIRED_SCRIPTS
-EXPECTED_TOTAL = len(REQUIRED_TOOLS)  # 33
+EXPECTED_TOTAL = len(REQUIRED_TOOLS)  # 36
 
 def fail(msg):
     print(f"\n🔴 编译死锁触发！{msg}")
