@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-26T20:01:13.907084+00:00     ║
+║       启动时间: 2026-06-26T22:19:56.963283+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 20 Show HN posts
+  ✅ 18 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 355
-  🚫 闲聊拦截: 20 条 (5.6%)
-  🧠 工具信号: 176 条 (49.6%)
+  原始信号总量: 352
+  🚫 闲聊拦截: 15 条 (4.3%)
+  🧠 工具信号: 175 条 (49.7%)
 
   📋 闲聊拦截样例:
-     [entertainment] Free esports API for developers — 2026 guide
-     [chatter] A game where you're an OS and have to manage processes, memo
+     [job] Unlock Your Dream Job: Hightouch (YC S19) Recruitment Alert 
+     [news] EXCLUSIVE: US Government to Control Access to GPT-5.6 - Will
      [chatter] Giskard: LLM esting platform for preventing hallucinations a
      [news] Roblox parental controls are a dystopian security disaster —
-     [chatter] Show HN: Agnes AI – Free multimodal API (text, image, video)
+     [chatter] Ventora Expands Its AI Business Builder to Help Solo Founder
 
   🧠 工具信号样例:
      [置信度15%] design.md
@@ -100,7 +100,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] agent-toolkit-for-aws
        ↳ 英文工具名词: ['tool']
      [置信度20%] allcontributors
-       ↳ 输入→输
+       ↳ 输
 
 ✅ 雷达完成 — 16 条建议
 
@@ -109,15 +109,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 355 条
-     🚫 闲聊拦截: 20 条 (5.6%)
-     🧠 工具信号: 176 条 (49.6%)
-     闲聊样例: Free esports API for developers — 2026 guide... [entertainment]
+     原始抓取: 352 条
+     🚫 闲聊拦截: 15 条 (4.3%)
+     🧠 工具信号: 175 条 (49.7%)
+     闲聊样例: Unlock Your Dream Job: Hightouch (YC S19) Recruitm... [job]
      工具信号样例: design.md... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 176 → 有效 37
-     拒绝率: 79.0%
+     工具信号 175 → 有效 37
+     拒绝率: 78.9%
 
   📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -146,7 +146,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-06-26T20:01:14.045812+00:00
+   Generated at: 2026-06-26T22:19:57.120938+00:00
    Already in catalog: 87 tools
    Previously produced: 0 tools
    Existing tool pages: 70 files
@@ -369,7 +369,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-26T20:01:13.907084+00:00 → 2026-06-26T20:01:24.475344+00:00
+  ⏱  耗时: 2026-06-26T22:19:56.963283+00:00 → 2026-06-26T22:20:09.527818+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
