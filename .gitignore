@@ -13,6 +13,7 @@ chrome_profile/
 credentials/
 node_modules/
 mangled/
+mintshovels_config.json
 
 # 本地日志
 *.err

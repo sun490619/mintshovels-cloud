@@ -1,9 +1,11 @@
 {
-  "mode": "deep",
   "ok": true,
-  "health_rate": 100.0,
-  "total": 1558,
-  "hollow_count": 0,
-  "functional_count": 1558,
-  "checked_at": "2026-06-26T02:46:58.149512+00:00Z"
+  "detail": "🟢 v1.6已切除自动生成垃圾 (3314条JSON审计记录, 0个实际文件) | 归档1558工具真实健康率 100.0%",
+  "hollow_count": 3290,
+  "total": 3314,
+  "health_rate": 0.7,
+  "checked_at": "2026-06-26T06:00:05.609073+00:00Z",
+  "archive_health_rate": 100.0,
+  "archive_total": 1558,
+  "mode": "snapshot"
 }

@@ -634,19 +634,41 @@ def main():
         index_html = f.read()
 
     existing_names = set(re.findall(r'name:\s*"([^"]+)"', index_html))
+    
+    # 🔒 去重增强：检查 tools/ 目录下已有文件
+    existing_files = set()
+    if os.path.exists(TOOLS_DIR):
+        for f in os.listdir(TOOLS_DIR):
+            if f.endswith(".html"):
+                # 去掉 .html 后缀作为文件标识
+                existing_files.add(f.replace(".html", ""))
+    
     print(f"   Already in catalog: {len(existing_names)} tools")
     print(f"   Previously produced: {len(produced_ids)} tools")
+    print(f"   Existing tool pages: {len(existing_files)} files")
 
     # 3. 获取下一个可用ID
     max_shovel, max_script = get_next_tool_id(index_html)
     print(f"   Next shovel ID: shovel-{max_shovel + 1:03d}")
     print(f"   Next script ID: script-{max_script + 1:03d}")
 
-    # 4. 筛选新工具
+    # 4. 筛选新工具（多层去重）
     new_suggestions = []
+    seen_names_in_batch = set()  # 批次内去重
     for s in suggestions:
-        if s["name"] not in existing_names:
-            new_suggestions.append(s)
+        name = s["name"]
+        slug = name.lower().replace(" ", "-").replace("/", "-")
+        # 去重1: 名称已在 TOOLS 数据库中
+        if name in existing_names:
+            continue
+        # 去重2: 文件已存在于 tools/ 目录
+        if slug in existing_files:
+            continue
+        # 去重3: 批次内去重
+        if name in seen_names_in_batch:
+            continue
+        seen_names_in_batch.add(name)
+        new_suggestions.append(s)
 
     if not new_suggestions:
         print("\n✅ All suggested tools already exist in catalog. Nothing to produce.")
@@ -740,9 +762,12 @@ def main():
     if new_entries:
         update_index_html(new_entries, dry_run=args.dry_run)
 
-    # 7. 更新工厂日志
+    # 7. 更新工厂日志（去重写入）
+    existing_produced = set(log.get("produced", []))
     for item in produced_this_run:
-        log["produced"].append(item["tool_id"])
+        if item["tool_id"] not in existing_produced:
+            log["produced"].append(item["tool_id"])
+            existing_produced.add(item["tool_id"])
     log["last_run"] = datetime.now(timezone.utc).isoformat()
 
     if not args.dry_run:

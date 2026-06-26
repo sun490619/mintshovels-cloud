@@ -290,6 +290,45 @@ def now_iso():
 
 # ─── 阶段 0: 需求雷达 ──────────────────────────────────────────────────
 
+def run_data_engine():
+    """运行数据引擎 — 抓取 Cloudflare/GA4/GSC/Bing 数据并持久化"""
+    print("\n" + "=" * 60)
+    print("📊 阶段 -1: 数据引擎采集")
+    print("=" * 60)
+    
+    engine_script = os.path.join(BASE_DIR, "data_engine.py")
+    if not os.path.exists(engine_script):
+        print("  ⚠️ data_engine.py 不存在，跳过数据采集")
+        return False, None
+    
+    try:
+        result = subprocess.run(
+            ["python3", engine_script],
+            capture_output=True, text=True, timeout=90, cwd=BASE_DIR
+        )
+        output = result.stdout + result.stderr
+        print(output[:2000])
+        
+        if result.returncode != 0:
+            print("⚠️ 数据采集有错误（非致命，继续）")
+            return False, output
+        
+        # 检查结果
+        if "cf_uv" in output or "activeUsers" in output:
+            print("✅ 数据引擎采集完成")
+            return True, None
+        else:
+            print("⚠️ 数据引擎返回不完整")
+            return False, None
+            
+    except subprocess.TimeoutExpired:
+        print("⚠️ 数据引擎超时")
+        return False, None
+    except Exception as e:
+        print(f"⚠️ 数据引擎异常: {e}")
+        return False, None
+
+
 def run_radar():
     """运行需求雷达，抓取最新工具需求"""
     print("\n" + "=" * 60)
@@ -645,6 +684,7 @@ def main():
     start_time = now_iso()
     summary = {
         "start_time": start_time,
+        "data_engine": None,
         "radar": None,
         "factory": None,
         "gate_check": None,
@@ -659,13 +699,18 @@ def main():
     }
     
     print("\n" + "╔" + "═" * 58 + "╗")
-    print("║" + "   MintShovels 全自动流水线 — 雷达→工厂→门禁→测试→部署".center(50) + "║")
+    print("║" + "   MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署".center(50) + "║")
     print("║" + f"   启动时间: {start_time}".center(50) + "║")
     print("╚" + "═" * 58 + "╝")
     
     all_stages_pass = True
     
     if not args.test_only:
+        # 阶段 -1: 数据引擎采集 (CF/GA4/GSC/Bing)
+        engine_ok, engine_data = run_data_engine()
+        summary["data_engine"] = "OK" if engine_ok else "WARN"
+        # 数据采集失败不阻止后续流程
+        
         # 阶段 0: 雷达
         radar_ok, radar_report = run_radar()
         summary["radar"] = "OK" if radar_ok else "FAIL"
@@ -765,6 +810,7 @@ def main():
     print("📊 流水线报告")
     print("=" * 60)
     print(f"  ⏱  耗时: {start_time} → {summary['end_time']}")
+    print(f"  📊 数据采集: {summary['data_engine'] or 'SKIP'}")
     print(f"  📡 雷达: {summary['radar'] or 'SKIP'}")
     print(f"  🏭 工厂: {summary['factory'] or 'SKIP'}")
     if summary.get('gate_check'):

@@ -1,10 +1,10 @@
 {
-  "_note": "本文件中所有敏感凭据已迁移到环境变量。保留此文件作为配置模板。请勿将真实凭据提交到 Git！",
+  "_note": "示例配置。复制为 mintshovels_config.json 并填入真实凭据。该文件已在 .gitignore 中排除。",
   "site_url": "https://mintshovels.com",
   "site_name": "MintShovels",
   "ga4": {
-    "property_id": "properties/542119434",
-    "measurement_id": "G-D53DQ3JKKL",
+    "property_id": "properties/XXXXXXXXX",
+    "measurement_id": "G-XXXXXXXXXX",
     "credentials_file": "credentials/mintshovels-sa-key.json"
   },
   "gsc": {
@@ -12,18 +12,18 @@
     "credentials_file": "credentials/mintshovels-sa-key.json"
   },
   "bing": {
-    "api_key": "FROM_ENV_BING_API_KEY",
+    "api_key": "YOUR_BING_API_KEY",
     "site_url": "https://mintshovels.com"
   },
   "clarity": {
-    "project_id": "xavbiwb9dt"
+    "project_id": "XXXXXXXXXX"
   },
   "cloudflare": {
-    "api_token": "FROM_ENV_CF_API_TOKEN",
-    "analytics_token": "FROM_ENV_CF_ANALYTICS_TOKEN",
-    "purge_token": "FROM_ENV_CF_PURGE_TOKEN",
-    "zone_id": "FROM_ENV_CF_ZONE_ID",
-    "account_id": "FROM_ENV_CF_ACCOUNT_ID"
+    "api_token": "YOUR_CF_API_TOKEN",
+    "analytics_token": "YOUR_CF_ANALYTICS_TOKEN",
+    "purge_token": "YOUR_CF_PURGE_TOKEN",
+    "zone_id": "YOUR_CF_ZONE_ID",
+    "account_id": ""
   },
   "alerts": {
     "traffic_drop_pct": 50,
@@ -34,7 +34,7 @@
   },
   "notifications": {
     "slack_webhook": "",
-    "email_to": "sun490619@gmail.com",
+    "email_to": "your@email.com",
     "telegram_bot_token": "",
     "telegram_chat_id": ""
   }

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.mintshovels.pipeline</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/python3</string>
+        <string>/Users/dawei/CodeBuddy/20260619190048/engine/pipeline.py</string>
+        <string>--max</string>
+        <string>3</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/dawei/CodeBuddy/20260619190048</string>
+
+    <!-- 每3小时运行一次 -->
+    <key>StartInterval</key>
+    <integer>10800</integer>
+
+    <!-- 首次加载后10秒开始第一次运行 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- 日志文件 -->
+    <key>StandardOutPath</key>
+    <string>/Users/dawei/CodeBuddy/20260619190048/logs/pipeline_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/dawei/CodeBuddy/20260619190048/logs/pipeline_stderr.log</string>
+
+    <!-- 环境变量 -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin</string>
+        <key>HOME</key>
+        <string>/Users/dawei</string>
+        <key>LANG</key>
+        <string>en_US.UTF-8</string>
+    </dict>
+
+    <!-- 运行时间限制 -->
+    <key>TimeOut</key>
+    <integer>1800</integer>
+
+    <!-- 如果错过运​​行窗口，立即运行 -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- 进程保持 -->
+    <key>KeepAlive</key>
+    <false/>
+</dict>
+</plist>

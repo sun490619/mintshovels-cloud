@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>X (twitter) Post to Carousel Converter</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;display:flex;justify-content:center;padding:40px 20px;min-height:100vh}
+.container{max-width:900px;width:100%}
+h1{font-size:22px;color:#58a6ff;margin-bottom:6px}
+.sub{font-size:13px;color:#8b949e;margin-bottom:24px}
+.box{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px;margin-bottom:16px}
+.box h3{font-size:14px;color:#8b949e;margin-bottom:10px}
+textarea{width:100%;min-height:180px;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px;color:#c9d1d9;font-family:'SF Mono',Monaco,monospace;font-size:13px;resize:vertical;outline:none}
+textarea:focus{border-color:#58a6ff}
+pre{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:14px;font-size:13px;overflow:auto;max-height:350px;white-space:pre-wrap;font-family:'SF Mono',Monaco,monospace;line-height:1.5}
+.btn{background:#238636;color:#fff;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;font-size:14px;font-weight:500;margin-right:8px;margin-top:12px;transition:background .2s}
+.btn:hover{background:#2ea043}
+.btn.copy{background:#21262d;border:1px solid #30363d;color:#c9d1d9}
+.btn.copy:hover{background:#30363d}
+.btn.sample{background:#1f2937;border:1px solid #374151;color:#9ca3af;font-size:12px;padding:6px 12px}
+.btn.sample:hover{background:#374151}
+.result-box{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:14px;min-height:60px;font-family:'SF Mono',Monaco,monospace;font-size:13px}
+.toast{position:fixed;top:20px;right:20px;background:#238636;color:#fff;padding:10px 18px;border-radius:6px;font-size:13px;opacity:0;transition:opacity .3s;z-index:999}
+.toast.show{opacity:1}
+.toast.error{background:#da3633}
+.flex-row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.flex-row input{padding:8px 12px;background:#0d1117;border:1px solid #30363d;border-radius:6px;color:#c9d1d9;font-size:14px;outline:none}
+.flex-row input:focus{border-color:#58a6ff}
+.badge{display:inline-block;padding:3px 8px;border-radius:12px;font-size:11px;font-weight:500}
+.badge-auto{background:#1f2937;color:#9ca3af;border:1px solid #374151}
+@media(max-width:700px){.flex-row{flex-direction:column;align-items:stretch}}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🎨 X (twitter) Post to Carousel Converter</h1>
+<p class="sub">X (Twitter) Post to Carousel Converter <span class="badge badge-auto">Auto Generated</span></p>
+<div class="box">
+<h3>🎯 Pick or Enter Color</h3>
+<div class="flex-row">
+<input type="color" id="picker" value="#58a6ff" onchange="fromPicker()" style="width:50px;height:40px;padding:2px">
+<input type="text" id="hexInput" placeholder="#58a6ff" style="flex:1;font-family:'SF Mono',monospace" oninput="fromHex()">
+<button class="btn sample" onclick="randomColor()">🎲 Random</button>
+</div>
+</div>
+<div class="box">
+<h3>📊 Conversions</h3>
+<div class="result-box" id="output">
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">
+<div id="swatch" style="width:60px;height:60px;border-radius:8px;background:#58a6ff;border:1px solid #30363d"></div>
+<div><strong>HEX:</strong> <span id="hexVal">#58a6ff</span><br>
+<strong>RGB:</strong> <span id="rgbVal">rgb(88, 166, 255)</span><br>
+<strong>HSL:</strong> <span id="hslVal">hsl(212, 100%, 67%)</span></div>
+</div>
+</div>
+<button class="btn copy" onclick="copyAll()">📋 Copy All</button>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+function hexToRgb(h){{h=h.replace("#","");if(h.length===3)h=h.split("").map(function(c){{return c+c}}).join("");var r=parseInt(h.substring(0,2),16);var g=parseInt(h.substring(2,4),16);var b=parseInt(h.substring(4,6),16);return[r,g,b]}}
+function rgbToHsl(r,g,b){{r/=255;g/=255;b/=255;var max=Math.max(r,g,b),min=Math.min(r,g,b);var h,s,l=(max+min)/2;if(max===min){{h=s=0}}else{{var d=max-min;s=l>0.5?d/(2-max-min):d/(max+min);switch(max){{case r:h=((g-b)/d+(g<b?6:0))/6;break;case g:h=((b-r)/d+2)/6;break;case b:h=((r-g)/d+4)/6;break}}h=Math.round(h*360)}}s=Math.round(s*100);l=Math.round(l*100);return[h,s,l]}}
+function updateDisplay(hex){{var rgb=hexToRgb(hex);var hsl=rgbToHsl(rgb[0],rgb[1],rgb[2]);document.getElementById("swatch").style.background=hex;document.getElementById("hexVal").textContent=hex;document.getElementById("rgbVal").textContent="rgb("+rgb.join(", ")+")";document.getElementById("hslVal").textContent="hsl("+hsl.join(", ")+"%)";document.getElementById("hexInput").value=hex;document.getElementById("picker").value=hex}}
+function fromPicker(){{updateDisplay(document.getElementById("picker").value)}}
+function fromHex(){{var v=document.getElementById("hexInput").value.trim();if(/^#[0-9a-fA-F]{{3,6}}$/.test(v)){{updateDisplay(v)}}}}
+function randomColor(){{var c="#"+Math.floor(Math.random()*16777215).toString(16).padStart(6,"0");updateDisplay(c)}}
+function copyAll(){{var h=document.getElementById("hexVal").textContent;var r=document.getElementById("rgbVal").textContent;var s=document.getElementById("hslVal").textContent;navigator.clipboard.writeText(h+"\n"+r+"\n"+s).then(function(){{showToast("✅ Copied!")}})}}
+<script>
+function showToast(msg,isErr){var t=document.getElementById('toast');t.textContent=msg;t.className='toast'+(isErr?' error':'')+' show';setTimeout(function(){t.className='toast'},2000)}
+function copyText(elId){var el=document.getElementById(elId);var txt=el.tagName==='TEXTAREA'||el.tagName==='INPUT'?el.value:el.textContent;navigator.clipboard.writeText(txt).then(function(){showToast('✅ 已复制')}).catch(function(){showToast('复制失败',true)})}
+</script>
+</script>
+</body>
+</html>

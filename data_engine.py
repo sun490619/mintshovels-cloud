@@ -325,6 +325,144 @@ def fetch_all(config: dict = None) -> dict:
     save_snapshot(result)
     return result
 
-if __name__ == "__main__":
+# ═══════ 8. 自动工厂触发器 ═══════
+def trigger_auto_factory(dry_run=False, max_count=3):
+    """
+    数据引擎采集完成后，自动检测需求雷达报告中的新工具建议，
+    如果存在尚未生产的新工具，触发 auto_factory 进行生产。
+    
+    内置去重：对比 index.html 已有工具名称，跳过已存在的工具。
+    """
+    demand_path = os.path.join(SCRIPT_DIR, "reports", "demand_report.json")
+    factory_log_path = os.path.join(SCRIPT_DIR, "reports", "factory_log.json")
+    
+    if not os.path.exists(demand_path):
+        print("📡 无需求雷达报告，跳过工厂触发")
+        return {"triggered": False, "reason": "no_demand_report"}
+    
+    try:
+        with open(demand_path, "r", encoding="utf-8") as f:
+            demand = json.load(f)
+    except (json.JSONDecodeError, IOError) as e:
+        print(f"⚠️ 需求报告读取失败: {e}")
+        return {"triggered": False, "reason": "demand_read_error"}
+    
+    suggestions = demand.get("tool_suggestions", [])
+    if not suggestions:
+        print("📡 需求报告无工具建议")
+        return {"triggered": False, "reason": "no_suggestions"}
+    
+    # 读取 index.html 中已有工具名称（去重关键）
+    index_path = os.path.join(SCRIPT_DIR, "index.html")
+    existing_names = set()
+    if os.path.exists(index_path):
+        import re as _re
+        with open(index_path, "r", encoding="utf-8") as f:
+            html = f.read()
+        existing_names = set(_re.findall(r'name:\s*"([^"]+)"', html))
+    
+    # 读取工厂日志中已生产的工具ID
+    produced_ids = set()
+    if os.path.exists(factory_log_path):
+        try:
+            with open(factory_log_path, "r", encoding="utf-8") as f:
+                flog = json.load(f)
+            produced_ids = set(flog.get("produced", []))
+        except (json.JSONDecodeError, IOError):
+            pass
+    
+    # 筛选真正新的工具建议（名称不在已有工具中）
+    truly_new = []
+    for s in suggestions:
+        name = s.get("name", "")
+        if name and name not in existing_names:
+            # 额外去重：检查工厂日志是否已记录
+            # 这里按名称去重，不按ID（ID在auto_factory里分配）
+            truly_new.append(s)
+    
+    if not truly_new:
+        print(f"✅ 所有 {len(suggestions)} 条建议的工具已存在于目录中，无需生产")
+        return {"triggered": False, "reason": "all_exist", "suggestions_count": len(suggestions), "existing_count": len(existing_names)}
+    
+    print(f"\n🏭 数据引擎检测到 {len(truly_new)} 个新工具需求（共 {len(suggestions)} 条建议，{len(existing_names)} 个已存在）")
+    for s in truly_new[:5]:
+        print(f"   • {s.get('name', '?')} ({s.get('name_zh', '?')})")
+    
+    if dry_run:
+        print("[DRY-RUN] 跳过实际生产")
+        return {"triggered": True, "dry_run": True, "new_count": len(truly_new)}
+    
+    # 触发 auto_factory
+    try:
+        import subprocess as _sp
+        factory_script = os.path.join(SCRIPT_DIR, "engine", "auto_factory.py")
+        cmd = ["python3", factory_script, "--max", str(min(max_count, len(truly_new))), "--no-deploy"]
+        result = _sp.run(cmd, capture_output=True, text=True, timeout=120, cwd=SCRIPT_DIR)
+        output = result.stdout + result.stderr
+        print(output[:2000])
+        
+        produced = [line.strip() for line in output.split("\n") if "Producing:" in line]
+        return {
+            "triggered": True,
+            "new_count": len(truly_new),
+            "produced_this_run": len(produced),
+            "factory_output": output[-500:],
+        }
+    except _sp.TimeoutExpired:
+        print("❌ 工厂触发超时")
+        return {"triggered": False, "reason": "factory_timeout"}
+    except Exception as e:
+        print(f"❌ 工厂触发失败: {e}")
+        return {"triggered": False, "reason": str(e)}
+
+
+def full_pipeline():
+    """
+    完整数据流水线: 采集 → 诊断 → 工厂触发
+    供定时任务或健康检查调用
+    """
+    print("=" * 50)
+    print("🔬 MintShovels 数据引擎 + 自动工厂")
+    print("=" * 50)
+    
+    # 阶段1: 全量数据采集
     data = fetch_all()
-    print(json.dumps({k: v if k!="diagnostics" else f"{len(v)}条诊断" for k,v in data.items()}, ensure_ascii=False, indent=2))
+    
+    # 阶段2: 诊断
+    diags = data.get("diagnostics", [])
+    issues = [d for d in diags if d["severity"] in ("🔴", "🟡")]
+    print(f"\n📊 诊断: {len(diags)}条, {len(issues)}个需关注")
+    for d in issues:
+        print(f"  {d['severity']} {d['title']}: {d['action']}")
+    
+    # 阶段3: 自动工厂触发
+    factory_result = trigger_auto_factory(dry_run=False, max_count=3)
+    
+    # 汇总
+    data["factory"] = factory_result
+    summary_path = os.path.join(SCRIPT_DIR, "reports", "pipeline_summary.json")
+    try:
+        with open(summary_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2, default=str)
+    except IOError:
+        pass
+    
+    print(f"\n{'='*50}")
+    print(f"✅ 全流程完成")
+    print(f"{'='*50}")
+    return data
+
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "--full":
+        # 完整流水线模式
+        data = full_pipeline()
+    elif len(sys.argv) > 1 and sys.argv[1] == "--factory":
+        # 仅工厂触发模式
+        result = trigger_auto_factory(dry_run="--dry-run" in sys.argv, max_count=3)
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+    else:
+        # 默认：仅数据采集
+        data = fetch_all()
+        print(json.dumps({k: v if k!="diagnostics" else f"{len(v)}条诊断" for k,v in data.items()}, ensure_ascii=False, indent=2))

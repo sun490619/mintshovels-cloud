@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_judged": 206,
+  "total_judged": 211,
   "total_corrected": 1,
   "history": [
     {
@@ -2354,6 +2354,66 @@
       "is_unmet": false,
       "is_feasible": false,
       "feasibility_reason": "非工具需求，无需评估可行性。"
+    },
+    {
+      "text": "Show HN: Turns Any XPost into Carousel",
+      "timestamp": "2026-06-26T13:11:22.072111",
+      "pass": true,
+      "verdict": "PASS",
+      "canonical_name": "X (Twitter) Post to Carousel Converter",
+      "confidence": 95,
+      "reason": "用户需要将社交媒体帖子（XPost）转换为适合展示的轮播图（Carousel）格式，这是一个明确的内容处理需求。",
+      "is_unmet": false,
+      "is_feasible": true,
+      "feasibility_reason": "通过调用社交媒体API获取文本和图片，利用前端Canvas或后端图像处理库即可生成轮播图，技术实现路径清晰。"
+    },
+    {
+      "text": "Show HN: Appaca – AI Workspace for Operators",
+      "timestamp": "2026-06-26T13:11:23.432385",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 100,
+      "reason": "该文本是典型的Show HN（项目展示）推广内容，属于产品发布而非用户提出的具体工具需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "文本描述的是一个已存在的产品，而非未满足的工具需求。"
+    },
+    {
+      "text": "Show HN: Trophikos – a calm, ad-free recipe and cocktail library for iOS",
+      "timestamp": "2026-06-26T13:11:24.583994",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 100,
+      "reason": "该文本是对现有已发布产品（Trophikos）的介绍，属于产品推广或新闻资讯，而非用户提出的未满足需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "该内容本身即为一个已存在的应用，不属于待开发的工具需求。"
+    },
+    {
+      "text": "OpenAI will initially only release ChatGPT 5.6 to government-approved customers",
+      "timestamp": "2026-06-26T13:11:25.751866",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": null,
+      "confidence": 100,
+      "reason": "该文本属于新闻资讯描述，而非用户提出的功能性需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "不涉及任何可操作的输入输出逻辑，属于信息陈述。"
+    },
+    {
+      "text": "Leave Windows 11 Idle for 24 Hours and Watch What Happens [video][18 mins]",
+      "timestamp": "2026-06-26T13:11:26.882742",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": null,
+      "confidence": 100,
+      "reason": "该文本是一篇视频内容的标题，属于新闻或内容分享，而非用户提出的工具需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "内容本身是对视频的描述，不包含任何可转化为在线工具的输入输出逻辑。"
     }
   ],
   "corrections": [

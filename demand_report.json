@@ -1,56 +1,14 @@
 {
-  "timestamp": "2026-06-26T11:07:45.842377",
+  "timestamp": "2026-06-26T13:11:26.889522",
   "stats": {
-    "total": 25,
-    "passed": 3,
-    "blocked": 22,
+    "total": 30,
+    "passed": 4,
+    "blocked": 26,
     "warned": 0
   },
   "results": [
     {
-      "text": "Show HN: HowMuch – Wordle, but you guess prices",
-      "pain_signal": {
-        "has_signal": false,
-        "level": 0,
-        "matched": []
-      },
-      "classification": {
-        "pass": false,
-        "is_unmet": false,
-        "is_feasible": false,
-        "canonical_name": "N/A",
-        "tool_type": "other",
-        "confidence": 100,
-        "reason": "该文本描述的是一个已经存在的在线游戏项目（Show HN），而非一个未被满足的工具需求。",
-        "feasibility_reason": "该项目已作为成品存在，不属于未满足的工具需求。",
-        "verdict": "BLOCK",
-        "raw_text": "Show HN: HowMuch – Wordle, but you guess prices"
-      },
-      "timestamp": "2026-06-26T11:07:41.199184"
-    },
-    {
-      "text": "How to Write an Effective Software Design Document",
-      "pain_signal": {
-        "has_signal": false,
-        "level": 0,
-        "matched": []
-      },
-      "classification": {
-        "pass": false,
-        "is_unmet": false,
-        "is_feasible": false,
-        "canonical_name": "N/A",
-        "tool_type": "other",
-        "confidence": 100,
-        "reason": "该文本是一个关于如何撰写软件设计文档的教程或指南标题，属于知识获取需求，而非可自动化的工具需求。",
-        "feasibility_reason": "该需求属于内容创作指导，无法通过单一的输入输出逻辑转化为自动化工具。",
-        "verdict": "BLOCK",
-        "raw_text": "How to Write an Effective Software Design Document"
-      },
-      "timestamp": "2026-06-26T11:07:42.854745"
-    },
-    {
-      "text": "Show HN: Bikepacking Planner",
+      "text": "Show HN: Turns Any XPost into Carousel",
       "pain_signal": {
         "has_signal": false,
         "level": 0,
@@ -60,18 +18,18 @@
         "pass": true,
         "is_unmet": false,
         "is_feasible": true,
-        "canonical_name": "Bikepacking 路线规划器",
-        "tool_type": "generator",
-        "confidence": 90,
-        "reason": "用户需要一个专门针对自行车露营（Bikepacking）的路线规划工具，用于规划长途骑行路径及补给点。",
-        "feasibility_reason": "基于地图API（如Mapbox/Google Maps）和地理信息数据，通过前端算法即可实现路径规划和兴趣点标注。",
+        "canonical_name": "X (Twitter) Post to Carousel Converter",
+        "tool_type": "converter",
+        "confidence": 95,
+        "reason": "用户需要将社交媒体帖子（XPost）转换为适合展示的轮播图（Carousel）格式，这是一个明确的内容处理需求。",
+        "feasibility_reason": "通过调用社交媒体API获取文本和图片，利用前端Canvas或后端图像处理库即可生成轮播图，技术实现路径清晰。",
         "verdict": "PASS",
-        "raw_text": "Show HN: Bikepacking Planner"
+        "raw_text": "Show HN: Turns Any XPost into Carousel"
       },
-      "timestamp": "2026-06-26T11:07:44.225622"
+      "timestamp": "2026-06-26T13:11:22.077877"
     },
     {
-      "text": "Xbox follows Apple with price increases",
+      "text": "Show HN: Appaca – AI Workspace for Operators",
       "pain_signal": {
         "has_signal": false,
         "level": 0,
@@ -81,15 +39,78 @@
         "pass": false,
         "is_unmet": false,
         "is_feasible": false,
-        "canonical_name": "无",
+        "canonical_name": "N/A",
         "tool_type": "other",
         "confidence": 100,
-        "reason": "该文本属于新闻资讯报道，描述的是商业公司的定价策略，不包含任何用户操作需求。",
-        "feasibility_reason": "非工具需求，无需评估可行性。",
+        "reason": "该文本是典型的Show HN（项目展示）推广内容，属于产品发布而非用户提出的具体工具需求。",
+        "feasibility_reason": "文本描述的是一个已存在的产品，而非未满足的工具需求。",
         "verdict": "BLOCK",
-        "raw_text": "Xbox follows Apple with price increases"
+        "raw_text": "Show HN: Appaca – AI Workspace for Operators"
       },
-      "timestamp": "2026-06-26T11:07:45.775878"
+      "timestamp": "2026-06-26T13:11:23.437387"
+    },
+    {
+      "text": "Show HN: Trophikos – a calm, ad-free recipe and cocktail library for iOS",
+      "pain_signal": {
+        "has_signal": false,
+        "level": 0,
+        "matched": []
+      },
+      "classification": {
+        "pass": false,
+        "is_unmet": false,
+        "is_feasible": false,
+        "canonical_name": "N/A",
+        "tool_type": "other",
+        "confidence": 100,
+        "reason": "该文本是对现有已发布产品（Trophikos）的介绍，属于产品推广或新闻资讯，而非用户提出的未满足需求。",
+        "feasibility_reason": "该内容本身即为一个已存在的应用，不属于待开发的工具需求。",
+        "verdict": "BLOCK",
+        "raw_text": "Show HN: Trophikos – a calm, ad-free recipe and cocktail library for iOS"
+      },
+      "timestamp": "2026-06-26T13:11:24.588324"
+    },
+    {
+      "text": "OpenAI will initially only release ChatGPT 5.6 to government-approved customers",
+      "pain_signal": {
+        "has_signal": false,
+        "level": 0,
+        "matched": []
+      },
+      "classification": {
+        "pass": false,
+        "is_unmet": false,
+        "is_feasible": false,
+        "canonical_name": null,
+        "tool_type": "other",
+        "confidence": 100,
+        "reason": "该文本属于新闻资讯描述，而非用户提出的功能性需求。",
+        "feasibility_reason": "不涉及任何可操作的输入输出逻辑，属于信息陈述。",
+        "verdict": "BLOCK",
+        "raw_text": "OpenAI will initially only release ChatGPT 5.6 to government-approved customers"
+      },
+      "timestamp": "2026-06-26T13:11:25.757322"
+    },
+    {
+      "text": "Leave Windows 11 Idle for 24 Hours and Watch What Happens [video][18 mins]",
+      "pain_signal": {
+        "has_signal": false,
+        "level": 0,
+        "matched": []
+      },
+      "classification": {
+        "pass": false,
+        "is_unmet": false,
+        "is_feasible": false,
+        "canonical_name": null,
+        "tool_type": "other",
+        "confidence": 100,
+        "reason": "该文本是一篇视频内容的标题，属于新闻或内容分享，而非用户提出的工具需求。",
+        "feasibility_reason": "内容本身是对视频的描述，不包含任何可转化为在线工具的输入输出逻辑。",
+        "verdict": "BLOCK",
+        "raw_text": "Leave Windows 11 Idle for 24 Hours and Watch What Happens [video][18 mins]"
+      },
+      "timestamp": "2026-06-26T13:11:26.887507"
     }
   ]
 }

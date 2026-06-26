@@ -1,36 +1,42 @@
 {
-  "updated_at": "2026-06-26T11:07:39.425278",
+  "updated_at": "2026-06-26T13:11:03.205714",
   "sources": {
     "reddit": 0,
-    "hackernews": 4,
+    "hackernews": 5,
     "stackoverflow": 43,
     "github": 1
   },
-  "candidates_count": 4,
+  "candidates_count": 5,
   "candidates": [
     {
-      "text": "Show HN: HowMuch – Wordle, but you guess prices",
+      "text": "Show HN: Turns Any XPost into Carousel",
       "source": "hackernews",
-      "url": "https://howmuchgame.com/",
-      "fetched_at": "2026-06-26T10:58:22.453600"
+      "url": "https://tocarousel.app",
+      "fetched_at": "2026-06-26T13:08:00.125692"
     },
     {
-      "text": "How to Write an Effective Software Design Document",
+      "text": "Show HN: Appaca – AI Workspace for Operators",
       "source": "hackernews",
-      "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
-      "fetched_at": "2026-06-26T11:05:20.516594"
+      "url": "https://www.appaca.ai/",
+      "fetched_at": "2026-06-26T13:08:51.674695"
     },
     {
-      "text": "Show HN: Bikepacking Planner",
+      "text": "Show HN: Trophikos – a calm, ad-free recipe and cocktail library for iOS",
       "source": "hackernews",
-      "url": "https://www.theinstant.cc/pack",
-      "fetched_at": "2026-06-26T11:06:40.456249"
+      "url": "https://apps.apple.com/us/app/trophikos/id6773508921",
+      "fetched_at": "2026-06-26T13:10:00.885341"
     },
     {
-      "text": "Xbox follows Apple with price increases",
+      "text": "OpenAI will initially only release ChatGPT 5.6 to government-approved customers",
       "source": "hackernews",
-      "url": "https://techcrunch.com/2026/06/25/xbox-follows-apple-with-price-increases/",
-      "fetched_at": "2026-06-26T11:07:22.632558"
+      "url": "https://www.engadget.com/2202129/openai-will-initially-only-release-chatgpt-5-6-to-government-approved-customers/",
+      "fetched_at": "2026-06-26T13:10:37.280136"
+    },
+    {
+      "text": "Leave Windows 11 Idle for 24 Hours and Watch What Happens [video][18 mins]",
+      "source": "hackernews",
+      "url": "https://www.youtube.com/watch?v=Wtg_s1GQiMU",
+      "fetched_at": "2026-06-26T13:10:54.782605"
     }
   ]
 }
