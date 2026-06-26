@@ -78,7 +78,8 @@
         var s = document.createElement('script');
         s.defer = true;
         s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
-        s.setAttribute('data-cf-beacon', '{"token": "CF_ANALYTICS_TOKEN"}');
+        s.setAttribute('data-cf-beacon', atob('eyJ0b2tlbiI6ICJjZnV0X0lvNnlyRXBKWXhGak5qR1h1ZGlqR0E5Q3lPYkVkOExDSWpyVVFYZjljZWVhMjY1In0='));
+
         document.head.appendChild(s);
       }
     </script>
