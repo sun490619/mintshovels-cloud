@@ -1,21 +1,13 @@
-name: 🚀 Deploy to Railway
+name: 🚀 Auto Deploy — Railway + CF Pages
 
 on:
   push:
     branches:
       - main
   workflow_dispatch:
-    inputs:
-      deploy_env:
-        description: 'Deploy target'
-        required: false
-        default: 'production'
-        type: choice
-        options:
-          - production
 
 concurrency:
-  group: railway-deploy
+  group: production-deploy
   cancel-in-progress: false
 
 permissions:
@@ -24,61 +16,66 @@ permissions:
 
 jobs:
   deploy:
+    name: 📦 Deploy
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
 
-      - name: 🔒 Build Safeguard - 编译前置死锁
+      - name: 🔒 Build Safeguard
         run: |
           echo "🔒 校验工具数据纯净度..."
           python3 scripts/build_safeguard.py
-          echo ""
 
-      - name: 📊 Deployment summary
+      - name: 📊 Pre-deploy summary
         run: |
-          echo "### 🚀 MintShovels Deploy Summary" >> $GITHUB_STEP_SUMMARY
+          echo "### 🚀 MintShovels Deploy" >> $GITHUB_STEP_SUMMARY
           echo "- **Commit:** \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "- **Branch:** \`${{ github.ref_name }}\`" >> $GITHUB_STEP_SUMMARY
           echo "- **Time:** $(date -u)" >> $GITHUB_STEP_SUMMARY
-          echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "> Railway auto-deploys from connected GitHub repo." >> $GITHUB_STEP_SUMMARY
 
-  auto-deploy-check:
-    name: 🔄 Railway Auto Deploy Trigger
+  deploy-cf-pages:
+    name: 🌐 Deploy to Cloudflare Pages
     runs-on: ubuntu-latest
     needs: deploy
-    if: github.event_name == 'push'
-    steps:
-      - name: ✅ Auto-deploy acknowledged
-        run: |
-          echo "Railway should auto-deploy from connected GitHub repo."
-          echo "If Railway is not connected, run: railway link"
-          echo "Then: railway up"
-
-  purge-cloudflare-cache:
-    name: 🧹 Cloudflare Cache Purge
-    runs-on: ubuntu-latest
-    needs: deploy
-    if: github.event_name == 'push'
+    timeout-minutes: 10
     steps:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
 
-      - name: 🔑 Verify CF API Token
-        run: |
-          if [ -z "${{ secrets.CF_CACHE_PURGE_TOKEN }}" ]; then
-            echo "⚠️  CF_CACHE_PURGE_TOKEN secret not set. Skipping cache purge."
-            echo "   Add it in: GitHub → Settings → Secrets and variables → Actions"
-            exit 0
-          fi
-          echo "✅ CF_CACHE_PURGE_TOKEN configured"
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-      - name: 🧹 Purge Cloudflare Cache
-        if: env.CF_CACHE_PURGE_TOKEN != ''
+      - name: 🚀 Deploy to Cloudflare Pages
         env:
-          CF_API_TOKEN: ${{ secrets.CF_CACHE_PURGE_TOKEN }}
-          CF_ZONE_ID: "4a5e0a77d5483837f773bbe390fb2084"
-        run: python3 scripts/purge_cf_cache.py
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          echo "📤 上传文件到 Cloudflare Pages..."
+          npx wrangler@latest pages deploy . \
+            --project-name=mintshovels \
+            --branch=main \
+            --commit-dirty=true \
+            2>&1 | tee deploy_log.txt
+          
+          echo ""
+          echo "### ✅ CF Pages 部署完成" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          tail -5 deploy_log.txt >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "🌍 https://mintshovels.com" >> $GITHUB_STEP_SUMMARY
+
+  notify:
+    name: 📢 Deploy Complete
+    runs-on: ubuntu-latest
+    needs: deploy-cf-pages
+    if: always()
+    steps:
+      - name: ✅ Summary
+        run: |
+          if [ "${{ needs.deploy-cf-pages.result }}" = "success" ]; then
+            echo "✅ **全部部署成功** — mintshovels.com 已更新" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ **部署异常** — 请检查日志" >> $GITHUB_STEP_SUMMARY
+          fi
