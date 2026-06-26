@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>MintShovels · Design System 2.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* ===== CSS Variables ===== */
+        :root {
+            --bg-page: #000000;
+            --bg-card: #0A0A0A;
+            --bg-elevated: #111111;
+            --border-color: #1F1F1F;
+            --border-hover: #333333;
+            --text-primary: #FFFFFF;
+            --text-secondary: #888888;
+            --text-muted: #555555;
+            --accent: #6366f1;
+            --accent-hover: #4f46e5;
+            --bg-dropdown: rgba(10, 10, 10, 0.92);
+            --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", sans-serif;
+            --main-line-height: 1.6;
+            --skeleton-bg: #151515;
+            --skeleton-shine: #1a1a1a;
+            --radius-sm: 6px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            --radius-xl: 16px;
+            --z-base: 0;
+            --z-card: 10;
+            --z-nav: 100;
+            --z-cmd: 500;
+            --z-dropdown: 1000;
+            --bg-success: rgba(14, 165, 233, 0.06);
+            --border-success: rgba(14, 165, 233, 0.15);
+            --text-success: #38bdf8;
+            --bg-error: rgba(239, 68, 68, 0.06);
+            --border-error: rgba(239, 68, 68, 0.15);
+            --text-error: #f87171;
+            --bg-warn: rgba(245, 158, 11, 0.06);
+            --border-warn: rgba(245, 158, 11, 0.15);
+            --text-warn: #fbbf24;
+        }
+        [data-theme="light"], body.light {
+            --bg-page: #FAFAFA;
+            --bg-card: #FFFFFF;
+            --bg-elevated: #F5F5F5;
+            --border-color: #EAEAEA;
+            --border-hover: #D4D4D4;
+            --text-primary: #000000;
+            --text-secondary: #666666;
+            --text-muted: #999999;
+            --accent: #6366f1;
+            --accent-hover: #4f46e5;
+            --bg-dropdown: rgba(255, 255, 255, 0.92);
+            --skeleton-bg: #EAEAEA;
+            --skeleton-shine: #F0F0F0;
+            --bg-success: rgba(2, 132, 199, 0.05);
+            --border-success: rgba(2, 132, 199, 0.12);
+            --text-success: #0284c7;
+            --bg-error: rgba(220, 38, 38, 0.05);
+            --border-error: rgba(220, 38, 38, 0.12);
+            --text-error: #dc2626;
+            --bg-warn: rgba(217, 119, 6, 0.05);
+            --border-warn: rgba(217, 119, 6, 0.12);
+            --text-warn: #b45309;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: var(--bg-page); color: var(--text-primary);
+            font-family: var(--font-stack); -webkit-font-smoothing: antialiased;
+            line-height: var(--main-line-height);
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg-page); }
+        ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--border-hover); }
+
+        /* ===== Header ===== */
+        header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 0 32px; height: 56px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            position: sticky; top: 0; z-index: var(--z-nav);
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        body.light header {
+            background: rgba(250, 250, 250, 0.7);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        }
+        .logo-area {
+            display: flex; align-items: center; gap: 10px;
+            font-weight: 600; font-size: 14px; cursor: pointer;
+            color: var(--text-primary); text-decoration: none;
+            letter-spacing: -0.01em;
+        }
+        .logo-img { width: 22px; height: 22px; border-radius: 5px; }
+        .nav-right { display: flex; align-items: center; gap: 8px; }
+        .header-tool-count { font-size: 11px; color: var(--text-muted); font-weight: 500; margin-right: 4px; }
+
+        .nav-pill {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 5px 14px; border-radius: 999px; font-size: 12px; font-weight: 500;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: var(--text-secondary); background: transparent;
+            cursor: pointer; transition: all 0.15s ease; line-height: 1;
+        }
+        .nav-pill:hover { border-color: rgba(255, 255, 255, 0.15); color: var(--text-primary); }
+        body.light .nav-pill { border-color: rgba(0, 0, 0, 0.08); }
+        body.light .nav-pill:hover { border-color: rgba(0, 0, 0, 0.15); }
+        .nav-pill.radar-online {
+            border-color: rgba(52, 211, 153, 0.15); color: #34d399;
+            background: rgba(52, 211, 153, 0.04);
+        }
+        .radar-dot-wrap { position: relative; width: 7px; height: 7px; flex-shrink: 0; }
+        .radar-dot-ping {
+            animation: ping 1.5s cubic-bezier(0,0,0.2,1) infinite;
+            position: absolute; width: 100%; height: 100%;
+            border-radius: 50%; background: #34d399; opacity: 0.75;
+        }
+        .radar-dot-core {
+            position: relative; display: block; width: 7px; height: 7px;
+            border-radius: 50%; background: #34d399;
+        }
+        @keyframes ping { 75%, 100% { transform: scale(2); opacity: 0; } }
+
+        /* ===== Avatar & Dropdown ===== */
+        .header-avatar-wrap { position: relative; margin-left: 4px; }
+        .header-avatar-btn {
+            width: 30px; height: 30px; border-radius: 50%;
+            background: linear-gradient(135deg, #6366f1, #818cf8, #38bdf8);
+            border: 1px solid rgba(255, 255, 255, 0.1); cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            padding: 0; font-family: 'Inter', sans-serif;
+        }
+        .header-avatar-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+        }
+        .avatar-initials { font-size: 11px; font-weight: 600; color: #fff; letter-spacing: 0.02em; }
+
+        .header-dropdown {
+            position: absolute; top: calc(100% + 8px); right: 0; width: 220px;
+            background: rgba(10, 10, 10, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 10px; padding: 6px;
+            box-shadow: 0 16px 48px rgba(0,0,0,0.5),
+                        0 0 0 1px rgba(255,255,255,0.04) inset;
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            opacity: 0; transform: translateY(-4px); pointer-events: none;
+            transition: all 0.15s ease; z-index: var(--z-dropdown);
+        }
+        body.light .header-dropdown {
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            box-shadow: 0 16px 48px rgba(0,0,0,0.08),
+                        0 0 0 1px rgba(0,0,0,0.03) inset;
+        }
+        .header-dropdown.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
+        .dd-section { padding: 10px 10px 8px; }
+        .dd-profile-name { font-size: 13px; font-weight: 600; color: var(--text-primary); }
+        .dd-profile-email { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+        .dd-divider { height: 1px; background: rgba(255,255,255,0.06); margin: 2px 0; }
+        body.light .dd-divider { background: rgba(0,0,0,0.06); }
+        .dd-item {
+            display: flex; align-items: center; justify-content: space-between;
+            width: 100%; padding: 8px 10px; background: none; border: none;
+            color: var(--text-secondary); font-size: 13px; font-weight: 500;
+            border-radius: 6px; cursor: pointer; transition: all 0.1s ease;
+            font-family: 'Inter', sans-serif; text-align: left;
+        }
+        .dd-item:hover { background: rgba(255,255,255,0.04); color: var(--text-primary); }
+        body.light .dd-item:hover { background: rgba(0,0,0,0.04); }
+        .dd-item-left { display: flex; align-items: center; gap: 10px; }
+        .dd-item-kbd {
+            font-size: 11px; color: var(--text-muted);
+            padding: 2px 6px; border-radius: 4px;
+            background: rgba(255,255,255,0.04);
+        }
+        body.light .dd-item-kbd { background: rgba(0,0,0,0.04); }
+        .dd-icon { width: 15px; height: 15px; stroke-width: 1.75px; }
+
+        /* ===== Hero & Search ===== */
+        .hero-section { max-width: 720px; margin: 0 auto; padding: 72px 24px 32px; text-align: center; }
+        .hero-logo { width: 56px; height: 56px; border-radius: var(--radius-md); margin: 0 auto 20px; border: 1px solid var(--border-color); }
+        .hero-title {
+            font-size: 44px; font-weight: 800; letter-spacing: -2px; margin-bottom: 12px; line-height: 1.1;
+        }
+        .hero-subtitle { color: var(--text-secondary); font-size: 15px; max-width: 480px; margin: 0 auto 32px; }
+        .search-wrapper { position: relative; max-width: 540px; margin: 0 auto 12px; }
+        .search-wrapper .search-icon {
+            position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+            color: var(--text-muted); pointer-events: none;
+        }
+        .search-wrapper input {
+            padding-left: 42px; padding-right: 40px;
+            height: 48px; font-size: 15px; border-radius: var(--radius-md);
+        }
+        .search-clear-btn {
+            position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+            background: none; border: none; color: var(--text-muted); cursor: pointer; padding: 4px; border-radius: 4px;
+        }
+        .search-clear-btn:hover { color: var(--text-primary); }
+
+        .vercel-input {
+            width: 100%; background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm); padding: 10px 14px; color: var(--text-primary);
+            font-size: 14px; outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+            font-family: var(--font-stack);
+        }
+        .vercel-input:focus { border-color: var(--text-secondary); box-shadow: 0 0 0 2px rgba(99,102,241,0.1); }
+        .vercel-input::placeholder { color: var(--text-muted); }
+
+        /* ===== Cards ===== */
+        .tool-card {
+            background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: var(--radius-md); padding: 20px 18px; cursor: pointer;
+            transition: all 0.2s ease; position: relative; overflow: hidden;
+        }
+        .tool-card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 4px 16px rgba(99,102,241,0.08);
+            transform: translateY(-1px);
+        }
+        .tool-card:hover::after {
+            content: ''; position: absolute; inset: 0;
+            background: linear-gradient(135deg, rgba(99,102,241,0.03), transparent 60%);
+            pointer-events: none;
+        }
+
+        /* ===== Badges ===== */
+        .tag {
+            display: inline-block; padding: 2px 8px; border-radius: var(--radius-sm);
+            font-size: 10px; background: var(--bg-elevated); color: var(--text-secondary);
+            margin: 2px; border: 1px solid var(--border-color);
+        }
+        .badge-live {
+            display: inline-flex; align-items: center; gap: 4px;
+            padding: 2px 10px; border-radius: 999px; font-size: 10px;
+            background: rgba(52, 211, 153, 0.06); color: #34d399;
+            border: 1px solid rgba(52, 211, 153, 0.15);
+        }
+        .badge-script {
+            display: inline-flex; align-items: center; gap: 4px;
+            padding: 2px 10px; border-radius: 999px; font-size: 10px;
+            background: rgba(167, 139, 250, 0.06); color: #a78bfa;
+            border: 1px solid rgba(167, 139, 250, 0.15);
+        }
+        .badge-web {
+            display: inline-flex; align-items: center; gap: 4px;
+            padding: 2px 10px; border-radius: 999px; font-size: 10px;
+            background: rgba(56, 189, 248, 0.06); color: #38bdf8;
+            border: 1px solid rgba(56, 189, 248, 0.15);
+        }
+        .badge-coming {
+            display: inline-flex; align-items: center; gap: 4px;
+            padding: 2px 10px; border-radius: 999px; font-size: 10px;
+            background: rgba(245, 158, 11, 0.06); color: #f59e0b;
+            border: 1px solid rgba(245, 158, 11, 0.15);
+        }
+
+        /* ===== Category Tabs ===== */
+        .cat-tab-bar {
+            display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px;
+            padding-bottom: 16px; border-bottom: 1px solid var(--border-color);
+            justify-content: center;
+        }
+        .cat-tab {
+            padding: 6px 16px; border-radius: var(--radius-sm); font-size: 12px; font-weight: 500;
+            cursor: pointer; transition: all 0.2s ease; border: 1px solid var(--border-color);
+            color: var(--text-secondary); background: transparent; white-space: nowrap;
+            font-family: var(--font-stack);
+        }
+        .cat-tab:hover { border-color: var(--border-hover); color: var(--text-primary); }
+        .cat-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+        /* ===== Category Sections ===== */
+        .cat-section { margin-bottom: 32px; }
+        .cat-section-header {
+            display: flex; align-items: center; gap: 10px; margin-bottom: 8px;
+            cursor: pointer; user-select: none;
+        }
+        .cat-section-header .icon-box {
+            width: 36px; height: 36px; border-radius: var(--radius-md);
+            display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;
+        }
+        .cat-section-header h2 { font-size: 18px; font-weight: 600; }
+        .cat-section-header .count { font-size: 12px; color: var(--text-secondary); margin-left: 4px; }
+        .cat-section-header .arrow { transition: transform 0.2s ease; color: var(--text-secondary); }
+        .subcat-tags {
+            display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; padding-left: 46px;
+        }
+        .subcat-tag {
+            padding: 3px 12px; border-radius: var(--radius-sm); font-size: 11px;
+            cursor: pointer; transition: all 0.15s ease; border: 1px solid var(--border-color);
+            color: var(--text-secondary); background: transparent;
+            font-family: var(--font-stack);
+        }
+        .subcat-tag:hover { border-color: var(--border-hover); color: var(--text-primary); }
+        .subcat-tag.active { background: rgba(99,102,241,0.08); border-color: var(--accent); color: var(--accent); }
+        .collapsed .cat-tools, .collapsed .subcat-tags { display: none; }
+        .section-divider { border: 0; border-top: 1px solid var(--border-color); margin: 0; }
+
+        /* ===== Tool Detail Page ===== */
+        .tool-detail {
+            max-width: 720px; margin: 0 auto; padding: 48px 24px 24px;
+        }
+        .tool-detail-back {
+            color: var(--text-secondary); background: none; border: none;
+            cursor: pointer; font-size: 14px; display: flex; align-items: center; gap: 4px;
+            font-family: var(--font-stack); margin-bottom: 24px;
+        }
+        .tool-detail-back:hover { color: var(--text-primary); }
+        .tool-detail-title { font-size: 36px; font-weight: 800; letter-spacing: -1.5px; margin: 8px 0 12px; }
+        .tool-detail-desc { color: var(--text-secondary); font-size: 16px; max-width: 560px; margin-bottom: 32px; }
+        .tool-detail-placeholder {
+            background: var(--bg-card); border: 1px dashed var(--border-color);
+            border-radius: var(--radius-xl); padding: 60px; text-align: center;
+            color: var(--text-muted); font-size: 14px;
+        }
+
+        /* ===== Footer ===== */
+        footer { border-top: 1px solid var(--border-color); margin-top: 32px; }
+        .footer-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        .footer-partners {
+            display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;
+            padding: 24px 0 12px;
+        }
+        .footer-partners span.label {
+            font-size: 12px; color: var(--text-muted); align-self: center;
+        }
+        .footer-partners a {
+            font-size: 12px; color: var(--text-secondary); text-decoration: none;
+            transition: color 0.15s;
+        }
+        .footer-partners a:hover { color: var(--text-primary); }
+        .footer-grid {
+            display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 32px;
+            padding: 32px 0 24px; border-top: 1px solid var(--border-color);
+        }
+        .footer-col h4 {
+            font-size: 11px; font-weight: 600; text-transform: uppercase;
+            letter-spacing: 0.05em; color: var(--text-secondary); margin-bottom: 14px;
+        }
+        .footer-col a {
+            display: block; font-size: 13px; color: var(--text-secondary);
+            text-decoration: none; margin-bottom: 8px; transition: color 0.15s;
+        }
+        .footer-col a:hover { color: var(--text-primary); }
+        .footer-col .footer-icon { display: inline-flex; align-items: center; gap: 6px; }
+        .footer-bottom {
+            grid-column: 1 / -1; padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            display: flex; flex-wrap: wrap; align-items: center;
+            justify-content: space-between; gap: 8px;
+            font-size: 12px; color: var(--text-muted);
+        }
+        .hidden-module { display: none !important; }
+
+        /* ===== No Results ===== */
+        .no-result-box {
+            background: var(--bg-card); border: 1px dashed var(--border-color);
+            border-radius: var(--radius-xl); padding: 40px; text-align: center;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 768px) {
+            .hero-title { font-size: 32px; letter-spacing: -1.5px; }
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
+            .footer-col:first-child { grid-column: 1 / -1; }
+            .header-dropdown {
+                position: fixed; top: auto; bottom: 0; left: 0; right: 0; width: 100%;
+                border-radius: 16px 16px 0 0; border-bottom: none;
+                transform: translateY(100%); box-shadow: 0 -10px 30px rgba(0,0,0,0.5);
+            }
+            .header-dropdown.show { transform: translateY(0); }
+            header { padding: 0 20px; }
+        }
+        @media (max-width: 480px) {
+            .hero-title { font-size: 26px; }
+            .hero-section { padding: 48px 16px 24px; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .cat-tab { font-size: 11px; padding: 4px 10px; }
+            .tool-card { padding: 16px 14px; }
+            .tool-detail { padding: 32px 16px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- ========== HEADER ========== -->
+    <header>
+        <div class="logo-area" onclick="goHome()">
+            <img src="/favicon.png?v=2" alt="MintShovels" class="logo-img">
+            <span>MintShovels</span>
+        </div>
+        <div class="nav-right">
+            <span id="tool-count" class="header-tool-count"></span>
+            <div class="nav-pill radar-online" style="cursor:default">
+                <span class="radar-dot-wrap">
+                    <span class="radar-dot-ping"></span>
+                    <span class="radar-dot-core"></span>
+                </span>
+                <span>Radar Active</span>
+            </div>
+            <div class="nav-pill" style="cursor:pointer">
+                <span>Workshop</span>
+            </div>
+            <!-- Avatar + Dropdown -->
+            <div class="header-avatar-wrap" id="avatarWrap">
+                <button class="header-avatar-btn" onclick="event.stopPropagation(); togglePanel();" aria-label="Menu">
+                    <span class="avatar-initials">MS</span>
+                </button>
+                <div class="header-dropdown" id="userPanel">
+                    <div class="dd-section">
+                        <div class="dd-profile-name">MintShovels</div>
+                        <div class="dd-profile-email">mintshovels.com</div>
+                    </div>
+                    <div class="dd-divider"></div>
+                    <button class="dd-item" onclick="toggleTheme()">
+                        <span class="dd-item-left">
+                            <i data-lucide="sun" class="dd-icon"></i>
+                            <span id="panel-theme-label">Appearance</span>
+                        </span>
+                        <span class="dd-item-kbd" id="panel-theme-value">Dark</span>
+                    </button>
+                    <button class="dd-item" onclick="switchLang()">
+                        <span class="dd-item-left">
+                            <i data-lucide="globe" class="dd-icon"></i>
+                            <span id="panel-lang-label">Language</span>
+                        </span>
+                        <span class="dd-item-kbd" id="panel-lang-value">EN</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== HOME PAGE ========== -->
+    <div id="homePage">
+        <section class="hero-section">
+            <img src="/assets/logo.png?v=2" alt="MintShovels" class="hero-logo">
+            <h1 class="hero-title">Gold Shovel Tool Factory</h1>
+            <p class="hero-subtitle">A fully automated tool production factory. New tools every day. No account needed. All free.</p>
+            <div class="search-wrapper">
+                <i data-lucide="search" class="search-icon" style="width:18px;height:18px"></i>
+                <input id="searchBox" type="text" class="vercel-input" placeholder="Search tools... e.g. video download, image compress, PDF merge" autocomplete="off">
+                <button id="searchClear" class="search-clear-btn hidden" onclick="clearSearch()">
+                    <i data-lucide="x" style="width:16px;height:16px"></i>
+                </button>
+            </div>
+        </section>
+
+        <section style="max-width:1200px;margin:0 auto;padding:0 24px 8px">
+            <div id="catTabsBar" class="cat-tab-bar"></div>
+        </section>
+
+        <section style="max-width:1200px;margin:0 auto;padding:0 24px" id="catSections"></section>
+
+        <div id="noResults" class="hidden" style="max-width:1200px;margin:0 auto;padding:0 24px 48px">
+            <div class="no-result-box">
+                <h3 style="font-size:18px;font-weight:600;margin-bottom:8px">No matching tools found</h3>
+                <p style="color:var(--text-secondary)">Try different keywords or browse by category</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== TOOL DETAIL PAGE ========== -->
+    <div id="toolPage" class="hidden">
+        <div id="toolDetailContent" class="tool-detail"></div>
+    </div>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="footer-inner">
+            <!-- AdSense (hidden until configured) -->
+            <div class="hidden-module">
+                <span style="font-size:12px;color:var(--text-muted)">Google AdSense</span>
+            </div>
+            <!-- Partners Row -->
+            <div class="footer-partners">
+                <span class="label">Partners:</span>
+                <a href="https://www.namecheap.com/" target="_blank" rel="nofollow sponsored">Namecheap</a>
+                <a href="https://www.okx.com/join/REFERRAL" target="_blank" rel="nofollow sponsored">OKX</a>
+                <a href="https://surfshark.com/" target="_blank" rel="nofollow sponsored">Surfshark VPN</a>
+                <a href="https://trezor.io/" target="_blank" rel="nofollow sponsored">Trezor</a>
+            </div>
+            <!-- Grid Footer -->
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>MintShovels</h4>
+                    <p style="font-size:12px;color:var(--text-secondary);margin-bottom:10px">Gold Shovel Tool Factory</p>
+                    <span style="font-size:12px;display:block;color:var(--text-secondary);margin-bottom:10px">🔓 100% Open Source · GitHub · Zero Backdoor</span>
+                    <span id="riskAuditStatus" style="font-size:12px;color:var(--text-muted);cursor:pointer">🛡️ Risk Audit: 0 pending</span>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <a href="#" style="cursor:pointer">MintShovels Pro</a>
+                    <a href="#" style="cursor:pointer">Tool Subscription</a>
+                    <a style="font-size:12px;color:var(--text-muted);display:block;text-decoration:none;cursor:default">🔭 Radar #0</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Community</h4>
+                    <a href="https://discord.gg/" target="_blank" rel="nofollow"><span class="footer-icon">💬 Discord</span></a>
+                    <a href="https://x.com/wangqwkl" target="_blank" rel="nofollow"><span class="footer-icon">𝕏 Twitter/X</span></a>
+                    <a href="https://github.com/sun490619" target="_blank" rel="nofollow"><span class="footer-icon">🐙 GitHub</span></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 MintShovels · Gold Shovel Tool Factory</span>
+                <span>Open Source · MIT License</span>
+            </div>
+        </div>
+    </footer>
+
+<!-- ========== SCRIPTS ========== -->
+<script>
+// ===== API Base =====
+const API = "https://tool-factory-production.up.railway.app";
+
+// ===== State =====
+let currentLang = "en";
+let searchQuery = "";
+let activeCatTab = "all";
+let topicsOpen = false;
+
+// ===== i18n =====
+function t(key) {
+    const map = {
+        status_live: { en: "● Live", zh: "● 在线" },
+        all: { en: "All", zh: "全部" },
+        subcat_all: { en: "All", zh: "全部" },
+        tool_back: { en: "← Back to tools", zh: "← 返回工具列表" },
+    };
+    const entry = map[key];
+    return entry ? (entry[currentLang] || entry.en) : key;
+}
+
+// ===== LANG SWITCH =====
+function switchLang() {
+    currentLang = currentLang === "en" ? "zh" : "en";
+    document.getElementById("panel-lang-value").textContent = currentLang === "en" ? "EN" : "ZH";
+    renderAll();
+}
+
+function getToolName(t) {
+    return currentLang === "zh" ? (t.name_zh || t.name) : t.name;
+}
+function getToolDesc(t) {
+    return currentLang === "zh" ? (t.desc_zh || t.desc) : t.desc;
+}
+function getToolTags(t) {
+    return currentLang === "zh" ? (t.tags_zh || t.tags || []) : (t.tags || []);
+}
+function getCatName(c) {
+    return currentLang === "zh" ? (c.name_zh || c.name) : c.name;
+}
+
+// ===== CATEGORIES =====
+const CATEGORIES = [
+    { id: "media", icon: "🎬", name: "Media Creation", name_zh: "媒体创作", color: "#818cf8",
+        subcats: [
+            { id: "video", name: "Video Tools", name_zh: "视频工具" },
+            { id: "audio", name: "Audio Tools", name_zh: "音频工具" },
+            { id: "image", name: "Image Tools", name_zh: "图片工具" },
+        ]
+    },
+    { id: "finance", icon: "💰", name: "Finance & Crypto", name_zh: "金融与加密", color: "#fb923c",
+        subcats: [
+            { id: "wallet", name: "Wallet & Portfolio", name_zh: "钱包与投资组合" },
+            { id: "defi", name: "DeFi & Trading", name_zh: "DeFi与交易" },
+        ]
+    },
+    { id: "productivity", icon: "💼", name: "Productivity & Office", name_zh: "办公效率", color: "#34d399",
+        subcats: [
+            { id: "office", name: "Document & PDF", name_zh: "文档与PDF" },
+            { id: "text", name: "Text & Diff", name_zh: "文本与对比" },
+            { id: "util", name: "Quick Utils", name_zh: "快捷工具" },
+        ]
+    },
+    { id: "dev", icon: "💻", name: "Developer Tools", name_zh: "开发工具", color: "#a78bfa",
+        subcats: [
+            { id: "code", name: "Code Assist", name_zh: "代码辅助" },
+            { id: "api", name: "API & Test", name_zh: "API与测试" },
+            { id: "encode", name: "Encode & Decode", name_zh: "加密解密" },
+            { id: "domain", name: "Domain & SEO", name_zh: "域名与SEO" },
+            { id: "scrape", name: "Web Scraping", name_zh: "网页抓取" },
+        ]
+    },
+    { id: "gaming", icon: "🎮", name: "Gaming & Fun", name_zh: "游戏与娱乐", color: "#f472b6",
+        subcats: [
+            { id: "game", name: "Game Tools", name_zh: "游戏工具" },
+            { id: "fun", name: "Fun & Random", name_zh: "趣味生成" },
+        ]
+    },
+    { id: "ai", icon: "🤖", name: "AI Intelligence", name_zh: "AI智能", color: "#38bdf8",
+        subcats: [
+            { id: "ai-chat", name: "AI Chat", name_zh: "AI对话" },
+            { id: "ai-image", name: "AI Image", name_zh: "AI绘画" },
+            { id: "ai-writing", name: "AI Writing", name_zh: "AI写作" },
+        ]
+    },
+    { id: "misc", icon: "🧩", name: "Other Tools", name_zh: "其他工具", color: "#e879f9",
+        subcats: [
+            { id: "misc", name: "Miscellaneous", name_zh: "未分类工具" },
+        ]
+    },
+];
+
+// ===== TOOLS DATABASE (33 static) =====
+const TOOLS = [
+    { id: "shovel-001", name: "Multi-Platform Media Extractor", name_zh: "多平台素材一键提取",
+        desc: "Extract videos from YouTube, X(Twitter), TikTok. No watermarks, no ads.",
+        desc_zh: "从 YouTube、X(Twitter)、TikTok 提取视频。无水印，无广告。",
+        icon: "video", color: "#818cf8", category: "media", subcat: "video", type: "tool",
+        tags: ["youtube","tiktok","twitter","download","video"],
+        tags_zh: ["YouTube下载","TikTok下载","推特下载","视频下载"],
+        status: "live", badge: "Shovel #001", detail_page: true },
+    { id: "shovel-002", name: "Image Compressor", name_zh: "图片批量压缩器",
+        desc: "Batch compress images without quality loss. PNG, JPG, WebP.",
+        desc_zh: "批量压缩图片不损画质。支持 PNG、JPG、WebP。",
+        icon: "image", color: "#34d399", category: "media", subcat: "image", type: "tool",
+        tags: ["compress","image","batch","png","jpg"],
+        tags_zh: ["图片压缩","批量处理","PNG","JPG"],
+        status: "live", badge: "Shovel #002", detail_page: true },
+    { id: "shovel-003", name: "Dual-Mode Audio/Video Transcriber", name_zh: "双模式音视频转文字",
+        desc: "Paste YouTube/B站 link or drag local file → AI Whisper transcription. Multi-language, high accuracy.",
+        desc_zh: "贴YouTube/B站链接或拖本地文件 → AI Whisper高精度转文字。多语言，准确率超高。",
+        icon: "mic", color: "#f472b6", category: "media", subcat: "audio", type: "tool",
+        tags: ["transcribe","speech-to-text","audio","voice","whisper","youtube","bilibili"],
+        tags_zh: ["语音转文字","音频转文字","转录","Whisper","字幕","YouTube","B站"],
+        status: "live", badge: "Shovel #003", detail_page: true },
+    { id: "shovel-007", name: "Background Remover", name_zh: "智能抠图去背景",
+        desc: "AI-powered background removal. One click, perfect cutout.",
+        desc_zh: "AI驱动的背景去除。一键抠图，完美切割。",
+        icon: "scissors", color: "#38bdf8", category: "media", subcat: "image", type: "tool",
+        tags: ["background","remove","ai","cutout"],
+        tags_zh: ["去背景","抠图","AI"],
+        status: "live", badge: "Shovel #007", detail_page: true },
+    { id: "script-001", name: "Video Dedup Pipeline", name_zh: "视频批量去重流水线",
+        desc: "Python script: download + dedup Shorts. Crop, speed, flip, micro-shake.",
+        desc_zh: "Python脚本：下载+去重短视频。裁剪、变速、翻转、微震动，绕过版权。",
+        icon: "terminal", color: "#6366f1", category: "media", subcat: "video", type: "script",
+        tags: ["python","dedup","youtube","tiktok","ffmpeg","script"],
+        tags_zh: ["Python脚本","去重","YouTube","TikTok","FFmpeg"],
+        status: "live", badge: "Script #001", detail_page: true },
+    { id: "shovel-005", name: "Crypto Wallet Tracker", name_zh: "加密货币钱包追踪器",
+        desc: "Track wallet balances, transactions across chains. Real-time alerts.",
+        desc_zh: "跨链追踪钱包余额和交易。实时告警。",
+        icon: "wallet", color: "#fb923c", category: "finance", subcat: "wallet", type: "tool",
+        tags: ["crypto","wallet","tracker","blockchain"],
+        tags_zh: ["加密货币","钱包","追踪"],
+        status: "live", badge: "Shovel #005", detail_page: true },
+    { id: "shovel-009", name: "Gas Fee Calculator", name_zh: "Gas费用实时计算器",
+        desc: "Real-time gas fee estimator across ETH, BSC, Polygon, Solana.",
+        desc_zh: "实时估算 ETH、BSC、Polygon、Solana 等多链 Gas 费用。",
+        icon: "fuel", color: "#fb923c", category: "finance", subcat: "defi", type: "tool",
+        tags: ["gas","eth","fee","calculator","defi"],
+        tags_zh: ["Gas费","ETH","计算器","DeFi"],
+        status: "live", badge: "Shovel #009", detail_page: true },
+    { id: "script-002", name: "Multi-Chain Wallet Generator", name_zh: "多链钱包批量生成器",
+        desc: "Python script: generate ETH/SOL/BTC wallets in bulk. CSV export.",
+        desc_zh: "Python脚本：批量生成 ETH/SOL/BTC 钱包地址，导出CSV含私钥。",
+        icon: "key", color: "#fb923c", category: "finance", subcat: "wallet", type: "script",
+        tags: ["python","wallet","eth","sol","btc","script"],
+        tags_zh: ["Python脚本","钱包生成","ETH","SOL"],
+        status: "live", badge: "Script #002", detail_page: true },
+    { id: "shovel-004", name: "PDF Toolkit", name_zh: "PDF万能工具箱",
+        desc: "Merge, split, compress, convert PDFs. All-in-one document tool.",
+        desc_zh: "合并、拆分、压缩、转换PDF。一站式文档工具。",
+        icon: "file-text", color: "#fbbf24", category: "productivity", subcat: "office", type: "tool",
+        tags: ["pdf","merge","split","convert","document"],
+        tags_zh: ["PDF处理","合并PDF","拆分PDF"],
+        status: "live", badge: "Shovel #004", detail_page: true },
+    { id: "shovel-006", name: "QR Code Generator", name_zh: "二维码批量生成器",
+        desc: "Generate custom QR codes in bulk. Logos, colors, styles.",
+        desc_zh: "批量生成定制二维码。支持Logo、颜色、样式。",
+        icon: "qr-code", color: "#a78bfa", category: "productivity", subcat: "util", type: "tool",
+        tags: ["qr","generator","batch","custom"],
+        tags_zh: ["二维码","生成器","批量"],
+        status: "live", badge: "Shovel #006", detail_page: true },
+    { id: "shovel-008", name: "Text Diff Checker", name_zh: "文本差异对比器",
+        desc: "Compare two texts side by side. Highlight changes instantly.",
+        desc_zh: "并排对比两段文本，即时高亮变化。",
+        icon: "diff", color: "#e879f9", category: "productivity", subcat: "text", type: "tool",
+        tags: ["diff","compare","text","code"],
+        tags_zh: ["文本对比","差异比较","代码对比"],
+        status: "live", badge: "Shovel #008", detail_page: true },
+    { id: "script-003", name: "File Batch Renamer", name_zh: "文件批量重命名器",
+        desc: "Python script: batch rename files with regex. Dry-run preview.",
+        desc_zh: "Python脚本：用正则表达式批量重命名文件，支持预览。",
+        icon: "file-plus", color: "#34d399", category: "productivity", subcat: "util", type: "script",
+        tags: ["python","rename","batch","regex","script"],
+        tags_zh: ["Python脚本","重命名","批量","正则"],
+        status: "live", badge: "Script #003", detail_page: true },
+    { id: "shovel-010", name: "JSON Formatter & Validator", name_zh: "JSON格式化校验器",
+        desc: "Format, validate, minify JSON. Tree view with syntax highlighting.",
+        desc_zh: "格式化、校验、压缩 JSON。树形视图+语法高亮。",
+        icon: "braces", color: "#a78bfa", category: "dev", subcat: "code", type: "tool",
+        tags: ["json","format","validate","minify"],
+        tags_zh: ["JSON","格式化","校验","压缩"],
+        status: "live", badge: "Shovel #010", detail_page: true },
+    { id: "shovel-011", name: "Base64 Encode / Decode", name_zh: "Base64编解码器",
+        desc: "Encode/decode Base64 strings & files. Supports text and image.",
+        desc_zh: "Base64 编解码，支持文本和图片互转。",
+        icon: "binary", color: "#a78bfa", category: "dev", subcat: "encode", type: "tool",
+        tags: ["base64","encode","decode","image"],
+        tags_zh: ["Base64","编码","解码"],
+        status: "live", badge: "Shovel #011", detail_page: true },
+    { id: "script-004", name: "API Rate Limiter Tester", name_zh: "API限流压测脚本",
+        desc: "Python script: stress test API endpoints with configurable concurrency.",
+        desc_zh: "Python脚本：对 API 端点进行限流压力测试，可配置并发数。",
+        icon: "zap", color: "#a78bfa", category: "dev", subcat: "api", type: "script",
+        tags: ["python","api","test","stress","script"],
+        tags_zh: ["Python脚本","API测试","压测"],
+        status: "live", badge: "Script #004", detail_page: true },
+    { id: "shovel-012", name: "Random Name Generator", name_zh: "随机名字生成器",
+        desc: "Generate random names by culture, gender, style. For characters & NPCs.",
+        desc_zh: "按文化、性别、风格生成随机名字。适合角色命名。",
+        icon: "user-plus", color: "#f472b6", category: "gaming", subcat: "fun", type: "tool",
+        tags: ["random","name","generator","character"],
+        tags_zh: ["随机","名字","生成器"],
+        status: "live", badge: "Shovel #012", detail_page: true },
+    { id: "shovel-013", name: "Dice Roller & Loot Table", name_zh: "骰子与战利品表",
+        desc: "Virtual dice roller for DnD/RPG. Custom loot tables, probability.",
+        desc_zh: "DnD/RPG虚拟骰子。自定义战利品表，概率配置。",
+        icon: "dices", color: "#f472b6", category: "gaming", subcat: "game", type: "tool",
+        tags: ["dice","dnd","rpg","random","game"],
+        tags_zh: ["骰子","DnD","RPG","游戏"],
+        status: "live", badge: "Shovel #013", detail_page: true },
+    { id: "shovel-014", name: "AI Prompt Optimizer", name_zh: "AI提示词优化器",
+        desc: "Optimize your AI prompts for better results. Multi-model support.",
+        desc_zh: "优化AI提示词获得更好结果。支持多模型。",
+        icon: "sparkles", color: "#38bdf8", category: "ai", subcat: "ai-chat", type: "tool",
+        tags: ["ai","prompt","optimizer","chatgpt"],
+        tags_zh: ["AI","提示词","优化","ChatGPT"],
+        status: "live", badge: "Shovel #014", detail_page: true },
+    { id: "shovel-015", name: "AI Text Summarizer", name_zh: "AI文章摘要生成器",
+        desc: "Summarize long articles, papers, docs into key points. One click.",
+        desc_zh: "一键将长文章、论文、文档总结为关键要点。",
+        icon: "scroll-text", color: "#38bdf8", category: "ai", subcat: "ai-writing", type: "tool",
+        tags: ["ai","summary","text","article"],
+        tags_zh: ["AI","摘要","文章","总结"],
+        status: "live", badge: "Shovel #015", detail_page: true },
+    { id: "script-005", name: "AI Image Batch Generator", name_zh: "AI批量生图脚本",
+        desc: "Python script: batch generate images via OpenAI/Stable Diffusion API.",
+        desc_zh: "Python脚本：通过 OpenAI/Stable Diffusion API 批量生成图片。",
+        icon: "image-plus", color: "#38bdf8", category: "ai", subcat: "ai-image", type: "script",
+        tags: ["python","ai","image","generation","script"],
+        tags_zh: ["Python脚本","AI","生图","批量"],
+        status: "live", badge: "Script #005", detail_page: true },
+    { id: "shovel-016", name: "Unit Converter", name_zh: "万能单位换算器",
+        desc: "Convert between 100+ units: length, weight, temperature, currency, data.",
+        desc_zh: "100+单位互转：长度、重量、温度、货币、数据。",
+        icon: "repeat", color: "#e879f9", category: "misc", subcat: "misc", type: "tool",
+        tags: ["convert","unit","length","weight","currency"],
+        tags_zh: ["单位换算","长度","重量","货币"],
+        status: "live", badge: "Shovel #016", detail_page: true },
+    { id: "shovel-017", name: "YouTube/Bilibili Audio Extractor", name_zh: "YouTube/B站音频一键提取",
+        desc: "Paste a video link, extract audio as MP3 instantly. No full video download needed.",
+        desc_zh: "贴视频链接，秒提MP3音频。无需下载完整视频，免费极速。",
+        icon: "music", color: "#f472b6", category: "media", subcat: "audio", type: "tool",
+        tags: ["youtube","bilibili","audio","mp3","extract","download","music"],
+        tags_zh: ["YouTube","B站","音频提取","MP3","音乐下载","提取"],
+        status: "live", badge: "Shovel #017", detail_page: true },
+    { id: "shovel-018", name: "Domain Name Generator & Checker", name_zh: "域名起名+测活一体机",
+        desc: "AI generates 100 domain ideas + real-time .com availability check. Find your perfect domain.",
+        desc_zh: "AI生成100个域名创意 + 实时检测.com是否可用。一键找到完美域名。",
+        icon: "globe", color: "#38bdf8", category: "dev", subcat: "domain", type: "tool",
+        tags: ["domain","name","generator","check","availability",".com","SEO"],
+        tags_zh: ["域名","起名","生成器","检测","可用性",".com","建站"],
+        status: "live", badge: "Shovel #018", detail_page: true },
+    { id: "shovel-019", name: "Random Identity Generator", name_zh: "随机资料/身份生成器",
+        desc: "Generate realistic fake identities: name, address, phone, email. For testing, Web3, or creative naming.",
+        desc_zh: "生成逼真假身份：名字、地址、电话、邮箱。测试用、Web3撸毛、起名灵感。",
+        icon: "user-plus", color: "#34d399", category: "gaming", subcat: "fun", type: "tool",
+        tags: ["identity","fake","generator","name","address","phone","web3","airdrop"],
+        tags_zh: ["身份生成","假资料","名字","地址","电话","Web3","空投","撸毛"],
+        status: "live", badge: "Shovel #019", detail_page: true },
+    { id: "script-006", name: "Anti-Detection Auto Clicker", name_zh: "万能防检测连点器",
+        desc: "Python script: random intervals + coordinate jitter. Simulates human finger, avoids bans.",
+        desc_zh: "Python脚本：随机间隔+坐标抖动，模拟真人手指，防止平台封禁。",
+        icon: "mouse-pointer-click", color: "#fb923c", category: "productivity", subcat: "util", type: "script",
+        tags: ["python","clicker","auto","anti-detect","macro","script"],
+        tags_zh: ["Python","连点器","自动","防检测","宏","脚本"],
+        status: "live", badge: "Script #006", detail_page: true },
+    { id: "script-007", name: "Multi-Account Auto Check-in", name_zh: "多账号一键自动签到器",
+        desc: "Python script: paste token list, auto check-in all accounts in 1 second. Custom API endpoint.",
+        desc_zh: "Python脚本：贴Token列表，1秒所有账号签完。自定义API端点。",
+        icon: "check-check", color: "#34d399", category: "productivity", subcat: "util", type: "script",
+        tags: ["python","checkin","auto","multi-account","token","script"],
+        tags_zh: ["Python","签到","自动","多账号","Token","脚本"],
+        status: "live", badge: "Script #007", detail_page: true },
+    { id: "script-008", name: "Multi-Wallet Gas Distributor", name_zh: "主子钱包Gas分发器",
+        desc: "Python script: distribute gas from main wallet to 20 sub-wallets. Anti-Sybil, chain-agnostic.",
+        desc_zh: "Python脚本：从主钱包一键分Gas到20个子钱包。防女巫关联，多链支持。",
+        icon: "send", color: "#fb923c", category: "finance", subcat: "defi", type: "script",
+        tags: ["python","gas","wallet","distribute","eth","script","web3","defi"],
+        tags_zh: ["Python","Gas","钱包","分发","ETH","脚本","Web3","DeFi"],
+        status: "live", badge: "Script #008", detail_page: true },
+    { id: "shovel-020", name: "Multi-Wallet Balance Checker", name_zh: "多钱包状态批量查询器",
+        desc: "Import address list → check balance & activity across chains → export Excel report.",
+        desc_zh: "导入地址列表 → 跨链查询余额和活跃度 → 导出Excel报告。一键验仓。",
+        icon: "list-checks", color: "#fb923c", category: "finance", subcat: "wallet", type: "tool",
+        tags: ["wallet","balance","check","multi","excel","export","batch","web3"],
+        tags_zh: ["钱包","余额","查询","批量","Excel","导出","验仓"],
+        status: "live", badge: "Shovel #020", detail_page: true },
+    { id: "script-009", name: "On-Chain Gas Conditional Order", name_zh: "链上Gas条件单脚本",
+        desc: "Python script: auto execute contract interaction when gas drops below your target. Set and forget.",
+        desc_zh: "Python脚本：Gas费低于设定值自动执行合约交互。挂机省Gas费。",
+        icon: "gauge", color: "#fb923c", category: "finance", subcat: "defi", type: "script",
+        tags: ["python","gas","conditional","order","auto","eth","script","web3"],
+        tags_zh: ["Python","Gas","条件单","自动","ETH","脚本","Web3"],
+        status: "live", badge: "Script #009", detail_page: true },
+    { id: "shovel-021", name: "E-commerce Image Formatter", name_zh: "跨境电商图片批量格式化",
+        desc: "Batch crop 800x800, watermark, compress, rename. One-stop e-commerce image processor.",
+        desc_zh: "批量裁剪800x800、加水印、压缩、编号重命名。一站式电商图片处理。",
+        icon: "image", color: "#818cf8", category: "media", subcat: "image", type: "tool",
+        tags: ["image","crop","watermark","compress","ecommerce","batch","format"],
+        tags_zh: ["图片","裁剪","水印","压缩","电商","批量","格式化"],
+        status: "live", badge: "Shovel #021", detail_page: true },
+    { id: "shovel-022", name: "Excel Report Merger", name_zh: "财务/销售报表合并工具",
+        desc: "Upload multiple Excel files → auto clean & align columns → merge into one master report.",
+        desc_zh: "上传多个Excel文件 → 自动清洗对齐 → 一键融合为汇总表。告别手动VLOOKUP。",
+        icon: "sheet", color: "#34d399", category: "productivity", subcat: "office", type: "tool",
+        tags: ["excel","merge","report","finance","csv","batch","table"],
+        tags_zh: ["Excel","合并","报表","财务","CSV","批量","表格"],
+        status: "live", badge: "Shovel #022", detail_page: true },
+    { id: "script-010", name: "Web Scraper Starter Kit", name_zh: "傻瓜式爬虫包",
+        desc: "Python script: scrape reviews/products from target sites. One-click save to Excel/CSV.",
+        desc_zh: "Python脚本：抓取目标网站评论/商品信息，一键保存Excel/CSV。零基础可用。",
+        icon: "spider", color: "#a78bfa", category: "dev", subcat: "scrape", type: "script",
+        tags: ["python","scraper","crawl","web","excel","csv","script"],
+        tags_zh: ["Python","爬虫","抓取","网页","Excel","CSV","脚本"],
+        status: "live", badge: "Script #010", detail_page: true },
+    { id: "shovel-023", name: "PDF Tools Matrix", name_zh: "PDF转换工具矩阵",
+        desc: "PDF ↔ Word/Excel/PPT/JPG, merge, split, compress, rotate. All-in-one PDF powerhouse.",
+        desc_zh: "PDF互转Word/Excel/PPT/JPG、合并、拆分、压缩、旋转。PDF全能工具箱。",
+        icon: "file-text", color: "#fbbf24", category: "productivity", subcat: "office", type: "tool",
+        tags: ["pdf","convert","word","excel","ppt","merge","split","compress","rotate"],
+        tags_zh: ["PDF","转换","Word","Excel","PPT","合并","拆分","压缩","旋转"],
+        status: "live", badge: "Shovel #023", detail_page: true },
+];
+
+// ===== AUTO TOOLS (from Workshop API) =====
+let AUTO_TOOLS = [];
+
+function mapAutoTool(t) {
+    const catId = CATEGORIES.find(c => c.id === t.category) ? t.category : "misc";
+    return {
+        id: t.id,
+        name: t.name || "Auto Tool",
+        name_zh: t.name_zh || "自动工具",
+        desc: t.desc || "",
+        desc_zh: t.desc_zh || "",
+        icon: "zap",
+        color: "#a78bfa",
+        category: catId,
+        subcat: null,
+        type: t.type || "tool",
+        tags: t.keyword ? [t.keyword.slice(0, 20)] : ["auto"],
+        tags_zh: t.keyword ? [t.keyword.slice(0, 20)] : ["自动生成"],
+        status: t.deployed ? "live" : "pending",
+        badge: t.badge || "Auto",
+        detail_page: true,
+        is_auto: true
+    };
+}
+
+async function loadAutoTools() {
+    try {
+        const r = await fetch(API + "/v1/workshop/tools");
+        const d = await r.json();
+        if (d.tools && d.tools.length) {
+            AUTO_TOOLS = d.tools
+                .filter(t => t.deployed)
+                .map(mapAutoTool);
+        }
+    } catch (e) {
+        AUTO_TOOLS = [];
+    }
+}
+
+function getAllTools() {
+    const seen = new Set();
+    const merged = [];
+    for (const t of [...AUTO_TOOLS, ...TOOLS]) {
+        if (!seen.has(t.id)) {
+            seen.add(t.id);
+            merged.push(t);
+        }
+    }
+    return merged;
+}
+
+// ===== PANEL (Dropdown) =====
+function togglePanel() {
+    const panel = document.getElementById("userPanel");
+    panel.classList.toggle("show");
+}
+
+// ===== CLICK OUTSIDE to close dropdown =====
+document.addEventListener("click", function(e) {
+    const panel = document.getElementById("userPanel");
+    const avatar = document.querySelector(".header-avatar-btn");
+    if (panel && avatar && !panel.contains(e.target) && !avatar.contains(e.target)) {
+        panel.classList.remove("show");
+    }
+});
+
+// ===== Theme Toggle =====
+function toggleTheme() {
+    document.body.classList.toggle("light");
+    const isLight = document.body.classList.contains("light");
+    document.getElementById("panel-theme-value").textContent = isLight ? "Light" : "Dark";
+    const sunIcon = document.querySelector('#userPanel [data-lucide="sun"]');
+    if (sunIcon) {
+        sunIcon.setAttribute("data-lucide", isLight ? "moon" : "sun");
+        if (window.lucide) lucide.createIcons();
+    }
+}
+
+// ===== Search =====
+document.getElementById("searchBox").addEventListener("input", function(e) {
+    searchQuery = e.target.value.trim();
+    document.getElementById("searchClear").classList.toggle("hidden", searchQuery === "");
+    renderAll();
+});
+
+function clearSearch() {
+    document.getElementById("searchBox").value = "";
+    searchQuery = "";
+    document.getElementById("searchClear").classList.add("hidden");
+    renderAll();
+}
+
+// ===== Category Filter =====
+function switchCatTab(catId) {
+    activeCatTab = catId;
+    renderAll();
+}
+
+// ===== SEARCH SCORE =====
+function aiSearchScore(tool, tokens) {
+    if (tokens.length === 0) return 1;
+    let score = 0;
+    const name = getToolName(tool).toLowerCase();
+    const desc = getToolDesc(tool).toLowerCase();
+    const tags = getToolTags(tool).join(" ").toLowerCase();
+    const nameField = tool.name.toLowerCase();
+    const descField = tool.desc.toLowerCase();
+    const tagsEn = (tool.tags || []).join(" ").toLowerCase();
+
+    for (const token of tokens) {
+        const tLower = token.toLowerCase();
+        if (name.includes(tLower)) score += 10;
+        else if (nameField === tLower) score += 8;
+        else if (tags.includes(tLower)) score += 6;
+        else if (desc.includes(tLower)) score += 3;
+        else if (tagsEn.includes(tLower)) score += 2;
+        else if (descField.includes(tLower)) score += 1;
+    }
+    return score;
+}
+
+// ===== Get tools by category =====
+function getToolsForCat(catId) {
+    let tools = getAllTools().filter(t => t.category === catId);
+    if (searchQuery.trim()) {
+        const tokens = searchQuery.trim().toLowerCase().split(/\s+/);
+        tools = tools.map(t => ({ tool: t, score: aiSearchScore(t, tokens) }))
+                     .filter(x => x.score > 0)
+                     .sort((a, b) => b.score - a.score)
+                     .map(x => x.tool);
+    }
+    return tools;
+}
+
+// ===== RENDER ALL =====
+function renderAll() {
+    renderCatTabs();
+    renderSections();
+    updateToolCount();
+}
+
+// ===== Render Category Tabs =====
+function renderCatTabs() {
+    const container = document.getElementById("catTabsBar");
+    let html = `<button class="cat-tab ${activeCatTab === "all" ? "active" : ""}" onclick="switchCatTab('all')">${currentLang === "zh" ? "全部" : "All"}</button>`;
+    for (const cat of CATEGORIES) {
+        const count = getToolsForCat(cat.id).length;
+        if (count === 0) continue;
+        const isActive = activeCatTab === cat.id;
+        html += `<button class="cat-tab ${isActive ? "active" : ""}" onclick="switchCatTab('${cat.id}')" style="${isActive ? 'background:' + cat.color + ';color:#fff;border-color:' + cat.color : ''}">${cat.icon} ${getCatName(cat)}</button>`;
+    }
+    container.innerHTML = html;
+}
+
+// ===== Render Sections =====
+function renderSections() {
+    const container = document.getElementById("catSections");
+    const noResults = document.getElementById("noResults");
+    let hasAnyTools = false;
+    const gridStyle = "display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px";
+
+    // Show featured tools when "all" tab
+    if (activeCatTab === "all") {
+        const featured = getAllTools().filter(t => t.status === "live").slice(0, 6);
+        if (featured.length > 0) {
+            hasAnyTools = true;
+            let html = `<div class="cat-section"><div class="cat-section-header" style="margin-bottom:12px"><div class="icon-box" style="background:rgba(245,158,11,0.08)">⭐</div><h2 style="color:#f59e0b">${currentLang === "zh" ? "精选推荐" : "Featured"}</h2><span class="count">${featured.length} tools</span></div>`;
+            html += `<div class="cat-tools" style="${gridStyle}">`;
+            for (const tool of featured) html += renderToolCard(tool);
+            html += `</div></div>`;
+            container.innerHTML = html;
+            lucide.createIcons();
+            noResults.classList.add("hidden");
+            return;
+        }
+    }
+
+    let html = "";
+    for (const cat of CATEGORIES) {
+        if (activeCatTab !== "all" && cat.id !== activeCatTab) continue;
+        const allTools = getToolsForCat(cat.id);
+        if (allTools.length === 0) continue;
+        hasAnyTools = true;
+
+        const liveCount = allTools.filter(t => t.status === "live").length;
+        html += `<div class="cat-section">`;
+        html += `<hr class="section-divider" style="margin-bottom:16px">`;
+        html += `<div class="cat-section-header">`;
+        html += `<div class="icon-box" style="background:${cat.color}15">${cat.icon}</div>`;
+        html += `<h2 style="color:${cat.color}">${getCatName(cat)}</h2>`;
+        html += `<span class="count">${liveCount} live · ${allTools.length} tools</span>`;
+        html += `</div>`;
+        html += `<div class="cat-tools" style="${gridStyle}">`;
+        for (const tool of allTools) html += renderToolCard(tool);
+        html += `</div>`;
+        html += `</div>`;
+    }
+
+    container.innerHTML = html;
+    lucide.createIcons();
+
+    if (!hasAnyTools) {
+        noResults.classList.remove("hidden");
+    } else {
+        noResults.classList.add("hidden");
+    }
+}
+
+// ===== Render Tool Card =====
+function renderToolCard(tool) {
+    const name = getToolName(tool);
+    const desc = getToolDesc(tool);
+    const tags = getToolTags(tool);
+    const isLive = tool.status === "live";
+    const isScript = tool.type === "script";
+    const typeBadge = isScript
+        ? `<span class="badge-script">📜 Script</span>`
+        : `<span class="badge-web">🔧 Web Tool</span>`;
+    const statusBadge = isLive
+        ? `<span class="badge-live">${t("status_live")}</span>`
+        : `<span class="badge-coming">${tool.badge}</span>`;
+
+    const onClick = tool.detail_page
+        ? `onclick="openToolDetail('${tool.id}')"`
+        : (isLive ? `onclick="openToolDetail('${tool.id}')"` : 'style="opacity:0.5;cursor:default"');
+
+    return `
+        <div class="tool-card" ${onClick}>
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:10px">
+                <div style="width:32px;height:32px;border-radius:var(--radius-md);display:flex;align-items:center;justify-content:center;background:${tool.color}15">
+                    <i data-lucide="${tool.icon}" style="color:${tool.color};width:16px;height:16px;stroke-width:1.75px"></i>
+                </div>
+                <div style="display:flex;align-items:center;gap:4px">
+                    ${typeBadge}
+                    ${statusBadge}
+                </div>
+            </div>
+            <h3 style="font-weight:600;font-size:14px;margin-bottom:6px">${name}</h3>
+            <p style="color:var(--text-secondary);font-size:12px;line-height:1.5;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">${desc}</p>
+            <div style="display:flex;flex-wrap:wrap;gap:4px">
+                ${tags.slice(0, 3).map(tag => `<span class="tag">#${tag}</span>`).join("")}
+            </div>
+        </div>`;
+}
+
+// ===== Update Tool Count =====
+function updateToolCount() {
+    const allTools = getAllTools();
+    document.getElementById("tool-count").textContent = `${allTools.length} tools`;
+}
+
+// ===== TOOL DETAIL =====
+function openToolDetail(toolId) {
+    const tool = getAllTools().find(t => t.id === toolId);
+    if (!tool) return;
+
+    document.getElementById("homePage").classList.add("hidden");
+    document.getElementById("toolPage").classList.remove("hidden");
+
+    const name = getToolName(tool);
+    const desc = getToolDesc(tool);
+    const isScript = tool.type === "script";
+    const typeBadge = isScript
+        ? `<span class="badge-script">📜 Script</span>`
+        : `<span class="badge-web">🔧 Web Tool</span>`;
+
+    document.getElementById("toolDetailContent").innerHTML = `
+        <button class="tool-detail-back" onclick="goHome()">
+            <i data-lucide="arrow-left" style="width:16px;height:16px"></i>
+            ${t("tool_back")}
+        </button>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:16px;flex-wrap:wrap">
+            ${typeBadge}
+            <span class="badge-coming">${tool.badge}</span>
+            ${tool.is_auto ? '<span class="badge-live">🤖 Auto Generated</span>' : ''}
+        </div>
+        <h1 class="tool-detail-title">${name}</h1>
+        <p class="tool-detail-desc">${desc}</p>
+        <div class="tool-detail-placeholder">
+            <i data-lucide="box" style="width:48px;height:48px;opacity:0.3;margin-bottom:16px"></i>
+            <p>${currentLang === "zh" ? "工具操作面板（详情页框架已就绪）" : "Tool operation panel (detail page framework ready)"}</p>
+            <p style="font-size:12px;margin-top:8px;color:var(--text-muted)">ID: ${tool.id} | Category: ${tool.category} | Type: ${tool.type}</p>
+        </div>
+    `;
+    lucide.createIcons();
+    window.scrollTo(0, 0);
+}
+
+function goHome() {
+    document.getElementById("toolPage").classList.add("hidden");
+    document.getElementById("homePage").classList.remove("hidden");
+    renderAll();
+    window.scrollTo(0, 0);
+}
+
+// ===== INIT =====
+async function init() {
+    await loadAutoTools();
+    renderAll();
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    lucide.createIcons();
+    init();
+});
+
+// ===== Close dropdown on ESC =====
+document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") {
+        document.getElementById("userPanel").classList.remove("show");
+    }
+});
+</script>
+</body>
+</html>

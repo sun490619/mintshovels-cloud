@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>MintShovels · 管理后台</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #09090b;
+            color: #e4e4e7;
+            font-family: system-ui, -apple-system, sans-serif;
+            display: flex; align-items: center; justify-content: center;
+            min-height: 100vh;
+        }
+        .card {
+            background: #18181b;
+            border: 1px solid #27272a;
+            border-radius: 12px;
+            padding: 40px 32px;
+            width: 380px;
+            max-width: 90vw;
+            text-align: center;
+        }
+        .card h1 { font-size: 20px; margin-bottom: 8px; }
+        .card p { color: #71717a; font-size: 14px; margin-bottom: 24px; }
+        input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #3f3f46;
+            border-radius: 8px;
+            background: #09090b;
+            color: #e4e4e7;
+            font-size: 15px;
+            outline: none;
+            text-align: center;
+            transition: border-color 0.2s;
+        }
+        input:focus { border-color: #facc15; }
+        button {
+            width: 100%;
+            margin-top: 12px;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #facc15;
+            color: #18181b;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        button:hover { opacity: 0.9; }
+        .error { color: #f87171; font-size: 13px; margin-top: 10px; display: none; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🔑 管理后台</h1>
+        <p>请输入管理密码</p>
+        <input type="password" id="pwd" placeholder="········" autofocus>
+        <button onclick="doLogin()">进入后台</button>
+        <p class="error" id="err">密码错误，请重试</p>
+    </div>
+    <script>
+        const BASE = 'https://efficient-reverence-production-1b4a.up.railway.app/admin';
+        // 仅存哈希，源码中不会有明文密码
+        const VALID_HASH = 'f6d67ad80c714730b14c3c6798775f25440b14a06461f91ab459869774c5454d';
+
+        async function doLogin() {
+            const pwd = document.getElementById('pwd').value.trim();
+            if (!pwd) return;
+            const hash = await sha256(pwd);
+            if (hash === VALID_HASH) {
+                // 验证通过后，通过 sessionStorage 安全传递，避免明文出现在 URL
+                sessionStorage.setItem('admin_key', pwd);
+                window.location.href = BASE;
+            } else {
+                document.getElementById('err').style.display = 'block';
+                document.getElementById('pwd').value = '';
+                document.getElementById('pwd').focus();
+            }
+        }
+
+        document.getElementById('pwd').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') doLogin();
+        });
+
+        async function sha256(str) {
+            const buf = new TextEncoder().encode(str);
+            const hash = await crypto.subtle.digest('SHA-256', buf);
+            return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+    </script>
+</body>
+</html>

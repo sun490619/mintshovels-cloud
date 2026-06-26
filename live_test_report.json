@@ -1,0 +1,355 @@
+{
+  "test_time": "2026-06-23T12:51:25.463344+00:00Z",
+  "total_tested": 43,
+  "passed": 38,
+  "hand_written_untestable": 5,
+  "auto_testable": 38,
+  "auto_passed": 38,
+  "auto_pass_rate": 100.0,
+  "results": [
+    {
+      "id": "auto-ai_算力大模型优逆讨论-4af5f8",
+      "name": "Ai 算力大模型优逆讨论 Calculator",
+      "source": "calculator",
+      "template": "计算器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-we_post-trained_a_mo-43b39c",
+      "name": "We post-trained a model that pen tests instead of refusing C",
+      "source": "checker",
+      "template": "检测/验证器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-latest_news-96c5c6",
+      "name": "Latest news Checker",
+      "source": "checker",
+      "template": "检测/验证器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-latest_news-f40253",
+      "name": "Latest news Checker",
+      "source": "checker",
+      "template": "检测/验证器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-_-821473",
+      "name": "出易盾协议源码 通杀所有类型验证码 Checker",
+      "source": "checker",
+      "template": "检测/验证器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-_-9574ee",
+      "name": "出易盾协议源码 通杀所有类型验证码 Checker",
+      "source": "checker",
+      "template": "检测/验证器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-discord_bots_amp_dis-68be23",
+      "name": "Discord bots amp discord apps Tool",
+      "source": "python",
+      "template": "Python脚本",
+      "passed": true,
+      "detail": "Python语法有效"
+    },
+    {
+      "id": "auto-送你个机器人女友#ai-23d009",
+      "name": "送你个机器人女友#ai Tool",
+      "source": "python",
+      "template": "Python脚本",
+      "passed": true,
+      "detail": "Python语法有效"
+    },
+    {
+      "id": "auto-discord_bots_amp_dis-ad54ad",
+      "name": "Discord bots amp discord apps Tool",
+      "source": "python",
+      "template": "Python脚本",
+      "passed": true,
+      "detail": "Python语法有效"
+    },
+    {
+      "id": "auto-ai_bots-6524dc",
+      "name": "Ai bots Tool",
+      "source": "python",
+      "template": "Python脚本",
+      "passed": true,
+      "detail": "Python语法有效"
+    },
+    {
+      "id": "auto-ai_bots-462188",
+      "name": "Ai bots Tool",
+      "source": "python",
+      "template": "Python脚本",
+      "passed": true,
+      "detail": "Python语法有效"
+    },
+    {
+      "id": "auto-ai_bots-dfa22e",
+      "name": "Ai bots Tool",
+      "source": "python",
+      "template": "Python脚本",
+      "passed": true,
+      "detail": "Python语法有效"
+    },
+    {
+      "id": "auto-blink_plus_plan_with-ca9f54",
+      "name": "Blink plus plan with monthly auto-renewal Tool",
+      "source": "python",
+      "template": "Python脚本",
+      "passed": true,
+      "detail": "Python语法有效"
+    },
+    {
+      "id": "auto-discord_bots_amp_dis-117c84",
+      "name": "Discord bots amp discord apps Tool",
+      "source": "python",
+      "template": "Python脚本",
+      "passed": true,
+      "detail": "Python语法有效"
+    },
+    {
+      "id": "auto-iphone1817pro-a46c15",
+      "name": "Random Iphone18标准版神似17pro Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-cyberpunk_2077-9ccd3d",
+      "name": "Random Cyberpunk 2077 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-男子煮粽子时狗狗狂叫_30秒后惊呆-bce469",
+      "name": "Random 男子煮粽子时狗狗狂叫 30秒后惊呆 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-crazy_fruit_shooter-809d8a",
+      "name": "Random Crazy fruit shooter Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-张靓颖清唱太多被罚款-4ae7fd",
+      "name": "Random 张靓颖清唱太多被罚款 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-小红书_网文-f6510b",
+      "name": "Random 小红书_网文 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-龙舟经济火爆-fc1a54",
+      "name": "Random 龙舟经济火爆 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-淘宝游戏网-93ed08",
+      "name": "Random 淘宝游戏网 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-我要给_glm5_道歉-2199c2",
+      "name": "Random 我要给 glm5 道歉 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-depop_unisex_nails-eedbac",
+      "name": "Random Depop unisex nails Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-cape_cod-330069",
+      "name": "Random Cape cod Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-road_to_empress_i-10197b",
+      "name": "Random Road to empress i Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-cyberpunk_2077-930568",
+      "name": "Random Cyberpunk 2077 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-spherical_videos-b095c8",
+      "name": "Random Spherical videos Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-topoteretes_cognee-8218ef",
+      "name": "Random Topoteretes cognee Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-tursodatabase_turso-43f3c1",
+      "name": "Random Tursodatabase turso Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-tw93_pake-f5b9db",
+      "name": "Random Tw93 pake Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-ziua_copilului-f76fb9",
+      "name": "Random Ziua copilului Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-小红书_沪公网安备-db9789",
+      "name": "Random 小红书_沪公网安备 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-prx总决赛对阵lev-62c909",
+      "name": "Random Prx总决赛对阵lev Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-纸短情长_照映初心-4925a5",
+      "name": "Random 纸短情长 照映初心 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-网红淘宝百科-78fbd2",
+      "name": "Random 网红淘宝百科 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-淘宝美妆网-88eebf",
+      "name": "Random 淘宝美妆网 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "auto-淘宝数码网-702f1b",
+      "name": "Random 淘宝数码网 Generator",
+      "source": "generator",
+      "template": "随机生成器",
+      "passed": true,
+      "detail": "✅HTML结构完整; ✅JS有函数定义; ✅JS有实质逻辑; ✅JS无TODO占位; ✅有事件绑定"
+    },
+    {
+      "id": "shovel-001",
+      "name": "Multi-Platform Media Extractor",
+      "source": "hand_written",
+      "template": "手写工具",
+      "passed": false,
+      "detail": "手写工具无内联JS，无法自动测试（需真实环境打开index.html）"
+    },
+    {
+      "id": "shovel-002",
+      "name": "Image Compressor",
+      "source": "hand_written",
+      "template": "手写工具",
+      "passed": false,
+      "detail": "手写工具无内联JS，无法自动测试（需真实环境打开index.html）"
+    },
+    {
+      "id": "shovel-003",
+      "name": "Dual-Mode Audio/Video Transcriber",
+      "source": "hand_written",
+      "template": "手写工具",
+      "passed": false,
+      "detail": "手写工具无内联JS，无法自动测试（需真实环境打开index.html）"
+    },
+    {
+      "id": "shovel-007",
+      "name": "Background Remover",
+      "source": "hand_written",
+      "template": "手写工具",
+      "passed": false,
+      "detail": "手写工具无内联JS，无法自动测试（需真实环境打开index.html）"
+    },
+    {
+      "id": "script-001",
+      "name": "Video Dedup Pipeline",
+      "source": "hand_written",
+      "template": "手写工具",
+      "passed": false,
+      "detail": "手写工具无内联JS，无法自动测试（需真实环境打开index.html）"
+    }
+  ]
+}

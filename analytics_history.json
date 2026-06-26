@@ -1,0 +1,79 @@
+{
+  "snapshots": [
+    {
+      "date": "2026-06-22",
+      "timestamp": "2026-06-22T21:42:37.831557",
+      "cf_uv": 650,
+      "cf_requests": 5965,
+      "cf_pageviews": 3029,
+      "cf_bandwidth_mb": 145.2,
+      "cf_cached_pct": 3.6,
+      "ga4_users": 4,
+      "ga4_sessions": 5,
+      "ga4_bounce": 100.0,
+      "gsc_clicks": 0,
+      "gsc_impressions": 0,
+      "bing_clicks": 0
+    },
+    {
+      "date": "2026-06-23",
+      "timestamp": "2026-06-23T22:09:38.618395",
+      "cf_uv": 753,
+      "cf_requests": 7031,
+      "cf_pageviews": 3399,
+      "cf_bandwidth_mb": 216.9,
+      "cf_cached_pct": 7.2,
+      "ga4_users": 7,
+      "ga4_sessions": 16,
+      "ga4_bounce": 100.0,
+      "gsc_clicks": 0,
+      "gsc_impressions": 0,
+      "bing_clicks": 0
+    },
+    {
+      "date": "2026-06-24",
+      "timestamp": "2026-06-24T23:43:59.536489",
+      "cf_uv": 909,
+      "cf_requests": 9330,
+      "cf_pageviews": 4231,
+      "cf_bandwidth_mb": 338.1,
+      "cf_cached_pct": 12.3,
+      "ga4_users": 23,
+      "ga4_sessions": 30,
+      "ga4_bounce": 100.0,
+      "gsc_clicks": 0,
+      "gsc_impressions": 0,
+      "bing_clicks": 0
+    },
+    {
+      "date": "2026-06-25",
+      "timestamp": "2026-06-25T22:52:27.364109",
+      "cf_uv": 0,
+      "cf_requests": 0,
+      "cf_pageviews": 0,
+      "cf_bandwidth_mb": 0,
+      "cf_cached_pct": 0,
+      "ga4_users": 10,
+      "ga4_sessions": 18,
+      "ga4_bounce": 100.0,
+      "gsc_clicks": 0,
+      "gsc_impressions": 0,
+      "bing_clicks": 0
+    },
+    {
+      "date": "2026-06-26",
+      "timestamp": "2026-06-26T08:00:11.644603",
+      "cf_uv": 0,
+      "cf_requests": 0,
+      "cf_pageviews": 0,
+      "cf_bandwidth_mb": 0,
+      "cf_cached_pct": 0,
+      "ga4_users": 1,
+      "ga4_sessions": 1,
+      "ga4_bounce": 100.0,
+      "gsc_clicks": 0,
+      "gsc_impressions": 0,
+      "bing_clicks": 0
+    }
+  ]
+}

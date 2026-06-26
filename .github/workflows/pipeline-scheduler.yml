@@ -1,0 +1,152 @@
+name: 🤖 Auto Pipeline — 雷达→工厂→提交→部署
+
+on:
+  schedule:
+    # 每3小时运行一次 (UTC时间: 0点, 3点, 6点, 9点, 12点, 15点, 18点, 21点)
+    # 北京时间: 8:00, 11:00, 14:00, 17:00, 20:00, 23:00, 2:00, 5:00
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      max_tools:
+        description: '每次最多生产工具数'
+        required: false
+        default: '3'
+        type: choice
+        options:
+          - '1'
+          - '3'
+          - '5'
+          - '10'
+
+concurrency:
+  group: auto-pipeline
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  pipeline:
+    name: 🔄 雷达 → 工厂 → 测试 → 提交
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: 📥 Checkout 代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: 🐍 设置 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 安装 Python 依赖
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 📋 运行前状态
+        run: |
+          echo "--- 运行前状态 ---"
+          echo "当前时间 (UTC): $(date -u)"
+          echo "Python: $(python3 --version)"
+          echo "当前 commit: $(git rev-parse --short HEAD)"
+          echo ""
+          echo "--- 现有报告 ---"
+          ls -la reports/ 2>/dev/null || echo "(reports/ 目录为空)"
+          echo ""
+          echo "--- 当前工具数量 ---"
+          ls tools/*.html 2>/dev/null | wc -l || echo "0"
+
+      - name: 🚀 运行全自动流水线
+        id: pipeline
+        run: |
+          MAX_TOOLS="${{ github.event.inputs.max_tools || '3' }}"
+          echo "🚀 启动流水线 (max_tools=$MAX_TOOLS)..."
+          python3 engine/pipeline.py \
+            --max "$MAX_TOOLS" \
+            --no-deploy \
+            2>&1 | tee pipeline_output.txt
+          
+          PIPELINE_EXIT_CODE=${PIPESTATUS[0]}
+          echo "exit_code=$PIPELINE_EXIT_CODE" >> $GITHUB_OUTPUT
+          
+          # 提取关键指标
+          echo "--- 📊 流水线摘要 ---"
+          grep -E "(雷达|工厂|门禁|测试汇总|工具总数|新上线)" pipeline_output.txt | tail -10 || true
+
+      - name: 📝 检查代码变更
+        id: changes
+        run: |
+          git status --short
+          
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️  没有代码变更，跳过提交"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "📝 检测到以下变更:"
+            git diff --stat
+            git diff --stat --cached
+          fi
+
+      - name: 💾 提交 & 推送变更
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "MintShovels Bot 🤖"
+          git config user.email "bot@mintshovels.com"
+          
+          # 添加所有变更（index.html, tools/, reports/）
+          git add -A
+          # 强制添加雷达报告（reports/目录在.gitignore中，需显式添加）
+          git add -f reports/demand_report.json 2>/dev/null || true
+          
+          # 生成有意义的 commit message
+          COMMIT_MSG="🤖 Auto Pipeline $(date -u +'%Y-%m-%d %H:%M UTC')"
+          
+          # 从日志中提取关键信息
+          if grep -q "新上线" pipeline_output.txt; then
+            NEW_TOOLS=$(grep "新上线" pipeline_output.txt | grep -oP '\d+' | head -1)
+            COMMIT_MSG="$COMMIT_MSG — 上线 $NEW_TOOLS 个新工具"
+          fi
+          
+          git commit -m "$COMMIT_MSG"
+          git push origin main
+          
+          echo "✅ 已推送变更 → 自动触发 Cloudflare Pages + Railway 部署"
+
+      - name: 📊 生成运行报告
+        if: always()
+        run: |
+          {
+            echo "## 🤖 Auto Pipeline 运行报告"
+            echo ""
+            echo "| 项目 | 状态 |"
+            echo "|------|------|"
+            echo "| ⏰ 运行时间 | $(date -u +'%Y-%m-%d %H:%M UTC') |"
+            echo "| 🔄 触发方式 | ${{ github.event_name }} |"
+            echo "| 📦 Commit | \`$(git rev-parse --short HEAD)\` |"
+            
+            if [ "${{ steps.pipeline.outputs.exit_code }}" = "0" ]; then
+              echo "| 🚀 流水线 | ✅ 通过 |"
+            else
+              echo "| 🚀 流水线 | ⚠️ 存在问题 (exit=${{ steps.pipeline.outputs.exit_code }}) |"
+            fi
+            
+            if [ "${{ steps.changes.outputs.has_changes }}" = "true" ]; then
+              echo "| 📝 变更 | ✅ 已提交推送 |"
+            else
+              echo "| 📝 变更 | ℹ️ 无变更 |"
+            fi
+            
+            echo ""
+            echo "### 📋 流水线日志摘要"
+            echo '```'
+            tail -30 pipeline_output.txt 2>/dev/null || echo "(无日志)"
+            echo '```'
+          } >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,393 @@
+{
+  "pass": [
+    {
+      "text": "Is there a tool to validate an Azure DevOps Pipeline locally?",
+      "name": "Azure DevOps Pipeline Local Validator",
+      "confidence": 95,
+      "reason": "用户需要一种在本地验证 Azure DevOps 流水线配置语法和逻辑的工具，以避免频繁提交代码进行测试。",
+      "feasibility": "可以通过调用 Azure DevOps CLI 或解析 YAML 结构进行静态分析和模拟运行，技术上完全可实现。",
+      "type": "checker",
+      "verdict": "PASS"
+    },
+    {
+      "text": "is there a tool to create SVG paths from an SVG file?",
+      "name": "SVG路径提取器",
+      "confidence": 100,
+      "reason": "用户需要从SVG文件中提取或生成路径数据（Path Data），这是一种明确的格式处理需求。",
+      "feasibility": "SVG本质是XML文本，通过前端解析DOM或正则表达式即可提取path属性，技术实现路径清晰。",
+      "type": "converter",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Oracle: is there a tool to trace queries, like Profiler for SQL Server?",
+      "name": "Oracle SQL 查询追踪分析器",
+      "confidence": 95,
+      "reason": "用户需要一个能够像 SQL Server Profiler 那样实时监控和分析 Oracle 数据库查询性能的工具。",
+      "feasibility": "通过解析 Oracle 的 V$SQL、V$SESSION 等动态性能视图或 Trace 文件，完全可以通过 Web 端可视化展示查询执行计划和性能指标。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Is there a tool to profile sqlite queries?",
+      "name": "SQLite 查询性能分析器",
+      "confidence": 95,
+      "reason": "用户需要分析和优化 SQLite 数据库查询语句的执行性能。",
+      "feasibility": "通过解析 SQL 语句并结合 EXPLAIN QUERY PLAN 指令，完全可以在线实现查询性能分析。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Is there a tool to remove unused methods in javascript?",
+      "name": "JavaScript 无用代码清理工具",
+      "confidence": 95,
+      "reason": "用户需要识别并移除 JavaScript 项目中未被引用的函数或方法，以优化代码体积。",
+      "feasibility": "通过静态代码分析（AST 解析）可以准确识别未被调用的函数，技术上完全可行。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Is there a tool that generates P/Invoke signatures for arbitrary unmanaged DLL?",
+      "name": "P/Invoke Signature Generator",
+      "confidence": 95,
+      "reason": "用户需要将非托管DLL中的函数定义自动转换为C#的P/Invoke签名，以简化跨语言调用开发。",
+      "feasibility": "通过解析DLL的导出表（Export Table）或头文件，利用现有的反编译库或元数据分析技术，完全可以在线实现该转换逻辑。",
+      "type": "generator",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Is there a tool to find unused resources in an Android project?",
+      "name": "Android 未使用资源清理工具",
+      "confidence": 95,
+      "reason": "用户需要识别并清理 Android 项目中未被引用的资源文件以减小包体积。",
+      "feasibility": "通过静态代码分析扫描资源引用关系（Lint分析）即可实现，技术路径成熟。",
+      "type": "checker",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Is there a tool to have git show &quot;detached heads&quot; in a graph?",
+      "name": "Git Detached Head Graph Visualizer",
+      "confidence": 95,
+      "reason": "用户希望可视化展示Git仓库中处于detached head状态的提交记录及其分支关系。",
+      "feasibility": "可以通过解析git log输出或调用git API，利用前端绘图库（如D3.js或Cytoscape.js）实现图形化渲染。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Is there a tool for refactoring SQL, a bit like a ReSharper for SQL",
+      "name": "SQL代码重构与优化工具",
+      "confidence": 95,
+      "reason": "用户需要一个能够自动分析并优化SQL语句结构、提升可读性与性能的辅助工具。",
+      "feasibility": "SQL语法解析与重构属于成熟的静态代码分析技术，可通过AST（抽象语法树）解析实现。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Is there a tool to automatically convert string formatting types to f-strings?",
+      "name": "String to f-string Converter",
+      "confidence": 100,
+      "reason": "用户需要将旧式的字符串格式化（如 % 或 .format()）自动转换为 Python 的 f-string 语法。",
+      "feasibility": "该需求属于代码重构范畴，可以通过正则表达式或 AST（抽象语法树）解析轻松实现自动化转换。",
+      "type": "converter",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Bash tool to get nth line from a file",
+      "name": "文件指定行提取器",
+      "confidence": 100,
+      "reason": "用户需要一个能够从文本文件中快速提取特定行号内容的工具。",
+      "feasibility": "该需求可以通过简单的文本处理算法（如sed或前端文件流读取）实现，技术上完全可行。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Simple tool to &#39;accept theirs&#39; or &#39;accept mine&#39; on a whole file using git",
+      "name": "Git 冲突批量决策工具",
+      "confidence": 95,
+      "reason": "用户需要一种能够批量处理 Git 合并冲突，快速选择保留“我的”或“对方的”代码版本的工具。",
+      "feasibility": "可以通过解析 Git 冲突文件格式（Conflict Markers），利用脚本或前端逻辑进行文本替换和合并，技术实现路径清晰。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Tool to Unminify / Decompress JavaScript",
+      "name": "JavaScript 代码格式化/反压缩工具",
+      "confidence": 100,
+      "reason": "用户需要将压缩或混淆后的 JavaScript 代码还原为可读性强的格式。",
+      "feasibility": "通过解析 JavaScript 抽象语法树（AST）或使用现成的格式化库（如 Prettier）即可在前端实现。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Tool to generate JSON schema from JSON data",
+      "name": "JSON to JSON Schema Generator",
+      "confidence": 100,
+      "reason": "用户需要将具体的JSON数据自动转换为对应的Schema结构定义，这是一个典型的开发辅助需求。",
+      "feasibility": "该需求逻辑明确，通过解析JSON对象并递归生成对应的类型定义即可实现，纯前端即可完成。",
+      "type": "converter",
+      "verdict": "PASS"
+    },
+    {
+      "text": "What is best tool to compare two SQL Server databases (schema and data)?",
+      "name": "SQL Server 数据库结构与数据对比工具",
+      "confidence": 95,
+      "reason": "用户需要对比两个 SQL Server 数据库的架构差异及数据内容差异。",
+      "feasibility": "通过连接数据库读取元数据（Schema）和执行查询（Data）进行比对，在技术上完全可实现。",
+      "type": "checker",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Tool to track #include dependencies",
+      "name": "C/C++ Include Dependency Visualizer",
+      "confidence": 95,
+      "reason": "用户需要分析源代码中的头文件引用关系，以理清项目依赖结构。",
+      "feasibility": "通过静态代码分析（AST解析或正则匹配）即可提取依赖关系并生成可视化图表，纯软件逻辑可实现。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "A tool to convert MATLAB code to Python",
+      "name": "MATLAB转Python代码转换器",
+      "confidence": 95,
+      "reason": "用户明确提出了将一种编程语言转换为另一种编程语言的需求。",
+      "feasibility": "代码转换属于语法解析与重构范畴，可通过AST（抽象语法树）转换或大模型API实现，技术上完全可行。",
+      "type": "converter",
+      "verdict": "PASS"
+    },
+    {
+      "text": "an htop-like tool to display disk activity in linux",
+      "name": "Linux 磁盘活动实时监控工具",
+      "confidence": 95,
+      "reason": "用户需要一个类似于 htop 的可视化界面来实时监控 Linux 系统的磁盘 I/O 活动。",
+      "feasibility": "通过读取 /proc/diskstats 或使用 iostat/iotop 等系统接口即可实现，技术路径清晰且完全可行。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Tool to compare directories (Windows 7)",
+      "name": "目录差异对比工具",
+      "confidence": 95,
+      "reason": "用户需要对比两个文件夹内的文件结构及内容差异，这是一个典型的文件系统管理需求。",
+      "feasibility": "通过读取文件系统元数据（文件名、大小、哈希值）即可在浏览器或本地脚本中实现对比逻辑。",
+      "type": "checker",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Software recommendation for circos plot with discrete axis",
+      "name": "Circos Plot Generator",
+      "confidence": 95,
+      "reason": "用户需要一个能够处理离散轴数据的Circos图表生成工具，目前市面上多为复杂的编程库，缺乏易用的在线可视化工具。",
+      "feasibility": "Circos图表可以通过D3.js或Canvas在前端实现数据可视化渲染，逻辑清晰且无物理或法律限制。",
+      "type": "generator",
+      "verdict": "PASS"
+    },
+    {
+      "text": "How to create a macro that types out inputs as a human would, as opposed to pasting? (Or software recommendation - Windo",
+      "name": "模拟人工输入宏生成器",
+      "confidence": 90,
+      "reason": "用户需要一种能模拟真实键盘敲击行为（而非直接粘贴）的自动化输入工具，以绕过某些系统的粘贴限制或检测。",
+      "feasibility": "通过脚本语言（如AutoHotkey或Python的pyautogui库）完全可以实现模拟键盘事件的输入逻辑，技术上可行。",
+      "type": "script",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Multiple View Stereo software recommendation",
+      "name": "多视图立体视觉(MVS)软件推荐器",
+      "confidence": 90,
+      "reason": "用户在寻找特定领域（MVS）的软件解决方案，可以做成一个基于分类标签的推荐工具。",
+      "feasibility": "通过构建软件数据库并根据用户需求（如开源/闭源、操作系统、精度要求）进行筛选，技术上完全可行。",
+      "type": "other",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Looking for a &#39;cmake clean&#39; command to clear up CMake output",
+      "name": "CMake 清理脚本生成器",
+      "confidence": 95,
+      "reason": "用户需要一种便捷的方式来清理 CMake 构建产生的临时文件和缓存。",
+      "feasibility": "该需求本质上是执行删除特定文件和目录的脚本，完全可以通过前端生成 Shell/Batch 脚本实现。",
+      "type": "script",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Looking for a good world map generation algorithm",
+      "name": "程序化世界地图生成器",
+      "confidence": 95,
+      "reason": "用户需要一种算法或工具来自动生成世界地图，这属于典型的程序化生成需求。",
+      "feasibility": "基于柏林噪声（Perlin Noise）或分形算法的地图生成在前端即可实现，技术路径非常成熟。",
+      "type": "generator",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Looking for a good Python Tree data structure",
+      "name": "Python 树结构代码生成器",
+      "confidence": 90,
+      "reason": "用户在寻找特定的数据结构实现，可以通过在线工具生成标准化的Python树结构模板代码。",
+      "feasibility": "代码生成属于纯逻辑处理，完全可以通过前端模板或后端代码生成器实现。",
+      "type": "generator",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Looking for a Command Line Argument Parser for .NET",
+      "name": ".NET 命令行参数解析器生成器",
+      "confidence": 90,
+      "reason": "用户在寻找用于.NET环境的命令行参数解析工具或库。",
+      "feasibility": "命令行参数解析是成熟的编程逻辑，可以通过在线生成代码片段或提供库推荐工具实现。",
+      "type": "generator",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Looking for a short &amp; simple example of getters/setters in C#",
+      "name": "C# Getter/Setter 代码生成器",
+      "confidence": 95,
+      "reason": "用户需要一个关于C#属性访问器（Getter/Setter）的简单代码示例，这属于典型的代码模板生成需求。",
+      "feasibility": "代码生成逻辑简单，完全可以通过前端模板渲染实现，技术上非常成熟且可行。",
+      "type": "generator",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Looking for a full list of jQuery event types",
+      "name": "jQuery 事件类型查询表",
+      "confidence": 90,
+      "reason": "用户需要一个关于jQuery事件类型的完整参考列表，这属于信息检索需求。",
+      "feasibility": "这是一个静态数据展示需求，通过网页整理并呈现jQuery官方文档内容即可实现。",
+      "type": "other",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Looking for a practical approach to sandboxing .NET plugins",
+      "name": ".NET 插件沙箱配置生成器",
+      "confidence": 85,
+      "reason": "用户需要一种实用的方法来隔离和运行.NET插件，这可以转化为一个生成安全配置或代码模板的工具。",
+      "feasibility": "通过生成符合.NET安全策略（如AppDomain或AssemblyLoadContext）的代码模板或配置文件，纯软件即可实现。",
+      "type": "generator",
+      "verdict": "PASS"
+    },
+    {
+      "text": "RegExp exclusion, looking for a word not followed by another",
+      "name": "正则表达式负向预查生成器",
+      "confidence": 95,
+      "reason": "用户需要构建特定的正则表达式逻辑（负向预查），通过输入目标词和排除词生成对应的正则模式。",
+      "feasibility": "正则表达式的逻辑构建属于纯文本处理范畴，完全可以通过前端JavaScript实现逻辑生成与验证。",
+      "type": "generator",
+      "verdict": "PASS"
+    },
+    {
+      "text": "any tool for java object to object mapping?",
+      "name": "Java 对象映射代码生成器",
+      "confidence": 95,
+      "reason": "用户需要将一个Java对象转换为另一个Java对象的映射代码，这是开发中的高频需求。",
+      "feasibility": "通过解析Java类结构或JSON Schema，利用反射或代码模板引擎即可自动生成映射逻辑，技术实现成熟。",
+      "type": "generator",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Any tool to automatically fix simple JSLint issues?",
+      "name": "JSLint 自动修复工具",
+      "confidence": 100,
+      "reason": "用户需要一个能自动修复 JavaScript 代码中 JSLint 检查出的简单语法或规范问题的工具。",
+      "feasibility": "基于 AST（抽象语法树）解析和代码重写技术，完全可以在浏览器端通过 JavaScript 实现代码格式化与自动修复。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Any tool/software in windows for viewing ELF file format?",
+      "name": "ELF文件查看器",
+      "confidence": 95,
+      "reason": "用户需要一种在Windows环境下解析并查看ELF（Linux可执行文件）格式内容的工具。",
+      "feasibility": "ELF文件格式是公开的二进制标准，通过解析文件头和段表即可实现可视化，技术上完全可行。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Is there any tool to find any difference between two xcode projects?",
+      "name": "Xcode 项目差异对比工具",
+      "confidence": 95,
+      "reason": "用户需要对比两个 Xcode 项目文件（.xcodeproj）或项目结构之间的差异，以辅助代码审查或版本迁移。",
+      "feasibility": "Xcode 项目文件本质是 XML 格式的 plist 文件，通过解析文件结构或对比目录树即可实现，纯软件逻辑可处理。",
+      "type": "checker",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Is there any tool that can show how a CSS property is computed, if it&#39;s not inherited or set directly on the element",
+      "name": "CSS 计算属性可视化分析器",
+      "confidence": 95,
+      "reason": "用户需要一个工具来直观展示 CSS 属性的计算来源（继承、默认值或直接设置），以解决复杂的样式调试问题。",
+      "feasibility": "可以通过浏览器 API (getComputedStyle) 或解析 CSSOM 树在前端实现，逻辑清晰且不涉及违法或硬件限制。",
+      "type": "checker",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Is there any tool / way to detect/remove all unused variables,macros,headers(includes) and functions from c++ code?",
+      "name": "C++ 代码冗余清理工具",
+      "confidence": 95,
+      "reason": "用户需要一种自动化手段来识别并移除 C++ 项目中未使用的变量、宏、头文件和函数。",
+      "feasibility": "通过静态代码分析（如 Clang AST 或 LLVM 工具链）可以实现对代码结构的解析与冗余检测，技术上完全可行。",
+      "type": "processor",
+      "verdict": "PASS"
+    },
+    {
+      "text": "Any tool similar to ants profiler and free?",
+      "name": "开源性能分析工具",
+      "confidence": 90,
+      "reason": "用户在寻找特定商业软件（Ants Profiler）的免费开源替代方案，属于明确的工具需求。",
+      "feasibility": "性能分析工具属于成熟的软件工程领域，通过开源库或自研分析引擎完全可以实现代码性能监控与分析。",
+      "type": "processor",
+      "verdict": "PASS"
+    }
+  ],
+  "warn": [
+    {
+      "text": "How to test / debug shell extensions? Is there any tool for that?",
+      "name": "Shell Extension 调试辅助工具",
+      "confidence": 90,
+      "reason": "用户在寻找用于测试和调试 Windows Shell 扩展（如右键菜单、图标覆盖等）的专用工具。",
+      "feasibility": "Shell 扩展运行在系统进程（如 explorer.exe）内部，调试需要深度系统权限和宿主进程注入，无法通过简单的在线网页工具实现。",
+      "type": "other",
+      "verdict": "WARN"
+    },
+    {
+      "text": "Any tool to see where variables are stored while a .NET program is executing? Is it on the stack or heap?",
+      "name": "NET内存分配可视化分析器",
+      "confidence": 90,
+      "reason": "用户需要分析.NET程序运行时变量在堆栈或堆上的存储位置。",
+      "feasibility": "该需求属于深度调试范畴，需要挂载到目标进程的内存空间并具备底层调试权限，无法通过简单的在线网页工具实现。",
+      "type": "processor",
+      "verdict": "WARN"
+    },
+    {
+      "text": "Android: is there any tool for profiling native code?",
+      "name": "Android Native Code Profiler",
+      "confidence": 90,
+      "reason": "用户在寻找用于分析Android原生代码性能的工具。",
+      "feasibility": "原生代码性能分析（Profiling）需要深度集成到操作系统或开发环境（如Android Studio/NDK），无法通过简单的在线网页工具实现。",
+      "type": "processor",
+      "verdict": "WARN"
+    }
+  ],
+  "block": [
+    {
+      "text": "Looking for a clear definition of what a &quot;tokenizer&quot;, &quot;parser&quot; and &quot;lexers&quot; are and how th",
+      "name": "N/A",
+      "confidence": 100,
+      "reason": "该文本属于知识查询和概念解释需求，而非功能性工具需求。",
+      "feasibility": "这是一个教育性问题，适合通过文档或AI问答解决，不属于可操作的数据处理工具。",
+      "type": "other",
+      "verdict": "BLOCK"
+    },
+    {
+      "text": "Looking for a good hash table implementation in C",
+      "name": null,
+      "confidence": 100,
+      "reason": "LLM调用失败: Gemini API 重试耗尽: HTTP Error 429: Too Many Requests",
+      "feasibility": "",
+      "type": "other",
+      "verdict": "BLOCK"
+    }
+  ],
+  "summary": {
+    "pass": 37,
+    "warn": 3,
+    "block": 2,
+    "total": 42
+  },
+  "timestamp": "2026-06-26T00:17:04.048112"
+}

@@ -1,0 +1,41 @@
+{
+  "_note": "本文件中所有敏感凭据已迁移到环境变量。保留此文件作为配置模板。请勿将真实凭据提交到 Git！",
+  "site_url": "https://mintshovels.com",
+  "site_name": "MintShovels",
+  "ga4": {
+    "property_id": "properties/542119434",
+    "measurement_id": "G-D53DQ3JKKL",
+    "credentials_file": "credentials/mintshovels-sa-key.json"
+  },
+  "gsc": {
+    "site_url": "sc-domain:mintshovels.com",
+    "credentials_file": "credentials/mintshovels-sa-key.json"
+  },
+  "bing": {
+    "api_key": "FROM_ENV_BING_API_KEY",
+    "site_url": "https://mintshovels.com"
+  },
+  "clarity": {
+    "project_id": "xavbiwb9dt"
+  },
+  "cloudflare": {
+    "api_token": "FROM_ENV_CF_API_TOKEN",
+    "analytics_token": "FROM_ENV_CF_ANALYTICS_TOKEN",
+    "purge_token": "FROM_ENV_CF_PURGE_TOKEN",
+    "zone_id": "FROM_ENV_CF_ZONE_ID",
+    "account_id": "FROM_ENV_CF_ACCOUNT_ID"
+  },
+  "alerts": {
+    "traffic_drop_pct": 50,
+    "traffic_spike_pct": 300,
+    "error_rate_threshold": 0.05,
+    "zero_conversion": true,
+    "check_interval_hours": 6
+  },
+  "notifications": {
+    "slack_webhook": "",
+    "email_to": "sun490619@gmail.com",
+    "telegram_bot_token": "",
+    "telegram_chat_id": ""
+  }
+}

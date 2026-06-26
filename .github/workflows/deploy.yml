@@ -1,0 +1,84 @@
+name: 🚀 Deploy to Railway
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      deploy_env:
+        description: 'Deploy target'
+        required: false
+        default: 'production'
+        type: choice
+        options:
+          - production
+
+concurrency:
+  group: railway-deploy
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🔒 Build Safeguard - 编译前置死锁
+        run: |
+          echo "🔒 校验工具数据纯净度..."
+          python3 scripts/build_safeguard.py
+          echo ""
+
+      - name: 📊 Deployment summary
+        run: |
+          echo "### 🚀 MintShovels Deploy Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit:** \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch:** \`${{ github.ref_name }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time:** $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "> Railway auto-deploys from connected GitHub repo." >> $GITHUB_STEP_SUMMARY
+
+  auto-deploy-check:
+    name: 🔄 Railway Auto Deploy Trigger
+    runs-on: ubuntu-latest
+    needs: deploy
+    if: github.event_name == 'push'
+    steps:
+      - name: ✅ Auto-deploy acknowledged
+        run: |
+          echo "Railway should auto-deploy from connected GitHub repo."
+          echo "If Railway is not connected, run: railway link"
+          echo "Then: railway up"
+
+  purge-cloudflare-cache:
+    name: 🧹 Cloudflare Cache Purge
+    runs-on: ubuntu-latest
+    needs: deploy
+    if: github.event_name == 'push'
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🔑 Verify CF API Token
+        run: |
+          if [ -z "${{ secrets.CF_CACHE_PURGE_TOKEN }}" ]; then
+            echo "⚠️  CF_CACHE_PURGE_TOKEN secret not set. Skipping cache purge."
+            echo "   Add it in: GitHub → Settings → Secrets and variables → Actions"
+            exit 0
+          fi
+          echo "✅ CF_CACHE_PURGE_TOKEN configured"
+
+      - name: 🧹 Purge Cloudflare Cache
+        if: env.CF_CACHE_PURGE_TOKEN != ''
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_CACHE_PURGE_TOKEN }}
+          CF_ZONE_ID: "4a5e0a77d5483837f773bbe390fb2084"
+        run: python3 scripts/purge_cf_cache.py

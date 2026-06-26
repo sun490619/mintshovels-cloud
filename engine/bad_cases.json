@@ -1,0 +1,392 @@
+{
+  "_version": "1.0",
+  "_description": "MintShovels 错题本 — 反面案例 + 正面范本 + 多维判定权重",
+
+  "negative_cases": [
+    {
+      "id": "n001",
+      "text": "男子煮粽子时狗狗狂叫 30秒后惊呆",
+      "type": "social_gossip",
+      "reasons": ["纯八卦", "无工具属性", "无数据处理闭环", "新闻标题句式"],
+      "keywords": ["惊呆", "狂叫", "粽子", "狗狗"],
+      "pattern": "新闻事件描述 + 情绪渲染词"
+    },
+    {
+      "id": "n002",
+      "text": "我要给 glm5 道歉",
+      "type": "personal_statement",
+      "reasons": ["第一人称叙事", "无工具功能", "个人情感表达"],
+      "keywords": ["我要", "道歉", "glm5"],
+      "pattern": "我要/我想 + 个人行为"
+    },
+    {
+      "id": "n003",
+      "text": "高估了 gpt5 能力",
+      "type": "opinion_statement",
+      "reasons": ["主观评价", "无工具属性", "讨论AI能力"],
+      "keywords": ["高估", "能力", "gpt5"],
+      "pattern": "评价/判断 + AI模型名"
+    },
+    {
+      "id": "n004",
+      "text": "雷军说当初不该和董明珠打赌",
+      "type": "celebrity_gossip",
+      "reasons": ["名人八卦", "无数据处理", "社交闲聊"],
+      "keywords": ["雷军", "董明珠", "打赌", "当初", "不该"],
+      "pattern": "名人 + 过去事件 + 后悔"
+    },
+    {
+      "id": "n005",
+      "text": "张靓颖清唱太多被罚款",
+      "type": "entertainment_news",
+      "reasons": ["娱乐新闻", "无工具属性", "明星八卦"],
+      "keywords": ["张靓颖", "清唱", "罚款"],
+      "pattern": "明星 + 事件 + 结果"
+    },
+    {
+      "id": "n006",
+      "text": "龙舟经济火爆",
+      "type": "trend_news",
+      "reasons": ["新闻标题", "无工具属性", "经济趋势讨论"],
+      "keywords": ["经济", "火爆", "龙舟"],
+      "pattern": "名词 + 形容词(火爆/暴涨/暴跌)"
+    },
+    {
+      "id": "n007",
+      "text": "爸爸不收红包是全国统一的吗",
+      "type": "social_chatter",
+      "reasons": ["社交闲聊", "疑问句无工具指向", "无数据处理"],
+      "keywords": ["不收红包", "全国统一", "吗"],
+      "pattern": "社交习俗 + 吗/呢/吧 结尾"
+    },
+    {
+      "id": "n008",
+      "text": "Codex 降智降麻了 听说 23 要上线了",
+      "type": "tech_gossip",
+      "reasons": ["AI产品八卦", "传闻讨论", "无工具功能"],
+      "keywords": ["降智", "降麻了", "听说", "上线"],
+      "pattern": "产品名 + 降智/升级 + 传闻"
+    },
+    {
+      "id": "n009",
+      "text": "理性女儿 × 感性爸爸 父亲节温情喜剧",
+      "type": "media_content",
+      "reasons": ["影视/节目内容", "无工具属性", "标题式描述"],
+      "keywords": ["喜剧", "父亲节", "温情", "×"],
+      "pattern": "A × B + 节日 + 类型标签"
+    },
+    {
+      "id": "n010",
+      "text": "现在 apple 礼品卡哪些区可以正常开通的",
+      "type": "question_inquiry",
+      "reasons": ["纯咨询问题", "无工具闭环", "区域政策讨论"],
+      "keywords": ["礼品卡", "哪些区", "可以"],
+      "pattern": "商品/服务 + 哪些/怎么/如何 + 政策/开通"
+    },
+    {
+      "id": "n011",
+      "text": "给一张照片然后直接用自己动作和表情来生成这个角色的视频 这个怎么实现的",
+      "type": "tech_curiosity",
+      "reasons": ["纯技术好奇", "问实现原理而非使用工具", "无具体工具请求"],
+      "keywords": ["怎么实现", "这个怎么"],
+      "pattern": "描述技术效果 + 这个怎么实现的"
+    },
+    {
+      "id": "n012",
+      "text": "Ai 算力大模型优逆讨论",
+      "type": "discussion_topic",
+      "reasons": ["讨论话题", "无工具功能", "没有输入输出闭环"],
+      "keywords": ["讨论", "算力", "大模型"],
+      "pattern": "技术概念 + 讨论/交流/分享"
+    },
+    {
+      "id": "n013",
+      "text": "America's savings rate has plunged - the economist",
+      "type": "news_headline",
+      "reasons": ["新闻标题", "媒体来源标识", "经济新闻"],
+      "keywords": ["the economist", "plunged", "rate", "savings"],
+      "pattern": "新闻事件 + 媒体署名"
+    },
+    {
+      "id": "n014",
+      "text": "Depop unisex nails",
+      "type": "product_trend",
+      "reasons": ["商品/时尚趋势", "无工具属性", "电商关键词"],
+      "keywords": ["Depop", "nails", "unisex"],
+      "pattern": "平台名 + 商品关键词"
+    },
+    {
+      "id": "n015",
+      "text": "Cape verde fan goes wild live on bbc news as his country scores",
+      "type": "sports_news",
+      "reasons": ["体育新闻", "媒体署名", "情绪化描述"],
+      "keywords": ["fan goes wild", "bbc news", "scores"],
+      "pattern": "球队/球迷 + 情绪词 + 媒体名"
+    },
+    {
+      "id": "n016",
+      "text": "Toy story scores record opening weekend for franchise",
+      "type": "entertainment_box_office",
+      "reasons": ["电影票房", "娱乐新闻", "无工具属性"],
+      "keywords": ["toy story", "box office", "record", "opening weekend"],
+      "pattern": "电影名 + 票房 + 纪录"
+    },
+    {
+      "id": "n017",
+      "text": "Bounty paper towels quick size white 16 family rolls = 40 regular rolls",
+      "type": "product_listing",
+      "reasons": ["商品规格描述", "无工具功能", "零售广告"],
+      "keywords": ["paper towels", "rolls", "family", "regular"],
+      "pattern": "品牌 + 规格 + 数量换算"
+    },
+    {
+      "id": "n018",
+      "text": "出易盾协议源码 通杀所有类型验证码",
+      "type": "hacking_ad",
+      "reasons": ["黑客/破解广告", "违反安全规范", "非工具"],
+      "keywords": ["协议源码", "通杀", "验证码"],
+      "pattern": "破解/通杀 + 安全机制"
+    },
+    {
+      "id": "n019",
+      "text": "Discord bots amp discord apps",
+      "type": "vague_tech",
+      "reasons": ["过于模糊", "无具体工具描述", "平台名+泛词"],
+      "keywords": ["amp", "bots", "discord apps"],
+      "pattern": "平台名 + 通用功能词 (无具体功能)"
+    },
+    {
+      "id": "n020",
+      "text": "Crazy fruit shooter",
+      "type": "game_name",
+      "reasons": ["游戏名称", "非工具", "娱乐消遣"],
+      "keywords": ["shooter", "crazy", "fruit"],
+      "pattern": "形容词 + 游戏类型词"
+    }
+  ],
+
+  "positive_cases": [
+    {
+      "id": "p001",
+      "text": "如何计算公积金贷款",
+      "intent": "calculator",
+      "canonical_name": "公积金贷款计算器",
+      "category": "finance",
+      "features": ["包含明确计算需求", "有输入(贷款额/利率/期限)和输出(月供)", "可映射到mortgage模块"],
+      "keywords": ["公积金", "贷款", "计算", "如何"]
+    },
+    {
+      "id": "p002",
+      "text": "怎么验证一段 JSON 是否合规",
+      "intent": "checker",
+      "canonical_name": "JSON格式验证器",
+      "category": "dev",
+      "features": ["包含明确验证需求", "有输入(JSON文本)和输出(合规/不合规)", "可映射到json checker模块"],
+      "keywords": ["JSON", "验证", "合规", "怎么"]
+    },
+    {
+      "id": "p003",
+      "text": "PDF 转 Word 在线工具",
+      "intent": "converter",
+      "canonical_name": "PDF转Word转换器",
+      "category": "productivity",
+      "features": ["明确格式转换需求", "有输入(PDF)和输出(Word)", "常用办公工具"],
+      "keywords": ["PDF", "Word", "转", "在线"]
+    },
+    {
+      "id": "p004",
+      "text": "随机密码生成器",
+      "intent": "generator",
+      "canonical_name": "安全密码生成器",
+      "category": "dev",
+      "features": ["明确生成需求", "有参数(长度/字符集)和输出(密码)", "可映射到password generator模块"],
+      "keywords": ["密码", "生成", "随机"]
+    },
+    {
+      "id": "p005",
+      "text": "图片压缩工具",
+      "intent": "processor",
+      "canonical_name": "图片压缩器",
+      "category": "media",
+      "features": ["明确处理需求", "有输入(图片)和输出(压缩后图片)", "常用媒体工具"],
+      "keywords": ["图片", "压缩"]
+    },
+    {
+      "id": "p006",
+      "text": "UUID 生成器",
+      "intent": "generator",
+      "canonical_name": "UUID生成器",
+      "category": "dev",
+      "features": ["标准标识符生成", "有明确输出格式", "开发者常用"],
+      "keywords": ["UUID", "生成"]
+    },
+    {
+      "id": "p007",
+      "text": "Base64 编码解码器",
+      "intent": "encoder",
+      "canonical_name": "Base64编解码器",
+      "category": "dev",
+      "features": ["编码转换需求", "双向操作", "有输入输出"],
+      "keywords": ["Base64", "编码", "解码"]
+    },
+    {
+      "id": "p008",
+      "text": "房贷月供计算器",
+      "intent": "calculator",
+      "canonical_name": "房贷月供计算器",
+      "category": "finance",
+      "features": ["金融计算", "有公式", "参数明确"],
+      "keywords": ["房贷", "月供", "计算"]
+    },
+    {
+      "id": "p009",
+      "text": "颜色调色板生成器",
+      "intent": "generator",
+      "canonical_name": "颜色调色板生成器",
+      "category": "dev",
+      "features": ["设计工具", "有视觉输出", "可映射到color模块"],
+      "keywords": ["颜色", "调色板", "生成"]
+    },
+    {
+      "id": "p010",
+      "text": "BMI 身体质量指数计算器",
+      "intent": "calculator",
+      "canonical_name": "BMI计算器",
+      "category": "health",
+      "features": ["健康计算", "标准公式", "参数明确(身高/体重)"],
+      "keywords": ["BMI", "身体质量", "计算"]
+    },
+    {
+      "id": "p011",
+      "text": "电子邮件格式验证器",
+      "intent": "checker",
+      "canonical_name": "邮箱格式验证器",
+      "category": "dev",
+      "features": ["格式验证", "正则匹配", "明确通过/不通过"],
+      "keywords": ["电子邮件", "邮箱", "验证", "格式"]
+    },
+    {
+      "id": "p012",
+      "text": "CSV 数据分析工具",
+      "intent": "script",
+      "canonical_name": "CSV数据分析器",
+      "category": "dev",
+      "features": ["数据处理", "有输入(CSV)和输出(统计)", "可映射到csv_process模块"],
+      "keywords": ["CSV", "数据", "分析"]
+    },
+    {
+      "id": "p013",
+      "text": "小费分摊计算器",
+      "intent": "calculator",
+      "canonical_name": "小费分摊计算器",
+      "category": "finance",
+      "features": ["消费计算", "多人分摊", "参数明确"],
+      "keywords": ["小费", "分摊", "AA"]
+    },
+    {
+      "id": "p014",
+      "text": "IP 地址随机生成器",
+      "intent": "generator",
+      "canonical_name": "IP地址生成器",
+      "category": "dev",
+      "features": ["网络工具", "格式明确", "可映射到IP模块"],
+      "keywords": ["IP", "地址", "生成"]
+    },
+    {
+      "id": "p015",
+      "text": "URL 短链接生成器",
+      "intent": "generator",
+      "canonical_name": "短链接生成器",
+      "category": "dev",
+      "features": ["链接转换", "有输入(长URL)和输出(短URL)"],
+      "keywords": ["URL", "短链接", "生成"]
+    },
+    {
+      "id": "p016",
+      "text": "文本去重工具",
+      "intent": "processor",
+      "canonical_name": "文本去重器",
+      "category": "productivity",
+      "features": ["文本处理", "有输入输出", "可映射到text_process模块"],
+      "keywords": ["文本", "去重"]
+    },
+    {
+      "id": "p017",
+      "text": "SHA256 哈希生成器",
+      "intent": "generator",
+      "canonical_name": "SHA256哈希生成器",
+      "category": "dev",
+      "features": ["加密工具", "标准算法", "可映射到hex/crypto模块"],
+      "keywords": ["SHA256", "哈希", "生成"]
+    },
+    {
+      "id": "p018",
+      "text": "正则表达式测试器",
+      "intent": "checker",
+      "canonical_name": "正则表达式测试器",
+      "category": "dev",
+      "features": ["开发者工具", "有输入(正则+文本)和输出(匹配结果)", "可映射到regex模块"],
+      "keywords": ["正则", "表达式", "测试"]
+    },
+    {
+      "id": "p019",
+      "text": "单位换算器 (长度/重量/温度)",
+      "intent": "calculator",
+      "canonical_name": "单位换算器",
+      "category": "productivity",
+      "features": ["日常工具", "有换算比率", "可映射到unit_converter模块"],
+      "keywords": ["单位", "换算", "长度", "重量", "温度"]
+    },
+    {
+      "id": "p020",
+      "text": "文件批量重命名工具",
+      "intent": "script",
+      "canonical_name": "文件批量重命名器",
+      "category": "productivity",
+      "features": ["文件管理", "有输入(目录)和输出(重命名结果)", "可映射到file_organize模块"],
+      "keywords": ["文件", "批量", "重命名"]
+    }
+  ],
+
+  "intent_to_template_map": {
+    "calculator": {
+      "categories": ["finance", "health", "productivity"],
+      "suffixes": ["计算器", "Calculator", "换算器", "Converter"],
+      "template": "计算器",
+      "must_have": ["输入参数", "计算公式", "结果输出"]
+    },
+    "generator": {
+      "categories": ["dev", "media", "misc"],
+      "suffixes": ["生成器", "Generator", "生成工具"],
+      "template": "随机生成器",
+      "must_have": ["生成数量控制", "数据输出", "导出功能"],
+      "note": "只应用于真正的随机生成器（密码/UUID/颜色/数字/姓名/邮箱/日期/IP/Emoji/Hex/单词/代码/URL）"
+    },
+    "checker": {
+      "categories": ["dev", "productivity"],
+      "suffixes": ["验证器", "Checker", "检测器", "Validator"],
+      "template": "检测验证器",
+      "must_have": ["输入待验证内容", "验证逻辑", "通过/不通过结果"]
+    },
+    "script": {
+      "categories": ["dev", "productivity"],
+      "suffixes": ["脚本", "Tool", "工具", "Script"],
+      "template": "Python脚本",
+      "must_have": ["Python代码", "命令行用法", "输入处理"]
+    }
+  },
+
+  "scoring_weights": {
+    "has_data_closure": 30,
+    "has_tool_noun": 25,
+    "matches_positive_case": 20,
+    "matches_negative_case": -40,
+    "is_news_headline": -35,
+    "is_social_chatter": -35,
+    "is_celebrity_gossip": -30,
+    "is_personal_statement": -30,
+    "has_computation_path": 25,
+    "language_quality": 10,
+    "threshold_pass": 40
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-06-26T11:07:45.842377",
+  "stats": {
+    "total": 25,
+    "passed": 3,
+    "blocked": 22,
+    "warned": 0
+  },
+  "results": [
+    {
+      "text": "Show HN: HowMuch – Wordle, but you guess prices",
+      "pain_signal": {
+        "has_signal": false,
+        "level": 0,
+        "matched": []
+      },
+      "classification": {
+        "pass": false,
+        "is_unmet": false,
+        "is_feasible": false,
+        "canonical_name": "N/A",
+        "tool_type": "other",
+        "confidence": 100,
+        "reason": "该文本描述的是一个已经存在的在线游戏项目（Show HN），而非一个未被满足的工具需求。",
+        "feasibility_reason": "该项目已作为成品存在，不属于未满足的工具需求。",
+        "verdict": "BLOCK",
+        "raw_text": "Show HN: HowMuch – Wordle, but you guess prices"
+      },
+      "timestamp": "2026-06-26T11:07:41.199184"
+    },
+    {
+      "text": "How to Write an Effective Software Design Document",
+      "pain_signal": {
+        "has_signal": false,
+        "level": 0,
+        "matched": []
+      },
+      "classification": {
+        "pass": false,
+        "is_unmet": false,
+        "is_feasible": false,
+        "canonical_name": "N/A",
+        "tool_type": "other",
+        "confidence": 100,
+        "reason": "该文本是一个关于如何撰写软件设计文档的教程或指南标题，属于知识获取需求，而非可自动化的工具需求。",
+        "feasibility_reason": "该需求属于内容创作指导，无法通过单一的输入输出逻辑转化为自动化工具。",
+        "verdict": "BLOCK",
+        "raw_text": "How to Write an Effective Software Design Document"
+      },
+      "timestamp": "2026-06-26T11:07:42.854745"
+    },
+    {
+      "text": "Show HN: Bikepacking Planner",
+      "pain_signal": {
+        "has_signal": false,
+        "level": 0,
+        "matched": []
+      },
+      "classification": {
+        "pass": true,
+        "is_unmet": false,
+        "is_feasible": true,
+        "canonical_name": "Bikepacking 路线规划器",
+        "tool_type": "generator",
+        "confidence": 90,
+        "reason": "用户需要一个专门针对自行车露营（Bikepacking）的路线规划工具，用于规划长途骑行路径及补给点。",
+        "feasibility_reason": "基于地图API（如Mapbox/Google Maps）和地理信息数据，通过前端算法即可实现路径规划和兴趣点标注。",
+        "verdict": "PASS",
+        "raw_text": "Show HN: Bikepacking Planner"
+      },
+      "timestamp": "2026-06-26T11:07:44.225622"
+    },
+    {
+      "text": "Xbox follows Apple with price increases",
+      "pain_signal": {
+        "has_signal": false,
+        "level": 0,
+        "matched": []
+      },
+      "classification": {
+        "pass": false,
+        "is_unmet": false,
+        "is_feasible": false,
+        "canonical_name": "无",
+        "tool_type": "other",
+        "confidence": 100,
+        "reason": "该文本属于新闻资讯报道，描述的是商业公司的定价策略，不包含任何用户操作需求。",
+        "feasibility_reason": "非工具需求，无需评估可行性。",
+        "verdict": "BLOCK",
+        "raw_text": "Xbox follows Apple with price increases"
+      },
+      "timestamp": "2026-06-26T11:07:45.775878"
+    }
+  ]
+}

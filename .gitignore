@@ -1,55 +1,37 @@
-# Python
+.railway_verify/
 __pycache__/
 *.pyc
-*.pyo
-*.egg-info/
-
-# Node
-node_modules/
-
-# IDE
-.idea/
-.vscode/
+.env
+requests.log
+.DS_Store
 *.swp
 *.swo
+*~
 
-# Logs
-*.log
-*.err
-
-# Chrome profile
+# 敏感/本地文件
 chrome_profile/
-
-# Credentials
 credentials/
+node_modules/
+mangled/
 
-# OS
-.DS_Store
-Thumbs.db
+# 本地日志
+*.err
+*.log
+!pipeline_output.txt
 
-# Runtime
-*.pid
-pipeline_bg.pid
-
-# Large generated data
-functional_test_report.json
-analytics_history.json
-scraper_seen.json
-scraper_cache.json
-mistake_book.json
-review_queue.json
-dashboard_data.json
-demand_report.json
-latest_analytics.json
-health_snapshot.json
-bad_cases.json
+# 数据备份（不提交到Git）
+backups/generated_tools_v1_precleanup_*.json
+backups/removed_garbage_tools.json
 garbage_audit_report.json
-live_test_report.json
-test_results.json
 
-# Sensitive
-mintshovels_config.json
-.env
-
-# Playwright test artifacts
+# 开发辅助工具目录
+.codebuddy/
 .playwright-cli/
+.wrangler/
+# 雷达+流水线运行时报告
+reports/
+!reports/demand_report.json
+cold_backup_20260623/
+backups/*.json
+!backups/cleanup_ledger*.json
+20260623_数据死保/

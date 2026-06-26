@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-06-25T16:43:20.601Z",
+  "passed": 16,
+  "total": 16,
+  "rate": 100,
+  "results": [
+    {
+      "id": "fstring_converter",
+      "name": "Python f-string 转换器",
+      "passed": true,
+      "detail": "PASS: f-string generated"
+    },
+    {
+      "id": "json_schema_generator",
+      "name": "JSON Schema 生成器",
+      "passed": true,
+      "detail": "PASS: schema generated"
+    },
+    {
+      "id": "js_formatter",
+      "name": "JS 格式化",
+      "passed": true,
+      "detail": "PASS: formatted"
+    },
+    {
+      "id": "regexp_lookahead",
+      "name": "正则预查生成器",
+      "passed": true,
+      "detail": "PASS: regex built"
+    },
+    {
+      "id": "csharp_getter_setter",
+      "name": "C# Getter/Setter",
+      "passed": true,
+      "detail": "PASS: C# code generated"
+    },
+    {
+      "id": "css_computed_analyzer",
+      "name": "CSS 计算属性分析",
+      "passed": true,
+      "detail": "PASS: 9 properties analyzed"
+    },
+    {
+      "id": "python_tree_generator",
+      "name": "Python 树结构生成",
+      "passed": true,
+      "detail": "PASS: Python code generated"
+    },
+    {
+      "id": "jquery_events",
+      "name": "jQuery 事件速查表",
+      "passed": true,
+      "detail": "PASS: 45 events rendered"
+    },
+    {
+      "id": "svg_path_extractor",
+      "name": "SVG Path 提取器",
+      "passed": true,
+      "detail": "PASS: 3 paths extracted"
+    },
+    {
+      "id": "file_line_extractor",
+      "name": "文件行提取器",
+      "passed": true,
+      "detail": "PASS: lines extracted"
+    },
+    {
+      "id": "world_map_generator",
+      "name": "世界地图生成器",
+      "passed": true,
+      "detail": "PASS: map rendered"
+    },
+    {
+      "id": "typing_macro",
+      "name": "打字宏脚本生成",
+      "passed": true,
+      "detail": "PASS: script generated"
+    },
+    {
+      "id": "sql_formatter",
+      "name": "SQL 格式化",
+      "passed": true,
+      "detail": "PASS: SQL formatted"
+    },
+    {
+      "id": "dotnet_cli_parser",
+      "name": ".NET CLI 解析器",
+      "passed": true,
+      "detail": "PASS: C# code generated"
+    },
+    {
+      "id": "java_object_mapper",
+      "name": "Java 对象映射",
+      "passed": true,
+      "detail": "PASS: Java code generated"
+    },
+    {
+      "id": "code_generator_hub",
+      "name": "多合一代码工具箱",
+      "passed": true,
+      "detail": "PASS: CMake OK, Include OK, Diff OK"
+    }
+  ]
+}

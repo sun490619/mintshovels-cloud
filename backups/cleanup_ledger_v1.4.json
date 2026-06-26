@@ -1,0 +1,247 @@
+{
+  "title": "MintShovels 存量换皮清洗账本",
+  "version": "v1.4-stable",
+  "generated_at": "2026-06-23T13:50:14.898874+00:00",
+  "summary": {
+    "total_tools": 1558,
+    "active_tools": 1493,
+    "garbage_flagged": 65,
+    "names_cleaned": 1493,
+    "quality_enhanced": 1404,
+    "success_rate": "95.8%"
+  },
+  "naming_improvements": {
+    "old_random_count": 36,
+    "new_random_count": 0,
+    "random_reduction": "100.0%",
+    "old_cnen_mix": 36,
+    "new_cnen_mix": 0,
+    "cnen_reduction": "100.0%"
+  },
+  "template_distribution": {
+    "随机生成器": 1370,
+    "Python脚本": 89,
+    "计算器": 25,
+    "检测/验证器": 9
+  },
+  "garbage_reasons": {
+    "游戏名称": 29,
+    "社交闲聊": 15,
+    "广告/破解": 14,
+    "新闻标题": 6,
+    "含名人": 1
+  },
+  "garbage_samples": [
+    {
+      "id": "auto-cyberpunk_2077-9ccd3d",
+      "name": "Random Cyberpunk 2077 Generator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto-crazy_fruit_shooter-809d8a",
+      "name": "Random Crazy fruit shooter Generator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto-张靓颖清唱太多被罚款-4ae7fd",
+      "name": "Random 张靓颖清唱太多被罚款 Generator",
+      "reason": "含名人"
+    },
+    {
+      "id": "auto-我要给_glm5_道歉-2199c2",
+      "name": "Random 我要给 glm5 道歉 Generator",
+      "reason": "社交闲聊"
+    },
+    {
+      "id": "auto-cyberpunk_2077-930568",
+      "name": "Random Cyberpunk 2077 Generator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto-celestial_coffee_que-39f476",
+      "name": "Celestial coffee quest Calculator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto-_glm5_-4bd0aa",
+      "name": "Random 我要给 glm5 道歉 Generator",
+      "reason": "社交闲聊"
+    },
+    {
+      "id": "auto-_glm5_-8e9f44",
+      "name": "Random 我要给 glm5 道歉 Generator",
+      "reason": "社交闲聊"
+    },
+    {
+      "id": "auto-_glm5_-547739",
+      "name": "Random 我要给 glm5 道歉 Generator",
+      "reason": "社交闲聊"
+    },
+    {
+      "id": "auto--d4923d",
+      "name": "Random 排队给西班牙道歉 Generator",
+      "reason": "社交闲聊"
+    },
+    {
+      "id": "auto-cyberpunk_2077-a03a17",
+      "name": "Random Cyberpunk 2077 Generator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto-celestial_coffee_que-d76ddd",
+      "name": "Celestial coffee quest Calculator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto-celestial_coffee_que-5510eb",
+      "name": "Celestial coffee quest Calculator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto-cyberpunk_2077-01bd33",
+      "name": "Random Cyberpunk 2077 Generator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto-celestial_coffee_que-e305d7",
+      "name": "Celestial coffee quest Calculator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto--10ec1e",
+      "name": "Random 该排队给西班牙队道歉了 Generator",
+      "reason": "社交闲聊"
+    },
+    {
+      "id": "auto-celestial_coffee_que-c341b7",
+      "name": "Celestial coffee quest Calculator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto-_-821473",
+      "name": "出易盾协议源码 通杀所有类型验证码 Checker",
+      "reason": "广告/破解"
+    },
+    {
+      "id": "auto-celestial_coffee_que-638644",
+      "name": "Celestial coffee quest Calculator",
+      "reason": "游戏名称"
+    },
+    {
+      "id": "auto-_-9574ee",
+      "name": "出易盾协议源码 通杀所有类型验证码 Checker",
+      "reason": "广告/破解"
+    }
+  ],
+  "cleaned_samples": [
+    {
+      "id": "auto-we_post-trained_a_mo-43b39c",
+      "name": "We post-trained a model that pen tests instead of refusing",
+      "template": "检测/验证器"
+    },
+    {
+      "id": "auto-男子煮粽子时狗狗狂叫_30秒后惊呆-bce469",
+      "name": "男子煮粽子时狗狗狂叫 30秒后惊呆",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-discord_bots_amp_dis-68be23",
+      "name": "Discord bots amp discord apps",
+      "template": "Python脚本"
+    },
+    {
+      "id": "auto-小红书_网文-f6510b",
+      "name": "小红书_网文",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-龙舟经济火爆-fc1a54",
+      "name": "龙舟经济火爆",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-淘宝游戏网-93ed08",
+      "name": "淘宝游戏网",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-depop_unisex_nails-eedbac",
+      "name": "Depop unisex nails",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-cape_cod-330069",
+      "name": "Cape cod",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-road_to_empress_i-10197b",
+      "name": "Road to empress i",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-spherical_videos-b095c8",
+      "name": "Spherical videos",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-topoteretes_cognee-8218ef",
+      "name": "Topoteretes cognee",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-tursodatabase_turso-43f3c1",
+      "name": "Tursodatabase turso",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-tw93_pake-f5b9db",
+      "name": "Tw93 pake",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-ai_算力大模型优逆讨论-4af5f8",
+      "name": "Ai 算力大模型优逆讨论",
+      "template": "计算器"
+    },
+    {
+      "id": "auto-ziua_copilului-f76fb9",
+      "name": "Ziua copilului",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-小红书_沪公网安备-db9789",
+      "name": "小红书_沪公网安备",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-prx总决赛对阵lev-62c909",
+      "name": "总决赛对阵",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-送你个机器人女友#ai-23d009",
+      "name": "送你个机器人女友#ai",
+      "template": "Python脚本"
+    },
+    {
+      "id": "auto-纸短情长_照映初心-4925a5",
+      "name": "纸短情长 照映初心",
+      "template": "随机生成器"
+    },
+    {
+      "id": "auto-网红淘宝百科-78fbd2",
+      "name": "网红淘宝百科",
+      "template": "随机生成器"
+    }
+  ],
+  "key_changes": [
+    "废除机械关键词黑名单 → 引入 IntentClassifier 多维意图判定引擎",
+    "建立 bad_cases.json 错题本 (20负面+20正面案例)",
+    "demand_filter.py v4.0: 意图驱动判定，不再一刀切拦截",
+    "1493 个工具去 Random 前缀 + 去 Generator/Checker/Calculator 尾缀",
+    "65 个垃圾工具标记下架 (名人八卦/新闻/游戏/广告)",
+    "1404 个工具输出质量增强 (复制功能+统计面板+公式展示+测试样例)",
+    "消灭中英缝合怪命名，规范为纯中文或纯英文"
+  ]
+}

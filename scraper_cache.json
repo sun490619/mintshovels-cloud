@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-06-26T11:07:39.425278",
+  "sources": {
+    "reddit": 0,
+    "hackernews": 4,
+    "stackoverflow": 43,
+    "github": 1
+  },
+  "candidates_count": 4,
+  "candidates": [
+    {
+      "text": "Show HN: HowMuch – Wordle, but you guess prices",
+      "source": "hackernews",
+      "url": "https://howmuchgame.com/",
+      "fetched_at": "2026-06-26T10:58:22.453600"
+    },
+    {
+      "text": "How to Write an Effective Software Design Document",
+      "source": "hackernews",
+      "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+      "fetched_at": "2026-06-26T11:05:20.516594"
+    },
+    {
+      "text": "Show HN: Bikepacking Planner",
+      "source": "hackernews",
+      "url": "https://www.theinstant.cc/pack",
+      "fetched_at": "2026-06-26T11:06:40.456249"
+    },
+    {
+      "text": "Xbox follows Apple with price increases",
+      "source": "hackernews",
+      "url": "https://techcrunch.com/2026/06/25/xbox-follows-apple-with-price-increases/",
+      "fetched_at": "2026-06-26T11:07:22.632558"
+    }
+  ]
+}

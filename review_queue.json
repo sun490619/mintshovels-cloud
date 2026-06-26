@@ -1,0 +1,58 @@
+[
+  {
+    "text": "出易盾协议源码 通杀所有类型验证码",
+    "canonical_name": "验证码破解工具",
+    "confidence": 100,
+    "reason": "用户明确表达了对验证码破解服务的需求。",
+    "is_feasible": false,
+    "feasibility_reason": "涉及破解验证码机制，属于违法红线及平台对抗行为，技术上不可行且违规。",
+    "pain_level": 0,
+    "status": "rejected",
+    "added_at": "2026-06-25T23:02:43.578774",
+    "reviewed_at": "2026-06-25T23:02:55.541959"
+  },
+  {
+    "text": "How to test / debug shell extensions? Is there any tool for that?",
+    "canonical_name": "Shell Extension 调试辅助工具",
+    "confidence": 85,
+    "reason": "用户在寻找用于测试和调试操作系统 Shell 扩展的工具，这是一个明确的开发辅助需求。",
+    "is_feasible": false,
+    "feasibility_reason": "Shell 扩展深度集成于操作系统内核或资源管理器进程中，无法通过纯网页在线工具实现调试，必须依赖本地 IDE 和系统级调试器。",
+    "pain_level": 1,
+    "status": "pending",
+    "added_at": "2026-06-25T23:26:44.440598"
+  },
+  {
+    "text": "Any tool to see where variables are stored while a .NET program is executing? Is it on the stack or heap?",
+    "canonical_name": " .NET 内存分配可视化分析器",
+    "confidence": 90,
+    "reason": "用户需要分析 .NET 程序运行时变量在堆栈（Stack）或堆（Heap）上的存储位置。",
+    "is_feasible": false,
+    "feasibility_reason": "该需求属于深度调试范畴，需要挂载到目标进程的内存空间，无法通过简单的在线网页工具实现，必须依赖 Visual Studio 等集成开发环境的调试器。",
+    "pain_level": 0,
+    "status": "pending",
+    "added_at": "2026-06-25T23:26:44.440634"
+  },
+  {
+    "text": "Android: is there any tool for profiling native code?",
+    "canonical_name": "Android Native Code Profiler",
+    "confidence": 90,
+    "reason": "用户在寻找用于分析Android原生代码性能的工具。",
+    "is_feasible": false,
+    "feasibility_reason": "原生代码性能分析需要深度集成到操作系统或开发环境（如Android Studio/NDK），无法通过简单的在线网页工具实现。",
+    "pain_level": 1,
+    "status": "pending",
+    "added_at": "2026-06-25T23:26:44.440644"
+  },
+  {
+    "text": "NHENTAI new api version It seems that nhentai got updated, and now they offer direct api access by using api key for registered users.\n\nhttps://nhentai.net/api/v2/docs\n\nhowever we still dont have a /download endpoint, so we have to guess the cdn server for each page",
+    "canonical_name": "NHentai 批量下载器",
+    "confidence": 90,
+    "reason": "用户需要一个能够根据API获取图片地址并自动下载完整画册的工具。",
+    "is_feasible": false,
+    "feasibility_reason": "该需求涉及绕过目标网站的下载限制及潜在的版权/内容合规风险，属于平台限制类需求。",
+    "pain_level": 0,
+    "status": "pending",
+    "added_at": "2026-06-26T00:57:02.950284"
+  }
+]
