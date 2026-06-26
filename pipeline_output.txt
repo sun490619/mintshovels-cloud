@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-26T12:23:37.032830+00:00     ║
+║       启动时间: 2026-06-26T14:40:17.398059+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 17 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 25 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 355
-  🚫 闲聊拦截: 21 条 (5.9%)
-  🧠 工具信号: 174 条 (49.0%)
+  原始信号总量: 354
+  🚫 闲聊拦截: 18 条 (5.1%)
+  🧠 工具信号: 171 条 (48.3%)
 
   📋 闲聊拦截样例:
-     [entertainment] From Background Noise to Productive Sound: How Developers Ca
-     [news] Unraveling the Secrets of the Past: First-Ever Decoded Hercu
-     [chatter] Revolutionize Inventory Management: Unlock the Power of Open
-     [entertainment] Oxide computer 3D rack guided tour 🔥394pts 💬159
+     [news] Unraveling Ancient Secrets: First-Ever Reading of Intact Her
+     [entertainment] Oxide computer 3D rack guided tour 🔥421pts 💬173
      [chatter] A game where you're an OS and have to manage processes, memo
+     [entertainment] Why have papers by one of history's most famous physicists b
+     [entertainment] Show HN: Unofficial cross-platform Shure MV client — user as
 
   🧠 工具信号样例:
      [置信度15%] design.md
@@ -99,8 +99,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 英文工具名词: ['viewer']
      [置信度15%] agent-toolkit-for-aws
        ↳ 英文工具名词: ['tool']
-     [置信度20%] allcontributors
-    
+     [置信度20%] allcontributor
 
 ✅ 雷达完成 — 19 条建议
 
@@ -109,15 +108,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 355 条
-     🚫 闲聊拦截: 21 条 (5.9%)
-     🧠 工具信号: 174 条 (49.0%)
-     闲聊样例: From Background Noise to Productive Sound: How Dev... [entertainment]
+     原始抓取: 354 条
+     🚫 闲聊拦截: 18 条 (5.1%)
+     🧠 工具信号: 171 条 (48.3%)
+     闲聊样例: Unraveling Ancient Secrets: First-Ever Reading of ... [news]
      工具信号样例: design.md... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 174 → 有效 44
-     拒绝率: 74.7%
+     工具信号 171 → 有效 44
+     拒绝率: 74.3%
 
   📊 意图分类器审计 — 审查 19 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -149,28 +148,28 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 19 suggestions
-   Generated at: 2026-06-26T12:23:37.154686+00:00
-   Already in catalog: 81 tools
+   Generated at: 2026-06-26T14:40:17.547178+00:00
+   Already in catalog: 84 tools
    Previously produced: 0 tools
-   Existing tool pages: 64 files
-   Next shovel ID: shovel-027
+   Existing tool pages: 67 files
+   Next shovel ID: shovel-030
    Next script ID: script-011
 
 🔧 Producing 3 new tools:
-   • Viewer (查看器) [misc/misc]
-   • LLM Tool (大模型工具) [ai/ai-chat]
-   • Note Taker (笔记工具) [productivity/text]
+   • Converter (格式转换) [media/video]
+   • Formatter (格式化工具) [dev/code]
+   • JSON Formatter (JSON格式化) [dev/code]
 
-  🛠  Producing: Viewer → shovel-027
-     📄 Page: tools/viewer.html
+  🛠  Producing: Converter → shovel-030
+     📄 Page: tools/converter.html
      ✅ Gate check passed
 
-  🛠  Producing: LLM Tool → shovel-028
-     📄 Page: tools/llm-tool.html
+  🛠  Producing: Formatter → shovel-031
+     📄 Page: tools/formatter.html
      ✅ Gate check passed
 
-  🛠  Producing: Note Taker → shovel-029
-     📄 Page: tools/note-taker.html
+  🛠  Producing: JSON Formatter → shovel-032
+     📄 Page: tools/json-formatter.html
      ✅ Gate check passed
   ✅ Inserted 3 entries into index.html
 
@@ -193,7 +192,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   ✅ Lucide Icons CDN
   [TOOLS Database]
   ✅ TOOLS array defined
-  ✅ TOOLS entries (39)
+  ✅ TOOLS entries (42)
   ✅ Has Web Tools (🔧)
   ✅ Has Scripts (📜)
   ✅ Has Live tools
@@ -221,8 +220,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
-  🌐 Testing local server on port 9942...
-  ✅ Local server: HTTP 200, 357018 bytes
+  🌐 Testing local server on port 9603...
+  ✅ Local server: HTTP 200, 358609 bytes
 
 ✅ All tests passed!
 
@@ -233,48 +232,51 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ==================================================
 🏭 Pipeline complete!
    New tools: 3
-   • shovel-027: Viewer
-   • shovel-028: LLM Tool
-   • shovel-029: Note Taker
+   • shovel-030: Converter
+   • shovel-031: Formatter
+   • shovel-032: JSON Formatter
    Tests: ✅ Passed
 ==================================================
 
 
 ✅ 工厂完成 — 本次生产 3 个工具
-   🛠  Producing: Viewer → shovel-027
-   🛠  Producing: LLM Tool → shovel-028
-   🛠  Producing: Note Taker → shovel-029
+   🛠  Producing: Converter → shovel-030
+   🛠  Producing: Formatter → shovel-031
+   🛠  Producing: JSON Formatter → shovel-032
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
 ============================================================
-   生产工具健康率: 92.3% (39 个工具, 3 个问题)
-   问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失']
-   ✅ 门禁通过 — 健康率达标
+   生产工具健康率: 85.7% (42 个工具, 6 个问题)
+   问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失', 'shovel-030: 文件缺失', 'shovel-031: 文件缺失', 'shovel-032: 文件缺失']
+   ⚠️ 门禁警告 — 健康率 85.7% 低于90%阈值
 
 ============================================================
 🧪 阶段 2: 全量工具测试
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 39 工具, 39 在线, 36 ready:true, 3 ready:false
+    ✅ TOOLS 数据库: 42 工具, 42 在线, 39 ready:true, 3 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
     ✅ auto_tool_d41d8cd9.html
     ✅ auto_x_twitter_post_to_carousel_converter.html
     ✅ code_generator_hub.html
+    ✅ converter.html
     ✅ csharp_getter_setter.html
     ✅ css_computed_analyzer.html
     ✅ dotnet_cli_parser.html
     ✅ editor.html
     ✅ file_line_extractor.html
+    ✅ formatter.html
     ✅ fstring_converter.html
     ✅ generator.html
     ✅ index.html
     ✅ java_object_mapper.html
     ✅ jquery_events.html
     ✅ js_formatter.html
+    ✅ json-formatter.html
     ✅ json_schema_generator.html
     ✅ llm-tool.html
     ✅ markdown-editor.html
@@ -329,22 +331,25 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ world_map_generator.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 357018B
+    ✅ index.html — HTTP 200, 358609B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
     ✅ tools/auto_x_twitter_post_to_carousel_converter.html — HTTP 200
     ✅ tools/code_generator_hub.html — HTTP 200
+    ✅ tools/converter.html — HTTP 200
     ✅ tools/csharp_getter_setter.html — HTTP 200
     ✅ tools/css_computed_analyzer.html — HTTP 200
     ✅ tools/dotnet_cli_parser.html — HTTP 200
     ✅ tools/editor.html — HTTP 200
     ✅ tools/file_line_extractor.html — HTTP 200
+    ✅ tools/formatter.html — HTTP 200
     ✅ tools/fstring_converter.html — HTTP 200
     ✅ tools/generator.html — HTTP 200
     ✅ tools/index.html — HTTP 200
     ✅ tools/java_object_mapper.html — HTTP 200
     ✅ tools/jquery_events.html — HTTP 200
     ✅ tools/js_formatter.html — HTTP 200
+    ✅ tools/json-formatter.html — HTTP 200
     ✅ tools/json_schema_generator.html — HTTP 200
     ✅ tools/llm-tool.html — HTTP 200
     ✅ tools/markdown-editor.html — HTTP 200
@@ -398,7 +403,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/viewer.html — HTTP 200
     ✅ tools/world_map_generator.html — HTTP 200
 
-  📊 测试汇总: 143 通过, 0 失败
+  📊 测试汇总: 149 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
     🚀 3 个新工具测试通过，已标记 ready:true 正式上线
@@ -406,16 +411,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-26T12:23:37.032830+00:00 → 2026-06-26T12:23:49.560366+00:00
+  ⏱  耗时: 2026-06-26T14:40:17.398059+00:00 → 2026-06-26T14:40:30.351997+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
-  🔒 门禁: ✅ OK
-  💚 健康率: 92.3%
-  🧪 测试: 143✅ 0❌
-  🔧 工具总数: 39
+  🔒 门禁: ⚠️ WARN
+  💚 健康率: 85.7%
+  🧪 测试: 149✅ 0❌
+  🔧 工具总数: 42
   🏷️  新上线: 3 个工具 (已标记 ready:true)
-  📄 独立页面: 67
+  📄 独立页面: 70
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================

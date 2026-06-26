@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T12:23:37.154686+00:00",
+  "generated_at": "2026-06-26T14:40:17.547178+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -109,46 +109,46 @@
       "V 站越到后面，靠签到领取的铜币会越来越少，被迫发帖讨要铜币",
       "程序员适合培养哪些爱好？",
       "油烟问题已顺利解决，这就是权利的滋味",
-      " Apple 平板和电脑涨价",
-      "安徽男物理类总分 677, 排名 1160, 推荐好就业的院校和专业",
-      "[福利] 庆祝 5 款 Mac 效率神器成功上架中国区！ 40 个激活码大派送 + 限免 0 元激活 Pro"
+      "[福利] 庆祝 5 款 Mac 效率神器成功上架中国区！ 40 个激活码大派送 + 限免 0 元激活 Pro",
+      "上架的过程中发现，华为是目前最友好的应用商城",
+      "大家在 AI 编程的时候，比如 AI 会思考很长时间才给答案，这个时间大家一般都在干啥"
     ],
     "devto": [
       "DEV Community: programming",
-      "The reliability gap: what it actually takes to put an AI agent in production",
-      "From Background Noise to Productive Sound: How Developers Can Use Music as a Marketing Edge Too",
-      "Buy USA Gmail Accounts, Digital Identity Systems",
-      "Unraveling the Secrets of the Past: First-Ever Decoded Herculaneum Scroll Reveals Ancient Mysteries - See What's Inside",
-      "Revolutionize Inventory Management: Unlock the Power of Open-Source Barcode Scanning with Libre Barcode Project",
-      "Buy LinkedIn Accounts and Clean Professional",
-      "AI Customer Service Lost 30% Memory in Week One — I Wrote 3 Pytest Tests to Catch the Culprit",
-      "Building a ‘Developer Focus Stack’: Tasks, Tools, and Sound Working Together",
-      "Code Quality Over Speed",
-      "How I Extracted Amazon Review Text Data from Kaggle's .bz2 Dataset for Sentiment Analysis",
-      "Top 10 Free APIs to Build Profitable Side Projects",
-      "Swift Structs vs Classes: When to Use Which"
+      "I Thought Senior Developers Knew Everything. I Was Completely Wrong.",
+      "Unraveling CVE-2026-LGTM: A Deep Dive Into the Vulnerability",
+      "oh-my-agent: ZCode workflows and zero-prompt Claude Code trust",
+      "United We Code: Protecting the Open Source Ecosystem",
+      "Why generating code isn’t the same as code intelligence",
+      "SEO isn't dead ....",
+      "How &amp; Where can I Purchase Telegram Accounts in 2025-2026",
+      "Stop Guessing: Real API Costs for Startups vs Enterprises",
+      "Uncovered: Mozart's Lost Notebook - The $10 Million Musical Treasure That Will Change History Forever",
+      "ALERT: CVE-2026-LGTM Vulnerability Exposed - Is Your System at Risk of Cyber Attack?",
+      "Revolutionary Breakthrough: Bipartite Matching Cracked - What This NC Algorithm Means for You",
+      "Unraveling Ancient Secrets: First-Ever Reading of Intact Herculaneum Scroll Reveals Shocking Truths About the Past"
     ],
     "lobsters": [
-      "The Exhaustion of Talking to a Tool",
       "What are you doing this weekend?",
+      "The Exhaustion of Talking to a Tool",
       "Om Malik, 1966-2026",
-      "font-family recommendations",
-      "SPIR-V Backend Progress",
-      "New @bitCast Semantics and LLVM Backend Improvements",
-      "swsim: A software SIM card",
-      "Vibecoding gets Emacs patch rejected",
-      "The Xteink X4 E-Ink Reader",
-      "Oxide Rack 3D Explorer",
       "All you need is PostgreSQL",
-      "usbliter8: An A12/A13 SecureROM exploit",
-      "OS9Map: OpenStreetMap for Mac OS 9",
-      "Structured Primary Keys",
+      "SPIR-V Backend Progress",
+      "font-family recommendations",
+      "GuixPkgs: every Guix package, as a Nix flake",
+      "swsim: A software SIM card",
+      "New @bitCast Semantics and LLVM Backend Improvements",
       "Design Patterns Suck",
-      "I've gone full Nix: Proxmox to NixOS + Incus",
+      "Vibecoding gets Emacs patch rejected",
       "Chatbots vs Ozone",
+      "The Xteink X4 E-Ink Reader",
+      "IBM new 'block of flats' design for tiny chips",
+      "How PgBouncer Works",
+      "Oxide Rack 3D Explorer",
+      "OS9Map: OpenStreetMap for Mac OS 9",
+      "DSPi: A fully featured audio DSP firmware for the Raspberry Pi Pico (RP2040) and Pico 2 (RP2350)",
       "Echoes of the AI Winter",
-      "Pierre Zemb from Clever Cloud on FoundationDB",
-      "Are We GlobalShortcuts Yet?"
+      "usbliter8: An A12/A13 SecureROM exploit"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -173,50 +173,52 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "An entire Herculaneum scroll has been read for the first time 🔥1365pts 💬286",
-      "Om Malik has died 🔥969pts 💬118",
-      "The 'papers, please' era of the internet will decimate your privacy 🔥800pts 💬366",
-      "Apple raises prices of MacBooks, iPads 🔥750pts 💬1083",
-      "Hey Nico, you didn't vibe code your data room but stole it from Papermark 🔥402pts 💬166",
-      "Oxide computer 3D rack guided tour 🔥394pts 💬159",
-      "IBM debuts sub-1 nanometer chip technology 🔥335pts 💬180",
-      "Show HN: Chess-Inspired Roguelike 🔥332pts 💬109",
-      "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion 🔥293pts 💬148",
-      "You can't unit test for taste 🔥287pts 💬128",
-      "We All Depend on Open Source. We Will Defend It Together 🔥250pts 💬122",
-      "Zig's new bitCast semantics and LLVM back end improvements 🔥246pts 💬125",
-      "A game where you're an OS and have to manage processes, memory and I/O events 🔥242pts 💬46",
-      "OS9Map 🔥237pts 💬45",
-      "Framework's 10G Ethernet module exposes USB-C's complexity 🔥213pts 💬110",
-      "What happened after 2k people tried to hack my AI assistant 🔥212pts 💬79",
-      "Libre Barcode Project 🔥190pts 💬30",
-      "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed) (2023) 🔥166pts 💬29",
-      "Un-0: Generating Images with Coupled Oscillators 🔥159pts 💬39",
-      "An oral history of Bank Python (2021) 🔥135pts 💬48",
-      "The Doorman's Fallacy in action 🔥134pts 💬194",
-      "The last Romans are still around 🔥106pts 💬141",
-      "Parallel Parentheses Matching 🔥101pts 💬12",
-      "22-year-old Mozart's handwritten notebook unearthed in 'major discovery' 🔥92pts 💬17",
-      "My Steam Machine Is a 50ft HDMI Cable 🔥64pts 💬66"
+      "An entire Herculaneum scroll has been read for the first time 🔥1469pts 💬314",
+      "Om Malik has died 🔥1095pts 💬129",
+      "The 'papers, please' era of the internet will decimate your privacy 🔥894pts 💬439",
+      "Apple raises prices of MacBooks, iPads 🔥776pts 💬1137",
+      "Hey Nico, you didn't vibe code your data room but stole it from Papermark 🔥472pts 💬192",
+      "Oxide computer 3D rack guided tour 🔥421pts 💬173",
+      "Show HN: Chess-Inspired Roguelike 🔥365pts 💬120",
+      "IBM debuts sub-1 nanometer chip technology 🔥354pts 💬191",
+      "We all depend on open source. We will defend it together 🔥353pts 💬167",
+      "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion 🔥318pts 💬154",
+      "A game where you're an OS and have to manage processes, memory and I/O events 🔥289pts 💬54",
+      "What happened after 2k people tried to hack my AI assistant 🔥264pts 💬109",
+      "Zig's new bitCast semantics and LLVM back end improvements 🔥256pts 💬128",
+      "OS9Map 🔥248pts 💬48",
+      "Framework's 10G Ethernet module exposes USB-C's complexity 🔥246pts 💬134",
+      "Libre Barcode Project 🔥224pts 💬36",
+      "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed) (2023) 🔥191pts 💬39",
+      "Un-0: Generating Images with Coupled Oscillators 🔥171pts 💬41",
+      "The Doorman's Fallacy in action 🔥167pts 💬221",
+      "An oral history of Bank Python (2021) 🔥148pts 💬57",
+      "22-year-old Mozart's handwritten notebook unearthed in 'major discovery' 🔥142pts 💬35",
+      "Incident CVE-2026-LGTM 🔥84pts 💬23",
+      "Bipartite Matching Is in NC 🔥60pts 💬2",
+      "Why have papers by one of history's most famous physicists been retracted?",
+      "The AI backlash is only getting started"
     ],
     "hn_show": [
-      "NT – fly around Git worktrees from your shell — featured on Hacker News (🔥2pts)",
+      "ZeroGate – API gateway to scale cloud GPUs to zero when idle — featured on Hacker News (🔥2pts)",
+      "NexisSearch – Fast AI Search — featured on Hacker News (🔥1pts)",
+      "Orchestrate Claude Code agents on a canvas — featured on Hacker News (🔥1pts)",
+      "I built a tool that matches Founders to VCs based on their pitch deck — featured on Hacker News (🔥3pts)",
+      "ShotBrief – Daily photography briefings, should you shoot tomorrow? — featured on Hacker News (🔥1pts)",
+      "A cool portfolio I made — featured on Hacker News (🔥1pts)",
+      "Repositron a typed CRUD for SQLAlchemy with no per-table boilerplate — featured on Hacker News (🔥1pts)",
+      "Novakit.tech – pre-built Claude Code skills, no prompting required — featured on Hacker News (🔥1pts)",
+      "Ponder – the best articles and essays on the internet — featured on Hacker News (🔥3pts)",
+      "Jargo – a Golang port of Pipecat for conversational-AI apps — featured on Hacker News (🔥3pts)",
+      "Regulo – an adaptive semaphore for saturation control — featured on Hacker News (🔥2pts)",
+      "Verity – self-healing review gate for Claude Code — featured on Hacker News (🔥4pts)",
+      "NT – fly around Git worktrees from your shell — featured on Hacker News (🔥4pts)",
       "I tracked 47 flights with a smart ring to quantify IMSAFE's blind spot — featured on Hacker News (🔥3pts)",
-      "Git-lazy-mount mount a repo without cloning it. Works with ordinary Git — featured on Hacker News (🔥7pts)",
+      "Git-lazy-mount mount a repo without cloning it. Works with ordinary Git — featured on Hacker News (🔥8pts)",
       "Kapient – Website monitoring that tells you what to fix — featured on Hacker News (🔥2pts)",
-      "LWDT – A Zephyr-inspired device-tree framework for ESP-IDF — featured on Hacker News (🔥3pts)",
+      "LWDT – A Zephyr-inspired device-tree framework for ESP-IDF — featured on Hacker News (🔥4pts)",
       "Lofinity – an endless lo-fi track, tuned to you — featured on Hacker News (🔥2pts)",
-      "Font Finder Chrome Extension — featured on Hacker News (🔥2pts)",
-      "Loomabase – Column-level CRDT sync for SQLite + Postgres — featured on Hacker News (🔥2pts)",
-      "Pybench, Pytest but to check non regression of noisy benchmarks — featured on Hacker News (🔥2pts)",
-      "Hikaru Labs – An offline, client-side alternative to CloudConvert — featured on Hacker News (🔥3pts)",
-      "Unofficial cross-platform Shure MV client — featured on Hacker News (🔥2pts)",
-      "Yet another self-hosted web analytics with no UI but MCP — featured on Hacker News (🔥3pts)",
-      "I built a small audit layer for LLM-as-judge decisions — featured on Hacker News (🔥2pts)",
-      "Helios – Business OS for Freelancers — featured on Hacker News (🔥2pts)",
-      "A Transformer Is All You Need — featured on Hacker News (🔥2pts)",
-      "Motif Atlas – recurring patterns behind complex systems — featured on Hacker News (🔥1pts)",
-      "Stackzero - The Smarter Way to Discover Free Developer Tools — featured on Hacker News (🔥1pts)"
+      "Font Finder Chrome Extension — featured on Hacker News (🔥2pts)"
     ],
     "hn_ask_tools": [
       "Ask HN: Who remembers Fry's Electronics – the \"church\" of IT people? — user asking for tool recommendation (🔥5pts)",
@@ -227,6 +229,7 @@
       "Show HN: Better PDF Presentations (+Typst) — user asking for tool recommendation (🔥3pts)",
       "Show HN: PostgreSQL backup tool Databasus moved to PG 17 native physical backups — user asking for tool recommendation (🔥2pts)",
       "Show HN: Forte – Cloud infra to get startups to production faster — user asking for tool recommendation (🔥7pts)",
+      "Show HN: I built a tool that matches Founders to VCs based on their pitch deck — user asking for tool recommendation (🔥3pts)",
       "Show HN: Get AI to recommend your product or service — user asking for tool recommendation (🔥4pts)",
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
@@ -234,17 +237,16 @@
       "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
       "Which AI coding tools do AIs recommend? Data across 10 models and 1000 responses — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Non-profit school possibly hacked, locked out of Google Workspace. — user asking for tool recommendation (🔥6pts)",
-      "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal) — user asking for tool recommendation (🔥17pts)",
-      "Show HN: Appaca – AI Workspace for Operators — user asking for tool recommendation (🔥4pts)",
+      "Show HN: Appaca – AI Workspace for Operators — user asking for tool recommendation (🔥5pts)",
       "Ask HN: What do you do to save tokens? — user asking for tool recommendation (🔥4pts)",
       "Do Course Certificates Matter? — user asking for tool recommendation (🔥5pts)",
       "Show HN: Drawbar – boring linear based workflows for Claude Code — user asking for tool recommendation (🔥2pts)",
-      "Show HN: The most Y Combinator YC application: it applied itself — user asking for tool recommendation (🔥5pts)",
       "Show HN: Unofficial cross-platform Shure MV client — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Have you ever given your AI agent a phone number? — user asking for tool recommendation (🔥2pts)",
       "Show HN: A Claude skill that prunes your AI's memory file, one diff at a time — user asking for tool recommendation (🔥2pts)",
       "Show HN: Contraband – Ticketed VR cinema for indie and AI-made films — user asking for tool recommendation (🔥2pts)",
       "Show HN: Claude Code Session Trace/Browse Tool (Python) — user asking for tool recommendation (🔥2pts)",
+      "Tar: A slop-free alternative to rsync — user asking for tool recommendation (🔥6pts)",
       "Show HN: Hikaru Labs – An offline, client-side alternative to CloudConvert — user asking for tool recommendation (🔥3pts)",
       "Show HN: 1000songs.co.uk – 100 years of music, 10 tracks a year — user asking for tool recommendation (🔥2pts)",
       "Show HN: I built an Ad-free Pinterest Alternative with AI content filtering — user asking for tool recommendation (🔥3pts)",
@@ -273,6 +275,7 @@
       "Retail Traders Are Automating Fast. Discipline Is the Hard Part"
     ],
     "infoq": [
+      "Presentation: AI Works, Pull Requests Don’t: How AI Is Breaking the SDLC and What To Do About It <img src=\"https://res.infoq.com/presentations/ai-sdlc-pull-request/en/mediumimage/michael-webster-medium-1781688909041.jpeg\"/><p>Michael Webster discu",
       "Dapr 1.18 Introduces Verifiable Execution, Bringing Cryptographic Trust to AI Agents and Workflows <img src=\"https://res.infoq.com/news/2026/06/dapr-1-18-cryptographic-ai/en/headerimage/generatedHeaderImage-1782128447195.jpg\"/><p>Diagrid has announc",
       "Argo CD 3.5 Tightens Supply Chain Security with Internal mTLS and Source Integrity <img src=\"https://res.infoq.com/news/2026/06/argocd-supply-chain-security/en/headerimage/generatedHeaderImage-1782400527464.jpg\"/><p>The Argo CD proje",
       "How Cloudflare Solved a Congestion Bug in quiche <img src=\"https://res.infoq.com/news/2026/06/cloudflare-bug-quiche/en/headerimage/generatedHeaderImage-1782410835538.jpg\"/><p>Cloudflare has recently ",
@@ -286,64 +289,63 @@
       "AI Is Moving up the Software Lifecycle: from Code Review to PRD Governance <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>Technology companies are extending AI beyond code generation into earli",
       "Presentation: Rules for Understanding Language Models <img src=\"https://res.infoq.com/presentations/5-principles-llm-behavior/en/mediumimage/naomi-saphra-medium-1781688751052.jpg\"/><p>Naomi Saphra discuss",
       "Article: Beyond CLEAN and MVP: Architecting an Offline-first Reactive Data Layer in Android <img src=\"https://res.infoq.com/articles/rdla-offline-first-reactive-android-data-layer/en/headerimage/rdla-offline-first-reactive-android-data-layer-",
-      "Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects <img src=\"https://res.infoq.com/news/2026/06/lucide-v1-icons/en/headerimage/generatedHeaderImage-1782203932198.jpg\"/><p>Lucide has released version 1.",
-      "Presentation: The Time It Wasn't DNS <img src=\"https://res.infoq.com/presentations/incident-dns/en/mediumimage/sean-klein-medium-1781687984845.jpeg\"/><p>Sean Klein discusses why \"human er"
+      "Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects <img src=\"https://res.infoq.com/news/2026/06/lucide-v1-icons/en/headerimage/generatedHeaderImage-1782203932198.jpg\"/><p>Lucide has released version 1."
     ],
     "google_trends": [
-      "jalen duren",
-      "resilience",
-      "jamal morton",
-      "ire vs ind",
-      "naomi osaka",
-      "wimbledon",
-      "liberty vote mike lindell dispute",
-      "acute",
-      "john bolton",
-      "maggie haberman"
+      "prince harry meghan uk travel",
+      "kobe draft pack",
+      "earthquake japan",
+      "beijing",
+      "markwayne mullin",
+      "npr",
+      "ethan quinn",
+      "electoral fraud",
+      "karolina muchova",
+      "charlotte weather"
     ],
     "baidu": [
-      "习近平会见孟加拉国总理塔里克",
+      "习近平就委内瑞拉强震致慰问电",
+      "杨紫获白玉兰奖最佳女主",
       "微信朋友圈互删清空对方全部痕迹",
-      "穆里尼奥：世界杯不该出现7-1这类比分",
       "“国补”继续 第三批资金已下达",
-      "初中学历女生因面试走红 现状曝光",
-      "董路携足球小将谈世界杯梦想",
+      "于和伟获白玉兰最佳男主角奖",
+      "姆巴佩与哈兰德世界杯将首次对决",
       "“多人将两女子关铁笼游街”系摆拍",
-      "墨西哥女裁判撞脸蔡依林",
-      "新加坡学者：我们都被日本人骗了",
+      "初中学历女生因面试走红 现状曝光",
+      "迟蓬获白玉兰最佳女配角",
       "法国人热到不提环保了",
-      "白玉兰奖今晚揭晓 你期待谁",
-      "4种癌症早期筛查真的有用",
-      "考生因高颜值走红 高考分数已过线",
-      "白俄罗斯总统向泽连斯基发出警告",
-      "女子上班收到女儿高考成绩激动不已",
-      "白玉兰红毯嘉宾阵容",
-      "男子病重昏迷 七旬母亲取不出救命钱",
-      "海南高考800分及以上111人",
-      "韩媒集体慌了：连日本队都不帮忙",
-      "14岁女孩为吸毒骗家人朋友十几万"
+      "董勇获白玉兰最佳男配角",
+      "贾玲名下多家企业已注销",
+      "高校录取通知书集体回归一页纸",
+      "杨紫上台领奖泪流满面 一度说不出话",
+      "齐豫嗓子怎么了",
+      "14岁女孩为吸毒骗家人朋友十几万",
+      "男子买榴莲仅退款后转卖 警方通报",
+      "新加坡学者：我们都被日本人骗了",
+      "墨西哥女裁判撞脸蔡依林",
+      "男子病重昏迷 七旬母亲取不出救命钱"
     ],
     "wikipedia": [
-      "Chicago Park School District",
-      "Peter Lalor",
-      "LMU Munich",
-      "André Rodrigues Durães",
-      "Rhyu Si-min",
-      "Kasavuthattam",
-      "Candi Milo",
-      "Cambridgeshire County Council",
-      "Igor Klimov (wrestler)",
-      "Soubey",
-      "Melissa Fahn",
-      "Spitting Image",
-      "3D film",
-      "Richard Steven Horvitz",
-      "City upon a Hill",
-      "Suthee Meanchainun",
-      "Marino Curnis",
-      "Parit Raja (state constituency)",
-      "Natsume Atari",
-      "Alice in Wonderland and Through the Looking-Glass"
+      "List of number-one singles of 2026 (Ireland)",
+      "Royal Academy Exhibition of 1779",
+      "Corrinne Averiss",
+      "Thorburn Brailsford Robertson",
+      "Indian cricket team in Ireland in 2026",
+      "Thank You for the Venom",
+      "Derek White (racing driver)",
+      "Battle of Kowang-san",
+      "Georgette Délibrias",
+      "Sony Pictures Networks",
+      "Reapers (painting)",
+      "Jørgen Ringnis",
+      "Danica Roem",
+      "Rutland and Stamford",
+      "Hedayat Aleh",
+      "Ringnis, Jørgen",
+      "Critical Role campaign four",
+      "T-Series (company)",
+      "Malique Lewis",
+      "St. Francis Church (Hoboken, New Jersey)"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -428,31 +430,28 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: awesome lists",
-      "github trending topic: magix-install",
-      "github trending topic: typescript",
-      "github trending topic: code quality",
-      "github trending topic: css",
-      "github trending topic: java",
-      "github trending topic: node.js",
-      "github trending topic: react native",
-      "github trending topic: magix-trial",
-      "github trending topic: magix-key",
-      "github trending topic: magix-software",
-      "github trending topic: javascript",
-      "github trending topic: react",
-      "github trending topic: database",
-      "github trending topic: project management",
       "github trending topic: scala",
-      "github trending topic: compiler",
+      "github trending topic: awesome lists",
+      "github trending topic: react",
+      "github trending topic: code quality",
+      "github trending topic: react native",
       "github trending topic: python",
+      "github trending topic: database",
+      "github trending topic: css",
+      "github trending topic: project management",
       "github trending topic: front end",
-      "github trending topic: xapi",
-      "github trending topic: magix",
+      "github trending topic: docker",
       "github trending topic: npm",
-      "github trending topic: magix-download",
+      "github trending topic: compiler",
+      "github trending topic: claude-code",
+      "github trending topic: happ",
+      "github trending topic: happ-desktop",
+      "github trending topic: typescript",
+      "github trending topic: html",
+      "github trending topic: happ-vpn",
+      "github trending topic: javascript",
       "github trending topic: chrome",
-      "github trending topic: public-archived"
+      "github trending topic: node.js"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -633,7 +632,6 @@
   "all_keywords": [
     "copilot-pull-request-reviewer",
     "agent-toolkit-for-aws",
-    "Building a ‘Developer Focus Stack’: Tasks, Tools, and Sound Working Together",
     "The Exhaustion of Talking to a Tool",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -660,6 +658,7 @@
     "Do Course Certificates Matter? — user asking for tool recommendation (🔥5pts)",
     "Ask HN: Quickbooks Alternative? — user asking for tool recommendation (🔥4pts)",
     "The 8 Best Contract Management Software Tools Worth Using in 2026",
+    "男子买榴莲仅退款后转卖 警方通报",
     "electra-base-discriminator",
     "electra-base-discriminator",
     "tgt — npm package: tpl generator tool",
@@ -677,10 +676,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 174,
+    "raw_count": 171,
     "valid_count": 44,
-    "rejected_count": 130,
-    "rejection_rate": 74.7,
+    "rejected_count": 127,
+    "rejection_rate": 74.3,
     "rejected_samples": [
       "design.md",
       "allcontributors",
@@ -691,25 +690,18 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "The reliability gap: what it actually takes to put an AI agent in production"
+      "Unraveling CVE-2026-LGTM: A Deep Dive Into the Vulnerability"
     ]
   },
   "trait_analysis": {
-    "total_captured": 355,
-    "chatter_blocked": 21,
-    "chatter_rate": 5.9,
-    "tool_signals_found": 174,
-    "tool_signal_rate": 49.0,
+    "total_captured": 354,
+    "chatter_blocked": 18,
+    "chatter_rate": 5.1,
+    "tool_signals_found": 171,
+    "tool_signal_rate": 48.3,
     "chatter_samples": [
       {
-        "text": "From Background Noise to Productive Sound: How Developers Can Use Music as a Mar",
-        "category": "entertainment",
-        "matched": [
-          "Music"
-        ]
-      },
-      {
-        "text": "Unraveling the Secrets of the Past: First-Ever Decoded Herculaneum Scroll Reveal",
+        "text": "Unraveling Ancient Secrets: First-Ever Reading of Intact Herculaneum Scroll Reve",
         "category": "news",
         "matched": [
           [
@@ -719,14 +711,7 @@
         ]
       },
       {
-        "text": "Revolutionize Inventory Management: Unlock the Power of Open-Source Barcode Scan",
-        "category": "chatter",
-        "matched": [
-          "vent"
-        ]
-      },
-      {
-        "text": "Oxide computer 3D rack guided tour 🔥394pts 💬159",
+        "text": "Oxide computer 3D rack guided tour 🔥421pts 💬173",
         "category": "entertainment",
         "matched": [
           "tour"
@@ -740,10 +725,10 @@
         ]
       },
       {
-        "text": "Unofficial cross-platform Shure MV client — featured on Hacker News (🔥2pts)",
+        "text": "Why have papers by one of history's most famous physicists been retracted?",
         "category": "entertainment",
         "matched": [
-          "MV"
+          "famous"
         ]
       },
       {
@@ -772,6 +757,26 @@
         "category": "chatter",
         "matched": [
           "rant"
+        ]
+      },
+      {
+        "text": "AI Agent Costs Are Becoming an Engineering Crisis",
+        "category": "news",
+        "matched": [
+          [
+            "Crisis",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "Presentation: AI Works, Pull Requests Don’t: How AI Is Breaking the SDLC and Wha",
+        "category": "news",
+        "matched": [
+          [
+            "Breaking",
+            ""
+          ]
         ]
       }
     ],
@@ -857,32 +862,32 @@
         ]
       },
       {
-        "text": "The reliability gap: what it actually takes to put an AI agent in production",
+        "text": "Unraveling CVE-2026-LGTM: A Deep Dive Into the Vulnerability",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('takes to put', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Into the', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "AI Customer Service Lost 30% Memory in Week One — I Wrote 3 Pytest Tests to Catch the Culprit",
-        "confidence": 20,
+        "text": "oh-my-agent: ZCode workflows and zero-prompt Claude Code trust",
+        "confidence": 15,
         "features": [
-          "输入→输出链式: [('Customer', 'to', '', '', '', ''), ('Tests to Catch', 'to', '', '', '', '')]"
+          "技术概念: ['Claude']"
         ]
       },
       {
-        "text": "Building a ‘Developer Focus Stack’: Tasks, Tools, and Sound Working Together",
+        "text": "Stop Guessing: Real API Costs for Startups vs Enterprises",
         "confidence": 35,
         "features": [
-          "输入→输出链式: [('Working Together', 'To', '', '', '', '')]",
-          "英文工具名词: ['tool']"
+          "输入→输出链式: [('Stop', 'to', '', '', '', '')]",
+          "技术概念: ['API']"
         ]
       },
       {
-        "text": "Top 10 Free APIs to Build Profitable Side Projects",
+        "text": "Uncovered: Mozart's Lost Notebook - The $10 Million Musical Treasure That Will Change History Foreve",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('APIs to Build', 'to', '', '', '', '')]"
+          "输入→输出链式: [('History', 'to', '', '', '', '')]"
         ]
       }
     ]
