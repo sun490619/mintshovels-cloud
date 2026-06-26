@@ -16,8 +16,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Test
+      - name: 🔍 Step 1 Test with emoji
         run: |
           echo "Hello from GitHub Actions!"
           python3 --version
           ls -la
+      
+      - name: 中文步骤名测试
+        run: echo "Chinese step name works"
+
+      - name: Multi-line Python inline
+        run: |
+          python3 -c "
+          import json
+          print('JSON imported OK')
+          " 2>/dev/null || echo "INLINE PYTHON FAILED"
