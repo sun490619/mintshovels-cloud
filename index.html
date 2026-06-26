@@ -3759,7 +3759,8 @@ if __name__ == "__main__":
                         : `🔭 ${currentLang === "zh" ? "雷达在线" : "Radar Online"}`;
                     footerRadar.style.color = 'var(--emerald)';
                 }
-            } else if (d.status === "standby") {
+            } else if (d.status === "standby" || d.status === "idle") {
+                // idle = 雷达后端在线但无扫描数据，仍算在线
                 radarEl.className = "nav-pill radar-online";
                 textEl.textContent = currentLang === "zh" ? "雷达待命中" : "Radar Standby";
                 if (footerRadar) {
@@ -3774,7 +3775,7 @@ if __name__ == "__main__":
                 radarEl.className = "nav-pill radar-offline";
                 textEl.textContent = t("radar_offline");
                 if (footerRadar) {
-                    footerRadar.textContent = `🔭 ${currentLang === "zh" ? "雷达休眠中" : "Radar Idle"}`;
+                    footerRadar.textContent = `🔭 ${currentLang === "zh" ? "雷达离线中" : "Radar Offline"}`;
                     footerRadar.style.color = 'var(--text-muted)';
                 }
             }
