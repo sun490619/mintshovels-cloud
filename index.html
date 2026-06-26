@@ -720,7 +720,7 @@
                 </button>
             </div>
             <div id="search-summary" class="hidden" style="font-size:12px;color:var(--text-muted);margin-top:8px"></div>
-            <span style="font-size:13px;color:var(--text-muted);display:block;margin-top:20px;text-align:center" id="hero-tool-count">33+ free tools · No login</span>
+            <span style="font-size:13px;color:var(--text-muted);display:block;margin-top:20px;text-align:center" id="hero-tool-count">36+ free tools · No login</span>
         </section>
 
         <!-- Category Tabs -->
@@ -1474,7 +1474,7 @@
     }
 
     function getAllTools() {
-        // 🔒 BUILD SAFEGUARD: 只返回33个精品手写工具
+        // 🔒 BUILD SAFEGUARD: 只返回36个精品手写工具
         // 自动生成工具(AUTO_TOOLS)已物理切除，绝不允许混入前端显示
         const seen = new Set();
         const merged = [];
@@ -1493,7 +1493,7 @@
             home_title: "Gold Shovel Tool Factory",
             home_subtitle: "A fully automated tool production factory. New tools every day. No account needed. All free.",
             hero_cta: "🚀 Explore All Tools",
-            hero_count: "33+ free tools · No login",
+            hero_count: "36+ free tools · No login",
             search_placeholder: "Search tools... e.g. video download, image compress, PDF merge",
             tool_count: "{count} tools",
             no_result_title: "No matching tools found",
@@ -1591,7 +1591,7 @@
             home_title: "金牌铲子工坊",
             home_subtitle: "全自动化工具生产工厂。每天都有新工具。无需注册，全部免费。",
             hero_cta: "🚀 探索全部工具",
-            hero_count: "33+ 免费工具 · 无需登录",
+            hero_count: "36+ 免费工具 · 无需登录",
             search_placeholder: "搜索工具... 比如 视频下载、图片压缩、PDF合并",
             tool_count: "共 {count} 个工具",
             no_result_title: "没找到匹配的工具",
@@ -2089,7 +2089,7 @@
         const totalAll = allTools.length;
         document.getElementById("tool-count").textContent = t("tool_count", { count: totalAll });
         const heroCount = document.getElementById("hero-tool-count");
-        if (heroCount) heroCount.textContent = t("hero_count").replace("33+", totalLive + "+");
+        if (heroCount) heroCount.textContent = t("hero_count").replace("36+", totalLive + "+");
     }
 
     // ========== Category Toggle & Filter ==========
