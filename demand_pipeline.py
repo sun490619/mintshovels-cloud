@@ -259,8 +259,30 @@ def main():
     parser.add_argument("--test", action="store_true", help="运行内置测试用例")
     parser.add_argument("--review", action="store_true", help="进入人工审核模式")
     parser.add_argument("--review-status", action="store_true", help="查看审核队列状态")
+    parser.add_argument("--auto-run", action="store_true", help="从 scraper_cache.json 自动处理（CI 模式）")
 
     args = parser.parse_args()
+
+    if args.auto_run:
+        cache_path = os.path.join(SCRIPT_DIR, "scraper_cache.json")
+        if not os.path.exists(cache_path):
+            print("No scraper cache found")
+            return
+        with open(cache_path) as f:
+            cache = json.load(f)
+        candidates = cache.get("candidates", [])
+        if not candidates:
+            print("No candidates in cache")
+            return
+        texts = [c["text"] for c in candidates]
+        print(f"Processing {len(texts)} candidates from scraper cache")
+        pipeline = DemandPipeline()
+        results = pipeline.process_batch(texts, verbose=False)
+        pipeline.enqueue_warn(results)
+        pipeline.save_results(results, os.path.join(SCRIPT_DIR, "demand_report.json"))
+        pipeline.print_summary()
+        return
+
     pipeline = DemandPipeline()
 
     if args.learned:

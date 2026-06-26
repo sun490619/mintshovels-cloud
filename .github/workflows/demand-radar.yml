@@ -18,7 +18,9 @@ jobs:
         run: |
           python3 demand_scraper.py --limit 15 --no-pipeline
       - name: Step 2 Classify
-        run: python3 demand_pipeline.py
+        run: python3 demand_pipeline.py --auto-run
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - name: Step 3 Generate Tools
         run: python3 tool_generator.py
       - name: Step 4 Commit
