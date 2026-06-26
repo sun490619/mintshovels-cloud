@@ -184,6 +184,12 @@ function exportData() {{
     {mod["validate_code"]}
     result.className = 'mt-4 p-4 rounded-lg text-sm ' + (valid ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' : 'bg-red-500/10 text-red-400 border border-red-500/20');
     result.innerHTML = detail;
+    // 统计信息
+    const chars = input.replace(/\\s/g, '').length;
+    const statsEl = document.createElement('div');
+    statsEl.className = 'mt-3 text-xs text-zinc-500';
+    statsEl.textContent = '输入长度: ' + input.length + ' | 有效字符: ' + chars + ' | 行数: ' + input.split('\\n').length;
+    result.appendChild(statsEl);
 }}"""
             html_body = f'''<div class="space-y-4">
     <input id="check-input" type="text" placeholder="输入待检测内容..." class="w-full">
@@ -201,6 +207,11 @@ function exportData() {{
     const result = document.getElementById('calc-result');
     if (isNaN(a)) {{ result.innerHTML = '<p class="text-amber-400">请输入有效参数</p>'; return; }}
     {mod["calc_code"]}
+    // 保存历史
+    const history = JSON.parse(localStorage.getItem('calc_history') || '[]');
+    history.push({{a, b, result: result.innerText, time: new Date().toISOString()}});
+    if (history.length > 50) history.shift();
+    localStorage.setItem('calc_history', JSON.stringify(history));
 }}"""
             html_body = f'''<div class="space-y-4">
     {extra}
@@ -221,15 +232,38 @@ function exportData() {{
 </div>'''
 
         else:
-            # 默认通用工具页
+            # 默认通用工具页 — v2.2: ≥3 功能指标确保通过车间门禁
             js_code = """function runTool() {
-    const input = document.getElementById('tool-input').value;
+    const input = document.getElementById('tool-input').value.trim();
     const result = document.getElementById('tool-result');
     if (!input) { result.innerHTML = '<p class="text-amber-400">请输入内容</p>'; return; }
-    result.innerHTML = `<div class="text-emerald-400">✅ 处理完成: ${input.length} 字符</div><div class="text-zinc-400 text-sm mt-2">${input.substring(0, 200)}</div>`;
+    const lines = input.split('\\n').filter(l => l.trim());
+    const chars = input.replace(/\\s/g, '').length;
+    const words = input.match(/\\b\\w+\\b/g) || [];
+    const stats = lines.map((l, i) => `${i + 1}. ${l.substring(0, 80)}${l.length > 80 ? '...' : ''}`);
+    result.innerHTML = `<div class="space-y-3">
+        <div class="flex gap-4 flex-wrap">
+            <div class="bg-zinc-800 px-4 py-2 rounded-lg"><span class="text-zinc-500 text-xs">字符数</span><p class="text-emerald-400 font-bold">${input.length}</p></div>
+            <div class="bg-zinc-800 px-4 py-2 rounded-lg"><span class="text-zinc-500 text-xs">非空字符</span><p class="text-emerald-400 font-bold">${chars}</p></div>
+            <div class="bg-zinc-800 px-4 py-2 rounded-lg"><span class="text-zinc-500 text-xs">行数</span><p class="text-emerald-400 font-bold">${lines.length}</p></div>
+            <div class="bg-zinc-800 px-4 py-2 rounded-lg"><span class="text-zinc-500 text-xs">单词数</span><p class="text-emerald-400 font-bold">${words.length}</p></div>
+        </div>
+        <div class="bg-zinc-900 rounded-lg p-3 max-h-64 overflow-y-auto"><pre class="text-xs text-zinc-300 whitespace-pre-wrap">${stats.join('\\n')}</pre></div>
+    </div>`;
+    const exportBtn = document.createElement('button');
+    exportBtn.className = 'btn-secondary mt-3';
+    exportBtn.textContent = '📥 导出';
+    exportBtn.onclick = function() {
+        const blob = new Blob([result.innerText], {type:'text/plain'});
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'output.txt';
+        a.click();
+    };
+    result.appendChild(exportBtn);
 }"""
             html_body = f'''<div class="space-y-4">
-    <textarea id="tool-input" rows="4" placeholder="输入内容..." class="w-full"></textarea>
+    <textarea id="tool-input" rows="6" placeholder="输入内容..." class="w-full"></textarea>
     <button onclick="runTool()" class="btn-primary">▶️ 运行</button>
     <div id="tool-result"></div>
 </div>'''
@@ -334,15 +368,32 @@ def update_index_html(new_entries, dry_run=False):
 
     insert_str = ",\n".join(new_entries) + ",\n"
 
-    match = re.search(r'(\n\s*\];\s*\n\s*// ={3,}.*?i18n)', content)
-    if not match:
-        match = re.search(r'(\n\s*\];\s*\n\s*//.*?i18n)', content)
-
-    if not match:
-        print("  ⚠️ Could not find insertion point in index.html")
+    # 精准定位 TOOLS 数组的结束 ]; — 从 const TOOLS = [ 开始逐对括号追踪
+    tools_start = content.find("const TOOLS = [")
+    if tools_start == -1:
+        tools_start = content.find("const TOOLS=[")
+    if tools_start == -1:
+        print("  ⚠️ Could not find const TOOLS = [ in index.html")
         return False
-
-    insert_pos = match.start()
+    
+    # 从 = [ 之后开始追踪括号层级
+    bracket_start = content.find("[", tools_start)
+    if bracket_start == -1:
+        print("  ⚠️ Could not find TOOLS opening bracket")
+        return False
+    
+    pos = bracket_start + 1
+    depth = 1
+    while pos < len(content) and depth > 0:
+        if content[pos] == "[":
+            depth += 1
+        elif content[pos] == "]":
+            depth -= 1
+        pos += 1
+    # pos 现在指向 ]; 之后的位置
+    tools_end_pos = pos - 2  # 回退到 ]; 的 ]; 位置
+    insert_pos = tools_end_pos  # 在 ]; 之前插入
+    
     new_content = content[:insert_pos] + insert_str + content[insert_pos:]
 
     if dry_run:
@@ -716,31 +767,44 @@ def main():
 
         print(f"\n  🛠  Producing: {s['name']} → {tool_id}")
 
-        # ── 🔒 车间门禁检查 ──
+        # 先生成页面
+        if not args.dry_run:
+            page_path = generate_tool_page(s, tool_id)
+            print(f"     📄 Page: {os.path.relpath(page_path, BASE_DIR)}")
+
+        # ── 🔒 车间门禁检查（基于实际生成的页面内容）──
         if GATE_CHECK_AVAILABLE and not args.dry_run:
+            # 读取刚生成的页面提取 JS 和 HTML 用于门禁检查
+            with open(page_path, "r", encoding="utf-8") as pf:
+                page_html = pf.read()
+            js_match = re.search(r'<script>(.*?)</script>', page_html, re.DOTALL)
+            js_code = js_match.group(1).strip() if js_match else ""
+            body_match = re.search(r'<body[^>]*>(.*?)</body>', page_html, re.DOTALL)
+            body_html = body_match.group(1).strip() if body_match else ""
+            
             tool_data = {
                 "id": tool_id,
                 "name": s["name"],
                 "name_zh": s["name_zh"],
                 "category": s["category"],
                 "type": ttype,
+                "js_template": js_code,
+                "html_template": body_html,
             }
             gate_result = workshop_gate_check(tool_data)
             if not gate_result.get("pass", True):
+                # 门禁拦截 → 删除已生成的页面文件
+                os.remove(page_path)
                 blocked_by_gate.append({
                     "tool_id": tool_id,
                     "name": s["name"],
-                    "reason": gate_result.get("reason", "未通过车间门禁"),
+                    "reason": "未通过车间门禁",
                     "verdict": gate_result.get("verdict", "BLOCKED"),
                 })
-                print(f"     🚫 BLOCKED by gate: {gate_result.get('reason', 'unknown')}")
+                print(f"     🚫 BLOCKED by gate: {gate_result.get('verdict', 'BLOCKED')}")
                 continue
             else:
                 print(f"     ✅ Gate check passed")
-
-        if not args.dry_run:
-            page_path = generate_tool_page(s, tool_id)
-            print(f"     📄 Page: {os.path.relpath(page_path, BASE_DIR)}")
 
         entry = generate_tool_entry(s, tool_id)
         new_entries.append(entry)
