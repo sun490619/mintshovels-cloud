@@ -1,6 +1,9 @@
 name: Demand Radar Auto Generator
 
 on:
+  push:
+    paths:
+      - '.github/workflows/demand-radar.yml'
   workflow_dispatch:
   schedule:
     - cron: '0 */2 * * *'
