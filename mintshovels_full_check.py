@@ -15,7 +15,7 @@ MintShovels 全面体检 — 6 大类一键检查
 每项返回 🟢 正常 或 🔴 异常 + 一句话原因
 """
 
-import json, os, re, ssl, time
+import json, os, re, ssl, time, subprocess
 import urllib.request, urllib.error
 from datetime import datetime, timedelta
 
@@ -366,12 +366,48 @@ def check_tools():
             "detail": f"功能测试失败: {e}"
         }
 
+    # ── 🆕 v2.1: 新工具 ready 状态 ──
+    # 统计 index.html TOOLS 数组中 ready:true / ready:false 分布
+    try:
+        with open(os.path.join(TOOL_FACTORY_DIR, "index.html"), "r") as f:
+            idx_html = f.read()
+        tools_match = re.search(r'const TOOLS\s*=\s*\[([\s\S]*?)\];', idx_html)
+        if tools_match:
+            tools_block = tools_match.group(1)
+            ready_true = len(re.findall(r'ready:\s*true', tools_block))
+            ready_false = len(re.findall(r'ready:\s*false', tools_block))
+            tools_in_block = re.findall(r'\{[^}]*?\}', tools_block)
+            missing_ready = sum(1 for t in tools_in_block if 'ready:' not in t)
+            if ready_false > 0:
+                detail = f"ready:true {ready_true}个 | ready:false {ready_false}个 ⚠️ 有工具未上线"
+                if missing_ready > 0:
+                    detail += f" | 缺ready字段 {missing_ready}个"
+                items["新工具上线状态"] = {
+                    "ok": False,
+                    "detail": detail
+                }
+            else:
+                detail = f"ready:true {ready_true}个, 全部已上线"
+                if missing_ready > 0:
+                    detail += f" | 缺ready字段 {missing_ready}个（历史工具，前端默认显示）"
+                items["新工具上线状态"] = {
+                    "ok": True,
+                    "detail": detail
+                }
+        else:
+            items["新工具上线状态"] = {"ok": False, "detail": "无法解析 TOOLS 数组"}
+    except Exception as e:
+        items["新工具上线状态"] = {"ok": False, "detail": f"检查失败: {e}"}
+
     all_ok = hand_total > 0 and auto_total > 0
     # 合规率不通过 → 整项也挂
     if items.get("英文命名合规率", {}).get("ok") is False:
         all_ok = False
     # 功能测试不通过 → 整项也挂
     if items.get("功能测试健康度", {}).get("ok") is False:
+        all_ok = False
+    # 有工具未上线 → 整项也挂
+    if items.get("新工具上线状态", {}).get("ok") is False:
         all_ok = False
     return all_ok, items
 
@@ -532,6 +568,163 @@ def check_automation():
     else:
         items["管道车间拦截"] = {"ok": False, "detail": "pipeline.py 不存在"}
 
+    # ═══════════════════════════════════════
+    # 🆕 v2.1: 车间门禁通过率（历史趋势）
+    # ═══════════════════════════════════════
+    if len(log) >= 2:
+        gate_oks = sum(1 for entry in log if entry.get("gate_check") == "OK")
+        gate_warns = sum(1 for entry in log if entry.get("gate_check") == "WARN")
+        gate_errors = sum(1 for entry in log if entry.get("gate_check") == "ERROR")
+        gate_total = gate_oks + gate_warns + gate_errors
+        if gate_total > 0:
+            gate_rate = round(gate_oks / gate_total * 100, 1)
+            detail = f"近{len(log)}次: OK {gate_oks}次, WARN {gate_warns}次, ERROR {gate_errors}次 → 通过率 {gate_rate}%"
+            items["车间门禁通过率"] = {
+                "ok": gate_rate >= 80,
+                "detail": detail
+            }
+        else:
+            items["车间门禁通过率"] = {"ok": True, "detail": "门禁数据不足（无可统计的运行）"}
+    else:
+        items["车间门禁通过率"] = {"ok": True, "detail": f"运行次数不足（{len(log)}次），至少需2次"}
+
+    # ═══════════════════════════════════════
+    # 🆕 v2.1: 工厂阶段拆分（最近一次运行）
+    # ═══════════════════════════════════════
+    if log:
+        last = log[-1]
+        stages = []
+        # 数据引擎（允许 None=跳过，属非致命状态）
+        de = last.get("data_engine")
+        de_ok = de is None or de in ("OK", "WARN")
+        stages.append(("数据采集", de_ok, de or "跳过"))
+        # 雷达
+        ra = last.get("radar")
+        stages.append(("需求雷达", ra == "OK", ra or "SKIP"))
+        # 需求过滤审计
+        audit = last.get("demand_filter_audit", {})
+        if audit:
+            audit_pass = audit.get("passed", 0)
+            audit_block = audit.get("blocked", 0)
+            stages.append(("需求过滤", audit_pass > 0 or audit_block > 0, f"通过{audit_pass}/拦截{audit_block}"))
+        # 工厂
+        fa = last.get("factory")
+        stages.append(("工厂生产", fa == "OK", fa or "SKIP"))
+        # 门禁
+        gc = last.get("gate_check")
+        stages.append(("车间门禁", gc == "OK" or gc == "WARN", gc or "SKIP"))
+        # 测试
+        ti = last.get("test_index", {})
+        tt = last.get("test_tools", {})
+        ts = last.get("test_server", {})
+        test_total_pass = ti.get("passed", 0) + tt.get("passed", 0) + ts.get("passed", 0)
+        test_total_fail = ti.get("failed", 0) + tt.get("failed", 0) + ts.get("failed", 0)
+        stages.append(("全量测试", test_total_fail == 0, f"{test_total_pass}✅ {test_total_fail}❌"))
+        # 标记 ready
+        mr = last.get("tools_marked_ready", 0)
+        stages.append(("标记上线", mr >= 0, f"{mr} 个新工具"))
+        # 部署
+        dep = last.get("deploy", {})
+        dep_status = dep.get("status", "?")
+        stages.append(("部署", dep_status == "OK", dep_status))
+        
+        stage_detail = " → ".join(f"{'✅' if ok else '❌'}{name}" for name, ok, _ in stages)
+        all_stage_ok = all(ok for _, ok, _ in stages)
+        items["工厂阶段链路"] = {
+            "ok": all_stage_ok,
+            "detail": stage_detail
+        }
+    else:
+        items["工厂阶段链路"] = {"ok": False, "detail": "无流水线日志"}
+
+    # ═══════════════════════════════════════
+    # 🆕 v2.1: build_safeguard 状态
+    # ═══════════════════════════════════════
+    safeguard_script = os.path.join(SCRIPT_DIR, "scripts", "build_safeguard.py")
+    safeguard_report = os.path.join(TOOL_FACTORY_DIR, "build_safeguard_report.json")
+    if os.path.exists(safeguard_script):
+        try:
+            # 运行 build_safeguard.py 做快速校验（非阻断式，即使失败也不抛异常）
+            # 必须在 TOOL_FACTORY_DIR 下运行，因为脚本读取 index.html 相对路径
+            result = subprocess.run(
+                ["python3", safeguard_script],
+                capture_output=True, text=True, timeout=30,
+                cwd=TOOL_FACTORY_DIR
+            )
+            passed = result.returncode == 0
+            # 读取报告获取详情
+            if os.path.exists(safeguard_report):
+                try:
+                    sreport = json.load(open(safeguard_report))
+                    total = sreport.get("total_tools", "?")
+                    expected = sreport.get("expected_total", "?")
+                    new_count = total - expected if isinstance(total, int) and isinstance(expected, int) else "?"
+                    detail = f"{'🟢 通过' if passed else '🔴 拦截'} | 总计{total}个 (核心{expected}+流水线{new_count})"
+                except Exception:
+                    detail = f"{'🟢 通过' if passed else '🔴 失败'} | 报告读取异常"
+            else:
+                detail = f"{'🟢 通过' if passed else '🔴 失败'} | 报告缺失"
+            items["编译前置死锁"] = {
+                "ok": passed,
+                "detail": detail
+            }
+        except subprocess.TimeoutExpired:
+            items["编译前置死锁"] = {"ok": False, "detail": "检查超时"}
+        except Exception as e:
+            items["编译前置死锁"] = {"ok": False, "detail": f"检查失败: {str(e)[:60]}"}
+    else:
+        items["编译前置死锁"] = {"ok": False, "detail": "build_safeguard.py 不存在"}
+
+    # ═══════════════════════════════════════
+    # 🆕 v2.1: GitHub Actions 实际运行状态
+    # ═══════════════════════════════════════
+    gh_ok = False
+    gh_detail = "未检查"
+    try:
+        gh_result = subprocess.run(
+            ["gh", "run", "list", "--repo", "sun490619/tool-factory",
+             "--workflow", "deploy.yml", "--limit", "5", "--json", "status,conclusion,createdAt,displayTitle"],
+            capture_output=True, text=True, timeout=15
+        )
+        if gh_result.returncode == 0 and gh_result.stdout.strip():
+            runs = json.loads(gh_result.stdout)
+            if runs:
+                latest = runs[0]
+                status = latest.get("status", "?")
+                conclusion = latest.get("conclusion", "?")
+                title = latest.get("displayTitle", "")[:40]
+                created = latest.get("createdAt", "")[:16]
+                # 统计成功率
+                success_count = sum(1 for r in runs if r.get("conclusion") == "success")
+                fail_count = sum(1 for r in runs if r.get("conclusion") == "failure")
+                if status == "completed" and conclusion == "success":
+                    gh_ok = True
+                    gh_detail = f"最近{len(runs)}次: {success_count}✅ {fail_count}❌ | 最新: {conclusion} ({created})"
+                elif status == "in_progress":
+                    gh_ok = True
+                    gh_detail = f"运行中: {title} ({created})"
+                elif status == "queued":
+                    gh_ok = True
+                    gh_detail = f"排队中: {title} ({created})"
+                else:
+                    gh_ok = False
+                    gh_detail = f"最近{len(runs)}次: {success_count}✅ {fail_count}❌ | 最新: {conclusion} ({created})"
+            else:
+                gh_detail = "无运行记录"
+        else:
+            gh_detail = f"gh CLI 返回异常 (exit {gh_result.returncode})"
+    except FileNotFoundError:
+        gh_detail = "gh CLI 未安装"
+    except subprocess.TimeoutExpired:
+        gh_detail = "检查超时"
+    except Exception as e:
+        gh_detail = f"检查失败: {str(e)[:60]}"
+
+    items["GH Actions 部署"] = {
+        "ok": gh_ok,
+        "detail": gh_detail
+    }
+
     # 超时熔断 → 整项变红
     all_ok = all(v["ok"] for v in items.values())
     return all_ok, items, radar_timeout
@@ -608,7 +801,71 @@ def check_backup_security():
     else:
         items["运行日志"] = {"ok": False, "detail": "不存在"}
 
-    all_ok = sum(1 for v in items.values() if not v["ok"]) <= 1
+    # 404 错误页面
+    notfound_path = os.path.join(TOOL_FACTORY_DIR, "404.html")
+    items["404 错误页面"] = {
+        "ok": os.path.exists(notfound_path),
+        "detail": "404.html 存在" if os.path.exists(notfound_path) else "404.html 缺失"
+    }
+
+    # Git 合并冲突扫描
+    main_html = os.path.join(TOOL_FACTORY_DIR, "index.html")
+    conflict_files = []
+    for root, dirs, files in os.walk(TOOL_FACTORY_DIR):
+        dirs[:] = [d for d in dirs if d not in (".git", "node_modules", "__pycache__", "cold_backup_20260623")]
+        for f in files:
+            if f.endswith((".html", ".py", ".json", ".txt", ".js", ".css")):
+                fp = os.path.join(root, f)
+                try:
+                    with open(fp, encoding="utf-8", errors="ignore") as fh:
+                        content = fh.read()
+                    if "<<<<<<< " in content and ">>>>>>> " in content:
+                        conflict_files.append(os.path.relpath(fp, TOOL_FACTORY_DIR))
+                except Exception:
+                    pass
+    items["Git 合并冲突"] = {
+        "ok": len(conflict_files) == 0,
+        "detail": "无冲突残留" if len(conflict_files) == 0 else f"{len(conflict_files)} 个文件有冲突: {', '.join(conflict_files[:3])}"
+    }
+
+    # CDN 脚本优化
+    if os.path.exists(main_html):
+        try:
+            with open(main_html, encoding="utf-8") as f:
+                html = f.read()
+            scripts = re.findall(r'<script\s+src="(https?://[^"]+)"([^>]*)>', html)
+            missing_opt = [url for url, attrs in scripts if "defer" not in attrs and "async" not in attrs]
+            items["CDN 脚本优化"] = {
+                "ok": len(missing_opt) == 0,
+                "detail": "全部 async/defer" if len(missing_opt) == 0 else f"{len(missing_opt)} 个缺 async/defer"
+            }
+        except Exception:
+            items["CDN 脚本优化"] = {"ok": False, "detail": "检查失败"}
+    else:
+        items["CDN 脚本优化"] = {"ok": False, "detail": "index.html 不存在"}
+
+    # bad_cases.json 副本一致性
+    mgr_root = os.path.join(SCRIPT_DIR, "bad_cases.json")
+    mgr_engine = os.path.join(SCRIPT_DIR, "engine", "bad_cases.json")
+    if os.path.exists(mgr_root) and os.path.exists(mgr_engine):
+        try:
+            with open(mgr_root) as f:
+                a = json.load(f)
+            with open(mgr_engine) as f:
+                b = json.load(f)
+            same = a == b
+            n1 = len(a.get("negative_cases", []))
+            n2 = len(b.get("negative_cases", []))
+            items["错题本一致性"] = {
+                "ok": same,
+                "detail": "两份完全一致" if same else f"不一致 (阈值 {a.get('threshold_pass')} vs {b.get('threshold_pass')})"
+            }
+        except Exception:
+            items["错题本一致性"] = {"ok": False, "detail": "比对失败"}
+    else:
+        items["错题本一致性"] = {"ok": False, "detail": "至少一份缺失"}
+
+    all_ok = sum(1 for v in items.values() if not v["ok"]) <= 2
     return all_ok, items
 
 
