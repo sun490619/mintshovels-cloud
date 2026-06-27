@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-27T19:39:49.369809+00:00     ║
+║       启动时间: 2026-06-27T22:10:26.113885+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 25 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 354
-  🚫 闲聊拦截: 16 条 (4.5%)
-  🧠 工具信号: 181 条 (51.1%)
+  原始信号总量: 353
+  🚫 闲聊拦截: 18 条 (5.1%)
+  🧠 工具信号: 176 条 (49.9%)
 
   📋 闲聊拦截样例:
      [ad] PDD 百亿补贴发了个拆封 iPhone
-     [news] Zuckerberg's Increasingly Bizarre War on Whistleblowers 🔥431
-     [news] The US Army Issued Ocarinas to Soldiers in World War II 🔥109
-     [news] Roblox parental controls are a dystopian security disaster —
-     [chatter] Ventora Expands Its AI Business Builder to Help Solo Founder
+     [news] Zuckerberg's war on whistleblowers 🔥544pts 💬200
+     [news] The US Army Issued Ocarinas to Soldiers in World War II 🔥136
+     [entertainment] As Music Theory – Test your sheet music sight reading speed 
+     [entertainment] Show HN: As Music Theory – Test your sheet music sight readi
 
   🧠 工具信号样例:
      [置信度20%] allcontributors
@@ -100,29 +100,28 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度20%] PowerToys
        ↳ 输入→输出链式: [('PowerToys', 'To', '', '', '', '')]
      [置信度15%] ppt-master
-       ↳ 技术概念: ['ppt']
+       ↳ 技术概念: ['ppt
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 354 条
-     🚫 闲聊拦截: 16 条 (4.5%)
-     🧠 工具信号: 181 条 (51.1%)
+     原始抓取: 353 条
+     🚫 闲聊拦截: 18 条 (5.1%)
+     🧠 工具信号: 176 条 (49.9%)
      闲聊样例: PDD 百亿补贴发了个拆封 iPhone... [ad]
      工具信号样例: allcontributors... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 181 → 有效 38
+     工具信号 176 → 有效 37
      拒绝率: 79.0%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
-     [WARN  |  +45] Site Monitor  [?]
+  ✅ 通过 (13):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
@@ -153,26 +152,17 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-06-27T19:39:49.495402+00:00
-   Already in catalog: 90 tools
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-06-27T22:10:26.283679+00:00
+   Already in catalog: 91 tools
    Previously produced: 0 tools
-   Existing tool pages: 73 files
-   Next shovel ID: shovel-036
+   Existing tool pages: 74 files
+   Next shovel ID: shovel-037
    Next script ID: script-011
 
-🔧 Producing 1 new tools:
-   • Site Monitor (站点监控器) [dev/devops]
+✅ All suggested tools already exist in catalog. Nothing to produce.
 
-  🛠  Producing: Site Monitor → shovel-036
-     📄 Page: tools/site-monitor.html
-     ✅ Gate check passed
-  ✅ Inserted 1 entries into index.html
-
-  📝 Factory log updated
-
-==================================================
-🧪 TEST PHASE
+📋 Running tests on current codebase...
 
 🧪 Running automated tests...
 ----------------------------------------
@@ -216,25 +206,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
-  🌐 Testing local server on port 9219...
-  ✅ Local server: HTTP 200, 365616 bytes
 
-✅ All tests passed!
-
-==================================================
-⏭️  Skipping deployment (--no-deploy)
-==================================================
-
-==================================================
-🏭 Pipeline complete!
-   New tools: 1
-   • shovel-036: Site Monitor
-   Tests: ✅ Passed
-==================================================
-
-
-✅ 工厂完成 — 本次生产 1 个工具
-   🛠  Producing: Site Monitor → shovel-036
+✅ 工厂完成 — 本次生产 0 个工具
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
@@ -248,7 +221,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 46 工具, 46 在线, 45 ready:true, 1 ready:false
+    ✅ TOOLS 数据库: 46 工具, 46 在线, 46 ready:true, 0 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
@@ -327,7 +300,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ world_map_generator.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 365616B
+    ✅ index.html — HTTP 200, 365615B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/api-tester.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
@@ -406,12 +379,12 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   📊 测试汇总: 157 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
-    🚀 1 个新工具测试通过，已标记 ready:true 正式上线
+    ✅ 没有待上线的工具
 
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-27T19:39:49.369809+00:00 → 2026-06-27T19:40:01.199356+00:00
+  ⏱  耗时: 2026-06-27T22:10:26.113885+00:00 → 2026-06-27T22:10:40.144042+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
@@ -423,7 +396,6 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      ✅ analyzer: OK
   🧪 测试: 157✅ 0❌
   🔧 工具总数: 46
-  🏷️  新上线: 1 个工具 (已标记 ready:true)
   📄 独立页面: 74
   🚀 部署: SKIPPED
   ✅ 全线通过
