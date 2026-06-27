@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-27T08:47:00.878752+00:00     ║
+║       启动时间: 2026-06-27T11:01:34.578961+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,11 +43,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 17 Show HN posts
+  ✅ 16 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 18 articles
+  ✅ 19 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 24 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 351
-  🚫 闲聊拦截: 16 条 (4.6%)
-  🧠 工具信号: 174 条 (49.6%)
+  原始信号总量: 350
+  🚫 闲聊拦截: 15 条 (4.3%)
+  🧠 工具信号: 172 条 (49.1%)
 
   📋 闲聊拦截样例:
      [ad] PDD 百亿补贴发了个拆封 iPhone
-     [chatter] AI Document Verification: How It Improves Accuracy and Fraud
+     [chatter] How I Cut Multimodal AI Costs by 98% — A 2026 Guide
+     [chatter] Codex can track external events with respect to internal dat
      [chatter] Giskard: LLM esting platform for preventing hallucinations a
      [news] Roblox parental controls are a dystopian security disaster —
-     [chatter] Ventora Expands Its AI Business Builder to Help Solo Founder
 
   🧠 工具信号样例:
      [置信度15%] design.md
@@ -100,45 +100,43 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] agent-toolkit-for-aws
        ↳ 英文工具名词: ['tool']
      [置信度20%] allcontributors
-       ↳ 输入→输出链式: [('allcontributors', 'to', '', 
+       ↳ 输入→输出链式: [('allcontributors', 'to', '', '', '', '
 
-✅ 雷达完成 — 18 条建议
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 351 条
-     🚫 闲聊拦截: 16 条 (4.6%)
-     🧠 工具信号: 174 条 (49.6%)
+     原始抓取: 350 条
+     🚫 闲聊拦截: 15 条 (4.3%)
+     🧠 工具信号: 172 条 (49.1%)
      闲聊样例: PDD 百亿补贴发了个拆封 iPhone... [ad]
      工具信号样例: design.md... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 174 → 有效 40
-     拒绝率: 77.0%
+     工具信号 172 → 有效 36
+     拒绝率: 79.1%
 
-  📊 意图分类器审计 — 审查 18 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (13):
-     [PASS  |  +70] Video Converter  [?]
-     [WARN  |  +30] Text Tools  [?]
-     [PASS  |  +55] Generator  [?]
+  ✅ 通过 (12):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
+     [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
+     [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
      [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
-  🚫 拦截 (5):
+  🚫 拦截 (4):
      [BLOCK |  +20] Viewer  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
-     [BLOCK |  +10] Renderer  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
 
@@ -147,31 +145,17 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-06-27T08:47:01.040361+00:00
-   Already in catalog: 87 tools
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-06-27T11:01:34.736115+00:00
+   Already in catalog: 89 tools
    Previously produced: 0 tools
-   Existing tool pages: 70 files
-   Next shovel ID: shovel-033
+   Existing tool pages: 72 files
+   Next shovel ID: shovel-035
    Next script ID: script-011
 
-🔧 Producing 2 new tools:
-   • Renderer (渲染器) [media/graphics]
-   • Text Tools (文本工具箱) [productivity/text]
+✅ All suggested tools already exist in catalog. Nothing to produce.
 
-  🛠  Producing: Renderer → shovel-033
-     📄 Page: tools/renderer.html
-     ✅ Gate check passed
-
-  🛠  Producing: Text Tools → shovel-034
-     📄 Page: tools/text-tools.html
-     ✅ Gate check passed
-  ✅ Inserted 2 entries into index.html
-
-  📝 Factory log updated
-
-==================================================
-🧪 TEST PHASE
+📋 Running tests on current codebase...
 
 🧪 Running automated tests...
 ----------------------------------------
@@ -215,27 +199,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
-  🌐 Testing local server on port 9499...
-  ✅ Local server: HTTP 200, 359605 bytes
 
-✅ All tests passed!
-
-==================================================
-⏭️  Skipping deployment (--no-deploy)
-==================================================
-
-==================================================
-🏭 Pipeline complete!
-   New tools: 2
-   • shovel-033: Renderer
-   • shovel-034: Text Tools
-   Tests: ✅ Passed
-==================================================
-
-
-✅ 工厂完成 — 本次生产 2 个工具
-   🛠  Producing: Renderer → shovel-033
-   🛠  Producing: Text Tools → shovel-034
+✅ 工厂完成 — 本次生产 0 个工具
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
@@ -249,7 +214,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 44 工具, 44 在线, 42 ready:true, 2 ready:false
+    ✅ TOOLS 数据库: 44 工具, 44 在线, 44 ready:true, 0 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
@@ -326,7 +291,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ world_map_generator.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 359605B
+    ✅ index.html — HTTP 200, 359603B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
     ✅ tools/auto_x_twitter_post_to_carousel_converter.html — HTTP 200
@@ -403,12 +368,12 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   📊 测试汇总: 153 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
-    🚀 2 个新工具测试通过，已标记 ready:true 正式上线
+    ✅ 没有待上线的工具
 
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-27T08:47:00.878752+00:00 → 2026-06-27T08:47:13.450781+00:00
+  ⏱  耗时: 2026-06-27T11:01:34.578961+00:00 → 2026-06-27T11:01:47.981334+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
@@ -416,7 +381,6 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   💚 健康率: 81.8%
   🧪 测试: 153✅ 0❌
   🔧 工具总数: 44
-  🏷️  新上线: 2 个工具 (已标记 ready:true)
   📄 独立页面: 72
   🚀 部署: SKIPPED
   ✅ 全线通过

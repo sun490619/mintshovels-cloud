@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T08:47:01.040361+00:00",
+  "generated_at": "2026-06-27T11:01:34.736115+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -103,51 +103,51 @@
     ],
     "v2ex": [
       "曾经倾力帮我的学长，如今再也不回消息。",
-      "有在草原长大的朋友吗？ 在国内哪里能看到类似的风景呢（图见正文）。",
-      "”“亲历，接到过国内派出所关于“翻墙”的质询。”“",
-      "PDD 百亿补贴发了个拆封 iPhone",
       "抽 5 个智友社的 GPTPLUS 稳定渠道成品号（满月测试稳定度 99% ）",
+      "”“亲历，接到过国内派出所关于“翻墙”的质询。”“",
+      "有在草原长大的朋友吗？ 在国内哪里能看到类似的风景呢（图见正文）。",
       "梯子坏了 vless 加 reality 突然就坏了",
+      "PDD 百亿补贴发了个拆封 iPhone",
       "ClaudeCode 稳定的美国出口 IP 都能被封",
       "你有新的速率限制重置机会～",
       "VIBE CODING 时代，应用开发是否应该使用 ORM ？"
     ],
     "devto": [
       "DEV Community: programming",
-      "I Compared Chinese AI Models to GPT-4o All Weekend — I Was Shocked",
-      "AI Document Verification: How It Improves Accuracy and Fraud Prevention",
-      "Handling ISO Currency Codes in Software",
-      "GitHub Trending Digest — June 26, 2026",
-      "Get Ready for the Ultimate Transport Revolution: OpenTTD 16.0-Beta1 Released - What's New and How to Download Now",
-      "Breathe New Life into Old PCs: The Ultimate Guide to Reviving Older Hardware with Linux",
-      "Automated Video Creation Tool — rendereelstudio.ai Jun 2026",
-      "Text To Video Ai Tools Comparison — rendereelstudio.ai Jun 2026",
-      "Flux Ai Video — rendereelstudio.ai Jun 2026",
-      "Mapping Your Ecosystem (and Its Saboteurs)",
-      "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
-      "What I learned adding diagram and chart slides to a CI-rendered YouTube pipeline"
+      "AI can read your Figma. Figwright lets it build there, too.",
+      "Microsoft Dynamics 365 Course | D365 Training",
+      "How I Cut Multimodal AI Costs by 98% — A 2026 Guide",
+      "Running Chinese LLMs in Production: My Multi-Region Comparison",
+      "How Many Days Does a Sperm Live in a Female’s Body?",
+      "Buy Email Accounts (Edu Emails): Features",
+      "Buy Google Voice Accounts: A Complete Guide to Features",
+      "Buy Verified Instagram Accounts Securely | Social Tradia",
+      "React's real problem is corporate capture, not technical debt",
+      "5 Best Platforms to Buy Aged Telegram Accounts in the US",
+      "Revolutionize AI: Unlock 85% Faster Generation with DeepSeek's Game-Changing Open-Source Inference Optimizations",
+      "UNLEASHED: GPT-5.6 Sol - The Game-Changing AI Model That's About to Revolutionize Everything You Thought You Knew"
     ],
     "lobsters": [
       "NLNet Labs LLM Policy",
-      "Anatomy of a Failed (Nation-State?) Attack",
       "FIFA Interactive Bracket (World Cup)",
+      "Anatomy of a Failed (Nation-State?) Attack",
+      "The Cost YAGNI Was Never About",
       "Visual Basic on the PC w/Windows 3.1",
+      "Text files as a user interface",
+      "Making devenv start fast, and the whole nixpkgs with it - devenv",
       "All you need is PostgreSQL",
       "GuixPkgs: every Guix package, as a Nix flake",
+      "OpenZL",
       "What are you doing this weekend?",
-      "The Cost YAGNI Was Never About",
-      "Making devenv start fast, and the whole nixpkgs with it - devenv",
-      "Text files as a user interface",
       "Design Patterns Suck",
-      "ARIA, anti-patterns, and you",
       "What does it mean to be a mathematician when AI does the math?",
+      "ARIA, anti-patterns, and you",
       "youre-the-os: A game where you are a computer's OS",
       "Incident Report: CVE-2026-LGTM",
-      "L-system",
-      "The Exhaustion of Talking to a Tool",
-      "How PgBouncer Works",
       "A Tiny Compiler for Data-Parallel Kernels",
-      "A simple web framework for odin"
+      "L-system",
+      "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation &amp; More",
+      "How PgBouncer Works"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -172,33 +172,41 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "U.S. government will decide who gets to use GPT-5.6 🔥1008pts 💬1051",
-      "Previewing GPT‑5.6 Sol: a next-generation model 🔥983pts 💬608",
-      "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations 🔥414pts 💬438",
-      "We can still stop California's 3D printer surveillance scheme 🔥385pts 💬129",
-      "Om 🔥347pts 💬15",
-      "MicroVMs: Run isolated sandboxes with full lifecycle control 🔥323pts 💬185",
-      "Ultrasound imaging of the brain 🔥275pts 💬113",
-      "Why does kinetic energy increase quadratically, not linearly, with speed? (2011) 🔥228pts 💬104",
-      "The gap between open weights LLMs and closed source LLMs 🔥195pts 💬160",
-      "Show HN: Smart model routing directly in Claude, Codex and Cursor 🔥167pts 💬97",
-      "OpenTTD 16.0-Beta1 🔥138pts 💬18",
-      "AI in mathematics is forcing big questions 🔥115pts 💬82",
-      "What Is a Nomogram and Why Would It Interest Me? 🔥115pts 💬19",
-      "Pre-Modern Armies for Worldbuilders, Part III: Paying for It 🔥92pts 💬17",
-      "A C++ implementation of a fast hash map and hash set using hopscotch hashing 🔥90pts 💬15",
-      "WordStar: A Writer's Word Processor (1996) 🔥77pts 💬32",
-      "Foreign funds help make housing unaffordable: research 🔥71pts 💬19",
-      "Show HN: Hacker News on a train station-style flip board 🔥66pts 💬13",
-      "Fusion Programming Language 🔥61pts 💬25",
-      "Show HN: DBOSify – Drop-in Temporal replacement built on Postgres 🔥58pts 💬9",
-      "Hellishly Slow Level 13 Deflate Compression 🔥52pts 💬14",
-      "Anatomy of a Failed (Nation-State?) Attack",
+      "U.S. government will decide who gets to use GPT-5.6 🔥1047pts 💬1101",
+      "Previewing GPT‑5.6 Sol: a next-generation model 🔥1021pts 💬641",
+      "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations 🔥454pts 💬540",
+      "We can still stop California's 3D printer surveillance scheme 🔥407pts 💬136",
+      "Om 🔥390pts 💬18",
+      "MicroVMs: Run isolated sandboxes with full lifecycle control 🔥336pts 💬188",
+      "Ultrasound imaging of the brain 🔥285pts 💬114",
+      "Why does kinetic energy increase quadratically, not linearly, with speed? (2011) 🔥247pts 💬121",
+      "DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf] 🔥222pts 💬45",
+      "The gap between open weights LLMs and closed source LLMs 🔥217pts 💬178",
+      "OpenTTD 16.0-Beta1 🔥169pts 💬30",
+      "AI in mathematics is forcing big questions 🔥133pts 💬101",
+      "What Is a Nomogram and Why Would It Interest Me? 🔥124pts 💬20",
+      "WordStar: A Writer's Word Processor (1996) 🔥95pts 💬43",
+      "A C++ implementation of a fast hash map and hash set using hopscotch hashing 🔥93pts 💬16",
+      "Foreign funds help make housing unaffordable: research 🔥82pts 💬26",
+      "Fusion Programming Language 🔥80pts 💬37",
+      "Show HN: Hacker News on a train station-style flip board 🔥77pts 💬17",
+      "Linux on Older Hardware: The Complete Revival Guide 🔥67pts 💬23",
+      "Show HN: DBOSify – Drop-in Temporal replacement built on Postgres 🔥65pts 💬9",
+      "Anatomy of a Failed (Nation-State?) Attack 🔥64pts 💬10",
+      "Hellishly Slow Level 13 Deflate Compression 🔥63pts 💬19",
       "A Tiny Compiler for Data-Parallel Kernels",
-      "Making Sense of Proof by Contradiction [pdf]",
-      "Is America becoming a gerontocracy?"
+      "Long Wave radio era set to end with switch-off",
+      "IBM MCGA Gate Array Reverse Engineering"
     ],
     "hn_show": [
+      "PreFlight – A local AST background daemon to catch AI code drift — featured on Hacker News (🔥1pts)",
+      "Codex can track external events with respect to internal data — featured on Hacker News (🔥1pts)",
+      "Mcpify – Turn any REST API into an MCP server in one command — featured on Hacker News (🔥1pts)",
+      "Open-Source API for Asynchronous Tasks Using Agents — featured on Hacker News (🔥1pts)",
+      "Play puzzle games in a feed like TikTok — featured on Hacker News (🔥4pts)",
+      "The TypeScript Semantic Layer for ClickHouse — featured on Hacker News (🔥2pts)",
+      "Fognitix – an autonomous desktop browser that drives itself — featured on Hacker News (🔥1pts)",
+      "Waitlio – The waitlist software for your next launch — featured on Hacker News (🔥1pts)",
       "PhoneCode: Local-First ADE Running Natively on Android — featured on Hacker News (🔥1pts)",
       "Cyclearchive.com – search vintage cycling magazines — featured on Hacker News (🔥1pts)",
       "Brytlog – AI logger — featured on Hacker News (🔥1pts)",
@@ -206,18 +214,10 @@
       "Statemently – Bank statement PDFs to Excel/CSV, totals verified — featured on Hacker News (🔥1pts)",
       "OpenClaw Launch – deploy a managed OpenClaw AI agent in 30s — featured on Hacker News (🔥1pts)",
       "An LLM that designs M5Stack hardware builds — featured on Hacker News (🔥1pts)",
-      "I replaced $500/mo in freelance tools with 20 ChatGPT prompts — featured on Hacker News (🔥1pts)",
-      "Boot a tiny app-making OS inside an AI chat — featured on Hacker News (🔥1pts)",
-      "Tested – AI Tools Scored by a Panel of LLMs (Claude, GPT, Gemini, Grok) — featured on Hacker News (🔥1pts)",
-      "GetBlocked – a local-only Chrome extension for blocking web trackers — featured on Hacker News (🔥7pts)",
-      "I scanned 87 MCP servers for agent-authority hygiene – leaderboard — featured on Hacker News (🔥1pts)",
-      "Hacker News on a train station-style flip board — featured on Hacker News (🔥66pts)",
-      "Hatchr – Share Claude Designs with a public link — featured on Hacker News (🔥1pts)",
-      "Noise Lang, JIT stochastic programming language in Rust — featured on Hacker News (🔥1pts)",
-      "OCR.chat — featured on Hacker News (🔥1pts)",
-      "A shareable World Cup 2026 bracket simulator with live results — featured on Hacker News (🔥2pts)"
+      "I replaced $500/mo in freelance tools with 20 ChatGPT prompts — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
+      "Show HN: Mcpify – Turn any REST API into an MCP server in one command — user asking for tool recommendation (🔥1pts)",
       "Show HN: TBD, a Mac-native CLI-forward coding agent multiplexer — user asking for tool recommendation (🔥4pts)",
       "Ask HN: What are my options after a responsible disclosure went wrong? — user asking for tool recommendation (🔥2pts)",
       "Show HN: BetterDB, MIT Valkey-native context layer for AI agents — user asking for tool recommendation (🔥5pts)",
@@ -225,7 +225,6 @@
       "Show HN: MCP Server for a UK Meat Price Comparison Site — user asking for tool recommendation (🔥2pts)",
       "Show HN: Sipp – Run small local LLMs in browser 3x faster — user asking for tool recommendation (🔥5pts)",
       "Giskard: LLM esting platform for preventing hallucinations and security issues — user asking for tool recommendation (🔥3pts)",
-      "Ask HN: Are people generally interested using LLMs for learning purposes? — user asking for tool recommendation (🔥7pts)",
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
@@ -234,22 +233,27 @@
       "Ask HN: Non-profit school possibly hacked, locked out of Google Workspace. — user asking for tool recommendation (🔥6pts)",
       "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal) — user asking for tool recommendation (🔥17pts)",
       "Show HN: Firehooks – Get app users from TikTok without paid ads — user asking for tool recommendation (🔥1pts)",
+      "Ask HN: How do we measure software in LLM era? — user asking for tool recommendation (🔥1pts)",
+      "How do you handle high-stakes decisions when your brain is at 99% capacity? — user asking for tool recommendation (🔥1pts)",
       "Show HN: Statey – the database your AI shares across every chat, over MCP — user asking for tool recommendation (🔥2pts)",
-      "Roblox parental controls are a dystopian security disaster — user asking for tool recommendation (🔥19pts)",
+      "Roblox parental controls are a dystopian security disaster — user asking for tool recommendation (🔥22pts)",
       "Show HN: I built a tool that matches Founders to VCs based on their pitch deck — user asking for tool recommendation (🔥3pts)",
       "Show HN: Appaca – AI Workspace for Operators — user asking for tool recommendation (🔥5pts)",
       "Show HN: The most Y Combinator YC application: it applied itself — user asking for tool recommendation (🔥5pts)",
-      "Show HN: Drip — pay-per-use finance newsletters for AI agents — user asking for tool recommendation (🔥3pts)",
-      "Show HN: Net worth tracker to replace your spreadsheet, E2E, no bank logins — user asking for tool recommendation (🔥1pts)",
       "Ventora Expands Its AI Business Builder to Help Solo Founders — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Options for an independent AI researcher with strong results? — user asking for tool recommendation (🔥2pts)",
-      "Hate \"The Algorithm?\" RSS Is One of the Tools You've Been Looking For — user asking for tool recommendation (🔥4pts)",
+      "Hate \"The Algorithm?\" RSS Is One of the Tools You've Been Looking For — user asking for tool recommendation (🔥6pts)",
       "Show HN: Lettered – a daily phrase puzzle game — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Contraband – Ticketed VR cinema for indie and AI-made films — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Claude Code Session Trace/Browse Tool (Python) — user asking for tool recommendation (🔥2pts)",
-      "OpenTag: An open-source alternative to Claude in Slack — user asking for tool recommendation (🔥9pts)"
+      "Show HN: Play puzzle games in a feed like TikTok — user asking for tool recommendation (🔥4pts)",
+      "OpenTag: An open-source alternative to Claude in Slack — user asking for tool recommendation (🔥10pts)",
+      "Show HN: Closing the public-key authenticity gap in our E2EE social network — user asking for tool recommendation (🔥2pts)"
     ],
     "hackernoon": [
+      "Classified by the Crown",
+      "The Dantès Protocol",
+      "Mortal Kombat 2 or Injustice 3: Which One Is Next?",
+      "151 Blog Posts To Learn About Encryption",
+      "Sterile Neutrino Search: Modeling Rear Wall Scattering in Troitsk Nu-Mass",
       "500 Blog Posts To Learn About Cybersecurity",
       "The Long Road to Defect-Free Software",
       "No AI Agent Without Identity (Part 2): Building the Layered Identity Model",
@@ -263,11 +267,7 @@
       "The AI \"Doom Loop\": Why Your Autonomous Coding Agent Is Making Things Worse, And How To Fix It",
       "Every AI Agent Is a Non-Human Identity That Needs Governance",
       "Shadow Protocol",
-      "The AI Filmmaking Checklist That Saved Me Weeks of Regeneration",
-      "Mars Returned with Mercédès",
-      "Return to the Catalan Sector",
-      "Astounding Stories of Super-Science, May, 2001 - Table of Links",
-      "The TechBeat: The AI Pilot Succeeded. The Economics Did Not. (6/26/2026)"
+      "The AI Filmmaking Checklist That Saved Me Weeks of Regeneration"
     ],
     "infoq": [
       "Vercel Introduces Eve, an Open-Source Framework for Building AI Agents <img src=\"https://res.infoq.com/news/2026/06/vercel-eve-agents/en/headerimage/generatedHeaderImage-1782478004947.jpg\"/><p>Vercel has released Eve, an ",
@@ -287,60 +287,60 @@
       "Article: Beyond CLEAN and MVP: Architecting an Offline-first Reactive Data Layer in Android <img src=\"https://res.infoq.com/articles/rdla-offline-first-reactive-android-data-layer/en/headerimage/rdla-offline-first-reactive-android-data-layer-"
     ],
     "google_trends": [
-      "scott pelley signed with caa following his cbs news termination",
-      "extreme heat watch",
-      "vanderpump rules",
-      "wildfires utah",
-      "strawberry moon full moon",
-      "fanta vanilla cherry spritz",
-      "nicholas rossi",
-      "england vs panama",
-      "okc weather",
-      "weather okc"
+      "miami heat news",
+      "lee zeldin",
+      "jessica alba",
+      "criminal attorney",
+      "ontario sibling duo lottery jackpot",
+      "dallas cowboys",
+      "mega millions",
+      "death toll venezuela earthquakes",
+      "wwe",
+      "ct lottery"
     ],
     "baidu": [
       "坚持中孟友好大方向不动摇",
       "两届世界杯冠军耻辱出局",
-      "佛得角“热闹炸了” 国旗挂满山崖",
+      "佛得角足协感谢中国：计划安排友谊赛",
       "本周末强降雨集中在西南到华南一带",
-      "狄仁杰绝笔真迹被发现",
-      "兄弟俩开货车 高速上遇许久未见老爸",
+      "胆大包天 日本竟模拟攻击辽宁舰",
+      "公司股价大涨184% 却被吐槽名字晦气",
       "网民公然侮辱张桂梅校长被行拘",
-      "韩国真到悬崖边上了",
-      "世界冠军与亚洲冠军同时出局",
       "韩国人又开始结婚生娃了",
+      "佛得角“热闹炸了” 国旗挂满山崖",
+      "3种早餐里藏着脑梗“推手”",
       "美光高管吐槽苹果：成倍向用户加价",
-      "“变电站电磁辐射会致癌”不实",
-      "黄金大跌 多家银行发布公告",
-      "印度一议员在排水沟切蛋糕庆祝生日",
-      "佛得角足协仅10人",
-      "应急部门回应女子玩水被卡石缝身亡",
-      "迟蓬喊话倪萍“没给你丢人”",
-      "中国首条民营控股高铁客流破亿",
+      "别再冤枉克孜尔千佛洞了",
+      "女生高考政治竟然考出满分100",
       "金价大跌 有商家称跌没一辆迈巴赫",
+      "兄弟俩开货车 高速上遇许久未见老爸",
+      "《浪姐》总决赛淘汰姐姐返场大合唱",
+      "张一山祝福杨紫获奖：又美又会演戏",
+      "佛得角足协仅10人",
+      "七旬大爷殴打8月大婴儿致死获刑12年",
       "美光高管暗示内存涨价苹果应负责"
     ],
     "wikipedia": [
-      "Jordan Yale Levine",
-      "The Captive's War",
-      "Helena, Montana",
-      "Lake Jindabyne",
-      "Coital alignment technique",
-      "Jey Uso",
-      "2026-27 Wisła Kraków season",
-      "Costas Mandylor",
-      "Pygmy three-toed sloth",
-      "103d Rescue Squadron",
-      "Chiang Kai-shek",
-      "List of players who have appeared in the most FIFA World Cups",
-      "200 metres",
-      "Pygmy three-toed sloth",
-      "2026-27 Piast Gliwice season",
-      "Han Sun-hwa",
-      "History of Kerala Blasters FC",
-      "Mario Poggi",
-      "Ankara University",
-      "Zeng Xing"
+      "Reasonable Blackman",
+      "Salle Lepeletier",
+      "Pseudocopulation",
+      "Kumusta",
+      "Mercedes Cabral",
+      "FIVB Volleyball World Grand Champions Cup",
+      "United States Smash 2026 – Qualification",
+      "Good Enough (Dodgy song)",
+      "John F. Warren",
+      "Zaijian Jaranilla",
+      "Salle Lepeletier",
+      "Nos Pais Television",
+      "Evolution of mammalian auditory ossicles",
+      "Nisean horse",
+      "L'Impermanence",
+      "Westrail ADP/ADQ class",
+      "Värmland",
+      "Lists of hat-tricks",
+      "The Great Gama",
+      "Weis Markets"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -426,29 +426,28 @@
     ],
     "github_topics": [
       "github trending topic: javascript",
-      "github trending topic: python",
-      "github trending topic: css",
-      "github trending topic: front end",
-      "github trending topic: happ",
-      "github trending topic: happ-vpn",
-      "github trending topic: npm",
-      "github trending topic: happ-windows-10",
-      "github trending topic: automation",
-      "github trending topic: happ-windows-11",
-      "github trending topic: scala",
       "github trending topic: llm",
-      "github trending topic: happ-desktop",
-      "github trending topic: project management",
-      "github trending topic: database",
-      "github trending topic: happ-win64",
-      "github trending topic: typescript",
-      "github trending topic: node.js",
-      "github trending topic: chrome",
-      "github trending topic: code quality",
-      "github trending topic: react",
-      "github trending topic: awesome lists",
+      "github trending topic: python",
       "github trending topic: react native",
-      "github trending topic: compiler"
+      "github trending topic: awesome lists",
+      "github trending topic: css",
+      "github trending topic: chrome",
+      "github trending topic: tg-ws-proxy",
+      "github trending topic: compiler",
+      "github trending topic: node.js",
+      "github trending topic: npm",
+      "github trending topic: react",
+      "github trending topic: tg-proxy",
+      "github trending topic: typescript",
+      "github trending topic: mcp",
+      "github trending topic: telegram",
+      "github trending topic: database",
+      "github trending topic: scala",
+      "github trending topic: proxy-tg-tg-fix",
+      "github trending topic: project management",
+      "github trending topic: code quality",
+      "github trending topic: front end",
+      "github trending topic: proxy"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -464,49 +463,13 @@
       "name_zh": "查看器"
     },
     {
-      "keyword": "Automated Video Creation Tool — rendereelstudio.ai Jun 2026",
-      "matched": "video",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Video Converter",
-      "name_zh": "视频格式转换器"
-    },
-    {
-      "keyword": "Automated Video Creation Tool — rendereelstudio.ai Jun 2026",
+      "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
       "category": "ai",
       "subcat": "ai-chat",
       "type": "tool",
       "name": "AI Assistant",
       "name_zh": "AI助手"
-    },
-    {
-      "keyword": "Automated Video Creation Tool — rendereelstudio.ai Jun 2026",
-      "matched": "render",
-      "category": "media",
-      "subcat": "graphics",
-      "type": "tool",
-      "name": "Renderer",
-      "name_zh": "渲染器"
-    },
-    {
-      "keyword": "Text To Video Ai Tools Comparison — rendereelstudio.ai Jun 2026",
-      "matched": "text",
-      "category": "productivity",
-      "subcat": "text",
-      "type": "tool",
-      "name": "Text Tools",
-      "name_zh": "文本工具箱"
-    },
-    {
-      "keyword": "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
-      "matched": "generator",
-      "category": "misc",
-      "subcat": "misc",
-      "type": "tool",
-      "name": "Generator",
-      "name_zh": "生成器"
     },
     {
       "keyword": "LLMs — tool from ProductHunt",
@@ -536,6 +499,15 @@
       "name_zh": "表单构建器"
     },
     {
+      "keyword": "Video editing — tool from ProductHunt",
+      "matched": "video",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Video Converter",
+      "name_zh": "视频格式转换器"
+    },
+    {
       "keyword": "Graphic design tools — tool from ProductHunt",
       "matched": "graph",
       "category": "productivity",
@@ -552,6 +524,15 @@
       "type": "tool",
       "name": "Unit Converter",
       "name_zh": "单位换算"
+    },
+    {
+      "keyword": "tgt — npm package: tpl generator tool",
+      "matched": "generator",
+      "category": "misc",
+      "subcat": "misc",
+      "type": "tool",
+      "name": "Generator",
+      "name_zh": "生成器"
     },
     {
       "keyword": "packs — npm package: Static survey generator tool",
@@ -620,10 +601,6 @@
   "all_keywords": [
     "copilot-pull-request-reviewer",
     "agent-toolkit-for-aws",
-    "Automated Video Creation Tool — rendereelstudio.ai Jun 2026",
-    "Text To Video Ai Tools Comparison — rendereelstudio.ai Jun 2026",
-    "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
-    "The Exhaustion of Talking to a Tool",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -660,10 +637,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 174,
-    "valid_count": 40,
-    "rejected_count": 134,
-    "rejection_rate": 77.0,
+    "raw_count": 172,
+    "valid_count": 36,
+    "rejected_count": 136,
+    "rejection_rate": 79.1,
     "rejected_samples": [
       "design.md",
       "allcontributors",
@@ -678,11 +655,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 351,
-    "chatter_blocked": 16,
-    "chatter_rate": 4.6,
-    "tool_signals_found": 174,
-    "tool_signal_rate": 49.6,
+    "total_captured": 350,
+    "chatter_blocked": 15,
+    "chatter_rate": 4.3,
+    "tool_signals_found": 172,
+    "tool_signal_rate": 49.1,
     "chatter_samples": [
       {
         "text": "PDD 百亿补贴发了个拆封 iPhone",
@@ -692,7 +669,14 @@
         ]
       },
       {
-        "text": "AI Document Verification: How It Improves Accuracy and Fraud Prevention",
+        "text": "How I Cut Multimodal AI Costs by 98% — A 2026 Guide",
+        "category": "chatter",
+        "matched": [
+          "imo"
+        ]
+      },
+      {
+        "text": "Codex can track external events with respect to internal data — featured on Hack",
         "category": "chatter",
         "matched": [
           "vent"
@@ -740,27 +724,17 @@
         ]
       },
       {
-        "text": "美光高管吐槽苹果：成倍向用户加价",
+        "text": "公司股价大涨184% 却被吐槽名字晦气",
         "category": "chatter",
         "matched": [
           "吐槽"
         ]
       },
       {
-        "text": "The Captive's War",
-        "category": "news",
+        "text": "美光高管吐槽苹果：成倍向用户加价",
+        "category": "chatter",
         "matched": [
-          [
-            "War",
-            ""
-          ]
-        ]
-      },
-      {
-        "text": "2026-27 Wisła Kraków season",
-        "category": "entertainment",
-        "matched": [
-          "season"
+          "吐槽"
         ]
       }
     ],
@@ -853,26 +827,24 @@
         ]
       },
       {
-        "text": "I Compared Chinese AI Models to GPT-4o All Weekend — I Was Shocked",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('Models to GPT', 'to', '', '', '', '')]",
-          "技术概念: ['GPT']"
-        ]
-      },
-      {
-        "text": "Get Ready for the Ultimate Transport Revolution: OpenTTD 16.0-Beta1 Released - What's New and How to",
-        "confidence": 30,
-        "features": [
-          "输入→输出链式: [('How to Download', 'to', '', '', '', '')]",
-          "需求表达: [('How to Download', 'to', '', '', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "Breathe New Life into Old PCs: The Ultimate Guide to Reviving Older Hardware with Linux",
+        "text": "Buy Google Voice Accounts: A Complete Guide to Features",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('into Old', 'to', '', '', '', ''), ('Guide to Reviving', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Guide to Features', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "React's real problem is corporate capture, not technical debt",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['React']"
+        ]
+      },
+      {
+        "text": "5 Best Platforms to Buy Aged Telegram Accounts in the US",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Platforms to Buy', 'to', '', '', '', '')]"
         ]
       }
     ]
