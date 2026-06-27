@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-27T16:13:39.152003+00:00     ║
+║       启动时间: 2026-06-27T19:39:49.369809+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 19 Show HN posts
+  ✅ 18 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 24 topics
+  ✅ 25 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -83,12 +83,12 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
   原始信号总量: 354
   🚫 闲聊拦截: 16 条 (4.5%)
-  🧠 工具信号: 182 条 (51.4%)
+  🧠 工具信号: 181 条 (51.1%)
 
   📋 闲聊拦截样例:
      [ad] PDD 百亿补贴发了个拆封 iPhone
-     [news] Zuckerberg's Increasingly Bizarre War on Whistleblowers 🔥135
-     [news] The US Army Issued Ocarinas to Soldiers in World War II 🔥78p
+     [news] Zuckerberg's Increasingly Bizarre War on Whistleblowers 🔥431
+     [news] The US Army Issued Ocarinas to Soldiers in World War II 🔥109
      [news] Roblox parental controls are a dystopian security disaster —
      [chatter] Ventora Expands Its AI Business Builder to Help Solo Founder
 
@@ -102,7 +102,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] ppt-master
        ↳ 技术概念: ['ppt']
 
-✅ 雷达完成 — 16 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
@@ -111,17 +111,18 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 354 条
      🚫 闲聊拦截: 16 条 (4.5%)
-     🧠 工具信号: 182 条 (51.4%)
+     🧠 工具信号: 181 条 (51.1%)
      闲聊样例: PDD 百亿补贴发了个拆封 iPhone... [ad]
      工具信号样例: allcontributors... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 182 → 有效 37
-     拒绝率: 79.7%
+     工具信号 181 → 有效 38
+     拒绝率: 79.0%
 
-  📊 意图分类器审计 — 审查 16 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (13):
+  ✅ 通过 (14):
+     [WARN  |  +45] Site Monitor  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
@@ -152,17 +153,26 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-06-27T16:13:39.301577+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-06-27T19:39:49.495402+00:00
    Already in catalog: 90 tools
    Previously produced: 0 tools
    Existing tool pages: 73 files
    Next shovel ID: shovel-036
    Next script ID: script-011
 
-✅ All suggested tools already exist in catalog. Nothing to produce.
+🔧 Producing 1 new tools:
+   • Site Monitor (站点监控器) [dev/devops]
 
-📋 Running tests on current codebase...
+  🛠  Producing: Site Monitor → shovel-036
+     📄 Page: tools/site-monitor.html
+     ✅ Gate check passed
+  ✅ Inserted 1 entries into index.html
+
+  📝 Factory log updated
+
+==================================================
+🧪 TEST PHASE
 
 🧪 Running automated tests...
 ----------------------------------------
@@ -178,7 +188,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   ✅ Lucide Icons CDN
   [TOOLS Database]
   ✅ TOOLS array defined
-  ✅ TOOLS entries (45)
+  ✅ TOOLS entries (46)
   ✅ Has Web Tools (🔧)
   ✅ Has Scripts (📜)
   ✅ Has Live tools
@@ -206,22 +216,39 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
+  🌐 Testing local server on port 9219...
+  ✅ Local server: HTTP 200, 365616 bytes
 
-✅ 工厂完成 — 本次生产 0 个工具
+✅ All tests passed!
+
+==================================================
+⏭️  Skipping deployment (--no-deploy)
+==================================================
+
+==================================================
+🏭 Pipeline complete!
+   New tools: 1
+   • shovel-036: Site Monitor
+   Tests: ✅ Passed
+==================================================
+
+
+✅ 工厂完成 — 本次生产 1 个工具
+   🛠  Producing: Site Monitor → shovel-036
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
 ============================================================
-   生产工具健康率: 80.0% (45 个工具, 9 个问题)
-   问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失', 'shovel-030: 文件缺失', 'shovel-031: 文件缺失', 'shovel-032: 文件缺失', 'shovel-033: 文件缺失', 'shovel-034: 文件缺失', 'shovel-035: 文件缺失']
-   ⚠️ 门禁警告 — 健康率 80.0% 低于90%阈值
+   生产工具健康率: 78.3% (46 个工具, 10 个问题)
+   问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失', 'shovel-030: 文件缺失', 'shovel-031: 文件缺失', 'shovel-032: 文件缺失', 'shovel-033: 文件缺失', 'shovel-034: 文件缺失', 'shovel-035: 文件缺失', 'shovel-036: 文件缺失']
+   ⚠️ 门禁警告 — 健康率 78.3% 低于90%阈值
 
 ============================================================
 🧪 阶段 2: 全量工具测试
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 45 工具, 45 在线, 45 ready:true, 0 ready:false
+    ✅ TOOLS 数据库: 46 工具, 46 在线, 45 ready:true, 1 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
@@ -288,6 +315,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ shovel-024.html
     ✅ shovel-025.html
     ✅ shovel-026.html
+    ✅ site-monitor.html
     ✅ sql-formatter.html
     ✅ sql_formatter.html
     ✅ svg_path_extractor.html
@@ -299,7 +327,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ world_map_generator.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 365103B
+    ✅ index.html — HTTP 200, 365616B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/api-tester.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
@@ -364,6 +392,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/shovel-024.html — HTTP 200
     ✅ tools/shovel-025.html — HTTP 200
     ✅ tools/shovel-026.html — HTTP 200
+    ✅ tools/site-monitor.html — HTTP 200
     ✅ tools/sql-formatter.html — HTTP 200
     ✅ tools/sql_formatter.html — HTTP 200
     ✅ tools/svg_path_extractor.html — HTTP 200
@@ -374,27 +403,28 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/viewer.html — HTTP 200
     ✅ tools/world_map_generator.html — HTTP 200
 
-  📊 测试汇总: 155 通过, 0 失败
+  📊 测试汇总: 157 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
-    ✅ 没有待上线的工具
+    🚀 1 个新工具测试通过，已标记 ready:true 正式上线
 
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-27T16:13:39.152003+00:00 → 2026-06-27T16:13:49.958018+00:00
+  ⏱  耗时: 2026-06-27T19:39:49.369809+00:00 → 2026-06-27T19:40:01.199356+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
   🔒 门禁: ⚠️ WARN
-  💚 健康率: 80.0%
+  💚 健康率: 78.3%
   🧠 AI组件:
      ✅ generator: OK
      ✅ validator: OK
      ✅ analyzer: OK
-  🧪 测试: 155✅ 0❌
-  🔧 工具总数: 45
-  📄 独立页面: 73
+  🧪 测试: 157✅ 0❌
+  🔧 工具总数: 46
+  🏷️  新上线: 1 个工具 (已标记 ready:true)
+  📄 独立页面: 74
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================
