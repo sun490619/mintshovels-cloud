@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-27T13:59:27.935028+00:00     ║
+║       启动时间: 2026-06-27T15:17:33.214789+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 16 Show HN posts
+  ✅ 18 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 350
-  🚫 闲聊拦截: 16 条 (4.6%)
-  🧠 工具信号: 172 条 (49.1%)
+  原始信号总量: 352
+  🚫 闲聊拦截: 17 条 (4.8%)
+  🧠 工具信号: 174 条 (49.4%)
 
   📋 闲聊拦截样例:
      [ad] PDD 百亿补贴发了个拆封 iPhone
-     [news] The US Army Issued Ocarinas to Soldiers in World War II 🔥51p
-     [chatter] Codex can track external events with respect to internal dat
-     [chatter] Giskard: LLM esting platform for preventing hallucinations a
+     [news] The US Army Issued Ocarinas to Soldiers in World War II 🔥68p
+     [news] Zuckerberg's Increasingly Bizarre War on Whistleblowers
      [news] Roblox parental controls are a dystopian security disaster —
+     [chatter] Ventora Expands Its AI Business Builder to Help Solo Founder
 
   🧠 工具信号样例:
      [置信度20%] allcontributors
@@ -100,33 +100,35 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度20%] PowerToys
        ↳ 输入→输出链式: [('PowerToys', 'To', '', '', '', '')]
      [置信度15%] ppt-master
-       ↳ 技术概念: ['pp
+       ↳ 技术概念: ['ppt']
+    
 
-✅ 雷达完成 — 15 条建议
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 350 条
-     🚫 闲聊拦截: 16 条 (4.6%)
-     🧠 工具信号: 172 条 (49.1%)
+     原始抓取: 352 条
+     🚫 闲聊拦截: 17 条 (4.8%)
+     🧠 工具信号: 174 条 (49.4%)
      闲聊样例: PDD 百亿补贴发了个拆封 iPhone... [ad]
      工具信号样例: allcontributors... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 172 → 有效 36
-     拒绝率: 79.1%
+     工具信号 174 → 有效 37
+     拒绝率: 78.7%
 
-  📊 意图分类器审计 — 审查 15 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (12):
+  ✅ 通过 (13):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
+     [WARN  |  +36] API Tester  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
@@ -140,21 +142,37 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
 
 ============================================================
+🧠 阶段 0.6: AI 组件状态检测
+============================================================
+  ✅ generator: OK
+  ✅ validator: OK
+  ✅ analyzer: OK
+
+============================================================
 🏭 阶段 1: 自动工厂
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 15 suggestions
-   Generated at: 2026-06-27T13:59:28.073187+00:00
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-06-27T15:17:33.399955+00:00
    Already in catalog: 89 tools
    Previously produced: 0 tools
    Existing tool pages: 72 files
    Next shovel ID: shovel-035
    Next script ID: script-011
 
-✅ All suggested tools already exist in catalog. Nothing to produce.
+🔧 Producing 1 new tools:
+   • API Tester (API测试工具) [dev/api]
 
-📋 Running tests on current codebase...
+  🛠  Producing: API Tester → shovel-035
+     📄 Page: tools/api-tester.html
+     ✅ Gate check passed
+  ✅ Inserted 1 entries into index.html
+
+  📝 Factory log updated
+
+==================================================
+🧪 TEST PHASE
 
 🧪 Running automated tests...
 ----------------------------------------
@@ -170,7 +188,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   ✅ Lucide Icons CDN
   [TOOLS Database]
   ✅ TOOLS array defined
-  ✅ TOOLS entries (44)
+  ✅ TOOLS entries (45)
   ✅ Has Web Tools (🔧)
   ✅ Has Scripts (📜)
   ✅ Has Live tools
@@ -198,25 +216,43 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
+  🌐 Testing local server on port 9222...
+  ✅ Local server: HTTP 200, 360109 bytes
 
-✅ 工厂完成 — 本次生产 0 个工具
+✅ All tests passed!
+
+==================================================
+⏭️  Skipping deployment (--no-deploy)
+==================================================
+
+==================================================
+🏭 Pipeline complete!
+   New tools: 1
+   • shovel-035: API Tester
+   Tests: ✅ Passed
+==================================================
+
+
+✅ 工厂完成 — 本次生产 1 个工具
+   🛠  Producing: API Tester → shovel-035
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
 ============================================================
-   生产工具健康率: 81.8% (44 个工具, 8 个问题)
-   问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失', 'shovel-030: 文件缺失', 'shovel-031: 文件缺失', 'shovel-032: 文件缺失', 'shovel-033: 文件缺失', 'shovel-034: 文件缺失']
-   ⚠️ 门禁警告 — 健康率 81.8% 低于90%阈值
+   生产工具健康率: 80.0% (45 个工具, 9 个问题)
+   问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失', 'shovel-030: 文件缺失', 'shovel-031: 文件缺失', 'shovel-032: 文件缺失', 'shovel-033: 文件缺失', 'shovel-034: 文件缺失', 'shovel-035: 文件缺失']
+   ⚠️ 门禁警告 — 健康率 80.0% 低于90%阈值
 
 ============================================================
 🧪 阶段 2: 全量工具测试
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 44 工具, 44 在线, 44 ready:true, 0 ready:false
+    ✅ TOOLS 数据库: 45 工具, 45 在线, 44 ready:true, 1 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
+    ✅ api-tester.html
     ✅ auto_tool_d41d8cd9.html
     ✅ auto_x_twitter_post_to_carousel_converter.html
     ✅ code_generator_hub.html
@@ -290,8 +326,9 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ world_map_generator.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 359603B
+    ✅ index.html — HTTP 200, 360109B
     ✅ tools/ai-assistant.html — HTTP 200
+    ✅ tools/api-tester.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
     ✅ tools/auto_x_twitter_post_to_carousel_converter.html — HTTP 200
     ✅ tools/code_generator_hub.html — HTTP 200
@@ -364,23 +401,28 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/viewer.html — HTTP 200
     ✅ tools/world_map_generator.html — HTTP 200
 
-  📊 测试汇总: 153 通过, 0 失败
+  📊 测试汇总: 155 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
-    ✅ 没有待上线的工具
+    🚀 1 个新工具测试通过，已标记 ready:true 正式上线
 
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-27T13:59:27.935028+00:00 → 2026-06-27T13:59:39.125288+00:00
+  ⏱  耗时: 2026-06-27T15:17:33.214789+00:00 → 2026-06-27T15:17:48.275763+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
   🔒 门禁: ⚠️ WARN
-  💚 健康率: 81.8%
-  🧪 测试: 153✅ 0❌
-  🔧 工具总数: 44
-  📄 独立页面: 72
+  💚 健康率: 80.0%
+  🧠 AI组件:
+     ✅ generator: OK
+     ✅ validator: OK
+     ✅ analyzer: OK
+  🧪 测试: 155✅ 0❌
+  🔧 工具总数: 45
+  🏷️  新上线: 1 个工具 (已标记 ready:true)
+  📄 独立页面: 73
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================
