@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-26T22:19:56.963283+00:00     ║
+║       启动时间: 2026-06-27T04:08:02.546558+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 10 topics
+  ✅ 9 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -43,11 +43,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 17 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 19 articles
+  ✅ 18 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 22 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,13 +81,13 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 352
-  🚫 闲聊拦截: 15 条 (4.3%)
-  🧠 工具信号: 175 条 (49.7%)
+  原始信号总量: 350
+  🚫 闲聊拦截: 14 条 (4.0%)
+  🧠 工具信号: 175 条 (50.0%)
 
   📋 闲聊拦截样例:
-     [job] Unlock Your Dream Job: Hightouch (YC S19) Recruitment Alert 
-     [news] EXCLUSIVE: US Government to Control Access to GPT-5.6 - Will
+     [chatter] apple 涨价，心态炸了，紧急补仓！
+     [news] EXCLUSIVE ACCESS: US Unleashes Mythos AI - The Revolutionary
      [chatter] Giskard: LLM esting platform for preventing hallucinations a
      [news] Roblox parental controls are a dystopian security disaster —
      [chatter] Ventora Expands Its AI Business Builder to Help Solo Founder
@@ -100,7 +100,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] agent-toolkit-for-aws
        ↳ 英文工具名词: ['tool']
      [置信度20%] allcontributors
-       ↳ 输
+       ↳ 输入→输出链式: [('allcontributors', 'to', '',
 
 ✅ 雷达完成 — 16 条建议
 
@@ -109,10 +109,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 352 条
-     🚫 闲聊拦截: 15 条 (4.3%)
-     🧠 工具信号: 175 条 (49.7%)
-     闲聊样例: Unlock Your Dream Job: Hightouch (YC S19) Recruitm... [job]
+     原始抓取: 350 条
+     🚫 闲聊拦截: 14 条 (4.0%)
+     🧠 工具信号: 175 条 (50.0%)
+     闲聊样例: apple 涨价，心态炸了，紧急补仓！... [chatter]
      工具信号样例: design.md... [置信度15%]
 
   📊 硬核过滤器统计:
@@ -146,7 +146,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-06-26T22:19:57.120938+00:00
+   Generated at: 2026-06-27T04:08:02.703089+00:00
    Already in catalog: 87 tools
    Previously produced: 0 tools
    Existing tool pages: 70 files
@@ -369,7 +369,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-26T22:19:56.963283+00:00 → 2026-06-26T22:20:09.527818+00:00
+  ⏱  耗时: 2026-06-27T04:08:02.546558+00:00 → 2026-06-27T04:08:13.723174+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
