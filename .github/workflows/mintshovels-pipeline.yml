@@ -1,0 +1,52 @@
+name: MintShovels 全自动流水线
+
+on:
+  schedule:
+    # 每3小时运行一次 (UTC时间: 0点, 3点, 6点, 9点, 12点, 15点, 18点, 21点)
+    # 北京时间 = UTC+8，所以实际在北京时间 8:00, 11:00, 14:00, 17:00, 20:00, 23:00, 2:00, 5:00
+    - cron: "0 */3 * * *"
+  workflow_dispatch:  # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: |
+          pip install requests
+
+      - name: 运行流水线
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          HUGGINGFACE_API_KEY: ${{ secrets.HUGGINGFACE_API_KEY }}
+          # Ollama 在 GitHub Actions 不可用，自动降级到云端免费模型
+          OLLAMA_BASE: ""
+        run: |
+          python3 engine/pipeline.py --max 3 --no-deploy
+
+      - name: 提交变更
+        if: success()
+        run: |
+          git config user.name "MintShovels Bot"
+          git config user.email "bot@mintshovels.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "没有新变更，跳过提交"
+          else
+            git commit -m "🤖 自动流水线 $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git push
+          fi

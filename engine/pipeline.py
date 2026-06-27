@@ -288,6 +288,43 @@ def save_json(path, data):
 def now_iso():
     return datetime.now(timezone.utc).isoformat()
 
+def _check_ai_components():
+    """检测 AI 组件状态"""
+    status = {
+        "generator": "UNAVAILABLE",
+        "validator": "UNAVAILABLE", 
+        "analyzer": "UNAVAILABLE",
+    }
+    
+    # 检查 AI 客户端
+    try:
+        from ai_client import get_client
+        client = get_client()
+        
+        # 分析器&验证器（轻任务）：有任意免费或付费模型即可
+        if client.ollama_available() or client.gemini_available() or \
+           client.huggingface_available() or client.deepseek_available():
+            status["analyzer"] = "OK"
+            status["validator"] = "OK"
+        
+        # 生成器（重任务）：质量分层
+        if client.deepseek_available():
+            status["generator"] = "OK"          # DeepSeek 付费，质量有保障
+        elif client.gemini_available():
+            status["generator"] = "OK"          # Gemini 免费，代码能力不错
+        elif client.huggingface_available():
+            status["generator"] = "DEGRADED"    # StarCoder2 免费但质量波动
+        elif client.ollama_available():
+            status["generator"] = "DEGRADED"    # 本地 8B 模型，质量有限
+        
+        if client.openai_available() or client.claude_available():
+            status["generator"] = "OK"          # 顶级付费模型
+            
+    except ImportError:
+        pass
+    
+    return status
+
 # ─── 阶段 0: 需求雷达 ──────────────────────────────────────────────────
 
 def run_data_engine():
@@ -706,6 +743,7 @@ def main():
         "factory": None,
         "gate_check": None,
         "health_snapshot": None,
+        "ai_components": {"generator": "UNKNOWN", "validator": "UNKNOWN", "analyzer": "UNKNOWN"},
         "test_index": {"passed": 0, "failed": 0},
         "test_tools": {"passed": 0, "failed": 0, "tools": []},
         "test_server": {"passed": 0, "failed": 0},
@@ -740,6 +778,16 @@ def main():
             print("=" * 60)
             filter_audit = demand_filter_audit()
             summary["demand_filter_audit"] = filter_audit
+        
+        # 阶段 0.6: AI 组件状态检测
+        print("\n" + "=" * 60)
+        print("🧠 阶段 0.6: AI 组件状态检测")
+        print("=" * 60)
+        ai_status = _check_ai_components()
+        summary["ai_components"] = ai_status
+        for comp, status in ai_status.items():
+            icon = "✅" if status == "OK" else "⚠️" if status == "DEGRADED" else "❌"
+            print(f"  {icon} {comp}: {status}")
         
         # 阶段 1: 工厂（即使雷达部分失败也尝试运行，利用已有报告）
         factory_ok, factory_output = run_factory(max_count=args.max)
@@ -836,6 +884,11 @@ def main():
     if summary.get('health_snapshot'):
         hr = summary['health_snapshot'].get('health_rate', 0)
         print(f"  💚 健康率: {hr}%")
+    if summary.get('ai_components'):
+        print(f"  🧠 AI组件:")
+        for comp, st in summary['ai_components'].items():
+            icon = "✅" if st == "OK" else "⚠️" if st == "DEGRADED" else "❌"
+            print(f"     {icon} {comp}: {st}")
     print(f"  🧪 测试: {total_pass}✅ {total_fail}❌")
     print(f"  🔧 工具总数: {tool_count}")
     if ready_count > 0:
