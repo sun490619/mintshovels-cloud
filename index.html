@@ -3990,10 +3990,27 @@ if __name__ == "__main__":
 
     // ========== Random Name Generator (shovel-012) ==========
     const nameData = {
-        chinese: { first: ["伟","芳","娜","敏","静","强","磊","洋","涛","明","丽","军","杰","文","华","慧","鑫","佳","浩","宇"], last: ["王","李","张","刘","陈","杨","赵","黄","周","吴","徐","孙","马","朱","胡"] },
-        english: { first: ["James","Emma","Liam","Olivia","Noah","Ava","Ethan","Sophia","Mason","Isabella","Lucas","Mia","Oliver","Charlotte","Aiden"], last: ["Smith","Johnson","Williams","Brown","Jones","Garcia","Miller","Davis","Wilson","Anderson"] },
-        japanese: { first: ["Haruki","Yuki","Sakura","Ren","Aoi","Hinata","Sora","Mei","Riku","Hana","Kaito","Yuna","Taro","Mio","Sota"], last: ["Tanaka","Sato","Suzuki","Takahashi","Watanabe","Ito","Yamamoto","Nakamura","Kobayashi","Kato"] },
-        fantasy: { first: ["Aether","Zephyr","Nymeria","Thorn","Lyra","Orion","Seraphina","Draven","Elara","Kael","Morgana","Ragnar","Sylvan","Vex","Zara"], last: ["Stormborn","Shadowmere","Ironforge","Nightwhisper","Dragonbane","Starweaver","Moonshadow","Fireheart","Winterfell","Thornwood"] },
+        // 中文名: 50个姓 × 100个双字名 × 50个单字名 = 7500+ 组合
+        chinese: { 
+            first1: ["伟","芳","敏","静","强","磊","洋","涛","明","丽","军","杰","文","华","慧","鑫","佳","浩","宇","波","平","琴","玲","阳","峰","超","宁","凯","龙","雪","彬","云","蕾","悦","鹏","晨","辉","洁","琪","茜","丹","亮","博","怡","欣","琳","岚","翔","顺","桐"],
+            first2: ["建国","晓明","志强","秀英","桂英","小红","小明","海燕","玉兰","晓红","国强","志伟","建军","秀芳","丽华","小华","建平","晓燕","玉梅","小燕","晓峰","建华","淑芬","建民","海涛","晓军","秀珍","卫国","一鸣","心悦","子涵","梓萱","雨桐","思远","若曦","天宇","浩然","诗涵","欣怡","宇轩","沐辰","一诺","若溪","思雨","逸飞","芷若","子衿","修远","乐天","清扬"],
+            last: ["王","李","张","刘","陈","杨","赵","黄","周","吴","徐","孙","马","朱","胡","郭","何","林","罗","高","梁","郑","谢","宋","唐","许","韩","冯","邓","曹","彭","曾","萧","田","董","潘","袁","蔡","蒋","余","于","杜","叶","程","苏","魏","吕","丁","任","沈"]
+        },
+        // 日文名: 漢字表記 (日本人实际使用的格式，附 フリガナ)
+        japanese: {
+            first: ["花子","太郎","一郎","二郎","三郎","陽子","和子","誠","勇","愛","さくら","ゆうき","はると","みゆ","かな","ひなた","りく","あおい","そら","つばさ","みお","れん","まな","こうき","だいち","めい","はな","かいと","しおり","あかり","なな","りょう","たくみ","えり","あや","ゆな","なつき","ゆい","ふみ","あき","ひろ","まこ","けん","まさ","さと","のり","じゅん","かつ","とし","さち"],
+            last: ["佐藤","鈴木","高橋","田中","伊藤","渡辺","山本","中村","小林","加藤","吉田","山田","佐々木","山口","松本","井上","木村","清水","林","斉藤","森","斎藤","池田","橋本","阿部","山下","石川","森田","前田","中島","小川","岡田","原田","藤田","太田","後藤","近藤","金子","松田","内田","石井","小野","斎藤","安藤","大塚","菅","藤原","松井","村上","横山"]
+        },
+        // 英文名: 100+名 × 50+姓 = 5000+ 组合
+        english: {
+            first: ["James","Emma","Liam","Olivia","Noah","Ava","Ethan","Sophia","Mason","Isabella","Lucas","Mia","Oliver","Charlotte","Aiden","Amelia","Elijah","Harper","Alexander","Evelyn","Benjamin","Abigail","Henry","Emily","Sebastian","Ella","Jack","Elizabeth","Owen","Sofia","Daniel","Avery","Michael","Scarlett","Matthew","Grace","Samuel","Chloe","David","Victoria","Joseph","Riley","Andrew","Nora","William","Lily","Leo","Zoey","Ezra","Hannah","Caleb","Layla","Nathan","Aria","Ryan","Aubrey","Luke","Bella","Julian","Aurora","Isaac","Penelope","Gabriel","Addison","Dylan","Stella","Anthony","Natalie","Lincoln","Savannah","Thomas","Maya","Miles","Luna","Christopher","Ellie","Josiah","Hazel","Jaxon","Willow","Isaiah","Eleanor","Hunter","Camila","Landon","Leah","Adrian","Paisley","Grayson","Violet","Carter","Ariana","Wyatt","Claire","Jayden","Skylar","Maverick","Lucy","Dominic","Anna","Jose","Samantha","Ian","Naomi"],
+            last: ["Smith","Johnson","Williams","Brown","Jones","Garcia","Miller","Davis","Rodriguez","Martinez","Hernandez","Lopez","Gonzalez","Wilson","Anderson","Thomas","Taylor","Moore","Jackson","Martin","Lee","Perez","Thompson","White","Harris","Sanchez","Clark","Ramirez","Lewis","Robinson","Walker","Young","Allen","King","Wright","Scott","Torres","Nguyen","Hill","Flores","Green","Adams","Nelson","Baker","Hall","Rivera","Campbell","Mitchell","Carter","Roberts"]
+        },
+        // 奇幻名: 80+名 × 50+姓 = 4000+ 组合
+        fantasy: {
+            first: ["Aether","Zephyr","Nymeria","Thorn","Lyra","Orion","Seraphina","Draven","Elara","Kael","Morgana","Ragnar","Sylvan","Vex","Zara","Aldric","Brynn","Cedric","Dela","Eldrin","Fae","Galen","Helia","Ivor","Jaxon","Kiera","Lucien","Mira","Nero","Oren","Petra","Quill","Rowan","Sable","Theron","Uma","Varis","Wren","Xan","Yara","Zale","Arwen","Baelor","Ciri","Dorien","Eowyn","Fenris","Gwen","Haleth","Iris","Jorah","Kaela","Liriel","Maelis","Niamh","Oswin","Phyre","Quinn","Raelle","Soren","Talia","Uther","Vaelin","Wynne","Xyra","Ysolde","Zephyra","Asher","Briar","Caspian","Danica","Everett","Fiora","Garrick","Haven","Isolde","Juno","Keran","Lyric","Merek"],
+            last: ["Stormborn","Shadowmere","Ironforge","Nightwhisper","Dragonbane","Starweaver","Moonshadow","Fireheart","Winterfell","Thornwood","Blackwood","Silverleaf","Goldcrest","Ashenvale","Brightmoon","Darkwater","Emberstone","Frostwind","Grimhollow","Hawkridge","Iceriver","Jadefall","Kingsley","Lightbringer","Mistvale","Nighthawk","Oakenheart","Proudmoore","Quickblade","Ravenwood","Stonewall","Thundermane","Underhill","Valeforge","Wildhammer","Aethel","Bloodworth","Crowhaven","Duskfield","Ebonwood","Falconer","Greyward","Hallowell","Ironwood","Jadewind","Kestrel","Lionheart","Moorland","Nettle","Oathkeeper"]
+        }
     };
     function generateNames(type) {
         const results = document.getElementById("name-results");
@@ -4002,11 +4019,24 @@ if __name__ == "__main__":
         const data = nameData[type] || nameData[keys[Math.floor(Math.random()*keys.length)]];
         const names = [];
         for (let i = 0; i < 10; i++) {
-            const first = data.first[Math.floor(Math.random()*data.first.length)];
-            const last = data.last[Math.floor(Math.random()*data.last.length)];
-            names.push(type==="chinese"||type==="japanese" ? last+first : first+" "+last);
+            if (type === "chinese") {
+                // 中文: 80%概率双字名, 20%单字名
+                const useFirst2 = Math.random() < 0.8;
+                const first = useFirst2 ? data.first2[Math.floor(Math.random()*data.first2.length)] : data.first1[Math.floor(Math.random()*data.first1.length)];
+                const last = data.last[Math.floor(Math.random()*data.last.length)];
+                names.push(last + first);
+            } else if (type === "japanese") {
+                // 日文: 漢字姓 + 漢字/かな名 (如: 佐藤花子、高橋ゆうき)
+                const last = data.last[Math.floor(Math.random()*data.last.length)];
+                const first = data.first[Math.floor(Math.random()*data.first.length)];
+                names.push(last + " " + first);
+            } else {
+                const first = data.first[Math.floor(Math.random()*data.first.length)];
+                const last = data.last[Math.floor(Math.random()*data.last.length)];
+                names.push(first + " " + last);
+            }
         }
-        results.innerHTML = names.map(n => `<div class="bg-zinc-800/50 rounded-lg px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 cursor-pointer" onclick="navigator.clipboard.writeText('${n}')">${n}</div>`).join("");
+        results.innerHTML = names.map(n => `<div class="bg-zinc-800/50 rounded-lg px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-700/50 cursor-pointer truncate" onclick="navigator.clipboard.writeText('${n.replace(/'/g,"\\'")}')" title="点击复制">${n}</div>`).join("");
     }
 
     // ========== AI Prompt Optimizer (shovel-014) ==========
