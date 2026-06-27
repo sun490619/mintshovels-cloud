@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T13:59:28.073187+00:00",
+  "generated_at": "2026-06-27T14:11:19.461937+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -108,12 +108,15 @@
       "梯子坏了 vless 加 reality 突然就坏了",
       "有在草原长大的朋友吗？ 在国内哪里能看到类似的风景呢（图见正文）。",
       "PDD 百亿补贴发了个拆封 iPhone",
-      "ClaudeCode 稳定的美国出口 IP 都能被封",
       "你有新的速率限制重置机会～",
+      "ClaudeCode 稳定的美国出口 IP 都能被封",
       "自己撸了个英语阅读抗阻力训练浏览器插件 Flipword ，让中文网页自然“长出”英语， 在日常浏览中不知不觉解锁英语能力"
     ],
     "devto": [
       "DEV Community: programming",
+      "The Case for Open-Source Gambling Platforms in Blockchain Gaming",
+      "Unlocking Search Engine Visibility: Your 5-Minute Sitemap Blueprint",
+      "Code Challenge of the Day — Count two-sum pairs (medium)",
       "Why My Polymarket Bot Watches Chainlink, Not Binance - The Oracle Gap That Changes Every Close Trade",
       "Mastering engineering-ready bug reports",
       "Your AI Is Not Writing Bad Code. You Are Writing a Bad Spec.",
@@ -122,29 +125,26 @@
       "Getting Started with Cybersecurity: A Beginner's Guide to Protecting Web Applications from Common Attacks",
       "RIP Long Wave Radio: The Shocking Switch-Off Date Revealed - What It Means for You",
       "Unlock the Future of Finance: The Ultimate Fintech Engineering Handbook for Innovators and Entrepreneurs",
-      "AI Is Not Just Replacing Work, It Is Challenging How We Think",
-      "Building a Secure E-commerce Website using Python, Django, and OWASP Security Guidelines",
-      "تطبيق تقنيات الشبكات العصبية في حل مشاكل الأمان السيبراني باستخدام بايثون",
-      "Day 82 of Learning MERN Stack"
+      "AI Is Not Just Replacing Work, It Is Challenging How We Think"
     ],
     "lobsters": [
       "NLNet Labs LLM Policy",
-      "FIFA Interactive Bracket (World Cup)",
       "Excessive nil pointer checks in Go",
+      "FIFA Interactive Bracket (World Cup)",
       "OpenZL",
       "Anatomy of a Failed (Nation-State?) Attack",
       "Text files as a user interface",
       "Visual Basic on the PC w/Windows 3.1",
       "What does it mean to be a mathematician when AI does the math?",
       "Making devenv start fast, and the whole nixpkgs with it - devenv",
+      "Shard your locks: benchmarking 6 Go cache designs",
       "All you need is PostgreSQL",
       "ARIA, anti-patterns, and you",
+      "Incident Report: CVE-2026-LGTM",
       "GuixPkgs: every Guix package, as a Nix flake",
       "What are you doing this weekend?",
-      "Incident Report: CVE-2026-LGTM",
       "youre-the-os: A game where you are a computer's OS",
       "Design Patterns Suck",
-      "Shard your locks: benchmarking 6 Go cache designs",
       "A Tiny Compiler for Data-Parallel Kernels",
       "L-system",
       "The essence of architectural work - Part 3"
@@ -172,31 +172,31 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "U.S. government will decide who gets to use GPT-5.6 🔥1087pts 💬1152",
-      "Previewing GPT‑5.6 Sol: a next-generation model 🔥1045pts 💬666",
-      "DSpark: Speculative decoding accelerates LLM inference [pdf] 🔥508pts 💬184",
-      "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations 🔥491pts 💬643",
-      "MicroVMs: Run isolated sandboxes with full lifecycle control 🔥349pts 💬191",
-      "Ultrasound imaging of the brain 🔥297pts 💬115",
-      "Why does kinetic energy increase quadratically, not linearly, with speed? (2011) 🔥287pts 💬144",
-      "The gap between open weights LLMs and closed source LLMs 🔥247pts 💬196",
-      "OpenTTD 16.0-Beta1 🔥199pts 💬35",
-      "Fintech Engineering Handbook 🔥173pts 💬57",
-      "AI in mathematics is forcing big questions 🔥158pts 💬138",
-      "WordStar: A Writer's Word Processor (1996) 🔥122pts 💬60",
+      "U.S. government will decide who gets to use GPT-5.6 🔥1089pts 💬1155",
+      "Previewing GPT‑5.6 Sol: a next-generation model 🔥1048pts 💬667",
+      "DSpark: Speculative decoding accelerates LLM inference [pdf] 🔥514pts 💬190",
+      "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations 🔥492pts 💬645",
+      "MicroVMs: Run isolated sandboxes with full lifecycle control 🔥350pts 💬191",
+      "Why does kinetic energy increase quadratically, not linearly, with speed? (2011) 🔥289pts 💬145",
+      "The gap between open weights LLMs and closed source LLMs 🔥251pts 💬198",
+      "OpenTTD 16.0-Beta1 🔥201pts 💬35",
+      "Fintech Engineering Handbook 🔥184pts 💬57",
+      "AI in mathematics is forcing big questions 🔥159pts 💬138",
+      "WordStar: A Writer's Word Processor (1996) 🔥124pts 💬61",
+      "Linux on Older Hardware: The Complete Revival Guide 🔥113pts 💬58",
       "International investment and local rules push prices up faster than supply 🔥111pts 💬37",
-      "Linux on Older Hardware: The Complete Revival Guide 🔥107pts 💬57",
+      "OpenRA 🔥98pts 💬29",
+      "If you can't hold it, you don't own it 🔥95pts 💬59",
       "Fusion Programming Language 🔥95pts 💬42",
-      "Anatomy of a Failed (Nation-State?) Attack 🔥95pts 💬16",
-      "If you can't hold it, you don't own it 🔥88pts 💬52",
-      "Show HN: Hacker News on a train station-style flip board 🔥86pts 💬18",
-      "OpenRA 🔥85pts 💬27",
-      "Long Wave radio era set to end with switch-off 🔥83pts 💬88",
+      "Anatomy of a Failed (Nation-State?) Attack 🔥95pts 💬17",
+      "Long Wave radio era set to end with switch-off 🔥89pts 💬90",
       "Hellishly Slow Level 13 Deflate Compression 🔥78pts 💬22",
       "Beer CSS – Build material design in record time 🔥67pts 💬25",
-      "The US Army Issued Ocarinas to Soldiers in World War II 🔥51pts 💬24",
+      "The US Army Issued Ocarinas to Soldiers in World War II 🔥52pts 💬27",
       "IBM MCGA Gate Array Reverse Engineering",
-      "Faster KNN search in Manticore: 2-pass HNSW, batched distances, and AVX-512"
+      "Streaming services' obnoxiously loud ads become illegal on July 1 in California",
+      "Faster KNN search in Manticore: 2-pass HNSW, batched distances, and AVX-512",
+      "Jest/Vitest interactive course (runs in the browser)"
     ],
     "hn_show": [
       "Hyoomn – We'll constructively roast your AI coded B2B SaaS — featured on Hacker News (🔥1pts)",
@@ -246,7 +246,7 @@
       "Show HN: Lettered – a daily phrase puzzle game — user asking for tool recommendation (🔥2pts)",
       "Show HN: Play puzzle games in a feed like TikTok — user asking for tool recommendation (🔥5pts)",
       "OpenTag: An open-source alternative to Claude in Slack — user asking for tool recommendation (🔥11pts)",
-      "Show HN: Closing the public-key authenticity gap in our E2EE social network — user asking for tool recommendation (🔥2pts)"
+      "Show HN: Closing the public-key authenticity gap in our E2EE social network — user asking for tool recommendation (🔥3pts)"
     ],
     "hackernoon": [
       "Classified by the Crown",
@@ -287,60 +287,60 @@
       "Presentation: Rules for Understanding Language Models <img src=\"https://res.infoq.com/presentations/5-principles-llm-behavior/en/mediumimage/naomi-saphra-medium-1781688751052.jpg\"/><p>Naomi Saphra discuss"
     ],
     "google_trends": [
+      "mindhunter",
+      "fire restoration",
+      "ugo humbert",
       "fifa world cup 2026 matches",
       "ethan quinn",
       "tahir abdullayev",
       "azerbaijan",
+      "bekzat almakhan",
       "andy beshear",
-      "bears",
-      "pakistan vs netherlands",
-      "student loan",
-      "amber alert",
-      "rory mcilroy travelers championship absence"
+      "bears"
     ],
     "baidu": [
       "最珍贵的记忆 让日子最有奔头",
       "世界杯最有梗的两男人放了全世界鸽子",
-      "轰6k与俄图95在日本海上空同框",
+      "巴黎极端高温一日超50人死亡",
       "志愿填报必看！高校人才培养四大趋势",
-      "北大哲学系主任毕业致辞火了",
-      "两届世界杯冠军耻辱出局",
+      "吴艳妮全国冠军赛夺冠 莫家蝶摔倒",
+      "为什么你家电费永远比别人贵",
       "网民公然侮辱张桂梅校长被行拘",
-      "世界杯32强已定28席",
+      "《浪姐》总决赛依旧难听",
       "胆大包天 日本竟模拟攻击辽宁舰",
       "日本精锐部队成员被坠落机枪砸死",
-      "俄罗斯计划在月球表面建核电站",
+      "“毒纸尿裤事件”记者回应调查过程",
       "别再冤枉克孜尔千佛洞了",
+      "世界杯32强已定28席",
+      "俄罗斯计划在月球表面建核电站",
       "女生高考政治竟然考出满分100",
-      "《浪姐》总决赛依旧难听",
-      "佛得角足协感谢中国：计划安排友谊赛",
       "存储芯片大涨 苹果美光打口水战",
+      "北大哲学系主任毕业致辞火了",
+      "两届世界杯冠军耻辱出局",
       "女子第三胎生龙凤胎 公司奖励16万",
-      "老赖有钱不还 欠20家银行20亿",
-      "人大博士肄业宅家六年靠父母供养",
-      "公司股价大涨184% 却被吐槽名字晦气"
+      "老赖有钱不还 欠20家银行20亿"
     ],
     "wikipedia": [
-      "Addictive Behaviors",
-      "List of animated feature films of 2027",
-      "Short Seamew",
-      "2026 York Region municipal elections",
-      "Barna Saha",
-      "A Murder Between Friends",
-      "Visiting day at the hospital",
-      "Morgan's Run",
-      "Live export",
-      "Good Music (Joan Jett and the Blackhearts album)",
-      "List of United States collegiate records in track and field",
-      "Aleksa Dimitrijević",
-      "2015 Ebonyi State House of Assembly election",
-      "Apeldoorn",
-      "Balming Tiger",
-      "Mort the Chicken",
-      "Pa'O people",
-      "Ilias Fifa",
-      "2026 Men's Junior AHF Cup",
-      "2026 FIFA World Cup Group G"
+      "Semyon Krasnov",
+      "Four Square Mile, Colorado",
+      "Accounting Horizons",
+      "KaTeX",
+      "Allyl alcohol",
+      "Siko Dolidze",
+      "Juliet Ibrahim",
+      "Flamingo Revolution",
+      "Khawaja Habibullah Nowshehri",
+      "Japan national baseball team Fixtures and Results",
+      "Oppo Reno6",
+      "2020 Tour de France, Stage 12 to Stage 21",
+      "Kitsap Lookout",
+      "Grace (company)",
+      "Porter Airlines",
+      "KYFQ",
+      "Hexagon (restaurant)",
+      "Xingu Indigenous Park",
+      "Medicine Bow, Wyoming",
+      "KBTC-TV"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -425,29 +425,30 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: web-auto",
-      "github trending topic: javascript",
-      "github trending topic: react",
-      "github trending topic: node.js",
+      "github trending topic: code quality",
+      "github trending topic: streamlit",
+      "github trending topic: npm",
       "github trending topic: scala",
       "github trending topic: typescript",
-      "github trending topic: front end",
-      "github trending topic: database",
-      "github trending topic: project management",
-      "github trending topic: compiler",
-      "github trending topic: react native",
-      "github trending topic: docker",
-      "github trending topic: full-stack",
       "github trending topic: python",
-      "github trending topic: discord-fix",
-      "github trending topic: awesome lists",
-      "github trending topic: npm",
-      "github trending topic: css",
+      "github trending topic: java",
+      "github trending topic: node.js",
       "github trending topic: llm",
-      "github trending topic: nextjs",
-      "github trending topic: code quality",
-      "github trending topic: ansible",
-      "github trending topic: chrome"
+      "github trending topic: ai-agents",
+      "github trending topic: discord",
+      "github trending topic: claude-code",
+      "github trending topic: cli",
+      "github trending topic: javascript",
+      "github trending topic: project management",
+      "github trending topic: awesome lists",
+      "github trending topic: css",
+      "github trending topic: chrome",
+      "github trending topic: react",
+      "github trending topic: react native",
+      "github trending topic: front end",
+      "github trending topic: proxy",
+      "github trending topic: compiler",
+      "github trending topic: database"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -628,10 +629,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 172,
+    "raw_count": 174,
     "valid_count": 36,
-    "rejected_count": 136,
-    "rejection_rate": 79.1,
+    "rejected_count": 138,
+    "rejection_rate": 79.3,
     "rejected_samples": [
       "allcontributors",
       "design.md",
@@ -646,11 +647,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 350,
+    "total_captured": 351,
     "chatter_blocked": 16,
     "chatter_rate": 4.6,
-    "tool_signals_found": 172,
-    "tool_signal_rate": 49.1,
+    "tool_signals_found": 174,
+    "tool_signal_rate": 49.6,
     "chatter_samples": [
       {
         "text": "PDD 百亿补贴发了个拆封 iPhone",
@@ -660,7 +661,7 @@
         ]
       },
       {
-        "text": "The US Army Issued Ocarinas to Soldiers in World War II 🔥51pts 💬24",
+        "text": "The US Army Issued Ocarinas to Soldiers in World War II 🔥52pts 💬27",
         "category": "news",
         "matched": [
           [
@@ -718,18 +719,17 @@
         ]
       },
       {
-        "text": "公司股价大涨184% 却被吐槽名字晦气",
-        "category": "chatter",
+        "text": "Japan national baseball team Fixtures and Results",
+        "category": "entertainment",
         "matched": [
-          "吐槽"
+          "baseball"
         ]
       },
       {
-        "text": "Good Music (Joan Jett and the Blackhearts album)",
+        "text": "2020 Tour de France, Stage 12 to Stage 21",
         "category": "entertainment",
         "matched": [
-          "Music",
-          "album"
+          "Tour"
         ]
       }
     ],
@@ -829,17 +829,17 @@
         ]
       },
       {
+        "text": "The Case for Open-Source Gambling Platforms in Blockchain Gaming",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['Blockchain']"
+        ]
+      },
+      {
         "text": "Creating a Simple Chatbot using Python and Natural Language Processing for Beginner Developers",
         "confidence": 15,
         "features": [
           "技术概念: ['Python']"
-        ]
-      },
-      {
-        "text": "5 Open-Source Android Apps That Deserve to Be Built Into Android",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('Deserve to Be', 'to', '', '', '', ''), ('Into Android', 'to', '', '', '', '')]"
         ]
       }
     ]
