@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T15:17:33.399955+00:00",
+  "generated_at": "2026-06-27T16:13:39.301577+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -107,47 +107,47 @@
       "31 岁，在离婚前夜，我终于承认自己从未真正活过",
       "梯子坏了 vless 加 reality 突然就坏了",
       "有在草原长大的朋友吗？ 在国内哪里能看到类似的风景呢（图见正文）。",
+      "PDD 百亿补贴发了个拆封 iPhone",
       "你有新的速率限制重置机会～",
       "ClaudeCode 稳定的美国出口 IP 都能被封",
-      "PDD 百亿补贴发了个拆封 iPhone",
       "自己撸了个英语阅读抗阻力训练浏览器插件 Flipword ，让中文网页自然“长出”英语， 在日常浏览中不知不觉解锁英语能力"
     ],
     "devto": [
       "DEV Community: programming",
+      "TIL: Python's `collections.Counter` makes frequency counting trivial",
+      "2-Minute Guide: Context Managers in Python",
+      "🚀 Siyarix v1.0.0 is officially released",
+      "How I Run 184 AI Models From One API Key — A Backend Tale",
+      "I have been working as a freelancer in Rajshahi, managing several client projects and my own digital products. For a long time.",
+      "GitHub Actions Now Runs Steps in Parallel — Here's How to Use It with",
       "How To Prepare For A Golang Interview: A Practical Guide For Mid &amp; Senior Engineers",
       "My First Python Project: Lessons Learned While Building a Number Guessing Game",
       "The Vibe Coding Hate Is Justified. For All The Wrong Reasons",
       "The Complete Roadmap to Become a Backend Developer in 2025",
       "Germany’s Handelsregister after the UBO shutdown",
-      "These Companies Want Interns This Summer (Jun 27)",
-      "The Hard Lesson I Learned About Debugging Scalable Web Apps",
-      "AI Model Pricing Comparison 2026 (You'll Be Surprised)",
-      "Une question sincère aux développeurs, de la part d'un anonyme\"",
-      "The Biggest Mistake I Made Was Waiting to Feel Ready",
-      "Let's talk about my business",
-      "Level 2 Tutorial — Limn Engine Intermediate Guide"
+      "These Companies Want Interns This Summer (Jun 27)"
     ],
     "lobsters": [
-      "NLNet Labs LLM Policy",
       "Excessive nil pointer checks in Go",
-      "FIFA Interactive Bracket (World Cup)",
+      "NLNet Labs LLM Policy",
       "Data Access Patterns That Makes Your CPU Really Angry",
+      "A peek into Reddit's anti-spam internals",
+      "FIFA Interactive Bracket (World Cup)",
       "OpenZL",
+      "Shard your locks: benchmarking 6 Go cache designs",
       "Text files as a user interface",
       "Anatomy of a Failed (Nation-State?) Attack",
-      "Shard your locks: benchmarking 6 Go cache designs",
       "Visual Basic on the PC w/Windows 3.1",
-      "What does it mean to be a mathematician when AI does the math?",
-      "A peek into Reddit's anti-spam internals",
+      "Linux 7.2 Improves Anonymous/Unnamed Pipe Performance For Shell Pipelines &amp; More",
       "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation &amp; More",
+      "What does it mean to be a mathematician when AI does the math?",
       "ARIA, anti-patterns, and you",
       "Making devenv start fast, and the whole nixpkgs with it - devenv",
       "All you need is PostgreSQL",
-      "Linux 7.2 Improves Anonymous/Unnamed Pipe Performance For Shell Pipelines &amp; More",
+      "Incident Report: CVE-2026-LGTM",
       "GuixPkgs: every Guix package, as a Nix flake",
       "youre-the-os: A game where you are a computer's OS",
-      "What are you doing this weekend?",
-      "Incident Report: CVE-2026-LGTM"
+      "What are you doing this weekend?"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -172,61 +172,62 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Previewing GPT‑5.6 Sol: a next-generation model 🔥1063pts 💬672",
-      "DSpark: Speculative decoding accelerates LLM inference [pdf] 🔥574pts 💬223",
-      "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations 🔥509pts 💬672",
-      "MicroVMs: Run isolated sandboxes with full lifecycle control 🔥355pts 💬193",
-      "Why does kinetic energy increase quadratically, not linearly, with speed? (2011) 🔥302pts 💬152",
-      "The gap between open weights LLMs and closed source LLMs 🔥263pts 💬199",
-      "Fintech Engineering Handbook 🔥247pts 💬82",
-      "OpenRA 🔥175pts 💬47",
-      "AI in mathematics is forcing big questions 🔥168pts 💬142",
-      "WordStar: A Writer's Word Processor (1996) 🔥134pts 💬65",
-      "Linux on Older Hardware: The Complete Revival Guide 🔥129pts 💬71",
-      "If you can't hold it, you don't own it 🔥127pts 💬87",
-      "International investment and local rules push prices up faster than supply 🔥117pts 💬44",
-      "Long Wave radio era set to end with switch-off 🔥104pts 💬107",
-      "Anatomy of a Failed (Nation-State?) Attack 🔥101pts 💬23",
-      "Beer CSS – Build material design in record time 🔥86pts 💬35",
-      "Hellishly Slow Level 13 Deflate Compression 🔥82pts 💬24",
-      "Streaming services' obnoxiously loud ads become illegal on July 1 in California 🔥76pts 💬15",
-      "The US Army Issued Ocarinas to Soldiers in World War II 🔥68pts 💬30",
+      "Previewing GPT‑5.6 Sol: a next-generation model 🔥1069pts 💬680",
+      "DSpark: Speculative decoding accelerates LLM inference [pdf] 🔥606pts 💬229",
+      "MicroVMs: Run isolated sandboxes with full lifecycle control 🔥359pts 💬195",
+      "Why does kinetic energy increase quadratically, not linearly, with speed? (2011) 🔥314pts 💬163",
+      "Fintech Engineering Handbook 🔥279pts 💬100",
+      "The gap between open weights LLMs and closed source LLMs 🔥275pts 💬202",
+      "OpenRA 🔥232pts 💬54",
+      "If you can't hold it, you don't own it 🔥154pts 💬104",
+      "Linux on Older Hardware: The Complete Revival Guide 🔥143pts 💬76",
+      "WordStar: A Writer's Word Processor (1996) 🔥141pts 💬68",
+      "Zuckerberg's Increasingly Bizarre War on Whistleblowers 🔥135pts 💬39",
+      "Long Wave radio era set to end with switch-off 🔥112pts 💬110",
+      "Anatomy of a Failed (Nation-State?) Attack 🔥109pts 💬23",
+      "Streaming services' obnoxiously loud ads become illegal on July 1 in California 🔥100pts 💬22",
+      "Beer CSS – Build material design in record time 🔥94pts 💬40",
+      "The US Army Issued Ocarinas to Soldiers in World War II 🔥78pts 💬37",
+      "Underarm Bowling Incident of 1981 🔥73pts 💬41",
+      "Anonymous GitHub account mass-dropping undisclosed 0-days 🔥69pts 💬20",
+      "Suspicious Discontinuities 🔥60pts 💬9",
+      "How Many Elementary Particles Are There, Really? 🔥56pts 💬33",
       "Faster KNN search in Manticore: 2-pass HNSW, batched distances, and AVX-512",
-      "How Many Elementary Particles Are There, Really?",
-      "How H-E-B Became Texas' Most Beloved Brand (2024)",
       "Jest/Vitest interactive course (runs in the browser)",
-      "Zuckerberg's Increasingly Bizarre War on Whistleblowers",
-      "Underarm Bowling Incident of 1981"
+      "Post-Mythos Cybersecurity: Keep calm and carry on",
+      "Cultures of Making and Relating",
+      "Reducing tick density along recreational trails in Ottawa, Canada"
     ],
     "hn_show": [
-      "AI-whisper – Claude works better when Codex watches its back — featured on Hacker News (🔥1pts)",
-      "Apex-1-flash, 4B LLM finetuned on RTX 5070 — featured on Hacker News (🔥1pts)",
-      "Discover content in any YouTube channel with RAG — featured on Hacker News (🔥1pts)",
-      "I built a keyboard-first window switcher for macOS — featured on Hacker News (🔥1pts)",
-      "FPGA design acceleration – idiomatic Python to synthesizable Verilog — featured on Hacker News (🔥1pts)",
-      "GemmaTrans – On-device translation for macOS, built with MLX — featured on Hacker News (🔥1pts)",
+      "Luma – A New Workspace for Frida — featured on Hacker News (🔥1pts)",
+      "HotFX Pseudorandom – value noise in a CSS variable via custom element — featured on Hacker News (🔥2pts)",
+      "Ocarina – Automate and test MCP servers from YAML, no LLM — featured on Hacker News (🔥2pts)",
+      "Use any SVG as QR code On Dots — featured on Hacker News (🔥2pts)",
+      "I got tired of spending 3hrs daily on job applications,so I automated it — featured on Hacker News (🔥3pts)",
+      "AI-whisper – Claude works better when Codex watches its back — featured on Hacker News (🔥3pts)",
+      "Apex-1-flash, 4B LLM finetuned on RTX 5070 — featured on Hacker News (🔥2pts)",
+      "Discover content in any YouTube channel with RAG — featured on Hacker News (🔥2pts)",
+      "I built a keyboard-first window switcher for macOS — featured on Hacker News (🔥2pts)",
+      "FPGA design acceleration – idiomatic Python to synthesizable Verilog — featured on Hacker News (🔥2pts)",
+      "GemmaTrans – On-device translation for macOS, built with MLX — featured on Hacker News (🔥2pts)",
       "Proton a Pure go, no CGO GUI library for building applications — featured on Hacker News (🔥2pts)",
       "Looking for help finishing up my privacy focused web scrapper — featured on Hacker News (🔥2pts)",
       "The stock research terminal that remembers — featured on Hacker News (🔥2pts)",
-      "Hyoomn – We'll constructively roast your AI coded B2B SaaS — featured on Hacker News (🔥1pts)",
-      "InfyniDock – a macOS Dock that switches actual windows — featured on Hacker News (🔥1pts)",
-      "Link in Seconds – Upload a resume or PDF, get a clean shareable link — featured on Hacker News (🔥1pts)",
-      "Aerial-autonomy-stack – open-source perception-based drone swarms — featured on Hacker News (🔥2pts)",
-      "QR Code generator – micro/2 via numeric, alphanumeric, 8bitbyte, kanji — featured on Hacker News (🔥1pts)",
-      "Nirnam – a browser-native message bus and AI agent framework for MFEs — featured on Hacker News (🔥1pts)",
-      "RapidCam – Browser-based, parametric 2D CAD/CAM app for CNC and laser — featured on Hacker News (🔥3pts)",
-      "Visual Map of ICML 2026 Papers — featured on Hacker News (🔥2pts)",
-      "Open Tag, the open source Claude Tag — featured on Hacker News (🔥2pts)"
+      "Hyoomn – We'll constructively roast your AI coded B2B SaaS — featured on Hacker News (🔥2pts)",
+      "InfyniDock – a macOS Dock that switches actual windows — featured on Hacker News (🔥2pts)",
+      "Link in Seconds – Upload a resume or PDF, get a clean shareable link — featured on Hacker News (🔥2pts)",
+      "Aerial-autonomy-stack – open-source perception-based drone swarms — featured on Hacker News (🔥3pts)",
+      "QR Code generator – micro/2 via numeric, alphanumeric, 8bitbyte, kanji — featured on Hacker News (🔥2pts)"
     ],
     "hn_ask_tools": [
-      "Show HN: Discover content in any YouTube channel with RAG — user asking for tool recommendation (🔥1pts)",
-      "Show HN: FPGA design acceleration – idiomatic Python to synthesizable Verilog — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Ocarina – Automate and test MCP servers from YAML, no LLM — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Discover content in any YouTube channel with RAG — user asking for tool recommendation (🔥2pts)",
+      "Show HN: FPGA design acceleration – idiomatic Python to synthesizable Verilog — user asking for tool recommendation (🔥2pts)",
       "Data Privacy while using API tools — user asking for tool recommendation (🔥3pts)",
       "Show HN: Mcpify – Turn any REST API into an MCP server in one command — user asking for tool recommendation (🔥1pts)",
       "Show HN: TBD, a Mac-native CLI-forward coding agent multiplexer — user asking for tool recommendation (🔥4pts)",
       "Ask HN: What are my options after a responsible disclosure went wrong? — user asking for tool recommendation (🔥2pts)",
       "Show HN: BetterDB, MIT Valkey-native context layer for AI agents — user asking for tool recommendation (🔥5pts)",
-      "Ask HN: Who remembers Fry's Electronics – the \"church\" of IT people? — user asking for tool recommendation (🔥7pts)",
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
@@ -245,12 +246,18 @@
       "Ventora Expands Its AI Business Builder to Help Solo Founders — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Options for an independent AI researcher with strong results? — user asking for tool recommendation (🔥2pts)",
       "Hate \"The Algorithm?\" RSS Is One of the Tools You've Been Looking For — user asking for tool recommendation (🔥6pts)",
-      "Show HN: Lettered – a daily phrase puzzle game — user asking for tool recommendation (🔥2pts)",
       "Show HN: Play puzzle games in a feed like TikTok — user asking for tool recommendation (🔥5pts)",
       "OpenTag: An open-source alternative to Claude in Slack — user asking for tool recommendation (🔥12pts)",
-      "Show HN: Closing the public-key authenticity gap in our E2EE social network — user asking for tool recommendation (🔥3pts)"
+      "Show HN: Closing the public-key authenticity gap in our E2EE social network — user asking for tool recommendation (🔥3pts)",
+      "Tar: A slop-free alternative to rsync — user asking for tool recommendation (🔥6pts)"
     ],
     "hackernoon": [
+      "Building Event-Driven Systems That Can Recover With Confidence",
+      "Resolving WGTS Rear Wall Scattering in the Troitsk Nu-Mass Experiment",
+      "Top 10 Best AI Bot Trading in 2026 (Features and Pricing)",
+      "The TechBeat: We brought Hermes Agent to iMessage, even on Linux and Windows (6/27/2026)",
+      "90 Blog Posts To Learn About Ethical Hacking",
+      "Protocol Elba",
       "Classified by the Crown",
       "The Dantès Protocol",
       "Mortal Kombat 2 or Injustice 3: Which One Is Next?",
@@ -263,13 +270,7 @@
       "When Prediction Becomes the Rarest Asset in the AI Era, manadia Defines Value Internet ",
       "manadia Global Launch: A Trusted AI Prediction Ecosystem Enters The Era of Value Internet",
       "Models Aren't the Moat. Deployment Is",
-      "The Real Privacy Problem Is What Happens After Data Collection",
-      "Bridging the Gap Between Concurrency Theory and Production Systems",
-      "SSE (Server-Sent Events) Emitter with Redis Pub/Sub",
-      "The AI \"Doom Loop\": Why Your Autonomous Coding Agent Is Making Things Worse, And How To Fix It",
-      "Every AI Agent Is a Non-Human Identity That Needs Governance",
-      "Shadow Protocol",
-      "The AI Filmmaking Checklist That Saved Me Weeks of Regeneration"
+      "The Real Privacy Problem Is What Happens After Data Collection"
     ],
     "infoq": [
       "AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management <img src=\"https://res.infoq.com/news/2026/06/aws-credentials-provider/en/headerimage/generatedHeaderImage-1781712757418.jpg\"/><p>AWS has recently anno",
@@ -289,60 +290,60 @@
       "Presentation: Rules for Understanding Language Models <img src=\"https://res.infoq.com/presentations/5-principles-llm-behavior/en/mediumimage/naomi-saphra-medium-1781688751052.jpg\"/><p>Naomi Saphra discuss"
     ],
     "google_trends": [
-      "f1 qualifying",
-      "farman hasanov",
-      "ikram aliskerov",
-      "america 250th anniversary politics",
-      "dan sullivan",
-      "asu almabayev",
-      "alan jackson final concert",
-      "nursulton ruziboev",
-      "james carville",
-      "amazon ftc settlement eligibility"
+      "michal oleksiejczuk",
+      "brandon carlo",
+      "xavier villeneuve",
+      "big tigger",
+      "hector bello",
+      "western",
+      "fifa world cup 2026 qualifiers table",
+      "timofey mozgov",
+      "nazim sadykhov",
+      "sharks"
     ],
     "baidu": [
       "最珍贵的记忆 让日子最有奔头",
       "韩国球迷心态崩了",
-      "巴黎极端高温一日超50人死亡",
+      "中国空调成欧洲“救命稻草”",
       "志愿填报必看！高校人才培养四大趋势",
-      "保洁奶奶不懂报考 认准“交通大学”",
+      "为什么你家电费永远比别人贵",
       "吴艳妮全国冠军赛夺冠 莫家蝶摔倒",
-      "网民公然侮辱张桂梅校长被行拘",
-      "曾沛慈获《浪姐》年度总冠军",
       "世界杯32强已定28席",
-      "胆大包天 日本竟模拟攻击辽宁舰",
+      "曾沛慈获《浪姐》年度总冠军",
+      "巴黎极端高温一日超50人死亡",
+      "东鹏饮料辟谣董事长饭局拒喝自家饮料",
       "《浪姐》成团名单出炉",
       "别再冤枉克孜尔千佛洞了",
-      "日本精锐部队成员被坠落机枪砸死",
-      "为什么你家电费永远比别人贵",
-      "东鹏饮料辟谣董事长饭局拒喝自家饮料",
-      "存储芯片大涨 苹果美光打口水战",
-      "俄罗斯计划在月球表面建核电站",
+      "保洁奶奶不懂报考 认准“交通大学”",
+      "耳朵上的这个小洞千万别挤",
       "黄鼠狼开抽屉翻零食 悄悄到访3年",
-      "王濛在舞台腾空一字马大跳",
-      "轰6k与俄图95在日本海上空同框"
+      "存储芯片大涨 苹果美光打口水战",
+      "女子开车经过村庄看到飞机正在滑行",
+      "日本精锐部队成员被坠落机枪砸死",
+      "轰6k与俄图95在日本海上空同框",
+      "王濛在舞台腾空一字马大跳"
     ],
     "wikipedia": [
-      "KBPA",
-      "Paul McCartney and Wings",
-      "Alliance Party (Malaysia)",
-      "1927–28 Netherlands Football League Championship",
-      "National Newspaper Awards",
-      "Harriet Tubman",
-      "Southern Cross (folk song)",
-      "Unknown 9: Awakening",
-      "Kfar Hamam",
-      "Mayu Island",
-      "Herald Sun Tour",
-      "Kids Diana Show",
-      "Summer House (2017 TV series)",
-      "Prison uniform",
-      "David Hencke",
-      "Chell (Portal)",
-      "2026–27 National League 1",
-      "Joseph Lamelas",
-      "Tai Noi script",
-      "Gordon Bennett Trophy (aeroplanes)"
+      "Ed Gaughan",
+      "Westfields Sports High School",
+      "Statue of Benito Juárez (Fresno)",
+      "Badman",
+      "Arrowhead Stadium",
+      "John Brebbia",
+      "Statue of Bee Gees (Redcliffe, Queensland)",
+      "2026 US Darts Masters",
+      "Sustainable hunting",
+      "Lapu-Lapu City",
+      "Felixstowe branch line",
+      "Chilly Gonzales",
+      "Statue of Bee Gees (Douglas, Isle of Man)",
+      "Kora Orvat",
+      "List of superhero television series",
+      "Fennis Augustine",
+      "Ishan Babakhan ibn Abdulmajidkhan",
+      "Mahakali Caves",
+      "2026 FIFA World Cup",
+      "Castelsardo"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -427,29 +428,30 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: npm",
-      "github trending topic: react",
-      "github trending topic: react native",
-      "github trending topic: compiler",
-      "github trending topic: tg-fix",
-      "github trending topic: tg-proxy",
-      "github trending topic: css",
-      "github trending topic: llm",
-      "github trending topic: telegram",
-      "github trending topic: javascript",
-      "github trending topic: typescript",
-      "github trending topic: node.js",
-      "github trending topic: python",
-      "github trending topic: front end",
-      "github trending topic: proxy",
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: proxy-tg",
-      "github trending topic: awesome lists",
-      "github trending topic: chrome",
-      "github trending topic: database",
-      "github trending topic: scala",
+      "github trending topic: code quality",
       "github trending topic: project management",
-      "github trending topic: code quality"
+      "github trending topic: react native",
+      "github trending topic: npm",
+      "github trending topic: javascript",
+      "github trending topic: css",
+      "github trending topic: front end",
+      "github trending topic: python",
+      "github trending topic: tg-proxy",
+      "github trending topic: react",
+      "github trending topic: database",
+      "github trending topic: node.js",
+      "github trending topic: scala",
+      "github trending topic: community-archive",
+      "github trending topic: solar-system",
+      "github trending topic: tg-ws-proxy",
+      "github trending topic: compiler",
+      "github trending topic: trust-os",
+      "github trending topic: typescript",
+      "github trending topic: proof-of-search",
+      "github trending topic: chrome",
+      "github trending topic: proxy",
+      "github trending topic: tg-fix",
+      "github trending topic: awesome lists"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -640,10 +642,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 174,
+    "raw_count": 182,
     "valid_count": 37,
-    "rejected_count": 137,
-    "rejection_rate": 78.7,
+    "rejected_count": 145,
+    "rejection_rate": 79.7,
     "rejected_samples": [
       "allcontributors",
       "design.md",
@@ -658,11 +660,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 352,
-    "chatter_blocked": 17,
-    "chatter_rate": 4.8,
-    "tool_signals_found": 174,
-    "tool_signal_rate": 49.4,
+    "total_captured": 354,
+    "chatter_blocked": 16,
+    "chatter_rate": 4.5,
+    "tool_signals_found": 182,
+    "tool_signal_rate": 51.4,
     "chatter_samples": [
       {
         "text": "PDD 百亿补贴发了个拆封 iPhone",
@@ -672,7 +674,7 @@
         ]
       },
       {
-        "text": "The US Army Issued Ocarinas to Soldiers in World War II 🔥68pts 💬30",
+        "text": "Zuckerberg's Increasingly Bizarre War on Whistleblowers 🔥135pts 💬39",
         "category": "news",
         "matched": [
           [
@@ -682,7 +684,7 @@
         ]
       },
       {
-        "text": "Zuckerberg's Increasingly Bizarre War on Whistleblowers",
+        "text": "The US Army Issued Ocarinas to Soldiers in World War II 🔥78pts 💬37",
         "category": "news",
         "matched": [
           [
@@ -709,7 +711,7 @@
         ]
       },
       {
-        "text": "SSE (Server-Sent Events) Emitter with Redis Pub/Sub",
+        "text": "Building Event-Driven Systems That Can Recover With Confidence",
         "category": "chatter",
         "matched": [
           "vent"
@@ -726,17 +728,10 @@
         ]
       },
       {
-        "text": "f1 qualifying",
+        "text": "timofey mozgov",
         "category": "chatter",
         "matched": [
-          "fyi"
-        ]
-      },
-      {
-        "text": "alan jackson final concert",
-        "category": "entertainment",
-        "matched": [
-          "concert"
+          "imo"
         ]
       },
       {
@@ -744,6 +739,13 @@
         "category": "chatter",
         "matched": [
           "心态"
+        ]
+      },
+      {
+        "text": "中国空调成欧洲“救命稻草”",
+        "category": "chatter",
+        "matched": [
+          "救命"
         ]
       }
     ],
@@ -843,16 +845,16 @@
         ]
       },
       {
-        "text": "How To Prepare For A Golang Interview: A Practical Guide For Mid &amp; Senior Engineers",
-        "confidence": 45,
+        "text": "TIL: Python's `collections.Counter` makes frequency counting trivial",
+        "confidence": 55,
         "features": [
-          "输入→输出链式: [('How To Prepare', 'To', '', '', '', '')]",
-          "技术概念: ['Golang']",
-          "需求表达: [('How To Prepare', 'To', '', '', '', '', '', '')]"
+          "英文动作特征: ['Counter']",
+          "英文工具名词: ['counter']",
+          "技术概念: ['Python']"
         ]
       },
       {
-        "text": "My First Python Project: Lessons Learned While Building a Number Guessing Game",
+        "text": "2-Minute Guide: Context Managers in Python",
         "confidence": 15,
         "features": [
           "技术概念: ['Python']"
