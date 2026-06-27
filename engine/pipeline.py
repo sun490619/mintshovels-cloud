@@ -336,35 +336,52 @@ def run_radar():
     print("=" * 60)
     
     radar_script = os.path.join(BASE_DIR, "engine", "demand_radar.py")
-    try:
-        result = subprocess.run(
-            ["python3", radar_script],
-            capture_output=True, text=True, timeout=120, cwd=BASE_DIR
-        )
-        output = result.stdout + result.stderr
-        print(output[:2000])
+    RADAR_TIMEOUT = 300  # 5分钟，19个水源在网络波动时需要更长时间
+    
+    for attempt in range(2):  # 最多重试1次
+        if attempt > 0:
+            print(f"\n🔄 雷达重试 (第 {attempt+1} 次)...")
+            time.sleep(10)  # 等10秒再试
         
-        if result.returncode != 0:
-            print("❌ 雷达运行失败")
-            return False, output
-        
-        # 检查报告是否生成
-        report_path = os.path.join(REPORT_DIR, "demand_report.json")
-        if os.path.exists(report_path):
-            report = load_json(report_path)
-            suggestions = len(report.get("tool_suggestions", [])) if report else 0
-            print(f"\n✅ 雷达完成 — {suggestions} 条建议")
-            return True, report
-        else:
-            print("❌ 报告文件未生成")
-            return False, None
+        try:
+            result = subprocess.run(
+                ["python3", radar_script],
+                capture_output=True, text=True, timeout=RADAR_TIMEOUT, cwd=BASE_DIR
+            )
+            output = result.stdout + result.stderr
+            print(output[:2000])
             
-    except subprocess.TimeoutExpired:
-        print("❌ 雷达超时")
-        return False, None
-    except Exception as e:
-        print(f"❌ 雷达异常: {e}")
-        return False, None
+            if result.returncode != 0:
+                print(f"❌ 雷达运行失败 (exit={result.returncode})")
+                if attempt == 0:
+                    continue
+                return False, output
+            
+            # 检查报告是否生成
+            report_path = os.path.join(REPORT_DIR, "demand_report.json")
+            if os.path.exists(report_path):
+                report = load_json(report_path)
+                suggestions = len(report.get("tool_suggestions", [])) if report else 0
+                print(f"\n✅ 雷达完成 — {suggestions} 条建议")
+                return True, report
+            else:
+                print("❌ 报告文件未生成")
+                if attempt == 0:
+                    continue
+                return False, None
+                
+        except subprocess.TimeoutExpired:
+            print(f"❌ 雷达超时 ({RADAR_TIMEOUT}s)")
+            if attempt == 0:
+                continue
+            return False, None
+        except Exception as e:
+            print(f"❌ 雷达异常: {e}")
+            if attempt == 0:
+                continue
+            return False, None
+    
+    return False, None
 
 # ─── 阶段 1: 工厂生产 ──────────────────────────────────────────────────
 

@@ -464,6 +464,31 @@ def check_automation():
         items["雷达上次扫描"] = {"ok": False, "detail": "demand_report.json 不存在"}
         radar_timeout = True
 
+    # 雷达超时模式分析（从pipeline日志中检测120s+超时）
+    try:
+        if os.path.exists(log_path):
+            log = json.load(open(log_path))
+            radar_durations = []
+            for entry in log:
+                if entry.get("radar") == "FAIL" and "end_time" in entry:
+                    try:
+                        start = datetime.fromisoformat(entry["start_time"])
+                        end = datetime.fromisoformat(entry["end_time"])
+                        dur = (end - start).total_seconds()
+                        radar_durations.append(dur)
+                    except Exception:
+                        pass
+            if radar_durations:
+                timeout_count = sum(1 for d in radar_durations if d >= 119)
+                recent_10 = radar_durations[-10:]
+                recent_timeout = sum(1 for d in recent_10 if d >= 119)
+                items["雷达超时分析"] = {
+                    "ok": recent_timeout == 0,
+                    "detail": f"近10次中 {recent_timeout} 次超时 (共{len(radar_durations)}次FAIL, {timeout_count}次≥119s)" if recent_timeout > 0 else f"近10次无超时 (共{len(radar_durations)}次FAIL记录)"
+                }
+    except Exception:
+        pass
+
     # ═══════════════════════════════════════
     # 流水线日志
     # ═══════════════════════════════════════
