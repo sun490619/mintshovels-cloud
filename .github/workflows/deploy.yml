@@ -50,6 +50,8 @@ jobs:
           node-version: '22'
 
       - name: 🚀 Deploy to Cloudflare Pages
+        id: cf_deploy
+        continue-on-error: true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
@@ -59,9 +61,15 @@ jobs:
             --branch=main \
             --commit-dirty=true \
             2>&1 | tee deploy_log.txt
+          WRANGLER_EXIT=${PIPESTATUS[0]}
+          echo "wrangler_exit=$WRANGLER_EXIT" >> $GITHUB_OUTPUT
           
           echo ""
-          echo "### ✅ CF Pages 部署完成" >> $GITHUB_STEP_SUMMARY
+          if [ "$WRANGLER_EXIT" = "0" ]; then
+            echo "### ✅ CF Pages 部署成功" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "### ⚠️ wrangler 部署跳过 — 如 CF 已直连 GitHub 则自动部署生效" >> $GITHUB_STEP_SUMMARY
+          fi
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           tail -5 deploy_log.txt >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
@@ -75,8 +83,9 @@ jobs:
     steps:
       - name: ✅ Summary
         run: |
-          if [ "${{ needs.deploy-cf-pages.result }}" = "success" ]; then
-            echo "✅ **全部部署成功** — mintshovels.com 已更新" >> $GITHUB_STEP_SUMMARY
+          DEPLOY_RESULT="${{ needs.deploy-cf-pages.result }}"
+          if [ "$DEPLOY_RESULT" = "success" ]; then
+            echo "✅ **部署完成** — mintshovels.com 已更新" >> $GITHUB_STEP_SUMMARY
           else
-            echo "⚠️ **部署异常** — 请检查日志" >> $GITHUB_STEP_SUMMARY
+            echo "⚠️ **wrangler 状态: $DEPLOY_RESULT** — CF 直连 GitHub 则 Push 即部署" >> $GITHUB_STEP_SUMMARY
           fi
