@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T08:36:15.148805+00:00",
+  "generated_at": "2026-06-28T09:24:06.148882+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -105,42 +105,42 @@
       "31 岁，在离婚前夜，我终于承认自己从未真正活过",
       "6 年前的洗面奶用完了，现在男的都用啥",
       "大家在家的笔记本会外接显示器吗？",
-      "终端工作区：从 WindTerm 到 NyaTerm",
       "在家远程办公太容易分神了",
+      "终端工作区：从 WindTerm 到 NyaTerm",
       "同事现在学舞蹈 准备用 AI 换脸和换声音在视频社交平台直播～ 这方案可行么？",
       "codex business 48 个月的成品号靠谱吗?",
-      "尼日利亚礼品卡被干掉后老哥们都是怎么订阅的？",
       "skills，真的重要嘛？大家来讨论下吧。",
-      "某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？"
+      "某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？",
+      "看到《曾经倾力帮我的学长...》想到的"
     ],
     "devto": [
       "DEV Community: programming",
+      "5 طرق باستخدام الذكاء الاصطناعي لتحسين إدارة الوقت",
+      "تكنولوجيا الذكاء الاصطناعي في قطاع المالية في الخليج",
+      "Privacy Risks in Medical AI: How Models Can Expose Patient Data",
+      "Fall Asleep in Minutes: The Surprising Science Behind Marfa Public Radio's Snooze-Inducing Broadcasts",
+      "Swift Structs — Computed Properties 🔮",
       "Flux Ai Video — rendereelstudio.ai Jun 2026",
       "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
       "Nuitka Obfuscation — prometheusdev.io Jun 2026",
       "Online License Server — prometheusdev.io Jun 2026",
       "6 Spring Boot Patterns Every Java Developer Should Know (with working code)",
       "Unlock GameCube Secrets: Master Decompiling with Decomp Academy - Get Started with C Code Today",
-      "Revolutionize Blogging: How a Single Bash Script Can Launch Your Blog in Minutes - Bashblog Review",
-      "Flux Ai Video — rendereelstudio.ai Jun 2026",
-      "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
-      "Nuitka Obfuscation — prometheusdev.io Jun 2026",
-      "Online License Server — prometheusdev.io Jun 2026",
-      "Movimiento 0deps — Dependencias Locales, Contratos Inmutables y Seguridad por Diseño"
+      "Revolutionize Blogging: How a Single Bash Script Can Launch Your Blog in Minutes - Bashblog Review"
     ],
     "lobsters": [
       "A peek into Reddit's anti-spam internals",
       "Data Access Patterns That Makes Your CPU Really Angry",
       "The feature in OxCaml that more languages should steal",
       "Guards! Guards",
-      "Excessive nil pointer checks in Go",
       "Prism: An Impure Functional Language With Typed Effects",
+      "Excessive nil pointer checks in Go",
+      "The Old Computer Challenge",
       "It's dead, Jim! (UEFI CA expiry)",
       "Linux 7.2 Improves Anonymous/Unnamed Pipe Performance For Shell Pipelines &amp; More",
-      "The Old Computer Challenge",
+      "Building an Open-Source Robot Vacuum — Meet oomwoo",
       "NLNet Labs LLM Policy",
       "FIFA Interactive Bracket (World Cup)",
-      "Building an Open-Source Robot Vacuum — Meet oomwoo",
       "Shard your locks: benchmarking 6 Go cache designs",
       "OpenZL",
       "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
@@ -148,7 +148,7 @@
       "Text files as a user interface",
       "Call for participation",
       "C in the Linux Kernel",
-      "AI Learns the \"Dark Art\" of RF Chip Design"
+      "MAX models can now run on Apple silicon GPUs"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -173,33 +173,35 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Anonymous GitHub account mass-dropping undisclosed 0-days 🔥790pts 💬306",
-      "DSpark: Speculative decoding accelerates LLM inference [pdf] 🔥756pts 💬318",
-      "OpenRA 🔥691pts 💬131",
-      "Fintech Engineering Handbook 🔥550pts 💬171",
-      "The case for physical media ownership 🔥427pts 💬283",
-      "Suspicious Discontinuities (2020) 🔥234pts 💬74",
-      "AI learns the “dark art” of RFIC design 🔥230pts 💬149",
-      "Asian AI startups launch Mythos-like models 🔥220pts 💬170",
-      "Turn your site into a place people can bump into each other 🔥220pts 💬90",
-      "The best response to AI slop and online noise is from Robin Williams 🔥202pts 💬113",
-      "Marfa Public Radio Puts You to Sleep 🔥195pts 💬51",
-      "Reducing tick density along recreational trails in Ottawa, Canada 🔥194pts 💬102",
-      "Ford hired AI and sacked humans. It backfired badly 🔥170pts 💬92",
-      "Choosing a Public DNS Resolver 🔥147pts 💬44",
-      "Post-Mythos Cybersecurity: Keep calm and carry on 🔥146pts 💬54",
-      "Feds Killed Polestar and Spared Volvo 🔥141pts 💬97",
-      "AMD Strix Halo RDMA Cluster Setup Guide 🔥123pts 💬34",
-      "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C 🔥114pts 💬37",
-      "Enhancing X11 Application Security with LXC (2025) 🔥63pts 💬36",
-      "WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups 🔥59pts 💬4",
-      "Wayfinder Router: deterministic routing of queries between local and hosted LLM 🔥56pts 💬11",
-      "Space Shuttle Endeavour's 20-story vertical display 🔥54pts 💬8",
-      "Regular expressions that work \"everywhere\" 🔥51pts 💬24",
+      "Anonymous GitHub account mass-dropping undisclosed 0-days 🔥798pts 💬313",
+      "DSpark: Speculative decoding accelerates LLM inference [pdf] 🔥760pts 💬320",
+      "OpenRA 🔥705pts 💬132",
+      "Fintech Engineering Handbook 🔥558pts 💬176",
+      "The case for physical media ownership 🔥434pts 💬294",
+      "Suspicious Discontinuities (2020) 🔥239pts 💬77",
+      "AI learns the “dark art” of RFIC design 🔥231pts 💬151",
+      "Turn your site into a place people can bump into each other 🔥225pts 💬93",
+      "Marfa Public Radio Puts You to Sleep 🔥216pts 💬56",
+      "The best response to AI slop and online noise is from Robin Williams 🔥213pts 💬118",
+      "Reducing tick density along recreational trails in Ottawa, Canada 🔥198pts 💬105",
+      "Ford hired AI and sacked humans. It backfired badly 🔥187pts 💬111",
+      "Choosing a Public DNS Resolver 🔥156pts 💬49",
+      "Feds Killed Polestar and Spared Volvo 🔥149pts 💬107",
+      "Post-Mythos Cybersecurity: Keep calm and carry on 🔥148pts 💬54",
+      "AMD Strix Halo RDMA Cluster Setup Guide 🔥132pts 💬38",
+      "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C 🔥119pts 💬40",
+      "Enhancing X11 Application Security with LXC (2025) 🔥67pts 💬39",
+      "WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups 🔥67pts 💬4",
+      "Wayfinder Router: deterministic routing of queries between local and hosted LLM 🔥63pts 💬13",
+      "Space Shuttle Endeavour's 20-story vertical display 🔥56pts 💬9",
+      "Regular expressions that work \"everywhere\" 🔥54pts 💬25",
       "How do you keep Web MIDI from crashing a 1983 synthesizer?",
+      "Bashblog – a single bash script to create blogs",
       "Turning music into a chore is how I became a musician (2022)"
     ],
     "hn_show": [
+      "FOMO – See what your community pays attention to — featured on Hacker News (🔥1pts)",
+      "Beaches of Greece, natural-language search for Greek beaches — featured on Hacker News (🔥1pts)",
       "CCA-F Gotchas – exam pitfalls turned into an earworm playlist — featured on Hacker News (🔥1pts)",
       "Hikaru Labs – A private, 100% local alternative to iLoveIMG — featured on Hacker News (🔥2pts)",
       "React Router V8 integration for LinguiJS — featured on Hacker News (🔥3pts)",
@@ -212,14 +214,12 @@
       "Git-temp – scratchpad folder for AI agents; doesn't clutter Git status — featured on Hacker News (🔥4pts)",
       "FSM – an advanced system monitor for Linux — featured on Hacker News (🔥12pts)",
       "SpinnerRecruit – targeted job ads in CLI for AI wait states — featured on Hacker News (🔥2pts)",
-      "Decomp Academy – Learn to decompile GameCube games into matching C — featured on Hacker News (🔥114pts)",
+      "Decomp Academy – Learn to decompile GameCube games into matching C — featured on Hacker News (🔥119pts)",
       "Shopify UCP is insanely powerful — featured on Hacker News (🔥3pts)",
       "Moumantai – self-hosted, agent-driven apps you can use on any device — featured on Hacker News (🔥2pts)",
       "QR code renderer in a TrueType font — featured on Hacker News (🔥4pts)",
       "Engye – transfer files between any two devices by scanning a QR code — featured on Hacker News (🔥8pts)",
-      "FIFA 2026 bracket predictor – see live crowd % as picks come in — featured on Hacker News (🔥2pts)",
-      "Pressn't, a site where you can have a single post — featured on Hacker News (🔥5pts)",
-      "Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs — featured on Hacker News (🔥3pts)"
+      "FIFA 2026 bracket predictor – see live crowd % as picks come in — featured on Hacker News (🔥2pts)"
     ],
     "hn_ask_tools": [
       "Finding It Challenging to Maintain Software Created with Coding Agents? — user asking for tool recommendation (🔥6pts)",
@@ -238,7 +238,7 @@
       "Ask HN: Non-profit school possibly hacked, locked out of Google Workspace. — user asking for tool recommendation (🔥6pts)",
       "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal) — user asking for tool recommendation (🔥17pts)",
       "Show HN: Firehooks – Get app users from TikTok without paid ads — user asking for tool recommendation (🔥1pts)",
-      "Running a software jam in a world of slop — user asking for tool recommendation (🔥53pts)",
+      "Running a software jam in a world of slop — user asking for tool recommendation (🔥54pts)",
       "Ask HN: Is there a quiet market for 'no enforced AI' dev jobs? — user asking for tool recommendation (🔥7pts)",
       "Ask HN: How do we measure software in LLM era? — user asking for tool recommendation (🔥1pts)",
       "How do you handle high-stakes decisions when your brain is at 99% capacity? — user asking for tool recommendation (🔥1pts)",
@@ -292,59 +292,60 @@
       "Google OpenRL is an Experimental Self-hosted API for LLM Post-Training Fine-Tuning <img src=\"https://res.infoq.com/news/2026/06/google-open-rl-fine-tuning/en/headerimage/google-open-rl-fine-tuning-1782322457170.jpeg\"/><p>Google's GKE"
     ],
     "google_trends": [
+      "alan ritchson motor city movie",
+      "heat wave",
       "selena gomez",
-      "zim vs ban",
+      "bangladesh vs zimbabwe",
       "buc ee's locations",
       "from season 5",
       "msi lol",
       "weather tornado warning",
       "cardi b",
-      "posiciones de selección de fútbol de argelia contra selección de fútbol de austria",
-      "vergil ortiz",
-      "amanda bynes"
+      "posiciones de selección de fútbol de argelia contra selección de fútbol de austria"
     ],
     "baidu": [
-      "中国密集开展周边外交展现睦邻之道",
+      "山东之行 总书记再提政绩观",
       "本届世界杯唯一0进球球队诞生",
-      "韩国足协取消为韩国队接机",
+      "“爸爸头发短了 就演不了坏人了”",
       "专家详解“人造太阳”核心技术",
-      "曝佛得角队长正因强奸指控接受调查",
-      "小马被游客无人机惊扰 狂奔炸肺死亡",
-      "世界杯32强对阵表来了",
-      "伊朗队90分钟被“耍”6次",
-      "女生毕业寄几百斤包裹妈妈直呼可怕",
+      "伊朗队队长怒斥国际足联：极其不公平",
       "200万粉网红诋毁袁隆平被无限期封禁",
-      "乌拉圭门将：向全国人民道歉",
+      "韩国足协取消为韩国队接机",
+      "世界杯32强对阵表来了",
+      "世界杯伊朗队从天堂跌入地狱",
+      "小马被游客无人机惊扰 狂奔炸肺死亡",
+      "伊朗队90分钟被“耍”6次",
       "“男子全身被熏黑疑遭雷击”不实",
       "台州一派出所被曝集体去KTV招陪侍",
-      "男生高考657分超预期武大现场抢人",
-      "伊朗队最后时刻出局",
-      "韩媒气到给主帅打码",
+      "乌拉圭门将：向全国人民道歉",
+      "考生分数够报清华 仍坚定选择南大",
+      "李在明怒批：韩国队令公众极为失望",
       "割草女孩代表北大回母校招生",
-      "巴西小将认不出日本球员",
-      "世界杯伊朗队从天堂跌入地狱",
-      "伊朗队队长怒斥国际足联：极其不公平"
+      "韩媒气到给主帅打码",
+      "维嘉回应“人老了做什么都心酸”",
+      "伊朗队最后时刻出局"
     ],
     "wikipedia": [
-      "Qudus Onikeku",
-      "Sentinelese language",
-      "San Cristóbal school shooting",
-      "Grasse school shooting",
-      "Carmen de Patagones school shooting",
-      "Emsdetten school shooting",
-      "Om Prakash Malik",
-      "Nic Diederichs Technical High School slashing",
-      "Placido Zuloaga",
-      "Jonah Nimoy",
-      "2026–27 Gamba Osaka season",
-      "Paraphyola",
-      "List of ancient great powers",
-      "Nanaimo NightOwls",
-      "OSF Saint Katharine Medical Center",
-      "Greek War of Independence",
-      "Nandi (Hinduism)",
-      "Shannon Beveridge",
-      "Boiates"
+      "Finance Act 2004",
+      "Siege of Petra (550–551)",
+      "Jornada of Alexis Menesis",
+      "Hot Spot 2 Much",
+      "2010–11 Pumas UNAM season",
+      "Finance Act 2003",
+      "Dream Note (Indian band)",
+      "2010–11 Nemzeti Bajnokság III",
+      "Naomi Sharon",
+      "Joseph Chennoth",
+      "2010–11 C.F. Monterrey season",
+      "Dana King (singer)",
+      "Danilo Suarez",
+      "2009 Lone Grove tornado",
+      "União Biological Reserve",
+      "2026 Philippines men's national basketball team results",
+      "Chromie",
+      "Kevin Newman (politician)",
+      "2007 Copa del Rey de Baloncesto",
+      "Sr-Latn"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -429,28 +430,28 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
+      "github trending topic: database",
+      "github trending topic: react",
+      "github trending topic: front end",
+      "github trending topic: chrome",
+      "github trending topic: awesome lists",
+      "github trending topic: typescript",
+      "github trending topic: compiler",
+      "github trending topic: node.js",
+      "github trending topic: nextjs",
+      "github trending topic: mcp",
       "github trending topic: project management",
-      "github trending topic: lyrics-archive",
+      "github trending topic: scala",
+      "github trending topic: npm",
+      "github trending topic: llm",
+      "github trending topic: mathematics",
       "github trending topic: react native",
       "github trending topic: code quality",
-      "github trending topic: typescript",
-      "github trending topic: music",
-      "github trending topic: css",
-      "github trending topic: lyrics-collection",
-      "github trending topic: javascript",
-      "github trending topic: awesome lists",
-      "github trending topic: chrome",
-      "github trending topic: compiler",
-      "github trending topic: ant-design",
-      "github trending topic: antd",
-      "github trending topic: node.js",
-      "github trending topic: front end",
+      "github trending topic: nodejs",
       "github trending topic: python",
-      "github trending topic: database",
-      "github trending topic: scala",
-      "github trending topic: react-component",
-      "github trending topic: npm",
-      "github trending topic: react"
+      "github trending topic: portfolio",
+      "github trending topic: css",
+      "github trending topic: javascript"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -538,6 +539,15 @@
       "name_zh": "单位换算"
     },
     {
+      "keyword": "Bashblog – a single bash script to create blogs",
+      "matched": "log",
+      "category": "dev",
+      "subcat": "devops",
+      "type": "tool",
+      "name": "Log Viewer",
+      "name_zh": "日志查看器"
+    },
+    {
       "keyword": "Data Privacy while using API tools — user asking for tool recommendation (🔥4pts)",
       "matched": "api",
       "category": "dev",
@@ -614,7 +624,6 @@
     "ppt-master",
     "claude-howto",
     "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
-    "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -635,6 +644,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
+    "Bashblog – a single bash script to create blogs",
     "Data Privacy while using API tools — user asking for tool recommendation (🔥4pts)",
     "electra-base-discriminator",
     "electra-base-discriminator",
@@ -652,10 +662,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 177,
+    "raw_count": 178,
     "valid_count": 39,
-    "rejected_count": 138,
-    "rejection_rate": 78.0,
+    "rejected_count": 139,
+    "rejection_rate": 78.1,
     "rejected_samples": [
       "allcontributors",
       "design.md",
@@ -670,11 +680,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 353,
+    "total_captured": 354,
     "chatter_blocked": 21,
     "chatter_rate": 5.9,
-    "tool_signals_found": 177,
-    "tool_signal_rate": 50.1,
+    "tool_signals_found": 178,
+    "tool_signal_rate": 50.3,
     "chatter_samples": [
       {
         "text": "同事现在学舞蹈 准备用 AI 换脸和换声音在视频社交平台直播～ 这方案可行么？",
@@ -740,17 +750,17 @@
         ]
       },
       {
+        "text": "alan ritchson motor city movie",
+        "category": "entertainment",
+        "matched": [
+          "movie"
+        ]
+      },
+      {
         "text": "from season 5",
         "category": "entertainment",
         "matched": [
           "season"
-        ]
-      },
-      {
-        "text": "msi lol",
-        "category": "chatter",
-        "matched": [
-          "lol"
         ]
       }
     ],
@@ -843,6 +853,13 @@
         ]
       },
       {
+        "text": "Swift Structs — Computed Properties 🔮",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['Swift']"
+        ]
+      },
+      {
         "text": "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
         "confidence": 60,
         "features": [
@@ -856,13 +873,6 @@
         "confidence": 15,
         "features": [
           "技术概念: ['Java']"
-        ]
-      },
-      {
-        "text": "Unlock GameCube Secrets: Master Decompiling with Decomp Academy - Get Started with C Code Today",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('Code Today', 'To', '', '', '', '')]"
         ]
       }
     ]

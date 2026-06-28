@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-28T04:41:09.822479+00:00     ║
+║       启动时间: 2026-06-28T09:24:05.988172+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 8 topics
+  ✅ 10 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 353
-  🚫 闲聊拦截: 11 条 (3.1%)
-  🧠 工具信号: 184 条 (52.1%)
+  原始信号总量: 354
+  🚫 闲聊拦截: 21 条 (5.9%)
+  🧠 工具信号: 178 条 (50.3%)
 
   📋 闲聊拦截样例:
      [chatter] 同事现在学舞蹈 准备用 AI 换脸和换声音在视频社交平台直播～ 这方案可行么？
+     [ad] 某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？
+     [entertainment] Turning music into a chore is how I became a musician (2022)
      [entertainment] Show HN: As Music Theory – Test your sheet music sight readi
      [news] Roblox parental controls are a dystopian security disaster —
-     [chatter] Ventora Expands Its AI Business Builder to Help Solo Founder
-     [chatter] Building Event-Driven Systems That Can Recover With Confiden
 
   🧠 工具信号样例:
      [置信度20%] allcontributors
@@ -99,44 +99,47 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['md']
      [置信度20%] PowerToys
        ↳ 输入→输出链式: [('PowerToys', 'To', '', '', '', '')]
-     [置信度15
+     [置信度15%] ppt-master
 
-✅ 雷达完成 — 16 条建议
+
+✅ 雷达完成 — 18 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 353 条
-     🚫 闲聊拦截: 11 条 (3.1%)
-     🧠 工具信号: 184 条 (52.1%)
+     原始抓取: 354 条
+     🚫 闲聊拦截: 21 条 (5.9%)
+     🧠 工具信号: 178 条 (50.3%)
      闲聊样例: 同事现在学舞蹈 准备用 AI 换脸和换声音在视频社交平台直播～ 这方案可行么？... [chatter]
      工具信号样例: allcontributors... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 184 → 有效 38
-     拒绝率: 79.3%
+     工具信号 178 → 有效 39
+     拒绝率: 78.1%
 
-  📊 意图分类器审计 — 审查 16 条需求
+  📊 意图分类器审计 — 审查 18 条需求
   ──────────────────────────────────────────────────────────────────────
   ✅ 通过 (13):
+     [PASS  |  +70] Video Converter  [?]
+     [PASS  |  +55] Generator  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
-     [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
      [WARN  |  +36] API Tester  [?]
-     [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
      [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
-  🚫 拦截 (3):
+  🚫 拦截 (5):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
+     [BLOCK |  +10] Renderer  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
+     [BLOCK |  +20] Log Viewer  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
 
 ============================================================
@@ -151,17 +154,26 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-06-28T04:41:09.946239+00:00
+📊 Demand report loaded: 18 suggestions
+   Generated at: 2026-06-28T09:24:06.148882+00:00
    Already in catalog: 91 tools
    Previously produced: 0 tools
    Existing tool pages: 75 files
    Next shovel ID: shovel-037
    Next script ID: script-011
 
-✅ All suggested tools already exist in catalog. Nothing to produce.
+🔧 Producing 1 new tools:
+   • Log Viewer (日志查看器) [dev/devops]
 
-📋 Running tests on current codebase...
+  🛠  Producing: Log Viewer → shovel-037
+     📄 Page: tools/log-viewer.html
+     ✅ Gate check passed
+  ✅ Inserted 1 entries into index.html
+
+  📝 Factory log updated
+
+==================================================
+🧪 TEST PHASE
 
 🧪 Running automated tests...
 ----------------------------------------
@@ -177,7 +189,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   ✅ Lucide Icons CDN
   [TOOLS Database]
   ✅ TOOLS array defined
-  ✅ TOOLS entries (46)
+  ✅ TOOLS entries (47)
   ✅ Has Web Tools (🔧)
   ✅ Has Scripts (📜)
   ✅ Has Live tools
@@ -205,22 +217,39 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
+  🌐 Testing local server on port 9956...
+  ✅ Local server: HTTP 200, 372326 bytes
 
-✅ 工厂完成 — 本次生产 0 个工具
+✅ All tests passed!
+
+==================================================
+⏭️  Skipping deployment (--no-deploy)
+==================================================
+
+==================================================
+🏭 Pipeline complete!
+   New tools: 1
+   • shovel-037: Log Viewer
+   Tests: ✅ Passed
+==================================================
+
+
+✅ 工厂完成 — 本次生产 1 个工具
+   🛠  Producing: Log Viewer → shovel-037
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
 ============================================================
-   生产工具健康率: 78.3% (46 个工具, 10 个问题)
+   生产工具健康率: 76.6% (47 个工具, 11 个问题)
    问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失', 'shovel-030: 文件缺失', 'shovel-031: 文件缺失', 'shovel-032: 文件缺失', 'shovel-033: 文件缺失', 'shovel-034: 文件缺失', 'shovel-035: 文件缺失', 'shovel-036: 文件缺失']
-   ⚠️ 门禁警告 — 健康率 78.3% 低于90%阈值
+   ⚠️ 门禁警告 — 健康率 76.6% 低于90%阈值
 
 ============================================================
 🧪 阶段 2: 全量工具测试
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 46 工具, 46 在线, 46 ready:true, 0 ready:false
+    ✅ TOOLS 数据库: 47 工具, 47 在线, 46 ready:true, 1 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
@@ -245,6 +274,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ json-formatter.html
     ✅ json_schema_generator.html
     ✅ llm-tool.html
+    ✅ log-viewer.html
     ✅ markdown-editor.html
     ✅ note-taker.html
     ✅ pdf-editor.html
@@ -300,7 +330,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ world_map_generator.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 371819B
+    ✅ index.html — HTTP 200, 372326B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/api-tester.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
@@ -323,6 +353,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/json-formatter.html — HTTP 200
     ✅ tools/json_schema_generator.html — HTTP 200
     ✅ tools/llm-tool.html — HTTP 200
+    ✅ tools/log-viewer.html — HTTP 200
     ✅ tools/markdown-editor.html — HTTP 200
     ✅ tools/note-taker.html — HTTP 200
     ✅ tools/pdf-editor.html — HTTP 200
@@ -377,27 +408,28 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/viewer.html — HTTP 200
     ✅ tools/world_map_generator.html — HTTP 200
 
-  📊 测试汇总: 159 通过, 0 失败
+  📊 测试汇总: 161 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
-    ✅ 没有待上线的工具
+    🚀 1 个新工具测试通过，已标记 ready:true 正式上线
 
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-28T04:41:09.822479+00:00 → 2026-06-28T04:41:22.204459+00:00
+  ⏱  耗时: 2026-06-28T09:24:05.988172+00:00 → 2026-06-28T09:24:18.873077+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
   🔒 门禁: ⚠️ WARN
-  💚 健康率: 78.3%
+  💚 健康率: 76.6%
   🧠 AI组件:
      ✅ generator: OK
      ✅ validator: OK
      ✅ analyzer: OK
-  🧪 测试: 159✅ 0❌
-  🔧 工具总数: 46
-  📄 独立页面: 75
+  🧪 测试: 161✅ 0❌
+  🔧 工具总数: 47
+  🏷️  新上线: 1 个工具 (已标记 ready:true)
+  📄 独立页面: 76
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================
