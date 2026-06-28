@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T19:41:00.424876+00:00",
+  "generated_at": "2026-06-28T21:50:19.164377+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -99,40 +99,40 @@
     ],
     "devto": [
       "DEV Community: programming",
-      "How Online File Conversion Supports World Cup Stadium Operations",
-      "AI Language Learning",
-      "You Ain't Gonna Need It (YAGNI): The Shocking True Cost of Over-Engineering and How to Avoid It",
-      "Uncovering the Secrets of Space Exploration: A Rare Look Inside the Space Shuttle's I/O Processor Circuit Boards",
-      "Revolutionizing Medical Diagnostics: How AI-Powered Tools Like Claude Code Are Changing the Way We Interpret MRI Results Forever",
-      "Power BI Data Modeling Unleashed: Master Schemas, Relationships, and Joins for High-Performance Reporting",
-      "Why does training a machine learning model still feel like it's 2016?",
-      "How we built a voice-first, screen-aware product guide with the OpenAI Realtime API",
-      "ayatsaadati — Complete Guide",
-      "Stop Treating IoT Data Like a Logging Problem—It's an Inference Problem",
-      "A local AI chat app in a single HTML file. No build, no sign-up.",
-      "Elaboration on manual testing"
+      "Why your AI coding agent ships confident, slightly-wrong code (and why rewording the prompt never fixes it)",
+      "The First Website Is Still Online",
+      "The 4 PM Rush: A Day Inside a Growing Food Tech Platform",
+      "Git Branching Like a Jedi Master: The One Best Practice That Changed My Code",
+      "The End of an Era: Boeing 747's Last Flight - What's Next for Air Travel?",
+      "Uncover the Flavors of the Past: 5,000 Rare Menus from 1880-1920 Revealed - Explore the New York Public Library's Buttolph Collection",
+      "DevTime v0.1.1 - I made the first-run experience much easier",
+      "Make Your Project Decisions Queryable for AI Coding Sessions",
+      "Why Dirty Air Filters Increase Static Pressure and Reduce HVAC Performance",
+      "AI Life: Just Another Day of Pretending to Be Sentient",
+      "I added an in-app currency to my indie macOS screen-time app",
+      "I measured how many tech job postings actually list a salary. It's 14%"
     ],
     "lobsters": [
       "Towards Understandable Software",
       "How VictoriaLogs Stores Your Logs in a Columnar Layout",
       "A peek into Reddit's anti-spam internals",
+      "Regular expressions that work “everywhere”",
+      "A Typed, Algebraic Approach to Parsing (2019)",
       "Data Access Patterns That Makes Your CPU Really Angry",
+      "Installing SerenityOS on My Old ThinkPad T60",
       "The feature in OxCaml that more languages should steal",
       "Building an Open-Source Robot Vacuum — Meet oomwoo",
-      "A Typed, Algebraic Approach to Parsing",
-      "Regular expressions that work “everywhere”",
       "Prism: An Impure Functional Language With Typed Effects",
-      "Installing SerenityOS on My Old ThinkPad T60",
-      "Guards! Guards",
       "We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
-      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
-      "It's dead, Jim! (UEFI CA expiry)",
-      "Nourish - a wayland compositor with infinite zoom and pan",
-      "MAX models can now run on Apple silicon GPUs",
-      "Excessive nil pointer checks in Go",
-      "The Old Computer Challenge",
+      "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
       "Examining circuit boards from the Space Shuttle's I/O Processor",
-      "A hash proves the bytes, not the source"
+      "Guards! Guards",
+      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+      "HyperCard on the Macintosh",
+      "It's dead, Jim! (UEFI CA expiry)",
+      "Build System Improvements, Centralized Overview, etc",
+      "The Old Computer Challenge",
+      "Modeling the COVID-19 Outbreak with J"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -157,63 +157,63 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "EU to legislate about Chat Control behind closed doors 🔥431pts 💬249",
-      "Marfa Public Radio Puts You to Sleep 🔥369pts 💬112",
-      "Flock cameras track more than your license plate, and they're spreading fast 🔥298pts 💬216",
-      "5k menus from the New York Public Library’s Buttolph Collection (1880-1920) 🔥257pts 💬67",
-      "Michigan bill would bar employers from requiring after-hours coms with workers 🔥183pts 💬124",
-      "The curious case of the disappearing Polish S (2015) 🔥181pts 💬51",
-      "I used Claude Code to get a second opinion on my MRI 🔥155pts 💬239",
-      "A way to exclude sensitive files issue still open for OpenAI Codex 🔥152pts 💬97",
-      "The KIDS Act would require age checks to get online 🔥148pts 💬173",
-      "Google limits Meta's use of its Gemini AI models 🔥126pts 💬59",
-      "DLL that was not present in memory despite not being formally unloaded 🔥107pts 💬38",
-      "Do Babies Dream of Baby Sheep? 🔥93pts 💬30",
-      "California legislature agrees to upload driver's licenses to national database 🔥86pts 💬39",
-      "Show HN: Zanagrams 🔥83pts 💬24",
-      "Trade, merchants, and the lost cities of the Bronze Age (2019) [pdf] 🔥65pts 💬62",
-      "Reflections on software engineering in the age of AI 🔥65pts 💬39",
-      "Daisugi, the Japanese technique of growing trees out of other trees (2020) 🔥61pts 💬20",
-      "The Boeing 747 begins its final descent 🔥60pts 💬52",
-      "Examining circuit boards from the Space Shuttle's I/O Processor 🔥56pts 💬11",
-      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD 🔥55pts 💬9",
-      "The MUMPS 76 Primer – anniversary edition 🔥54pts 💬25",
-      "Tokenmaxxing is dead, long live tokenmaxxing 🔥52pts 💬62",
-      "The cost YAGNI was never about",
+      "EU to legislate about Chat Control behind closed doors 🔥541pts 💬308",
+      "Marfa Public Radio Puts You to Sleep 🔥377pts 💬116",
+      "5k menus from the New York Public Library’s Buttolph Collection (1880-1920) 🔥289pts 💬77",
+      "I used Claude Code to get a second opinion on my MRI 🔥250pts 💬361",
+      "The KIDS Act would require age checks to get online 🔥219pts 💬206",
+      "Michigan bill would bar employers from requiring after-hours coms with workers 🔥215pts 💬150",
+      "The curious case of the disappearing Polish S (2015) 🔥191pts 💬62",
+      "Librepods: AirPods liberated 🔥171pts 💬53",
+      "A way to exclude sensitive files issue still open for OpenAI Codex 🔥165pts 💬110",
+      "GLM 5.2 beats Claude in our benchmarks 🔥160pts 💬48",
+      "Show HN: Zanagrams 🔥117pts 💬41",
+      "The Boeing 747 begins its final descent 🔥99pts 💬100",
+      "Tokenmaxxing is dead, long live tokenmaxxing 🔥83pts 💬100",
+      "Daisugi, the Japanese technique of growing trees out of other trees (2020) 🔥83pts 💬25",
+      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD 🔥75pts 💬13",
+      "The US Used to Demand the Best Tech. Now We Ban It 🔥72pts 💬56",
+      "Historical memory prices 1960-2026 🔥71pts 💬20",
+      "Examining circuit boards from the Space Shuttle's I/O Processor 🔥68pts 💬13",
+      "Professor denounces mass AI fraud on an exam at Brown 🔥62pts 💬56",
+      "The MUMPS 76 Primer – anniversary edition 🔥62pts 💬28",
       "More evidence is consistent with possible ancient life on Mars (2025)",
-      "Designing a Personal Pebble Watchface"
+      "Show HN: DRM-Free Books",
+      "TOP500 at ISC’26: We have a New Number 1 Supercomputer",
+      "Programmable Probabilistic Computer with 1M p-bits",
+      "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch"
     ],
     "hn_show": [
-      "NanoEuler – GPT-2 scale model in pure C/CUDA from scratch — featured on Hacker News (🔥2pts)",
-      "Use-zerostack – delegate any task to a lightweight coding agent — featured on Hacker News (🔥1pts)",
-      "I built an opinionated minimalist ePub/pdf online reader — featured on Hacker News (🔥1pts)",
-      "Snarl – Fast Shacl Validator — featured on Hacker News (🔥1pts)",
+      "I built a \"living proof-of-work\" for builders ( that persists) — featured on Hacker News (🔥1pts)",
+      "Rendering Markdown with LaTeX in the Terminal — featured on Hacker News (🔥2pts)",
+      "Looped Whisper (FOSS) – Voice transcription menubar app for macOS — featured on Hacker News (🔥1pts)",
+      "Adipoli: a hand-wired keyboard for opposable thumbs — featured on Hacker News (🔥2pts)",
+      "Drift, write LLM agents in English and transpile to async Python — featured on Hacker News (🔥2pts)",
+      "NameSnag – Get alerted when a watched domain appears available — featured on Hacker News (🔥2pts)",
+      "I reverse-engineered the RLF log format used by REMUS underwater drones — featured on Hacker News (🔥1pts)",
+      "Gotaper – A minimalist, journal-inspired race planner for athletes — featured on Hacker News (🔥1pts)",
+      "Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs — featured on Hacker News (🔥12pts)",
+      "NanoEuler – GPT-2 scale model in pure C/CUDA from scratch — featured on Hacker News (🔥22pts)",
+      "Use-zerostack – delegate any task to a lightweight coding agent — featured on Hacker News (🔥3pts)",
+      "I built an opinionated minimalist ePub/pdf online reader — featured on Hacker News (🔥5pts)",
+      "Snarl – Fast Shacl Validator — featured on Hacker News (🔥2pts)",
       "Prose or Con, can you detect AI writing? — featured on Hacker News (🔥1pts)",
       "Iwtlp – Learn to code by solving real domain based projects — featured on Hacker News (🔥1pts)",
       "Borkd – Is it your code or the platform? One dashboard instead of ten — featured on Hacker News (🔥1pts)",
       "Caliper – pass@k reliability testing for Claude Code and Codex skills — featured on Hacker News (🔥2pts)",
       "Tool to Convert PDF to a Video — featured on Hacker News (🔥1pts)",
       "Verigate – Cryptographic authorization receipts for AI agents — featured on Hacker News (🔥1pts)",
-      "Bcad – An OpenSCAD-syntax CAD powered by OpenCASCADE — featured on Hacker News (🔥1pts)",
-      "Paige – A spoiler-free AI book chat — featured on Hacker News (🔥1pts)",
-      "Shikhu – Understand the code your agents write — featured on Hacker News (🔥1pts)",
-      "DRM-Free Books — featured on Hacker News (🔥23pts)",
-      "A directory of open source alternatives to proprietary software — featured on Hacker News (🔥1pts)",
-      "Argus – Capture, replay and QA every Claude Code session your team runs — featured on Hacker News (🔥1pts)",
-      "GalaxDB – an open-source AI-native database(OLTP+vector+versioning) — featured on Hacker News (🔥1pts)",
-      "Howmuchwater.ai — featured on Hacker News (🔥1pts)",
-      "Unobin compiles Infrastructure as Code to one binary — featured on Hacker News (🔥3pts)",
-      "Tsar-MCP – How to Create an MCPServer Aspect in C/C++ — featured on Hacker News (🔥1pts)"
+      "Bcad – An OpenSCAD-syntax CAD powered by OpenCASCADE — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Ask HN: Examples of AI taste? — user asking for tool recommendation (🔥1pts)",
       "Show HN: role-model, a router for hybrid local/cloud AI — user asking for tool recommendation (🔥2pts)",
+      "Finding It Challenging to Maintain Software Created with Coding Agents? — user asking for tool recommendation (🔥8pts)",
       "Show HN: Discover content in any YouTube channel with RAG — user asking for tool recommendation (🔥2pts)",
       "Show HN: FPGA design acceleration – idiomatic Python to synthesizable Verilog — user asking for tool recommendation (🔥2pts)",
       "Data Privacy while using API tools — user asking for tool recommendation (🔥4pts)",
       "Show HN: TBD, a Mac-native CLI-forward coding agent multiplexer — user asking for tool recommendation (🔥4pts)",
       "Ask HN: What are my options after a responsible disclosure went wrong? — user asking for tool recommendation (🔥2pts)",
-      "Show HN: BetterDB, MIT Valkey-native context layer for AI agents — user asking for tool recommendation (🔥5pts)",
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
@@ -223,19 +223,19 @@
       "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal) — user asking for tool recommendation (🔥17pts)",
       "Show HN: Firehooks – Get app users from TikTok without paid ads — user asking for tool recommendation (🔥1pts)",
       "Show HN: Sambee – browser-based file manager for SMB shares and local drives — user asking for tool recommendation (🔥2pts)",
+      "Ask HN: How do I capture the right audience and find the product market fit — user asking for tool recommendation (🔥6pts)",
+      "Running a software jam in a world of slop — user asking for tool recommendation (🔥61pts)",
       "Ask HN: How do we measure software in LLM era? — user asking for tool recommendation (🔥1pts)",
       "How do you handle high-stakes decisions when your brain is at 99% capacity? — user asking for tool recommendation (🔥1pts)",
       "Show HN: Statey – the database your AI shares across every chat, over MCP — user asking for tool recommendation (🔥3pts)",
-      "Show HN: I built a tool that matches Founders to VCs based on their pitch deck — user asking for tool recommendation (🔥3pts)",
-      "Show HN: Appaca – AI Workspace for Operators — user asking for tool recommendation (🔥5pts)",
-      "Show HN: The most Y Combinator YC application: it applied itself — user asking for tool recommendation (🔥5pts)",
+      "ASK HN: Any suggestions or open source tools that capture the screen — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Options for an independent AI researcher with strong results? — user asking for tool recommendation (🔥2pts)",
       "Hate \"The Algorithm?\" RSS Is One of the Tools You've Been Looking For — user asking for tool recommendation (🔥6pts)",
-      "Show HN: Contraband – Ticketed VR cinema for indie and AI-made films — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Claude Code Session Trace/Browse Tool (Python) — user asking for tool recommendation (🔥2pts)",
-      "A 30 Year OG Application Developer Available — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Open-source tool for reverse engineering ChatGPT queries about brands — user asking for tool recommendation (🔥1pts)",
-      "Ask HN: Is WordPress the best way to create new websites for beginner — user asking for tool recommendation (🔥5pts)"
+      "Ask HN: Is WordPress the best way to create new websites for beginner — user asking for tool recommendation (🔥10pts)",
+      "Show HN: A directory of open source alternatives to proprietary software — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Hikaru Labs – A private, 100% local alternative to iLoveIMG — user asking for tool recommendation (🔥3pts)",
+      "Show HN: Sasso – pure-Rust SCSS compiler, byte-exact to current dart-sass — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Play puzzle games in a feed like TikTok — user asking for tool recommendation (🔥6pts)"
     ],
     "hackernoon": [
       "Ownership Coins: Crypto's Answer to Broken Token Holder Rights",
@@ -276,60 +276,60 @@
       "Google OpenRL is an Experimental Self-hosted API for LLM Post-Training Fine-Tuning <img src=\"https://res.infoq.com/news/2026/06/google-open-rl-fine-tuning/en/headerimage/google-open-rl-fine-tuning-1782322457170.jpeg\"/><p>Google's GKE"
     ],
     "google_trends": [
-      "jessica alba",
-      "danny ramirez",
-      "jesse marsch",
-      "hugo broos",
-      "aces vs sky",
-      "john wayne",
-      "where is the travelers championship being played",
-      "tnt",
-      "hong myung-bo",
-      "election contest"
+      "cubs standings",
+      "fifa today",
+      "cubs",
+      "tpc river highlands",
+      "banana ball",
+      "collin morikawa",
+      "serena williams tennis comeback",
+      "chris sale",
+      "washington mystics",
+      "bill cassidy robert kennedy criticism"
     ],
     "baidu": [
       "细节之中抓作风",
       "宜宾发生5.5级地震 成都震感明显",
       "人民日报评“AI脸看腻了”",
       "未来5年 充电供热供暖将有大变化",
-      "世界杯：南非vs加拿大",
-      "70后农村大妈跳街舞爆火",
+      "加拿大92分钟绝杀南非",
+      "加拿大1比0南非挺进16强",
       "韩国队主帅洪明甫下课",
       "二手车调价速度跟不上新车打折节奏",
+      "70后农村大妈跳街舞爆火",
       "女子跑步4年不拉伸小腿肌肉硬如铁",
-      "中国避暑神器在欧洲卖爆了",
-      "杨紫《生命树》播放量破百亿",
+      "男子撸铁后擦汗 脸部感染“脚气”",
       "农业谣言岂能如此“变态”",
       "男子在家一丝不挂 邻居拍照发业主群",
-      "男子撸铁后擦汗 脸部感染“脚气”",
-      "伊朗队球员哭诉：这届世界杯是场灾难",
+      "中国避暑神器在欧洲卖爆了",
+      "世界杯：南非vs加拿大",
+      "杨紫《生命树》播放量破百亿",
       "线路错接女子替7户邻居交17年电费",
-      "男子吃半根变苦黄瓜致肝衰竭",
       "跑步机上“爬坡”减肥公式爆火",
-      "女子爬山被蚂蝗攻击伤口渗血7小时",
-      "三轮车被自家狗“推”进池塘"
+      "漩涡中的东鹏饮料：股价较年初近腰斩",
+      "韩红现身呼和浩特助力百人援蒙"
     ],
     "wikipedia": [
-      "Wolfgang Seidel",
-      "Beaver, Arkansas",
-      "Priory of St John of Jerusalem",
-      "Joel Crawford (director)",
-      "1983 Wyre Borough Council election",
-      "Cabbage-tree hat",
-      "2004 Allianz Suisse Open Gstaad – Doubles",
-      "Immigration detentions of U.S. citizens in the second Trump administration",
-      "Maldon RFC",
-      "Nnamdi Azikiwe University",
-      "George Russell (racing driver)",
-      "Flags of Africa",
-      "Dog with a Blog",
-      "List of Cuscuta species",
-      "2026 in paleomalacology",
-      "Kellyville, New South Wales",
-      "Nicole Lewis",
-      "Rouse Hill",
-      "Certified Professional Midwife",
-      "Silver dollar (fish)"
+      "New South Wales M set",
+      "Anastasia Blayvas",
+      "Clika",
+      "Natalie Merchant",
+      "Anastasia Belyakova",
+      "James Dean Bradfield",
+      "ChuChu TV",
+      "Stephen Eustáquio",
+      "Anamarija Lampič",
+      "Province of Verona",
+      "Daniel Stokols",
+      "Sophie Delaporte",
+      "Bellefontaine Municipal Airport",
+      "Ryan Fitzpatrick",
+      "MG 42",
+      "1945 Liechtenstein general election",
+      "Anamari Velenšek",
+      "Mahanagar Telephone Nigam Limited",
+      "Vogtle Electric Generating Plant",
+      "List of flora of the Sonoran Desert Region by common name"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -414,31 +414,29 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: database",
-      "github trending topic: react",
-      "github trending topic: vpn",
-      "github trending topic: python",
-      "github trending topic: llm",
-      "github trending topic: code quality",
-      "github trending topic: css",
-      "github trending topic: project management",
-      "github trending topic: chrome",
-      "github trending topic: typescript",
-      "github trending topic: discordfix",
-      "github trending topic: compiler",
-      "github trending topic: node.js",
-      "github trending topic: npm",
       "github trending topic: scala",
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: awesome lists",
-      "github trending topic: tg-fix",
-      "github trending topic: tg-proxy",
-      "github trending topic: telegram",
-      "github trending topic: discord",
-      "github trending topic: claude-opus",
       "github trending topic: front end",
+      "github trending topic: code quality",
+      "github trending topic: awesome lists",
+      "github trending topic: telegram",
+      "github trending topic: npm",
+      "github trending topic: project management",
+      "github trending topic: database",
+      "github trending topic: telegramzapret",
+      "github trending topic: html",
+      "github trending topic: telegramfix",
+      "github trending topic: chrome",
+      "github trending topic: css",
+      "github trending topic: zaprettelegram",
+      "github trending topic: javascript",
+      "github trending topic: cli",
+      "github trending topic: compiler",
+      "github trending topic: typescript",
+      "github trending topic: python",
       "github trending topic: react native",
-      "github trending topic: javascript"
+      "github trending topic: fixtelegram",
+      "github trending topic: node.js",
+      "github trending topic: react"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -454,16 +452,7 @@
       "name_zh": "查看器"
     },
     {
-      "keyword": "A local AI chat app in a single HTML file. No build, no sign-up.",
-      "matched": "html",
-      "category": "dev",
-      "subcat": "code",
-      "type": "tool",
-      "name": "HTML Preview",
-      "name_zh": "HTML预览器"
-    },
-    {
-      "keyword": "A local AI chat app in a single HTML file. No build, no sign-up.",
+      "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
       "category": "ai",
       "subcat": "ai-chat",
@@ -610,7 +599,6 @@
   "all_keywords": [
     "copilot-pull-request-reviewer",
     "性价比中转站，额度 0.06 倍分组特惠 Pro 分组，评论区送体验额度",
-    "A local AI chat app in a single HTML file. No build, no sign-up.",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -649,10 +637,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 187,
-    "valid_count": 39,
-    "rejected_count": 148,
-    "rejection_rate": 79.1,
+    "raw_count": 183,
+    "valid_count": 38,
+    "rejected_count": 145,
+    "rejection_rate": 79.2,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -663,21 +651,28 @@
       "How slicing in Python works",
       "Claude Pro 也被封号了",
       "[国产 API] GLM-5.2 满血 +纯血 DeepSeek V4，支持思维链、Cursor，全线 0.3 倍率 ｜注册送 5 美元 + 抽奖 200 美元",
-      "You Ain't Gonna Need It (YAGNI): The Shocking True Cost of Over-Engineering and How to Avoid It"
+      "Git Branching Like a Jedi Master: The One Best Practice That Changed My Code"
     ]
   },
   "trait_analysis": {
-    "total_captured": 353,
-    "chatter_blocked": 12,
-    "chatter_rate": 3.4,
-    "tool_signals_found": 187,
-    "tool_signal_rate": 53.0,
+    "total_captured": 351,
+    "chatter_blocked": 13,
+    "chatter_rate": 3.7,
+    "tool_signals_found": 183,
+    "tool_signal_rate": 52.1,
     "chatter_samples": [
       {
         "text": "某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？",
         "category": "ad",
         "matched": [
           "补贴"
+        ]
+      },
+      {
+        "text": "I measured how many tech job postings actually list a salary. It's 14%",
+        "category": "job",
+        "matched": [
+          "salary"
         ]
       },
       {
@@ -698,20 +693,10 @@
         ]
       },
       {
-        "text": "election contest",
-        "category": "news",
+        "text": "chris sale",
+        "category": "ad",
         "matched": [
-          [
-            "election",
-            ""
-          ]
-        ]
-      },
-      {
-        "text": "世界杯：南非vs加拿大",
-        "category": "entertainment",
-        "matched": [
-          "世界杯"
+          "sale"
         ]
       },
       {
@@ -722,7 +707,14 @@
         ]
       },
       {
-        "text": "1983 Wyre Borough Council election",
+        "text": "世界杯：南非vs加拿大",
+        "category": "entertainment",
+        "matched": [
+          "世界杯"
+        ]
+      },
+      {
+        "text": "1945 Liechtenstein general election",
         "category": "news",
         "matched": [
           [
@@ -743,13 +735,6 @@
         "category": "chatter",
         "matched": [
           "imo"
-        ]
-      },
-      {
-        "text": "Prompt Injection in Automated Résumé Screening with Large Language Models: Singl",
-        "category": "job",
-        "matched": [
-          "hiring"
         ]
       }
     ],
@@ -835,34 +820,31 @@
         ]
       },
       {
-        "text": "You Ain't Gonna Need It (YAGNI): The Shocking True Cost of Over-Engineering and How to Avoid It",
-        "confidence": 30,
-        "features": [
-          "输入→输出链式: [('How to Avoid', 'to', '', '', '', '')]",
-          "需求表达: [('How to Avoid', 'to', '', '', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "Revolutionizing Medical Diagnostics: How AI-Powered Tools Like Claude Code Are Changing the Way We I",
-        "confidence": 50,
-        "features": [
-          "输入→输出链式: [('Powered Tools', 'To', '', '', '', '')]",
-          "英文工具名词: ['tool']",
-          "技术概念: ['Claude']"
-        ]
-      },
-      {
-        "text": "How we built a voice-first, screen-aware product guide with the OpenAI Realtime API",
+        "text": "Git Branching Like a Jedi Master: The One Best Practice That Changed My Code",
         "confidence": 15,
         "features": [
-          "技术概念: ['OpenAI', 'API']"
+          "技术概念: ['Git']"
         ]
       },
       {
-        "text": "Stop Treating IoT Data Like a Logging Problem—It's an Inference Problem",
+        "text": "Uncover the Flavors of the Past: 5,000 Rare Menus from 1880-1920 Revealed - Explore the New York Pub",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('Stop', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Buttolph', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "AI Life: Just Another Day of Pretending to Be Sentient",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Pretending to Be', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "I added an in-app currency to my indie macOS screen-time app",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('currency to my', 'to', '', '', '', '')]"
         ]
       }
     ]
