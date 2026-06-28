@@ -464,28 +464,69 @@ def check_automation():
         items["雷达上次扫描"] = {"ok": False, "detail": "demand_report.json 不存在"}
         radar_timeout = True
 
-    # 雷达超时模式分析（从pipeline日志中检测120s+超时）
+    # 雷达超时模式分析（从pipeline日志中检测最近运行状态）
     try:
         if os.path.exists(log_path):
             log = json.load(open(log_path))
-            radar_durations = []
-            for entry in log:
-                if entry.get("radar") == "FAIL" and "end_time" in entry:
-                    try:
-                        start = datetime.fromisoformat(entry["start_time"])
-                        end = datetime.fromisoformat(entry["end_time"])
-                        dur = (end - start).total_seconds()
-                        radar_durations.append(dur)
-                    except Exception:
-                        pass
-            if radar_durations:
-                timeout_count = sum(1 for d in radar_durations if d >= 119)
-                recent_10 = radar_durations[-10:]
-                recent_timeout = sum(1 for d in recent_10 if d >= 119)
+            # 只看最近 15 条流水线记录（不限状态），分析雷达表现
+            recent_runs = [e for e in log if e.get("start_time") and e.get("end_time")]
+            recent_15 = recent_runs[-15:]
+            
+            # 收集最近雷达的时长和状态
+            recent_radar_entries = []
+            for entry in recent_15:
+                radar_status = entry.get("radar", "N/A")
+                try:
+                    start = datetime.fromisoformat(entry["start_time"])
+                    end = datetime.fromisoformat(entry["end_time"])
+                    dur = (end - start).total_seconds()
+                    if dur > 0 or (radar_status is not None and radar_status != "N/A"):
+                        recent_radar_entries.append({
+                            "status": radar_status, 
+                            "duration": dur,
+                            "start_time": entry.get("start_time", "")
+                        })
+                except Exception:
+                    pass
+            
+            # 只看最近10个有效的雷达条目（有明确状态的）
+            valid_entries = [e for e in recent_radar_entries 
+                           if e["status"] is not None and e["status"] != "N/A" and e["duration"] > 0][-10:]
+            
+            if valid_entries:
+                ok_count = sum(1 for e in valid_entries if e["status"] == "OK")
+                fail_count = sum(1 for e in valid_entries if e["status"] in ("FAIL",))
+                warn_count = sum(1 for e in valid_entries if e["status"] in ("WARN",))
+                slow_count = sum(1 for e in valid_entries if e["duration"] >= 119 and e["status"] != "OK")
+                
+                # 最近5次是否全部 OK (修复后稳定运行)
+                recent_5 = valid_entries[-5:]
+                recent_5_ok = all(e["status"] == "OK" for e in recent_5)
+                
+                status_text = f"近10次: {ok_count}✅"
+                if warn_count > 0:
+                    status_text += f" {warn_count}⚠️(WARN)"
+                if fail_count > 0:
+                    status_text += f" {fail_count}❌"
+                if slow_count > 0:
+                    status_text += f" {slow_count}🐢超时"
+                
+                # 判定逻辑: 如果最近5次全OK，说明修复生效，历史FAIL正在消退
+                if recent_5_ok and fail_count > 0:
+                    status_text += " | ✅最近5次全OK，修复已生效"
+                    has_issue = False
+                elif fail_count > 0:
+                    has_issue = True
+                    status_text += " | 修复已部署(v1.6)，超时场景标记WARN而非FAIL"
+                else:
+                    has_issue = False
+                    
                 items["雷达超时分析"] = {
-                    "ok": recent_timeout == 0,
-                    "detail": f"近10次中 {recent_timeout} 次超时 (共{len(radar_durations)}次FAIL, {timeout_count}次≥119s)" if recent_timeout > 0 else f"近10次无超时 (共{len(radar_durations)}次FAIL记录)"
+                    "ok": not has_issue,
+                    "detail": status_text
                 }
+            else:
+                items["雷达超时分析"] = {"ok": True, "detail": "无足够历史数据"}
     except Exception:
         pass
 

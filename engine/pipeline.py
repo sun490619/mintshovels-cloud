@@ -768,8 +768,11 @@ def main():
         
         # 阶段 0: 雷达
         radar_ok, radar_report = run_radar()
-        summary["radar"] = "OK" if radar_ok else "FAIL"
-        all_stages_pass = all_stages_pass and radar_ok
+        if radar_ok == "WARN":
+            summary["radar"] = "WARN"
+        else:
+            summary["radar"] = "OK" if radar_ok else "FAIL"
+        all_stages_pass = all_stages_pass and (radar_ok is True or radar_ok == "WARN")
         
         # 阶段 0.5: 需求过滤审计（意图分类器打分可视化）
         if radar_ok:

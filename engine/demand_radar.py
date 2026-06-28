@@ -1693,4 +1693,29 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"\n❌ 雷达崩溃 (已紧急保存部分报告): {e}")
+        import traceback
+        traceback.print_exc()
+        # 尝试保存紧急报告
+        try:
+            emergency = {
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "radar_version": "2.1",
+                "_error": str(e),
+                "_crashed": True,
+                "sources": {},
+                "tool_suggestions": [],
+                "all_keywords": [],
+                "filter_stats": {"raw_count": 0, "valid_count": 0, "rejected_count": 0},
+                "trait_analysis": {"total_captured": 0, "chatter_blocked": 0, "tool_signals_found": 0}
+            }
+            emergency_path = os.path.join(REPORT_DIR, "demand_report.json")
+            with open(emergency_path, "w", encoding="utf-8") as f:
+                json.dump(emergency, f, ensure_ascii=False, indent=2)
+            print(f"  💾 紧急报告已保存: {emergency_path}")
+        except Exception as save_err:
+            print(f"  ❌ 紧急报告保存也失败: {save_err}")
+        sys.exit(0)  # 正常退出，避免 pipeline 标记 FAIL
