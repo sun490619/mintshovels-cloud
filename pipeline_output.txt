@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-28T19:41:00.267194+00:00     ║
+║       启动时间: 2026-06-28T22:08:14.634311+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -82,14 +82,14 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
   原始信号总量: 353
-  🚫 闲聊拦截: 12 条 (3.4%)
+  🚫 闲聊拦截: 10 条 (2.8%)
   🧠 工具信号: 187 条 (53.0%)
 
   📋 闲聊拦截样例:
      [ad] 某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？
-     [chatter] Building Event-Driven Systems That Can Recover With Confiden
+     [chatter] Building AI-Powered CMS Automation With Event-Driven Archite
      [news] Presentation: AI Works, Pull Requests Don’t: How AI Is Break
-     [news] election contest
+     [news] bill cassidy donald trump congress
      [entertainment] 世界杯：南非vs加拿大
 
   🧠 工具信号样例:
@@ -100,9 +100,9 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度35%] Does Python have a ternary conditional operator?
        ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
        ↳ 技术概念: ['Python']
-     [置信度15%] What are m
+     [
 
-✅ 雷达完成 — 18 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
@@ -110,7 +110,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 353 条
-     🚫 闲聊拦截: 12 条 (3.4%)
+     🚫 闲聊拦截: 10 条 (2.8%)
      🧠 工具信号: 187 条 (53.0%)
      闲聊样例: 某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？... [ad]
      工具信号样例: copilot-pull-request-reviewer... [置信度15%]
@@ -119,7 +119,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      工具信号 187 → 有效 39
      拒绝率: 79.1%
 
-  📊 意图分类器审计 — 审查 18 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
   ✅ 通过 (13):
      [PASS  |  +55] LLM Tool  [?]
@@ -135,9 +135,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
-  🚫 拦截 (5):
+  🚫 拦截 (4):
      [BLOCK |  +20] Viewer  [?]  ← 多维评分 20 低于门槛 30
-     [BLOCK |  +20] HTML Preview  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
@@ -154,8 +153,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-06-28T19:41:00.424876+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-06-28T22:08:14.789031+00:00
    Already in catalog: 93 tools
    Previously produced: 0 tools
    Existing tool pages: 77 files
@@ -392,7 +391,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-28T19:41:00.267194+00:00 → 2026-06-28T19:41:11.792528+00:00
+  ⏱  耗时: 2026-06-28T22:08:14.634311+00:00 → 2026-06-28T22:08:26.229657+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK

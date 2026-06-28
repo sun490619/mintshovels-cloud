@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T21:50:19.164377+00:00",
+  "generated_at": "2026-06-28T22:08:14.789031+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -99,18 +99,18 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "Building PocketDex Tracker: A Next.js and Supabase App for Pokemon TCG Pocket Collections",
+      "Free Preview: Unlocking the Power of AI Prompts for Developers",
+      "Decode the Digital Hierarchy: Mastering Headings for Better SEO",
+      "2-Minute Guide: Virtual Environments in Python",
+      "Your coding agent is burning tokens grepping your repo. Here's a one-command fix.",
+      "Code Is Cheap. Understanding Is Expensive",
       "Why your AI coding agent ships confident, slightly-wrong code (and why rewording the prompt never fixes it)",
       "The First Website Is Still Online",
       "The 4 PM Rush: A Day Inside a Growing Food Tech Platform",
       "Git Branching Like a Jedi Master: The One Best Practice That Changed My Code",
       "The End of an Era: Boeing 747's Last Flight - What's Next for Air Travel?",
-      "Uncover the Flavors of the Past: 5,000 Rare Menus from 1880-1920 Revealed - Explore the New York Public Library's Buttolph Collection",
-      "DevTime v0.1.1 - I made the first-run experience much easier",
-      "Make Your Project Decisions Queryable for AI Coding Sessions",
-      "Why Dirty Air Filters Increase Static Pressure and Reduce HVAC Performance",
-      "AI Life: Just Another Day of Pretending to Be Sentient",
-      "I added an in-app currency to my indie macOS screen-time app",
-      "I measured how many tech job postings actually list a salary. It's 14%"
+      "Uncover the Flavors of the Past: 5,000 Rare Menus from 1880-1920 Revealed - Explore the New York Public Library's Buttolph Collection"
     ],
     "lobsters": [
       "Towards Understandable Software",
@@ -125,9 +125,9 @@
       "Prism: An Impure Functional Language With Typed Effects",
       "We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
       "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
+      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
       "Examining circuit boards from the Space Shuttle's I/O Processor",
       "Guards! Guards",
-      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
       "HyperCard on the Macintosh",
       "It's dead, Jim! (UEFI CA expiry)",
       "Build System Improvements, Centralized Overview, etc",
@@ -157,33 +157,34 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "EU to legislate about Chat Control behind closed doors 🔥541pts 💬308",
+      "EU to legislate about Chat Control behind closed doors 🔥552pts 💬309",
       "Marfa Public Radio Puts You to Sleep 🔥377pts 💬116",
-      "5k menus from the New York Public Library’s Buttolph Collection (1880-1920) 🔥289pts 💬77",
-      "I used Claude Code to get a second opinion on my MRI 🔥250pts 💬361",
-      "The KIDS Act would require age checks to get online 🔥219pts 💬206",
-      "Michigan bill would bar employers from requiring after-hours coms with workers 🔥215pts 💬150",
-      "The curious case of the disappearing Polish S (2015) 🔥191pts 💬62",
-      "Librepods: AirPods liberated 🔥171pts 💬53",
-      "A way to exclude sensitive files issue still open for OpenAI Codex 🔥165pts 💬110",
-      "GLM 5.2 beats Claude in our benchmarks 🔥160pts 💬48",
-      "Show HN: Zanagrams 🔥117pts 💬41",
-      "The Boeing 747 begins its final descent 🔥99pts 💬100",
-      "Tokenmaxxing is dead, long live tokenmaxxing 🔥83pts 💬100",
-      "Daisugi, the Japanese technique of growing trees out of other trees (2020) 🔥83pts 💬25",
-      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD 🔥75pts 💬13",
-      "The US Used to Demand the Best Tech. Now We Ban It 🔥72pts 💬56",
-      "Historical memory prices 1960-2026 🔥71pts 💬20",
-      "Examining circuit boards from the Space Shuttle's I/O Processor 🔥68pts 💬13",
-      "Professor denounces mass AI fraud on an exam at Brown 🔥62pts 💬56",
+      "5k menus from the New York Public Library’s Buttolph Collection (1880-1920) 🔥294pts 💬78",
+      "I used Claude Code to get a second opinion on my MRI 🔥261pts 💬369",
+      "The KIDS Act would require age checks to get online 🔥227pts 💬209",
+      "The curious case of the disappearing Polish S (2015) 🔥193pts 💬63",
+      "GLM 5.2 beats Claude in our benchmarks 🔥184pts 💬63",
+      "Librepods: AirPods liberated 🔥184pts 💬56",
+      "A way to exclude sensitive files issue still open for OpenAI Codex 🔥166pts 💬110",
+      "Show HN: Zanagrams 🔥120pts 💬42",
+      "The Boeing 747 begins its final descent 🔥104pts 💬108",
+      "Daisugi, the Japanese technique of growing trees out of other trees (2020) 🔥86pts 💬29",
+      "Tokenmaxxing is dead, long live tokenmaxxing 🔥84pts 💬106",
+      "The US Used to Demand the Best Tech. Now We Ban It 🔥80pts 💬60",
+      "Professor denounces mass AI fraud on an exam at Brown 🔥78pts 💬73",
+      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD 🔥78pts 💬15",
+      "Historical memory prices 1960-2026 🔥77pts 💬25",
+      "Examining circuit boards from the Space Shuttle's I/O Processor 🔥70pts 💬14",
       "The MUMPS 76 Primer – anniversary edition 🔥62pts 💬28",
       "More evidence is consistent with possible ancient life on Mars (2025)",
       "Show HN: DRM-Free Books",
       "TOP500 at ISC’26: We have a New Number 1 Supercomputer",
       "Programmable Probabilistic Computer with 1M p-bits",
-      "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch"
+      "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "Do LLMs pass the mirror test?"
     ],
     "hn_show": [
+      "Selixes - Self-hosted LLM failover gateway, budget caps and PII — featured on Hacker News (🔥1pts)",
       "I built a \"living proof-of-work\" for builders ( that persists) — featured on Hacker News (🔥1pts)",
       "Rendering Markdown with LaTeX in the Terminal — featured on Hacker News (🔥2pts)",
       "Looped Whisper (FOSS) – Voice transcription menubar app for macOS — featured on Hacker News (🔥1pts)",
@@ -193,7 +194,7 @@
       "I reverse-engineered the RLF log format used by REMUS underwater drones — featured on Hacker News (🔥1pts)",
       "Gotaper – A minimalist, journal-inspired race planner for athletes — featured on Hacker News (🔥1pts)",
       "Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs — featured on Hacker News (🔥12pts)",
-      "NanoEuler – GPT-2 scale model in pure C/CUDA from scratch — featured on Hacker News (🔥22pts)",
+      "NanoEuler – GPT-2 scale model in pure C/CUDA from scratch — featured on Hacker News (🔥24pts)",
       "Use-zerostack – delegate any task to a lightweight coding agent — featured on Hacker News (🔥3pts)",
       "I built an opinionated minimalist ePub/pdf online reader — featured on Hacker News (🔥5pts)",
       "Snarl – Fast Shacl Validator — featured on Hacker News (🔥2pts)",
@@ -202,8 +203,7 @@
       "Borkd – Is it your code or the platform? One dashboard instead of ten — featured on Hacker News (🔥1pts)",
       "Caliper – pass@k reliability testing for Claude Code and Codex skills — featured on Hacker News (🔥2pts)",
       "Tool to Convert PDF to a Video — featured on Hacker News (🔥1pts)",
-      "Verigate – Cryptographic authorization receipts for AI agents — featured on Hacker News (🔥1pts)",
-      "Bcad – An OpenSCAD-syntax CAD powered by OpenCASCADE — featured on Hacker News (🔥1pts)"
+      "Verigate – Cryptographic authorization receipts for AI agents — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Ask HN: Examples of AI taste? — user asking for tool recommendation (🔥1pts)",
@@ -238,6 +238,12 @@
       "Show HN: Play puzzle games in a feed like TikTok — user asking for tool recommendation (🔥6pts)"
     ],
     "hackernoon": [
+      "178 Blog Posts To Learn About Information Security",
+      "Building AI-Powered CMS Automation With Event-Driven Architecture",
+      "Building Medicaid Data Platforms That Scale Across States",
+      "A One-Person AI Studio Is Still a Whole Studio",
+      "The Missing Layer Between Prompt Engineering and Production AI",
+      "SwiftUI’s @State Is Now a Macro - What It Means for You",
       "Ownership Coins: Crypto's Answer to Broken Token Holder Rights",
       "Troitsk Nu-Mass Hardware: WGTS, MAC-E Filter, and Multi-Pixel SDD Architecture",
       "The TechBeat: Your Shared Staging Environment Is a Lie (6/28/2026)",
@@ -250,13 +256,7 @@
       "Policy-Driven Security and Governance in Kubernetes AI Platforms",
       "399 Blog Posts To Learn About Growth Hacking",
       "81 Blog Posts To Learn About Fraud",
-      "What Is a Crypto Card? How It Works, Types, Benefits, and the MEXC Card Explained",
-      "Top 5 Privacy Coins by Market Cap —What to Use?",
-      "Why Local LLMs Suddenly Slow Down at Long Context",
-      "AI Exposes the Quality of Your Thinking",
-      "Hallucinations of \"People From Humanity\" After Communicating With \"Artificial Intelligence\"",
-      "Building Event-Driven Systems That Can Recover With Confidence",
-      "Resolving WGTS Rear Wall Scattering in the Troitsk Nu-Mass Experiment"
+      "What Is a Crypto Card? How It Works, Types, Benefits, and the MEXC Card Explained"
     ],
     "infoq": [
       "Swift 6.4 Brings New Language Features and Swift Testing/XCTest Interop <img src=\"https://res.infoq.com/news/2026/06/swift-6-4-beta-features/en/headerimage/android-studio-otter-llm-1782634112952.jpeg\"/><p>Currently availab",
@@ -276,16 +276,16 @@
       "Google OpenRL is an Experimental Self-hosted API for LLM Post-Training Fine-Tuning <img src=\"https://res.infoq.com/news/2026/06/google-open-rl-fine-tuning/en/headerimage/google-open-rl-fine-tuning-1782322457170.jpeg\"/><p>Google's GKE"
     ],
     "google_trends": [
-      "cubs standings",
-      "fifa today",
-      "cubs",
-      "tpc river highlands",
-      "banana ball",
-      "collin morikawa",
-      "serena williams tennis comeback",
-      "chris sale",
-      "washington mystics",
-      "bill cassidy robert kennedy criticism"
+      "aew forbidden door 2026",
+      "spencer torkelson",
+      "portland fire",
+      "manny machado",
+      "nhra",
+      "yankees vs red sox prediction",
+      "perfect game",
+      "astros standings",
+      "phoenix mercury",
+      "bill cassidy donald trump congress"
     ],
     "baidu": [
       "细节之中抓作风",
@@ -294,42 +294,42 @@
       "未来5年 充电供热供暖将有大变化",
       "加拿大92分钟绝杀南非",
       "加拿大1比0南非挺进16强",
-      "韩国队主帅洪明甫下课",
-      "二手车调价速度跟不上新车打折节奏",
+      "球迷玩人浪手机飞了",
       "70后农村大妈跳街舞爆火",
-      "女子跑步4年不拉伸小腿肌肉硬如铁",
       "男子撸铁后擦汗 脸部感染“脚气”",
+      "女子跑步4年不拉伸小腿肌肉硬如铁",
+      "韩国队主帅洪明甫下课",
       "农业谣言岂能如此“变态”",
       "男子在家一丝不挂 邻居拍照发业主群",
       "中国避暑神器在欧洲卖爆了",
-      "世界杯：南非vs加拿大",
       "杨紫《生命树》播放量破百亿",
+      "世界杯：南非vs加拿大",
       "线路错接女子替7户邻居交17年电费",
-      "跑步机上“爬坡”减肥公式爆火",
       "漩涡中的东鹏饮料：股价较年初近腰斩",
-      "韩红现身呼和浩特助力百人援蒙"
+      "女子爬山被蚂蝗攻击伤口渗血7小时",
+      "跑步机上“爬坡”减肥公式爆火"
     ],
     "wikipedia": [
-      "New South Wales M set",
-      "Anastasia Blayvas",
-      "Clika",
-      "Natalie Merchant",
-      "Anastasia Belyakova",
-      "James Dean Bradfield",
-      "ChuChu TV",
-      "Stephen Eustáquio",
-      "Anamarija Lampič",
-      "Province of Verona",
-      "Daniel Stokols",
-      "Sophie Delaporte",
-      "Bellefontaine Municipal Airport",
-      "Ryan Fitzpatrick",
-      "MG 42",
-      "1945 Liechtenstein general election",
-      "Anamari Velenšek",
-      "Mahanagar Telephone Nigam Limited",
-      "Vogtle Electric Generating Plant",
-      "List of flora of the Sonoran Desert Region by common name"
+      "United 2026 FIFA World Cup bid",
+      "Sal Buscema",
+      "Oussama Benbot",
+      "Cherry Jones",
+      "Little Snitch",
+      "Nijirō Murakami",
+      "Anja Štangar",
+      "Engie Benjy",
+      "King Tech",
+      "List of Wu-Recording record labels",
+      "Anja Weber",
+      "County Laois",
+      "7th Army Aviation Regiment (Ukraine)",
+      "Rafael dos Anjos",
+      "Pink Grenade",
+      "National Register of Historic Places listings in Grays Harbor County, Washington",
+      "Philippe Pigouchet",
+      "2026 in Philippine television",
+      "Anja Obradović",
+      "Sananth"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -414,29 +414,31 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: scala",
-      "github trending topic: front end",
-      "github trending topic: code quality",
-      "github trending topic: awesome lists",
-      "github trending topic: telegram",
-      "github trending topic: npm",
-      "github trending topic: project management",
-      "github trending topic: database",
       "github trending topic: telegramzapret",
-      "github trending topic: html",
+      "github trending topic: developer-tools",
+      "github trending topic: typescript",
       "github trending topic: telegramfix",
-      "github trending topic: chrome",
-      "github trending topic: css",
-      "github trending topic: zaprettelegram",
+      "github trending topic: computer-vision",
       "github trending topic: javascript",
+      "github trending topic: scala",
       "github trending topic: cli",
       "github trending topic: compiler",
-      "github trending topic: typescript",
+      "github trending topic: project management",
+      "github trending topic: react",
+      "github trending topic: node.js",
+      "github trending topic: llm",
+      "github trending topic: code quality",
+      "github trending topic: front end",
+      "github trending topic: css",
+      "github trending topic: fixtelegram",
+      "github trending topic: chrome",
+      "github trending topic: claude",
+      "github trending topic: telegram",
+      "github trending topic: database",
       "github trending topic: python",
       "github trending topic: react native",
-      "github trending topic: fixtelegram",
-      "github trending topic: node.js",
-      "github trending topic: react"
+      "github trending topic: npm",
+      "github trending topic: awesome lists"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -634,13 +636,14 @@
     "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "prettier — npm package: Prettier is an opinionated code formatter",
-    "sass-formatter — npm package: TypeScript Sass formatter"
+    "sass-formatter — npm package: TypeScript Sass formatter",
+    "github trending topic: developer-tools"
   ],
   "filter_stats": {
-    "raw_count": 183,
-    "valid_count": 38,
-    "rejected_count": 145,
-    "rejection_rate": 79.2,
+    "raw_count": 187,
+    "valid_count": 39,
+    "rejected_count": 148,
+    "rejection_rate": 79.1,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -651,15 +654,15 @@
       "How slicing in Python works",
       "Claude Pro 也被封号了",
       "[国产 API] GLM-5.2 满血 +纯血 DeepSeek V4，支持思维链、Cursor，全线 0.3 倍率 ｜注册送 5 美元 + 抽奖 200 美元",
-      "Git Branching Like a Jedi Master: The One Best Practice That Changed My Code"
+      "Building PocketDex Tracker: A Next.js and Supabase App for Pokemon TCG Pocket Collections"
     ]
   },
   "trait_analysis": {
-    "total_captured": 351,
-    "chatter_blocked": 13,
-    "chatter_rate": 3.7,
-    "tool_signals_found": 183,
-    "tool_signal_rate": 52.1,
+    "total_captured": 353,
+    "chatter_blocked": 10,
+    "chatter_rate": 2.8,
+    "tool_signals_found": 187,
+    "tool_signal_rate": 53.0,
     "chatter_samples": [
       {
         "text": "某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？",
@@ -669,14 +672,7 @@
         ]
       },
       {
-        "text": "I measured how many tech job postings actually list a salary. It's 14%",
-        "category": "job",
-        "matched": [
-          "salary"
-        ]
-      },
-      {
-        "text": "Building Event-Driven Systems That Can Recover With Confidence",
+        "text": "Building AI-Powered CMS Automation With Event-Driven Architecture",
         "category": "chatter",
         "matched": [
           "vent"
@@ -693,17 +689,13 @@
         ]
       },
       {
-        "text": "chris sale",
-        "category": "ad",
+        "text": "bill cassidy donald trump congress",
+        "category": "news",
         "matched": [
-          "sale"
-        ]
-      },
-      {
-        "text": "二手车调价速度跟不上新车打折节奏",
-        "category": "ad",
-        "matched": [
-          "打折"
+          [
+            "congress",
+            ""
+          ]
         ]
       },
       {
@@ -711,16 +703,6 @@
         "category": "entertainment",
         "matched": [
           "世界杯"
-        ]
-      },
-      {
-        "text": "1945 Liechtenstein general election",
-        "category": "news",
-        "matched": [
-          [
-            "election",
-            ""
-          ]
         ]
       },
       {
@@ -735,6 +717,27 @@
         "category": "chatter",
         "matched": [
           "imo"
+        ]
+      },
+      {
+        "text": "Prompt Injection in Automated Résumé Screening with Large Language Models: Singl",
+        "category": "job",
+        "matched": [
+          "hiring"
+        ]
+      },
+      {
+        "text": "Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Au",
+        "category": "chatter",
+        "matched": [
+          "imo"
+        ]
+      },
+      {
+        "text": "granturismo — npm package: generator tool",
+        "category": "chatter",
+        "matched": [
+          "rant"
         ]
       }
     ],
@@ -820,31 +823,33 @@
         ]
       },
       {
-        "text": "Git Branching Like a Jedi Master: The One Best Practice That Changed My Code",
+        "text": "Building PocketDex Tracker: A Next.js and Supabase App for Pokemon TCG Pocket Collections",
+        "confidence": 55,
+        "features": [
+          "英文动作特征: ['Tracker']",
+          "英文工具名词: ['tracker']",
+          "技术概念: ['js']"
+        ]
+      },
+      {
+        "text": "Decode the Digital Hierarchy: Mastering Headings for Better SEO",
+        "confidence": 25,
+        "features": [
+          "英文动作特征: ['Decode']"
+        ]
+      },
+      {
+        "text": "2-Minute Guide: Virtual Environments in Python",
         "confidence": 15,
         "features": [
-          "技术概念: ['Git']"
+          "技术概念: ['Python']"
         ]
       },
       {
-        "text": "Uncover the Flavors of the Past: 5,000 Rare Menus from 1880-1920 Revealed - Explore the New York Pub",
+        "text": "Your coding agent is burning tokens grepping your repo. Here's a one-command fix.",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('Buttolph', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "AI Life: Just Another Day of Pretending to Be Sentient",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('Pretending to Be', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "I added an in-app currency to my indie macOS screen-time app",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('currency to my', 'to', '', '', '', '')]"
+          "输入→输出链式: [('burning tokens', 'to', '', '', '', '')]"
         ]
       }
     ]
