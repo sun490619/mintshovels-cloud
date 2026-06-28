@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-27T22:10:26.113885+00:00     ║
+║       启动时间: 2026-06-28T04:41:09.822479+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 9 topics
+  ✅ 8 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 19 Show HN posts
+  ✅ 20 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -82,15 +82,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
   原始信号总量: 353
-  🚫 闲聊拦截: 18 条 (5.1%)
-  🧠 工具信号: 176 条 (49.9%)
+  🚫 闲聊拦截: 11 条 (3.1%)
+  🧠 工具信号: 184 条 (52.1%)
 
   📋 闲聊拦截样例:
-     [ad] PDD 百亿补贴发了个拆封 iPhone
-     [news] Zuckerberg's war on whistleblowers 🔥544pts 💬200
-     [news] The US Army Issued Ocarinas to Soldiers in World War II 🔥136
-     [entertainment] As Music Theory – Test your sheet music sight reading speed 
+     [chatter] 同事现在学舞蹈 准备用 AI 换脸和换声音在视频社交平台直播～ 这方案可行么？
      [entertainment] Show HN: As Music Theory – Test your sheet music sight readi
+     [news] Roblox parental controls are a dystopian security disaster —
+     [chatter] Ventora Expands Its AI Business Builder to Help Solo Founder
+     [chatter] Building Event-Driven Systems That Can Recover With Confiden
 
   🧠 工具信号样例:
      [置信度20%] allcontributors
@@ -99,8 +99,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['md']
      [置信度20%] PowerToys
        ↳ 输入→输出链式: [('PowerToys', 'To', '', '', '', '')]
-     [置信度15%] ppt-master
-       ↳ 技术概念: ['ppt
+     [置信度15
 
 ✅ 雷达完成 — 16 条建议
 
@@ -110,14 +109,14 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 353 条
-     🚫 闲聊拦截: 18 条 (5.1%)
-     🧠 工具信号: 176 条 (49.9%)
-     闲聊样例: PDD 百亿补贴发了个拆封 iPhone... [ad]
+     🚫 闲聊拦截: 11 条 (3.1%)
+     🧠 工具信号: 184 条 (52.1%)
+     闲聊样例: 同事现在学舞蹈 准备用 AI 换脸和换声音在视频社交平台直播～ 这方案可行么？... [chatter]
      工具信号样例: allcontributors... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 176 → 有效 37
-     拒绝率: 79.0%
+     工具信号 184 → 有效 38
+     拒绝率: 79.3%
 
   📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -153,10 +152,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-06-27T22:10:26.283679+00:00
+   Generated at: 2026-06-28T04:41:09.946239+00:00
    Already in catalog: 91 tools
    Previously produced: 0 tools
-   Existing tool pages: 74 files
+   Existing tool pages: 75 files
    Next shovel ID: shovel-037
    Next script ID: script-011
 
@@ -238,6 +237,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ formatter.html
     ✅ fstring_converter.html
     ✅ generator.html
+    ✅ html-preview.html
     ✅ index.html
     ✅ java_object_mapper.html
     ✅ jquery_events.html
@@ -300,7 +300,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ world_map_generator.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 365615B
+    ✅ index.html — HTTP 200, 371819B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/api-tester.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
@@ -315,6 +315,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/formatter.html — HTTP 200
     ✅ tools/fstring_converter.html — HTTP 200
     ✅ tools/generator.html — HTTP 200
+    ✅ tools/html-preview.html — HTTP 200
     ✅ tools/index.html — HTTP 200
     ✅ tools/java_object_mapper.html — HTTP 200
     ✅ tools/jquery_events.html — HTTP 200
@@ -376,7 +377,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/viewer.html — HTTP 200
     ✅ tools/world_map_generator.html — HTTP 200
 
-  📊 测试汇总: 157 通过, 0 失败
+  📊 测试汇总: 159 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
     ✅ 没有待上线的工具
@@ -384,7 +385,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-27T22:10:26.113885+00:00 → 2026-06-27T22:10:40.144042+00:00
+  ⏱  耗时: 2026-06-28T04:41:09.822479+00:00 → 2026-06-28T04:41:22.204459+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
@@ -394,9 +395,9 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      ✅ generator: OK
      ✅ validator: OK
      ✅ analyzer: OK
-  🧪 测试: 157✅ 0❌
+  🧪 测试: 159✅ 0❌
   🔧 工具总数: 46
-  📄 独立页面: 74
+  📄 独立页面: 75
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================
