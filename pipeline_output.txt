@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-28T14:06:11.946071+00:00     ║
+║       启动时间: 2026-06-28T16:19:45.783416+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 16 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -81,15 +81,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 347
-  🚫 闲聊拦截: 13 条 (3.7%)
-  🧠 工具信号: 179 条 (51.6%)
+  原始信号总量: 350
+  🚫 闲聊拦截: 16 条 (4.6%)
+  🧠 工具信号: 181 条 (51.7%)
 
   📋 闲聊拦截样例:
      [ad] 某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？
      [ad] 拒绝“赛博溜猴”：国内大厂 AI Coding Plan 抢购恶心到极点
+     [chatter] 5k Restaurant Menus, Years 1880-1920 🔥85pts 💬21
      [entertainment] Turning music into a chore is how I became a musician (2022)
-     [chatter] AgentWatch – Prevent runaway AI agents with runtime budget e
      [entertainment] Show HN: As Music Theory – Test your sheet music sight readi
 
   🧠 工具信号样例:
@@ -98,7 +98,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
      [置信度35%] Does Python have a ternary conditional operator?
-       ↳ 输入→输出链式: [('operator
+       ↳ 输入→输出链式: [('operator', 'to', '', 
 
 ✅ 雷达完成 — 18 条建议
 
@@ -107,15 +107,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 347 条
-     🚫 闲聊拦截: 13 条 (3.7%)
-     🧠 工具信号: 179 条 (51.6%)
+     原始抓取: 350 条
+     🚫 闲聊拦截: 16 条 (4.6%)
+     🧠 工具信号: 181 条 (51.7%)
      闲聊样例: 某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？... [ad]
      工具信号样例: copilot-pull-request-reviewer... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 179 → 有效 37
-     拒绝率: 79.3%
+     工具信号 181 → 有效 38
+     拒绝率: 79.0%
 
   📊 意图分类器审计 — 审查 18 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -153,7 +153,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-06-28T14:06:12.111833+00:00
+   Generated at: 2026-06-28T16:19:45.953459+00:00
    Already in catalog: 93 tools
    Previously produced: 0 tools
    Existing tool pages: 77 files
@@ -390,7 +390,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-28T14:06:11.946071+00:00 → 2026-06-28T14:06:24.177248+00:00
+  ⏱  耗时: 2026-06-28T16:19:45.783416+00:00 → 2026-06-28T16:19:58.107608+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
