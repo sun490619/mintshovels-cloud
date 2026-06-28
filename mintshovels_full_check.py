@@ -25,7 +25,7 @@ TOOL_FACTORY_DIR = os.environ.get(
     os.path.join(os.path.dirname(os.path.dirname(SCRIPT_DIR)), "tool-factory")
 )
 CONFIG_PATH = os.path.join(SCRIPT_DIR, "mintshovels_config.json")
-VERSION = "v1.6-stable"
+VERSION = "v1.8-stable"
 
 
 def http_get(url, timeout=10, as_json=False):
@@ -134,9 +134,35 @@ def check_website():
         "detail": "已部署，工具API可用" if workshop_ok else "未部署新代码，需同步Railway"
     }
 
+    # 检查首页关键元素（CTA按钮 + Popular Tools）
+    cta_ok = False
+    popular_ok = False
+    if ok and size and size > 1000:
+        try:
+            ctx = ssl._create_unverified_context()
+            req = urllib.request.Request("https://mintshovels.com", headers={
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+            })
+            resp = urllib.request.urlopen(req, timeout=10, context=ctx)
+            html = resp.read().decode("utf-8", errors="ignore")
+            import re as _re
+            cta_ok = bool(_re.search(r'data-i18n="hero_cta"', html))
+            popular_ok = bool(_re.search(r'id="popular-grid"', html))
+        except Exception:
+            pass
+    items["首页 CTA 按钮 (hero_cta)"] = {
+        "ok": cta_ok,
+        "detail": "CTA按钮存在，引导用户探索工具" if cta_ok else "⚠️ 缺少CTA按钮"
+    }
+    items["首页 Popular Tools 区域"] = {
+        "ok": popular_ok,
+        "detail": "热门工具展示区正常" if popular_ok else "⚠️ 缺少热门工具区域"
+    }
+
     all_ok = bool(ok) and backend_ok
     if online_version != "?":
         all_ok = all_ok and version_match
+    all_ok = all_ok and cta_ok and popular_ok
     return all_ok, items
 
 

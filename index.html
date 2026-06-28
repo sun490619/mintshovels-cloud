@@ -28,7 +28,7 @@
     <meta name="description" content="Gold Shovel Tool Factory - AI-powered free online tools for media creation, crypto, productivity, development, and more. New tools generated daily. No signup. 100% free.">
     <meta name="keywords" content="online tools, free tools, video downloader, crypto tools, PDF tools, JSON formatter, AI tools, image compressor, QR code generator, gas fee calculator, wallet generator, audio extractor, domain generator, identity generator, web scraper, excel merger">
     <meta name="author" content="MintShovels">
-    <meta name="mintshovels-version" content="v1.6-stable">
+    <meta name="mintshovels-version" content="v1.8-stable">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#09090b">
     <link rel="canonical" href="https://mintshovels.com/">
@@ -188,6 +188,22 @@
         .vercel-btn:hover, .btn-primary:hover { background: transparent; color: var(--text-primary); }
         .vercel-btn:disabled, .btn-primary:disabled { opacity: 0.4; cursor: not-allowed; background: var(--border-color); color: var(--text-muted); border-color: var(--border-color); }
         .vercel-btn:hover:disabled, .btn-primary:hover:disabled { background: var(--border-color); color: var(--text-muted); }
+        .vercel-btn-primary {
+            background: var(--accent); color: #fff; border: 1px solid var(--accent);
+            padding: 10px 24px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 500;
+            cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease; font-family: var(--font-stack); white-space: nowrap;
+            text-decoration: none;
+        }
+        .vercel-btn-primary:hover { background: var(--accent-hover, #4f46e5); border-color: var(--accent-hover, #4f46e5); color: #fff; }
+        .vercel-btn-secondary {
+            background: var(--bg-card); color: var(--text-primary); border: 1px solid var(--border-color);
+            padding: 8px 18px; border-radius: var(--radius-sm); font-size: 13px; font-weight: 500;
+            cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+            transition: all 0.2s ease; font-family: var(--font-stack);
+            text-decoration: none;
+        }
+        .vercel-btn-secondary:hover { border-color: var(--border-hover); background: var(--bg-elevated); }
         .vercel-btn-secondary {
             background: var(--bg-card); color: var(--text-primary); border: 1px solid var(--border-color);
             padding: 8px 18px; border-radius: var(--radius-sm); font-size: 13px; font-weight: 500;
@@ -223,6 +239,41 @@
             pointer-events: none;
         }
         .glow { box-shadow: 0 0 32px rgba(99, 102, 241, 0.08); }
+
+        /* ===== Popular Tools Grid ===== */
+        .popular-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .popular-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 14px 16px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+        .popular-card:hover {
+            border-color: var(--accent);
+            background: var(--bg-elevated);
+            transform: translateY(-1px);
+        }
+        .popular-card .p-icon {
+            width: 32px; height: 32px;
+            display: flex; align-items: center; justify-content: center;
+            background: var(--bg-elevated);
+            border-radius: var(--radius-sm);
+            font-size: 18px;
+            flex-shrink: 0;
+        }
 
         /* ===== Status bars (铁律七: 克制状态色) ===== */
         .vercel-status-bar {
@@ -720,7 +771,26 @@
                 </button>
             </div>
             <div id="search-summary" class="hidden" style="font-size:12px;color:var(--text-muted);margin-top:8px"></div>
-            <span style="font-size:13px;color:var(--text-muted);display:block;margin-top:20px;text-align:center" id="hero-tool-count">36+ free tools · No login</span>
+            <span style="font-size:13px;color:var(--text-muted);display:block;margin-top:16px;text-align:center" id="hero-tool-count">36+ free tools · No login</span>
+            <div style="display:flex;gap:12px;justify-content:center;margin-top:20px;flex-wrap:wrap">
+                <a href="#cat-tabs-bar" onclick="document.getElementById('search-box').focus();return false" class="vercel-btn vercel-btn-primary" style="font-size:15px;padding:12px 28px;font-weight:600">
+                    🚀 <span data-i18n="hero_cta">Explore All Tools</span>
+                </a>
+                <a href="#workshop-section" onclick="openWorkshop();return false" class="vercel-btn vercel-btn-secondary" style="font-size:15px;padding:12px 28px;font-weight:500">
+                    ⚡ <span>Request a Tool</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Popular Tools Section -->
+        <section id="popular-tools" style="max-width:1200px;margin:0 auto;padding:0 24px 32px">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:16px">
+                <i data-lucide="trending-up" style="width:20px;height:20px;color:var(--accent)"></i>
+                <h2 style="font-size:18px;font-weight:600;color:var(--text-primary)" data-i18n="popular_title">🔥 Popular Tools</h2>
+            </div>
+            <div id="popular-grid" class="popular-grid">
+                <!-- Dynamically populated -->
+            </div>
         </section>
 
         <!-- Category Tabs -->
@@ -1582,7 +1652,8 @@
         en: {
             home_title: "Gold Shovel Tool Factory",
             home_subtitle: "A fully automated tool production factory. New tools every day. No account needed. All free.",
-            hero_cta: "🚀 Explore All Tools",
+            hero_cta: "Explore All Tools",
+            popular_title: "🔥 Popular Tools",
             hero_count: "36+ free tools · No login",
             search_placeholder: "Search tools... e.g. video download, image compress, PDF merge",
             tool_count: "{count} tools",
@@ -1680,7 +1751,8 @@
         zh: {
             home_title: "金牌铲子工坊",
             home_subtitle: "全自动化工具生产工厂。每天都有新工具。无需注册，全部免费。",
-            hero_cta: "🚀 探索全部工具",
+            hero_cta: "探索全部工具",
+            popular_title: "🔥 热门工具",
             hero_count: "36+ 免费工具 · 无需登录",
             search_placeholder: "搜索工具... 比如 视频下载、图片压缩、PDF合并",
             tool_count: "共 {count} 个工具",
@@ -1812,8 +1884,55 @@
         renderCatTabs();
         renderSections();
         updateToolCount();
+        renderPopularTools();
         updateModuleVisibility();
         lucide.createIcons();
+    }
+
+    function renderPopularTools() {
+        const grid = document.getElementById("popular-grid");
+        if (!grid) return;
+        const all = getAllTools();
+        // Pick 6 popular tools (first 6 with detail_page)
+        const popular = all.filter(t => t.detail_page).slice(0, 6);
+        grid.innerHTML = popular.map(t => {
+            const iconMap = {
+                "video": "🎬", "image": "🖼️", "mic": "🎤", "download": "📥",
+                "wallet": "👛", "crypto": "₿", "chart": "📊", "zap": "⚡",
+                "align-left": "📝", "terminal": "💻", "braces": "{}", "search": "🔍",
+                "globe": "🌐", "hash": "#", "code": "</>", "eye": "👁️",
+                "music": "🎵", "scissors": "✂️", "merge": "🔗", "clock": "⏰",
+                "lock": "🔒", "qr": "📱", "calculator": "🧮", "palette": "🎨",
+                "database": "🗄️", "file-text": "📄", "grid": "🔲", "layers": "📑",
+                "link": "🔗", "mail": "📧", "message": "💬", "pen": "✏️",
+                "phone": "📱", "pie-chart": "📈", "rss": "📡", "server": "🖥️",
+                "settings": "⚙️", "share": "📤", "shield": "🛡️", "sliders": "🎚️",
+                "smartphone": "📱", "star": "⭐", "tag": "🏷️", "trash": "🗑️",
+                "trending-up": "📈", "truck": "🚚", "type": "🔤", "upload": "📤",
+                "user": "👤", "users": "👥", "wifi": "📶", "wrench": "🔧"
+            };
+            const icon = iconMap[t.icon] || "🔧";
+            const lang = currentLang === "zh" ? "zh" : "en";
+            const name = lang === "zh" ? (t.name_zh || t.name) : t.name;
+            return `<a href="/tools/${t.id}.html" class="popular-card" onclick="event.preventDefault();openTool('${t.id}')">
+                <div class="p-icon">${icon}</div>
+                <span>${name}</span>
+            </a>`;
+        }).join("");
+    }
+
+    function openWorkshop() {
+        const ws = document.getElementById("workshop-section");
+        if (ws) {
+            ws.scrollIntoView({ behavior: "smooth", block: "start" });
+            // Also show workshop if it's hidden
+            const toggleBtn = document.getElementById("ws-toggle");
+            if (toggleBtn) {
+                const wsContent = document.getElementById("workshop-content");
+                if (wsContent) wsContent.classList.remove("hidden");
+                toggleBtn.textContent = "▼";
+            }
+        }
     }
 
     function renderFooterI18n() {

@@ -2,6 +2,29 @@
 
 ---
 
+## v1.8 (2026-06-28) 🚀 SEO大修：首页CTA + 热门工具 + sitemap更新
+
+### 🎯 首页用户体验大升级
+- **新增 CTA 按钮**：hero 区域下方新增两个大按钮——"🚀 Explore All Tools"（滚动到分类区）和"⚡ Request a Tool"（跳转到 Workshop），降低跳出率
+- **新增 Popular Tools 区域**：首页新增热门工具卡片网格，展示 6 个最常用工具，带 emoji 图标映射，点击直达工具页
+- **i18n 支持**：新增 `hero_cta`、`popular_title` 中英文键值
+
+### 🔧 SEO 优化
+- **sitemap.xml**：所有 URL 的 `lastmod` 更新为 2026-06-28，触发 Google 重新爬取
+- **版本号更新**：v1.6-stable → v1.8-stable
+
+### 🩺 体检脚本强化
+- **首页关键元素检查**：`mintshovels_full_check.py` 新增对 `hero_cta` 按钮和 `popular-grid` 区域的自动检测
+- 版本号同步更新
+
+### 📊 数据状态确认
+- **Googlebot 可正常访问**：返回 200（非 403），索引问题仅因站点太新
+- **GSC 已开始收录**：6月24日已有 4 次展示
+- **Bing API 正常**：返回 `{"d": []}`，API 未过期但暂无数据
+- **GA4 配置完整**：Measurement ID G-D53DQ3JKKL 正常
+
+---
+
 ## v1.7 (2026-06-27) 🔧 质量大修：数据关卡 + 文化准确性 + AI提示词强化
 
 ### 🎯 核心改进：新增数据丰富度检查关卡
