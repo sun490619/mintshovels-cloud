@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T10:56:24.448124+00:00",
+  "generated_at": "2026-06-28T13:05:59.400312+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -91,25 +91,26 @@
       "终端工作区：从 WindTerm 到 NyaTerm",
       "在家远程办公太容易分神了",
       "局座讲大量三哥涌入深圳抢 IT 工作，真有这个状况吗？",
-      "同事现在学舞蹈 准备用 AI 换脸和换声音在视频社交平台直播～ 这方案可行么？",
-      "codex business 48 个月的成品号靠谱吗?",
-      "skills，真的重要嘛？大家来讨论下吧。",
       "某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？",
-      "看到《曾经倾力帮我的学长...》想到的"
+      "skills，真的重要嘛？大家来讨论下吧。",
+      "codex business 48 个月的成品号靠谱吗?",
+      "Claude Pro 也被封号了",
+      "拒绝“赛博溜猴”：国内大厂 AI Coding Plan 抢购恶心到极点"
     ],
     "devto": [
       "DEV Community: programming",
-      "How I Built an AI-Powered Calculator Website That Reached 14.8K Google Impressions in Just One Month of SEO",
-      "The Yes-Man Swap",
-      "BAMBOO TOILET ROLLS",
-      "Don't just let AI fix it. Learn from it.",
-      "Revolutionize Blogging: How a Single Bash Script Can Launch Your Blog in Minutes - Bashblog Explained",
-      "Elevating Your Digital Footprint: Web Design Essentials for Nepali Businesses",
-      "Download Tales of Berseria Remastered NSP, XCI, ROM + v1.0.2 Update",
-      "Verification Cost Is the Real AI Coding Cost",
-      "🚀 My First ChennaiPy Meetup Experience – Learning Beyond the Classroom",
-      "A Verification Ladder for Low-Cost AI Coding Models",
-      "Unlock Faster Browsing: Top 5 Public DNS Resolvers Compared - Boost Your Online Security and Speed"
+      "Optimizing Your Document Workflow: The Ultimate Guide to Splitting PDFs Tags: productivity tools webdev tutorial",
+      "Download Auto Shelf for Mac | Latest Desktop Organizer (2026)",
+      "Website Down Checker — Free Online Tool",
+      "How I Fixed a Hidden Razorpay Integration Bug That Was Blocking Every International Payment",
+      "Grab Your Red Hat Certification This Summer While You Still Can",
+      "Your console.log Is Lying to You",
+      "Found a hidden gem GitHub repo explaining CPython internals and memory management",
+      "The TDD Awakens: Why and How to Start",
+      "After 3 Years of Mocking Redis, We Missed 60% of Edge Cases in Memory Store Tests",
+      "Tech Debt is Real",
+      "Braided Cable &amp; USB Cable Supply",
+      "Buy Verified Skrill Accounts:"
     ],
     "lobsters": [
       "A peek into Reddit's anti-spam internals",
@@ -117,20 +118,20 @@
       "The feature in OxCaml that more languages should steal",
       "Guards! Guards",
       "Prism: An Impure Functional Language With Typed Effects",
+      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+      "Building an Open-Source Robot Vacuum — Meet oomwoo",
       "Excessive nil pointer checks in Go",
       "It's dead, Jim! (UEFI CA expiry)",
-      "Building an Open-Source Robot Vacuum — Meet oomwoo",
       "The Old Computer Challenge",
-      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+      "How VictoriaLogs Stores Your Logs in a Columnar Layout",
       "Linux 7.2 Improves Anonymous/Unnamed Pipe Performance For Shell Pipelines &amp; More",
-      "NLNet Labs LLM Policy",
-      "FIFA Interactive Bracket (World Cup)",
-      "MAX models can now run on Apple silicon GPUs",
-      "Shard your locks: benchmarking 6 Go cache designs",
-      "Call for participation",
       "Nourish - a wayland compositor with infinite zoom and pan",
+      "MAX models can now run on Apple silicon GPUs",
+      "NLNet Labs LLM Policy",
+      "Call for participation",
+      "FIFA Interactive Bracket (World Cup)",
+      "Shard your locks: benchmarking 6 Go cache designs",
       "OpenZL",
-      "Auditable Commercial License (ACL) v1.0",
       "\"How to Think About AI\": Cory Doctorow on Big Tech, Understanding AI, Labor Automation &amp; More"
     ],
     "producthunt": [
@@ -156,53 +157,50 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Anonymous GitHub account mass-dropping undisclosed 0-days 🔥822pts 💬325",
-      "DSpark: Speculative decoding accelerates LLM inference [pdf] 🔥762pts 💬326",
-      "OpenRA 🔥725pts 💬137",
-      "Fintech Engineering Handbook 🔥581pts 💬177",
-      "The case for physical media ownership 🔥446pts 💬302",
-      "Marfa Public Radio Puts You to Sleep 🔥246pts 💬65",
-      "Suspicious Discontinuities (2020) 🔥245pts 💬77",
-      "The best response to AI slop and online noise is from Robin Williams 🔥239pts 💬136",
-      "Turn your site into a place people can bump into each other 🔥239pts 💬102",
-      "Asian AI startups launch Mythos-like models 🔥236pts 💬177",
-      "AI learns the “dark art” of RFIC design 🔥236pts 💬153",
-      "Reducing tick density along recreational trails in Ottawa, Canada 🔥202pts 💬111",
-      "Choosing a Public DNS Resolver 🔥177pts 💬57",
-      "Post-Mythos Cybersecurity: Keep calm and carry on 🔥155pts 💬58",
-      "AMD Strix Halo RDMA Cluster Setup Guide 🔥145pts 💬49",
-      "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C 🔥132pts 💬45",
-      "WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups 🔥79pts 💬5",
-      "Wayfinder Router: deterministic routing of queries between local and hosted LLM 🔥71pts 💬22",
-      "Enhancing x11 Application Security with LXC (2025) 🔥69pts 💬40",
-      "Space Shuttle Endeavour's 20-story vertical display 🔥60pts 💬12",
-      "Regular expressions that work \"everywhere\" 🔥59pts 💬25",
-      "Bashblog – a single bash script to create blogs 🔥54pts 💬27",
-      "How do you keep Web MIDI from crashing a 1983 synthesizer?",
-      "Turning music into a chore is how I became a musician (2022)",
-      "Engineering for Bounded Cognition"
+      "Anonymous GitHub account mass-dropping undisclosed 0-days 🔥859pts 💬331",
+      "OpenRA 🔥755pts 💬141",
+      "The case for physical media ownership 🔥456pts 💬311",
+      "Marfa Public Radio Puts You to Sleep 🔥298pts 💬79",
+      "The best response to AI slop and online noise is from Robin Williams 🔥290pts 💬156",
+      "Turn your site into a place people can bump into each other 🔥263pts 💬114",
+      "Suspicious Discontinuities (2020) 🔥252pts 💬87",
+      "AI learns the “dark art” of RFIC design 🔥247pts 💬160",
+      "Reducing tick density along recreational trails in Ottawa, Canada 🔥215pts 💬139",
+      "Choosing a Public DNS Resolver 🔥199pts 💬75",
+      "AMD Strix Halo RDMA Cluster Setup Guide 🔥170pts 💬53",
+      "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C 🔥150pts 💬58",
+      "WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups 🔥93pts 💬8",
+      "Wayfinder Router: deterministic routing of queries between local and hosted LLM 🔥84pts 💬37",
+      "Space Shuttle Endeavour's 20-story vertical display 🔥73pts 💬13",
+      "Bashblog – a single bash script to create blogs 🔥70pts 💬46",
+      "Engineering for Bounded Cognition 🔥70pts 💬13",
+      "Regular expressions that work “everywhere” 🔥69pts 💬26",
+      "Turning music into a chore is how I became a musician (2022) 🔥56pts 💬19",
+      "DLL that was not present in memory despite not being formally unloaded",
+      "A stray \"j\" ruined my evening",
+      "Reflecting to optimise",
+      "Armadillo – A DNS Server in Gleam for Homelab Use",
+      "Experimenting with Random() in CSS",
+      "Kids act would require age checks to get online"
     ],
     "hn_show": [
-      "Hacker Times – HN Reader — featured on Hacker News (🔥2pts)",
+      "Custom domain emails for open source projects (KaiMail) — featured on Hacker News (🔥1pts)",
+      "Nomina – Single Binary DNS and Nameserver with WebUI for Homelabs — featured on Hacker News (🔥1pts)",
+      "O11y.jobs is a job board focused specifically on Observability — featured on Hacker News (🔥2pts)",
+      "Meta Ads vs. ASA vs. GAC for indie apps (2026 data) — featured on Hacker News (🔥3pts)",
+      "Sambee – browser-based file manager for SMB shares and local drives — featured on Hacker News (🔥2pts)",
+      "Parseflow – Extract data from any document. Entirely on your Mac — featured on Hacker News (🔥1pts)",
+      "Warren – run isolated instances of any CLI tool (no containers,no root) — featured on Hacker News (🔥1pts)",
+      "Genius AI Detector — featured on Hacker News (🔥2pts)",
+      "A faithful MUMPS 76 anniversary implementation – the original NoSQL DB — featured on Hacker News (🔥1pts)",
+      "UnfoldCMS – self-hosted Laravel CMS, one-time pricing, no subscriptions — featured on Hacker News (🔥1pts)",
+      "Cjam – A non-destructive MP3 editor — featured on Hacker News (🔥1pts)",
+      "DepGuard, Visualize and simulate NPM vulnerability blast radiuses — featured on Hacker News (🔥1pts)",
+      "AgentWatch – Prevent runaway AI agents with runtime budget enforcement — featured on Hacker News (🔥4pts)",
+      "Hacker Times – HN Reader — featured on Hacker News (🔥4pts)",
       "role-model, a router for hybrid local/cloud AI — featured on Hacker News (🔥1pts)",
       "Free Notion alternative because I think Notion is overpriced — featured on Hacker News (🔥1pts)",
-      "uvx qrdrop – instant LAN file sharing from your terminal — featured on Hacker News (🔥1pts)",
-      "I built a strategic PvP word game where each move is just one letter — featured on Hacker News (🔥2pts)",
-      "Claudete – Command a legion of Claude Code instances and shells — featured on Hacker News (🔥2pts)",
-      "FOMO – See what your community pays attention to — featured on Hacker News (🔥2pts)",
-      "Beaches of Greece, natural-language search for Greek beaches — featured on Hacker News (🔥1pts)",
-      "CCA-F Gotchas – exam pitfalls turned into an earworm playlist — featured on Hacker News (🔥1pts)",
-      "Hikaru Labs – A private, 100% local alternative to iLoveIMG — featured on Hacker News (🔥2pts)",
-      "React Router V8 integration for LinguiJS — featured on Hacker News (🔥3pts)",
-      "Core-1 – A distributed C++ AGI framework for trillion-parameter scale — featured on Hacker News (🔥3pts)",
-      "Better Graphs – Teach agents to stop making plain Matplotlib slop — featured on Hacker News (🔥6pts)",
-      "Added SaaS Explainer Video Template in Clickcast.tech — featured on Hacker News (🔥2pts)",
-      "Ultrasonic 3D motion capture (Orientator) — featured on Hacker News (🔥2pts)",
-      "Foveon – Bayer to Foveon X3, learned, Mac App using deep learning — featured on Hacker News (🔥3pts)",
-      "NextRole – multi-agent resume tailoring and interview prep — featured on Hacker News (🔥2pts)",
-      "Git-temp – scratchpad folder for AI agents; doesn't clutter Git status — featured on Hacker News (🔥4pts)",
-      "FSM – an advanced system monitor for Linux — featured on Hacker News (🔥15pts)",
-      "SpinnerRecruit – targeted job ads in CLI for AI wait states — featured on Hacker News (🔥2pts)"
+      "uvx qrdrop – instant LAN file sharing from your terminal — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Show HN: role-model, a router for hybrid local/cloud AI — user asking for tool recommendation (🔥1pts)",
@@ -221,20 +219,20 @@
       "Ask HN: Non-profit school possibly hacked, locked out of Google Workspace. — user asking for tool recommendation (🔥6pts)",
       "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal) — user asking for tool recommendation (🔥17pts)",
       "Show HN: Firehooks – Get app users from TikTok without paid ads — user asking for tool recommendation (🔥1pts)",
-      "Running a software jam in a world of slop — user asking for tool recommendation (🔥55pts)",
+      "Show HN: Sambee – browser-based file manager for SMB shares and local drives — user asking for tool recommendation (🔥2pts)",
+      "Ask HN: How do I capture the right audience and find the product market fit — user asking for tool recommendation (🔥4pts)",
+      "Running a software jam in a world of slop — user asking for tool recommendation (🔥57pts)",
       "Ask HN: Is there a quiet market for 'no enforced AI' dev jobs? — user asking for tool recommendation (🔥7pts)",
       "Ask HN: How do we measure software in LLM era? — user asking for tool recommendation (🔥1pts)",
       "How do you handle high-stakes decisions when your brain is at 99% capacity? — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Statey – the database your AI shares across every chat, over MCP — user asking for tool recommendation (🔥3pts)",
-      "Roblox parental controls are a dystopian security disaster — user asking for tool recommendation (🔥23pts)",
+      "ASK HN: Any suggestions or open source tools that capture the screen — user asking for tool recommendation (🔥2pts)",
       "Show HN: Vlt – A local vault for the API keys you use in every project — user asking for tool recommendation (🔥1pts)",
       "Show HN: Hikaru Labs – A private, 100% local alternative to iLoveIMG — user asking for tool recommendation (🔥2pts)",
       "Show HN: Sasso – pure-Rust SCSS compiler, byte-exact to current dart-sass — user asking for tool recommendation (🔥2pts)",
       "Show HN: Play puzzle games in a feed like TikTok — user asking for tool recommendation (🔥6pts)",
       "OpenTag: An open-source alternative to Claude in Slack — user asking for tool recommendation (🔥13pts)",
       "Show HN: Closing the public-key authenticity gap in our E2EE social network — user asking for tool recommendation (🔥3pts)",
-      "Tar: A slop-free alternative to rsync — user asking for tool recommendation (🔥6pts)",
-      "Show HN: Hikaru Labs – An offline, client-side alternative to CloudConvert — user asking for tool recommendation (🔥3pts)"
+      "Tar: A slop-free alternative to rsync — user asking for tool recommendation (🔥6pts)"
     ],
     "hackernoon": [
       "Exile Vector",
@@ -275,60 +273,60 @@
       "Google OpenRL is an Experimental Self-hosted API for LLM Post-Training Fine-Tuning <img src=\"https://res.infoq.com/news/2026/06/google-open-rl-fine-tuning/en/headerimage/google-open-rl-fine-tuning-1782322457170.jpeg\"/><p>Google's GKE"
     ],
     "google_trends": [
-      "heat advisory",
-      "whio",
-      "daphne joy",
-      "kentucky flash flooding",
-      "david bromstad television future",
-      "jalen brunson mariska hargitay broadway",
-      "jose alvarado knicks contract",
-      "car accident lawyer",
-      "heat wave",
-      "alan ritchson motor city movie"
+      "the walking dead",
+      "courtney stodden",
+      "abigail velez",
+      "cricbuzz",
+      "california",
+      "formula 1 schedule",
+      "morgan freeman",
+      "wimbledon",
+      "riley green",
+      "austrian grand prix"
     ],
     "baidu": [
       "山东之行 总书记再提政绩观",
-      "本届世界杯唯一0进球球队诞生",
-      "“爸爸头发短了 就演不了坏人了”",
+      "人民日报：伊朗队昂着头告别世界杯",
+      "中国避暑神器在欧洲卖爆了",
       "专家详解“人造太阳”核心技术",
+      "国乒男单资格赛全员出局",
+      "小学生叠纸青蛙跳2.52米 创世界纪录",
       "李在明怒批韩国队表现：出局太荒唐",
-      "0败的佛得角vs全胜的阿根廷",
-      "200万粉网红诋毁袁隆平被无限期封禁",
-      "世界杯32强对阵表来了",
-      "韩国足协取消为韩国队接机",
-      "世界杯伊朗队从天堂跌入地狱",
-      "伊朗队队长怒斥国际足联：不公平",
-      "农业谣言岂能如此“变态”",
-      "台州一派出所被曝集体去KTV招陪侍",
-      "男生考前2月戒手机 成绩提高1万多名",
+      "世界杯被质疑出现“默契球”",
       "男子独自上坟被老鹰突袭3次",
-      "这四种“健康食物”可能正悄悄坑你",
-      "女子携两大包浸泡毒品旧衣入境",
+      "全网“最幸福”专业找到了",
+      "美国230斤男孩在家中去世 父母被捕",
+      "农业谣言岂能如此“变态”",
+      "某高校学生被辅导员等人扭送至公安",
+      "70后农村大妈跳街舞爆火",
+      "法国人直接高温下煎鸡蛋培根",
+      "韩国足协取消为韩国队接机",
+      "6位中国军校形象代言人来了",
       "韩媒气到给主帅打码",
-      "维嘉回应“人老了做什么都心酸”",
-      "博主遛超长大狗 网友：以为牵了油条"
+      "博主遛超长大狗 网友：以为牵了油条",
+      "老虎瘦成纸片还吃草 园方回应"
     ],
     "wikipedia": [
-      "Futures (tennis)",
-      "Comita Muzaka",
-      "EFL Championship",
-      "Sammy Braybrooke",
-      "Flag of the Byelorussian Soviet Socialist Republic",
-      "Anti-Sikh sentiment in Canada",
-      "Samshayam",
-      "Canadian Defence Academy",
-      "Frilled nudibranch",
-      "Everybody, Sing! season 4",
-      "Long Now Foundation",
-      "Rudolph Dirks",
-      "Brian Mast",
-      "Italy men's national field hockey team",
-      "Miss Arizona's Teen",
-      "Buckland Athletic F.C.",
-      "Olympiacos B.C.",
-      "French 6th Light Armoured Division",
-      "Nate Erskine-Smith",
-      "List of music students by teacher: A to B"
+      "Steve Cass",
+      "Anacostia–Eckington Line",
+      "Father (Kanye West song)",
+      "Budișteanca",
+      "Glâmbocel",
+      "Cocoon (manga)",
+      "Râncăciov (river)",
+      "Starling (structure)",
+      "Kowloon Walled City",
+      "Miss Philippines Earth 2007",
+      "Ninoy Aquino International Airport",
+      "Supergirl (2026 film)",
+      "GE Dash 8-32BWH",
+      "Olona",
+      "List of The Rookie episodes",
+      "Kunal Shah",
+      "Chappell Roan",
+      "Mikha (singer)",
+      "Lazarat",
+      "Steve Cass"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -413,30 +411,31 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: sysadmin",
-      "github trending topic: docker",
-      "github trending topic: project management",
-      "github trending topic: machine-learning",
       "github trending topic: javascript",
-      "github trending topic: python",
-      "github trending topic: database",
-      "github trending topic: css",
-      "github trending topic: typescript",
-      "github trending topic: llm",
-      "github trending topic: chrome",
-      "github trending topic: npm",
-      "github trending topic: node.js",
-      "github trending topic: compiler",
       "github trending topic: awesome lists",
       "github trending topic: code quality",
-      "github trending topic: front end",
-      "github trending topic: react native",
-      "github trending topic: react",
-      "github trending topic: self-hosted",
+      "github trending topic: v2raytun-windows-10",
+      "github trending topic: vpn",
+      "github trending topic: zapret-discord-youtube-2026",
       "github trending topic: scala",
-      "github trending topic: github-actions",
-      "github trending topic: automation",
-      "github trending topic: cli"
+      "github trending topic: css",
+      "github trending topic: database",
+      "github trending topic: python",
+      "github trending topic: npm",
+      "github trending topic: v2raytun",
+      "github trending topic: front end",
+      "github trending topic: compiler",
+      "github trending topic: project management",
+      "github trending topic: zapret-discord-youtube",
+      "github trending topic: fork",
+      "github trending topic: v2raytun-windows",
+      "github trending topic: typescript",
+      "github trending topic: react",
+      "github trending topic: chrome",
+      "github trending topic: node.js",
+      "github trending topic: v2raytun-desktop",
+      "github trending topic: react native",
+      "github trending topic: v2raytun-windows-11"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -450,6 +449,15 @@
       "type": "tool",
       "name": "Viewer",
       "name_zh": "查看器"
+    },
+    {
+      "keyword": "Website Down Checker — Free Online Tool",
+      "matched": "check",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "Checker Tool",
+      "name_zh": "检测工具"
     },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
@@ -515,7 +523,7 @@
       "name_zh": "单位换算"
     },
     {
-      "keyword": "Bashblog – a single bash script to create blogs 🔥54pts 💬27",
+      "keyword": "Bashblog – a single bash script to create blogs 🔥70pts 💬46",
       "matched": "log",
       "category": "dev",
       "subcat": "devops",
@@ -607,6 +615,7 @@
   ],
   "all_keywords": [
     "copilot-pull-request-reviewer",
+    "Website Down Checker — Free Online Tool",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -627,7 +636,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Bashblog – a single bash script to create blogs 🔥54pts 💬27",
+    "Bashblog – a single bash script to create blogs 🔥70pts 💬46",
     "Data Privacy while using API tools — user asking for tool recommendation (🔥4pts)",
     "electra-base-discriminator",
     "electra-base-discriminator",
@@ -645,10 +654,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 174,
-    "valid_count": 37,
-    "rejected_count": 137,
-    "rejection_rate": 78.7,
+    "raw_count": 183,
+    "valid_count": 38,
+    "rejected_count": 145,
+    "rejection_rate": 79.2,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -657,25 +666,18 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "How I Built an AI-Powered Calculator Website That Reached 14.8K Google Impressions in Just One Month of SEO",
-      "BAMBOO TOILET ROLLS",
-      "Unlock Faster Browsing: Top 5 Public DNS Resolvers Compared - Boost Your Online Security and Speed"
+      "Claude Pro 也被封号了",
+      "Optimizing Your Document Workflow: The Ultimate Guide to Splitting PDFs Tags: productivity tools webdev tutorial",
+      "Download Auto Shelf for Mac | Latest Desktop Organizer (2026)"
     ]
   },
   "trait_analysis": {
-    "total_captured": 351,
-    "chatter_blocked": 15,
-    "chatter_rate": 4.3,
-    "tool_signals_found": 174,
-    "tool_signal_rate": 49.6,
+    "total_captured": 350,
+    "chatter_blocked": 14,
+    "chatter_rate": 4.0,
+    "tool_signals_found": 183,
+    "tool_signal_rate": 52.3,
     "chatter_samples": [
-      {
-        "text": "同事现在学舞蹈 准备用 AI 换脸和换声音在视频社交平台直播～ 这方案可行么？",
-        "category": "chatter",
-        "matched": [
-          "同事"
-        ]
-      },
       {
         "text": "某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？",
         "category": "ad",
@@ -684,10 +686,24 @@
         ]
       },
       {
-        "text": "Turning music into a chore is how I became a musician (2022)",
+        "text": "拒绝“赛博溜猴”：国内大厂 AI Coding Plan 抢购恶心到极点",
+        "category": "ad",
+        "matched": [
+          "抢购"
+        ]
+      },
+      {
+        "text": "Turning music into a chore is how I became a musician (2022) 🔥56pts 💬19",
         "category": "entertainment",
         "matched": [
           "music"
+        ]
+      },
+      {
+        "text": "AgentWatch – Prevent runaway AI agents with runtime budget enforcement — feature",
+        "category": "chatter",
+        "matched": [
+          "vent"
         ]
       },
       {
@@ -696,16 +712,6 @@
         "matched": [
           "Music",
           "music"
-        ]
-      },
-      {
-        "text": "Roblox parental controls are a dystopian security disaster — user asking for too",
-        "category": "news",
-        "matched": [
-          [
-            "disaster",
-            ""
-          ]
         ]
       },
       {
@@ -726,24 +732,24 @@
         ]
       },
       {
-        "text": "alan ritchson motor city movie",
+        "text": "Supergirl (2026 film)",
         "category": "entertainment",
         "matched": [
-          "movie"
+          "film"
         ]
       },
       {
-        "text": "Everybody, Sing! season 4",
+        "text": "Mikha (singer)",
         "category": "entertainment",
         "matched": [
-          "season"
+          "singer"
         ]
       },
       {
-        "text": "List of music students by teacher: A to B",
-        "category": "entertainment",
+        "text": "Error-Conditioned Neural Solvers Neural surrogate models offer fast approximate ",
+        "category": "ad",
         "matched": [
-          "music"
+          "offer"
         ]
       }
     ],
@@ -808,54 +814,58 @@
         ]
       },
       {
-        "text": "How I Built an AI-Powered Calculator Website That Reached 14.8K Google Impressions in Just One Month",
-        "confidence": 60,
-        "features": [
-          "英文动作特征: ['Calculator']",
-          "输入→输出链式: [('Calculator', 'to', '', '', '', '')]",
-          "英文工具名词: ['calculator']"
-        ]
-      },
-      {
-        "text": "BAMBOO TOILET ROLLS",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('BAMBOO TOILET', 'TO', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "Unlock Faster Browsing: Top 5 Public DNS Resolvers Compared - Boost Your Online Security and Speed",
+        "text": "Claude Pro 也被封号了",
         "confidence": 15,
         "features": [
-          "技术概念: ['DNS']"
+          "技术概念: ['Claude']"
         ]
       },
       {
-        "text": "A peek into Reddit's anti-spam internals",
+        "text": "Optimizing Your Document Workflow: The Ultimate Guide to Splitting PDFs Tags: productivity tools web",
+        "confidence": 35,
+        "features": [
+          "输入→输出链式: [('Guide to Splitting', 'to', '', '', '', ''), ('productivity tools', 'to', '', '', '', '')]",
+          "英文工具名词: ['tool']"
+        ]
+      },
+      {
+        "text": "Download Auto Shelf for Mac | Latest Desktop Organizer (2026)",
+        "confidence": 45,
+        "features": [
+          "英文动作特征: ['Auto Shelf']",
+          "输入→输出链式: [('Auto Shelf', 'to', '', '', '', ''), ('Desktop', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Website Down Checker — Free Online Tool",
+        "confidence": 70,
+        "features": [
+          "英文动作特征: ['Checker']",
+          "输入→输出链式: [('Online Tool', 'To', '', '', '', '')]",
+          "英文工具名词: ['checker', 'tool']",
+          "需求表达: [('Free Online Tool', '', '', 'Free', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Your console.log Is Lying to You",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('into Reddit', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Lying to You', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Excessive nil pointer checks in Go",
-        "confidence": 15,
+        "text": "The TDD Awakens: Why and How to Start",
+        "confidence": 30,
         "features": [
-          "技术概念: ['Go']"
+          "输入→输出链式: [('How to Start', 'to', '', '', '', '')]",
+          "需求表达: [('How to Start', 'to', '', '', '', '', '', '')]"
         ]
       },
       {
-        "text": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+        "text": "After 3 Years of Mocking Redis, We Missed 60% of Edge Cases in Memory Store Tests",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('laptop', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "NLNet Labs LLM Policy",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['LLM']"
+          "输入→输出链式: [('Store', 'to', '', '', '', '')]"
         ]
       }
     ]

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checker Tool - 检测工具 | MintShovels</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #09090b; color: #fafafa; font-family: system-ui, -apple-system, sans-serif; min-height: 100vh; }
+        .card { background: #18181b; border: 1px solid #27272a; border-radius: 16px; padding: 24px; }
+        .btn-primary { background: linear-gradient(135deg,#6366f1,#8b5cf6); color:white; border:none; padding:10px 24px; border-radius:12px; font-weight:600; font-size:14px; cursor:pointer; }
+        .btn-primary:hover { transform:translateY(-1px); box-shadow:0 8px 25px rgba(99,102,241,0.3); }
+        .btn-secondary { background:#27272a; color:#d4d4d8; border:1px solid #3f3f46; padding:10px 24px; border-radius:12px; font-weight:600; font-size:14px; cursor:pointer; }
+        .btn-secondary:hover { background:#3f3f46; }
+        input, textarea { background:#18181b; border:1px solid #27272a; border-radius:10px; padding:10px 14px; color:#fafafa; font-size:14px; width:100%; }
+        input:focus, textarea:focus { outline:none; border-color:#6366f1; }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-3xl mx-auto">
+        <a href="../index.html" class="text-zinc-500 hover:text-white text-sm mb-6 inline-block">← MintShovels</a>
+        <div class="card mb-6">
+            <div class="text-5xl mb-4">💻</div>
+            <h1 class="text-2xl font-bold">Checker Tool</h1>
+            <p class="text-zinc-400">检测工具</p>
+            <span class="inline-block mt-2 px-3 py-1 rounded-full text-xs bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+                Shovel #038 · 🔧 Web Tool
+            </span>
+        </div>
+        <div class="card">
+            <div class="space-y-4">
+    <input id="check-input" type="text" placeholder="输入待检测内容..." class="w-full">
+    <button onclick="check()" class="btn-primary">✅ 开始检测</button>
+    <div id="check-result"></div>
+</div>
+        </div>
+        <script>function check() {
+    const input = document.getElementById('check-input').value.trim();
+    const result = document.getElementById('check-result');
+    if (!input) { result.innerHTML = '<p class="text-amber-400">⚠️ 请输入待检测内容</p>'; return; }
+    let valid = false, detail = '';
+    try {
+        const parsed = JSON.parse(input);
+        valid = true;
+        const type = Array.isArray(parsed) ? 'Array' : typeof parsed;
+        const keys = typeof parsed === 'object' && !Array.isArray(parsed) ? Object.keys(parsed) : [];
+        detail = `✅ 有效JSON | 类型: ${type}${keys.length ? ' | 字段: ' + keys.slice(0,5).join(', ') : ''}`;
+    } catch(e) {
+        valid = false;
+        detail = `❌ 解析失败: ${e.message}`;
+    }
+    result.className = 'mt-4 p-4 rounded-lg text-sm ' + (valid ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' : 'bg-red-500/10 text-red-400 border border-red-500/20');
+    result.innerHTML = detail;
+    // 统计信息
+    const chars = input.replace(/\s/g, '').length;
+    const statsEl = document.createElement('div');
+    statsEl.className = 'mt-3 text-xs text-zinc-500';
+    statsEl.textContent = '输入长度: ' + input.length + ' | 有效字符: ' + chars + ' | 行数: ' + input.split('\n').length;
+    result.appendChild(statsEl);
+}</script>
+    </div>
+</body>
+</html>
