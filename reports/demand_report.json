@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T19:28:29.820552+00:00",
+  "generated_at": "2026-06-29T20:09:42.580612+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -102,44 +102,45 @@
       "租房生活后，学做饭，每天都吃上了自己亲手做的饭，谈谈经验",
       "中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度",
       "骑自行车后续.....下不去了",
-      "Claude 闲置号被封"
+      "Claude 闲置号被封",
+      "现在没什么好用的 coding plan 了吗？"
     ],
     "devto": [
       "DEV Community: programming",
-      "كيفية بناء تطبيق ويب آمن باستخدام لغة بي إتش بي ومكتبة لارافيل",
-      "100k lines of TypeScript to Rust with zero Rust experience. That's not engineering.",
-      "The Source Code of Randomness: Why Your Data Models Need an Integration Test",
-      "ayatsaadati — Complete Guide",
-      "Día 1 de Resolviendo ejercicios de LEETCODE como si fuera un ANIME",
-      "Revolutionize Coding: Unlock the Power of Ornith-1.0, the Game-Changing Open-Source AI Model that Writes its Own Code",
-      "Get Any Instagram Profile in 10 Lines of Python",
-      "Making Claude a Chemist",
-      "A benchmark is a claim until someone can replay it",
-      "How to Stop LangChain Agents from Bankrupting Your API Budget",
-      "Wonderbox: The Adventure Maker 2.3.1 Mac Game Download",
-      "GLM-5.2 vs Anthropic Mythos for Bug-Finding: Benchmarks, Architectures and Production Playbook"
+      "Exposed: The Shocking Truth About Radiation Poisoning and the Hidden Dangers You're Not Being Told",
+      "Revolutionizing Retro Gaming: How JIT-Compiled Game Boy Instructions in WASM Outperform Native Interpreters by Up to 300%",
+      "Mail Cannon WordPress Plugin: A Simple Way to Connect WordPress to MailCannon",
+      "The $500M Claude Code Problem: Why Most Teams Pay 3x What They Should for AI Coding",
+      "How Machine Identities The Invisible Attack Surface: Why Machine Identities Are Cloud Security's Biggest Blind Spot",
+      "Creating a Simple Chatbot using Python and Natural Language Processing: A Beginner's Guide",
+      "🚀 EF Core Query Optimization for Beginners",
+      "Performance and Failure Simulation using Service Virtualization",
+      "كيفية بناء نظام إلكتروني للمعلمين باستخدام بايثون وديjango",
+      "تطوير تطبيقات الويب باستخدام فريمورك Flask في بيئة لينكس: دليل مبتدئ",
+      "Stim: A Tiny Language for AI Prompts, Agents, and Workflows",
+      "Mastering HTML and CSS for Beginners: A Comprehensive Guide to Building Responsive and Mobile-Friendly Websites with Bootstrap"
     ],
     "lobsters": [
       "When Impressive Performance Gains Do Not Matter",
       "What is `std::pin::Pin` in Rust?",
+      "Loko Scheme 0.13.0",
       "Canvas patch: we need testers",
       "Ante: New Way to Blend Borrow Checking and Reference Counting",
-      "Loko Scheme 0.13.0",
       "WATaBoy: JIT-ing Game Boy Instructions to Wasm Beats a Native Interpreter",
       "Evaluation order and nontermination in query languages",
-      "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
       "Typst: Designing for Incrementality",
+      "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
       "Towards Understandable Software",
       "Type-checked non-empty strings",
       "Longinus: 2 Boundaries in One Bug, Piercing Chrome’s Renderer and V8 Sandbox with a Single Vulnerability, CVE-2026-6307",
       "What are you doing this week?",
-      "Optimizing LLVM's bump allocator",
       "You might not need… a service worker",
+      "Optimizing LLVM's bump allocator",
       "Kivo - A lightweight desktop teleprompter built with PySide6",
       "Obfuscation: building the final boss of cryptography",
+      "Solod v0.2: Networking, new targets, friendlier interop",
       "ipv6_frag_escape: Linux LPE - Reliable Jail/Container Escape",
-      "Autocrypt v2 - Post-Quantum and Reliable Deletion",
-      "A Core Calculus for Documents (2024)"
+      "Autocrypt v2 - Post-Quantum and Reliable Deletion"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -164,39 +165,42 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88 🔥908pts 💬389",
-      "Pollen tried to remove my article and Google is assisting with it 🔥776pts 💬111",
-      "The CEO of Mullvad is the main financer of the Swedish Örebro party 🔥352pts 💬784",
-      "Tidal AI Policy 🔥263pts 💬290",
-      "Qwen 3.6 27B is the sweet spot for local development 🔥259pts 💬188",
-      "Rocketlab acquires Iridium 🔥251pts 💬145",
-      "Instagram is incorporating users' photos in ads for Meta Glasses 🔥244pts 💬108",
-      "Samsung, SK Hynix, Micron Sued in US over Memory Price Fixing 🔥241pts 💬118",
-      "US Supreme Court rules geofence warrants require constitutional protections 🔥224pts 💬85",
-      "European ISPs Want Rightsholders Held Accountable for Overblocking Damage 🔥204pts 💬45",
-      "Studio Canal Movies purchased on PlayStation Store removed without refund 🔥172pts 💬102",
-      "Mag 7 starting to underperform [pdf] 🔥162pts 💬131",
-      "Halvar's Guide to Entrepreneurship 🔥157pts 💬39",
-      "What happens when you run a CUDA kernel? 🔥156pts 💬13",
-      "A native graphical shell for SSH 🔥131pts 💬56",
-      "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter 🔥129pts 💬14",
-      "Sandia National Labs SA3000 8085 CPU 🔥125pts 💬37",
-      "NUMA: Cores, memory, and the distance between them 🔥113pts 💬24",
-      "CachyOS June 2026 Release 🔥102pts 💬51",
-      "Building Principia for Windows XP 🔥95pts 💬24",
-      "Rebuilding the Computer Room 🔥66pts 💬35",
-      "The Radiation Exposure Lie 🔥54pts 💬17",
-      "The Return of Aspect Oriented Programming",
+      "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88 🔥927pts 💬395",
+      "Pollen tried to remove my article and Google is assisting with it 🔥804pts 💬113",
+      "The CEO of Mullvad is the main financer of the Swedish Örebro party 🔥394pts 💬876",
+      "Qwen 3.6 27B is the sweet spot for local development 🔥331pts 💬258",
+      "Rocketlab acquires Iridium 🔥273pts 💬157",
+      "Tidal AI Policy 🔥266pts 💬302",
+      "US Supreme Court rules geofence warrants require constitutional protections 🔥263pts 💬110",
+      "Instagram is incorporating users' photos in ads for Meta Glasses 🔥259pts 💬117",
+      "Samsung, SK Hynix, Micron Sued in US over Memory Price Fixing 🔥254pts 💬130",
+      "European ISPs Want Rightsholders Held Accountable for Overblocking Damage 🔥231pts 💬62",
+      "Mag 7 starting to underperform [pdf] 🔥167pts 💬135",
+      "What happens when you run a CUDA kernel? 🔥167pts 💬14",
+      "Halvar's Guide to Entrepreneurship 🔥165pts 💬39",
+      "A native graphical shell for SSH 🔥155pts 💬62",
+      "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter 🔥136pts 💬15",
+      "Sandia National Labs SA3000 8085 CPU 🔥130pts 💬37",
+      "NUMA: Cores, memory, and the distance between them 🔥118pts 💬25",
+      "CachyOS June 2026 Release 🔥108pts 💬53",
+      "Building Principia for Windows XP 🔥99pts 💬27",
+      "The Radiation Exposure Lie 🔥73pts 💬38",
+      "Ornith-1.0: self-improving open-source models for agentic coding 🔥65pts 💬8",
+      "The Return of Aspect Oriented Programming 🔥54pts 💬40",
+      "You Don't Know Jack About Formal Verification 🔥54pts 💬17",
       "Wallace the 6 inch f/2.8 telescope, building it, and hiking with it",
       "Venetian Bridge Brawls in 17th and 18th Century Art"
     ],
     "hn_show": [
+      "Title:  10 Killer Game Apps – O(1) hash-table lookup for game logic — featured on Hacker News (🔥1pts)",
+      "Entity Event Matrix on any topic — featured on Hacker News (🔥1pts)",
+      "TypeScript7 LSP Claude Code Plugin — featured on Hacker News (🔥2pts)",
       "TermRover – a native tmux-first terminal for iOS and Android — featured on Hacker News (🔥2pts)",
-      "Quxnet — featured on Hacker News (🔥1pts)",
-      "Privacy Friendly Age Verification System — featured on Hacker News (🔥1pts)",
+      "Quxnet — featured on Hacker News (🔥2pts)",
+      "Privacy Friendly Age Verification System without ID — featured on Hacker News (🔥1pts)",
       "Halgorithem – an open-source tool for detecting AI hallucinations — featured on Hacker News (🔥1pts)",
       "The UNESCO Tsunami Warning Emails Are Gone — featured on Hacker News (🔥2pts)",
-      "Context Warp Drive – deterministic folding for LLM agents — featured on Hacker News (🔥2pts)",
+      "Context Warp Drive – deterministic folding for LLM agents — featured on Hacker News (🔥3pts)",
       "Crossbeam-CLI – Connect Claude to Crossbeam without the enterprise tier — featured on Hacker News (🔥1pts)",
       "AST-guard A gradient-immune structural guard against RL reward hacking — featured on Hacker News (🔥3pts)",
       "Lrcmux, one lyrics API to rule them all — featured on Hacker News (🔥2pts)",
@@ -207,9 +211,7 @@
       "MCP-compress-router – MCP Compressor — featured on Hacker News (🔥1pts)",
       "Create and Maintain Filesystem Structures for LLMs [v1.0.13 Out] — featured on Hacker News (🔥1pts)",
       "Toolnexus for .NET – MCP and agent skills as tools for any LLM — featured on Hacker News (🔥1pts)",
-      "PDFx – a 2D canvas for multiple PDFs, stored inside a single PDF — featured on Hacker News (🔥1pts)",
-      "KaliCart – an agent-readable catalog for WooCommerce (no API key) — featured on Hacker News (🔥1pts)",
-      "Katra, self-hosted cognitive memory for AI agents (MCP) — featured on Hacker News (🔥3pts)"
+      "PDFx – a 2D canvas for multiple PDFs, stored inside a single PDF — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Show HN: Hail.so – Send and receive emails, calls, SMS via a single MCP/API/CLI — user asking for tool recommendation (🔥1pts)",
@@ -228,7 +230,8 @@
       "Ask HN: Non-profit school possibly hacked, locked out of Google Workspace. — user asking for tool recommendation (🔥6pts)",
       "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal) — user asking for tool recommendation (🔥17pts)",
       "Show HN: Firehooks – Get app users from TikTok without paid ads — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Quxnet — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Quxnet — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Agentic Orchestrator, a TUI for long-running coding agents — user asking for tool recommendation (🔥1pts)",
       "Tell HN: Delete Google — user asking for tool recommendation (🔥3pts)",
       "Ask HN: What is happening with the current AI startup ecosystem? — user asking for tool recommendation (🔥2pts)",
       "Show HN: Sambee – browser-based file manager for SMB shares and local drives — user asking for tool recommendation (🔥2pts)",
@@ -240,8 +243,7 @@
       "We need tech news sources which exclude AI — user asking for tool recommendation (🔥128pts)",
       "Ask HN: Is WordPress the best way to create new websites for beginner — user asking for tool recommendation (🔥12pts)",
       "Show HN: A directory of open source alternatives to proprietary software — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Hikaru Labs – A private, 100% local alternative to iLoveIMG — user asking for tool recommendation (🔥3pts)",
-      "Show HN: YouTube to MP3 Converter – Free in the Browser — user asking for tool recommendation (🔥1pts)"
+      "Show HN: Hikaru Labs – A private, 100% local alternative to iLoveIMG — user asking for tool recommendation (🔥3pts)"
     ],
     "hackernoon": [
       "MCP Explained: One Protocol for All Your AI Applications",
@@ -282,16 +284,16 @@
       "Building a European Cloud Orchestration Platform within an Enterprise <img src=\"https://res.infoq.com/news/2026/06/europe-cloud-enterprise/en/headerimage/europe-cloud-enterprise-header-1782131709734.jpg\"/><p>Modern cloud"
     ],
     "google_trends": [
-      "next brazil game",
-      "próximo jogo do brasil copa do mundo 2026",
-      "golden goal",
-      "casemiro inter miami",
-      "lauren koslow y&r return",
-      "rayan brazil",
-      "smci",
-      "radko gudas",
-      "coco gauff",
-      "novak djokovic"
+      "fifa schedule",
+      "miami",
+      "calendario mundial 2026",
+      "copa do mundo",
+      "next world cup game",
+      "usa vs bosnia and herzegovina",
+      "north carolina jail",
+      "alemania - paraguay",
+      "devin carter",
+      "amanda batula"
     ],
     "baidu": [
       "一切民族英雄都是中华民族的脊梁",
@@ -303,7 +305,7 @@
       "巴西替补奇兵读秒绝杀",
       "这几秒成世界杯最值钱广告位",
       "杨紫获白玉兰视后争议不止",
-      "孙兴慜发长文致歉",
+      "内马尔中场休息积极鼓励队友",
       "男子诋毁袁隆平科研成果被刑拘",
       "湖北云南的这些涉汛信息都是假的",
       "酒店推行“24小时退房”引热议",
@@ -311,31 +313,31 @@
       "杨紫被质疑未使用原名",
       "又一家县级医院关停门诊输液大厅",
       "本届世界杯已有5名球员被控强奸",
+      "孙兴慜发长文致歉",
       "卡塞米罗头球破门 巴西扳平日本",
-      "王健林甩卖超80座万达广场",
-      "女子健身不当 居然“脑子漏水”了"
+      "王健林甩卖超80座万达广场"
     ],
     "wikipedia": [
-      "1982 Benson & Hedges Championships – Doubles",
-      "The Art Linkletter Show",
-      "Nam Ngim",
-      "Oleh Serbin",
-      "Kyle Hartzell",
-      "Mike Kabealo",
-      "Maurizio Mariani",
-      "Paul Goddard (musician)",
-      "Wiktor Nowak",
-      "Icosahedron",
-      "Oleh Kuznietsov",
-      "Zargari (surname)",
-      "Kirsty Hume",
-      "Kyle Harrison (lacrosse)",
-      "Oleh Chumak",
-      "Mountainhood",
-      "Life's a Trip",
-      "Oleg Zernikel",
-      "Street Sports Soccer",
-      "Rotherham United F.C."
+      "Malappuram Lok Sabha constituency",
+      "Never Felt So Good",
+      "Blind Willie Johnson",
+      "Stankūnas",
+      "Nan Marriott-Watson",
+      "Medynsky",
+      "Devidas",
+      "Pollution and pregnancy",
+      "Operation Babylift",
+      "LCVP (United Kingdom)",
+      "Hope Hale Davis",
+      "Kiban Rai",
+      "Vithalrao",
+      "Murder of Jun Lin",
+      "Henry Jermyn, 1st Earl of St Albans",
+      "Walter Paget (illustrator)",
+      "Soft and Wet",
+      "Mountain West Conference",
+      "Gosforth Cross",
+      "Gulabchand"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -417,33 +419,31 @@
       "prettier — npm package: Prettier is an opinionated code formatter",
       "@expo/xcpretty — npm package: Parse and format xcodebuild logs",
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format",
-      "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
+      "ecdsa-sig-formatter — npm package: Translate ECDSA signatures between ASN.1/DER and JOSE-style concatenation"
     ],
     "github_topics": [
-      "github trending topic: react native",
-      "github trending topic: javascript",
-      "github trending topic: code quality",
-      "github trending topic: proxy",
-      "github trending topic: database",
       "github trending topic: compiler",
-      "github trending topic: tg-proxy",
-      "github trending topic: react",
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: web-tool",
-      "github trending topic: online-tool",
-      "github trending topic: chrome",
-      "github trending topic: python",
-      "github trending topic: tg-fix",
-      "github trending topic: telegram",
-      "github trending topic: typescript",
       "github trending topic: awesome lists",
-      "github trending topic: proxy-tg",
-      "github trending topic: front end",
-      "github trending topic: scala",
+      "github trending topic: python",
       "github trending topic: npm",
-      "github trending topic: css",
+      "github trending topic: front end",
+      "github trending topic: zapret-telegram",
+      "github trending topic: chrome",
+      "github trending topic: tg-ws-proxy",
+      "github trending topic: code quality",
+      "github trending topic: html",
+      "github trending topic: javascript",
+      "github trending topic: project management",
+      "github trending topic: react native",
+      "github trending topic: database",
+      "github trending topic: tg-proxy",
+      "github trending topic: tg-fix",
       "github trending topic: node.js",
-      "github trending topic: project management"
+      "github trending topic: css",
+      "github trending topic: react",
+      "github trending topic: telegramfix",
+      "github trending topic: typescript",
+      "github trending topic: scala"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -626,7 +626,7 @@
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
     "Ask HN: Examples of AI taste? — user asking for tool recommendation (🔥1pts)",
-    "Show HN: Quxnet — user asking for tool recommendation (🔥1pts)",
+    "Show HN: Quxnet — user asking for tool recommendation (🔥2pts)",
     "Tell HN: Delete Google — user asking for tool recommendation (🔥3pts)",
     "Metasearch Tooling for Agents — user asking for tool recommendation (🔥8pts)",
     "electra-base-discriminator",
@@ -642,15 +642,13 @@
     "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "sass-formatter — npm package: TypeScript Sass formatter",
-    "prettier — npm package: Prettier is an opinionated code formatter",
-    "github trending topic: web-tool",
-    "github trending topic: online-tool"
+    "prettier — npm package: Prettier is an opinionated code formatter"
   ],
   "filter_stats": {
     "raw_count": 178,
-    "valid_count": 41,
-    "rejected_count": 137,
-    "rejection_rate": 77.0,
+    "valid_count": 39,
+    "rejected_count": 139,
+    "rejection_rate": 78.1,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -661,13 +659,13 @@
       "How slicing in Python works",
       "[0629 内测] Brivionix（Codex Pro 池）— GPT-5.5 / 5.4 / 5.3，回帖留 ID 送 $10",
       "Claude 闲置号被封",
-      "100k lines of TypeScript to Rust with zero Rust experience. That's not engineering."
+      "Exposed: The Shocking Truth About Radiation Poisoning and the Hidden Dangers You're Not Being Told"
     ]
   },
   "trait_analysis": {
     "total_captured": 352,
-    "chatter_blocked": 10,
-    "chatter_rate": 2.8,
+    "chatter_blocked": 8,
+    "chatter_rate": 2.3,
     "tool_signals_found": 178,
     "tool_signal_rate": 50.6,
     "chatter_samples": [
@@ -679,17 +677,17 @@
         ]
       },
       {
-        "text": "Wonderbox: The Adventure Maker 2.3.1 Mac Game Download",
-        "category": "chatter",
-        "matched": [
-          "vent"
-        ]
-      },
-      {
-        "text": "US Supreme Court rules geofence warrants require constitutional protections 🔥224",
+        "text": "US Supreme Court rules geofence warrants require constitutional protections 🔥263",
         "category": "chatter",
         "matched": [
           "rant"
+        ]
+      },
+      {
+        "text": "Entity Event Matrix on any topic — featured on Hacker News (🔥1pts)",
+        "category": "chatter",
+        "matched": [
+          "vent"
         ]
       },
       {
@@ -710,25 +708,10 @@
         ]
       },
       {
-        "text": "próximo jogo do brasil copa do mundo 2026",
-        "category": "chatter",
-        "matched": [
-          "imo"
-        ]
-      },
-      {
         "text": "世界杯：德国vs巴拉圭",
         "category": "entertainment",
         "matched": [
           "世界杯"
-        ]
-      },
-      {
-        "text": "Street Sports Soccer",
-        "category": "entertainment",
-        "matched": [
-          "Sports",
-          "Soccer"
         ]
       },
       {
@@ -823,41 +806,38 @@
         ]
       },
       {
-        "text": "100k lines of TypeScript to Rust with zero Rust experience. That's not engineering.",
-        "confidence": 35,
+        "text": "Exposed: The Shocking Truth About Radiation Poisoning and the Hidden Dangers You're Not Being Told",
+        "confidence": 20,
         "features": [
-          "输入→输出链式: [('TypeScript to Rust', 'to', '', '', '', '')]",
-          "技术概念: ['Rust', 'TypeScript']"
+          "输入→输出链式: [('Being Told', 'To', '', '', '', '')]"
         ]
       },
       {
-        "text": "Get Any Instagram Profile in 10 Lines of Python",
-        "confidence": 15,
+        "text": "Revolutionizing Retro Gaming: How JIT-Compiled Game Boy Instructions in WASM Outperform Native Inter",
+        "confidence": 20,
         "features": [
-          "技术概念: ['Python']"
+          "输入→输出链式: [('Up to 300', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Making Claude a Chemist",
+        "text": "Mail Cannon WordPress Plugin: A Simple Way to Connect WordPress to MailCannon",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Way to Connect', 'to', '', '', '', ''), ('WordPress to MailCannon', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "The $500M Claude Code Problem: Why Most Teams Pay 3x What They Should for AI Coding",
         "confidence": 15,
         "features": [
           "技术概念: ['Claude']"
         ]
       },
       {
-        "text": "How to Stop LangChain Agents from Bankrupting Your API Budget",
-        "confidence": 45,
-        "features": [
-          "输入→输出链式: [('How to Stop', 'to', '', '', '', '')]",
-          "技术概念: ['API']",
-          "需求表达: [('How to Stop', 'to', '', '', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "What is `std::pin::Pin` in Rust?",
+        "text": "Creating a Simple Chatbot using Python and Natural Language Processing: A Beginner's Guide",
         "confidence": 15,
         "features": [
-          "技术概念: ['Rust']"
+          "技术概念: ['Python']"
         ]
       }
     ]

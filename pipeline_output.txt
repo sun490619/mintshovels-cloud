@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-29T16:02:14.427911+00:00     ║
+║       启动时间: 2026-06-29T20:09:42.426855+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 9 topics
+  ✅ 10 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 16 Show HN posts
+  ✅ 20 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -63,7 +63,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [9/25] Fetching HuggingFace...
   ✅ 40 models
 🔍 [21/25] Fetching arXiv cs.AI...
-  ⚠️ Failed to fetch http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&so: HTTP Error 429: Unknown Error
+  ✅ 15 papers
 🔍 [22/25] Fetching Papers With Code...
   ⚠️ Failed: Expecting value: line 1 column 1 (char 0)
 
@@ -81,48 +81,52 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 332
-  🚫 闲聊拦截: 11 条 (3.3%)
-  🧠 工具信号: 169 条 (50.9%)
+  原始信号总量: 352
+  🚫 闲聊拦截: 8 条 (2.3%)
+  🧠 工具信号: 178 条 (50.6%)
 
   📋 闲聊拦截样例:
      [ad] 中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度
-     [ad] REVOLUTIONARY MOVE: Rocket Lab Acquires Iridium - What This 
-     [ad] Cline subscription plan to access GLM-5.2 at 2-5x discount —
-     [chatter] Timefeed – Auto sync public events to your calendar — featur
+     [chatter] US Supreme Court rules geofence warrants require constitutio
+     [chatter] Entity Event Matrix on any topic — featured on Hacker News (
      [chatter] Why Someone Next to You Gets Better Cell Service at Crowded 
+     [news] Presentation: AI Works, Pull Requests Don’t: How AI is Break
 
   🧠 工具信号样例:
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
-     [置信度35%] Does Python have a ternary conditi
+     [置信度35%] Does Python have a ternary conditional operator?
+       ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
+       ↳ 技术概念: ['Python']
+     [置信度15%] Wh
 
-✅ 雷达完成 — 16 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 332 条
-     🚫 闲聊拦截: 11 条 (3.3%)
-     🧠 工具信号: 169 条 (50.9%)
+     原始抓取: 352 条
+     🚫 闲聊拦截: 8 条 (2.3%)
+     🧠 工具信号: 178 条 (50.6%)
      闲聊样例: 中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度... [ad]
      工具信号样例: What does the "yield" keyword do in Python?... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 169 → 有效 38
-     拒绝率: 77.5%
+     工具信号 178 → 有效 39
+     拒绝率: 78.1%
 
-  📊 意图分类器审计 — 审查 16 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (13):
+  ✅ 通过 (14):
      [WARN  |  +36] API Tester  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
+     [PASS  |  +55] Search Tool  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
@@ -147,12 +151,12 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-06-29T16:02:14.578436+00:00
-   Already in catalog: 93 tools
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-06-29T20:09:42.580612+00:00
+   Already in catalog: 95 tools
    Previously produced: 0 tools
-   Existing tool pages: 77 files
-   Next shovel ID: shovel-039
+   Existing tool pages: 79 files
+   Next shovel ID: shovel-041
    Next script ID: script-011
 
 ✅ All suggested tools already exist in catalog. Nothing to produce.
@@ -173,7 +177,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   ✅ Lucide Icons CDN
   [TOOLS Database]
   ✅ TOOLS array defined
-  ✅ TOOLS entries (48)
+  ✅ TOOLS entries (50)
   ✅ Has Web Tools (🔧)
   ✅ Has Scripts (📜)
   ✅ Has Live tools
@@ -207,16 +211,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
 ============================================================
-   生产工具健康率: 75.0% (48 个工具, 12 个问题)
+   生产工具健康率: 72.0% (50 个工具, 14 个问题)
    问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失', 'shovel-030: 文件缺失', 'shovel-031: 文件缺失', 'shovel-032: 文件缺失', 'shovel-033: 文件缺失', 'shovel-034: 文件缺失', 'shovel-035: 文件缺失', 'shovel-036: 文件缺失']
-   ⚠️ 门禁警告 — 健康率 75.0% 低于90%阈值
+   ⚠️ 门禁警告 — 健康率 72.0% 低于90%阈值
 
 ============================================================
 🧪 阶段 2: 全量工具测试
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 48 工具, 48 在线, 48 ready:true, 0 ready:false
+    ✅ TOOLS 数据库: 50 工具, 50 在线, 50 ready:true, 0 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
@@ -228,6 +232,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ converter.html
     ✅ csharp_getter_setter.html
     ✅ css_computed_analyzer.html
+    ✅ diff-viewer.html
     ✅ dotnet_cli_parser.html
     ✅ editor.html
     ✅ file_line_extractor.html
@@ -260,6 +265,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ script-008.html
     ✅ script-009.html
     ✅ script-010.html
+    ✅ search-tool.html
     ✅ shovel-001.html
     ✅ shovel-002.html
     ✅ shovel-003.html
@@ -298,7 +304,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ world_map_generator.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 372826B
+    ✅ index.html — HTTP 200, 373842B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/api-tester.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
@@ -308,6 +314,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/converter.html — HTTP 200
     ✅ tools/csharp_getter_setter.html — HTTP 200
     ✅ tools/css_computed_analyzer.html — HTTP 200
+    ✅ tools/diff-viewer.html — HTTP 200
     ✅ tools/dotnet_cli_parser.html — HTTP 200
     ✅ tools/editor.html — HTTP 200
     ✅ tools/file_line_extractor.html — HTTP 200
@@ -340,6 +347,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/script-008.html — HTTP 200
     ✅ tools/script-009.html — HTTP 200
     ✅ tools/script-010.html — HTTP 200
+    ✅ tools/search-tool.html — HTTP 200
     ✅ tools/shovel-001.html — HTTP 200
     ✅ tools/shovel-002.html — HTTP 200
     ✅ tools/shovel-003.html — HTTP 200
@@ -377,7 +385,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/viewer.html — HTTP 200
     ✅ tools/world_map_generator.html — HTTP 200
 
-  📊 测试汇总: 163 通过, 0 失败
+  📊 测试汇总: 167 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
     ✅ 没有待上线的工具
@@ -385,19 +393,19 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-29T16:02:14.427911+00:00 → 2026-06-29T16:02:28.772563+00:00
+  ⏱  耗时: 2026-06-29T20:09:42.426855+00:00 → 2026-06-29T20:09:53.470185+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
   🔒 门禁: ⚠️ WARN
-  💚 健康率: 75.0%
+  💚 健康率: 72.0%
   🧠 AI组件:
      ✅ generator: OK
      ✅ validator: OK
      ✅ analyzer: OK
-  🧪 测试: 163✅ 0❌
-  🔧 工具总数: 48
-  📄 独立页面: 77
+  🧪 测试: 167✅ 0❌
+  🔧 工具总数: 50
+  📄 独立页面: 79
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================
