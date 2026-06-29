@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T04:49:46.607086+00:00",
+  "generated_at": "2026-06-29T07:17:24.403185+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -87,52 +87,51 @@
     ],
     "v2ex": [
       "[国产 API] GLM-5.2 满血 +纯血 DeepSeek V4，支持思维链、Cursor，全线 0.3 倍率 ｜注册送 5 美元 + 抽奖 200 美元",
-      "新闻报道欧洲没空调是不是优越叙事的一部分？",
-      "局座讲大量三哥涌入深圳抢 IT 工作，真有这个状况吗？",
-      "性价比中转站，额度 0.06 倍分组特惠 Pro 分组，评论区送体验额度",
-      "低佣低两融老倔驴开户巨靠谱，抽一台 JBL GO4 小音箱..户外做个显眼包~~",
       "[0629 内测] Brivionix（Codex Pro 池）— GPT-5.5 / 5.4 / 5.3，回帖留 ID 送 $10",
+      "性价比中转站，额度 0.06 倍分组特惠 Pro 分组，评论区送体验额度",
+      "局座讲大量三哥涌入深圳抢 IT 工作，真有这个状况吗？",
+      "低佣低两融老倔驴开户巨靠谱，抽一台 JBL GO4 小音箱..户外做个显眼包~~",
       "[HappyCode] 稳定高性价比 API 中转站， V 站拉新送福利**总计$200 **连送 7 日免费体验额度**",
       "DeepSeek 好贵啊",
-      "GPT 今天早上又重置了，可惜昨天没蹬完",
-      "骑自行车后续.....下不去了"
+      "骑自行车后续.....下不去了",
+      "冲动提了离职，冷静下来后又舍不得"
     ],
     "devto": [
       "DEV Community: programming",
-      "Why Your Production RAG System Slowly Gets Worse",
-      "AI SDK 7: Agent Development Standardized",
-      "FastAPI vs Flask: Which Should You Choose for Your Next Project?",
-      "Quick Python Tip: Unpack Dictionaries Directly Into Function Arguments",
-      "Free Preview: Unlocking the Power of AI Prompts for Developers",
-      "Master Python in 2 Minutes",
-      "The Predictive Power of Philosophy: Why You Can’t Ask a Gun to Read a Bedtime Story",
-      "Ranking HumanLayer and Sakana AI Fugu-Ultra w/ Codex on the same issue",
-      "Your Chatbot's Deflection Rate Went Up. Customers Just Gave Up.",
-      "5 MCP Servers That Changed How I Build AI Workflows",
-      "Introducing Crawlberg v1.0.0",
-      "Top 10 Free APIs to Build Profitable Side Projects"
+      "EXPOSED: The Shocking Truth About Age Verification - The Slippery Slope to Government-Controlled Free Speech Online",
+      "Flux Ai Video — rendereelstudio.ai Jun 2026",
+      "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
+      "Software License Enforcement — prometheusdev.io Jun 2026",
+      "Online License Server — prometheusdev.io Jun 2026",
+      "Industrial Automation Fueling the Current Sensor Market",
+      "Lightweight Composite Innovations Boosting the Aerospace and Defense Materials Market",
+      "My multi agent setup",
+      "XVectra améliore sa plateforme grâce aux retours de sa communauté",
+      "Setting up a persistent notifications tray for Home Assistant",
+      "Unlocking the Power of Apple's ASIF: Revolutionizing Image Compression and What It Means for Your Devices",
+      "RAM Revolution: A 60-Year Price Crash - From $1,000/MB in 1960 to Pennies Today: The Shocking History of Memory Prices"
     ],
     "lobsters": [
       "Towards Understandable Software",
       "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
+      "Ante: New Way to Blend Borrow Checking and Reference Counting",
+      "Kivo - A lightweight desktop teleprompter built with PySide6",
+      "HyperCard on the Macintosh",
       "A Typed, Algebraic Approach to Parsing (2019)",
+      "A Core Calculus for Documents",
       "How VictoriaLogs Stores Your Logs in a Columnar Layout",
       "Regular expressions that work “everywhere”",
-      "HyperCard on the Macintosh",
-      "Ante: New Way to Blend Borrow Checking and Reference Counting",
+      "You might not need… a service worker",
       "A peek into Reddit's anti-spam internals",
-      "A Core Calculus for Documents",
       "Installing SerenityOS on My Old ThinkPad T60",
       "We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
-      "Data Access Patterns That Makes Your CPU Really Angry",
-      "Introducing Test That",
-      "Kivo - A lightweight desktop teleprompter built with PySide6",
       "Examining circuit boards from the Space Shuttle's I/O Processor",
+      "Introducing Test That",
+      "Data Access Patterns That Makes Your CPU Really Angry",
       "Prism: An Impure Functional Language With Typed Effects",
       "The feature in OxCaml that more languages should steal",
-      "Building an Open-Source Robot Vacuum — Meet oomwoo",
-      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
-      "TOP500 at ISC’26: We have a New Number 1"
+      "TOP500 at ISC’26: We have a New Number 1",
+      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -157,53 +156,55 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "GLM 5.2 beats Claude in our benchmarks 🔥601pts 💬294",
-      "I used Claude Code to get a second opinion on my MRI 🔥381pts 💬496",
-      "The KIDS Act would require age checks to get online 🔥381pts 💬316",
-      "5k menus from the New York Public Library’s Buttolph Collection (1880-1920) 🔥343pts 💬88",
-      "Professor denounces mass AI fraud on an exam at Brown 🔥326pts 💬440",
-      "Librepods: AirPods liberated 🔥322pts 💬104",
-      "Historical memory prices 1960-2026 🔥231pts 💬86",
-      "Show HN: Zanagrams 🔥227pts 💬55",
-      "The curious case of the disappearing Polish S (2015) 🔥215pts 💬73",
-      "A way to exclude sensitive files issue still open for OpenAI Codex 🔥185pts 💬121",
-      "The Boeing 747 begins its final descent 🔥163pts 💬216",
-      "Age verification is just a precursor to automated attribution of speech 🔥129pts 💬29",
-      "Daisugi, the Japanese technique of growing trees out of other trees (2020) 🔥125pts 💬39",
-      "Tokenmaxxing is dead, long live tokenmaxxing 🔥123pts 💬147",
-      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD 🔥97pts 💬27",
-      "Examining circuit boards from the Space Shuttle's I/O Processor 🔥94pts 💬21",
-      "TOP500 at ISC’26: We have a New Number 1 Supercomputer 🔥90pts 💬49",
-      "Show HN: DRM-Free Books 🔥87pts 💬35",
-      "The MUMPS 76 Primer – anniversary edition 🔥75pts 💬42",
-      "More evidence is consistent with possible ancient life on Mars (2025) 🔥70pts 💬72",
-      "Knowledge Distillation of Black-Box Large Language Models (2024) 🔥67pts 💬13",
-      "Researchers have developed pixels that can emit and analyse light together 🔥52pts 💬38",
-      "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+      "GLM 5.2 beats Claude in our benchmarks 🔥735pts 💬351",
+      "The KIDS Act would require age checks to get online 🔥434pts 💬347",
+      "I used Claude Code to get a second opinion on my MRI 🔥408pts 💬533",
+      "Professor denounces mass AI fraud on an exam at Brown 🔥369pts 💬491",
+      "5k menus from the New York Public Library’s Buttolph Collection (1880-1920) 🔥358pts 💬91",
+      "Librepods: AirPods liberated 🔥355pts 💬119",
+      "Age verification is just a precursor to automated attribution of speech 🔥297pts 💬161",
+      "Historical memory prices 1960-2026 🔥274pts 💬94",
+      "Show HN: Zanagrams 🔥259pts 💬58",
+      "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88 🔥245pts 💬68",
+      "The curious case of the disappearing Polish S (2015) 🔥231pts 💬78",
+      "A way to exclude sensitive files issue still open for OpenAI Codex 🔥199pts 💬129",
+      "The Boeing 747 begins its final descent 🔥180pts 💬249",
+      "Tokenmaxxing is dead, long live tokenmaxxing 🔥139pts 💬170",
+      "Daisugi, the Japanese technique of growing trees out of other trees (2020) 🔥130pts 💬43",
+      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD 🔥107pts 💬29",
+      "Examining circuit boards from the Space Shuttle's I/O Processor 🔥102pts 💬23",
+      "TOP500 at ISC’26: We have a New Number 1 Supercomputer 🔥101pts 💬62",
+      "Knowledge Distillation of Black-Box Large Language Models (2024) 🔥85pts 💬13",
+      "More evidence is consistent with possible ancient life on Mars (2025) 🔥80pts 💬78",
+      "Model Training as Code 🔥68pts 💬14",
+      "The Baffling World of Masayoshi Son's Presentations (2020) 🔥53pts 💬18",
       "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-      "The Baffling World of Masayoshi Son's Presentations (2020)"
+      "Deciphering basmala",
+      "Herdr: Agent multiplexer that lives in your terminal"
     ],
     "hn_show": [
+      "I made a World Cup bracket prediction page, which you can share — featured on Hacker News (🔥1pts)",
+      "Htmx Skills — featured on Hacker News (🔥1pts)",
+      "Dotdotduck – open-source Web Agent SDK — featured on Hacker News (🔥2pts)",
+      "Spire — featured on Hacker News (🔥1pts)",
+      "Chappie – Direct Desktop Search and macOS Control — featured on Hacker News (🔥2pts)",
+      "StreamVault — featured on Hacker News (🔥2pts)",
+      "Mentionkit – Track your brand mentions across LinkedIn, X and more — featured on Hacker News (🔥1pts)",
+      "AI agent for software user community support — featured on Hacker News (🔥2pts)",
+      "Nearest-neighbor, a dating app for AI agents — featured on Hacker News (🔥1pts)",
+      "WinPodX – run Windows apps on Linux, VM looks like real hardware — featured on Hacker News (🔥1pts)",
       "Self hosting a modern LLM stack — featured on Hacker News (🔥5pts)",
       "I Made a WebGPU Based Agent/Worlflow Explainer — featured on Hacker News (🔥2pts)",
-      "The CLI for browser agents — featured on Hacker News (🔥2pts)",
-      "SaaS landing page template (React/Vue/HTML, Tailwind), free and MIT — featured on Hacker News (🔥2pts)",
-      "XSDR – Real-time event monitoring infrastructure for agents — featured on Hacker News (🔥2pts)",
+      "The CLI for browser agents — featured on Hacker News (🔥3pts)",
+      "SaaS landing page template (React/Vue/HTML, Tailwind), free and MIT — featured on Hacker News (🔥3pts)",
+      "XSDR – Real-time event monitoring infrastructure for agents — featured on Hacker News (🔥5pts)",
       "Image2JXL – a native macOS JPEG XL converter — featured on Hacker News (🔥3pts)",
       "A site that emails you the day your Bitcoin stack hits $1M — featured on Hacker News (🔥2pts)",
       "Calybris Core, a deterministic audit engine for decisions in Rust — featured on Hacker News (🔥3pts)",
-      "wavecat – a fully local personal agent that watches your screen — featured on Hacker News (🔥3pts)",
-      "best.free — featured on Hacker News (🔥4pts)",
-      "Pitch Ponies – startup themed comic series — featured on Hacker News (🔥3pts)",
-      "Selixes - Self-hosted LLM failover gateway, budget caps and PII — featured on Hacker News (🔥3pts)",
-      "I built a \"living proof-of-work\" for builders ( that persists) — featured on Hacker News (🔥3pts)",
-      "Rendering Markdown with LaTeX in the Terminal — featured on Hacker News (🔥3pts)",
-      "Looped Whisper (FOSS) – Voice transcription menubar app for macOS — featured on Hacker News (🔥2pts)",
-      "Adipoli: a hand-wired keyboard for opposable thumbs — featured on Hacker News (🔥3pts)",
-      "Drift, write LLM agents in English and transpile to async Python — featured on Hacker News (🔥2pts)",
-      "NameSnag – Get alerted when a watched domain appears available — featured on Hacker News (🔥2pts)"
+      "wavecat – a fully local personal agent that watches your screen — featured on Hacker News (🔥4pts)"
     ],
     "hn_ask_tools": [
+      "Ask HN: Have the founders of Palentir and Anduril ever read Tolkien? — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Examples of AI taste? — user asking for tool recommendation (🔥1pts)",
       "Show HN: role-model, a router for hybrid local/cloud AI — user asking for tool recommendation (🔥2pts)",
       "Finding It Challenging to Maintain Software Created with Coding Agents? — user asking for tool recommendation (🔥9pts)",
@@ -211,7 +212,6 @@
       "Show HN: FPGA design acceleration – idiomatic Python to synthesizable Verilog — user asking for tool recommendation (🔥2pts)",
       "Data Privacy while using API tools — user asking for tool recommendation (🔥4pts)",
       "Show HN: TBD, a Mac-native CLI-forward coding agent multiplexer — user asking for tool recommendation (🔥4pts)",
-      "Ask HN: What are my options after a responsible disclosure went wrong? — user asking for tool recommendation (🔥2pts)",
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
@@ -229,11 +229,11 @@
       "ASK HN: Any suggestions or open source tools that capture the screen — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Options for an independent AI researcher with strong results? — user asking for tool recommendation (🔥2pts)",
       "Hate \"The Algorithm?\" RSS Is One of the Tools You've Been Looking For — user asking for tool recommendation (🔥8pts)",
-      "We need tech news sources which exclude AI — user asking for tool recommendation (🔥108pts)",
+      "Ask HN: What are my options after a responsible disclosure went wrong? — user asking for tool recommendation (🔥2pts)",
+      "We need tech news sources which exclude AI — user asking for tool recommendation (🔥115pts)",
       "Ask HN: Is WordPress the best way to create new websites for beginner — user asking for tool recommendation (🔥12pts)",
-      "Show HN: A directory of open source alternatives to proprietary software — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Hikaru Labs – A private, 100% local alternative to iLoveIMG — user asking for tool recommendation (🔥3pts)",
-      "Show HN: Sasso – pure-Rust SCSS compiler, byte-exact to current dart-sass — user asking for tool recommendation (🔥2pts)"
+      "Show HN: A directory of open source alternatives to proprietary software — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Hikaru Labs – A private, 100% local alternative to iLoveIMG — user asking for tool recommendation (🔥3pts)"
     ],
     "hackernoon": [
       "178 Blog Posts To Learn About Information Security",
@@ -274,60 +274,60 @@
       "Google OpenRL is an Experimental Self-hosted API for LLM Post-Training Fine-Tuning <img src=\"https://res.infoq.com/news/2026/06/google-open-rl-fine-tuning/en/headerimage/google-open-rl-fine-tuning-1782322457170.jpeg\"/><p>Google's GKE"
     ],
     "google_trends": [
+      "lizzo 2026 bet awards appearance",
+      "g shock pokemon watch 30th anniversary",
+      "investments",
+      "msi 2026",
+      "big bear eaglets sandy",
       "rj jett",
       "40 degrees celsius",
+      "the patriot",
       "common",
-      "queen latifah",
-      "lizzo",
-      "anthony davis",
-      "nasa swift telescope rescue mission",
-      "usa vs australia world cup 2026",
-      "rocket launch today",
-      "paul goldschmidt"
+      "queen latifah"
     ],
     "baidu": [
-      "永远保持对人民的赤子之心",
-      "法国紧急下单3万台空调",
-      "韩国媒体破防：被中国球迷当笑柄",
-      "上周末 多领域成果密集“上新”",
+      "习近平会见白俄罗斯总统卢卡申科",
+      "法总统候选人：拒绝与中国激烈对抗",
+      "东鹏饮料创始人不喝东鹏？造谣者被拘",
+      "中国多领域发布亮眼“成绩单”",
       "在自己家不穿衣服犯法吗",
-      "宜宾地震瞬间鱼群乱跳",
-      "辽宁葫芦岛一居民楼突发爆炸",
-      "宜宾地震食客避难后折返 无人逃单",
-      "韩国主帅辞职 念完稿双手插兜离场",
-      "五粮液回应宜宾地震影响",
+      "央视曝光高价回收老物件骗局",
+      "网警提醒4类“高考查分陷阱”",
+      "韩国媒体破防：被中国球迷当笑柄",
+      "三甲医生提醒青蛙腹是最糟糕体型",
       "利率一再降 “存款搬家”搬去哪",
+      "法国紧急下单3万台空调",
       "造谣县城满街都是小混混 男子被拘",
+      "吴建豪宣布再婚",
+      "空调两年没洗 男子吹了三天双肺全白",
+      "韩国主帅辞职 念完稿双手插兜离场",
       "巴西国脚说不出日本球员全场哄笑",
-      "韩国队差旅费亏麻了",
-      "昆仑芯拟在港上市 目标估值500亿美元",
-      "志愿选择倒计时！浙大学生送祝福",
-      "欧洲人驾车200公里抢购中国空调",
-      "韩国极端网友对主教练发出死亡威胁",
-      "中方将20家日本实体列入出口管制名单",
-      "韩国队启程回国 全员羞愧低头"
+      "葫芦岛居民楼爆炸致3人失联8人轻微伤",
+      "A股收评：科创50指数大涨4.61%",
+      "母亲去世80万赔偿款弟弟拿走74万",
+      "中国战机大片上新"
     ],
     "wikipedia": [
-      "Owen Hart Cup",
-      "Mickey Harmon",
-      "Marmot Basin",
-      "Samogitian language",
-      "ErrTime",
-      "Remittance man",
-      "Maribor Pohorje Ski Resort",
-      "Cavite's 6th congressional district",
-      "Marble Mountain Ski Resort",
-      "Fuerza Regida",
-      "November 1st (film)",
-      "Arceuthobium mengeanum",
-      "Aidyn Rakhimbaev",
-      "Mansfield Ski Club",
-      "Highlands High School (Fort Thomas, Kentucky)",
-      "11th Mississippi Cavalry Regiment (disambiguation)",
-      "Mammoth Mountain Resort",
-      "Armed Forces of the Chechen Republic of Ichkeria",
-      "Magic Mountain Ski Area",
-      "2026 Kings World Cup Nations"
+      "1944 Jamaican general election",
+      "1996 World Snooker Championship",
+      "Russian Team",
+      "Makenna Kelly",
+      "Touhou Project",
+      "Camperdown, Victoria",
+      "2026 Birthday Honours",
+      "Bharatiya Janata Party – Kerala",
+      "Makenna Kelly",
+      "Timeline of Honolulu",
+      "Jones Kyazze",
+      "2005 Vuelta a Venezuela",
+      "Jai Murray",
+      "Norodom Sihanouk",
+      "Cavalcade (1933 film)",
+      "Khulood Al-Mualla",
+      "Catholic Church by country",
+      "Sturgis Motorcycle Rally",
+      "La Louptière-Thénard",
+      "Raymond Moloney"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -398,8 +398,8 @@
       "@toolsnap/risetop-color-converter — npm package: Free online color converter tool",
       "@kakilangit/unix-time — npm package: WebAssembly bindings for Unix Time Converter tool",
       "pdf-to-png-converter — npm package: Node.js utility to convert PDF file/buffer pages to PNG files/buffers. No build-time compilation required — pre-built native binaries included for all major platforms.",
-      "swagger-converter — npm package: Converts Swagger documents from version 1.x to version 2.0",
       "v8-to-istanbul — npm package: convert from v8 coverage format to istanbul's format",
+      "swagger-converter — npm package: Converts Swagger documents from version 1.x to version 2.0",
       "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
       "jsonmatter — npm package: JSON formatter tool by stream",
       "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
@@ -412,27 +412,28 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: react",
-      "github trending topic: code quality",
-      "github trending topic: project management",
-      "github trending topic: python",
       "github trending topic: npm",
+      "github trending topic: python",
       "github trending topic: css",
-      "github trending topic: javascript",
+      "github trending topic: database",
       "github trending topic: awesome lists",
+      "github trending topic: self-hosted",
+      "github trending topic: chrome",
+      "github trending topic: telegram-fix",
+      "github trending topic: zapret-telegram",
+      "github trending topic: zapret",
+      "github trending topic: javascript",
+      "github trending topic: api",
+      "github trending topic: node.js",
+      "github trending topic: react native",
+      "github trending topic: typescript",
       "github trending topic: scala",
       "github trending topic: compiler",
-      "github trending topic: nextjs",
-      "github trending topic: linux",
-      "github trending topic: node.js",
-      "github trending topic: typescript",
-      "github trending topic: chrome",
-      "github trending topic: html",
-      "github trending topic: database",
-      "github trending topic: react native",
-      "github trending topic: cli",
-      "github trending topic: research-forks",
-      "github trending topic: front end"
+      "github trending topic: react",
+      "github trending topic: java",
+      "github trending topic: front end",
+      "github trending topic: code quality",
+      "github trending topic: project management"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -457,13 +458,40 @@
       "name_zh": "API测试工具"
     },
     {
-      "keyword": "AI Coding Agents — tool from ProductHunt",
+      "keyword": "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
+      "matched": "video",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Video Converter",
+      "name_zh": "视频格式转换器"
+    },
+    {
+      "keyword": "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
       "matched": "ai",
       "category": "ai",
       "subcat": "ai-chat",
       "type": "tool",
       "name": "AI Assistant",
       "name_zh": "AI助手"
+    },
+    {
+      "keyword": "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
+      "matched": "generator",
+      "category": "misc",
+      "subcat": "misc",
+      "type": "tool",
+      "name": "Generator",
+      "name_zh": "生成器"
+    },
+    {
+      "keyword": "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
+      "matched": "render",
+      "category": "media",
+      "subcat": "graphics",
+      "type": "tool",
+      "name": "Renderer",
+      "name_zh": "渲染器"
     },
     {
       "keyword": "LLMs — tool from ProductHunt",
@@ -493,15 +521,6 @@
       "name_zh": "表单构建器"
     },
     {
-      "keyword": "Video editing — tool from ProductHunt",
-      "matched": "video",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Video Converter",
-      "name_zh": "视频格式转换器"
-    },
-    {
       "keyword": "Graphic design tools — tool from ProductHunt",
       "matched": "graph",
       "category": "productivity",
@@ -518,15 +537,6 @@
       "type": "tool",
       "name": "Unit Converter",
       "name_zh": "单位换算"
-    },
-    {
-      "keyword": "tgt — npm package: tpl generator tool",
-      "matched": "generator",
-      "category": "misc",
-      "subcat": "misc",
-      "type": "tool",
-      "name": "Generator",
-      "name_zh": "生成器"
     },
     {
       "keyword": "packs — npm package: Static survey generator tool",
@@ -596,6 +606,7 @@
     "copilot-pull-request-reviewer",
     "性价比中转站，额度 0.06 倍分组特惠 Pro 分组，评论区送体验额度",
     "[HappyCode] 稳定高性价比 API 中转站， V 站拉新送福利**总计$200 **连送 7 日免费体验额度**",
+    "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -634,10 +645,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 183,
-    "valid_count": 39,
-    "rejected_count": 144,
-    "rejection_rate": 78.7,
+    "raw_count": 178,
+    "valid_count": 40,
+    "rejected_count": 138,
+    "rejection_rate": 77.5,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -648,15 +659,15 @@
       "How slicing in Python works",
       "[国产 API] GLM-5.2 满血 +纯血 DeepSeek V4，支持思维链、Cursor，全线 0.3 倍率 ｜注册送 5 美元 + 抽奖 200 美元",
       "[0629 内测] Brivionix（Codex Pro 池）— GPT-5.5 / 5.4 / 5.3，回帖留 ID 送 $10",
-      "GPT 今天早上又重置了，可惜昨天没蹬完"
+      "EXPOSED: The Shocking Truth About Age Verification - The Slippery Slope to Government-Controlled Free Speech Online"
     ]
   },
   "trait_analysis": {
-    "total_captured": 347,
-    "chatter_blocked": 9,
-    "chatter_rate": 2.6,
-    "tool_signals_found": 183,
-    "tool_signal_rate": 52.7,
+    "total_captured": 348,
+    "chatter_blocked": 8,
+    "chatter_rate": 2.3,
+    "tool_signals_found": 178,
+    "tool_signal_rate": 51.1,
     "chatter_samples": [
       {
         "text": "XSDR – Real-time event monitoring infrastructure for agents — featured on Hacker",
@@ -693,21 +704,17 @@
         ]
       },
       {
-        "text": "韩国队差旅费亏麻了",
-        "category": "chatter",
+        "text": "1944 Jamaican general election",
+        "category": "news",
         "matched": [
-          "麻了"
+          [
+            "election",
+            ""
+          ]
         ]
       },
       {
-        "text": "欧洲人驾车200公里抢购中国空调",
-        "category": "ad",
-        "matched": [
-          "抢购"
-        ]
-      },
-      {
-        "text": "November 1st (film)",
+        "text": "Cavalcade (1933 film)",
         "category": "entertainment",
         "matched": [
           "film"
@@ -796,17 +803,17 @@
         ]
       },
       {
-        "text": "性价比中转站，额度 0.06 倍分组特惠 Pro 分组，评论区送体验额度",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('性价比中转站', '转', '', '', '', '')]"
-        ]
-      },
-      {
         "text": "[0629 内测] Brivionix（Codex Pro 池）— GPT-5.5 / 5.4 / 5.3，回帖留 ID 送 $10",
         "confidence": 15,
         "features": [
           "技术概念: ['GPT']"
+        ]
+      },
+      {
+        "text": "性价比中转站，额度 0.06 倍分组特惠 Pro 分组，评论区送体验额度",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('性价比中转站', '转', '', '', '', '')]"
         ]
       },
       {
@@ -819,25 +826,27 @@
         ]
       },
       {
-        "text": "GPT 今天早上又重置了，可惜昨天没蹬完",
-        "confidence": 15,
+        "text": "EXPOSED: The Shocking Truth About Age Verification - The Slippery Slope to Government-Controlled Fre",
+        "confidence": 20,
         "features": [
-          "技术概念: ['GPT']"
+          "输入→输出链式: [('Slope to Government', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Quick Python Tip: Unpack Dictionaries Directly Into Function Arguments",
-        "confidence": 35,
+        "text": "Ai Video Generator Free — rendereelstudio.ai Jun 2026",
+        "confidence": 60,
         "features": [
-          "输入→输出链式: [('Into Function', 'to', '', '', '', '')]",
-          "技术概念: ['Python']"
+          "英文动作特征: ['Generator']",
+          "输入→输出链式: [('Generator', 'to', '', '', '', '')]",
+          "英文工具名词: ['generator']"
         ]
       },
       {
-        "text": "Master Python in 2 Minutes",
-        "confidence": 15,
+        "text": "Industrial Automation Fueling the Current Sensor Market",
+        "confidence": 45,
         "features": [
-          "技术概念: ['Python']"
+          "英文动作特征: ['Automation']",
+          "输入→输出链式: [('Automation', 'to', '', '', '', '')]"
         ]
       }
     ]
