@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-29T20:09:42.426855+00:00     ║
+║       启动时间: 2026-06-29T22:15:35.358415+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,11 +43,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 20 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 19 articles
+  ✅ 18 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 22 topics
+  ✅ 25 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 352
-  🚫 闲聊拦截: 8 条 (2.3%)
-  🧠 工具信号: 178 条 (50.6%)
+  原始信号总量: 353
+  🚫 闲聊拦截: 15 条 (4.2%)
+  🧠 工具信号: 173 条 (49.0%)
 
   📋 闲聊拦截样例:
      [ad] 中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度
      [chatter] US Supreme Court rules geofence warrants require constitutio
+     [news] One million passports leaked online 🔥64pts 💬42
+     [entertainment] Kew, A distraction-free terminal music player, now on Window
      [chatter] Entity Event Matrix on any topic — featured on Hacker News (
-     [chatter] Why Someone Next to You Gets Better Cell Service at Crowded 
-     [news] Presentation: AI Works, Pull Requests Don’t: How AI is Break
 
   🧠 工具信号样例:
      [置信度15%] What does the "yield" keyword do in Python?
@@ -98,7 +98,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度35%] Does Python have a ternary conditional operator?
        ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
        ↳ 技术概念: ['Python']
-     [置信度15%] Wh
+     [置信度15%] What are 
 
 ✅ 雷达完成 — 17 条建议
 
@@ -107,15 +107,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 352 条
-     🚫 闲聊拦截: 8 条 (2.3%)
-     🧠 工具信号: 178 条 (50.6%)
+     原始抓取: 353 条
+     🚫 闲聊拦截: 15 条 (4.2%)
+     🧠 工具信号: 173 条 (49.0%)
      闲聊样例: 中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度... [ad]
      工具信号样例: What does the "yield" keyword do in Python?... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 178 → 有效 39
-     拒绝率: 78.1%
+     工具信号 173 → 有效 40
+     拒绝率: 76.9%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -152,7 +152,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-06-29T20:09:42.580612+00:00
+   Generated at: 2026-06-29T22:15:35.519833+00:00
    Already in catalog: 95 tools
    Previously produced: 0 tools
    Existing tool pages: 79 files
@@ -393,7 +393,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-29T20:09:42.426855+00:00 → 2026-06-29T20:09:53.470185+00:00
+  ⏱  耗时: 2026-06-29T22:15:35.358415+00:00 → 2026-06-29T22:15:48.424277+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK

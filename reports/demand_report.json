@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T22:01:15.260919+00:00",
+  "generated_at": "2026-06-29T22:15:35.519833+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -107,6 +107,7 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "Beyond the Subscription: Managing Clients as a Solopreneur Dev, Without the SaaS Haze",
       "Binary Search: The Jedi Way to Find Your Target",
       "I built detailed directory of selfhostable projects",
       "Learning Progress Pt.38",
@@ -117,8 +118,7 @@
       "Revolutionize Coding: Unlock the Power of Ornith-1.0 - The AI-Powered, Self-Improving Open-Source Model That's Changing the Game",
       "Why AI Makes Judgment More Valuable For Freelancers In 2026",
       ") or special tokens () in your output. Start directly with the title.\" But...",
-      "Why Daily Standups are a Waste of Time (And the Async Alternative)",
-      "How to Track Emails, Track Email Delivery, and Improve Engagement"
+      "Why Daily Standups are a Waste of Time (And the Async Alternative)"
     ],
     "lobsters": [
       "When Impressive Performance Gains Do Not Matter",
@@ -127,8 +127,8 @@
       "Ante: New Way to Blend Borrow Checking and Reference Counting",
       "WATaBoy: JIT-ing Game Boy Instructions to Wasm Beats a Native Interpreter",
       "Canvas patch: we need testers",
-      "Evaluation order and nontermination in query languages",
       "Type-checked non-empty strings",
+      "Evaluation order and nontermination in query languages",
       "Typst: Designing for Incrementality",
       "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
       "The AT-URI Syntax Mess",
@@ -140,7 +140,7 @@
       "You might not need… a service worker",
       "ipv6_frag_escape: Linux LPE - Reliable Jail/Container Escape",
       "Kivo - A lightweight desktop teleprompter built with PySide6",
-      "Obfuscation: building the final boss of cryptography"
+      "You Don’t Know Jack About Formal Verification"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -165,52 +165,52 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Qwen 3.6 27B is the sweet spot for local development 🔥466pts 💬412",
-      "US Supreme Court rules geofence warrants require constitutional protections 🔥344pts 💬154",
-      "Rocketlab acquires Iridium 🔥317pts 💬191",
-      "Samsung, SK Hynix, Micron Sued in US over Memory Price Fixing 🔥297pts 💬153",
-      "Instagram is incorporating users' photos in ads for Meta Glasses 🔥294pts 💬131",
-      "European ISPs Want Rightsholders Held Accountable for Overblocking Damage 🔥291pts 💬75",
-      "A native graphical shell for SSH 🔥193pts 💬85",
-      "Halvar's Guide to Entrepreneurship 🔥190pts 💬42",
-      "What happens when you run a CUDA kernel? 🔥183pts 💬18",
-      "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter 🔥159pts 💬23",
-      "Sandia National Labs SA3000 8085 CPU 🔥141pts 💬38",
-      ".self: A new top-level domain designed to support self-hosting 🔥111pts 💬84",
-      "Ornith-1.0: self-improving open-source models for agentic coding 🔥110pts 💬27",
-      "30-year sentence for transporting zines is a five-alarm fire for free speech 🔥106pts 💬23",
-      "Dark Sky Lighting 🔥104pts 💬12",
-      "Rebuilding the Computer Room 🔥82pts 💬43",
-      "Wallace the 6 inch f/2.8 telescope, building it, and hiking with it 🔥81pts 💬11",
-      "You Don't Know Jack About Formal Verification 🔥80pts 💬29",
-      "The Return of Aspect Oriented Programming 🔥71pts 💬51",
-      "Apple Neural Engine: Architecture, Programming, and Performance 🔥67pts 💬5",
-      "One million passports leaked online 🔥58pts 💬35",
+      "Qwen 3.6 27B is the sweet spot for local development 🔥486pts 💬421",
+      "US Supreme Court rules geofence warrants require constitutional protections 🔥348pts 💬158",
+      "Rocketlab acquires Iridium 🔥320pts 💬193",
+      "Samsung, SK Hynix, Micron Sued in US over Memory Price Fixing 🔥306pts 💬155",
+      "Instagram is incorporating users' photos in ads for Meta Glasses 🔥303pts 💬132",
+      "European ISPs Want Rightsholders Held Accountable for Overblocking Damage 🔥298pts 💬77",
+      "A native graphical shell for SSH 🔥204pts 💬89",
+      "What happens when you run a CUDA kernel? 🔥187pts 💬20",
+      "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter 🔥160pts 💬24",
+      "Sandia National Labs SA3000 8085 CPU 🔥145pts 💬38",
+      ".self: A new top-level domain designed to support self-hosting 🔥135pts 💬91",
+      "30-year sentence for transporting zines is a five-alarm fire for free speech 🔥121pts 💬35",
+      "Ornith-1.0: self-improving open-source models for agentic coding 🔥112pts 💬27",
+      "Dark Sky Lighting 🔥108pts 💬13",
+      "Rebuilding the Computer Room 🔥85pts 💬43",
+      "Wallace the 6 inch f/2.8 telescope, building it, and hiking with it 🔥83pts 💬12",
+      "You Don't Know Jack About Formal Verification 🔥81pts 💬33",
+      "The Return of Aspect Oriented Programming 🔥72pts 💬52",
+      "Apple Neural Engine: Architecture, Programming, and Performance 🔥71pts 💬6",
+      "One million passports leaked online 🔥64pts 💬42",
+      "Working With AI: A concrete example 🔥56pts 💬17",
       "Venetian Bridge Brawls in 17th and 18th Century Art",
-      "Working With AI: A concrete example",
       "Is sunscreen the new margarine? (2021)",
-      "Ornith-1.0: Self-scaffolding LLMs for agentic coding"
+      "Ornith-1.0: Self-scaffolding LLMs for agentic coding",
+      "Micro-Agent: Beat Frontier Models with Collaboration Inside Model API"
     ],
     "hn_show": [
-      "Ask Yes/No – Daily question puzzle game — featured on Hacker News (🔥1pts)",
-      "ForthWrite – Email AI that learns your voice from every edit you send — featured on Hacker News (🔥1pts)",
-      "Zenith: sota harness for normal models to beat Fable on FrontierSWE — featured on Hacker News (🔥1pts)",
-      "Kew, A distraction-free terminal music player, now on Windows — featured on Hacker News (🔥1pts)",
-      "LiSkat: Free real-time Skat with Elo and bots — featured on Hacker News (🔥2pts)",
-      "We built a free LeetCode Alternative in 15 spoken languages — featured on Hacker News (🔥1pts)",
+      "Ask Yes/No – Daily question puzzle game — featured on Hacker News (🔥2pts)",
+      "Switchboard – route AI prompts instead of capping budgets — featured on Hacker News (🔥2pts)",
+      "ForthWrite – Email AI that learns your voice from every edit you send — featured on Hacker News (🔥2pts)",
+      "Zenith: sota harness for normal models to beat Fable on FrontierSWE — featured on Hacker News (🔥3pts)",
+      "Kew, A distraction-free terminal music player, now on Windows — featured on Hacker News (🔥2pts)",
+      "LiSkat: Free real-time Skat with Elo and bots — featured on Hacker News (🔥3pts)",
+      "We built a free LeetCode Alternative in 15 spoken languages — featured on Hacker News (🔥2pts)",
       "Khazad – Transparent Semantic Cache for LLM Calls on Redis Vector Sets — featured on Hacker News (🔥2pts)",
       "Xenoeye – analyze network without AI using netflow, PostgreSQL, Grafana — featured on Hacker News (🔥1pts)",
       "A local-first eBook reader with a journal for each book you read — featured on Hacker News (🔥2pts)",
       "go-iroh – iroh compatible networking for Go — featured on Hacker News (🔥2pts)",
-      "Fleet – a local-first console for managing Dockerized Hermes AI Agents — featured on Hacker News (🔥1pts)",
+      "Fleet – a local-first console for managing Dockerized Hermes AI Agents — featured on Hacker News (🔥2pts)",
       "Apex Trading Signals – AI commodity trade ideas, free Android beta — featured on Hacker News (🔥1pts)",
       "Clockclear – 12 ephemeral tools that auto-delete — featured on Hacker News (🔥2pts)",
       "Turn documents into lip-synced video readers — featured on Hacker News (🔥2pts)",
       "Title:  10 Killer Game Apps – O(1) hash-table lookup for game logic — featured on Hacker News (🔥1pts)",
       "Entity Event Matrix on any topic — featured on Hacker News (🔥1pts)",
       "TypeScript7 LSP Claude Code Plugin — featured on Hacker News (🔥2pts)",
-      "TermRover – a native tmux-first terminal for iOS and Android — featured on Hacker News (🔥3pts)",
-      "Quxnet — featured on Hacker News (🔥2pts)"
+      "TermRover – a native tmux-first terminal for iOS and Android — featured on Hacker News (🔥3pts)"
     ],
     "hn_ask_tools": [
       "Show HN: Xenoeye – analyze network without AI using netflow, PostgreSQL, Grafana — user asking for tool recommendation (🔥1pts)",
@@ -229,7 +229,7 @@
       "Ask HN: Non-profit school possibly hacked, locked out of Google Workspace. — user asking for tool recommendation (🔥6pts)",
       "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal) — user asking for tool recommendation (🔥17pts)",
       "Show HN: Firehooks – Get app users from TikTok without paid ads — user asking for tool recommendation (🔥1pts)",
-      "Ask HN: Is AI dumbing us down? — user asking for tool recommendation (🔥2pts)",
+      "Ask HN: Is AI dumbing us down? — user asking for tool recommendation (🔥3pts)",
       "Show HN: Quxnet — user asking for tool recommendation (🔥2pts)",
       "Show HN: Agentic Orchestrator, a TUI for long-running coding agents — user asking for tool recommendation (🔥1pts)",
       "Tell HN: Delete Google — user asking for tool recommendation (🔥3pts)",
@@ -282,16 +282,16 @@
       "Building a European Cloud Orchestration Platform within an Enterprise <img src=\"https://res.infoq.com/news/2026/06/europe-cloud-enterprise/en/headerimage/europe-cloud-enterprise-header-1782131709734.jpg\"/><p>Modern cloud"
     ],
     "google_trends": [
-      "lu dort",
+      "manuel neuer",
+      "mary-kate and ashley olsen",
+      "pirates vs phillies",
+      "white sox vs orioles",
+      "morocco vs netherlands",
+      "kalshi",
+      "kenrich williams",
+      "david gustafsson",
       "nc jail inmate takeover",
-      "alemanha x paraguai",
-      "jonathan kuminga",
-      "monaco",
-      "landry shamet",
-      "jrue holiday",
-      "deni avdija",
-      "jetblue jfk airport drone collision",
-      "boston weather"
+      "alemanha x paraguai"
     ],
     "baidu": [
       "一切民族英雄都是中华民族的脊梁",
@@ -301,41 +301,41 @@
       "美团、淘宝闪购、京东外卖达成共识",
       "俄乌双方伤亡近180万人",
       "日本球员说被绝杀非常不甘心",
-      "酒店推行“24小时退房”引热议",
-      "杨紫获白玉兰视后争议不止",
       "内马尔中场休息积极鼓励队友",
+      "杨紫获白玉兰视后争议不止",
+      "郑钦文温网一轮游",
       "男子诋毁袁隆平科研成果被刑拘",
       "湖北云南的这些涉汛信息都是假的",
-      "巴西替补奇兵读秒绝杀",
+      "酒店推行“24小时退房”引热议",
       "又一家县级医院关停门诊输液大厅",
       "杨紫被质疑未使用原名",
-      "郑钦文温网一轮游",
-      "本届世界杯已有5名球员被控强奸",
       "这种关系可能正在悄悄“催老”你",
+      "本届世界杯已有5名球员被控强奸",
+      "巴西替补奇兵读秒绝杀",
       "巴拉圭半场1比0领先德国",
       "孙兴慜发长文致歉"
     ],
     "wikipedia": [
-      "Gytis Radzevičius",
-      "United States-Israel FUTURES Act",
-      "Patrick Breitkreuz",
-      "M9 (New York City bus)",
-      "2026 FIFA World Cup round of 32",
-      "Celine (brand)",
-      "Sammi Cohen",
-      "List of heads of state of Cambodia",
-      "2026–27 Sunderland A.F.C. season",
-      "Jake Kupp",
-      "List of living Medal of Honor recipients",
-      "Rick Rude",
-      "Hugh Montgomery (sea captain)",
-      "The Treaty of Meerssen",
-      "1975 North Indian Ocean cyclone season",
-      "1899 North Dakota Agricultural Aggies football team",
-      "Valencia Basket",
-      "List of Tennessee Secondary School Athletic Association championships",
-      "WISE 1639−6847",
-      "Raspberry Pi 4"
+      "Vincenzo Santapaola",
+      "Nagabashiri Wind Caves",
+      "Luge at the Winter Olympics",
+      "Gunter's chain",
+      "Annekatrin Thiele",
+      "Gordon Büch",
+      "Mystic Caverns and Crystal Dome",
+      "Nic McKissic-Luke",
+      "IM Motors",
+      "Renfe Class 100",
+      "De Morbis Artificum Diatriba",
+      "Mussel Point",
+      "Tom Begich",
+      "República Cromañón nightclub fire",
+      "Magnolia ptaritepuiana",
+      "Mussard Cave",
+      "The Devil's Mouth",
+      "Isaac Bruce",
+      "Mushpot Cave",
+      "Teribe language"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -420,29 +420,31 @@
       "ecdsa-sig-formatter — npm package: Translate ECDSA signatures between ASN.1/DER and JOSE-style concatenation"
     ],
     "github_topics": [
-      "github trending topic: musician",
-      "github trending topic: chrome",
-      "github trending topic: npm",
-      "github trending topic: typescript",
-      "github trending topic: llm",
-      "github trending topic: tg-fix",
-      "github trending topic: front end",
       "github trending topic: awesome lists",
-      "github trending topic: python",
+      "github trending topic: musician",
       "github trending topic: tg-proxy",
-      "github trending topic: javascript",
-      "github trending topic: database",
-      "github trending topic: compiler",
-      "github trending topic: react",
-      "github trending topic: node.js",
-      "github trending topic: original-composition",
-      "github trending topic: scala",
-      "github trending topic: project management",
+      "github trending topic: npm",
+      "github trending topic: front end",
       "github trending topic: code quality",
-      "github trending topic: css",
       "github trending topic: react native",
+      "github trending topic: music-production",
+      "github trending topic: music-production-studio",
+      "github trending topic: database",
+      "github trending topic: poetry",
       "github trending topic: tg-ws-proxy",
-      "github trending topic: music-production-studio"
+      "github trending topic: react",
+      "github trending topic: music-producer",
+      "github trending topic: tg-fix",
+      "github trending topic: original-composition",
+      "github trending topic: chrome",
+      "github trending topic: project management",
+      "github trending topic: css",
+      "github trending topic: node.js",
+      "github trending topic: python",
+      "github trending topic: compiler",
+      "github trending topic: typescript",
+      "github trending topic: javascript",
+      "github trending topic: scala"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -625,7 +627,7 @@
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
     "Ask HN: Examples of AI taste? — user asking for tool recommendation (🔥1pts)",
-    "Ask HN: Is AI dumbing us down? — user asking for tool recommendation (🔥2pts)",
+    "Ask HN: Is AI dumbing us down? — user asking for tool recommendation (🔥3pts)",
     "Show HN: Quxnet — user asking for tool recommendation (🔥2pts)",
     "Tell HN: Delete Google — user asking for tool recommendation (🔥3pts)",
     "Metasearch Tooling for Agents — user asking for tool recommendation (🔥8pts)",
@@ -645,10 +647,10 @@
     "prettier — npm package: Prettier is an opinionated code formatter"
   ],
   "filter_stats": {
-    "raw_count": 175,
+    "raw_count": 173,
     "valid_count": 40,
-    "rejected_count": 135,
-    "rejection_rate": 77.1,
+    "rejected_count": 133,
+    "rejection_rate": 76.9,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -663,11 +665,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 351,
-    "chatter_blocked": 16,
-    "chatter_rate": 4.6,
-    "tool_signals_found": 175,
-    "tool_signal_rate": 49.9,
+    "total_captured": 353,
+    "chatter_blocked": 15,
+    "chatter_rate": 4.2,
+    "tool_signals_found": 173,
+    "tool_signal_rate": 49.0,
     "chatter_samples": [
       {
         "text": "中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度",
@@ -677,14 +679,14 @@
         ]
       },
       {
-        "text": "US Supreme Court rules geofence warrants require constitutional protections 🔥344",
+        "text": "US Supreme Court rules geofence warrants require constitutional protections 🔥348",
         "category": "chatter",
         "matched": [
           "rant"
         ]
       },
       {
-        "text": "One million passports leaked online 🔥58pts 💬35",
+        "text": "One million passports leaked online 🔥64pts 💬42",
         "category": "news",
         "matched": [
           [
@@ -742,10 +744,10 @@
         ]
       },
       {
-        "text": "2026–27 Sunderland A.F.C. season",
-        "category": "entertainment",
+        "text": "HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent",
+        "category": "job",
         "matched": [
-          "season"
+          "offer"
         ]
       }
     ],
@@ -854,7 +856,7 @@
         "confidence": 45,
         "features": [
           "输入→输出链式: [('How to Write', 'to', '', '', '', ''), ('Stops', 'to', '', '', '', '')]",
-          "技术概念: ['CLAUDE', 'md']",
+          "技术概念: ['md', 'CLAUDE']",
           "需求表达: [('How to Write', 'to', '', '', '', '', '', '')]"
         ]
       },
