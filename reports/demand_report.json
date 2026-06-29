@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T02:00:44.032740+00:00",
+  "generated_at": "2026-06-29T04:49:46.607086+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -86,52 +86,53 @@
       "How can I iterate over rows in a Pandas DataFrame?"
     ],
     "v2ex": [
-      "6 年前的洗面奶用完了，现在男的都用啥",
       "[国产 API] GLM-5.2 满血 +纯血 DeepSeek V4，支持思维链、Cursor，全线 0.3 倍率 ｜注册送 5 美元 + 抽奖 200 美元",
-      "局座讲大量三哥涌入深圳抢 IT 工作，真有这个状况吗？",
       "新闻报道欧洲没空调是不是优越叙事的一部分？",
+      "局座讲大量三哥涌入深圳抢 IT 工作，真有这个状况吗？",
       "性价比中转站，额度 0.06 倍分组特惠 Pro 分组，评论区送体验额度",
-      "某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？",
-      "本地部署 GLM-5.2 的门槛太高了，根本玩不起！",
+      "低佣低两融老倔驴开户巨靠谱，抽一台 JBL GO4 小音箱..户外做个显眼包~~",
+      "[0629 内测] Brivionix（Codex Pro 池）— GPT-5.5 / 5.4 / 5.3，回帖留 ID 送 $10",
+      "[HappyCode] 稳定高性价比 API 中转站， V 站拉新送福利**总计$200 **连送 7 日免费体验额度**",
+      "DeepSeek 好贵啊",
       "GPT 今天早上又重置了，可惜昨天没蹬完",
-      "拒绝“赛博溜猴”：国内大厂 AI Coding Plan 抢购恶心到极点"
+      "骑自行车后续.....下不去了"
     ],
     "devto": [
       "DEV Community: programming",
-      "Unlocking AI Secrets: How to Reverse Engineer Large Language Models with Knowledge Distillation in 2024",
-      "Single vs. Multiple Programming Languages: Defining the Criteria for a Programmer",
-      "Unlocking the Secrets of Basmala: Unveiling the Mystical Power of the Islamic Blessing",
-      "Revolutionary OS Unleashed: Select Your Kernel with This QNX-Inspired Game-Changer - Is This the Future of Operating Systems?",
-      "How AI is Reshaping Developer Workflows: A Practical Guide",
-      "Unlock the Power of AI Agents: Building a Debugging Platform that Sees Every 'Operational Wreckage'",
-      "\"Done\" Is Not a State",
-      "Human Speed Is the New Bottleneck",
-      "5 Cron Mistakes That Silently Break Your Scheduled Jobs",
-      "Redis Crash Recovery Testing: The 2 Bugs Manual Testing Missed",
-      "10 Developer Tools That Replaced Entire Workflows for Me",
-      "VoiceCraft: 8.5K+ Stars"
+      "Why Your Production RAG System Slowly Gets Worse",
+      "AI SDK 7: Agent Development Standardized",
+      "FastAPI vs Flask: Which Should You Choose for Your Next Project?",
+      "Quick Python Tip: Unpack Dictionaries Directly Into Function Arguments",
+      "Free Preview: Unlocking the Power of AI Prompts for Developers",
+      "Master Python in 2 Minutes",
+      "The Predictive Power of Philosophy: Why You Can’t Ask a Gun to Read a Bedtime Story",
+      "Ranking HumanLayer and Sakana AI Fugu-Ultra w/ Codex on the same issue",
+      "Your Chatbot's Deflection Rate Went Up. Customers Just Gave Up.",
+      "5 MCP Servers That Changed How I Build AI Workflows",
+      "Introducing Crawlberg v1.0.0",
+      "Top 10 Free APIs to Build Profitable Side Projects"
     ],
     "lobsters": [
       "Towards Understandable Software",
+      "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
+      "A Typed, Algebraic Approach to Parsing (2019)",
       "How VictoriaLogs Stores Your Logs in a Columnar Layout",
       "Regular expressions that work “everywhere”",
-      "A peek into Reddit's anti-spam internals",
-      "A Typed, Algebraic Approach to Parsing (2019)",
-      "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
       "HyperCard on the Macintosh",
+      "Ante: New Way to Blend Borrow Checking and Reference Counting",
+      "A peek into Reddit's anti-spam internals",
+      "A Core Calculus for Documents",
       "Installing SerenityOS on My Old ThinkPad T60",
       "We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
-      "A Core Calculus for Documents",
       "Data Access Patterns That Makes Your CPU Really Angry",
-      "The feature in OxCaml that more languages should steal",
-      "Prism: An Impure Functional Language With Typed Effects",
       "Introducing Test That",
+      "Kivo - A lightweight desktop teleprompter built with PySide6",
+      "Examining circuit boards from the Space Shuttle's I/O Processor",
+      "Prism: An Impure Functional Language With Typed Effects",
+      "The feature in OxCaml that more languages should steal",
       "Building an Open-Source Robot Vacuum — Meet oomwoo",
       "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
-      "Examining circuit boards from the Space Shuttle's I/O Processor",
-      "Guards! Guards",
-      "Unfathomable bugs #10: The Broken Windows Build",
-      "The Curious Case of aa.ns.charter.com"
+      "TOP500 at ISC’26: We have a New Number 1"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -156,35 +157,38 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "GLM 5.2 beats Claude in our benchmarks 🔥452pts 💬222",
-      "I used Claude Code to get a second opinion on my MRI 🔥346pts 💬454",
-      "5k menus from the New York Public Library’s Buttolph Collection (1880-1920) 🔥325pts 💬85",
-      "The KIDS Act would require age checks to get online 🔥311pts 💬269",
-      "Librepods: AirPods liberated 🔥280pts 💬84",
-      "Professor denounces mass AI fraud on an exam at Brown 🔥267pts 💬360",
-      "The curious case of the disappearing Polish S (2015) 🔥206pts 💬69",
-      "A way to exclude sensitive files issue still open for OpenAI Codex 🔥179pts 💬120",
-      "Show HN: Zanagrams 🔥175pts 💬52",
-      "Historical memory prices 1960-2026 🔥163pts 💬64",
-      "The Boeing 747 begins its final descent 🔥142pts 💬184",
-      "Tokenmaxxing is dead, long live tokenmaxxing 🔥113pts 💬142",
-      "Daisugi, the Japanese technique of growing trees out of other trees (2020) 🔥108pts 💬36",
-      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD 🔥94pts 💬21",
-      "Examining circuit boards from the Space Shuttle's I/O Processor 🔥85pts 💬17",
-      "We need tech news sources which exclude AI 🔥76pts 💬34",
-      "TOP500 at ISC’26: We have a New Number 1 Supercomputer 🔥72pts 💬37",
-      "The MUMPS 76 Primer – anniversary edition 🔥69pts 💬38",
-      "Show HN: DRM-Free Books 🔥67pts 💬32",
-      "Xonaly – Canada's Independent Search Engine 🔥59pts 💬37",
-      "Knowledge Distillation of Black-Box Large Language Models (2024)",
+      "GLM 5.2 beats Claude in our benchmarks 🔥601pts 💬294",
+      "I used Claude Code to get a second opinion on my MRI 🔥381pts 💬496",
+      "The KIDS Act would require age checks to get online 🔥381pts 💬316",
+      "5k menus from the New York Public Library’s Buttolph Collection (1880-1920) 🔥343pts 💬88",
+      "Professor denounces mass AI fraud on an exam at Brown 🔥326pts 💬440",
+      "Librepods: AirPods liberated 🔥322pts 💬104",
+      "Historical memory prices 1960-2026 🔥231pts 💬86",
+      "Show HN: Zanagrams 🔥227pts 💬55",
+      "The curious case of the disappearing Polish S (2015) 🔥215pts 💬73",
+      "A way to exclude sensitive files issue still open for OpenAI Codex 🔥185pts 💬121",
+      "The Boeing 747 begins its final descent 🔥163pts 💬216",
+      "Age verification is just a precursor to automated attribution of speech 🔥129pts 💬29",
+      "Daisugi, the Japanese technique of growing trees out of other trees (2020) 🔥125pts 💬39",
+      "Tokenmaxxing is dead, long live tokenmaxxing 🔥123pts 💬147",
+      "Working around dragons with the Lemote Yeeloong laptop and OpenBSD 🔥97pts 💬27",
+      "Examining circuit boards from the Space Shuttle's I/O Processor 🔥94pts 💬21",
+      "TOP500 at ISC’26: We have a New Number 1 Supercomputer 🔥90pts 💬49",
+      "Show HN: DRM-Free Books 🔥87pts 💬35",
+      "The MUMPS 76 Primer – anniversary edition 🔥75pts 💬42",
+      "More evidence is consistent with possible ancient life on Mars (2025) 🔥70pts 💬72",
+      "Knowledge Distillation of Black-Box Large Language Models (2024) 🔥67pts 💬13",
+      "Researchers have developed pixels that can emit and analyse light together 🔥52pts 💬38",
       "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
-      "POSIX Is Not a Shell",
       "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-      "Computer-Aided Language Development in Nonspeaking Children (1968) [pdf]"
+      "The Baffling World of Masayoshi Son's Presentations (2020)"
     ],
     "hn_show": [
-      "SaaS landing page template (React/Vue/HTML, Tailwind), free and MIT — featured on Hacker News (🔥1pts)",
-      "XSDR – Real-time event monitoring infrastructure for agents — featured on Hacker News (🔥1pts)",
+      "Self hosting a modern LLM stack — featured on Hacker News (🔥5pts)",
+      "I Made a WebGPU Based Agent/Worlflow Explainer — featured on Hacker News (🔥2pts)",
+      "The CLI for browser agents — featured on Hacker News (🔥2pts)",
+      "SaaS landing page template (React/Vue/HTML, Tailwind), free and MIT — featured on Hacker News (🔥2pts)",
+      "XSDR – Real-time event monitoring infrastructure for agents — featured on Hacker News (🔥2pts)",
       "Image2JXL – a native macOS JPEG XL converter — featured on Hacker News (🔥3pts)",
       "A site that emails you the day your Bitcoin stack hits $1M — featured on Hacker News (🔥2pts)",
       "Calybris Core, a deterministic audit engine for decisions in Rust — featured on Hacker News (🔥3pts)",
@@ -192,20 +196,17 @@
       "best.free — featured on Hacker News (🔥4pts)",
       "Pitch Ponies – startup themed comic series — featured on Hacker News (🔥3pts)",
       "Selixes - Self-hosted LLM failover gateway, budget caps and PII — featured on Hacker News (🔥3pts)",
-      "I built a \"living proof-of-work\" for builders ( that persists) — featured on Hacker News (🔥2pts)",
+      "I built a \"living proof-of-work\" for builders ( that persists) — featured on Hacker News (🔥3pts)",
       "Rendering Markdown with LaTeX in the Terminal — featured on Hacker News (🔥3pts)",
       "Looped Whisper (FOSS) – Voice transcription menubar app for macOS — featured on Hacker News (🔥2pts)",
       "Adipoli: a hand-wired keyboard for opposable thumbs — featured on Hacker News (🔥3pts)",
       "Drift, write LLM agents in English and transpile to async Python — featured on Hacker News (🔥2pts)",
-      "NameSnag – Get alerted when a watched domain appears available — featured on Hacker News (🔥2pts)",
-      "I reverse-engineered the RLF log format used by REMUS underwater drones — featured on Hacker News (🔥1pts)",
-      "Gotaper – A minimalist, journal-inspired race planner for athletes — featured on Hacker News (🔥1pts)",
-      "Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs — featured on Hacker News (🔥35pts)"
+      "NameSnag – Get alerted when a watched domain appears available — featured on Hacker News (🔥2pts)"
     ],
     "hn_ask_tools": [
       "Ask HN: Examples of AI taste? — user asking for tool recommendation (🔥1pts)",
       "Show HN: role-model, a router for hybrid local/cloud AI — user asking for tool recommendation (🔥2pts)",
-      "Finding It Challenging to Maintain Software Created with Coding Agents? — user asking for tool recommendation (🔥8pts)",
+      "Finding It Challenging to Maintain Software Created with Coding Agents? — user asking for tool recommendation (🔥9pts)",
       "Show HN: Discover content in any YouTube channel with RAG — user asking for tool recommendation (🔥2pts)",
       "Show HN: FPGA design acceleration – idiomatic Python to synthesizable Verilog — user asking for tool recommendation (🔥2pts)",
       "Data Privacy while using API tools — user asking for tool recommendation (🔥4pts)",
@@ -220,15 +221,15 @@
       "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal) — user asking for tool recommendation (🔥17pts)",
       "Show HN: Firehooks – Get app users from TikTok without paid ads — user asking for tool recommendation (🔥1pts)",
       "Show HN: Sambee – browser-based file manager for SMB shares and local drives — user asking for tool recommendation (🔥2pts)",
-      "Ask HN: How do I capture the right audience and find the product market fit — user asking for tool recommendation (🔥6pts)",
+      "Ask HN: How do I capture the right audience and find the product market fit — user asking for tool recommendation (🔥7pts)",
       "Running a software jam in a world of slop — user asking for tool recommendation (🔥61pts)",
       "Ask HN: How do we measure software in LLM era? — user asking for tool recommendation (🔥1pts)",
       "How do you handle high-stakes decisions when your brain is at 99% capacity? — user asking for tool recommendation (🔥1pts)",
       "Show HN: Statey – the database your AI shares across every chat, over MCP — user asking for tool recommendation (🔥3pts)",
       "ASK HN: Any suggestions or open source tools that capture the screen — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Options for an independent AI researcher with strong results? — user asking for tool recommendation (🔥2pts)",
-      "Hate \"The Algorithm?\" RSS Is One of the Tools You've Been Looking For — user asking for tool recommendation (🔥6pts)",
-      "We need tech news sources which exclude AI — user asking for tool recommendation (🔥76pts)",
+      "Hate \"The Algorithm?\" RSS Is One of the Tools You've Been Looking For — user asking for tool recommendation (🔥8pts)",
+      "We need tech news sources which exclude AI — user asking for tool recommendation (🔥108pts)",
       "Ask HN: Is WordPress the best way to create new websites for beginner — user asking for tool recommendation (🔥12pts)",
       "Show HN: A directory of open source alternatives to proprietary software — user asking for tool recommendation (🔥1pts)",
       "Show HN: Hikaru Labs – A private, 100% local alternative to iLoveIMG — user asking for tool recommendation (🔥3pts)",
@@ -273,60 +274,60 @@
       "Google OpenRL is an Experimental Self-hosted API for LLM Post-Training Fine-Tuning <img src=\"https://res.infoq.com/news/2026/06/google-open-rl-fine-tuning/en/headerimage/google-open-rl-fine-tuning-1782322457170.jpeg\"/><p>Google's GKE"
     ],
     "google_trends": [
-      "tems",
-      "aroldis chapman",
-      "social security",
-      "hbo",
-      "hbomax",
-      "jazz chisholm jr",
-      "teyana taylor",
-      "full moon",
-      "snowfall",
-      "jamie foxx"
+      "rj jett",
+      "40 degrees celsius",
+      "common",
+      "queen latifah",
+      "lizzo",
+      "anthony davis",
+      "nasa swift telescope rescue mission",
+      "usa vs australia world cup 2026",
+      "rocket launch today",
+      "paul goldschmidt"
     ],
     "baidu": [
-      "细节之中抓作风",
-      "宜宾发生5.5级地震 成都震感明显",
-      "普京：俄面临命运攸关时刻",
-      "未来5年 充电供热供暖将有大变化",
+      "永远保持对人民的赤子之心",
+      "法国紧急下单3万台空调",
+      "韩国媒体破防：被中国球迷当笑柄",
+      "上周末 多领域成果密集“上新”",
+      "在自己家不穿衣服犯法吗",
       "宜宾地震瞬间鱼群乱跳",
-      "韩国队差旅费亏麻了",
-      "四川宜宾地震致13人受轻微伤",
-      "中国避暑神器在欧洲卖爆了",
-      "直击宜宾地震：监控剧烈摇晃",
-      "鸭子洪水中摆渡救鸡 课文照进现实",
-      "加拿大92分钟绝杀南非",
-      "农业谣言岂能如此“变态”",
-      "利率一再降 “存款搬家”搬去哪",
-      "女子跑步4年不拉伸小腿肌肉硬如铁",
-      "人民日报评“AI脸看腻了”",
+      "辽宁葫芦岛一居民楼突发爆炸",
+      "宜宾地震食客避难后折返 无人逃单",
       "韩国主帅辞职 念完稿双手插兜离场",
-      "美伊同意停止互袭 30日在多哈谈判",
-      "世界杯用球成部分门将噩梦",
-      "男子撸铁后擦汗 脸部感染“脚气”",
-      "欧洲极端高温 美的“卡bug”空调卖爆"
+      "五粮液回应宜宾地震影响",
+      "利率一再降 “存款搬家”搬去哪",
+      "造谣县城满街都是小混混 男子被拘",
+      "巴西国脚说不出日本球员全场哄笑",
+      "韩国队差旅费亏麻了",
+      "昆仑芯拟在港上市 目标估值500亿美元",
+      "志愿选择倒计时！浙大学生送祝福",
+      "欧洲人驾车200公里抢购中国空调",
+      "韩国极端网友对主教练发出死亡威胁",
+      "中方将20家日本实体列入出口管制名单",
+      "韩国队启程回国 全员羞愧低头"
     ],
     "wikipedia": [
-      "Pac-Man Championship Edition",
-      "Jim Provenzano",
-      "Palmerston North City Council (1877–1989)",
-      "Becky Hill",
-      "NXT The Great American Bash (2026)",
-      "Mumbi Maina",
-      "Nicolai Shutorev",
-      "History of the South Korea national football team",
-      "Super Mario Bros. 2 (1986)",
-      "Russell Ellis",
-      "Sunset Speedway (Ontario)",
-      "List of animated series with LGBTQ characters: 2020–2024",
-      "Chandra",
-      "Larry Allen",
-      "Sophie Aldred",
-      "Faso Mêbo Agency",
-      "Farrah Chaichi",
-      "Freeport Container Port",
-      "Young Eagles",
-      "List of birds of Channel Islands National Park"
+      "Owen Hart Cup",
+      "Mickey Harmon",
+      "Marmot Basin",
+      "Samogitian language",
+      "ErrTime",
+      "Remittance man",
+      "Maribor Pohorje Ski Resort",
+      "Cavite's 6th congressional district",
+      "Marble Mountain Ski Resort",
+      "Fuerza Regida",
+      "November 1st (film)",
+      "Arceuthobium mengeanum",
+      "Aidyn Rakhimbaev",
+      "Mansfield Ski Club",
+      "Highlands High School (Fort Thomas, Kentucky)",
+      "11th Mississippi Cavalry Regiment (disambiguation)",
+      "Mammoth Mountain Resort",
+      "Armed Forces of the Chechen Republic of Ichkeria",
+      "Magic Mountain Ski Area",
+      "2026 Kings World Cup Nations"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -361,21 +362,21 @@
       "text-to-speech Kokoro-82M"
     ],
     "arxiv": [
-      "Autoregressive Boltzmann Generators Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allo",
-      "Error-Conditioned Neural Solvers Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their ow",
-      "Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching Entity Matching (EM) is a core operation in the data integration pipeline, where records from different sources are compared to determine whether they refer to the same real-world entity. Recent work ",
-      "Language-Based Digital Twins for Elderly Cognitive Assistance Digital twins have emerged as a promising paradigm for personalized healthcare, enabling modeling of individual behavior and health trajectories. In cognitive health, early detection of Mild Cognitive",
-      "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. While small open source MLL",
-      "Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders Sparse autoencoders (SAEs) have become a leading tool for interpreting the representations of vision foundation models, decomposing their polysemantic activations into a larger set of sparse, more mon",
-      "AI Healthcare Chatbots as Information Infrastructure: A Large-Scale Study of User-Reported Breakdowns AI healthcare chatbots are increasingly used to support health information seeking and self-management, yet their performance and impact on users remains to be studied. This study examines over 15,000",
-      "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models Multi-model LLM systems such as routing, voting, cascades, fusion, and mixture-of-agents are used to beat single-model accuracy. We show that their gain is capped by a quantity the field rarely report",
-      "Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings Large language models (LLMs) are increasingly used to screen and rank job applicants, creating incentives for candidates to strategically manipulate algorithmic hiring systems. We study prompt injecti",
-      "Simulation-based inference for rapid Bayesian parameter estimation in epidemiological models: a comparison with MCMC Mechanistic epidemiological models are widely used to support infectious disease forecasting and public-health decision making. Bayesian calibration of such models is commonly performed using Markov c",
-      "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting Earth Observation (EO) forecasting aims to predict future Earth surface dynamics from satellite observations under changing meteorological conditions. In this paper, we view this task as a partially o",
-      "E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation Recently, a few works have made early attempts to study test-time scaling for embodied tasks. However, two major challenges remain unsolved: (1) reasoning can effectively improve the performance of th",
-      "Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy Building persistent embodied agents in unstructured environments demands unified orchestration of heterogeneous tools spanning both cyber (APIs, IoT) and physical (manipulation, navigation) domains, c",
-      "From Celebrities to Anyone: Characterizing AI Nudification Content, Technology, and Community Dynamics on 4chan AI nudification uses generative models to create synthetic non-consensual sexually explicit imagery (SNEACI) of real individuals. Prior work has examined dedicated nudification platforms and model rep",
-      "Bridging Talk and Thought: Understanding Dialogue Dynamics Across Collaborative Problem-Solving Contexts We present a conceptual framework for analyzing dialogue in collaborative problem-solving contexts, with an emphasis on the emerging dynamics of human-AI and multi-agent collaboration. As intelligent "
+      "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation s",
+      "Which Nash Equilibrium? Solver-Dependent Selection on Zero-Sum Nash Polytopes Many two-player zero-sum games admit not a unique Nash equilibrium but a convex set of them: a polytope of profiles that all share the minimax value V* yet prescribe different behaviour. Standard solv",
+      "Agentic Hardware Design as Repository-Level Code Evolution We present HORIZON, a self-evolving agent framework that treats hardware design as repository-level code evolution. A Markdown harness is compiled into a project pack containing domain knowledge, an e",
+      "Towards Automating Scientific Review with Google's Paper Assistant Tool Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creatin",
+      "Parameter Efficient Hybrid Transformer (PEHT) for Network Traffic Prediction via Dynamic Urban Congestion Integration Accurate network traffic prediction is a critical element for efficient resource allocation in dynamic urban cellular networks. However, prediction remains challenging because network demand is influe",
+      "Agent-Native Immune System: Architecture, Taxonomy, and Engineering The transition from static chat bots to autonomous agents--equipped with persistent memory, tool-use protocols, and multi-agent collaboration--has fundamentally expanded the AI threat landscape. Curre",
+      "Learning Topology-Aware Representations via Test-Time Adaptation for Anomaly Segmentation Test-time adaptation (TTA) has emerged as a promising paradigm for mitigating distribution shifts in deep models. However, existing TTA approaches for anomaly segmentation remain limited by their reli",
+      "How Width and Data Shape Generalization Scaling Laws in Quadratic Neural Networks Understanding how performance scales jointly with model size and data is a central problem in modern machine learning. Existing theoretical works on scaling laws typically describe generalization as a",
+      "Govern the Repository, Not the Agent: Measuring Ecosystem-Level Risk in AI-Native Software Autonomous coding agents now open and merge pull requests in shared repositories at scale, and the field evaluates them the way it has always evaluated components, one agent at a time, on isolated ben",
+      "Exposure Bias Can Alleviate Itself via Directional and Frequency Rectification in Flow Matching Flow Matching (FM) has achieved remarkable generative performance, yet it suffers from exposure bias due to discrepancies between training and inference. Existing mitigation strategies typically rely ",
+      "Towards Value-Constrained Credit Assignment in Fully Delegated AI Cooperatives We propose a framework for reward allocation in fully delegated AI cooperatives where humans are represented by agents that contribute data and participate in model updates under heterogeneous value c",
+      "HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration Extracting dynamic 4D object interactions from massive, in-the-wild monocular videos offers a highly efficient data collection pathway for scaling Embodied AI and training VLAs. However, existing mono",
+      "The Remittance Blueprint: Data-driven Intelligence for Sri Lanka This study analyzes Sri Lankan migration and remittances over 32 years (1994-2025). Using a 384-month harmonized dataset, we apply exploratory data analysis, stationarity corrected time-series modelin",
+      "Cognitive Episodes in LLM Reasoning Traces Enable Interpretable Human Item Difficulty Prediction Predicting human item difficulty is central to educational assessment, where reliable estimates support fairness and effective test construction. Existing methods often depend on costly human calibrat",
+      "LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior Embodied agents operating in decentralized and partially observable environments have attracted growing attention in recent years. However, existing large language model (LLM)-based agents often exhib"
     ],
     "paperswithcode": [],
     "npm_registry": [
@@ -411,29 +412,27 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: node.js",
-      "github trending topic: react native",
-      "github trending topic: telegramfix",
-      "github trending topic: scala",
-      "github trending topic: awesome lists",
-      "github trending topic: database",
-      "github trending topic: css",
-      "github trending topic: npm",
-      "github trending topic: telegram",
-      "github trending topic: zaprettelegram",
-      "github trending topic: javascript",
-      "github trending topic: project management",
-      "github trending topic: telegramzapret",
-      "github trending topic: java",
-      "github trending topic: fixtelegram",
-      "github trending topic: chrome",
-      "github trending topic: code quality",
       "github trending topic: react",
-      "github trending topic: compiler",
-      "github trending topic: front end",
-      "github trending topic: cli",
+      "github trending topic: code quality",
+      "github trending topic: project management",
       "github trending topic: python",
-      "github trending topic: typescript"
+      "github trending topic: npm",
+      "github trending topic: css",
+      "github trending topic: javascript",
+      "github trending topic: awesome lists",
+      "github trending topic: scala",
+      "github trending topic: compiler",
+      "github trending topic: nextjs",
+      "github trending topic: linux",
+      "github trending topic: node.js",
+      "github trending topic: typescript",
+      "github trending topic: chrome",
+      "github trending topic: html",
+      "github trending topic: database",
+      "github trending topic: react native",
+      "github trending topic: cli",
+      "github trending topic: research-forks",
+      "github trending topic: front end"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -447,6 +446,15 @@
       "type": "tool",
       "name": "Viewer",
       "name_zh": "查看器"
+    },
+    {
+      "keyword": "[HappyCode] 稳定高性价比 API 中转站， V 站拉新送福利**总计$200 **连送 7 日免费体验额度**",
+      "matched": "api",
+      "category": "dev",
+      "subcat": "api",
+      "type": "tool",
+      "name": "API Tester",
+      "name_zh": "API测试工具"
     },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
@@ -510,15 +518,6 @@
       "type": "tool",
       "name": "Unit Converter",
       "name_zh": "单位换算"
-    },
-    {
-      "keyword": "Data Privacy while using API tools — user asking for tool recommendation (🔥4pts)",
-      "matched": "api",
-      "category": "dev",
-      "subcat": "api",
-      "type": "tool",
-      "name": "API Tester",
-      "name_zh": "API测试工具"
     },
     {
       "keyword": "tgt — npm package: tpl generator tool",
@@ -596,6 +595,7 @@
   "all_keywords": [
     "copilot-pull-request-reviewer",
     "性价比中转站，额度 0.06 倍分组特惠 Pro 分组，评论区送体验额度",
+    "[HappyCode] 稳定高性价比 API 中转站， V 站拉新送福利**总计$200 **连送 7 日免费体验额度**",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -634,10 +634,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 175,
-    "valid_count": 38,
-    "rejected_count": 137,
-    "rejection_rate": 78.3,
+    "raw_count": 183,
+    "valid_count": 39,
+    "rejected_count": 144,
+    "rejection_rate": 78.7,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -647,31 +647,17 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "[国产 API] GLM-5.2 满血 +纯血 DeepSeek V4，支持思维链、Cursor，全线 0.3 倍率 ｜注册送 5 美元 + 抽奖 200 美元",
-      "GPT 今天早上又重置了，可惜昨天没蹬完",
-      "Unlocking AI Secrets: How to Reverse Engineer Large Language Models with Knowledge Distillation in 2024"
+      "[0629 内测] Brivionix（Codex Pro 池）— GPT-5.5 / 5.4 / 5.3，回帖留 ID 送 $10",
+      "GPT 今天早上又重置了，可惜昨天没蹬完"
     ]
   },
   "trait_analysis": {
-    "total_captured": 348,
-    "chatter_blocked": 13,
-    "chatter_rate": 3.7,
-    "tool_signals_found": 175,
-    "tool_signal_rate": 50.3,
+    "total_captured": 347,
+    "chatter_blocked": 9,
+    "chatter_rate": 2.6,
+    "tool_signals_found": 183,
+    "tool_signal_rate": 52.7,
     "chatter_samples": [
-      {
-        "text": "某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？",
-        "category": "ad",
-        "matched": [
-          "补贴"
-        ]
-      },
-      {
-        "text": "拒绝“赛博溜猴”：国内大厂 AI Coding Plan 抢购恶心到极点",
-        "category": "ad",
-        "matched": [
-          "抢购"
-        ]
-      },
       {
         "text": "XSDR – Real-time event monitoring infrastructure for agents — featured on Hacker",
         "category": "chatter",
@@ -714,24 +700,31 @@
         ]
       },
       {
-        "text": "History of the South Korea national football team",
-        "category": "entertainment",
+        "text": "欧洲人驾车200公里抢购中国空调",
+        "category": "ad",
         "matched": [
-          "football"
+          "抢购"
         ]
       },
       {
-        "text": "Error-Conditioned Neural Solvers Neural surrogate models offer fast approximate ",
-        "category": "ad",
+        "text": "November 1st (film)",
+        "category": "entertainment",
+        "matched": [
+          "film"
+        ]
+      },
+      {
+        "text": "HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent",
+        "category": "job",
         "matched": [
           "offer"
         ]
       },
       {
-        "text": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experi",
+        "text": "granturismo — npm package: generator tool",
         "category": "chatter",
         "matched": [
-          "imo"
+          "rant"
         ]
       }
     ],
@@ -810,6 +803,22 @@
         ]
       },
       {
+        "text": "[0629 内测] Brivionix（Codex Pro 池）— GPT-5.5 / 5.4 / 5.3，回帖留 ID 送 $10",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['GPT']"
+        ]
+      },
+      {
+        "text": "[HappyCode] 稳定高性价比 API 中转站， V 站拉新送福利**总计$200 **连送 7 日免费体验额度**",
+        "confidence": 65,
+        "features": [
+          "中文动作特征: ['免费']",
+          "输入→输出链式: [('中转站', '转', '', '', '', '')]",
+          "技术概念: ['API']"
+        ]
+      },
+      {
         "text": "GPT 今天早上又重置了，可惜昨天没蹬完",
         "confidence": 15,
         "features": [
@@ -817,33 +826,18 @@
         ]
       },
       {
-        "text": "Unlocking AI Secrets: How to Reverse Engineer Large Language Models with Knowledge Distillation in 2",
-        "confidence": 30,
-        "features": [
-          "输入→输出链式: [('How to Reverse', 'to', '', '', '', '')]",
-          "需求表达: [('How to Reverse', 'to', '', '', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "10 Developer Tools That Replaced Entire Workflows for Me",
+        "text": "Quick Python Tip: Unpack Dictionaries Directly Into Function Arguments",
         "confidence": 35,
         "features": [
-          "输入→输出链式: [('Developer Tools', 'To', '', '', '', '')]",
-          "英文工具名词: ['tool']"
+          "输入→输出链式: [('Into Function', 'to', '', '', '', '')]",
+          "技术概念: ['Python']"
         ]
       },
       {
-        "text": "How VictoriaLogs Stores Your Logs in a Columnar Layout",
-        "confidence": 20,
+        "text": "Master Python in 2 Minutes",
+        "confidence": 15,
         "features": [
-          "输入→输出链式: [('VictoriaLogs', 'to', '', '', '', ''), ('Stores', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "A peek into Reddit's anti-spam internals",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('into Reddit', 'to', '', '', '', '')]"
+          "技术概念: ['Python']"
         ]
       }
     ]

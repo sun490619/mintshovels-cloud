@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-28T22:08:14.634311+00:00     ║
+║       启动时间: 2026-06-29T04:49:46.453131+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 20 Show HN posts
+  ✅ 18 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 25 topics
+  ✅ 21 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 353
-  🚫 闲聊拦截: 10 条 (2.8%)
-  🧠 工具信号: 187 条 (53.0%)
+  原始信号总量: 347
+  🚫 闲聊拦截: 9 条 (2.6%)
+  🧠 工具信号: 183 条 (52.7%)
 
   📋 闲聊拦截样例:
-     [ad] 某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？
+     [chatter] XSDR – Real-time event monitoring infrastructure for agents 
+     [news] A site that emails you the day your Bitcoin stack hits $1M —
      [chatter] Building AI-Powered CMS Automation With Event-Driven Archite
-     [news] Presentation: AI Works, Pull Requests Don’t: How AI Is Break
-     [news] bill cassidy donald trump congress
-     [entertainment] 世界杯：南非vs加拿大
+     [news] Presentation: AI Works, Pull Requests Don’t: How AI is Break
+     [chatter] 韩国队差旅费亏麻了
 
   🧠 工具信号样例:
      [置信度15%] copilot-pull-request-reviewer
@@ -98,9 +98,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
      [置信度35%] Does Python have a ternary conditional operator?
-       ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
-       ↳ 技术概念: ['Python']
-     [
+       ↳ 输入→输出链式: [('operator', 'to', '', '', '',
 
 ✅ 雷达完成 — 17 条建议
 
@@ -109,25 +107,25 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 353 条
-     🚫 闲聊拦截: 10 条 (2.8%)
-     🧠 工具信号: 187 条 (53.0%)
-     闲聊样例: 某 mao 百亿补贴购买的 macbook air 未拆封在官网查询已经被激活，正常吗？... [ad]
+     原始抓取: 347 条
+     🚫 闲聊拦截: 9 条 (2.6%)
+     🧠 工具信号: 183 条 (52.7%)
+     闲聊样例: XSDR – Real-time event monitoring infrastructure f... [chatter]
      工具信号样例: copilot-pull-request-reviewer... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 187 → 有效 39
-     拒绝率: 79.1%
+     工具信号 183 → 有效 39
+     拒绝率: 78.7%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
   ✅ 通过 (13):
+     [WARN  |  +36] API Tester  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
-     [WARN  |  +36] API Tester  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
@@ -154,7 +152,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-06-28T22:08:14.789031+00:00
+   Generated at: 2026-06-29T04:49:46.607086+00:00
    Already in catalog: 93 tools
    Previously produced: 0 tools
    Existing tool pages: 77 files
@@ -391,7 +389,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-28T22:08:14.634311+00:00 → 2026-06-28T22:08:26.229657+00:00
+  ⏱  耗时: 2026-06-29T04:49:46.453131+00:00 → 2026-06-29T04:49:58.480775+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
