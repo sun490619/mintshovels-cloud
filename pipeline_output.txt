@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-29T04:49:46.453131+00:00     ║
+║       启动时间: 2026-06-29T11:18:00.871759+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -27,11 +27,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 🌐 水系1: 开发者问答枢纽
 🔍 [2/25] Scraping GitHub Trending...
-  ✅ 16 repos
+  ✅ 17 repos
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 10 topics
+  ✅ 9 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -47,7 +47,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 19 articles
+  ✅ 20 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 21 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,43 +81,43 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 347
+  原始信号总量: 350
   🚫 闲聊拦截: 9 条 (2.6%)
-  🧠 工具信号: 183 条 (52.7%)
+  🧠 工具信号: 186 条 (53.1%)
 
   📋 闲聊拦截样例:
-     [chatter] XSDR – Real-time event monitoring infrastructure for agents 
-     [news] A site that emails you the day your Bitcoin stack hits $1M —
-     [chatter] Building AI-Powered CMS Automation With Event-Driven Archite
+     [job] Digital Marketing Training: Why It Has Become One of the Mos
+     [news] GLM 5.2 vs Claude: The Ultimate Showdown - Which AI Model Re
+     [job] How to Learn System Design: A Roadmap by Career Level
      [news] Presentation: AI Works, Pull Requests Don’t: How AI is Break
-     [chatter] 韩国队差旅费亏麻了
+     [news] south korea president demands investigation into early world
 
   🧠 工具信号样例:
-     [置信度15%] copilot-pull-request-reviewer
-       ↳ 英文工具名词: ['viewer']
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
      [置信度35%] Does Python have a ternary conditional operator?
-       ↳ 输入→输出链式: [('operator', 'to', '', '', '',
+       ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
+       ↳ 技术概念: ['Python']
+     [置信
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 347 条
+     原始抓取: 350 条
      🚫 闲聊拦截: 9 条 (2.6%)
-     🧠 工具信号: 183 条 (52.7%)
-     闲聊样例: XSDR – Real-time event monitoring infrastructure f... [chatter]
-     工具信号样例: copilot-pull-request-reviewer... [置信度15%]
+     🧠 工具信号: 186 条 (53.1%)
+     闲聊样例: Digital Marketing Training: Why It Has Become One ... [job]
+     工具信号样例: What does the "yield" keyword do in Python?... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 183 → 有效 39
-     拒绝率: 78.7%
+     工具信号 186 → 有效 40
+     拒绝率: 78.5%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
   ✅ 通过 (13):
      [WARN  |  +36] API Tester  [?]
@@ -133,8 +133,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
-  🚫 拦截 (4):
-     [BLOCK |  +20] Viewer  [?]  ← 多维评分 20 低于门槛 30
+  🚫 拦截 (3):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
@@ -151,8 +150,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-06-29T04:49:46.607086+00:00
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-06-29T11:18:01.020450+00:00
    Already in catalog: 93 tools
    Previously produced: 0 tools
    Existing tool pages: 77 files
@@ -389,7 +388,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-29T04:49:46.453131+00:00 → 2026-06-29T04:49:58.480775+00:00
+  ⏱  耗时: 2026-06-29T11:18:00.871759+00:00 → 2026-06-29T11:18:12.822347+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
