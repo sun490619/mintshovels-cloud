@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-29T11:18:00.871759+00:00     ║
+║       启动时间: 2026-06-29T16:02:14.427911+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -27,7 +27,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 🌐 水系1: 开发者问答枢纽
 🔍 [2/25] Scraping GitHub Trending...
-  ✅ 17 repos
+  ✅ 18 repos
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
@@ -43,11 +43,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 16 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 20 articles
+  ✅ 19 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -63,7 +63,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [9/25] Fetching HuggingFace...
   ✅ 40 models
 🔍 [21/25] Fetching arXiv cs.AI...
-  ✅ 15 papers
+  ⚠️ Failed to fetch http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&so: HTTP Error 429: Unknown Error
 🔍 [22/25] Fetching Papers With Code...
   ⚠️ Failed: Expecting value: line 1 column 1 (char 0)
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,24 +81,21 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 350
-  🚫 闲聊拦截: 9 条 (2.6%)
-  🧠 工具信号: 186 条 (53.1%)
+  原始信号总量: 332
+  🚫 闲聊拦截: 11 条 (3.3%)
+  🧠 工具信号: 169 条 (50.9%)
 
   📋 闲聊拦截样例:
-     [job] Digital Marketing Training: Why It Has Become One of the Mos
-     [news] GLM 5.2 vs Claude: The Ultimate Showdown - Which AI Model Re
-     [job] How to Learn System Design: A Roadmap by Career Level
-     [news] Presentation: AI Works, Pull Requests Don’t: How AI is Break
-     [news] south korea president demands investigation into early world
+     [ad] 中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度
+     [ad] REVOLUTIONARY MOVE: Rocket Lab Acquires Iridium - What This 
+     [ad] Cline subscription plan to access GLM-5.2 at 2-5x discount —
+     [chatter] Timefeed – Auto sync public events to your calendar — featur
+     [chatter] Why Someone Next to You Gets Better Cell Service at Crowded 
 
   🧠 工具信号样例:
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
-     [置信度35%] Does Python have a ternary conditional operator?
-       ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
-       ↳ 技术概念: ['Python']
-     [置信
+     [置信度35%] Does Python have a ternary conditi
 
 ✅ 雷达完成 — 16 条建议
 
@@ -107,15 +104,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 350 条
-     🚫 闲聊拦截: 9 条 (2.6%)
-     🧠 工具信号: 186 条 (53.1%)
-     闲聊样例: Digital Marketing Training: Why It Has Become One ... [job]
+     原始抓取: 332 条
+     🚫 闲聊拦截: 11 条 (3.3%)
+     🧠 工具信号: 169 条 (50.9%)
+     闲聊样例: 中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度... [ad]
      工具信号样例: What does the "yield" keyword do in Python?... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 186 → 有效 40
-     拒绝率: 78.5%
+     工具信号 169 → 有效 38
+     拒绝率: 77.5%
 
   📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -151,7 +148,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-06-29T11:18:01.020450+00:00
+   Generated at: 2026-06-29T16:02:14.578436+00:00
    Already in catalog: 93 tools
    Previously produced: 0 tools
    Existing tool pages: 77 files
@@ -388,7 +385,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-29T11:18:00.871759+00:00 → 2026-06-29T11:18:12.822347+00:00
+  ⏱  耗时: 2026-06-29T16:02:14.427911+00:00 → 2026-06-29T16:02:28.772563+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
