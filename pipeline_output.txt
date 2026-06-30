@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-30T14:36:12.027159+00:00     ║
+║       启动时间: 2026-06-30T17:09:46.310223+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,11 +43,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 20 Show HN posts
+  ✅ 17 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 20 articles
+  ✅ 19 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -59,7 +59,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 📖 水系4: 维基百科 & AI趋势
 🔍 [8/25] Fetching Wikipedia...
-  ✅ 20 pages
+  ✅ 19 pages
 🔍 [9/25] Fetching HuggingFace...
   ✅ 40 models
 🔍 [21/25] Fetching arXiv cs.AI...
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 353
-  🚫 闲聊拦截: 12 条 (3.4%)
-  🧠 工具信号: 181 条 (51.3%)
+  原始信号总量: 348
+  🚫 闲聊拦截: 13 条 (3.7%)
+  🧠 工具信号: 177 条 (50.9%)
 
   📋 闲聊拦截样例:
      [chatter] Slint and the Node.js Event Loop
-     [chatter] US Supreme Court rules geofence warrants require constitutio
-     [news] One million passports leaked online 🔥361pts 💬210
+     [news] The labor share of income in the US is at its lowest post-wa
      [job] Exercise intensity influences body composition in healthy ol
      [entertainment] What AI music tool has the best workflow? — user asking for 
+     [news] The Enterprise Memory Crisis: Why AI Doesn't Forget — Your O
 
   🧠 工具信号样例:
      [置信度15%] What does the "yield" keyword do in Python?
@@ -98,34 +98,33 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度35%] Does Python have a ternary conditional operator?
        ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
        ↳ 技术概念: ['Python']
-     [置信度15%] What are m
+     [置信度15%] W
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 353 条
-     🚫 闲聊拦截: 12 条 (3.4%)
-     🧠 工具信号: 181 条 (51.3%)
+     原始抓取: 348 条
+     🚫 闲聊拦截: 13 条 (3.7%)
+     🧠 工具信号: 177 条 (50.9%)
      闲聊样例: Slint and the Node.js Event Loop... [chatter]
      工具信号样例: What does the "yield" keyword do in Python?... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 181 → 有效 40
-     拒绝率: 77.9%
+     工具信号 177 → 有效 40
+     拒绝率: 77.4%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
+  ✅ 通过 (13):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
-     [PASS  |  +55] Search Tool  [?]
      [PASS  |  +65] Tracker Tool  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
@@ -151,17 +150,36 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-06-30T14:36:12.181579+00:00
-   Already in catalog: 101 tools
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-06-30T17:09:46.467613+00:00
+   Already in catalog: 104 tools
    Previously produced: 0 tools
-   Existing tool pages: 85 files
-   Next shovel ID: shovel-047
+   Existing tool pages: 15 files
+   Next shovel ID: shovel-050
    Next script ID: script-011
 
-✅ All suggested tools already exist in catalog. Nothing to produce.
+🔧 Producing 3 new tools:
+   • Video Converter (视频格式转换器) [media/video]
+   • Generator (生成器) [misc/misc]
+   • Editor (编辑器) [productivity/text]
 
-📋 Running tests on current codebase...
+  🛠  Producing: Video Converter → shovel-050
+     📄 Page: tools/video-converter.html
+     ✅ Gate check passed
+
+  🛠  Producing: Generator → shovel-051
+     📄 Page: tools/generator.html
+     ✅ Gate check passed
+
+  🛠  Producing: Editor → shovel-052
+     📄 Page: tools/editor.html
+     ✅ Gate check passed
+  ✅ Inserted 3 entries into index.html
+
+  📝 Factory log updated
+
+==================================================
+🧪 TEST PHASE
 
 🧪 Running automated tests...
 ----------------------------------------
@@ -177,7 +195,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   ✅ Lucide Icons CDN
   [TOOLS Database]
   ✅ TOOLS array defined
-  ✅ TOOLS entries (56)
+  ✅ TOOLS entries (62)
   ✅ Has Web Tools (🔧)
   ✅ Has Scripts (📜)
   ✅ Has Live tools
@@ -205,219 +223,107 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
+  🌐 Testing local server on port 9204...
+  ✅ Local server: HTTP 200, 380015 bytes
 
-✅ 工厂完成 — 本次生产 0 个工具
+✅ All tests passed!
+
+==================================================
+⏭️  Skipping deployment (--no-deploy)
+==================================================
+
+==================================================
+🏭 Pipeline complete!
+   New tools: 3
+   • shovel-050: Video Converter
+   • shovel-051: Generator
+   • shovel-052: Editor
+   Tests: ✅ Passed
+==================================================
+
+
+✅ 工厂完成 — 本次生产 3 个工具
+   🛠  Producing: Video Converter → shovel-050
+   🛠  Producing: Generator → shovel-051
+   🛠  Producing: Editor → shovel-052
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
 ============================================================
-   生产工具健康率: 64.3% (56 个工具, 20 个问题)
-   问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失', 'shovel-030: 文件缺失', 'shovel-031: 文件缺失', 'shovel-032: 文件缺失', 'shovel-033: 文件缺失', 'shovel-034: 文件缺失', 'shovel-035: 文件缺失', 'shovel-036: 文件缺失']
-   ⚠️ 门禁警告 — 健康率 64.3% 低于90%阈值
+   生产工具健康率: 0.0% (62 个工具, 62 个问题)
+   问题文件: ['shovel-001: 文件缺失', 'shovel-002: 文件缺失', 'shovel-003: 文件缺失', 'shovel-007: 文件缺失', 'script-001: 文件缺失', 'shovel-005: 文件缺失', 'shovel-009: 文件缺失', 'script-002: 文件缺失', 'shovel-004: 文件缺失', 'shovel-006: 文件缺失']
+   ⚠️ 门禁警告 — 健康率 0.0% 低于90%阈值
 
 ============================================================
 🧪 阶段 2: 全量工具测试
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 56 工具, 56 在线, 56 ready:true, 0 ready:false
+    ✅ TOOLS 数据库: 62 工具, 62 在线, 59 ready:true, 3 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
-    ✅ api-tester.html
     ✅ audio-editor.html
     ✅ auto_tool_d41d8cd9.html
-    ✅ auto_x_twitter_post_to_carousel_converter.html
     ✅ checker-tool.html
-    ✅ code_generator_hub.html
-    ✅ converter.html
-    ✅ csharp_getter_setter.html
-    ✅ css_computed_analyzer.html
     ✅ diff-viewer.html
-    ✅ dotnet_cli_parser.html
     ✅ editor.html
-    ✅ file_line_extractor.html
-    ✅ formatter.html
-    ✅ fstring_converter.html
     ✅ generator.html
-    ✅ html-preview.html
     ✅ index.html
-    ✅ java_object_mapper.html
-    ✅ jquery_events.html
-    ✅ js_formatter.html
-    ✅ json-formatter.html
-    ✅ json_schema_generator.html
     ✅ llm-tool.html
     ✅ log-viewer.html
-    ✅ markdown-editor.html
     ✅ mp3-cutter.html
     ✅ name-generator.html
     ✅ note-taker.html
-    ✅ pdf-editor.html
-    ✅ prompt-optimizer.html
-    ✅ python_tree_generator.html
     ✅ regex-tester.html
-    ✅ regexp_lookahead.html
-    ✅ renderer.html
-    ✅ script-001.html
-    ✅ script-002.html
-    ✅ script-003.html
-    ✅ script-004.html
-    ✅ script-005.html
-    ✅ script-006.html
-    ✅ script-007.html
-    ✅ script-008.html
-    ✅ script-009.html
-    ✅ script-010.html
     ✅ search-tool.html
-    ✅ shovel-001.html
-    ✅ shovel-002.html
-    ✅ shovel-003.html
-    ✅ shovel-004.html
-    ✅ shovel-005.html
-    ✅ shovel-006.html
-    ✅ shovel-007.html
-    ✅ shovel-008.html
-    ✅ shovel-009.html
-    ✅ shovel-010.html
-    ✅ shovel-011.html
-    ✅ shovel-012.html
-    ✅ shovel-013.html
-    ✅ shovel-014.html
-    ✅ shovel-015.html
-    ✅ shovel-016.html
-    ✅ shovel-017.html
-    ✅ shovel-018.html
-    ✅ shovel-019.html
-    ✅ shovel-020.html
-    ✅ shovel-021.html
-    ✅ shovel-022.html
-    ✅ shovel-023.html
-    ✅ shovel-024.html
-    ✅ shovel-025.html
-    ✅ shovel-026.html
-    ✅ site-monitor.html
-    ✅ sql-formatter.html
-    ✅ sql_formatter.html
-    ✅ svg_path_extractor.html
-    ✅ text-tools.html
     ✅ timezone-converter.html
     ✅ tracker-tool.html
-    ✅ typing_macro.html
     ✅ video-converter.html
-    ✅ view.html
-    ✅ viewer.html
-    ✅ world_map_generator.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 376916B
+    ✅ index.html — HTTP 200, 380015B
     ✅ tools/ai-assistant.html — HTTP 200
-    ✅ tools/api-tester.html — HTTP 200
     ✅ tools/audio-editor.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
-    ✅ tools/auto_x_twitter_post_to_carousel_converter.html — HTTP 200
     ✅ tools/checker-tool.html — HTTP 200
-    ✅ tools/code_generator_hub.html — HTTP 200
-    ✅ tools/converter.html — HTTP 200
-    ✅ tools/csharp_getter_setter.html — HTTP 200
-    ✅ tools/css_computed_analyzer.html — HTTP 200
     ✅ tools/diff-viewer.html — HTTP 200
-    ✅ tools/dotnet_cli_parser.html — HTTP 200
     ✅ tools/editor.html — HTTP 200
-    ✅ tools/file_line_extractor.html — HTTP 200
-    ✅ tools/formatter.html — HTTP 200
-    ✅ tools/fstring_converter.html — HTTP 200
     ✅ tools/generator.html — HTTP 200
-    ✅ tools/html-preview.html — HTTP 200
     ✅ tools/index.html — HTTP 200
-    ✅ tools/java_object_mapper.html — HTTP 200
-    ✅ tools/jquery_events.html — HTTP 200
-    ✅ tools/js_formatter.html — HTTP 200
-    ✅ tools/json-formatter.html — HTTP 200
-    ✅ tools/json_schema_generator.html — HTTP 200
     ✅ tools/llm-tool.html — HTTP 200
     ✅ tools/log-viewer.html — HTTP 200
-    ✅ tools/markdown-editor.html — HTTP 200
     ✅ tools/mp3-cutter.html — HTTP 200
     ✅ tools/name-generator.html — HTTP 200
     ✅ tools/note-taker.html — HTTP 200
-    ✅ tools/pdf-editor.html — HTTP 200
-    ✅ tools/prompt-optimizer.html — HTTP 200
-    ✅ tools/python_tree_generator.html — HTTP 200
     ✅ tools/regex-tester.html — HTTP 200
-    ✅ tools/regexp_lookahead.html — HTTP 200
-    ✅ tools/renderer.html — HTTP 200
-    ✅ tools/script-001.html — HTTP 200
-    ✅ tools/script-002.html — HTTP 200
-    ✅ tools/script-003.html — HTTP 200
-    ✅ tools/script-004.html — HTTP 200
-    ✅ tools/script-005.html — HTTP 200
-    ✅ tools/script-006.html — HTTP 200
-    ✅ tools/script-007.html — HTTP 200
-    ✅ tools/script-008.html — HTTP 200
-    ✅ tools/script-009.html — HTTP 200
-    ✅ tools/script-010.html — HTTP 200
     ✅ tools/search-tool.html — HTTP 200
-    ✅ tools/shovel-001.html — HTTP 200
-    ✅ tools/shovel-002.html — HTTP 200
-    ✅ tools/shovel-003.html — HTTP 200
-    ✅ tools/shovel-004.html — HTTP 200
-    ✅ tools/shovel-005.html — HTTP 200
-    ✅ tools/shovel-006.html — HTTP 200
-    ✅ tools/shovel-007.html — HTTP 200
-    ✅ tools/shovel-008.html — HTTP 200
-    ✅ tools/shovel-009.html — HTTP 200
-    ✅ tools/shovel-010.html — HTTP 200
-    ✅ tools/shovel-011.html — HTTP 200
-    ✅ tools/shovel-012.html — HTTP 200
-    ✅ tools/shovel-013.html — HTTP 200
-    ✅ tools/shovel-014.html — HTTP 200
-    ✅ tools/shovel-015.html — HTTP 200
-    ✅ tools/shovel-016.html — HTTP 200
-    ✅ tools/shovel-017.html — HTTP 200
-    ✅ tools/shovel-018.html — HTTP 200
-    ✅ tools/shovel-019.html — HTTP 200
-    ✅ tools/shovel-020.html — HTTP 200
-    ✅ tools/shovel-021.html — HTTP 200
-    ✅ tools/shovel-022.html — HTTP 200
-    ✅ tools/shovel-023.html — HTTP 200
-    ✅ tools/shovel-024.html — HTTP 200
-    ✅ tools/shovel-025.html — HTTP 200
-    ✅ tools/shovel-026.html — HTTP 200
-    ✅ tools/site-monitor.html — HTTP 200
-    ✅ tools/sql-formatter.html — HTTP 200
-    ✅ tools/sql_formatter.html — HTTP 200
-    ✅ tools/svg_path_extractor.html — HTTP 200
-    ✅ tools/text-tools.html — HTTP 200
     ✅ tools/timezone-converter.html — HTTP 200
     ✅ tools/tracker-tool.html — HTTP 200
-    ✅ tools/typing_macro.html — HTTP 200
     ✅ tools/video-converter.html — HTTP 200
-    ✅ tools/view.html — HTTP 200
-    ✅ tools/viewer.html — HTTP 200
-    ✅ tools/world_map_generator.html — HTTP 200
 
-  📊 测试汇总: 179 通过, 0 失败
+  📊 测试汇总: 45 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
-    ✅ 没有待上线的工具
+    🚀 3 个新工具测试通过，已标记 ready:true 正式上线
 
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-30T14:36:12.027159+00:00 → 2026-06-30T14:36:25.575919+00:00
+  ⏱  耗时: 2026-06-30T17:09:46.310223+00:00 → 2026-06-30T17:10:05.069867+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
   🔒 门禁: ⚠️ WARN
-  💚 健康率: 64.3%
+  💚 健康率: 0.0%
   🧠 AI组件:
      ✅ generator: OK
      ✅ validator: OK
      ✅ analyzer: OK
-  🧪 测试: 179✅ 0❌
-  🔧 工具总数: 56
-  📄 独立页面: 85
+  🧪 测试: 45✅ 0❌
+  🔧 工具总数: 62
+  🏷️  新上线: 3 个工具 (已标记 ready:true)
+  📄 独立页面: 18
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================

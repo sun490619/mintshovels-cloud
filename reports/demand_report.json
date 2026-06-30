@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T16:59:01.199067+00:00",
+  "generated_at": "2026-06-30T17:09:46.467613+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -114,6 +114,10 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "Buy LinkedIn Accounts | ID-Verified &amp; Aged Profiles usasafebiz is best",
+      "2026年 AI API 平台终极对比：我测了5家模型，帮你省100小时选型",
+      "10 Free Online Developer Tools That Save Me Time Every Week",
+      "Everything You Need to Know About Agentic Navigation",
       "Buy Verified PayPal Accounts for Payments PDF usasafebiz is best",
       "Beginner Approach for Removing the Duplicates from Array",
       "Getting started with OAuth in your Web Apps",
@@ -121,16 +125,12 @@
       "Why Companies Don't Need More AI Tools. They Need More AI Users.",
       "The Biggest AI Skill Isn't Prompting. It's Curiosity.",
       "The Future of Work Won't Be Built by AI Alone",
-      "Why AI Conversations Should Focus More on Learning Than Fear",
-      "Starting Your Programming Journey: Resources, Languages, Timelines, Hardware, and Enjoyable Aspects",
-      "AI Education Isn't About Learning Tools. It's About Staying Relevant.",
-      "The Biggest AI Challenge Isn't Technology. It's Adoption.",
-      "AI Literacy May Become as Important as Digital Literacy"
+      "Why AI Conversations Should Focus More on Learning Than Fear"
     ],
     "lobsters": [
-      "stop asking writers about \"AI\"",
       "What's wrong with EU age verification? (Nothing)",
-      "The end of the AArch64 desktopexperiment",
+      "stop asking writers about \"AI\"",
+      "The end of the AArch64 desktop experiment",
       "Local Reasoning for Global Properties",
       "What is `std::pin::Pin` in Rust?",
       "Investigating Linux graphics (2025)",
@@ -139,15 +139,15 @@
       "jj_tui: terminal user interface to jujutsu focused on speed and clarity",
       "Parse, Don't Validate — In a Language That Doesn't Want You To",
       "Slint and the Node.js Event Loop",
+      "Soatok’s Informal Guide to Threat Models",
       "Memory Safe Context Switching",
       "Diagrams for Penrose Tiles",
-      "Soatok’s Informal Guide to Threat Models",
       "Platform Support for GNU Extensions to Basic Regular Expressions",
       "Rheo 0.4.0",
       "Spindle's new microVM engine",
       "Serving Local AI on my Jetson through Durable Streams",
-      "Run any Dockerfile on Vercel",
-      "Furality Ultra Club A/V Writeup"
+      "Revisiting Yliluoma’s ordered dither algorithm",
+      "Run any Dockerfile on Vercel"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -172,34 +172,37 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Qwen 3.6 27B is the sweet spot for local development 🔥1076pts 💬691",
-      ".self: A new top-level domain designed to support self-hosting 🔥613pts 💬350",
-      "Free the Icons 🔥607pts 💬222",
-      "European digital ID wallets rely on safety services of Google and Apple 🔥588pts 💬248",
-      "Open Source Low Tech 🔥501pts 💬108",
-      "Rocketlab acquires Iridium 🔥450pts 💬293",
-      "Claude Code Is Steganographically Marking Requests 🔥310pts 💬99",
-      "The labor share of income in the US is at its lowest post-war level 🔥293pts 💬240",
-      "Building a custom octocopter from scratch with no prior hardware experience 🔥240pts 💬53",
-      "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active 🔥231pts 💬63",
-      "Linux for the Sega MegaDrive 🔥188pts 💬47",
+      "Qwen 3.6 27B is the sweet spot for local development 🔥1083pts 💬691",
+      ".self: A new top-level domain designed to support self-hosting 🔥615pts 💬351",
+      "Free the Icons 🔥610pts 💬224",
+      "European digital ID wallets rely on safety services of Google and Apple 🔥594pts 💬249",
+      "Open Source Low Tech 🔥508pts 💬108",
+      "Rocketlab acquires Iridium 🔥452pts 💬293",
+      "Claude Code Is Steganographically Marking Requests 🔥358pts 💬119",
+      "The labor share of income in the US is at its lowest post-war level 🔥312pts 💬265",
+      "Building a custom octocopter from scratch with no prior hardware experience 🔥241pts 💬53",
+      "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active 🔥233pts 💬64",
+      "Linux for the Sega MegaDrive 🔥190pts 💬48",
       "Memory Safe Context Switching 🔥185pts 💬28",
-      "Exercise intensity influences body composition in healthy older adults (2025) 🔥155pts 💬130",
-      "Looking Ahead to Postgres 19 🔥125pts 💬79",
-      "Parse, Don't Validate – In a Language That Doesn't Want You To 🔥110pts 💬86",
-      "Memoirs of Extraordinary Popular Delusions and the Madness of Crowds (1852) 🔥108pts 💬29",
-      "Knoppix 🔥95pts 💬50",
-      "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs) 🔥89pts 💬8",
-      "County with 37 Data Centers Asks Schools to 'Conserve Electricity' 🔥76pts 💬32",
-      "EU commissioners shut down air conditioning for employees, leave theirs on 🔥75pts 💬38",
-      "We moved our Bluesky data to Eurosky 🔥59pts 💬49",
+      "Exercise intensity influences body composition in healthy older adults (2025) 🔥156pts 💬132",
+      "Looking Ahead to Postgres 19 🔥127pts 💬85",
+      "Parse, Don't Validate – In a Language That Doesn't Want You To 🔥111pts 💬87",
+      "Memoirs of Extraordinary Popular Delusions and the Madness of Crowds (1852) 🔥110pts 💬30",
+      "Knoppix 🔥97pts 💬53",
+      "County with 37 Data Centers Asks Schools to 'Conserve Electricity' 🔥93pts 💬38",
+      "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs) 🔥92pts 💬9",
+      "EU commissioners shut down air conditioning for employees, leave theirs on 🔥91pts 💬53",
+      "We moved our Bluesky data to Eurosky 🔥66pts 💬52",
       "I'm building a Space Cadet Pinball Machine! [video]",
-      "All Logic, No Bite",
+      "Factorio 2.1 Experimental Release",
       "Scammers Sell Seeds for Exotic AI-Generated Flowers That Don't Exist",
       "Computer-Aided Language Development in Nonspeaking Children (1968) [pdf]"
     ],
     "hn_show": [
-      "My 13-year-old built an ant colony tracker — featured on Hacker News (🔥2pts)",
+      "Clusy – Cursor for data science notebooks in cloud — featured on Hacker News (🔥1pts)",
+      "Trajeckt, a Firewall for AI Agents — featured on Hacker News (🔥1pts)",
+      "Shot-scraper video tool for recording YAML-defined webapp feature demos — featured on Hacker News (🔥1pts)",
+      "My 13-year-old built an ant colony tracker — featured on Hacker News (🔥3pts)",
       "fenic – LLMs as dataframe operators, query meaning and structure — featured on Hacker News (🔥2pts)",
       "Vanta – Markdown notes for iPhone with on-device AI — featured on Hacker News (🔥1pts)",
       "Agent Sandbox Options — featured on Hacker News (🔥1pts)",
@@ -212,10 +215,7 @@
       "Evaluation Context Protocol (ECP) — featured on Hacker News (🔥1pts)",
       "Capacitor – shared mem for Claude Code, Cursor and other coding agents — featured on Hacker News (🔥1pts)",
       "Codegrain – PDF/image/data tools, files never leave your tab — featured on Hacker News (🔥1pts)",
-      "Don't ask if devs cheat with AI, test if they're good with it — featured on Hacker News (🔥4pts)",
-      "Let your AI agent manage your link in bio — featured on Hacker News (🔥1pts)",
-      "FastReact – FastAPI and React Starter Kit for AI SaaS — featured on Hacker News (🔥2pts)",
-      "NextMQ – managed BullMQ for serverless Next.js — featured on Hacker News (🔥1pts)"
+      "Don't ask if devs cheat with AI, test if they're good with it — featured on Hacker News (🔥4pts)"
     ],
     "hn_ask_tools": [
       "Show HN: fenic – LLMs as dataframe operators, query meaning and structure — user asking for tool recommendation (🔥2pts)",
@@ -288,16 +288,16 @@
       "AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management <img src=\"https://res.infoq.com/news/2026/06/aws-credentials-provider/en/headerimage/generatedHeaderImage-1781712757418.jpg\"/><p>AWS has recently anno"
     ],
     "google_trends": [
-      "zverev",
-      "côte d'ivoire vs norway",
-      "lebron leaving lakers",
-      "jacob markstrom",
-      "warriors roster",
-      "bronny james contract",
-      "shams",
-      "costa de marfil - noruega",
-      "caroline flack",
-      "alexander zverev"
+      "steph curry",
+      "crunchyroll",
+      "jcpenney stores closing",
+      "kristaps porzingis",
+      "west indies vs australia",
+      "walker kessler",
+      "olivia rodrigo lego",
+      "fourth of july events near me",
+      "bronny james",
+      "lebron james trade"
     ],
     "baidu": [
       "中共中央政治局召开会议",
@@ -306,42 +306,41 @@
       "@高考考生 这些骗局要当心",
       "豪车跳水致二手车大降价：保时捷15万",
       "沃尔玛、永辉、小象超市抽检沦陷",
-      "《陈翔六点半》“妹爷”扮演者去世",
       "世界杯：科特迪瓦vs挪威",
+      "《陈翔六点半》“妹爷”扮演者去世",
       "董明珠：家电不换成格力凭什么分红",
       "曝德国点球大战多人拒绝罚点",
       "中山大学万余名毕业生8秒自助拨穗",
       "“高考估分715查分299”系谣言",
-      "湖南一家5口惨遭灭门案告破",
       "乘务员悄悄拉走女生并帮她换了车厢",
+      "湖南一家5口惨遭灭门案告破",
       "男生高考英语147分 字像打印的",
+      "网红李雨禅被警方行政拘留",
+      "Gucci包被猴子抢走咬破 景区拒赔",
       "6名摩友躲雨被索要每人20元避雨费",
       "博物馆回应工地挖出僧人圆寂坐缸容器",
-      "网红李雨禅被警方行政拘留",
-      "海来阿木悼念早逝女儿阿果",
       "农艺专家：西瓜口感确实不如往年"
     ],
     "wikipedia": [
-      "Madeon",
-      "Tonnie Heijnen",
-      "Kubla Khan",
-      "River of No Return",
-      "Salman Alizade",
-      "Wearing the Inside Out",
-      "Revival (Bulgaria)",
-      "Tonka Petrova",
-      "9th Astra Midseason Movie Awards",
-      "Tonique Williams-Darling",
-      "Minds (social network)",
-      "Only God Forgives",
-      "Union Station (Brattleboro, Vermont)",
-      "Tonia Williams",
-      "Ryan Burnett",
-      "USCGC Saginaw",
-      "Toni Syarifudin",
+      "Ulf Findeisen",
+      "Naz Reid",
+      "Ulf Bengtsson",
+      "15th Parliament of Catalonia",
+      "2026–27 USM Alger season",
       "Peddi",
-      "Bologna FC 1909",
-      "Expediting Act"
+      "Ulderico Sergo",
+      "Union Station (Brattleboro, Vermont)",
+      "Junglee Pictures",
+      "Perry, Missouri",
+      "FC Barcelona Bàsquet",
+      "Ukun Rukaendi",
+      "ICC Women's Player Rankings",
+      "José Antonio Kast cabinet ministers",
+      "2011–12 Liga Nacional Superior de Voleibol Femenino",
+      "Weightlifting at the 1948 Summer Olympics – Men's 67.5 kg",
+      "Jair Portillo",
+      "Persib Bandung",
+      "Learning curve"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -402,8 +401,8 @@
       "conjurate — npm package: Pluggable generator tool",
       "packs — npm package: Static survey generator tool",
       "pwa-kit-create-app — npm package: Salesforce's project generator tool",
+      "love-island-gems-generator — npm package: love-island-gems-generator-tool",
       "@finsweet/fluid-design-generator — npm package: Fluid design generator tool for Webflow sites.",
-      "@mobify/create-app — npm package: Mobify's project generator tool",
       "@teld-approval/converter — npm package: converter tool",
       "@adobe/aem-cs-source-migration-dispatcher-converter — npm package: AEM as a Cloud Service Dispatcher Converter tool",
       "@adobe/aem-cs-source-migration-index-converter — npm package: AEM as a Cloud Service Index Converter tool",
@@ -426,29 +425,27 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: awesome lists",
-      "github trending topic: node.js",
       "github trending topic: react",
-      "github trending topic: front end",
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: machine-learning",
-      "github trending topic: docker",
-      "github trending topic: compiler",
-      "github trending topic: typescript",
-      "github trending topic: react native",
-      "github trending topic: code quality",
-      "github trending topic: javascript",
-      "github trending topic: ai-agent",
-      "github trending topic: scala",
       "github trending topic: npm",
+      "github trending topic: llm",
       "github trending topic: chrome",
-      "github trending topic: project management",
-      "github trending topic: fastapi",
       "github trending topic: database",
       "github trending topic: python",
-      "github trending topic: data-science",
+      "github trending topic: compiler",
+      "github trending topic: rest-api",
+      "github trending topic: fastapi",
+      "github trending topic: javascript",
+      "github trending topic: front end",
+      "github trending topic: typescript",
+      "github trending topic: code quality",
+      "github trending topic: rag",
       "github trending topic: css",
-      "github trending topic: llm"
+      "github trending topic: project management",
+      "github trending topic: react native",
+      "github trending topic: awesome lists",
+      "github trending topic: node.js",
+      "github trending topic: docker",
+      "github trending topic: scala"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -601,7 +598,6 @@
   ],
   "all_keywords": [
     "Why Companies Don't Need More AI Tools. They Need More AI Users.",
-    "AI Education Isn't About Learning Tools. It's About Staying Relevant.",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -633,7 +629,7 @@
     "conjurate — npm package: Pluggable generator tool",
     "packs — npm package: Static survey generator tool",
     "pwa-kit-create-app — npm package: Salesforce's project generator tool",
-    "@mobify/create-app — npm package: Mobify's project generator tool",
+    "love-island-gems-generator — npm package: love-island-gems-generator-tool",
     "@teld-approval/converter — npm package: converter tool",
     "jsonmatter — npm package: JSON formatter tool by stream",
     "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
@@ -643,10 +639,10 @@
     "prettier — npm package: Prettier is an opinionated code formatter"
   ],
   "filter_stats": {
-    "raw_count": 175,
-    "valid_count": 41,
-    "rejected_count": 134,
-    "rejection_rate": 76.6,
+    "raw_count": 177,
+    "valid_count": 40,
+    "rejected_count": 137,
+    "rejection_rate": 77.4,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -657,15 +653,15 @@
       "How slicing in Python works",
       "claude code 才冲了 max 今早收到了被封号了！",
       "Claude 被封了，但我还是像个舔狗一样的想找回 Ta",
-      "Buy Verified PayPal Accounts for Payments PDF usasafebiz is best"
+      "2026年 AI API 平台终极对比：我测了5家模型，帮你省100小时选型"
     ]
   },
   "trait_analysis": {
-    "total_captured": 351,
-    "chatter_blocked": 11,
-    "chatter_rate": 3.1,
-    "tool_signals_found": 175,
-    "tool_signal_rate": 49.9,
+    "total_captured": 348,
+    "chatter_blocked": 13,
+    "chatter_rate": 3.7,
+    "tool_signals_found": 177,
+    "tool_signal_rate": 50.9,
     "chatter_samples": [
       {
         "text": "Slint and the Node.js Event Loop",
@@ -675,7 +671,7 @@
         ]
       },
       {
-        "text": "The labor share of income in the US is at its lowest post-war level 🔥293pts 💬240",
+        "text": "The labor share of income in the US is at its lowest post-war level 🔥312pts 💬265",
         "category": "news",
         "matched": [
           [
@@ -718,6 +714,13 @@
         ]
       },
       {
+        "text": "fourth of july events near me",
+        "category": "chatter",
+        "matched": [
+          "vent"
+        ]
+      },
+      {
         "text": "世界杯：科特迪瓦vs挪威",
         "category": "entertainment",
         "matched": [
@@ -725,24 +728,20 @@
         ]
       },
       {
-        "text": "9th Astra Midseason Movie Awards",
+        "text": "15th Parliament of Catalonia",
+        "category": "news",
+        "matched": [
+          [
+            "Parliament",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "2026–27 USM Alger season",
         "category": "entertainment",
         "matched": [
-          "Movie"
-        ]
-      },
-      {
-        "text": "Self-Evolving World Models for LLM Agent Planning World models offer a principle",
-        "category": "ad",
-        "matched": [
-          "offer"
-        ]
-      },
-      {
-        "text": "DOPD: Dual On-policy Distillation On-policy distillation (OPD) offers superior c",
-        "category": "job",
-        "matched": [
-          "offer"
+          "season"
         ]
       }
     ],
@@ -814,6 +813,29 @@
         ]
       },
       {
+        "text": "2026年 AI API 平台终极对比：我测了5家模型，帮你省100小时选型",
+        "confidence": 45,
+        "features": [
+          "中文动作特征: ['对比']",
+          "技术概念: ['API']"
+        ]
+      },
+      {
+        "text": "10 Free Online Developer Tools That Save Me Time Every Week",
+        "confidence": 35,
+        "features": [
+          "输入→输出链式: [('Developer Tools', 'To', '', '', '', '')]",
+          "英文工具名词: ['tool']"
+        ]
+      },
+      {
+        "text": "Everything You Need to Know About Agentic Navigation",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Need to Know', 'to', '', '', '', '')]"
+        ]
+      },
+      {
         "text": "Buy Verified PayPal Accounts for Payments PDF usasafebiz is best",
         "confidence": 15,
         "features": [
@@ -833,28 +855,6 @@
         "features": [
           "输入→输出链式: [('AI Tools', 'To', '', '', '', '')]",
           "英文工具名词: ['tool']"
-        ]
-      },
-      {
-        "text": "AI Education Isn't About Learning Tools. It's About Staying Relevant.",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('Learning Tools', 'To', '', '', '', '')]",
-          "英文工具名词: ['tool']"
-        ]
-      },
-      {
-        "text": "stop asking writers about \"AI\"",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('stop', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "The end of the AArch64 desktopexperiment",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('desktopexperiment', 'to', '', '', '', '')]"
         ]
       }
     ]
