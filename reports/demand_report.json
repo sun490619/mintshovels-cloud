@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T11:36:36.692130+00:00",
+  "generated_at": "2026-06-30T13:47:35.459914+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -114,40 +114,40 @@
     ],
     "devto": [
       "DEV Community: programming",
-      "100 Battle-Tested AI Prompts for Developers - Free Preview",
-      "Day 12: Why Every Backend Developer Eventually Needs a JWT Decoder",
-      "How to Communicate Your Thought Process in Coding Interviews: Level Up Like a Speedrunner",
-      "ServiceNow Training Online | ServiceNow Training in Hyderabad",
-      "Understanding Large Language Models (LLMs) — A Beginner's Guide",
-      "AMS iMedia Converter 2.0.0 for macOS – Comprehensive Video and Audio Conversion Software",
-      "RAG vs Fine-Tuning: Which is Better for AI in 2026?",
-      "Windsurf vs Cursor 2026: Full Comparison for AI Coding",
-      "Sayonara Wild Hearts 1.0.1 for macOS – A Stylish Music Action Game",
-      "Easy MP3 Converter Pro 4.0.0 – Fast and Professional Audio Conversion Software",
-      "How Indie Creators Are Building Personal Brands with AI Music",
-      "Vibe Coders vs Programmers"
+      "I'm building a Token Gateway that helps AI agents reduce token costs by 65–95%.",
+      "Introducing Lambda MicroVMs - Isolated, Stateful Sandboxes for Running Untrusted Code on AWS",
+      "A Guide to Buying Established Aged Gmail Profiles",
+      "How to Purchase Aged Gmail Accounts Securely",
+      "Your GitHub Stars Are Bringing AI Bots. 5 Things to Do Before They Arrive.",
+      "Backtracking: The Sudoku &amp; N-Queens Quest (Like a Jedi)",
+      "Top Python Development Companies vs. Full-Stack Agencies: Who Wins?",
+      "Building Reliable Kubernetes Platforms",
+      "PM Prep Gets This Wrong: Behavioral Questions Score Highest in Live Interviews, Not Metrics",
+      "Future of GCC in India 2026–2030 - What the Numbers Actually Mean for Tech Careers and Global Engineering Teams",
+      "Stripe ile Ödeme Alan SaaS Şirketleri Türkiye’de Nasıl Vergilendirilir?",
+      "The best Jira alternative depends on what made you leave"
     ],
     "lobsters": [
       "What's wrong with EU age verification? (Nothing)",
       "What is `std::pin::Pin` in Rust?",
-      "When Impressive Performance Gains Do Not Matter",
       "The end of the AArch64 desktopexperiment",
+      "When Impressive Performance Gains Do Not Matter",
       "Investigating Linux graphics (2025)",
       "jj_tui: terminal user interface to jujutsu focused on speed and clarity",
+      "stop asking writers about \"AI\"",
+      "Local Reasoning for Global Properties",
+      "Memory Safe Context Switching",
+      "Platform Support for GNU Extensions to Basic Regular Expressions",
+      "Diagrams for Penrose Tiles",
       "WATaBoy: JIT-ing Game Boy Instructions to Wasm Beats a Native Interpreter",
-      "The AT-URI Syntax Mess",
-      "Rheo 0.4.0",
-      "Loko Scheme 0.13.0",
       "Spindle's new microVM engine",
       "Revisiting Yliluoma’s ordered dither algorithm",
-      "Platform Support for GNU Extensions to Basic Regular Expressions",
+      "The AT-URI Syntax Mess",
+      "Loko Scheme 0.13.0",
       "A native graphical shell for SSH",
-      "Memory Safe Context Switching",
-      "Ante: New Way to Blend Borrow Checking and Reference Counting",
       "Furality Ultra Club A/V Writeup",
-      "Type-checked non-empty strings",
-      "Local Reasoning for Global Properties",
-      "Canvas patch: we need testers"
+      "Proving the Fundamental Theorem of Arithmetic in Agda",
+      "May in Servo: user scripts, mp4 compat, blackboxing in DevTools, and more"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -172,62 +172,62 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Qwen 3.6 27B is the sweet spot for local development 🔥962pts 💬629",
-      "30-year sentence for transporting zines is a five-alarm fire for free speech 🔥612pts 💬349",
-      ".self: A new top-level domain designed to support self-hosting 🔥540pts 💬313",
-      "US Supreme Court rules geofence warrants require constitutional protections 🔥538pts 💬250",
-      "Free the Icons 🔥505pts 💬153",
-      "Rocketlab acquires Iridium 🔥419pts 💬277",
-      "A native graphical shell for SSH 🔥323pts 💬186",
-      "One million passports leaked online 🔥299pts 💬186",
-      "Open Source Low Tech 🔥297pts 💬61",
-      "What happens when you run a CUDA kernel? 🔥265pts 💬31",
-      "Ornith-1.0: self-improving open-source models for agentic coding 🔥218pts 💬40",
-      "Dark Sky Lighting 🔥216pts 💬40",
-      "Apple Neural Engine: Architecture, Programming, and Performance 🔥185pts 💬25",
-      "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active 🔥170pts 💬45",
-      "Memory Safe Context Switching 🔥146pts 💬25",
-      "Linux for the Sega MegaDrive 🔥129pts 💬15",
-      "How to corrupt an SQLite database file 🔥95pts 💬18",
-      "European digital ID wallets are a gift to Google and Apple 🔥87pts 💬37",
-      "Exploring PDP-1 Lisp (1960) 🔥84pts 💬21",
-      "Alan Kay on the meaning of \"object-oriented programming\" (2003) 🔥77pts 💬45",
-      "Zig – SPIR-V Backend Progress 🔥75pts 💬38",
-      "Old Computer Challenge 🔥72pts 💬30",
-      "Building a custom octocopter from scratch with no prior hardware experience 🔥66pts 💬15",
-      "Antares Achieves Criticality of Mark-0 Reactor",
+      "Qwen 3.6 27B is the sweet spot for local development 🔥1008pts 💬655",
+      ".self: A new top-level domain designed to support self-hosting 🔥568pts 💬333",
+      "US Supreme Court rules geofence warrants require constitutional protections 🔥558pts 💬258",
+      "Free the Icons 🔥543pts 💬188",
+      "Rocketlab acquires Iridium 🔥430pts 💬284",
+      "Open Source Low Tech 🔥400pts 💬85",
+      "European digital ID wallets rely on safety services of Google and Apple 🔥394pts 💬168",
+      "One million passports leaked online 🔥343pts 💬205",
+      "The US ambassador had Belgian police stop our reporting 🔥321pts 💬121",
+      "What happens when you run a CUDA kernel? 🔥272pts 💬31",
+      "Dark Sky Lighting 🔥230pts 💬44",
+      "Ornith-1.0: self-improving open-source models for agentic coding 🔥229pts 💬44",
+      "Apple Neural Engine: Architecture, Programming, and Performance 🔥206pts 💬26",
+      "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active 🔥196pts 💬51",
+      "Memory Safe Context Switching 🔥161pts 💬25",
+      "Linux for the Sega MegaDrive 🔥160pts 💬32",
+      "Building a custom octocopter from scratch with no prior hardware experience 🔥138pts 💬37",
+      "How to corrupt an SQLite database file 🔥119pts 💬27",
+      "Exploring PDP-1 Lisp (1960) 🔥92pts 💬23",
+      "Zig – SPIR-V Backend Progress 🔥88pts 💬47",
+      "Old Computer Challenge 🔥88pts 💬32",
+      "Exercise intensity influences body composition in healthy older adults (2025) 🔥84pts 💬68",
+      "Parse, Don't Validate – In a Language That Doesn't Want You To 🔥61pts 💬46",
+      "Antares Achieves Criticality of Mark-0 Reactor 🔥54pts 💬51",
       "The operating cost starts after the demo"
     ],
     "hn_show": [
-      "I indexed 37h of my videos using an RTX 4090 and local ML models in 24h — featured on Hacker News (🔥1pts)",
-      "ZenLocks – A privacy-first, subscription-free iOS screen time blocker — featured on Hacker News (🔥1pts)",
-      "C++, Java and C# Light-Weight-Logger — featured on Hacker News (🔥1pts)",
-      "EchoRelay - Reliable HTTP delivery with retries, fan-out, and more — featured on Hacker News (🔥3pts)",
-      "Turnitindetector.ai – Free AI checker for essays, no sign-up — featured on Hacker News (🔥1pts)",
-      "GPTHumanizer – Free, unlimited AI humanizer for ChatGPT drafts — featured on Hacker News (🔥1pts)",
-      "Privacy policy generator for AI apps (LLM disclosure, EU AI Act) — featured on Hacker News (🔥3pts)",
-      "InternetVitals – the internet's vital signs, like a patient monitor — featured on Hacker News (🔥1pts)",
-      "Add AI chat to any docs site with one script tag — featured on Hacker News (🔥1pts)",
-      "A Free AI Visibility Tracker — featured on Hacker News (🔥1pts)",
-      "The Three Idempotencies of an Agent — featured on Hacker News (🔥2pts)",
-      "Rheo 0.4.0 — featured on Hacker News (🔥3pts)",
-      "Crosswalk mapping AI-agent design controls to NIST, ISO 42001, OWASP — featured on Hacker News (🔥1pts)",
-      "Availability Tracker – A Simple Way to Track Items — featured on Hacker News (🔥1pts)",
-      "Window Switcher – Better same-app window switching for macOS — featured on Hacker News (🔥1pts)",
-      "Escalate – human as a service for your agent — featured on Hacker News (🔥1pts)",
-      "WtfisMyRepo – Use Claude to understand most complex codebases in mins — featured on Hacker News (🔥2pts)",
-      "Classic Minesweeper — featured on Hacker News (🔥2pts)",
-      "Mocca – A Mac email client powered by local AI — featured on Hacker News (🔥1pts)"
+      "Valmis, an OpenClaw alternative built for work, with security in mind — featured on Hacker News (🔥1pts)",
+      "Ouijit, command terminals running coding agents — featured on Hacker News (🔥3pts)",
+      "TinySearch – token-efficient web research for local AI agents — featured on Hacker News (🔥1pts)",
+      "Built a minimalist currency converter app that I use daily now — featured on Hacker News (🔥2pts)",
+      "TraceAIO – open-source LLM visibility tracker — featured on Hacker News (🔥4pts)",
+      "Statuslin.es – a community library of custom Claude Code status lines — featured on Hacker News (🔥2pts)",
+      "Debategle – ranked 1v1 debates judged by an LLM — featured on Hacker News (🔥2pts)",
+      "Tesserae, self-hosted dashboards for the e-paper panel you own — featured on Hacker News (🔥2pts)",
+      "Habit Pocket – track numbers and times of day, not just checkmarks — featured on Hacker News (🔥2pts)",
+      "CiteReady – check if your site can be cited by AI search engines — featured on Hacker News (🔥2pts)",
+      "TOTP generator – SHA1/256/512 30/60/... 6-9 not via SubtleCrypto — featured on Hacker News (🔥2pts)",
+      "CmdBox – A CLI tool for saving and running parameterized commands — featured on Hacker News (🔥1pts)",
+      "I Made an SDK to work with Vapi and Retell without vendor lock in — featured on Hacker News (🔥1pts)",
+      "OpenATP: A platform for automated theorem proving in Lean — featured on Hacker News (🔥2pts)",
+      "PulseDB – Unified Redis and Pinecone Alternative in Python — featured on Hacker News (🔥1pts)",
+      "NodePad – AI agent on a canvas instead of a linear chat — featured on Hacker News (🔥2pts)",
+      "GSV – a personal AI computer that unifies your machines — featured on Hacker News (🔥4pts)",
+      "ReelsGraph – movie/TV watchlist and ML-based discovery queue, no signup — featured on Hacker News (🔥1pts)",
+      "Framein – a local work-state layer that keeps AI agents in context — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
+      "Sunwæe – your life's AI OS — user asking for tool recommendation (🔥1pts)",
+      "Superintellignce is still decades away — user asking for tool recommendation (🔥2pts)",
+      "What AI music tool has the best workflow? — user asking for tool recommendation (🔥1pts)",
       "Ask HN: Which is the best local model under 3B parameters today? — user asking for tool recommendation (🔥1pts)",
       "Show HN: Lighting fast writing app on Mac with powerful table functions — user asking for tool recommendation (🔥2pts)",
       "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥5pts)",
       "Show HN: Fault-tolerant 4-neighbor hardware mesh with auto-rerouting — user asking for tool recommendation (🔥2pts)",
       "Show HN: Xenoeye – analyze network without AI using netflow, PostgreSQL, Grafana — user asking for tool recommendation (🔥5pts)",
-      "Show HN: Hail.so – Send and receive emails, calls, SMS via a single MCP/API/CLI — user asking for tool recommendation (🔥1pts)",
-      "Show HN: I built Exfault, agentic mobile app pentesting tool — user asking for tool recommendation (🔥6pts)",
-      "Show HN: Certificate Transparency search that groups related certificates — user asking for tool recommendation (🔥3pts)",
       "We built the hackathon idea we gave up on in 2011 — user asking for tool recommendation (🔥2pts)",
       "I have open-sourced gojaja, a CLI for local multi-agent collaboration — user asking for tool recommendation (🔥2pts)",
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
@@ -236,20 +236,20 @@
       "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
       "Which AI coding tools do AIs recommend? Data across 10 models and 1000 responses — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Non-profit school possibly hacked, locked out of Google Workspace. — user asking for tool recommendation (🔥6pts)",
+      "Show HN: Kinetic Merge – merge a refactored codebase and stay sane — user asking for tool recommendation (🔥1pts)",
       "Show HN: Vibe zsh, turn natural language into shell commands — user asking for tool recommendation (🔥3pts)",
       "Ask HN: Is AI dumbing us down? — user asking for tool recommendation (🔥4pts)",
       "Show HN: Quxnet — user asking for tool recommendation (🔥3pts)",
-      "Tell HN: Delete Google — user asking for tool recommendation (🔥3pts)",
+      "Show HN: CmdBox – A CLI tool for saving and running parameterized commands — user asking for tool recommendation (🔥1pts)",
+      "Show HN: OpenATP: A platform for automated theorem proving in Lean — user asking for tool recommendation (🔥2pts)",
       "Ask HN: We are building the Flutter equivalent to RN's Ignite CLI — user asking for tool recommendation (🔥1pts)",
       "Metasearch Tooling for Agents — user asking for tool recommendation (🔥8pts)",
-      "Show HN: Running a vision model on every screenshot on-device — user asking for tool recommendation (🔥18pts)",
+      "Show HN: Valmis, an OpenClaw alternative built for work, with security in mind — user asking for tool recommendation (🔥1pts)",
       "Show HN: A Free AI Visibility Tracker — user asking for tool recommendation (🔥1pts)",
       "I built a one-time-payment alternative to subscription cloud movers — user asking for tool recommendation (🔥1pts)",
       "QDBP: Explicit depth markers as an alternative to indentation and parentheses — user asking for tool recommendation (🔥1pts)",
-      "Show HN: The open-source alternative to Claude Tag — user asking for tool recommendation (🔥3pts)",
-      "XCP-ng: A sovereign alterbative to VMware — user asking for tool recommendation (🔥3pts)",
-      "Show HN: YouTube to MP3 Converter – Free in the Browser — user asking for tool recommendation (🔥1pts)",
-      "SVG Recolor Tool – Change Color of SVG Online – Free Color Tool — user asking for tool recommendation (🔥5pts)"
+      "Show HN: Running a vision model on every screenshot on-device — user asking for tool recommendation (🔥18pts)",
+      "Show HN: The open-source alternative to Claude Tag — user asking for tool recommendation (🔥3pts)"
     ],
     "hackernoon": [
       "London Tech Week 2026: from sovereign AI to AI adoption",
@@ -274,6 +274,8 @@
       "The CS Student's Paradox: Why Understanding Code Isn't Enough to Pass the Class"
     ],
     "infoq": [
+      "Elastic Open-Sources Atlas Agent Memory Based on Cognitive Science <img src=\"https://res.infoq.com/news/2026/06/elastic-atlas-agent-memory/en/headerimage/generatedHeaderImage-1782569563186.jpg\"/><p>Elastic open-source",
+      "Microsoft Brings AI-Powered Vulnerability Remediation to Azure DevOps with Copilot Autofix <img src=\"https://res.infoq.com/news/2026/06/azuredevops-copilot-autofix/en/headerimage/generatedHeaderImage-1782552787591.jpg\"/><p>Microsoft has anno",
       "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution <img src=\"https://res.infoq.com/news/2026/06/aws-lambda-microvms/en/headerimage/generatedHeaderImage-1782380968528.jpg\"/><p>AWS launched Lambda MicroV",
       "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design <img src=\"https://res.infoq.com/articles/tradeoffs-event-driven-design/en/headerimage/tradeoffs-event-driven-design-header-1782458803116.jpg\"/><p>Even",
       "Java News Roundup: Hardwood 1.0, Endive 1.0, Azul Payara, Quarkus, WildFly, LangChain4j, OSSI <img src=\"https://res.infoq.com/news/2026/06/java-news-roundup-jun22-2026/en/headerimage/java-news-roundup-image-1782763644221.jpg\"/><p>This week's Ja",
@@ -286,65 +288,63 @@
       "Swift 6.4 Brings New Language Features and Swift Testing/XCTest Interop <img src=\"https://res.infoq.com/news/2026/06/swift-6-4-beta-features/en/headerimage/android-studio-otter-llm-1782634112952.jpeg\"/><p>Currently availab",
       "AWS Previews FinOps Agent for Cost Analysis and Optimization <img src=\"https://res.infoq.com/news/2026/06/aws-finops-agent/en/headerimage/generatedHeaderImage-1781884717104.jpg\"/><p>Amazon has released AWS FinOp",
       "AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management <img src=\"https://res.infoq.com/news/2026/06/aws-credentials-provider/en/headerimage/generatedHeaderImage-1781712757418.jpg\"/><p>AWS has recently anno",
-      "Vercel Introduces Eve, an Open-Source Framework for Building AI Agents <img src=\"https://res.infoq.com/news/2026/06/vercel-eve-agents/en/headerimage/generatedHeaderImage-1782478004947.jpg\"/><p>Vercel has released Eve, an ",
-      "Presentation: AI Works, Pull Requests Don’t: How AI is Breaking the SDLC and What to Do about it <img src=\"https://res.infoq.com/presentations/ai-sdlc-pull-request/en/mediumimage/michael-webster-medium-1781688909041.jpeg\"/><p>Michael Webster discu",
-      "Dapr 1.18 Introduces Verifiable Execution, Bringing Cryptographic Trust to AI Agents and Workflows <img src=\"https://res.infoq.com/news/2026/06/dapr-1-18-cryptographic-ai/en/headerimage/generatedHeaderImage-1782128447195.jpg\"/><p>Diagrid has announc"
+      "Vercel Introduces Eve, an Open-Source Framework for Building AI Agents <img src=\"https://res.infoq.com/news/2026/06/vercel-eve-agents/en/headerimage/generatedHeaderImage-1782478004947.jpg\"/><p>Vercel has released Eve, an "
     ],
     "google_trends": [
-      "kash patel ufc plot disclosure",
-      "state of decay 3",
-      "kamil majchrzak",
-      "mstr",
-      "tyra caterina grant",
-      "bmw x5",
-      "erin krakow",
-      "kids soccer",
-      "econlockhatchee river",
-      "aged care"
+      "nina dobrev",
+      "canada day",
+      "iga świątek",
+      "taylor townsend",
+      "state fair",
+      "dunkin eagle cup",
+      "scott bessent",
+      "taylor sheridan",
+      "trump accounts",
+      "otto virtanen"
     ],
     "baidu": [
-      "一起重温伟大建党精神",
-      "国务院：探索延长义务教育年限",
-      "刘满仓被判无期",
-      "未来5年 孩子上学有这些大变化",
-      "学校要求新生填家长职务和车辆价格",
-      "日本遭绝杀 韩国解说开心到跳舞",
-      "人民锐评：网红不能困在无底线逐利里",
-      "“黄毛少年”捐款：7.91、18.88、5.2元",
+      "中共中央政治局召开会议",
       "德国队已原地解散",
-      "警方通报迪丽热巴孙俪剧组被敲诈",
-      "佛得角门将爆火后接到首支广告",
+      "豪车跳水致二手车大降价：保时捷15万",
+      "@高考考生 这些骗局要当心",
+      "董明珠：家电不换成格力凭什么分红",
+      "泰山景区建135公里刀片刺绳隔离网",
+      "人民锐评：网红不能困在无底线逐利里",
+      "乘务员悄悄拉走女生并帮她换了车厢",
+      "《陈翔六点半》“妹爷”扮演者去世",
+      "刘满仓被判无期",
+      "国务院：探索延长义务教育年限",
       "“高考估分715查分299”系谣言",
-      "韩红最新发文",
-      "女子酒吧被投放“伟哥”警方不予立案",
-      "螺蛳粉吃出蛇 老板：是小菜花蛇",
-      "夫妻月收入两万成困难职工？官方回应",
-      "韩国队回国 球迷在机场举遗照",
-      "年轻人绕开中介卖房",
-      "夫妻收15箱茅台五粮液 快递小哥报警",
-      "河南一养猪场发生事故致3死"
+      "Gucci包被猴子抢走咬破 景区拒赔",
+      "护士开房被医院认为涉嫌卖淫开除",
+      "87版《红楼梦》薛姨妈扮演者去世",
+      "iPhone18Pro樱桃红测试照片流出",
+      "上海老夫妻无后代 临走前捐出500万",
+      "警方通报迪丽热巴孙俪剧组被敲诈",
+      "世界杯：科特迪瓦vs挪威",
+      "气温高到热死人 印度人为啥不开空调"
     ],
     "wikipedia": [
-      "Gbemisola Saraki",
-      "Mackenzie Hawkesby",
-      "Gurgutovo",
-      "Rei Ayanami",
-      "Iyabo Obasanjo",
-      "Majhi ministry",
-      "Patrizia Miserini",
-      "Christopher Cowdray",
-      "Maria, Just Maria",
-      "Jun Hyo-seong",
-      "Nenadi Usman",
-      "Sports Direct",
-      "Patrizia Lanfredini",
-      "Mary in the Junkyard",
-      "Patriz Ilg",
-      "University of Turin",
-      "David Holt (voice actor)",
-      "Social Democratic Party (Japan)",
-      "Gubavce",
-      "Defense of Beijing"
+      "Viking Row",
+      "1985 NBA Finals",
+      "Yvie Oddly",
+      "Roberta Farinelli",
+      "Great Escape Lodge",
+      "Bernard Coyne (giant)",
+      "Kolkata Dakshin Lok Sabha constituency",
+      "Sedum moranense",
+      "Nozizwe Madlala-Routledge",
+      "Camp Columbia (Havana)",
+      "Roberta Bonatti",
+      "2026 Aspria Tennis Cup – Singles",
+      "Alder Escobar Forero",
+      "Youcef Ou Kaci",
+      "Anglo-Spanish War (1585–1604)",
+      "London Victory Celebrations of 1946",
+      "Ladies' Alpine Club",
+      "Robert Weale",
+      "2006 FIFA World Cup final",
+      "Samuel Chukwudi"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -405,8 +405,8 @@
       "conjurate — npm package: Pluggable generator tool",
       "pwa-kit-create-app — npm package: Salesforce's project generator tool",
       "packs — npm package: Static survey generator tool",
-      "@finsweet/fluid-design-generator — npm package: Fluid design generator tool for Webflow sites.",
       "@mobify/create-app — npm package: Mobify's project generator tool",
+      "@finsweet/fluid-design-generator — npm package: Fluid design generator tool for Webflow sites.",
       "@teld-approval/converter — npm package: converter tool",
       "@adobe/aem-cs-source-migration-dispatcher-converter — npm package: AEM as a Cloud Service Dispatcher Converter tool",
       "@adobe/aem-cs-source-migration-index-converter — npm package: AEM as a Cloud Service Index Converter tool",
@@ -417,8 +417,8 @@
       "pdf-to-png-converter — npm package: Node.js utility to convert PDF file/buffer pages to PNG files/buffers. No build-time compilation required — pre-built native binaries included for all major platforms.",
       "v8-to-istanbul — npm package: convert from v8 coverage format to istanbul's format",
       "swagger-converter — npm package: Converts Swagger documents from version 1.x to version 2.0",
-      "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
       "jsonmatter — npm package: JSON formatter tool by stream",
+      "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
       "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
       "sql-formatter — npm package: Format whitespace in a SQL query to make it more readable",
       "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
@@ -429,69 +429,44 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: npm",
-      "github trending topic: compiler",
-      "github trending topic: tg-fix",
-      "github trending topic: typescript",
-      "github trending topic: css",
-      "github trending topic: tg-proxy",
-      "github trending topic: react",
-      "github trending topic: node.js",
-      "github trending topic: chrome",
-      "github trending topic: llm",
-      "github trending topic: project management",
+      "github trending topic: code quality",
+      "github trending topic: discordfix",
       "github trending topic: javascript",
-      "github trending topic: python",
-      "github trending topic: front end",
-      "github trending topic: proxy",
       "github trending topic: database",
-      "github trending topic: scala",
-      "github trending topic: awesome lists",
+      "github trending topic: front end",
+      "github trending topic: php",
+      "github trending topic: filament-plugin",
+      "github trending topic: react",
+      "github trending topic: project management",
+      "github trending topic: zapret-discord-youtube",
       "github trending topic: react native",
-      "github trending topic: telegram",
-      "github trending topic: proxy-tg",
-      "github trending topic: code quality"
+      "github trending topic: awesome lists",
+      "github trending topic: node.js",
+      "github trending topic: css",
+      "github trending topic: python",
+      "github trending topic: disocrd-windows-11",
+      "github trending topic: filament",
+      "github trending topic: discordzapret",
+      "github trending topic: scala",
+      "github trending topic: compiler",
+      "github trending topic: chrome",
+      "github trending topic: npm",
+      "github trending topic: typescript",
+      "github trending topic: discord",
+      "github trending topic: laravel"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
     {
-      "keyword": "Easy MP3 Converter Pro 4.0.0 – Fast and Professional Audio Conversion Software",
-      "matched": "convert",
-      "category": "media",
-      "subcat": "video",
+      "keyword": "Building Reliable Kubernetes Platforms",
+      "matched": "form",
+      "category": "dev",
+      "subcat": "web",
       "type": "tool",
-      "name": "Format Converter",
-      "name_zh": "万能格式转换器"
-    },
-    {
-      "keyword": "Easy MP3 Converter Pro 4.0.0 – Fast and Professional Audio Conversion Software",
-      "matched": "audio",
-      "category": "media",
-      "subcat": "audio",
-      "type": "tool",
-      "name": "Audio Editor",
-      "name_zh": "音频编辑器"
-    },
-    {
-      "keyword": "Easy MP3 Converter Pro 4.0.0 – Fast and Professional Audio Conversion Software",
-      "matched": "mp3",
-      "category": "media",
-      "subcat": "audio",
-      "type": "tool",
-      "name": "MP3 Cutter",
-      "name_zh": "MP3剪辑器"
-    },
-    {
-      "keyword": "Easy MP3 Converter Pro 4.0.0 – Fast and Professional Audio Conversion Software",
-      "matched": "converter",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Converter",
-      "name_zh": "格式转换"
+      "name": "Form Builder",
+      "name_zh": "表单构建器"
     },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
@@ -519,15 +494,6 @@
       "type": "tool",
       "name": "Note Taker",
       "name_zh": "笔记工具"
-    },
-    {
-      "keyword": "Marketing automation platforms — tool from ProductHunt",
-      "matched": "form",
-      "category": "dev",
-      "subcat": "web",
-      "type": "tool",
-      "name": "Form Builder",
-      "name_zh": "表单构建器"
     },
     {
       "keyword": "Video editing — tool from ProductHunt",
@@ -593,7 +559,34 @@
       "name_zh": "问卷构建器"
     },
     {
-      "keyword": "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
+      "keyword": "@teld-approval/converter — npm package: converter tool",
+      "matched": "convert",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Format Converter",
+      "name_zh": "万能格式转换器"
+    },
+    {
+      "keyword": "@teld-approval/converter — npm package: converter tool",
+      "matched": "converter",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Converter",
+      "name_zh": "格式转换"
+    },
+    {
+      "keyword": "jsonmatter — npm package: JSON formatter tool by stream",
+      "matched": "json",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "JSON Formatter",
+      "name_zh": "JSON格式化"
+    },
+    {
+      "keyword": "jsonmatter — npm package: JSON formatter tool by stream",
       "matched": "format",
       "category": "dev",
       "subcat": "code",
@@ -611,15 +604,6 @@
       "name_zh": "编辑器"
     },
     {
-      "keyword": "jsonmatter — npm package: JSON formatter tool by stream",
-      "matched": "json",
-      "category": "dev",
-      "subcat": "code",
-      "type": "tool",
-      "name": "JSON Formatter",
-      "name_zh": "JSON格式化"
-    },
-    {
       "keyword": "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
       "matched": "sql",
       "category": "dev",
@@ -630,7 +614,7 @@
     }
   ],
   "all_keywords": [
-    "Easy MP3 Converter Pro 4.0.0 – Fast and Professional Audio Conversion Software",
+    "Building Reliable Kubernetes Platforms",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -651,10 +635,10 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
+    "Sunwæe – your life's AI OS — user asking for tool recommendation (🔥1pts)",
     "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥5pts)",
     "Ask HN: Is AI dumbing us down? — user asking for tool recommendation (🔥4pts)",
     "Show HN: Quxnet — user asking for tool recommendation (🔥3pts)",
-    "Tell HN: Delete Google — user asking for tool recommendation (🔥3pts)",
     "Metasearch Tooling for Agents — user asking for tool recommendation (🔥8pts)",
     "Show HN: A Free AI Visibility Tracker — user asking for tool recommendation (🔥1pts)",
     "electra-base-discriminator",
@@ -665,18 +649,19 @@
     "packs — npm package: Static survey generator tool",
     "@mobify/create-app — npm package: Mobify's project generator tool",
     "@teld-approval/converter — npm package: converter tool",
-    "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
     "jsonmatter — npm package: JSON formatter tool by stream",
+    "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
     "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "sass-formatter — npm package: TypeScript Sass formatter",
-    "prettier — npm package: Prettier is an opinionated code formatter"
+    "prettier — npm package: Prettier is an opinionated code formatter",
+    "github trending topic: filament-plugin"
   ],
   "filter_stats": {
-    "raw_count": 176,
-    "valid_count": 41,
-    "rejected_count": 135,
-    "rejection_rate": 76.7,
+    "raw_count": 183,
+    "valid_count": 42,
+    "rejected_count": 141,
+    "rejection_rate": 77.0,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -686,47 +671,33 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "claude code 才冲了 max 今早收到了被封号了！",
-      "How to Communicate Your Thought Process in Coding Interviews: Level Up Like a Speedrunner",
-      "AMS iMedia Converter 2.0.0 for macOS – Comprehensive Video and Audio Conversion Software"
+      "I'm building a Token Gateway that helps AI agents reduce token costs by 65–95%.",
+      "A Guide to Buying Established Aged Gmail Profiles"
     ]
   },
   "trait_analysis": {
-    "total_captured": 354,
-    "chatter_blocked": 16,
-    "chatter_rate": 4.5,
-    "tool_signals_found": 176,
-    "tool_signal_rate": 49.7,
+    "total_captured": 356,
+    "chatter_blocked": 14,
+    "chatter_rate": 3.9,
+    "tool_signals_found": 183,
+    "tool_signal_rate": 51.4,
     "chatter_samples": [
       {
-        "text": "Day 12: Why Every Backend Developer Eventually Needs a JWT Decoder",
-        "category": "chatter",
+        "text": "Future of GCC in India 2026–2030 - What the Numbers Actually Mean for Tech Caree",
+        "category": "job",
         "matched": [
-          "vent"
+          "Career"
         ]
       },
       {
-        "text": "Sayonara Wild Hearts 1.0.1 for macOS – A Stylish Music Action Game",
-        "category": "entertainment",
-        "matched": [
-          "Music"
-        ]
-      },
-      {
-        "text": "How Indie Creators Are Building Personal Brands with AI Music",
-        "category": "entertainment",
-        "matched": [
-          "Music"
-        ]
-      },
-      {
-        "text": "US Supreme Court rules geofence warrants require constitutional protections 🔥538",
+        "text": "US Supreme Court rules geofence warrants require constitutional protections 🔥558",
         "category": "chatter",
         "matched": [
           "rant"
         ]
       },
       {
-        "text": "One million passports leaked online 🔥299pts 💬186",
+        "text": "One million passports leaked online 🔥343pts 💬205",
         "category": "news",
         "matched": [
           [
@@ -736,10 +707,24 @@
         ]
       },
       {
-        "text": "WtfisMyRepo – Use Claude to understand most complex codebases in mins — featured",
-        "category": "chatter",
+        "text": "Exercise intensity influences body composition in healthy older adults (2025) 🔥8",
+        "category": "job",
         "matched": [
-          "Wtf"
+          "position"
+        ]
+      },
+      {
+        "text": "ReelsGraph – movie/TV watchlist and ML-based discovery queue, no signup — featur",
+        "category": "entertainment",
+        "matched": [
+          "movie"
+        ]
+      },
+      {
+        "text": "What AI music tool has the best workflow? — user asking for tool recommendation ",
+        "category": "entertainment",
+        "matched": [
+          "music"
         ]
       },
       {
@@ -759,20 +744,17 @@
         ]
       },
       {
-        "text": "Presentation: AI Works, Pull Requests Don’t: How AI is Breaking the SDLC and Wha",
-        "category": "news",
+        "text": "世界杯：科特迪瓦vs挪威",
+        "category": "entertainment",
         "matched": [
-          [
-            "Breaking",
-            ""
-          ]
+          "世界杯"
         ]
       },
       {
-        "text": "tyra caterina grant",
-        "category": "chatter",
+        "text": "1985 NBA Finals",
+        "category": "entertainment",
         "matched": [
-          "rant"
+          "NBA"
         ]
       }
     ],
@@ -837,28 +819,47 @@
         ]
       },
       {
-        "text": "How to Communicate Your Thought Process in Coding Interviews: Level Up Like a Speedrunner",
+        "text": "I'm building a Token Gateway that helps AI agents reduce token costs by 65–95%.",
+        "confidence": 35,
+        "features": [
+          "输入→输出链式: [('a Token', 'To', '', '', '', ''), ('reduce token', 'to', '', '', '', '')]",
+          "技术概念: ['Token', 'token']"
+        ]
+      },
+      {
+        "text": "A Guide to Buying Established Aged Gmail Profiles",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Guide to Buying', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "How to Purchase Aged Gmail Accounts Securely",
         "confidence": 30,
         "features": [
-          "输入→输出链式: [('How to Communicate', 'to', '', '', '', '')]",
-          "需求表达: [('How to Communicate', 'to', '', '', '', '', '', '')]"
+          "输入→输出链式: [('How to Purchase', 'to', '', '', '', '')]",
+          "需求表达: [('How to Purchase', 'to', '', '', '', '', '', '')]"
         ]
       },
       {
-        "text": "AMS iMedia Converter 2.0.0 for macOS – Comprehensive Video and Audio Conversion Software",
-        "confidence": 40,
+        "text": "Your GitHub Stars Are Bringing AI Bots. 5 Things to Do Before They Arrive.",
+        "confidence": 20,
         "features": [
-          "英文动作特征: ['Converter']",
-          "英文工具名词: ['converter']"
+          "输入→输出链式: [('Things to Do', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Easy MP3 Converter Pro 4.0.0 – Fast and Professional Audio Conversion Software",
-        "confidence": 55,
+        "text": "Top Python Development Companies vs. Full-Stack Agencies: Who Wins?",
+        "confidence": 15,
         "features": [
-          "英文动作特征: ['Converter']",
-          "英文工具名词: ['converter']",
-          "技术概念: ['MP3']"
+          "技术概念: ['Python']"
+        ]
+      },
+      {
+        "text": "Building Reliable Kubernetes Platforms",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['Kubernetes']"
         ]
       },
       {
@@ -866,27 +867,6 @@
         "confidence": 15,
         "features": [
           "技术概念: ['Rust']"
-        ]
-      },
-      {
-        "text": "The end of the AArch64 desktopexperiment",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('desktopexperiment', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "jj_tui: terminal user interface to jujutsu focused on speed and clarity",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('interface to jujutsu', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "WATaBoy: JIT-ing Game Boy Instructions to Wasm Beats a Native Interpreter",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('Instructions to Wasm', 'to', '', '', '', '')]"
         ]
       }
     ]
