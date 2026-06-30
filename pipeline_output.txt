@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-06-30T04:16:15.416266+00:00     ║
+║       启动时间: 2026-06-30T09:55:29.525247+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 10 topics
+  ✅ 9 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 20 Show HN posts
+  ✅ 18 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 351
-  🚫 闲聊拦截: 14 条 (4.0%)
-  🧠 工具信号: 179 条 (51.0%)
+  原始信号总量: 348
+  🚫 闲聊拦截: 16 条 (4.6%)
+  🧠 工具信号: 172 条 (49.4%)
 
   📋 闲聊拦截样例:
-     [ad] 中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度
-     [ad] [福利] 全新 AI 模型聚合中转站 Zero Bug 上线 | 自建 GPT 号池 | 开业倍率优惠 | 回帖留 ID
-     [chatter] 合并部门后，公司把一位 10 年+的测试裁了，客服部门的同事说唯一懂她们的测试被裁了
      [chatter] US Supreme Court rules geofence warrants require constitutio
-     [news] One million passports leaked online 🔥183pts 💬107
+     [news] One million passports leaked online 🔥273pts 💬158
+     [chatter] WtfisMyRepo – Use Claude to understand most complex codebase
+     [chatter] Show HN: Fault-tolerant 4-neighbor hardware mesh with auto-r
+     [news] A large number of GPT-5.6 hands-on tests have leaked: it may
 
   🧠 工具信号样例:
      [置信度15%] What does the "yield" keyword do in Python?
@@ -98,41 +98,38 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度35%] Does Python have a ternary conditional operator?
        ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
        ↳ 技术概念: ['Python']
-     [置信度15%] What are metaclasses in Python?
-    
+ 
 
-✅ 雷达完成 — 19 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 351 条
-     🚫 闲聊拦截: 14 条 (4.0%)
-     🧠 工具信号: 179 条 (51.0%)
-     闲聊样例: 中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度... [ad]
+     原始抓取: 348 条
+     🚫 闲聊拦截: 16 条 (4.6%)
+     🧠 工具信号: 172 条 (49.4%)
+     闲聊样例: US Supreme Court rules geofence warrants require c... [chatter]
      工具信号样例: What does the "yield" keyword do in Python?... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 179 → 有效 41
-     拒绝率: 77.1%
+     工具信号 172 → 有效 40
+     拒绝率: 76.7%
 
-  📊 意图分类器审计 — 审查 19 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (16):
-     [WARN  |  +37] Regex Tester  [?]
-     [PASS  |  +55] Name Generator  [?]
-     [WARN  |  +37] Format Converter  [?]
-     [PASS  |  +55] Converter  [?]
-     [PASS  |  +55] Timezone Converter  [?]
+  ✅ 通过 (14):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
      [PASS  |  +55] Search Tool  [?]
+     [PASS  |  +65] Tracker Tool  [?]
      [PASS  |  +55] Generator  [?]
+     [WARN  |  +37] Format Converter  [?]
+     [PASS  |  +55] Converter  [?]
      [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
@@ -154,31 +151,21 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 19 suggestions
-   Generated at: 2026-06-30T04:16:15.570838+00:00
-   Already in catalog: 95 tools
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-06-30T09:55:29.663982+00:00
+   Already in catalog: 98 tools
    Previously produced: 0 tools
-   Existing tool pages: 79 files
-   Next shovel ID: shovel-041
+   Existing tool pages: 82 files
+   Next shovel ID: shovel-044
    Next script ID: script-011
 
-🔧 Producing 3 new tools:
-   • Regex Tester (正则测试器) [dev/code]
-   • Name Generator (名字生成器) [gaming/fun]
-   • Timezone Converter (时区转换) [productivity/time]
+🔧 Producing 1 new tools:
+   • Tracker Tool (追踪工具) [productivity/tracking]
 
-  🛠  Producing: Regex Tester → shovel-041
-     📄 Page: tools/regex-tester.html
+  🛠  Producing: Tracker Tool → shovel-044
+     📄 Page: tools/tracker-tool.html
      ✅ Gate check passed
-
-  🛠  Producing: Name Generator → shovel-042
-     📄 Page: tools/name-generator.html
-     ✅ Gate check passed
-
-  🛠  Producing: Timezone Converter → shovel-043
-     📄 Page: tools/timezone-converter.html
-     ✅ Gate check passed
-  ✅ Inserted 3 entries into index.html
+  ✅ Inserted 1 entries into index.html
 
   📝 Factory log updated
 
@@ -199,7 +186,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   ✅ Lucide Icons CDN
   [TOOLS Database]
   ✅ TOOLS array defined
-  ✅ TOOLS entries (53)
+  ✅ TOOLS entries (54)
   ✅ Has Web Tools (🔧)
   ✅ Has Scripts (📜)
   ✅ Has Live tools
@@ -227,8 +214,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
-  🌐 Testing local server on port 9400...
-  ✅ Local server: HTTP 200, 375403 bytes
+  🌐 Testing local server on port 9246...
+  ✅ Local server: HTTP 200, 375912 bytes
 
 ✅ All tests passed!
 
@@ -238,32 +225,28 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 ==================================================
 🏭 Pipeline complete!
-   New tools: 3
-   • shovel-041: Regex Tester
-   • shovel-042: Name Generator
-   • shovel-043: Timezone Converter
+   New tools: 1
+   • shovel-044: Tracker Tool
    Tests: ✅ Passed
 ==================================================
 
 
-✅ 工厂完成 — 本次生产 3 个工具
-   🛠  Producing: Regex Tester → shovel-041
-   🛠  Producing: Name Generator → shovel-042
-   🛠  Producing: Timezone Converter → shovel-043
+✅ 工厂完成 — 本次生产 1 个工具
+   🛠  Producing: Tracker Tool → shovel-044
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
 ============================================================
-   生产工具健康率: 67.9% (53 个工具, 17 个问题)
+   生产工具健康率: 66.7% (54 个工具, 18 个问题)
    问题文件: ['shovel-027: 文件缺失', 'shovel-028: 文件缺失', 'shovel-029: 文件缺失', 'shovel-030: 文件缺失', 'shovel-031: 文件缺失', 'shovel-032: 文件缺失', 'shovel-033: 文件缺失', 'shovel-034: 文件缺失', 'shovel-035: 文件缺失', 'shovel-036: 文件缺失']
-   ⚠️ 门禁警告 — 健康率 67.9% 低于90%阈值
+   ⚠️ 门禁警告 — 健康率 66.7% 低于90%阈值
 
 ============================================================
 🧪 阶段 2: 全量工具测试
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 53 工具, 53 在线, 50 ready:true, 3 ready:false
+    ✅ TOOLS 数据库: 54 工具, 54 在线, 53 ready:true, 1 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
@@ -343,6 +326,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ svg_path_extractor.html
     ✅ text-tools.html
     ✅ timezone-converter.html
+    ✅ tracker-tool.html
     ✅ typing_macro.html
     ✅ video-converter.html
     ✅ view.html
@@ -350,7 +334,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ world_map_generator.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 375403B
+    ✅ index.html — HTTP 200, 375912B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/api-tester.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
@@ -428,34 +412,35 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/svg_path_extractor.html — HTTP 200
     ✅ tools/text-tools.html — HTTP 200
     ✅ tools/timezone-converter.html — HTTP 200
+    ✅ tools/tracker-tool.html — HTTP 200
     ✅ tools/typing_macro.html — HTTP 200
     ✅ tools/video-converter.html — HTTP 200
     ✅ tools/view.html — HTTP 200
     ✅ tools/viewer.html — HTTP 200
     ✅ tools/world_map_generator.html — HTTP 200
 
-  📊 测试汇总: 173 通过, 0 失败
+  📊 测试汇总: 175 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
-    🚀 3 个新工具测试通过，已标记 ready:true 正式上线
+    🚀 1 个新工具测试通过，已标记 ready:true 正式上线
 
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-06-30T04:16:15.416266+00:00 → 2026-06-30T04:16:27.406788+00:00
+  ⏱  耗时: 2026-06-30T09:55:29.525247+00:00 → 2026-06-30T09:55:41.154256+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
   🔒 门禁: ⚠️ WARN
-  💚 健康率: 67.9%
+  💚 健康率: 66.7%
   🧠 AI组件:
      ✅ generator: OK
      ✅ validator: OK
      ✅ analyzer: OK
-  🧪 测试: 173✅ 0❌
-  🔧 工具总数: 53
-  🏷️  新上线: 3 个工具 (已标记 ready:true)
-  📄 独立页面: 82
+  🧪 测试: 175✅ 0❌
+  🔧 工具总数: 54
+  🏷️  新上线: 1 个工具 (已标记 ready:true)
+  📄 独立页面: 83
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================
