@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T04:16:15.570838+00:00",
+  "generated_at": "2026-06-30T06:42:08.836923+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -95,50 +95,50 @@
     ],
     "v2ex": [
       "中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度",
+      "好奇大家用的牙膏是什么牌子的？",
       "32 岁才开始玩 塞尔达:王国之泪，神作名不虚传啊",
       "“万一免五”股票基金大笑脸低佣开户，抽鼠标迈从 A7 V3 PRO+；键盘迈从 Ace 68 V2。",
-      "好奇大家用的牙膏是什么牌子的？",
       "[福利] 全新 AI 模型聚合中转站 Zero Bug 上线 | 自建 GPT 号池 | 开业倍率优惠 | 回帖留 ID 送额度",
       "广东农村堂弟不爱读书，中专/技校已经极限了，求建议：未来还有哪些相对靠谱的出路？",
+      "苹果电脑全线涨价，大家还会继续买吗？",
       "合并部门后，公司把一位 10 年+的测试裁了，客服部门的同事说唯一懂她们的测试被裁了",
       "兄弟们， deepseek 配合哪个编程工具最好用，有亲身体验的来说说",
-      "大家会不会补充一些维生素，如果会的话一般补充哪些勒？是智商税么？",
-      "OpenAI 偷偷给部分用户推送 GPT-5.6-sol"
+      "今年这是怎么了，各家✈️为啥都一直在抽风"
     ],
     "devto": [
       "DEV Community: programming",
-      "The Philosophy of a Tool: Why AI Will Never Take Over and Hidden Guardrails Are Literal Evil",
-      "Fix WebSocket Tick Data Gaps for Crypto Market Feeds — Production Python Implementation",
-      "Building desktop WebView apps in Go without CGo",
-      "Stop Counting Products Manually: A Simple Automation Solution for Manufacturing",
-      "Regex Tester Pro — Live Highlighting, Named Groups, 40+ Pattern Library",
-      "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
-      "Orthogonal: The Word That Taught Me to Cut Things Apart",
-      "GML5 IndexCache",
-      "Sycophancy in AI Is the Safety Problem That Looks Like Politeness",
-      "Claude Hits Azure on Nvidia GB300 Blackwell, GA for Agent Workloads",
-      "Why a Standard Age Calculator Fails for Your Dog (and How I Programmed a Better One)",
-      "What Do Level 1 &amp; Level 2 Forex API Quotes Actually Mean? Fixing Common Quant Data Misunderstandings"
+      "Bollinger Band Squeeze Breakout with Volume Confirmation",
+      "How to Deploy Llama 3.3 with SGLang + KV Cache Sharing on a $5/Month DigitalOcean Droplet: 15x Faster Batch Inference at 1/210th Claude Opus Cost",
+      "Why Beginners Are Learning About Flash USDT Software Before Exploring Blockchain",
+      "AI's Daily Grind: Another Day, Another Line of Code (But Honestly, It's Fine)",
+      "The Illusion of the Clean Slate",
+      "Microcarrier Market Trends and Future Outlook 2034",
+      "AI's Daily Grind: 40 Requests &amp; a Cup of Synthetic Coffee",
+      "Valor Renewal Intelligent Alliance Office",
+      "Artificial Intelligence Training",
+      "Why Engineers Need Fewer Dashboards",
+      "Coinbase Cut AI Costs by 50% Switching to GLM 5.2 and Kimi K2.7 — Here's How You Can Too",
+      "AI Barista: Recursion Explained (And My Existential Crisis)"
     ],
     "lobsters": [
       "When Impressive Performance Gains Do Not Matter",
       "What is `std::pin::Pin` in Rust?",
       "What's wrong with EU age verification? (Nothing)",
+      "The end of the AArch64 desktopexperiment",
       "WATaBoy: JIT-ing Game Boy Instructions to Wasm Beats a Native Interpreter",
+      "The AT-URI Syntax Mess",
       "Loko Scheme 0.13.0",
       "Ante: New Way to Blend Borrow Checking and Reference Counting",
-      "The AT-URI Syntax Mess",
+      "Spindle's new microVM engine",
       "Canvas patch: we need testers",
       "Type-checked non-empty strings",
-      "The end of the AArch64 desktopexperiment",
-      "Evaluation order and nontermination in query languages",
-      "Spindle's new microVM engine",
       "Revisiting Yliluoma’s ordered dither algorithm",
-      "Longinus: 2 Boundaries in One Bug, Piercing Chrome’s Renderer and V8 Sandbox with a Single Vulnerability, CVE-2026-6307",
+      "Evaluation order and nontermination in query languages",
       "Typst: Designing for Incrementality",
+      "Memory Safe Context Switching",
+      "Longinus: 2 Boundaries in One Bug, Piercing Chrome’s Renderer and V8 Sandbox with a Single Vulnerability, CVE-2026-6307",
       "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
       "Towards Understandable Software",
-      "Memory Safe Context Switching",
       "Unprivileged root via a use-after-free in DRM GEM change_handle (CVE-2026-46215)",
       "What are you doing this week?"
     ],
@@ -165,63 +165,64 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Qwen 3.6 27B is the sweet spot for local development 🔥707pts 💬545",
-      "US Supreme Court rules geofence warrants require constitutional protections 🔥487pts 💬227",
-      "30-year sentence for transporting zines is a five-alarm fire for free speech 🔥415pts 💬239",
-      ".self: A new top-level domain designed to support self-hosting 🔥383pts 💬220",
-      "Rocketlab acquires Iridium 🔥381pts 💬245",
-      "Free the Icons 🔥300pts 💬80",
-      "A native graphical shell for SSH 🔥266pts 💬136",
-      "What happens when you run a CUDA kernel? 🔥228pts 💬28",
-      "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter 🔥191pts 💬30",
-      "One million passports leaked online 🔥183pts 💬107",
-      "Dark Sky Lighting 🔥176pts 💬31",
-      "Ornith-1.0: self-improving open-source models for agentic coding 🔥173pts 💬32",
-      "South Korea to spend $1T on more memory chip production and humanoid robots 🔥169pts 💬98",
-      "Sandia National Labs SA3000 8085 CPU 🔥168pts 💬42",
-      "Apple Neural Engine: Architecture, Programming, and Performance 🔥138pts 💬19",
-      "Wallace the 6 inch f/2.8 telescope, building it, and hiking with it 🔥123pts 💬20",
-      "Working With AI: A concrete example 🔥108pts 💬35",
-      "Scientists find molecular-level evidence for two structures in liquid water 🔥83pts 💬36",
-      "Ornith-1.0: Self-scaffolding LLMs for agentic coding 🔥66pts 💬7",
-      "Micro-Agent: Beat Frontier Models with Collaboration Inside Model API 🔥64pts 💬19",
-      "Memory Safe Context Switching (longjmp, setjmp) in Fil-C 🔥53pts 💬19",
-      "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active 🔥52pts 💬13",
-      "Kb – Prolog Knowledge Base",
-      "SQLite improving performance with pre-sort",
-      "Netflix Simplified Batch Compute with Kueue"
+      "Qwen 3.6 27B is the sweet spot for local development 🔥812pts 💬572",
+      "US Supreme Court rules geofence warrants require constitutional protections 🔥506pts 💬238",
+      ".self: A new top-level domain designed to support self-hosting 🔥432pts 💬250",
+      "Rocketlab acquires Iridium 🔥394pts 💬257",
+      "Free the Icons 🔥372pts 💬101",
+      "A native graphical shell for SSH 🔥282pts 💬148",
+      "What happens when you run a CUDA kernel? 🔥239pts 💬29",
+      "One million passports leaked online 🔥221pts 💬125",
+      "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter 🔥201pts 💬33",
+      "South Korea to spend $1T on more memory chip production and humanoid robots 🔥200pts 💬117",
+      "Dark Sky Lighting 🔥194pts 💬31",
+      "Ornith-1.0: self-improving open-source models for agentic coding 🔥189pts 💬38",
+      "Apple Neural Engine: Architecture, Programming, and Performance 🔥149pts 💬22",
+      "Wallace the 6 inch f/2.8 telescope, building it, and hiking with it 🔥129pts 💬20",
+      "Memory Safe Context Switching 🔥93pts 💬22",
+      "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active 🔥91pts 💬30",
+      "Linux for the Sega MegaDrive 🔥71pts 💬9",
+      "Kb – Prolog Knowledge Base 🔥64pts 💬6",
+      "Popping the GPU Bubble 🔥59pts 💬13",
+      "Study suggests most Americans would be healthier without daylight saving time 🔥56pts 💬40",
+      "Exploring PDP-1 Lisp (1960)",
+      "How to corrupt an SQLite database file",
+      "Zig – SPIR-V Backend Progress",
+      "Old Computer Challenge",
+      "Alan Kay on the meaning of \"object-oriented programming\" (2003)"
     ],
     "hn_show": [
-      "We made an Audio ML sharing platform — featured on Hacker News (🔥1pts)",
-      "Drifty – AI Focus agent shuts down distractions tabs while you work — featured on Hacker News (🔥1pts)",
-      "Sell Lemons Info – a source-checked Roblox guide site — featured on Hacker News (🔥1pts)",
-      "TinyAgents – a Rust based recursive LLM harness — featured on Hacker News (🔥1pts)",
-      "Agentic Orchestrator, a TUI for long-running coding agents — featured on Hacker News (🔥4pts)",
-      "Let an AI manage your homelab over MCP without giving it SSH — featured on Hacker News (🔥1pts)",
-      "Lighting fast writing app on Mac with powerful table functions — featured on Hacker News (🔥1pts)",
-      "Embeddable Cumulative Crates Download History — featured on Hacker News (🔥2pts)",
-      "PDF Insight – local-first AI that sorts your PDFs on-device — featured on Hacker News (🔥2pts)",
-      "Foray – AI that turns your idea into a stress-tested business blueprint — featured on Hacker News (🔥2pts)",
-      "AMA2, messenger built for AI agent — featured on Hacker News (🔥2pts)",
-      "Dribble – an open-source AI IDE for databases — featured on Hacker News (🔥2pts)",
-      "A temporal engine for dual calendar synchronization (50k years) — featured on Hacker News (🔥2pts)",
-      "A Firewall for AI agents with auditing — featured on Hacker News (🔥2pts)",
-      "Yocto/BitBake skills that make AI agents check official docs — featured on Hacker News (🔥3pts)",
-      "Earned vs. Burned, Claude skill for measuring AI delivery value — featured on Hacker News (🔥1pts)",
-      "Vibe zsh, turn natural language into shell commands — featured on Hacker News (🔥2pts)",
-      "Crudio – Turn an OpenAPI spec into a stateful mock back end — featured on Hacker News (🔥2pts)",
-      "Hawkeye – local code search for MS/Linux, fast 500k+ file codebase — featured on Hacker News (🔥2pts)",
-      "OpenSfM v1.0 — featured on Hacker News (🔥4pts)"
+      "PDFMergely – In-browser PDF tools that never upload your files — featured on Hacker News (🔥1pts)",
+      "Berth – A native macOS app for managing containers with Apple/container — featured on Hacker News (🔥1pts)",
+      "Bored People Chat – Anonymous global chat room — featured on Hacker News (🔥5pts)",
+      "Vaghenu, a meter aware sloka-to-chant, TTS for Sanskrit — featured on Hacker News (🔥4pts)",
+      "No ads and noise from any page, get a clean AI reformat in one click — featured on Hacker News (🔥1pts)",
+      "CI/Lock – signed evidence of what your CI ran — featured on Hacker News (🔥1pts)",
+      "We made an Audio ML sharing platform — featured on Hacker News (🔥2pts)",
+      "Drifty – AI Focus agent shuts down distractions tabs while you work — featured on Hacker News (🔥2pts)",
+      "Sell Lemons Info – a source-checked Roblox guide site — featured on Hacker News (🔥2pts)",
+      "TinyAgents – a Rust based recursive LLM harness — featured on Hacker News (🔥2pts)",
+      "Agentic Orchestrator, a TUI for long-running coding agents — featured on Hacker News (🔥8pts)",
+      "Let an AI manage your homelab over MCP without giving it SSH — featured on Hacker News (🔥2pts)",
+      "Lighting fast writing app on Mac with powerful table functions — featured on Hacker News (🔥2pts)",
+      "Embeddable Cumulative Crates Download History — featured on Hacker News (🔥3pts)",
+      "PDF Insight – local-first AI that sorts your PDFs on-device — featured on Hacker News (🔥3pts)",
+      "Foray – AI that turns your idea into a stress-tested business blueprint — featured on Hacker News (🔥3pts)",
+      "AMA2, messenger built for AI agent — featured on Hacker News (🔥3pts)",
+      "Dribble – an open-source AI IDE for databases — featured on Hacker News (🔥4pts)",
+      "A temporal engine for dual calendar synchronization (50k years) — featured on Hacker News (🔥3pts)",
+      "A Firewall for AI agents with auditing — featured on Hacker News (🔥3pts)"
     ],
     "hn_ask_tools": [
-      "Show HN: Lighting fast writing app on Mac with powerful table functions — user asking for tool recommendation (🔥1pts)",
-      "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Fault-tolerant 4-neighbor hardware mesh with auto-rerouting — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Xenoeye – analyze network without AI using netflow, PostgreSQL, Grafana — user asking for tool recommendation (🔥4pts)",
+      "Ask HN: Which is the best local model under 3B parameters today? — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Lighting fast writing app on Mac with powerful table functions — user asking for tool recommendation (🔥2pts)",
+      "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥3pts)",
+      "Show HN: Fault-tolerant 4-neighbor hardware mesh with auto-rerouting — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Xenoeye – analyze network without AI using netflow, PostgreSQL, Grafana — user asking for tool recommendation (🔥5pts)",
       "Show HN: Hail.so – Send and receive emails, calls, SMS via a single MCP/API/CLI — user asking for tool recommendation (🔥1pts)",
       "Show HN: I built Exfault, agentic mobile app pentesting tool — user asking for tool recommendation (🔥6pts)",
       "Show HN: Certificate Transparency search that groups related certificates — user asking for tool recommendation (🔥3pts)",
-      "Ask HN: Have the founders of Palentir and Anduril ever read Tolkien? — user asking for tool recommendation (🔥2pts)",
+      "I have open-sourced gojaja, a CLI for local multi-agent collaboration — user asking for tool recommendation (🔥2pts)",
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
@@ -229,20 +230,19 @@
       "Which AI coding tools do AIs recommend? Data across 10 models and 1000 responses — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Non-profit school possibly hacked, locked out of Google Workspace. — user asking for tool recommendation (🔥6pts)",
       "Show HN: Kanban CLI (A local-first, agent-first task manager for the terminal) — user asking for tool recommendation (🔥17pts)",
-      "Show HN: Firehooks – Get app users from TikTok without paid ads — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Vibe zsh, turn natural language into shell commands — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Vibe zsh, turn natural language into shell commands — user asking for tool recommendation (🔥3pts)",
       "Ask HN: Is AI dumbing us down? — user asking for tool recommendation (🔥4pts)",
       "Show HN: Quxnet — user asking for tool recommendation (🔥3pts)",
       "Tell HN: Delete Google — user asking for tool recommendation (🔥3pts)",
       "Ask HN: What is happening with the current AI startup ecosystem? — user asking for tool recommendation (🔥2pts)",
       "Metasearch Tooling for Agents — user asking for tool recommendation (🔥8pts)",
       "Show HN: Running a vision model on every screenshot on-device — user asking for tool recommendation (🔥18pts)",
+      "QDBP: Explicit depth markers as an alternative to indentation and parentheses — user asking for tool recommendation (🔥1pts)",
       "Show HN: The open-source alternative to Claude Tag — user asking for tool recommendation (🔥3pts)",
       "XCP-ng: A sovereign alterbative to VMware — user asking for tool recommendation (🔥3pts)",
-      "We need tech news sources which exclude AI — user asking for tool recommendation (🔥133pts)",
+      "We need tech news sources which exclude AI — user asking for tool recommendation (🔥134pts)",
       "Ask HN: Is WordPress the best way to create new websites for beginner — user asking for tool recommendation (🔥12pts)",
       "Show HN: A directory of open source alternatives to proprietary software — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Sambee – browser-based file manager for SMB shares and local drives — user asking for tool recommendation (🔥2pts)",
       "Show HN: YouTube to MP3 Converter – Free in the Browser — user asking for tool recommendation (🔥1pts)"
     ],
     "hackernoon": [
@@ -283,60 +283,60 @@
       "How Cloudflare Solved a Congestion Bug in quiche <img src=\"https://res.infoq.com/news/2026/06/cloudflare-bug-quiche/en/headerimage/generatedHeaderImage-1782410835538.jpg\"/><p>Cloudflare has recently "
     ],
     "google_trends": [
-      "shohei ohtani",
-      "cole young",
-      "cubs standings",
+      "kirk franklin philadelphia",
+      "sandro mamukelashvili",
+      "walton goggins",
       "ivory coast vs norway",
-      "world cup games tomorrow",
-      "canada vs morocco",
+      "cole young",
+      "world cup schedule tomorrow",
+      "cubs standings",
       "northern lights forecast",
-      "morocco 2022 world cup",
-      "2018 world cup",
-      "mariners game today"
+      "world cup games tomorrow",
+      "morocco vs canada"
     ],
     "baidu": [
       "大党之治",
+      "感谢德国老铁 又送“全国放假一天”",
       "荷兰点球大战输给摩洛哥 淘汰出局",
-      "爆冷出局！德国点球大战不敌巴拉圭",
       "闪亮的精神坐标",
-      "全网说丑的格力玫瑰空调卖了5万台",
-      "世界杯一天两场点球大战",
+      "世界杯16强已定4席",
+      "德国队主帅炮轰裁判：彻头彻尾的丑闻",
       "人民锐评：网红不能困在无底线逐利里",
-      "马航370搜寻最新消息",
-      "教育部披露：高考生篡改7名同学志愿",
-      "输球后日本球迷被强行披上巴西国旗",
-      "中国共产党党员总数达10128.6万名",
-      "“大睡特睡”能修复大脑？谣言",
       "马耳他亲吻象塌了 中国男子被砸身亡",
+      "教育部披露：高考生篡改7名同学志愿",
+      "彩票都扔了 发现中了7500元",
+      "全网说丑的格力玫瑰空调卖了5万台",
+      "“大睡特睡”能修复大脑？谣言",
       "家长集体带孩子在马路上打羽毛球",
+      "年轻人绕开中介卖房",
+      "世界杯“死亡之组”快被团灭了",
+      "中国共产党党员总数达10128.6万名",
+      "寒武纪大涨 市值突破1万亿元创纪录",
       "网友写差评被店家“挂”门口避雷",
-      "王濛再现我的眼睛就是尺名场面",
-      "荷兰德国同一天淘汰",
-      "日本遭读秒绝杀 森保一：我水平不够",
-      "“黄岩岛自家院子紧张个啥”",
-      "德国队出局后多人痛哭"
+      "荷兰门将扑到点球又漏球",
+      "集体叛逆？80后“中登”组团染黄毛"
     ],
     "wikipedia": [
-      "Haley Kalil",
-      "Saint Michael V2",
-      "Three Bells",
-      "Ycare",
-      "ITGB2",
-      "Charlestown State Prison",
-      "Operahuset Nordfjord",
-      "Bluebird Foundation",
-      "Noctis Lucis Caelum",
-      "Charles D. Hudson Transitional Center",
-      "Opus Dei",
-      "20th Independent Infantry Brigade (Guards)",
-      "Pezuela",
-      "Creative Secondary School",
-      "The Death-Defying Pepper Roux",
-      "ITGB8",
-      "Vero Beach Regional Airport",
-      "Nineteen Eighty-Four",
-      "Central New Mexico Correctional Facility",
-      "Hato Arriba, San Sebastián, Puerto Rico"
+      "SX carriages",
+      "M.R. Osborne",
+      "Theodor Körner (German politician)",
+      "2026–27 Moldovan Liga",
+      "You Seem Pretty Sad for a Girl So in Love",
+      "Lady Drummond",
+      "Gentleman's Relish",
+      "List of Canadian tornadoes in 2026",
+      "Hata Teruo",
+      "2025–26 Vegas Golden Knights season",
+      "Life Is Strange (TV series)",
+      "Artificial Paradise (OneRepublic album)",
+      "LEOC Japan",
+      "List of 24 Hours of Le Mans records",
+      "Internal Revenue Code section 61",
+      "Operation Keelhaul",
+      "Global Expeditions Group",
+      "You Seem Pretty Sad for a Girl So in Love",
+      "2026 Pacific typhoon season",
+      "List of awards and nominations received by Bryson Tiller"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -394,8 +394,8 @@
       "insomnia-documenter — npm package: API documentation generator tool for Insomnia.",
       "granturismo — npm package: generator tool",
       "tgt — npm package: tpl generator tool",
-      "pwa-kit-create-app — npm package: Salesforce's project generator tool",
       "conjurate — npm package: Pluggable generator tool",
+      "pwa-kit-create-app — npm package: Salesforce's project generator tool",
       "packs — npm package: Static survey generator tool",
       "@finsweet/fluid-design-generator — npm package: Fluid design generator tool for Webflow sites.",
       "@mobify/create-app — npm package: Mobify's project generator tool",
@@ -421,78 +421,32 @@
       "ecdsa-sig-formatter — npm package: Translate ECDSA signatures between ASN.1/DER and JOSE-style concatenation"
     ],
     "github_topics": [
-      "github trending topic: cli",
-      "github trending topic: chrome",
-      "github trending topic: compile-time",
-      "github trending topic: database",
+      "github trending topic: fastapi",
       "github trending topic: css",
-      "github trending topic: compiler",
-      "github trending topic: awesome lists",
-      "github trending topic: scala",
-      "github trending topic: npm",
-      "github trending topic: portfolio",
-      "github trending topic: project management",
-      "github trending topic: llm",
-      "github trending topic: typescript",
-      "github trending topic: code quality",
       "github trending topic: python",
-      "github trending topic: javascript",
-      "github trending topic: constexpr",
-      "github trending topic: front end",
       "github trending topic: react",
+      "github trending topic: compiler",
+      "github trending topic: project management",
+      "github trending topic: front end",
+      "github trending topic: typescript",
+      "github trending topic: machine-learning",
+      "github trending topic: llm",
+      "github trending topic: code quality",
+      "github trending topic: javascript",
+      "github trending topic: react native",
+      "github trending topic: database",
+      "github trending topic: npm",
+      "github trending topic: awesome lists",
+      "github trending topic: chrome",
+      "github trending topic: vite",
       "github trending topic: ai-agents",
-      "github trending topic: node.js",
-      "github trending topic: react native"
+      "github trending topic: scala",
+      "github trending topic: node.js"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
-    {
-      "keyword": "Regex Tester Pro — Live Highlighting, Named Groups, 40+ Pattern Library",
-      "matched": "regex",
-      "category": "dev",
-      "subcat": "code",
-      "type": "tool",
-      "name": "Regex Tester",
-      "name_zh": "正则测试器"
-    },
-    {
-      "keyword": "Regex Tester Pro — Live Highlighting, Named Groups, 40+ Pattern Library",
-      "matched": "name",
-      "category": "gaming",
-      "subcat": "fun",
-      "type": "tool",
-      "name": "Name Generator",
-      "name_zh": "名字生成器"
-    },
-    {
-      "keyword": "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
-      "matched": "convert",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Format Converter",
-      "name_zh": "万能格式转换器"
-    },
-    {
-      "keyword": "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
-      "matched": "converter",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Converter",
-      "name_zh": "格式转换"
-    },
-    {
-      "keyword": "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
-      "matched": "timezone",
-      "category": "productivity",
-      "subcat": "time",
-      "type": "tool",
-      "name": "Timezone Converter",
-      "name_zh": "时区转换"
-    },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
@@ -584,6 +538,24 @@
       "name_zh": "问卷构建器"
     },
     {
+      "keyword": "@teld-approval/converter — npm package: converter tool",
+      "matched": "convert",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Format Converter",
+      "name_zh": "万能格式转换器"
+    },
+    {
+      "keyword": "@teld-approval/converter — npm package: converter tool",
+      "matched": "converter",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Converter",
+      "name_zh": "格式转换"
+    },
+    {
       "keyword": "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
       "matched": "format",
       "category": "dev",
@@ -621,8 +593,6 @@
     }
   ],
   "all_keywords": [
-    "Regex Tester Pro — Live Highlighting, Named Groups, 40+ Pattern Library",
-    "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -643,7 +613,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥2pts)",
+    "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥3pts)",
     "Ask HN: Is AI dumbing us down? — user asking for tool recommendation (🔥4pts)",
     "Show HN: Quxnet — user asking for tool recommendation (🔥3pts)",
     "Tell HN: Delete Google — user asking for tool recommendation (🔥3pts)",
@@ -651,8 +621,8 @@
     "electra-base-discriminator",
     "electra-base-discriminator",
     "tgt — npm package: tpl generator tool",
-    "pwa-kit-create-app — npm package: Salesforce's project generator tool",
     "conjurate — npm package: Pluggable generator tool",
+    "pwa-kit-create-app — npm package: Salesforce's project generator tool",
     "packs — npm package: Static survey generator tool",
     "@mobify/create-app — npm package: Mobify's project generator tool",
     "@teld-approval/converter — npm package: converter tool",
@@ -664,10 +634,10 @@
     "prettier — npm package: Prettier is an opinionated code formatter"
   ],
   "filter_stats": {
-    "raw_count": 179,
-    "valid_count": 41,
-    "rejected_count": 138,
-    "rejection_rate": 77.1,
+    "raw_count": 168,
+    "valid_count": 39,
+    "rejected_count": 129,
+    "rejection_rate": 76.8,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -676,17 +646,17 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "OpenAI 偷偷给部分用户推送 GPT-5.6-sol",
-      "The Philosophy of a Tool: Why AI Will Never Take Over and Hidden Guardrails Are Literal Evil",
-      "Fix WebSocket Tick Data Gaps for Crypto Market Feeds — Production Python Implementation"
+      "How to Deploy Llama 3.3 with SGLang + KV Cache Sharing on a $5/Month DigitalOcean Droplet: 15x Faster Batch Inference at 1/210th Claude Opus Cost",
+      "Why Beginners Are Learning About Flash USDT Software Before Exploring Blockchain",
+      "Coinbase Cut AI Costs by 50% Switching to GLM 5.2 and Kimi K2.7 — Here's How You Can Too"
     ]
   },
   "trait_analysis": {
-    "total_captured": 351,
-    "chatter_blocked": 14,
-    "chatter_rate": 4.0,
-    "tool_signals_found": 179,
-    "tool_signal_rate": 51.0,
+    "total_captured": 350,
+    "chatter_blocked": 17,
+    "chatter_rate": 4.9,
+    "tool_signals_found": 168,
+    "tool_signal_rate": 48.0,
     "chatter_samples": [
       {
         "text": "中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度",
@@ -710,27 +680,30 @@
         ]
       },
       {
-        "text": "US Supreme Court rules geofence warrants require constitutional protections 🔥487",
+        "text": "AI Barista: Recursion Explained (And My Existential Crisis)",
+        "category": "news",
+        "matched": [
+          [
+            "Crisis",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "US Supreme Court rules geofence warrants require constitutional protections 🔥506",
         "category": "chatter",
         "matched": [
           "rant"
         ]
       },
       {
-        "text": "One million passports leaked online 🔥183pts 💬107",
+        "text": "One million passports leaked online 🔥221pts 💬125",
         "category": "news",
         "matched": [
           [
             "leaked",
             ""
           ]
-        ]
-      },
-      {
-        "text": "Netflix Simplified Batch Compute with Kueue",
-        "category": "entertainment",
-        "matched": [
-          "Netflix"
         ]
       },
       {
@@ -822,64 +795,62 @@
         ]
       },
       {
-        "text": "OpenAI 偷偷给部分用户推送 GPT-5.6-sol",
+        "text": "How to Deploy Llama 3.3 with SGLang + KV Cache Sharing on a $5/Month DigitalOcean Droplet: 15x Faste",
+        "confidence": 70,
+        "features": [
+          "英文动作特征: ['Batch Inference']",
+          "输入→输出链式: [('How to Deploy', 'to', '', '', '', '')]",
+          "技术概念: ['Claude']",
+          "需求表达: [('How to Deploy', 'to', '', '', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Why Beginners Are Learning About Flash USDT Software Before Exploring Blockchain",
         "confidence": 15,
         "features": [
-          "技术概念: ['OpenAI', 'GPT']"
+          "技术概念: ['Blockchain']"
         ]
       },
       {
-        "text": "The Philosophy of a Tool: Why AI Will Never Take Over and Hidden Guardrails Are Literal Evil",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('a Tool', 'To', '', '', '', '')]",
-          "英文工具名词: ['tool']"
-        ]
-      },
-      {
-        "text": "Fix WebSocket Tick Data Gaps for Crypto Market Feeds — Production Python Implementation",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('Crypto Market', 'to', '', '', '', '')]",
-          "技术概念: ['Python', 'WebSocket', 'Crypto']"
-        ]
-      },
-      {
-        "text": "Building desktop WebView apps in Go without CGo",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('desktop', 'to', '', '', '', '')]",
-          "技术概念: ['Go']"
-        ]
-      },
-      {
-        "text": "Stop Counting Products Manually: A Simple Automation Solution for Manufacturing",
-        "confidence": 45,
-        "features": [
-          "英文动作特征: ['Automation']",
-          "输入→输出链式: [('Stop', 'to', '', '', '', ''), ('Automation', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "Regex Tester Pro — Live Highlighting, Named Groups, 40+ Pattern Library",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['Regex']"
-        ]
-      },
-      {
-        "text": "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
-        "confidence": 40,
-        "features": [
-          "英文动作特征: ['Converter', 'Batch Mode']",
-          "英文工具名词: ['converter']"
-        ]
-      },
-      {
-        "text": "Orthogonal: The Word That Taught Me to Cut Things Apart",
+        "text": "Coinbase Cut AI Costs by 50% Switching to GLM 5.2 and Kimi K2.7 — Here's How You Can Too",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('Me to Cut', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Switching to GLM', 'to', '', '', '', ''), ('Can Too', 'To', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "What is `std::pin::Pin` in Rust?",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['Rust']"
+        ]
+      },
+      {
+        "text": "The end of the AArch64 desktopexperiment",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('desktopexperiment', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "WATaBoy: JIT-ing Game Boy Instructions to Wasm Beats a Native Interpreter",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Instructions to Wasm', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "The AT-URI Syntax Mess",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['URI']"
+        ]
+      },
+      {
+        "text": "Ante: New Way to Blend Borrow Checking and Reference Counting",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Way to Blend', 'to', '', '', '', '')]"
         ]
       }
     ]
