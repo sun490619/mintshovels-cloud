@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T01:54:59.614373+00:00",
+  "generated_at": "2026-06-30T04:16:15.570838+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -95,30 +95,30 @@
     ],
     "v2ex": [
       "中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度",
-      "DeepSeek 好贵啊",
-      "冲动提了离职，冷静下来后又舍不得",
       "32 岁才开始玩 塞尔达:王国之泪，神作名不虚传啊",
-      "合并部门后，公司把一位 10 年+的测试裁了，客服部门的同事说唯一懂她们的测试被裁了",
-      "[福利] 全新 AI 模型聚合中转站 Zero Bug 上线 | 自建 GPT 号池 | 开业倍率优惠 | 回帖留 ID 送额度",
-      "炒股赚了点钱，提 5000 刀出来花花，应该买个啥呢？",
-      "OpenAI 偷偷给部分用户推送 GPT-5.6-sol",
       "“万一免五”股票基金大笑脸低佣开户，抽鼠标迈从 A7 V3 PRO+；键盘迈从 Ace 68 V2。",
-      "做点什么副业？"
+      "好奇大家用的牙膏是什么牌子的？",
+      "[福利] 全新 AI 模型聚合中转站 Zero Bug 上线 | 自建 GPT 号池 | 开业倍率优惠 | 回帖留 ID 送额度",
+      "广东农村堂弟不爱读书，中专/技校已经极限了，求建议：未来还有哪些相对靠谱的出路？",
+      "合并部门后，公司把一位 10 年+的测试裁了，客服部门的同事说唯一懂她们的测试被裁了",
+      "兄弟们， deepseek 配合哪个编程工具最好用，有亲身体验的来说说",
+      "大家会不会补充一些维生素，如果会的话一般补充哪些勒？是智商税么？",
+      "OpenAI 偷偷给部分用户推送 GPT-5.6-sol"
     ],
     "devto": [
       "DEV Community: programming",
-      "How AI Is Reshaping Developer Workflows: A Practical Guide",
-      "Choosing an Endpoint Management Platform: Intune vs Jamf vs SCCM",
-      "Time Necromancy: 100 Python Scripts That Resurrect Lost Hours",
-      "How AI Is Reshaping Developer Workflows: A Practical Guide",
-      "Self improving code using the agentic evaluator workflow",
-      "The Error Message That Hands Attackers a Map of Your Database",
-      "How to Be a 10x Engineer",
-      "管道模式深度指南：构建高效数据流处理架构的艺术",
-      "Redis Persistence Pitfalls: A Data Loss Bug That Took Me 6 Hours to Uncover",
-      "ViMax Review: Agentic Multi-Scene Video Generation from HKUDS",
-      "How I Cut My LLM API Costs by 70% Without Touching My Code",
-      "OpenAI, Anthropic, Google — Which One Is Quietly Getting More Expensive?"
+      "The Philosophy of a Tool: Why AI Will Never Take Over and Hidden Guardrails Are Literal Evil",
+      "Fix WebSocket Tick Data Gaps for Crypto Market Feeds — Production Python Implementation",
+      "Building desktop WebView apps in Go without CGo",
+      "Stop Counting Products Manually: A Simple Automation Solution for Manufacturing",
+      "Regex Tester Pro — Live Highlighting, Named Groups, 40+ Pattern Library",
+      "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
+      "Orthogonal: The Word That Taught Me to Cut Things Apart",
+      "GML5 IndexCache",
+      "Sycophancy in AI Is the Safety Problem That Looks Like Politeness",
+      "Claude Hits Azure on Nvidia GB300 Blackwell, GA for Agent Workloads",
+      "Why a Standard Age Calculator Fails for Your Dog (and How I Programmed a Better One)",
+      "What Do Level 1 &amp; Level 2 Forex API Quotes Actually Mean? Fixing Common Quant Data Misunderstandings"
     ],
     "lobsters": [
       "When Impressive Performance Gains Do Not Matter",
@@ -127,19 +127,19 @@
       "WATaBoy: JIT-ing Game Boy Instructions to Wasm Beats a Native Interpreter",
       "Loko Scheme 0.13.0",
       "Ante: New Way to Blend Borrow Checking and Reference Counting",
-      "Canvas patch: we need testers",
-      "The end of the AArch64 desktopexperiment",
       "The AT-URI Syntax Mess",
+      "Canvas patch: we need testers",
       "Type-checked non-empty strings",
+      "The end of the AArch64 desktopexperiment",
       "Evaluation order and nontermination in query languages",
+      "Spindle's new microVM engine",
+      "Revisiting Yliluoma’s ordered dither algorithm",
+      "Longinus: 2 Boundaries in One Bug, Piercing Chrome’s Renderer and V8 Sandbox with a Single Vulnerability, CVE-2026-6307",
       "Typst: Designing for Incrementality",
       "“Double Threat” to Private Communications: Undemocratic Chat Control Backroom Deals and Imminent Concessions Spark Relaunch of fightchatcontrol.eu",
-      "Longinus: 2 Boundaries in One Bug, Piercing Chrome’s Renderer and V8 Sandbox with a Single Vulnerability, CVE-2026-6307",
-      "Spindle's new microVM engine",
       "Towards Understandable Software",
+      "Memory Safe Context Switching",
       "Unprivileged root via a use-after-free in DRM GEM change_handle (CVE-2026-46215)",
-      "Revisiting Yliluoma’s ordered dither algorithm",
-      "You might not need… a service worker",
       "What are you doing this week?"
     ],
     "producthunt": [
@@ -165,39 +165,43 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Qwen 3.6 27B is the sweet spot for local development 🔥607pts 💬508",
-      "US Supreme Court rules geofence warrants require constitutional protections 🔥441pts 💬208",
-      "Rocketlab acquires Iridium 🔥369pts 💬227",
-      "European ISPs Want Rightsholders Held Accountable for Overblocking Damage 🔥348pts 💬98",
-      ".self: A new top-level domain designed to support self-hosting 🔥324pts 💬192",
-      "30-year sentence for transporting zines is a five-alarm fire for free speech 🔥299pts 💬169",
-      "A native graphical shell for SSH 🔥247pts 💬112",
-      "Free the Icons 🔥209pts 💬56",
-      "What happens when you run a CUDA kernel? 🔥205pts 💬26",
-      "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter 🔥177pts 💬29",
-      "Sandia National Labs SA3000 8085 CPU 🔥163pts 💬40",
-      "Ornith-1.0: self-improving open-source models for agentic coding 🔥154pts 💬32",
-      "Dark Sky Lighting 🔥152pts 💬28",
-      "One million passports leaked online 🔥143pts 💬82",
-      "Apple Neural Engine: Architecture, Programming, and Performance 🔥120pts 💬17",
-      "South Korea to spend $1T on more memory chip production and humanoid robots 🔥115pts 💬68",
-      "Wallace the 6 inch f/2.8 telescope, building it, and hiking with it 🔥113pts 💬20",
-      "What can you confidently guarantee about your software? 🔥97pts 💬43",
-      "Working With AI: A concrete example 🔥89pts 💬30",
-      "Scientists find molecular-level evidence for two structures in liquid water 🔥58pts 💬19",
-      "JumpServer: Open-Source Privileged Access Management 🔥55pts 💬22",
-      "Ornith-1.0: Self-scaffolding LLMs for agentic coding 🔥54pts 💬7",
-      "Micro-Agent: Beat Frontier Models with Collaboration Inside Model API 🔥51pts 💬18",
+      "Qwen 3.6 27B is the sweet spot for local development 🔥707pts 💬545",
+      "US Supreme Court rules geofence warrants require constitutional protections 🔥487pts 💬227",
+      "30-year sentence for transporting zines is a five-alarm fire for free speech 🔥415pts 💬239",
+      ".self: A new top-level domain designed to support self-hosting 🔥383pts 💬220",
+      "Rocketlab acquires Iridium 🔥381pts 💬245",
+      "Free the Icons 🔥300pts 💬80",
+      "A native graphical shell for SSH 🔥266pts 💬136",
+      "What happens when you run a CUDA kernel? 🔥228pts 💬28",
+      "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter 🔥191pts 💬30",
+      "One million passports leaked online 🔥183pts 💬107",
+      "Dark Sky Lighting 🔥176pts 💬31",
+      "Ornith-1.0: self-improving open-source models for agentic coding 🔥173pts 💬32",
+      "South Korea to spend $1T on more memory chip production and humanoid robots 🔥169pts 💬98",
+      "Sandia National Labs SA3000 8085 CPU 🔥168pts 💬42",
+      "Apple Neural Engine: Architecture, Programming, and Performance 🔥138pts 💬19",
+      "Wallace the 6 inch f/2.8 telescope, building it, and hiking with it 🔥123pts 💬20",
+      "Working With AI: A concrete example 🔥108pts 💬35",
+      "Scientists find molecular-level evidence for two structures in liquid water 🔥83pts 💬36",
+      "Ornith-1.0: Self-scaffolding LLMs for agentic coding 🔥66pts 💬7",
+      "Micro-Agent: Beat Frontier Models with Collaboration Inside Model API 🔥64pts 💬19",
+      "Memory Safe Context Switching (longjmp, setjmp) in Fil-C 🔥53pts 💬19",
+      "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active 🔥52pts 💬13",
       "Kb – Prolog Knowledge Base",
-      "SQLite improving performance with pre-sort"
+      "SQLite improving performance with pre-sort",
+      "Netflix Simplified Batch Compute with Kueue"
     ],
     "hn_show": [
+      "We made an Audio ML sharing platform — featured on Hacker News (🔥1pts)",
+      "Drifty – AI Focus agent shuts down distractions tabs while you work — featured on Hacker News (🔥1pts)",
+      "Sell Lemons Info – a source-checked Roblox guide site — featured on Hacker News (🔥1pts)",
       "TinyAgents – a Rust based recursive LLM harness — featured on Hacker News (🔥1pts)",
-      "Agentic Orchestrator, a TUI for long-running coding agents — featured on Hacker News (🔥2pts)",
+      "Agentic Orchestrator, a TUI for long-running coding agents — featured on Hacker News (🔥4pts)",
       "Let an AI manage your homelab over MCP without giving it SSH — featured on Hacker News (🔥1pts)",
       "Lighting fast writing app on Mac with powerful table functions — featured on Hacker News (🔥1pts)",
       "Embeddable Cumulative Crates Download History — featured on Hacker News (🔥2pts)",
       "PDF Insight – local-first AI that sorts your PDFs on-device — featured on Hacker News (🔥2pts)",
+      "Foray – AI that turns your idea into a stress-tested business blueprint — featured on Hacker News (🔥2pts)",
       "AMA2, messenger built for AI agent — featured on Hacker News (🔥2pts)",
       "Dribble – an open-source AI IDE for databases — featured on Hacker News (🔥2pts)",
       "A temporal engine for dual calendar synchronization (50k years) — featured on Hacker News (🔥2pts)",
@@ -207,16 +211,13 @@
       "Vibe zsh, turn natural language into shell commands — featured on Hacker News (🔥2pts)",
       "Crudio – Turn an OpenAPI spec into a stateful mock back end — featured on Hacker News (🔥2pts)",
       "Hawkeye – local code search for MS/Linux, fast 500k+ file codebase — featured on Hacker News (🔥2pts)",
-      "OpenSfM v1.0 — featured on Hacker News (🔥4pts)",
-      "An Institutional Terminal for Retail Investors — featured on Hacker News (🔥2pts)",
-      "Fault-tolerant 4-neighbor hardware mesh with auto-rerouting — featured on Hacker News (🔥1pts)",
-      "Ask Yes/No – Daily question puzzle game — featured on Hacker News (🔥2pts)"
+      "OpenSfM v1.0 — featured on Hacker News (🔥4pts)"
     ],
     "hn_ask_tools": [
       "Show HN: Lighting fast writing app on Mac with powerful table functions — user asking for tool recommendation (🔥1pts)",
       "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥2pts)",
       "Show HN: Fault-tolerant 4-neighbor hardware mesh with auto-rerouting — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Xenoeye – analyze network without AI using netflow, PostgreSQL, Grafana — user asking for tool recommendation (🔥3pts)",
+      "Show HN: Xenoeye – analyze network without AI using netflow, PostgreSQL, Grafana — user asking for tool recommendation (🔥4pts)",
       "Show HN: Hail.so – Send and receive emails, calls, SMS via a single MCP/API/CLI — user asking for tool recommendation (🔥1pts)",
       "Show HN: I built Exfault, agentic mobile app pentesting tool — user asking for tool recommendation (🔥6pts)",
       "Show HN: Certificate Transparency search that groups related certificates — user asking for tool recommendation (🔥3pts)",
@@ -238,7 +239,7 @@
       "Show HN: Running a vision model on every screenshot on-device — user asking for tool recommendation (🔥18pts)",
       "Show HN: The open-source alternative to Claude Tag — user asking for tool recommendation (🔥3pts)",
       "XCP-ng: A sovereign alterbative to VMware — user asking for tool recommendation (🔥3pts)",
-      "We need tech news sources which exclude AI — user asking for tool recommendation (🔥131pts)",
+      "We need tech news sources which exclude AI — user asking for tool recommendation (🔥133pts)",
       "Ask HN: Is WordPress the best way to create new websites for beginner — user asking for tool recommendation (🔥12pts)",
       "Show HN: A directory of open source alternatives to proprietary software — user asking for tool recommendation (🔥2pts)",
       "Show HN: Sambee – browser-based file manager for SMB shares and local drives — user asking for tool recommendation (🔥2pts)",
@@ -282,60 +283,60 @@
       "How Cloudflare Solved a Congestion Bug in quiche <img src=\"https://res.infoq.com/news/2026/06/cloudflare-bug-quiche/en/headerimage/generatedHeaderImage-1782410835538.jpg\"/><p>Cloudflare has recently "
     ],
     "google_trends": [
-      "brahim díaz",
-      "azzedine ounahi",
-      "dumfries",
-      "bart verbruggen",
-      "jan paul van hecke",
-      "fifa president",
-      "marocco",
-      "nuevo leon",
-      "nathan aké",
-      "guadalupe"
+      "shohei ohtani",
+      "cole young",
+      "cubs standings",
+      "ivory coast vs norway",
+      "world cup games tomorrow",
+      "canada vs morocco",
+      "northern lights forecast",
+      "morocco 2022 world cup",
+      "2018 world cup",
+      "mariners game today"
     ],
     "baidu": [
-      "一切民族英雄都是中华民族的脊梁",
+      "大党之治",
+      "荷兰点球大战输给摩洛哥 淘汰出局",
       "爆冷出局！德国点球大战不敌巴拉圭",
-      "张雪的一句“是我们”引发岛内热议",
-      "7月1日起 一批新规即将落地",
-      "补时绝杀 巴西2-1淘汰日本",
-      "马航370搜寻最新消息",
+      "闪亮的精神坐标",
+      "全网说丑的格力玫瑰空调卖了5万台",
+      "世界杯一天两场点球大战",
       "人民锐评：网红不能困在无底线逐利里",
-      "输球后日本球迷被强行披上巴西国旗",
-      "世界杯：荷兰vs摩洛哥",
-      "德国罚丢3粒点球",
-      "男子诋毁袁隆平科研成果被刑拘",
-      "湖北云南的这些涉汛信息都是假的",
-      "日本遭读秒绝杀 森保一：我水平不够",
+      "马航370搜寻最新消息",
       "教育部披露：高考生篡改7名同学志愿",
-      "这种关系可能正在悄悄“催老”你",
-      "德国连续三届世界杯无缘16强",
+      "输球后日本球迷被强行披上巴西国旗",
+      "中国共产党党员总数达10128.6万名",
+      "“大睡特睡”能修复大脑？谣言",
+      "马耳他亲吻象塌了 中国男子被砸身亡",
+      "家长集体带孩子在马路上打羽毛球",
       "网友写差评被店家“挂”门口避雷",
-      "泰山景区建135公里刀片刺绳隔离网",
-      "武磊：日本队有能力跟任何强队抗衡",
-      "大蒜晒外面被路过女子连盆端走"
+      "王濛再现我的眼睛就是尺名场面",
+      "荷兰德国同一天淘汰",
+      "日本遭读秒绝杀 森保一：我水平不够",
+      "“黄岩岛自家院子紧张个啥”",
+      "德国队出局后多人痛哭"
     ],
     "wikipedia": [
-      "Pearl in Red",
-      "(84522) 2002 TC302",
-      "National Register of Historic Places listings in Concord, Massachusetts",
-      "Sand Ridge Golf Club",
-      "Naoki Tajima",
-      "Propaganda in Iran",
-      "NFL team captains",
-      "Jiro Yoshihara",
-      "Made in Abyss",
-      "2016 Internationaux Féminins de la Vienne – Doubles",
-      "Sand Moor Golf Club",
-      "Kaniere",
+      "Haley Kalil",
       "Saint Michael V2",
-      "Koati (film)",
-      "Ryan Baker (Canadian football)",
-      "Segundo Singson",
-      "Sand Hills Golf Club",
-      "Benjamin Cribb",
-      "James Kirchick",
-      "Brown Palace Hotel (Denver)"
+      "Three Bells",
+      "Ycare",
+      "ITGB2",
+      "Charlestown State Prison",
+      "Operahuset Nordfjord",
+      "Bluebird Foundation",
+      "Noctis Lucis Caelum",
+      "Charles D. Hudson Transitional Center",
+      "Opus Dei",
+      "20th Independent Infantry Brigade (Guards)",
+      "Pezuela",
+      "Creative Secondary School",
+      "The Death-Defying Pepper Roux",
+      "ITGB8",
+      "Vero Beach Regional Airport",
+      "Nineteen Eighty-Four",
+      "Central New Mexico Correctional Facility",
+      "Hato Arriba, San Sebastián, Puerto Rico"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -370,21 +371,21 @@
       "text-generation Qwen3-4B"
     ],
     "arxiv": [
-      "Adaptive Financial Transformer with Regime-Gated Attention for Stock Return Prediction Adaptive Financial Transformer (AFT) is proposed for stock return prediction under non-stationary financial markets. The model incorporates a Market Regime Encoder, an Adaptive Gate Network, and an Ad",
-      "PHF: Privileged Hidden Flow for On-Policy Self-Distillation On-policy self-distillation (OPSD) trains a reasoning model on rollouts sampled from its own policy by matching a privileged teacher that also sees verified reference solutions. Existing OPSD objectiv",
-      "AMR: Adaptive Modality Routing for Multimodal Polyglot Speaker Identification Multimodal speaker identification systems face two key challenges in real-world deployment: missing modalities and language mismatch between training and testing conditions. In practical scenarios, ba",
-      "Covering the Unseen: Information Demand Coverage Optimization for Retrieval-Augmented Generation Retrieval-augmented generation (RAG) typically treats context selection as ranking chunks against a single query embedding. This assumption breaks down for complex queries, such as multi-hop or ambigu",
-      "Hierarchical Experimentalist Agents Large language models (LLMs) are increasingly used to take actions in the real world and support human decision-making, yet most agents rely on parametric knowledge, fixed post-training data, retrieva",
-      "Process Advantage Signal Shaping: A Paradigm-Agnostic Middleware for Process-Supervised RL in LLM Reasoners Group Relative Policy Optimization (GRPO) is a default recipe for process-supervised reinforcement learning of LLM reasoners, and dense process supervision -- via learned process reward models (PRMs) ",
-      "Deterministic Decisions for High-Stakes AI. A Zero-Egress Pipeline with the Deployability of RAG and the Accuracy of Machine Learning We identify intervention bias as a previously unquantified failure mode of zero-shot large-language-model (LLM) educational advisory agents: without task-specific training, they recommend action when ",
-      "Manufactured Confidence: How Memory Consolidation Turns Hearsay into Confident Facts LLM agents carry conclusions across steps and sessions in compressed memory, and memory products (e.g., mem0, LangMem) rewrite conversation into stored \"facts\" that later steps trust. We show this rew",
-      "The Complexity Ceiling Benchmark: A Multi-Domain Evaluation of Sequential Reasoning Under Depth Scaling We introduce the Complexity Ceiling Benchmark (CCB), a controlled evaluation of how language-model reasoning decays as the number of required sequential steps grows. CCB fixes the semantic content of ",
-      "A Hybrid Framework for Song Lyric Annotation Based on Human-LLM Alignment Emotion recognition of song lyrics is a challenging task since lyrics may not necessarily align with the overall emotion of a song. As a result, lyrics annotation remains largely underexplored. Drawin",
-      "Confidence-feedback-weighted graph matching network: online-offline laser-induced damage site matching under complex interference Online inspection images of final optics in high-power laser facilities contain pseudo-damage sites that closely resemble true damage sites. Determining the authenticity of online-detected sites is th",
-      "When Summaries Distort Decisions: Information Fidelity in LLM-Compressed Financial Analysis Financial decision-makers face more information than they can directly inspect, making context compression necessary. Yet when large language models (LLMs) compress financial source material, they can",
-      "SurgVLA-Bench: Towards Evaluating Vision-Language-Action Models for Laparoscopic Surgical Robotics Vision-Language-Action (VLA) models represent a promising direction for embodied intelligence in surgical robotics. Despite the prevalence of VLA benchmarks for general robotics, standardized evaluati",
-      "MoPe: Motion Permanence for Robust Monocular Gaussian Mapping in Dynamic Environments Robust robot autonomy depends on scene representations that remain stable enough to support localization, navigation, and downstream decision making in dynamic environments. Monocular Gaussian Splatti",
-      "PolicyGuard: A Dialogue-Grounded Sub-Agent Verifier for Policy Adherence in LLM Agents LLM agents handle user requests on behalf of organizations through tool calls and must follow the company policies stated in their system prompts. Prior work approaches this as a safeguarding problem "
+      "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, langu",
+      "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training Full-length song generation must preserve coherence and musicality, render detailed vocal and accompaniment acoustics, and follow lyrics and prompts. Existing language model-based systems face a struc",
+      "Self-Evolving World Models for LLM Agent Planning World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even",
+      "GROW$^2$: Grounding Which and Where for Robot Tool Use Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challeng",
+      "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to ex",
+      "DOPD: Dual On-policy Distillation On-policy distillation (OPD) offers superior capacity transfer by supervising student-sampled trajectories with dense token-level signals. To furnish high-quality supervision sources and thereby eleva",
+      "Optimization Dynamics Imprint Semantic Specificity in Contrastive Embedding Norms Contrastive embedding models trained with scale-invariant losses are typically paired with distance metrics like cosine similarity, effectively ignoring embedding magnitudes. However, surprisingly, em",
+      "C$^{2}$R: Cross-sample Consistency Regularization Mitigates Feature Splitting and Absorption in Sparse Autoencoders Sparse Autoencoders (SAEs) are widely used to interpret large language models by decomposing activations into sparse, human-understandable features, but scaling to large dictionaries exposes fundament",
+      "MESA: Prioritizing Vulnerable Communication Channels for Securing Multi-Agent Systems Multi-agent systems (MAS) are increasingly used to automate complex, distributed workflows. However, their inter-agent communication channels introduce new attack surfaces that remain poorly understoo",
+      "Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection Researchers and practitioners increasingly apply Large Language Models (LLMs) for automated vulnerability detection. Recent work has shown that LLMs are susceptible to the same cognitive heuristics th",
+      "Beyond 2D Matching: A Unified Single-Stage Framework for Geometry-Aware Cross-View Object Geo-Localization Cross-view object geo-localization (CVOGL) aims to locate a target object from a query view (e.g., ground or drone) within a geo-tagged reference image (e.g., satellite). Existing approaches heavily r",
+      "A Multi-task Mixture of Experts Framework for Malware Classification, Packing Detection, and Family Attribution Malware classification remains a challenging problem due to its inherent heterogeneity, the presence of packed binaries, and the diverse distribution of malware families. Traditional single-model dete",
+      "The Human Creativity Benchmark Modern AI evaluation frameworks treat evaluator disagreement as noise to be resolved. In creative domains, professional disagreement reflects genuine differences in taste, not measurement error. We ar",
+      "TraceLab: Characterizing Coding Agent Workloads for LLM Serving Coding agents are rapidly becoming a major application of agentic LLMs, but serving them efficiently remains challenging. Progress on this challenge requires understanding real workload patterns, yet ",
+      "Linguistic Firewall: Geometry as Defense in Multi-Agent Systems Routing The rapid integration of Large Language Models (LLMs) has driven the evolution of Multi-Agent Systems (MAS), where specialized agents collaborate to execute complex workflows. Effective orchestration "
     ],
     "paperswithcode": [],
     "npm_registry": [
@@ -420,34 +421,78 @@
       "ecdsa-sig-formatter — npm package: Translate ECDSA signatures between ASN.1/DER and JOSE-style concatenation"
     ],
     "github_topics": [
-      "github trending topic: tg-proxy",
-      "github trending topic: typescript",
-      "github trending topic: llm",
-      "github trending topic: css",
-      "github trending topic: front end",
-      "github trending topic: javascript",
-      "github trending topic: scala",
-      "github trending topic: python",
-      "github trending topic: react native",
-      "github trending topic: automation",
-      "github trending topic: npm",
-      "github trending topic: tg-fix",
-      "github trending topic: react",
-      "github trending topic: node.js",
-      "github trending topic: claude-code",
-      "github trending topic: compiler",
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: data-visualization",
-      "github trending topic: project management",
-      "github trending topic: code quality",
-      "github trending topic: database",
+      "github trending topic: cli",
       "github trending topic: chrome",
-      "github trending topic: awesome lists"
+      "github trending topic: compile-time",
+      "github trending topic: database",
+      "github trending topic: css",
+      "github trending topic: compiler",
+      "github trending topic: awesome lists",
+      "github trending topic: scala",
+      "github trending topic: npm",
+      "github trending topic: portfolio",
+      "github trending topic: project management",
+      "github trending topic: llm",
+      "github trending topic: typescript",
+      "github trending topic: code quality",
+      "github trending topic: python",
+      "github trending topic: javascript",
+      "github trending topic: constexpr",
+      "github trending topic: front end",
+      "github trending topic: react",
+      "github trending topic: ai-agents",
+      "github trending topic: node.js",
+      "github trending topic: react native"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
+    {
+      "keyword": "Regex Tester Pro — Live Highlighting, Named Groups, 40+ Pattern Library",
+      "matched": "regex",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "Regex Tester",
+      "name_zh": "正则测试器"
+    },
+    {
+      "keyword": "Regex Tester Pro — Live Highlighting, Named Groups, 40+ Pattern Library",
+      "matched": "name",
+      "category": "gaming",
+      "subcat": "fun",
+      "type": "tool",
+      "name": "Name Generator",
+      "name_zh": "名字生成器"
+    },
+    {
+      "keyword": "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
+      "matched": "convert",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Format Converter",
+      "name_zh": "万能格式转换器"
+    },
+    {
+      "keyword": "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
+      "matched": "converter",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Converter",
+      "name_zh": "格式转换"
+    },
+    {
+      "keyword": "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
+      "matched": "timezone",
+      "category": "productivity",
+      "subcat": "time",
+      "type": "tool",
+      "name": "Timezone Converter",
+      "name_zh": "时区转换"
+    },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
@@ -539,24 +584,6 @@
       "name_zh": "问卷构建器"
     },
     {
-      "keyword": "@teld-approval/converter — npm package: converter tool",
-      "matched": "convert",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Format Converter",
-      "name_zh": "万能格式转换器"
-    },
-    {
-      "keyword": "@teld-approval/converter — npm package: converter tool",
-      "matched": "converter",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Converter",
-      "name_zh": "格式转换"
-    },
-    {
       "keyword": "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
       "matched": "format",
       "category": "dev",
@@ -594,6 +621,8 @@
     }
   ],
   "all_keywords": [
+    "Regex Tester Pro — Live Highlighting, Named Groups, 40+ Pattern Library",
+    "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -635,10 +664,10 @@
     "prettier — npm package: Prettier is an opinionated code formatter"
   ],
   "filter_stats": {
-    "raw_count": 169,
-    "valid_count": 39,
-    "rejected_count": 130,
-    "rejection_rate": 76.9,
+    "raw_count": 179,
+    "valid_count": 41,
+    "rejected_count": 138,
+    "rejection_rate": 77.1,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -648,29 +677,22 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "OpenAI 偷偷给部分用户推送 GPT-5.6-sol",
-      "Time Necromancy: 100 Python Scripts That Resurrect Lost Hours",
-      "Self improving code using the agentic evaluator workflow"
+      "The Philosophy of a Tool: Why AI Will Never Take Over and Hidden Guardrails Are Literal Evil",
+      "Fix WebSocket Tick Data Gaps for Crypto Market Feeds — Production Python Implementation"
     ]
   },
   "trait_analysis": {
     "total_captured": 351,
-    "chatter_blocked": 19,
-    "chatter_rate": 5.4,
-    "tool_signals_found": 169,
-    "tool_signal_rate": 48.1,
+    "chatter_blocked": 14,
+    "chatter_rate": 4.0,
+    "tool_signals_found": 179,
+    "tool_signal_rate": 51.0,
     "chatter_samples": [
       {
         "text": "中转站限时特惠， 0.075 倍率特惠分组，评论区送 50 刀体验额度",
         "category": "ad",
         "matched": [
           "限时"
-        ]
-      },
-      {
-        "text": "合并部门后，公司把一位 10 年+的测试裁了，客服部门的同事说唯一懂她们的测试被裁了",
-        "category": "chatter",
-        "matched": [
-          "同事"
         ]
       },
       {
@@ -681,14 +703,21 @@
         ]
       },
       {
-        "text": "US Supreme Court rules geofence warrants require constitutional protections 🔥441",
+        "text": "合并部门后，公司把一位 10 年+的测试裁了，客服部门的同事说唯一懂她们的测试被裁了",
+        "category": "chatter",
+        "matched": [
+          "同事"
+        ]
+      },
+      {
+        "text": "US Supreme Court rules geofence warrants require constitutional protections 🔥487",
         "category": "chatter",
         "matched": [
           "rant"
         ]
       },
       {
-        "text": "One million passports leaked online 🔥143pts 💬82",
+        "text": "One million passports leaked online 🔥183pts 💬107",
         "category": "news",
         "matched": [
           [
@@ -698,17 +727,10 @@
         ]
       },
       {
-        "text": "What can you confidently guarantee about your software? 🔥97pts 💬43",
-        "category": "chatter",
+        "text": "Netflix Simplified Batch Compute with Kueue",
+        "category": "entertainment",
         "matched": [
-          "rant"
-        ]
-      },
-      {
-        "text": "Fault-tolerant 4-neighbor hardware mesh with auto-rerouting — featured on Hacker",
-        "category": "chatter",
-        "matched": [
-          "rant"
+          "Netflix"
         ]
       },
       {
@@ -733,6 +755,16 @@
         "category": "chatter",
         "matched": [
           "vent"
+        ]
+      },
+      {
+        "text": "Presentation: AI Works, Pull Requests Don’t: How AI is Breaking the SDLC and Wha",
+        "category": "news",
+        "matched": [
+          [
+            "Breaking",
+            ""
+          ]
         ]
       }
     ],
@@ -797,54 +829,57 @@
         ]
       },
       {
-        "text": "Time Necromancy: 100 Python Scripts That Resurrect Lost Hours",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['Python']"
-        ]
-      },
-      {
-        "text": "Self improving code using the agentic evaluator workflow",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('evaluator', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "How to Be a 10x Engineer",
-        "confidence": 30,
-        "features": [
-          "输入→输出链式: [('How to Be', 'to', '', '', '', '')]",
-          "需求表达: [('How to Be', 'to', '', '', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "Redis Persistence Pitfalls: A Data Loss Bug That Took Me 6 Hours to Uncover",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('That Took', 'To', '', '', '', ''), ('Hours to Uncover', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "How I Cut My LLM API Costs by 70% Without Touching My Code",
+        "text": "The Philosophy of a Tool: Why AI Will Never Take Over and Hidden Guardrails Are Literal Evil",
         "confidence": 35,
         "features": [
-          "输入→输出链式: [('Without Touching', 'To', '', '', '', '')]",
-          "技术概念: ['API', 'LLM']"
+          "输入→输出链式: [('a Tool', 'To', '', '', '', '')]",
+          "英文工具名词: ['tool']"
         ]
       },
       {
-        "text": "OpenAI, Anthropic, Google — Which One Is Quietly Getting More Expensive?",
-        "confidence": 15,
+        "text": "Fix WebSocket Tick Data Gaps for Crypto Market Feeds — Production Python Implementation",
+        "confidence": 35,
         "features": [
-          "技术概念: ['OpenAI']"
+          "输入→输出链式: [('Crypto Market', 'to', '', '', '', '')]",
+          "技术概念: ['Python', 'WebSocket', 'Crypto']"
         ]
       },
       {
-        "text": "What is `std::pin::Pin` in Rust?",
+        "text": "Building desktop WebView apps in Go without CGo",
+        "confidence": 35,
+        "features": [
+          "输入→输出链式: [('desktop', 'to', '', '', '', '')]",
+          "技术概念: ['Go']"
+        ]
+      },
+      {
+        "text": "Stop Counting Products Manually: A Simple Automation Solution for Manufacturing",
+        "confidence": 45,
+        "features": [
+          "英文动作特征: ['Automation']",
+          "输入→输出链式: [('Stop', 'to', '', '', '', ''), ('Automation', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Regex Tester Pro — Live Highlighting, Named Groups, 40+ Pattern Library",
         "confidence": 15,
         "features": [
-          "技术概念: ['Rust']"
+          "技术概念: ['Regex']"
+        ]
+      },
+      {
+        "text": "Unix Timestamp Converter Pro — Epoch ↔ Human Date, 40+ Timezones, Batch Mode",
+        "confidence": 40,
+        "features": [
+          "英文动作特征: ['Converter', 'Batch Mode']",
+          "英文工具名词: ['converter']"
+        ]
+      },
+      {
+        "text": "Orthogonal: The Word That Taught Me to Cut Things Apart",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Me to Cut', 'to', '', '', '', '')]"
         ]
       }
     ]

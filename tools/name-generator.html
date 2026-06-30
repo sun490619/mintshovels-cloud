@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Generator - 名字生成器 | MintShovels</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #09090b; color: #fafafa; font-family: system-ui, -apple-system, sans-serif; min-height: 100vh; }
+        .card { background: #18181b; border: 1px solid #27272a; border-radius: 16px; padding: 24px; }
+        .btn-primary { background: linear-gradient(135deg,#6366f1,#8b5cf6); color:white; border:none; padding:10px 24px; border-radius:12px; font-weight:600; font-size:14px; cursor:pointer; }
+        .btn-primary:hover { transform:translateY(-1px); box-shadow:0 8px 25px rgba(99,102,241,0.3); }
+        .btn-secondary { background:#27272a; color:#d4d4d8; border:1px solid #3f3f46; padding:10px 24px; border-radius:12px; font-weight:600; font-size:14px; cursor:pointer; }
+        .btn-secondary:hover { background:#3f3f46; }
+        input, textarea { background:#18181b; border:1px solid #27272a; border-radius:10px; padding:10px 14px; color:#fafafa; font-size:14px; width:100%; }
+        input:focus, textarea:focus { outline:none; border-color:#6366f1; }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-3xl mx-auto">
+        <a href="../index.html" class="text-zinc-500 hover:text-white text-sm mb-6 inline-block">← MintShovels</a>
+        <div class="card mb-6">
+            <div class="text-5xl mb-4">🎮</div>
+            <h1 class="text-2xl font-bold">Name Generator</h1>
+            <p class="text-zinc-400">名字生成器</p>
+            <span class="inline-block mt-2 px-3 py-1 rounded-full text-xs bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+                Shovel #042 · 🔧 Web Tool
+            </span>
+        </div>
+        <div class="card">
+            <div class="space-y-4">
+    <div class="flex items-center gap-3">
+        <input id="gen-count" type="number" value="10" min="1" max="1000"
+            class="w-24 bg-zinc-800 border border-zinc-700 rounded-lg px-3 py-2 text-white text-sm">
+        <button onclick="generateshovel_042()" class="btn-primary">🎲 生成</button>
+        <button onclick="exportData()" class="btn-secondary">📥 导出</button>
+    </div>
+    <div id="results" class="space-y-2"></div>
+</div>
+        </div>
+        <script>let name-generator_data = [];
+
+const FIRST = ["Alex","Jordan","Taylor","Morgan","Casey","Riley","Quinn","Avery","Blake","Hayden","Reese","Skyler","Dakota","Emery","Finley","Harper","Parker","Rowan","Sage","Tatum"];
+const LAST = ["Smith","Johnson","Williams","Brown","Jones","Garcia","Miller","Davis","Rodriguez","Martinez","Anderson","Taylor","Thomas","Moore","Jackson","Martin","Lee","Thompson","White","Harris"];
+function genOne() { return FIRST[Math.floor(Math.random()*FIRST.length)] + ' ' + LAST[Math.floor(Math.random()*LAST.length)]; };
+function generateshovel_042() {
+    const count = parseInt(document.getElementById('gen-count')?.value || 10);
+    const results = document.getElementById('results');
+    if (count < 1 || count > 1000) { results.innerHTML = '<p class="text-amber-400">数量1-1000</p>'; return; }
+    const items = [];
+    for (let i = 0; i < count; i++) items.push(`<div class="bg-zinc-800/50 rounded-lg px-3 py-2 text-sm"><span class="text-zinc-500">#${i+1}</span> <span class="text-purple-400 font-medium">${genOne()}</span></div>`);
+    results.innerHTML = items.join('');
+    name-generator_data = items;
+}
+function exportData() {
+    if (!name-generator_data?.length) { alert('请先生成数据'); return; }
+    const text = document.getElementById('results').innerText;
+    const blob = new Blob([text], {type:'text/plain'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob); a.download = 'name-generator_export.txt';
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+}</script>
+    </div>
+</body>
+</html>
