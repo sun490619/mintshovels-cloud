@@ -36,8 +36,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .hint{font-size:11px;color:#484f58;margin-top:4px}
 .quality-bar{display:flex;align-items:center;gap:8px;margin-bottom:24px;background:#161b22;border:1px solid #21262d;border-radius:10px;padding:14px 20px}
 .quality-bar .dot{width:10px;height:10px;border-radius:50%;background:#3fb950}
-.quality-bar a{color:#58a6ff;text-decoration:none;font-size:13px;margin-left:auto}
-.quality-bar a:hover{text-decoration:underline}
+    .quality-bar a{color:#58a6ff;text-decoration:none;font-size:13px;margin-left:auto}
+    .quality-bar a:hover{text-decoration:underline}
+    /* 动态加载模式 */
+    #tool-view{display:none;background:#161b22;border:1px solid #30363d;border-radius:10px;padding:20px;margin-bottom:20px;position:relative}
+    #tool-view .close-btn{position:absolute;top:12px;right:12px;background:#21262d;border:1px solid #30363d;color:#c9d1d9;border-radius:6px;padding:4px 12px;cursor:pointer;font-size:12px;z-index:10}
+    #tool-view .close-btn:hover{background:#30363d}
+    #tool-view iframe{width:100%;border:none;border-radius:8px;min-height:600px;background:#0d1117}
+    #tool-view .loading{text-align:center;padding:40px;color:#8b949e;font-size:14px}
+    #tool-grid{display:block}
+    #tool-grid.hidden{display:none}
 </style>
 </head>
 <body>
@@ -47,7 +55,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 <p>从 Stack Overflow 真实需求自动发现 · AI 判断可行 · 纯前端一键使用 · 无需安装任何环境</p>
 </div>
 <div class="stats">
-<div class="stat"><div class="num">16</div><div class="label">已上线工具</div></div>
+<div class="stat"><div class="num">75</div><div class="label">已上线工具</div></div>
 <div class="stat"><div class="num">37</div><div class="label">需求雷达 PASS</div></div>
 <div class="stat"><div class="num">100%</div><div class="label">可用率</div></div>
 </div>
@@ -190,8 +198,570 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 <div class="tags"><span class="tag generator">生成器</span><span class="tag analyzer">分析器</span><span class="tag utility">工具</span></div>
 </a>
 
+<!-- ===== 自动生成工具 ===== -->
+<a class="card" href="auto_tool_d41d8cd9.html">
+<div class="icon">🧠</div><div class="name">向量数据库性能与成本对比基准测试</div>
+<div class="for-who">给选型/做向量数据库调研的人用</div>
+<div class="plain-desc">对比主流向量数据库（Pinecone、Weaviate、Qdrant、Milvus等）的性能和成本。输入查询参数，自动跑基准测试，出对比报告。</div>
+<div class="what-it-does">📥 选参数 → 📤 出对比报告</div>
+<div class="tags"><span class="tag analyzer">分析器</span><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="auto_x_twitter_post_to_carousel_converter.html">
+<div class="icon">📱</div><div class="name">X/Twitter 帖子转轮播图</div>
+<div class="for-who">给做社交媒体内容运营的人用</div>
+<div class="plain-desc">把 X/Twitter 上的帖子内容一键转换成精美的轮播图（Carousel），适合发到其他平台做内容分发。</div>
+<div class="what-it-does">📥 粘帖子链接 → 📤 出轮播图</div>
+<div class="tags"><span class="tag converter">转换器</span><span class="tag visual">可视化</span></div>
+</a>
+
+<!-- ===== Script 工具系列（Python 自动化脚本） ===== -->
+<a class="card" href="script-001.html">
+<div class="icon">🎬</div><div class="name">视频批量去重流水线</div>
+<div class="for-who">给做短视频批量处理的人用</div>
+<div class="plain-desc">Python 脚本：自动下载 + 去重 Shorts。裁剪、变速、翻转、微震动，绕过版权检测，批量处理。</div>
+<div class="what-it-does">📥 输入视频链接 → 📤 出去重后视频包</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="script-002.html">
+<div class="icon">💰</div><div class="name">多链钱包批量生成器</div>
+<div class="for-who">给 Web3/区块链开发者用</div>
+<div class="plain-desc">Python 脚本：批量生成 ETH/SOL/BTC 钱包地址和私钥，导出 CSV。支持自定义数量和格式。</div>
+<div class="what-it-does">📥 设置数量+链 → 📤 出钱包CSV</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="script-003.html">
+<div class="icon">📁</div><div class="name">文件批量重命名器</div>
+<div class="for-who">给需要批量整理文件的人用</div>
+<div class="plain-desc">Python 脚本：用正则表达式批量重命名文件，支持预览（dry-run），确认后再执行。省得手动一个一个改。</div>
+<div class="what-it-does">📥 选目录+写规则 → 📤 出预览+重命名</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="script-004.html">
+<div class="icon">⚡</div><div class="name">API 限流压测脚本</div>
+<div class="for-who">给后端/API开发者用</div>
+<div class="plain-desc">Python 脚本：对 API 端点进行压力测试，可配置并发数、请求频率，输出延迟分布和错误率报告。</div>
+<div class="what-it-does">📥 配URL+并发数 → 📤 出压测报告</div>
+<div class="tags"><span class="tag analyzer">分析器</span></div>
+</a>
+
+<a class="card" href="script-005.html">
+<div class="icon">🎨</div><div class="name">AI 批量生图脚本</div>
+<div class="for-who">给需要大量AI生成图片的人用</div>
+<div class="plain-desc">Python 脚本：通过 OpenAI/Stable Diffusion API 批量生成图片。输入提示词列表，自动排队生成并保存。</div>
+<div class="what-it-does">📥 写提示词列表 → 📤 出批量图片</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="script-006.html">
+<div class="icon">🖱️</div><div class="name">万能防检测连点器</div>
+<div class="for-who">给需要自动化点击操作的人用</div>
+<div class="plain-desc">Python 脚本：模拟人类点击行为，随机间隔+坐标抖动，避免被检测封号。可自定义点击区域和频率。</div>
+<div class="what-it-does">📥 设坐标+间隔 → 📤 自动模拟点击</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="script-007.html">
+<div class="icon">✅</div><div class="name">多账号一键自动签到器</div>
+<div class="for-who">给管理多个账号的人用</div>
+<div class="plain-desc">Python 脚本：粘贴 token 列表，一秒自动签到所有账号。支持自定义 API 端点，签到状态一目了然。</div>
+<div class="what-it-does">📥 粘token列表 → 📤 自动签到所有账号</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="script-008.html">
+<div class="icon">⛽</div><div class="name">主子钱包 Gas 分发器</div>
+<div class="for-who">给 Web3 多钱包管理的人用</div>
+<div class="plain-desc">Python 脚本：从主钱包向 20 个子钱包分发 Gas 费。反女巫检测，跨链通用，自动计算所需 Gas。</div>
+<div class="what-it-does">📥 设主钱包+子钱包 → 📤 自动分发Gas</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="script-009.html">
+<div class="icon">📊</div><div class="name">链上 Gas 条件单脚本</div>
+<div class="for-who">给做链上交易/交互的人用</div>
+<div class="plain-desc">Python 脚本：Gas 费降到目标值时自动执行合约交互。设置好就放着不管，到了自动跑。</div>
+<div class="what-it-does">📥 设Gas目标+合约 → 📤 自动监控+执行</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="script-010.html">
+<div class="icon">🕸️</div><div class="name">傻瓜式爬虫包</div>
+<div class="for-who">给需要采集网页数据的人用</div>
+<div class="plain-desc">Python 脚本：从目标网站抓取评论/商品信息，一键保存到 Excel/CSV。不用写爬虫代码。</div>
+<div class="what-it-does">📥 输入目标URL → 📤 出Excel/CSV数据</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<!-- ===== Shovel 工具系列（在线工具） ===== -->
+<a class="card" href="shovel-001.html">
+<div class="icon">📥</div><div class="name">多平台素材一键提取</div>
+<div class="for-who">给需要下载社交媒体视频的人用</div>
+<div class="plain-desc">从 YouTube、X(Twitter)、TikTok 提取视频。无水印、无广告，一键下载。</div>
+<div class="what-it-does">📥 粘链接 → 📤 下载无水印视频</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="shovel-002.html">
+<div class="icon">🗜️</div><div class="name">图片批量压缩器</div>
+<div class="for-who">给需要压缩图片的人用</div>
+<div class="plain-desc">批量压缩图片不损失质量。支持 PNG、JPG、WebP 格式，一键批量处理。</div>
+<div class="what-it-does">📥 上传图片 → 📤 出压缩后图片</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="shovel-003.html">
+<div class="icon">🎙️</div><div class="name">双模式音视频转文字</div>
+<div class="for-who">给需要把视频/音频转成文字的人用</div>
+<div class="plain-desc">粘贴 YouTube/B站 链接或拖拽本地文件 → AI Whisper 转录。多语言支持，高精度。</div>
+<div class="what-it-does">📥 粘链接或拖文件 → 📤 出文字稿</div>
+<div class="tags"><span class="tag converter">转换器</span><span class="tag analyzer">分析器</span></div>
+</a>
+
+<a class="card" href="shovel-004.html">
+<div class="icon">📄</div><div class="name">PDF 万能工具箱</div>
+<div class="for-who">给经常处理 PDF 的人用</div>
+<div class="plain-desc">合并、拆分、压缩、转换 PDF。一站式文档处理工具，不用装任何软件。</div>
+<div class="what-it-does">📥 上传PDF → 📤 出处理后的PDF</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="shovel-005.html">
+<div class="icon">👛</div><div class="name">加密货币钱包追踪器</div>
+<div class="for-who">给持有多链钱包的人用</div>
+<div class="plain-desc">追踪钱包余额和交易记录，跨链实时提醒。输入地址就能看。</div>
+<div class="what-it-does">📥 输钱包地址 → 📤 显示余额+交易</div>
+<div class="tags"><span class="tag analyzer">分析器</span></div>
+</a>
+
+<a class="card" href="shovel-006.html">
+<div class="icon">📱</div><div class="name">二维码批量生成器</div>
+<div class="for-who">给需要生成大量二维码的人用</div>
+<div class="plain-desc">批量生成自定义二维码，支持 Logo、颜色、样式定制。一次生成几百个。</div>
+<div class="what-it-does">📥 输入内容列表 → 📤 出二维码图片</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="shovel-007.html">
+<div class="icon">✂️</div><div class="name">智能抠图去背景</div>
+<div class="for-who">给需要抠图去背景的人用</div>
+<div class="plain-desc">AI 一键去背景，精准抠图。上传图片，自动识别主体，秒出透明背景图。</div>
+<div class="what-it-does">📥 上传图片 → 📤 出去背景图</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag visual">可视化</span></div>
+</a>
+
+<a class="card" href="shovel-008.html">
+<div class="icon">📋</div><div class="name">文本差异对比器</div>
+<div class="for-who">给需要对比两段文本差异的人用</div>
+<div class="plain-desc">左右对比两段文本，高亮显示增删改的地方。改了什么一眼看出来。</div>
+<div class="what-it-does">📥 粘两段文本 → 📤 高亮差异</div>
+<div class="tags"><span class="tag analyzer">分析器</span></div>
+</a>
+
+<a class="card" href="shovel-009.html">
+<div class="icon">⛽</div><div class="name">Gas 费用实时计算器</div>
+<div class="for-who">给做链上交易的人用</div>
+<div class="plain-desc">实时估算 ETH、BSC、Polygon、Solana 的 Gas 费用。选链+输入金额，自动算。</div>
+<div class="what-it-does">📥 选链+输入 → 📤 显示Gas费用</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="shovel-010.html">
+<div class="icon">🔧</div><div class="name">JSON 格式化校验器</div>
+<div class="for-who">给经常处理 JSON 数据的开发者用</div>
+<div class="plain-desc">格式化、校验、压缩 JSON。树形视图+语法高亮，一眼看出 JSON 结构。</div>
+<div class="what-it-does">📥 粘JSON → 📤 格式化+校验结果</div>
+<div class="tags"><span class="tag formatter">格式化</span><span class="tag analyzer">分析器</span></div>
+</a>
+
+<a class="card" href="shovel-011.html">
+<div class="icon">🔐</div><div class="name">Base64 编解码器</div>
+<div class="for-who">给需要编解码 Base64 的人用</div>
+<div class="plain-desc">Base64 编码/解码，支持文本和图片。粘进去就出结果。</div>
+<div class="what-it-does">📥 粘文本或传图片 → 📤 出编解码结果</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="shovel-012.html">
+<div class="icon">👤</div><div class="name">随机名字生成器</div>
+<div class="for-who">给写小说/做游戏/起名的人用</div>
+<div class="plain-desc">按文化、性别、风格生成随机名字。适合角色命名、NPC 起名、测试数据。</div>
+<div class="what-it-does">📥 选风格+数量 → 📤 出名字列表</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="shovel-013.html">
+<div class="icon">🎲</div><div class="name">骰子与战利品表</div>
+<div class="for-who">给跑团/DnD/RPG 玩家用</div>
+<div class="plain-desc">虚拟骰子投掷器，支持自定义战利品表和概率。跑团必备工具。</div>
+<div class="what-it-does">📥 选骰子类型 → 📤 出投掷结果</div>
+<div class="tags"><span class="tag generator">生成器</span><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="shovel-014.html">
+<div class="icon">🤖</div><div class="name">AI 提示词优化器</div>
+<div class="for-who">给用 ChatGPT/Claude 等 AI 的人用</div>
+<div class="plain-desc">优化你的 AI 提示词，让 AI 输出更好的结果。支持多种模型风格。</div>
+<div class="what-it-does">📥 写提示词 → 📤 出优化版提示词</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="shovel-015.html">
+<div class="icon">📝</div><div class="name">AI 文章摘要生成器</div>
+<div class="for-who">给需要快速阅读长文章的人用</div>
+<div class="plain-desc">把长文章、论文、文档一键总结成要点。不用从头读到尾。</div>
+<div class="what-it-does">📥 粘文章 → 📤 出摘要要点</div>
+<div class="tags"><span class="tag analyzer">分析器</span><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="shovel-016.html">
+<div class="icon">📐</div><div class="name">万能单位换算器</div>
+<div class="for-who">给需要各种单位换算的人用</div>
+<div class="plain-desc">100+ 种单位换算：长度、重量、温度、货币、数据存储。一个工具搞定所有换算。</div>
+<div class="what-it-does">📥 输入数值+选单位 → 📤 出换算结果</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="shovel-017.html">
+<div class="icon">🎵</div><div class="name">YouTube/B站 音频一键提取</div>
+<div class="for-who">给需要下载视频音频的人用</div>
+<div class="plain-desc">粘贴视频链接，一键提取音频为 MP3。不用下载完整视频，省空间。</div>
+<div class="what-it-does">📥 粘视频链接 → 📤 出MP3音频</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="shovel-018.html">
+<div class="icon">🌐</div><div class="name">域名起名+测活一体机</div>
+<div class="for-who">给找域名/建站的人用</div>
+<div class="plain-desc">AI 生成 100 个域名创意 + 实时查询 .com 可用性。找到心仪域名不再难。</div>
+<div class="what-it-does">📥 输入关键词 → 📤 出可用域名列表</div>
+<div class="tags"><span class="tag generator">生成器</span><span class="tag analyzer">分析器</span></div>
+</a>
+
+<a class="card" href="shovel-019.html">
+<div class="icon">🆔</div><div class="name">随机资料/身份生成器</div>
+<div class="for-who">给做测试/Web3/创意项目的人用</div>
+<div class="plain-desc">生成逼真的假身份信息：姓名、地址、电话、邮箱。用于测试、Web3 或创意命名。</div>
+<div class="what-it-does">📥 选地区+数量 → 📤 出身份信息</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="shovel-020.html">
+<div class="icon">👛</div><div class="name">多钱包状态批量查询器</div>
+<div class="for-who">给管理多个加密钱包的人用</div>
+<div class="plain-desc">导入地址列表 → 批量查询余额和交易记录 → 导出 Excel 报告。一次查几百个钱包。</div>
+<div class="what-it-does">📥 导入地址列表 → 📤 出余额报告Excel</div>
+<div class="tags"><span class="tag analyzer">分析器</span></div>
+</a>
+
+<a class="card" href="shovel-021.html">
+<div class="icon">🛒</div><div class="name">跨境电商图片批量格式化</div>
+<div class="for-who">给做跨境电商/淘宝的人用</div>
+<div class="plain-desc">批量裁剪 800x800、加水印、压缩、重命名。一站式电商图片处理。</div>
+<div class="what-it-does">📥 上传图片 → 📤 出处理后的商品图</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="shovel-022.html">
+<div class="icon">📊</div><div class="name">财务/销售报表合并工具</div>
+<div class="for-who">给做财务/数据分析的人用</div>
+<div class="plain-desc">上传多个 Excel 文件 → 自动清洗对齐列 → 合并成一份主报表。告别手动复制粘贴。</div>
+<div class="what-it-does">📥 上传Excel文件 → 📤 出合并报表</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag analyzer">分析器</span></div>
+</a>
+
+<a class="card" href="shovel-023.html">
+<div class="icon">📋</div><div class="name">PDF 转换工具矩阵</div>
+<div class="for-who">给经常处理文档格式的人用</div>
+<div class="plain-desc">PDF ↔ Word/Excel/PPT/JPG，合并、拆分、压缩、旋转。PDF 全能工作站。</div>
+<div class="what-it-does">📥 上传PDF → 📤 出转换后的文档</div>
+<div class="tags"><span class="tag converter">转换器</span><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="shovel-024.html">
+<div class="icon">📋</div><div class="name">问卷构建器</div>
+<div class="for-who">给需要做问卷调查的人用</div>
+<div class="plain-desc">拖拽式问卷设计，多种题型，逻辑跳转，导出 CSV。零代码创建专业问卷。</div>
+<div class="what-it-does">📥 拖拽设计 → 📤 出问卷+数据导出</div>
+<div class="tags"><span class="tag generator">生成器</span><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="shovel-025.html">
+<div class="icon">📝</div><div class="name">表单构建器</div>
+<div class="for-who">给需要创建在线表单的人用</div>
+<div class="plain-desc">拖拽式表单设计器，20+ 字段类型，验证规则，Webhook 集成。几秒建好表单。</div>
+<div class="what-it-does">📥 拖拽设计 → 📤 出可用的表单</div>
+<div class="tags"><span class="tag generator">生成器</span><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="shovel-026.html">
+<div class="icon">💻</div><div class="name">代码片段管理</div>
+<div class="for-who">给开发者/程序员用</div>
+<div class="plain-desc">保存、整理、打标签、搜索代码片段。语法高亮，导出到 Gist，团队共享。你的代码笔记本。</div>
+<div class="what-it-does">📥 粘代码+打标签 → 📤 分类管理+搜索</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag reference">参考</span></div>
+</a>
+
+<!-- ===== 其他在线工具 ===== -->
+<a class="card" href="ai-assistant.html">
+<div class="icon">🤖</div><div class="name">AI 商机捕手</div>
+<div class="for-who">给有工具创意但不会编程的人用</div>
+<div class="plain-desc">描述你的工具需求，MintShovels 自动工厂帮你做出来。免费定制工具需求提交。</div>
+<div class="what-it-does">📥 描述需求 → 📤 自动生成工具</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="api-tester.html">
+<div class="icon">🔌</div><div class="name">API 测试工具</div>
+<div class="for-who">给后端/API 开发者用</div>
+<div class="plain-desc">测试 REST API，支持 GET/POST/PUT/PATCH/DELETE，自定义请求头和 Body。不用装 Postman。</div>
+<div class="what-it-does">📥 填URL+参数 → 📤 显示API响应</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="converter.html">
+<div class="icon">🔄</div><div class="name">格式转换</div>
+<div class="for-who">给需要各种格式转换的人用</div>
+<div class="plain-desc">多格式转换工具，支持常见文件格式之间的互相转换。在线即用。</div>
+<div class="what-it-does">📥 上传文件 → 📤 出转换后文件</div>
+<div class="tags"><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="editor.html">
+<div class="icon">✏️</div><div class="name">编辑器</div>
+<div class="for-who">给需要在线编辑文本的人用</div>
+<div class="plain-desc">在线文本编辑器，自动保存、字数统计、字符统计。免费，无需注册。</div>
+<div class="what-it-does">📥 输入文本 → 📤 自动保存+统计</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="formatter.html">
+<div class="icon">🎨</div><div class="name">格式化工具</div>
+<div class="for-who">给需要格式化代码/数据的人用</div>
+<div class="plain-desc">多语言代码格式化工具，一键整理混乱代码为整齐格式。</div>
+<div class="what-it-does">📥 粘混乱代码 → 📤 出格式化代码</div>
+<div class="tags"><span class="tag formatter">格式化</span></div>
+</a>
+
+<a class="card" href="generator.html">
+<div class="icon">🔑</div><div class="name">生成器</div>
+<div class="for-who">给需要随机生成数据的人用</div>
+<div class="plain-desc">UUID、密码、随机字符串生成器。一键生成，一键复制。免费在线工具。</div>
+<div class="what-it-does">📥 选类型+数量 → 📤 出随机数据</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="html-preview.html">
+<div class="icon">👁️</div><div class="name">HTML 预览器</div>
+<div class="for-who">给前端开发者用</div>
+<div class="plain-desc">实时预览 HTML 代码效果。写代码右边即时看到渲染结果。</div>
+<div class="what-it-does">📥 写HTML → 📤 实时预览效果</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag visual">可视化</span></div>
+</a>
+
+<a class="card" href="json-formatter.html">
+<div class="icon">📋</div><div class="name">JSON 格式化</div>
+<div class="for-who">给经常处理 JSON 的开发者用</div>
+<div class="plain-desc">JSON 格式化、校验、压缩。粘进去一键整理成可读格式。</div>
+<div class="what-it-does">📥 粘JSON → 📤 出格式化JSON</div>
+<div class="tags"><span class="tag formatter">格式化</span></div>
+</a>
+
+<a class="card" href="llm-tool.html">
+<div class="icon">🧠</div><div class="name">大模型工具</div>
+<div class="for-who">给使用 AI 大模型的人用</div>
+<div class="plain-desc">大模型辅助工具，帮助更好地使用和调试 AI 模型。</div>
+<div class="what-it-does">📥 输入 → 📤 AI输出</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="markdown-editor.html">
+<div class="icon">📝</div><div class="name">Markdown 编辑器</div>
+<div class="for-who">给写文档/笔记的人用</div>
+<div class="plain-desc">实时 Markdown 编辑器，左边写右边预览。写文档、README、笔记的好工具。</div>
+<div class="what-it-does">📥 写Markdown → 📤 实时预览</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag visual">可视化</span></div>
+</a>
+
+<a class="card" href="note-taker.html">
+<div class="icon">📓</div><div class="name">笔记工具</div>
+<div class="for-who">给需要记笔记的人用</div>
+<div class="plain-desc">在线笔记工具，快速记录灵感。简单好用，无需注册。</div>
+<div class="what-it-does">📥 打字 → 📤 保存笔记</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="pdf-editor.html">
+<div class="icon">📄</div><div class="name">PDF 编辑器</div>
+<div class="for-who">给需要编辑 PDF 的人用</div>
+<div class="plain-desc">在线编辑、合并、拆分、压缩 PDF。无水印，无需注册，免费 PDF 工具箱。</div>
+<div class="what-it-does">📥 上传PDF → 📤 编辑后PDF</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="prompt-optimizer.html">
+<div class="icon">⚡</div><div class="name">Prompt 优化器</div>
+<div class="for-who">给用 ChatGPT/Claude 等 AI 的人用</div>
+<div class="plain-desc">优化 AI 提示词，让 ChatGPT、Claude 等大模型输出更好的结果。</div>
+<div class="what-it-does">📥 写原始提示词 → 📤 出优化版</div>
+<div class="tags"><span class="tag generator">生成器</span></div>
+</a>
+
+<a class="card" href="renderer.html">
+<div class="icon">🖼️</div><div class="name">渲染器</div>
+<div class="for-who">给需要渲染内容的人用</div>
+<div class="plain-desc">在线内容渲染工具，支持多种格式的渲染和预览。</div>
+<div class="what-it-does">📥 输入内容 → 📤 渲染结果</div>
+<div class="tags"><span class="tag utility">工具</span><span class="tag visual">可视化</span></div>
+</a>
+
+<a class="card" href="site-monitor.html">
+<div class="icon">📡</div><div class="name">站点监控器</div>
+<div class="for-who">给需要监控网站状态的人用</div>
+<div class="plain-desc">监控网站是否在线、响应时间、SSL 证书状态。出问题第一时间知道。</div>
+<div class="what-it-does">📥 输入站点URL → 📤 显示监控状态</div>
+<div class="tags"><span class="tag analyzer">分析器</span></div>
+</a>
+
+<a class="card" href="sql-formatter.html">
+<div class="icon">📐</div><div class="name">SQL 格式化</div>
+<div class="for-who">给写 SQL 的人用</div>
+<div class="plain-desc">格式化、美化、压缩 SQL 查询。支持 MySQL、PostgreSQL、SQLite 语法高亮。</div>
+<div class="what-it-does">📥 粘SQL → 📤 出格式化SQL</div>
+<div class="tags"><span class="tag formatter">格式化</span></div>
+</a>
+
+<a class="card" href="survey-builder.html">
+<div class="icon">📋</div><div class="name">问卷构建器（完整版）</div>
+<div class="for-who">给需要做问卷调查的人用</div>
+<div class="plain-desc">拖拽式问卷设计，多种题型，逻辑分支，实时预览。免费在线问卷工具。</div>
+<div class="what-it-does">📥 拖拽设计 → 📤 出问卷+数据</div>
+<div class="tags"><span class="tag generator">生成器</span><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="text-tools.html">
+<div class="icon">✂️</div><div class="name">文本工具箱</div>
+<div class="for-who">给需要处理文本的人用</div>
+<div class="plain-desc">多功能文本处理工具：大小写转换、去重、排序、统计。一站式文本处理。</div>
+<div class="what-it-does">📥 粘文本+选操作 → 📤 出处理结果</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="video-converter.html">
+<div class="icon">🎬</div><div class="name">视频格式转换器</div>
+<div class="for-who">给需要转换视频格式的人用</div>
+<div class="plain-desc">视频格式互转（MP4、WebM、AVI、MOV），批量处理。免费在线工具。</div>
+<div class="what-it-does">📥 上传视频 → 📤 出转换后视频</div>
+<div class="tags"><span class="tag converter">转换器</span></div>
+</a>
+
+<a class="card" href="view.html">
+<div class="icon">🔍</div><div class="name">工具查看器</div>
+<div class="for-who">给浏览所有工具库的人用</div>
+<div class="plain-desc">MintShovels 动态工具查看器，浏览工厂所有工具。一站式工具导航。</div>
+<div class="what-it-does">📥 浏览 → 📤 查看工具详情</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
+<a class="card" href="viewer.html">
+<div class="icon">👁️</div><div class="name">查看器</div>
+<div class="for-who">给需要查看内容的人用</div>
+<div class="plain-desc">通用内容查看器，支持多种格式内容的浏览和查看。</div>
+<div class="what-it-does">📥 打开内容 → 📤 显示查看</div>
+<div class="tags"><span class="tag utility">工具</span></div>
+</a>
+
 </div>
 <div class="footer">MintShovels 需求雷达自动发现 · 持续更新中 · 白话说明书帮助非技术人员理解每个工具</div>
 </div>
+
+<!-- 动态工具加载 -->
+<div id="tool-view" style="display:none">
+  <button class="close-btn" onclick="closeToolView()">✕ 返回工具库</button>
+  <div id="tool-view-loading" class="loading">⏳ 正在加载工具...</div>
+  <iframe id="tool-frame" src="" sandbox="allow-scripts allow-same-origin allow-forms" loading="lazy"></iframe>
+</div>
+
+<script>
+(function() {
+  const params = new URLSearchParams(window.location.search);
+  const tool = params.get('tool');
+  if (tool) {
+    loadTool(tool);
+  }
+})();
+
+function loadTool(toolId) {
+  const grid = document.getElementById('tool-grid');
+  const view = document.getElementById('tool-view');
+  const frame = document.getElementById('tool-frame');
+  const loading = document.getElementById('tool-view-loading');
+  
+  grid.classList.add('hidden');
+  view.style.display = 'block';
+  loading.style.display = 'block';
+  frame.style.display = 'none';
+  
+  // 检测是 script/shovel 还是其他工具
+  let path = toolId;
+  if (!toolId.endsWith('.html')) {
+    path = toolId + '.html';
+  }
+  
+  frame.onload = function() {
+    loading.style.display = 'none';
+    frame.style.display = 'block';
+    // 自动调整 iframe 高度
+    try {
+      const doc = frame.contentDocument || frame.contentWindow.document;
+      if (doc && doc.body) {
+        const h = Math.max(doc.body.scrollHeight, 600);
+        frame.style.minHeight = h + 'px';
+      }
+    } catch(e) {
+      // 跨域限制时忽略
+    }
+  };
+  
+  frame.src = path;
+  
+  // 更新 URL 但不刷新页面
+  const url = new URL(window.location);
+  url.searchParams.set('tool', toolId);
+  window.history.replaceState({tool: toolId}, '', url);
+}
+
+function closeToolView() {
+  const grid = document.getElementById('tool-grid');
+  const view = document.getElementById('tool-view');
+  const frame = document.getElementById('tool-frame');
+  
+  grid.classList.remove('hidden');
+  view.style.display = 'none';
+  frame.src = '';
+  
+  // 清除 URL 参数
+  const url = new URL(window.location);
+  url.searchParams.delete('tool');
+  window.history.replaceState({}, '', url);
+}
+
+// 所有卡片点击改为动态加载
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.card').forEach(function(card) {
+    card.addEventListener('click', function(e) {
+      const href = card.getAttribute('href');
+      if (href && !href.startsWith('http') && !href.startsWith('#')) {
+        e.preventDefault();
+        const toolId = href.replace('.html', '');
+        loadTool(toolId);
+      }
+    });
+  });
+});
+</script>
 </body>
 </html>

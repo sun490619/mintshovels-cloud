@@ -1,42 +1,36 @@
 {
-  "updated_at": "2026-06-26T13:11:03.205714",
+  "updated_at": "2026-06-30T22:00:17.515129",
   "sources": {
     "reddit": 0,
-    "hackernews": 5,
+    "hackernews": 4,
     "stackoverflow": 43,
     "github": 1
   },
-  "candidates_count": 5,
+  "candidates_count": 4,
   "candidates": [
     {
-      "text": "Show HN: Turns Any XPost into Carousel",
+      "text": "Show HN: Autoharness – a self-learning, maintaining skill layer for Claude Code",
       "source": "hackernews",
-      "url": "https://tocarousel.app",
-      "fetched_at": "2026-06-26T13:08:00.125692"
+      "url": "https://github.com/tigerless-labs/autoharness",
+      "fetched_at": "2026-06-30T21:58:20.918815"
     },
     {
-      "text": "Show HN: Appaca – AI Workspace for Operators",
+      "text": "Show HN: Rinkta – pulls finished work from all task managers into one dashboard",
       "source": "hackernews",
-      "url": "https://www.appaca.ai/",
-      "fetched_at": "2026-06-26T13:08:51.674695"
+      "url": "https://rinkta.com/",
+      "fetched_at": "2026-06-30T21:59:12.088069"
     },
     {
-      "text": "Show HN: Trophikos – a calm, ad-free recipe and cocktail library for iOS",
+      "text": "Show HN: Valmis, an OpenClaw alternative built for work, with security in mind",
       "source": "hackernews",
-      "url": "https://apps.apple.com/us/app/trophikos/id6773508921",
-      "fetched_at": "2026-06-26T13:10:00.885341"
+      "url": "https://github.com/valmishq/valmis",
+      "fetched_at": "2026-06-30T21:59:32.968106"
     },
     {
-      "text": "OpenAI will initially only release ChatGPT 5.6 to government-approved customers",
+      "text": "Show HN: Built a minimalist currency converter app that I use daily now",
       "source": "hackernews",
-      "url": "https://www.engadget.com/2202129/openai-will-initially-only-release-chatgpt-5-6-to-government-approved-customers/",
-      "fetched_at": "2026-06-26T13:10:37.280136"
-    },
-    {
-      "text": "Leave Windows 11 Idle for 24 Hours and Watch What Happens [video][18 mins]",
-      "source": "hackernews",
-      "url": "https://www.youtube.com/watch?v=Wtg_s1GQiMU",
-      "fetched_at": "2026-06-26T13:10:54.782605"
+      "url": "https://globallybased.com/denom",
+      "fetched_at": "2026-06-30T22:00:07.467190"
     }
   ]
 }

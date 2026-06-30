@@ -54,5 +54,16 @@
     "pain_level": 0,
     "status": "pending",
     "added_at": "2026-06-26T00:57:02.950284"
+  },
+  {
+    "text": "Is there a Mario Wii Web port?",
+    "canonical_name": "Wii 模拟器网页版",
+    "confidence": 95,
+    "reason": "用户希望在浏览器中直接运行 Wii 游戏，属于跨平台游戏模拟需求。",
+    "is_feasible": false,
+    "feasibility_reason": "受限于浏览器性能、WebAssembly 算力瓶颈以及任天堂的版权保护机制，目前无法实现合法的网页版 Wii 模拟器。",
+    "pain_level": 0,
+    "status": "pending",
+    "added_at": "2026-06-30T11:46:53.540347"
   }
 ]

@@ -6,5 +6,29 @@
     "template": "Color Converter",
     "score": 13,
     "generated_at": "2026-06-26T13:11:26.898698"
+  },
+  {
+    "text": "D&D/RPG 剧情生成器",
+    "title": "D&d/rpg 剧情生成器",
+    "file": "auto_d_d_rpg.html",
+    "template": "Random Generator",
+    "score": 23,
+    "generated_at": "2026-06-30T11:46:53.579406"
+  },
+  {
+    "text": "GitHub提交记录可视化生成器",
+    "title": "Github提交记录可视化生成器",
+    "file": "auto_github.html",
+    "template": "Random Generator",
+    "score": 23,
+    "generated_at": "2026-06-30T15:53:06.143195"
+  },
+  {
+    "text": "极简货币转换器",
+    "title": "极简货币转换器",
+    "file": "auto_tool_d41d8cd9.html",
+    "template": "Text Transformer",
+    "score": 10,
+    "generated_at": "2026-06-30T22:00:23.730071"
   }
 ]

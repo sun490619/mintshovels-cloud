@@ -27,6 +27,21 @@ jobs:
       - name: 安装 Chromium
         run: npx playwright install chromium
       
+      - name: 启动本地服务器
+        run: |
+          npx serve -l 8765 --no-clipboard --no-request-logging &
+          sleep 3
+          # 验证服务器是否启动成功
+          for i in 1 2 3 4 5; do
+            if curl -s http://localhost:8765/ > /dev/null 2>&1; then
+              echo "✅ 本地服务器已启动 (端口 8765)"
+              break
+            fi
+            echo "⏳ 等待服务器启动... ($i/5)"
+            sleep 2
+          done
+          curl -s http://localhost:8765/ > /dev/null 2>&1 || { echo "❌ 服务器启动失败"; exit 1; }
+      
       - name: 运行功能测试
         run: node test_tools.mjs
         env:

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>向量数据库性能与成本对比基准测试工具</title>
+<title>极简货币转换器</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;display:flex;justify-content:center;padding:40px 20px;min-height:100vh}
@@ -34,26 +34,39 @@ pre{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:14px;f
 </head>
 <body>
 <div class="container">
-<h1>🔍 向量数据库性能与成本对比基准测试工具</h1>
-<p class="sub">向量数据库性能与成本对比基准测试工具 <span class="badge badge-auto">Auto Generated</span></p>
-<div class="box" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
-<div><h3>📝 Text A</h3>
-<textarea id="inputA" placeholder="Paste original text..."></textarea></div>
-<div><h3>📝 Text B</h3>
-<textarea id="inputB" placeholder="Paste modified text..."></textarea></div>
+<h1>📝 极简货币转换器</h1>
+<p class="sub">极简货币转换器 <span class="badge badge-auto">Auto Generated</span></p>
+<div class="box">
+<h3>📥 Input</h3>
+<textarea id="input" placeholder="Enter your text here..."></textarea>
+<div class="flex-row">
+<button class="btn sample" onclick="toUpper()">AA UPPER</button>
+<button class="btn sample" onclick="toLower()">aa lower</button>
+<button class="btn sample" onclick="toTitle()">Aa Title</button>
+<button class="btn sample" onclick="toSentence()">Sentence case</button>
+<button class="btn sample" onclick="reverse()">↔ Reverse</button>
+<button class="btn sample" onclick="sortLines()">⇅ Sort Lines</button>
+<button class="btn sample" onclick="dedup()">⊘ Deduplicate</button>
 </div>
-<button class="btn" onclick="compare()">🔍 Compare</button>
-<button class="btn sample" onclick="loadSample()">📎 Sample</button>
-<div class="box" style="margin-top:16px">
-<h3>📊 Result</h3>
-<div class="result-box" id="output"></div>
+</div>
+<div class="box">
+<h3>📤 Output</h3>
+<pre id="output"></pre>
 <button class="btn copy" onclick="copyText('output')">📋 Copy</button>
+<span style="font-size:12px;color:#8b949e;margin-left:12px" id="stats"></span>
 </div>
 </div>
 <div class="toast" id="toast"></div>
 <script>
-function loadSample(){{document.getElementById("inputA").value="The quick brown fox\njumps over the lazy dog\nHello World";document.getElementById("inputB").value="The quick brown cat\njumps over the lazy dog\nHello Universe"}}
-function compare(){{var a=document.getElementById("inputA").value.split("\n");var b=document.getElementById("inputB").value.split("\n");var max=Math.max(a.length,b.length);var r=[];for(var i=0;i<max;i++){{var la=a[i]||"(empty)";var lb=b[i]||"(empty)";if(la===lb){{r.push('<span style="color:#7ee787">  '+la+'</span>')}}else{{r.push('<span style="color:#ff7b72">- '+la+'</span>');r.push('<span style="color:#79c0ff">+ '+lb+'</span>')}}}}document.getElementById("output").innerHTML=r.join("<br>")||"No differences found"}}
+var inp=function(){{return document.getElementById("input").value}};var out=function(t){{document.getElementById("output").textContent=t}};
+function stats(){{var t=inp();document.getElementById("stats").textContent="Chars: "+t.length+" | Words: "+(t.trim()?t.trim().split(/\s+/).length:0)+" | Lines: "+(t?t.split("\n").length:0)}}
+function toUpper(){{out(inp().toUpperCase());stats()}}
+function toLower(){{out(inp().toLowerCase());stats()}}
+function toTitle(){{out(inp().replace(/\w\S*/g,function(t){{return t.charAt(0).toUpperCase()+t.substr(1).toLowerCase()}}));stats()}}
+function toSentence(){{out(inp().toLowerCase().replace(/(^\s*\w|[.!?]\s+\w)/g,function(t){{return t.toUpperCase()}}));stats()}}
+function reverse(){{out(inp().split("").reverse().join(""));stats()}}
+function sortLines(){{out(inp().split("\n").sort().join("\n"));stats()}}
+function dedup(){{var lines=inp().split("\n");var seen=new Set();out(lines.filter(function(l){{if(seen.has(l))return false;seen.add(l);return true}}).join("\n"));stats()}}
 <script>
 function showToast(msg,isErr){var t=document.getElementById('toast');t.textContent=msg;t.className='toast'+(isErr?' error':'')+' show';setTimeout(function(){t.className='toast'},2000)}
 function copyText(elId){var el=document.getElementById(elId);var txt=el.tagName==='TEXTAREA'||el.tagName==='INPUT'?el.value:el.textContent;navigator.clipboard.writeText(txt).then(function(){showToast('✅ 已复制')}).catch(function(){showToast('复制失败',true)})}

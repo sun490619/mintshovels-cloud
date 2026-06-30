@@ -1,11 +1,9 @@
 {
+  "mode": "deep",
   "ok": true,
-  "detail": "🟢 v1.6已切除自动生成垃圾 (3314条JSON审计记录, 0个实际文件) | 归档1558工具真实健康率 100.0%",
-  "hollow_count": 3290,
-  "total": 3314,
-  "health_rate": 0.7,
-  "checked_at": "2026-06-27T22:26:09.236950+00:00Z",
-  "archive_health_rate": 100.0,
-  "archive_total": 1558,
-  "mode": "snapshot"
+  "health_rate": 100.0,
+  "total": 1558,
+  "hollow_count": 0,
+  "functional_count": 1558,
+  "checked_at": "2026-06-30T15:47:25.664421+00:00Z"
 }
