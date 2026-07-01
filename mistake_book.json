@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_judged": 254,
+  "total_judged": 256,
   "total_corrected": 1,
   "history": [
     {
@@ -2930,6 +2930,30 @@
       "is_unmet": false,
       "is_feasible": false,
       "feasibility_reason": "文本描述的是一个具体的项目展示，而非一个可抽象为在线工具的通用需求。"
+    },
+    {
+      "text": "I've been running a local business company for 5 yers, looking for a cofounder",
+      "timestamp": "2026-07-01T14:25:36.048692",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 100,
+      "reason": "该文本属于社交招聘需求，而非可转化为在线数据处理工具的功能性需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "寻找合伙人属于人际匹配和商业决策范畴，无法通过纯软件算法实现输入输出的自动化处理。"
+    },
+    {
+      "text": "Show HN: Aegize (trying to mitigate the risk of AI)",
+      "timestamp": "2026-07-01T14:25:37.482757",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 95,
+      "reason": "该文本是典型的 Show HN（展示个人项目）标题，属于产品推广或项目展示，而非用户提出的具体功能需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "文本描述的是一个已存在的项目名称，而非一个待解决的工具需求。"
     }
   ],
   "corrections": [

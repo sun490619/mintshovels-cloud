@@ -1,36 +1,24 @@
 {
-  "updated_at": "2026-07-01T12:20:43.737224",
+  "updated_at": "2026-07-01T14:25:34.709468",
   "sources": {
     "reddit": 0,
-    "hackernews": 4,
+    "hackernews": 2,
     "stackoverflow": 43,
     "github": 1
   },
-  "candidates_count": 4,
+  "candidates_count": 2,
   "candidates": [
     {
-      "text": "Why do teams keep losing context, and why hasn't any tool fixed it?",
+      "text": "I've been running a local business company for 5 yers, looking for a cofounder",
       "source": "hackernews",
-      "url": "https://news.ycombinator.com/item?id=48742163",
-      "fetched_at": "2026-07-01T12:16:48.456569"
+      "url": "https://news.ycombinator.com/item?id=48742789",
+      "fetched_at": "2026-07-01T14:21:44.931200"
     },
     {
-      "text": "What Happened to the Fight for the Internet?",
+      "text": "Show HN: Aegize (trying to mitigate the risk of AI)",
       "source": "hackernews",
-      "url": "https://dustycloud.org/blog/what-happened-to-the-fight-for-the-internet/",
-      "fetched_at": "2026-07-01T12:19:41.683030"
-    },
-    {
-      "text": "How to talk about \"AI\" without adding to the anthropomorphization",
-      "source": "hackernews",
-      "url": "https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the/",
-      "fetched_at": "2026-07-01T12:19:52.960200"
-    },
-    {
-      "text": "Show HN: Gilfoyle's Project but IRL",
-      "source": "hackernews",
-      "url": "https://github.com/korrectional/GilfoyleAI",
-      "fetched_at": "2026-07-01T12:20:23.144954"
+      "url": "https://www.aegize.com/playground/",
+      "fetched_at": "2026-07-01T14:21:48.995849"
     }
   ]
 }

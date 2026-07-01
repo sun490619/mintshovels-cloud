@@ -1,35 +1,14 @@
 {
-  "timestamp": "2026-07-01T12:20:49.726602",
+  "timestamp": "2026-07-01T14:25:37.494183",
   "stats": {
-    "total": 43,
+    "total": 45,
     "passed": 10,
-    "blocked": 31,
+    "blocked": 33,
     "warned": 2
   },
   "results": [
     {
-      "text": "Why do teams keep losing context, and why hasn't any tool fixed it?",
-      "pain_signal": {
-        "has_signal": false,
-        "level": 0,
-        "matched": []
-      },
-      "classification": {
-        "pass": true,
-        "is_unmet": true,
-        "is_feasible": false,
-        "canonical_name": "团队上下文同步与知识图谱构建工具",
-        "tool_type": "other",
-        "confidence": 85,
-        "reason": "用户表达了对团队协作中信息碎片化和上下文丢失的痛点，这是一个典型的知识管理与协作需求。",
-        "feasibility_reason": "该需求本质上是复杂的组织行为学与知识管理问题，依赖于团队内部海量非结构化数据的实时整合与语义理解，无法通过简单的输入输出工具解决。",
-        "verdict": "WARN",
-        "raw_text": "Why do teams keep losing context, and why hasn't any tool fixed it?"
-      },
-      "timestamp": "2026-07-01T12:20:45.323848"
-    },
-    {
-      "text": "What Happened to the Fight for the Internet?",
+      "text": "I've been running a local business company for 5 yers, looking for a cofounder",
       "pain_signal": {
         "has_signal": false,
         "level": 0,
@@ -39,39 +18,18 @@
         "pass": false,
         "is_unmet": false,
         "is_feasible": false,
-        "canonical_name": "无",
+        "canonical_name": "N/A",
         "tool_type": "other",
         "confidence": 100,
-        "reason": "该文本是一个文章标题或话题讨论，属于观点性内容，而非具体的功能性操作需求。",
-        "feasibility_reason": "文本内容不包含输入、处理、输出的数据流逻辑，无法转化为在线工具。",
+        "reason": "该文本属于社交招聘需求，而非可转化为在线数据处理工具的功能性需求。",
+        "feasibility_reason": "寻找合伙人属于人际匹配和商业决策范畴，无法通过纯软件算法实现输入输出的自动化处理。",
         "verdict": "BLOCK",
-        "raw_text": "What Happened to the Fight for the Internet?"
+        "raw_text": "I've been running a local business company for 5 yers, looking for a cofounder"
       },
-      "timestamp": "2026-07-01T12:20:47.318626"
+      "timestamp": "2026-07-01T14:25:36.057869"
     },
     {
-      "text": "How to talk about \"AI\" without adding to the anthropomorphization",
-      "pain_signal": {
-        "has_signal": false,
-        "level": 0,
-        "matched": []
-      },
-      "classification": {
-        "pass": false,
-        "is_unmet": false,
-        "is_feasible": false,
-        "canonical_name": "无",
-        "tool_type": "other",
-        "confidence": 95,
-        "reason": "该文本属于探讨AI伦理和语言表达的哲学/学术问题，而非具体的工具操作需求。",
-        "feasibility_reason": "这是一个认知和表达层面的议题，无法通过输入输出的逻辑转化为在线工具。",
-        "verdict": "BLOCK",
-        "raw_text": "How to talk about \"AI\" without adding to the anthropomorphization"
-      },
-      "timestamp": "2026-07-01T12:20:48.521701"
-    },
-    {
-      "text": "Show HN: Gilfoyle's Project but IRL",
+      "text": "Show HN: Aegize (trying to mitigate the risk of AI)",
       "pain_signal": {
         "has_signal": false,
         "level": 0,
@@ -84,12 +42,12 @@
         "canonical_name": "N/A",
         "tool_type": "other",
         "confidence": 95,
-        "reason": "该文本是典型的 Show HN 标题，指代电视剧《硅谷》中角色的项目，属于项目展示而非具体的功能性工具需求。",
-        "feasibility_reason": "文本描述的是一个具体的项目展示，而非一个可抽象为在线工具的通用需求。",
+        "reason": "该文本是典型的 Show HN（展示个人项目）标题，属于产品推广或项目展示，而非用户提出的具体功能需求。",
+        "feasibility_reason": "文本描述的是一个已存在的项目名称，而非一个待解决的工具需求。",
         "verdict": "BLOCK",
-        "raw_text": "Show HN: Gilfoyle's Project but IRL"
+        "raw_text": "Show HN: Aegize (trying to mitigate the risk of AI)"
       },
-      "timestamp": "2026-07-01T12:20:49.724230"
+      "timestamp": "2026-07-01T14:25:37.492875"
     }
   ]
 }
