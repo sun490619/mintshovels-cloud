@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-01T20:05:27.423829+00:00     ║
+║       启动时间: 2026-07-01T22:23:24.399556+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,11 +43,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 17 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 20 articles
+  ✅ 19 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -61,11 +61,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [8/25] Fetching Wikipedia...
   ✅ 20 pages
 🔍 [9/25] Fetching HuggingFace...
-  ⚠️ Failed to fetch https://huggingface.co/api/models?sort=downloads&direction=-1&limit=20: HTTP Error 429: Too Many Requests
+  ✅ 40 models
 🔍 [21/25] Fetching arXiv cs.AI...
   ✅ 15 papers
 🔍 [22/25] Fetching Papers With Code...
-  ⚠️ Failed to fetch https://paperswithcode.com/api/v1/papers/?ordering=-paper_published&items_per_pa: HTTP Error 429: Too Many Requests
+  ⚠️ Failed: Expecting value: line 1 column 1 (char 0)
 
 📦 水系5: 包注册中心 + 技术主题
 🔍 [28] Scraping npm registry search...
@@ -81,55 +81,59 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 320
-  🚫 闲聊拦截: 19 条 (5.9%)
-  🧠 工具信号: 184 条 (57.5%)
+  原始信号总量: 348
+  🚫 闲聊拦截: 13 条 (3.7%)
+  🧠 工具信号: 178 条 (51.1%)
 
   📋 闲聊拦截样例:
      [entertainment] 结婚 12 年准备离婚了
-     [entertainment] KeepVid Music Tag Editor 3.0.2.1 for macOS
      [job] Who's hiring? Q3 2026
-     [news] How Jujutsu Rethinks Git's Working Copy and Conflict Model
-     [news] Apple 'Hide My Email' vulnerability reveals peoples' real em
+     [job] Ask HN: Who is hiring? (July 2026) 🔥135pts 💬145
+     [ad] Simulate what AI agents do to an engineering org (no signup)
+     [chatter] CLI tool that gives your agents repo context, conventions, a
 
   🧠 工具信号样例:
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
-     [置信度35%] Does Python have a tern
+     [置信度35%] Does Python have a ternary conditional operator?
+       ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
+       ↳ 技术概念: ['Python']
+     [置信度15%] What are metaclasses in Python?
+       ↳ 技术概念: ['Python']
+     [置信度25%] How 
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 320 条
-     🚫 闲聊拦截: 19 条 (5.9%)
-     🧠 工具信号: 184 条 (57.5%)
+     原始抓取: 348 条
+     🚫 闲聊拦截: 13 条 (3.7%)
+     🧠 工具信号: 178 条 (51.1%)
      闲聊样例: 结婚 12 年准备离婚了... [entertainment]
      工具信号样例: What does the "yield" keyword do in Python?... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 184 → 有效 39
-     拒绝率: 78.8%
+     工具信号 178 → 有效 41
+     拒绝率: 77.0%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
-     [PASS  |  +55] LLM Tool  [?]
+  ✅ 通过 (13):
+     [PASS  |  +55] JSON Formatter  [?]
+     [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Form Builder  [?]
+     [PASS  |  +55] LLM Tool  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
      [PASS  |  +55] Encoder  [?]
-     [PASS  |  +65] Tracker Tool  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
-     [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Editor  [?]
-     [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
   🚫 拦截 (3):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
@@ -148,8 +152,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-01T20:05:27.586904+00:00
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-07-01T22:23:24.552002+00:00
    Already in catalog: 115 tools
    Previously produced: 0 tools
    Existing tool pages: 26 files
@@ -284,7 +288,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-01T20:05:27.423829+00:00 → 2026-07-01T20:05:39.603133+00:00
+  ⏱  耗时: 2026-07-01T22:23:24.399556+00:00 → 2026-07-01T22:23:36.970332+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T22:09:53.483156+00:00",
+  "generated_at": "2026-07-01T22:23:24.552002+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -139,12 +139,12 @@
       "Progress Report: Linux 7.1 - Asahi Linux",
       "The Internet I Grew Up With Doesn’t Exist Anymore",
       "Claude Code Is Steganographically Marking Requests",
-      "It's not me, it's the compiler",
       "GameBoy Emulator on ESP32 + Eink",
+      "It's not me, it's the compiler",
       "The Threat of Residential Proxies",
       "Low-level Haskell: The cursed way to emulate inline assembly in Haskell/GHC",
-      "Stop Killing the Internet",
-      "May in Servo: user scripts, mp4 compat, blackboxing in DevTools, and more"
+      "GraalVM Hello World Program Down To \"Just\" 6.5MB",
+      "Stop Killing the Internet"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -169,33 +169,34 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "For first time, a cell built from scratch grows and divides 🔥630pts 💬216",
-      "Physical disc production ending in Jan 2028 for new games on PlayStation 🔥491pts 💬547",
-      "Sony Deletes 551 Movies PlayStation Owners Paid For 🔥459pts 💬204",
-      "Box3D, an open source 3D physics engine 🔥366pts 💬81",
-      "Internal Combustion Engine (2021) 🔥247pts 💬57",
-      "Monetization Gateway: Charge for any resource behind Cloudflare via x402 🔥214pts 💬127",
-      "FFmpeg 9.1's new AAC encoder 🔥214pts 💬75",
-      "Fable 5 Is Back 🔥213pts 💬184",
-      "What to learn to be a graphics programmer 🔥167pts 💬78",
-      "Ask HN: Who is hiring? (July 2026) 🔥131pts 💬143",
-      "1-Bit Pixel Art Emojis 🔥125pts 💬19",
-      "How We Made IPFS Content Publishing 10x Faster 🔥122pts 💬35",
-      "Ask HN: Who wants to be hired? (July 2026) 🔥91pts 💬210",
-      "Fixing a kubelet memory leak in Kubernetes 1.36 🔥66pts 💬13",
-      "Hanami 3.0: In Full Bloom 🔥55pts 💬14",
-      "Building Gin: Simple over Easy 🔥54pts 💬18",
+      "For first time, a cell built from scratch grows and divides 🔥642pts 💬218",
+      "Physical disc production ending in Jan 2028 for new games on PlayStation 🔥499pts 💬552",
+      "Sony Deletes 551 Movies PlayStation Owners Paid For 🔥466pts 💬205",
+      "Box3D, an open source 3D physics engine 🔥369pts 💬82",
+      "Internal Combustion Engine (2021) 🔥250pts 💬57",
+      "Fable 5 Is Back 🔥223pts 💬204",
+      "FFmpeg 9.1's new AAC encoder 🔥221pts 💬78",
+      "Monetization Gateway: Charge for any resource behind Cloudflare via x402 🔥215pts 💬133",
+      "What to learn to be a graphics programmer 🔥174pts 💬81",
+      "Ask HN: Who is hiring? (July 2026) 🔥135pts 💬145",
+      "1-Bit Pixel Art Emojis 🔥127pts 💬20",
+      "How We Made IPFS Content Publishing 10x Faster 🔥126pts 💬37",
+      "Ask HN: Who wants to be hired? (July 2026) 🔥94pts 💬212",
+      "Fixing a kubelet memory leak in Kubernetes 1.36 🔥67pts 💬13",
+      "Show HN: Searchable directory of 22k+ products from worker-owned co-ops 🔥65pts 💬12",
+      "Hanami 3.0: In Full Bloom 🔥56pts 💬14",
       "A complete ClickHouse OLAP engine, compiled to WebAssembly",
-      "Show HN: Searchable directory of 22k+ products from worker-owned co-ops",
       "Launch HN: Parsewise (YC P25) – Reason Across Documents with an API",
-      "Reduce GVisor Cold Starts with GPU Snapshotting",
-      "Mortality associated with non-optimal ambient temperatures from 2000 to 2019",
       "Most rewrites serve the engineer, not the business",
+      "Mortality associated with non-optimal ambient temperatures from 2000 to 2019",
+      "ZCode – Harness for GLM-5.2",
       "Weave Robotics launches Isaac 1, a $7,999 home robot with Fall 2026 deliveries",
       "Show HN: GolemUI – Declarative Form Engine",
-      "ZCode – Harness for GLM-5.2"
+      "I Left Harry's All-Night Hamburgers",
+      "Generating Images with a 2025 Android"
     ],
     "hn_show": [
+      "Simulate what AI agents do to an engineering org (no signup) — featured on Hacker News (🔥1pts)",
       "Forgejo Appliance, a private Git server based on OrbStack and Tailscale — featured on Hacker News (🔥1pts)",
       "ExpenseSpy – AI receipt scanner that exports to Excel, built solo — featured on Hacker News (🔥3pts)",
       "Moxie – an open-source money agent that can't act without your consent — featured on Hacker News (🔥1pts)",
@@ -205,18 +206,17 @@
       "OpenCan – Open-source, self-hostable Canny alternative (AGPL-3.0) — featured on Hacker News (🔥1pts)",
       "An AI agent that applies to jobs for me (Playwright,GPT5.4 form filling) — featured on Hacker News (🔥2pts)",
       "CLI that helps AI agents avoid vulnerable dependencies — featured on Hacker News (🔥3pts)",
-      "Searchable directory of 22k+ products from worker-owned co-ops — featured on Hacker News (🔥43pts)",
+      "Searchable directory of 22k+ products from worker-owned co-ops — featured on Hacker News (🔥65pts)",
       "An Open Source Codex App that works across provider — featured on Hacker News (🔥1pts)",
       "Understand any codebase, explained for your role (Live Demo) — featured on Hacker News (🔥1pts)",
       "A Replacement of WhatsApp Polls — featured on Hacker News (🔥1pts)",
       "I built a company formation tool that works inside your IDE via MCP — featured on Hacker News (🔥1pts)",
       "CLI tool that gives your agents repo context, conventions, and rules — featured on Hacker News (🔥1pts)",
-      "Build autonomous agents on Theseus with Sonnet 5 from the browser — featured on Hacker News (🔥1pts)",
-      "Z-Jail – A 130 KB Linux sandbox-C99 with 7 defense layers and zero deps — featured on Hacker News (🔥18pts)"
+      "Build autonomous agents on Theseus with Sonnet 5 from the browser — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "LLM Colosseum – A zero-dependency browser RTS to test LLM tool calling — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Open-source sandbox for your product team — user asking for tool recommendation (🔥12pts)",
+      "Show HN: Open-source sandbox for your product team — user asking for tool recommendation (🔥13pts)",
       "Show HN: Clockjumper – An Intervibed Project — user asking for tool recommendation (🔥1pts)",
       "Despite its best efforts, Iran won't be able to toll the Strait of Hormuz — user asking for tool recommendation (🔥5pts)",
       "Show HN: Bytesalt – AI that finds bugs Playwright tests miss — user asking for tool recommendation (🔥1pts)",
@@ -236,7 +236,7 @@
       "Show HN: Distributed LLM tracing and GH PR/issue linking [Apache 2.0] — user asking for tool recommendation (🔥2pts)",
       "Show HN: fenic – LLMs as dataframe operators, query meaning and structure — user asking for tool recommendation (🔥3pts)",
       "Show HN: An Open Source Codex App that works across provider — user asking for tool recommendation (🔥1pts)",
-      "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥31pts)",
+      "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥32pts)",
       "Show HN: Riley – Content That Sounds Like You, Not Like AI — user asking for tool recommendation (🔥2pts)",
       "3 dangers of being locked into a harness. Your context layer is true freedom — user asking for tool recommendation (🔥1pts)",
       "Show HN: Pokayoke – turn repo conventions into deterministic checks for agents — user asking for tool recommendation (🔥1pts)",
@@ -285,16 +285,16 @@
       "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins <img src=\"https://res.infoq.com/podcasts/natural-evolution-cloud-native/en/smallimage/the-infoq-podcast-logo-thumbnail-1782207787976.jpg\"/><p>In this "
     ],
     "google_trends": [
+      "jaylen brown trade",
+      "76ers",
+      "jaylen brown sixers",
+      "anders lee",
+      "kevon looney",
+      "lilo voice actress",
       "keegan kolesar",
       "fifa ranking 2026",
-      "cubs schedule",
       "eden hazard",
-      "salmonella",
-      "victor oladipo",
-      "judge sullivan usps ballot ruling",
-      "michael conforto",
-      "doku",
-      "ford electrician fired"
+      "salmonella"
     ],
     "baidu": [
       "习近平向全体党员致以节日的问候",
@@ -307,38 +307,38 @@
       "微信转账误转他人 法院判了",
       "电动座椅自动微调挤压打火机后起火",
       "太空挂上了香港特区区旗",
-      "中国歌手在英国街头唱《主角》",
-      "“中考作文阅卷30秒快速打分”不实",
       "初中生沉迷折纸近十年作品惊艳网友",
-      "新疆火焰山地表温度突破80℃",
+      "“中考作文阅卷30秒快速打分”不实",
+      "中国歌手在英国街头唱《主角》",
+      "女子因错过高铁摔坏员工视频记录仪",
       "香港演员黄一山小儿子北大硕士毕业",
       "湖南一地试点：小学入学可直升高中",
       "双方上一秒还在争吵 下一秒互相道歉",
       "电动汽车“最严国标”来了",
-      "女子因错过高铁摔坏员工视频记录仪",
-      "全自动收椅机器狗来了"
+      "全自动收椅机器狗来了",
+      "新疆火焰山地表温度突破80℃"
     ],
     "wikipedia": [
-      "Tahpanhes",
-      "Peter Sundelin",
-      "Misicuni Dam",
-      "Yushania varians",
-      "Peter Stafford (field hockey)",
-      "Peter Šoška",
-      "Peter Škantár",
-      "Misedani Dam",
-      "Peter Sitt",
-      "Julia Scott",
-      "Anatoli Boukreev",
-      "Peter Schlütter",
-      "Mirani Dam",
-      "Peter Schlickenrieder",
-      "Tornado outbreak of February 11–13, 1950",
-      "Peter Rull Sr.",
-      "Stade Olympique Maréchal Idriss Déby Itno",
-      "Peter Ruch",
-      "Miranda Dam",
-      "Peter Rohr"
+      "Oudebaaskraal Dam",
+      "Komodo (chess)",
+      "2026–27 NHL transactions",
+      "Church of St. Nicholas, Brussels",
+      "Dead Meat (YouTube channel)",
+      "Tornado outbreak of May 2, 1942",
+      "Ouchibaro Dam",
+      "Banking Clan Transport",
+      "Otter Rapids Generating Station",
+      "Pays de Buch",
+      "Otori Dam",
+      "Middlehaven",
+      "John Azuta-Mbata",
+      "Hanz On Music Entertainment",
+      "Otluca HES",
+      "Tornado outbreak of May 6–10, 2024",
+      "Indian Armed Forces",
+      "Rosie (musician)",
+      "Wives and Daughters",
+      "Tobias Lütke"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -419,32 +419,33 @@
       "prettier — npm package: Prettier is an opinionated code formatter",
       "sass-formatter — npm package: TypeScript Sass formatter",
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format",
-      "@expo/xcpretty — npm package: Parse and format xcodebuild logs",
-      "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
+      "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute",
+      "@expo/xcpretty — npm package: Parse and format xcodebuild logs"
     ],
     "github_topics": [
-      "github trending topic: node.js",
-      "github trending topic: project management",
-      "github trending topic: mcp",
-      "github trending topic: python",
-      "github trending topic: scala",
-      "github trending topic: ai-agents",
-      "github trending topic: javascript",
-      "github trending topic: claude-code",
-      "github trending topic: react",
-      "github trending topic: nextjs",
-      "github trending topic: awesome lists",
-      "github trending topic: npm",
-      "github trending topic: compiler",
-      "github trending topic: front end",
-      "github trending topic: fastapi",
-      "github trending topic: css",
-      "github trending topic: typescript",
-      "github trending topic: code quality",
       "github trending topic: chrome",
-      "github trending topic: react native",
+      "github trending topic: nodejs",
+      "github trending topic: react",
+      "github trending topic: postgresql",
+      "github trending topic: machine-learning",
+      "github trending topic: front end",
+      "github trending topic: code quality",
+      "github trending topic: compiler",
+      "github trending topic: npm",
+      "github trending topic: project management",
+      "github trending topic: node.js",
+      "github trending topic: css",
       "github trending topic: database",
-      "github trending topic: llm"
+      "github trending topic: mcp",
+      "github trending topic: scala",
+      "github trending topic: llm",
+      "github trending topic: python",
+      "github trending topic: open-source",
+      "github trending topic: react native",
+      "github trending topic: docker",
+      "github trending topic: javascript",
+      "github trending topic: typescript",
+      "github trending topic: awesome lists"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -532,7 +533,7 @@
       "name_zh": "单位换算"
     },
     {
-      "keyword": "FFmpeg 9.1's new AAC encoder 🔥214pts 💬75",
+      "keyword": "FFmpeg 9.1's new AAC encoder 🔥221pts 💬78",
       "matched": "encoder",
       "category": "dev",
       "subcat": "encode",
@@ -618,8 +619,8 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "FFmpeg 9.1's new AAC encoder 🔥214pts 💬75",
-    "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥31pts)",
+    "FFmpeg 9.1's new AAC encoder 🔥221pts 💬78",
+    "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥32pts)",
     "Show HN: Open-Source Interview Platform — user asking for tool recommendation (🔥4pts)",
     "英格兰2-1逆转刚果金 晋级16强",
     "微信转账误转他人 法院判了",
@@ -639,10 +640,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 179,
+    "raw_count": 178,
     "valid_count": 41,
-    "rejected_count": 138,
-    "rejection_rate": 77.1,
+    "rejected_count": 137,
+    "rejection_rate": 77.0,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -657,11 +658,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 347,
-    "chatter_blocked": 10,
-    "chatter_rate": 2.9,
-    "tool_signals_found": 179,
-    "tool_signal_rate": 51.6,
+    "total_captured": 348,
+    "chatter_blocked": 13,
+    "chatter_rate": 3.7,
+    "tool_signals_found": 178,
+    "tool_signal_rate": 51.1,
     "chatter_samples": [
       {
         "text": "结婚 12 年准备离婚了",
@@ -678,10 +679,17 @@
         ]
       },
       {
-        "text": "Ask HN: Who is hiring? (July 2026) 🔥131pts 💬143",
+        "text": "Ask HN: Who is hiring? (July 2026) 🔥135pts 💬145",
         "category": "job",
         "matched": [
           "hiring"
+        ]
+      },
+      {
+        "text": "Simulate what AI agents do to an engineering org (no signup) — featured on Hacke",
+        "category": "ad",
+        "matched": [
+          "signup"
         ]
       },
       {
@@ -715,24 +723,17 @@
         ]
       },
       {
+        "text": "lilo voice actress",
+        "category": "entertainment",
+        "matched": [
+          "actress"
+        ]
+      },
+      {
         "text": "世界杯：比利时vs塞内加尔",
         "category": "entertainment",
         "matched": [
           "世界杯"
-        ]
-      },
-      {
-        "text": "Amplifying Membership Signal Through Chained Regeneration The tendency of large ",
-        "category": "chatter",
-        "matched": [
-          "fyi"
-        ]
-      },
-      {
-        "text": "granturismo — npm package: generator tool",
-        "category": "chatter",
-        "matched": [
-          "rant"
         ]
       }
     ],
