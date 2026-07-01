@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T14:01:45.002420+00:00",
+  "generated_at": "2026-07-01T14:52:28.754955+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -106,25 +106,23 @@
       "[bytecat]v 友赛博领鸡蛋 claude，新用户留言送 10 刀，十楼抽奖还送 10，中奖率 20%",
       "结婚 12 年准备离婚了",
       "公司社保和公积金要拉满，所有多出的钱都让员工出，不签字就走人。额日了",
-      "A/ 真是全力以赴啊……",
-      "梯子怎么都挂了？",
       "[抽 3 个永久授权] Termark：一个按自己习惯做出来的 SSH 客户端",
       "聊聊个人微信小游戏的“窒息感”：手搓了一款消消乐，发布后喜提 0 流量"
     ],
     "devto": [
       "DEV Community: programming",
-      "Five checks before connecting an OpenAI-compatible API",
-      "I Cut My OpenAI Bill by 40x and You Can Too: My 2026 Migration Story",
-      "Download Subnautica NSP Full Game + Update 2026",
-      "Three habits that make AI coding agents actually useful",
-      "AI Writes Vulnerable Code 45% of the Time. Here's Why That's a Systems Problem.",
-      "WordPress Is Dead. The Replacement Has No Mechanic.",
-      "LongCat-2.0 Is a Warning Shot for Coding Agents, Not a Laptop Model",
-      "Why OCR is still an important tool in 2026",
-      "دليل المبتدئين لإنشاء مساعد ذكاء اصطناعي شخصي باستخدام بايثون و راسبيري باي",
-      "Why I Stopped Calling Myself a Full-Stack Developer",
-      "Today I Learned: Simplifying API Integrations with Consistent Error Handling",
-      "إعداد بيئة تطوير آمنة لمشاريع الويب باستخدام نظام تشغيل لينكس وأداة الدocker"
+      "17 Best Places to Buy Old Gmail Accounts (PVA &amp; Aged) in ...",
+      "I Shipped an MCP Server to a Marketplace and It Just Went Live — 2 Hours, /usr/bin/bash.05/Call",
+      "Acrok Video Converter Ultimate 7.4.191.1745 for macOS – Convert Blu-ray, DVD &amp; 4K Videos with Ease",
+      "oneSafe 2.4.0 for macOS – Secure Password Manager and Digital Vault",
+      "Best 3 Sites To Buy Edu Emails Accounts for Student ...",
+      "Postman Collections vs OpenAPI Specs: Which Scales as a Source of Truth?",
+      "Best Places to Buy Aged Yahoo Accounts in the USA (Top 10)",
+      "Download Alice in Wonder Underland AIWU NSP Full Game 2026",
+      "Top 10 Websites to Buy Old Yahoo Accounts in the USA",
+      "Top 07 Sites to Buying Edu Emails for Student Discounts",
+      "Top 5 Sites to Purchase Edu Emails for Student Discounts ...",
+      "Product Metric Design And Diagnostic Deep Dives Explained — Tech Interview Concept (2026)"
     ],
     "lobsters": [
       "What happened to the fight for the internet?",
@@ -132,21 +130,21 @@
       "Uruky - The Paid European Search Engine",
       "Who's hiring? Q3 2026",
       "Claude Code Is Steganographically Marking Requests",
-      "How Jujutsu Rethinks Git's Working Copy and Conflict Model",
       "Which GitHub features are needed in a code forge before you can migrate?",
-      "The Threat of Residential Proxies",
-      "Changes to Godot Engine Contribution Policies",
-      "It's not me, it's the compiler",
+      "How Jujutsu Rethinks Git's Working Copy and Conflict Model",
       "Building a passive Ethernet tap",
+      "Changes to Godot Engine Contribution Policies",
+      "The Threat of Residential Proxies",
+      "It's not me, it's the compiler",
       "Low-level Haskell: The cursed way to emulate inline assembly in Haskell/GHC",
       "May in Servo: user scripts, mp4 compat, blackboxing in DevTools, and more",
+      "All Package Management Functionality Moved from Compiler to Build System",
+      "Announcing Box3D",
+      "The Internet I Grew Up With Doesn’t Exist Anymore",
+      "Stop Killing the Internet",
       "Parse, Don't Validate — In a Language That Doesn't Want You To",
       "Underappreciated builtin: Grand Unified Debugger",
-      "The Internet I Grew Up With Doesn’t Exist Anymore",
-      "stop asking writers about \"AI\"",
-      "All Package Management Functionality Moved from Compiler to Build System",
-      "Hanami 3.0: In full bloom",
-      "Stop Killing the Internet"
+      "Hanami 3.0: In full bloom"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -171,33 +169,41 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Claude Code is steganographically marking requests 🔥2249pts 💬658",
-      "Claude Sonnet 5 🔥1179pts 💬722",
-      "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5 🔥798pts 💬494",
-      "Claude Science 🔥519pts 💬151",
-      "Nano Banana 2 Lite 🔥409pts 💬169",
-      "Godot will no longer accept AI-authored code contributions 🔥384pts 💬242",
-      "Asahi Linux 7.1 Progress Report 🔥319pts 💬80",
-      "I ported Kubernetes to the browser 🔥310pts 💬90",
-      "CERN bids farewell to the LHC and enters Long Shutdown 3 🔥285pts 💬91",
-      "Leanstral 1.5 🔥271pts 💬113",
-      "Google copybara: moving code between repositories 🔥253pts 💬48",
-      "How does a pull-back car work? Illustrated teardown 🔥240pts 💬39",
-      "Single Dose of Frog-Derived Gut Bacterium Eradicates 100% of Tumors in Mice 🔥214pts 💬117",
-      "ArXiv's Next Chapter 🔥187pts 💬55",
-      "Nintendo has raised its employees base salary by 10% 🔥151pts 💬45",
-      "The Internet I Grew Up with Doesn't Exist Anymore 🔥147pts 💬124",
-      "Newly discovered spider builds spring loaded snare to catch ants 🔥144pts 💬28",
-      "Physical disc production ending in Jan 2028 for new games on PlayStation 🔥90pts 💬63",
-      "Pine64 launch $50 smart speaker for Home Assistant tinkerers 🔥87pts 💬33",
-      "Forestiere Underground Gardens 🔥85pts 💬19",
-      "Why I Stopped Arguing with People 🔥79pts 💬50",
-      "Swedish court says Google is to pay $1.5B to Klarna in antitrust damages 🔥78pts 💬43",
-      "Matrix Orthogonalization Improves Memory in Recurrent Models 🔥62pts 💬10",
-      "Sony will no longer produce discs for PlayStation games starting in January 2028",
-      "Obfuscation: Building the final boss of cryptography (Part I)"
+      "Claude Code is steganographically marking requests 🔥2282pts 💬679",
+      "Claude Sonnet 5 🔥1197pts 💬735",
+      "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5 🔥820pts 💬524",
+      "Claude Science 🔥532pts 💬153",
+      "Godot will no longer accept AI-authored code contributions 🔥428pts 💬276",
+      "Nano Banana 2 Lite 🔥416pts 💬169",
+      "Asahi Linux 7.1 Progress Report 🔥365pts 💬97",
+      "CERN bids farewell to the LHC and enters Long Shutdown 3 🔥297pts 💬93",
+      "Leanstral 1.5 🔥278pts 💬119",
+      "Single Dose of Frog-Derived Gut Bacterium Eradicates 100% of Tumors in Mice 🔥274pts 💬150",
+      "Why I Stopped Arguing with People 🔥268pts 💬206",
+      "Google copybara: moving code between repositories 🔥264pts 💬50",
+      "How does a pull-back car work? Illustrated teardown 🔥250pts 💬39",
+      "Nintendo has raised its employees base salary by 10% 🔥226pts 💬101",
+      "ArXiv's Next Chapter 🔥200pts 💬60",
+      "The Internet I Grew Up with Doesn't Exist Anymore 🔥187pts 💬157",
+      "Newly discovered spider builds spring loaded snare to catch ants 🔥170pts 💬30",
+      "Swedish court says Google is to pay $1.5B to Klarna in antitrust damages 🔥101pts 💬72",
+      "Obfuscation: Building the final boss of cryptography (Part I)",
+      "Announcing Box3D :: Box2D",
+      "Your Kids' School Bus Is About to Become a Roaming Surveillance Vehicle",
+      "A deep dive into SmallVector:push_back",
+      "Sony Deletes 551 Movies PlayStation Owners Paid For",
+      "Compiler-Assisted Floating-Point Error Analysis and Profiling with FPChecker",
+      "Launch HN: Parsewise (YC P25) – Reason Across Documents with an API"
     ],
     "hn_show": [
+      "QueryDrift fail CI when a PR turns 1 query into N — featured on Hacker News (🔥1pts)",
+      "Reminal – A zero-config SSH alternative (no open ports, no keys) — featured on Hacker News (🔥1pts)",
+      "GovAuctions.app now in US,UK,CA,AU with deal scores and bid estimates — featured on Hacker News (🔥1pts)",
+      "Clockjumper – An Intervibed Project — featured on Hacker News (🔥1pts)",
+      "Thumbprint – A network fingerprint observatory — featured on Hacker News (🔥1pts)",
+      "Pinch-to-zoom tree navigation — featured on Hacker News (🔥3pts)",
+      "Osiris JSON generate private infrastructure snapshot without AI or SaaS — featured on Hacker News (🔥1pts)",
+      "Loma – a self-hosted shared AI layer for your whole company — featured on Hacker News (🔥1pts)",
       "Onda, an internet radio TUI with stream quality selection — featured on Hacker News (🔥1pts)",
       "I built a pokédex for anything (iPhone app) — featured on Hacker News (🔥1pts)",
       "Nat traversal using ICMP Destination Unreachable packets — featured on Hacker News (🔥3pts)",
@@ -208,25 +214,17 @@
       "Voice-to-SQL – ask a database in plain English (LLM → SQL) — featured on Hacker News (🔥1pts)",
       "Ox – an AI agent that catches tech debt before it's committed — featured on Hacker News (🔥2pts)",
       "Grammar-to-marser - Input a PEG/Pest grammar and get a full rust parser — featured on Hacker News (🔥3pts)",
-      "Infini-News – 1.36B news articles from Common Crawl, queryable in ms — featured on Hacker News (🔥4pts)",
-      "Yogile – Photo sharing without accounts — featured on Hacker News (🔥1pts)",
-      "OpenLily – turn your device into an Alexa-like assistant powered by LLM — featured on Hacker News (🔥1pts)",
-      "Functional Programming Strategies, the book I'm working on — featured on Hacker News (🔥5pts)",
-      "Author2Vec — featured on Hacker News (🔥1pts)",
-      "I got tired of granting mailbox access to trigger workflows by email — featured on Hacker News (🔥2pts)",
-      "I made an app that can accelerate cures and nobody fucking cares — featured on Hacker News (🔥1pts)",
-      "Readit, a read-it-later app I built because the others keep dying — featured on Hacker News (🔥6pts)",
-      "A metadata-driven UI for comparing AI image and video models — featured on Hacker News (🔥1pts)"
+      "Infini-News – 1.36B news articles from Common Crawl, queryable in ms — featured on Hacker News (🔥4pts)"
     ],
     "hn_ask_tools": [
+      "Show HN: Clockjumper – An Intervibed Project — user asking for tool recommendation (🔥1pts)",
+      "Despite its best efforts, Iran won't be able to toll the Strait of Hormuz — user asking for tool recommendation (🔥2pts)",
       "Show HN: Bytesalt – AI that finds bugs Playwright tests miss — user asking for tool recommendation (🔥1pts)",
       "Show HN: I computed livability for all of Germany by rent, commute, and QoL — user asking for tool recommendation (🔥4pts)",
       "Bloomberg: Spain Built Too Much Solar. Investors Want Out — user asking for tool recommendation (🔥4pts)",
-      "Show HN: Morph Reflexes – Multi-head classifiers for agent traces — user asking for tool recommendation (🔥7pts)",
+      "Show HN: Morph Reflexes – Multi-head classifiers for agent traces — user asking for tool recommendation (🔥8pts)",
       "Show HN: fenic – LLMs as dataframe operators, query meaning and structure — user asking for tool recommendation (🔥3pts)",
       "Show HN: Capacitor – shared mem for Claude Code, Cursor and other coding agents — user asking for tool recommendation (🔥2pts)",
-      "Show HN: SUNWÆE – your life's AI OS — user asking for tool recommendation (🔥2pts)",
-      "What AI music tool has the best workflow? — user asking for tool recommendation (🔥2pts)",
       "Show HN: LokalBot – meetings, notes, and autocomplete that never leave your Mac — user asking for tool recommendation (🔥1pts)",
       "Ask HN: Which payment processor/merchant-of-record do you use in 2026? — user asking for tool recommendation (🔥3pts)",
       "Ask HN: What tool are you using for A/B tests and analyzing and documenting them — user asking for tool recommendation (🔥1pts)",
@@ -238,7 +236,6 @@
       "Show HN: Aegize (trying to mitigate the risk of AI) — user asking for tool recommendation (🔥1pts)",
       "Show HN: Distributed LLM tracing and GH PR/issue linking [Apache 2.0] — user asking for tool recommendation (🔥2pts)",
       "Show HN: Lighting fast writing app on Mac with powerful table functions — user asking for tool recommendation (🔥2pts)",
-      "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥5pts)",
       "Show HN: Riley – Content That Sounds Like You, Not Like AI — user asking for tool recommendation (🔥2pts)",
       "3 dangers of being locked into a harness. Your context layer is true freedom — user asking for tool recommendation (🔥1pts)",
       "Show HN: Pokayoke – turn repo conventions into deterministic checks for agents — user asking for tool recommendation (🔥1pts)",
@@ -248,7 +245,8 @@
       "Show HN: Valmis, an OpenClaw alternative built for work, with security in mind — user asking for tool recommendation (🔥3pts)",
       "Ask HN: We are building the Flutter equivalent to RN's Ignite CLI — user asking for tool recommendation (🔥1pts)",
       "Show HN: A Free AI Visibility Tracker — user asking for tool recommendation (🔥1pts)",
-      "I built a one-time-payment alternative to subscription cloud movers — user asking for tool recommendation (🔥1pts)"
+      "I built a one-time-payment alternative to subscription cloud movers — user asking for tool recommendation (🔥1pts)",
+      "QDBP: Explicit depth markers as an alternative to indentation and parentheses — user asking for tool recommendation (🔥1pts)"
     ],
     "hackernoon": [
       "Nobody Reviewed the Model. They Just Reviewed the Code Around It",
@@ -273,6 +271,8 @@
       "SharpeBench Tests Whether AI Trading Agents Have Real Edge"
     ],
     "infoq": [
+      "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>Instacart redesigned its personalized marketing system using a configur",
+      "Presentation: Graph RAG: Building Smarter Retrieval Workflows with Knowledge Graphs <img src=\"https://res.infoq.com/presentations/graph-rag-llm/en/mediumimage/CassieShum-medium-1782291352027.jpeg\"/><p>Cassie Shum discusses the archite",
       "HeroUI v3 Lands as a Ground-Up Rewrite for React and React Native, Built on Tailwind CSS v4 <img src=\"https://res.infoq.com/news/2026/07/heroui-v3-rewrite/en/headerimage/generatedHeaderImage-1782890990794.jpg\"/><p>HeroUI v3 is a redesigned Re",
       "Presentation: The Infrastructure Challenge Behind Production AI <img src=\"https://res.infoq.com/presentations/ai-infrastructure-scaling-architecture/en/mediumimage/infoq-live-medium-1782888285223.jpg\"/><p>The panel",
       "Presentation: Trustworthy Productivity: Securing AI-Accelerated Development <img src=\"https://res.infoq.com/presentations/ai-development/en/mediumimage/SriramMadapusiVasudevan-medium-1782220895596.jpg\"/><p>Sriram Madapusi Vasu",
@@ -285,65 +285,63 @@
       "Inside Target’s LLM-Based System for Semantic Matching in Marketing Forecast Pipelines <img src=\"https://res.infoq.com/news/2026/06/target-ai-campaign-forecasting/en/headerimage/generatedHeaderImage-1780529558601.jpg\"/><p>Target built a ",
       "Presentation: Million PDFs: Building a Modern Document Infrastructure with Rust and Typst <img src=\"https://res.infoq.com/presentations/document-infrastructure-rust-typst/en/mediumimage/ErikSteiger-medium-1782220478687.jpg\"/><p>Erik Steiger",
       "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution <img src=\"https://res.infoq.com/articles/security-ai-threat-evolution/en/headerimage/security-ai-threat-evolution-header-1782202845102.jpg\"/><p>This v",
-      "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins <img src=\"https://res.infoq.com/podcasts/natural-evolution-cloud-native/en/smallimage/the-infoq-podcast-logo-thumbnail-1782207787976.jpg\"/><p>In this ",
-      "AI Tools Accelerates Coding, But Not Overall Software Delivery, GitLab Research Finds <img src=\"https://res.infoq.com/news/2026/06/ai-coding-outpaces-governance/en/headerimage/ai-coding-outpaces-governance-1782718807762.jpeg\"/><p>GitLab",
-      "Swift 6.4 Brings New Language Features and Swift Testing/XCTest Interop <img src=\"https://res.infoq.com/news/2026/06/swift-6-4-beta-features/en/headerimage/android-studio-otter-llm-1782634112952.jpeg\"/><p>Currently availab"
+      "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins <img src=\"https://res.infoq.com/podcasts/natural-evolution-cloud-native/en/smallimage/the-infoq-podcast-logo-thumbnail-1782207787976.jpg\"/><p>In this "
     ],
     "google_trends": [
-      "norman powell",
-      "law roach",
-      "jannik sinner",
-      "infection",
-      "sophia bush",
-      "tobias harris",
-      "meta stock",
-      "kessler tennis",
-      "nuno borges",
-      "victor marx"
+      "coco gauff",
+      "bill pulte",
+      "ariel hukporti",
+      "extreme heat wave",
+      "bulls roster",
+      "palantir stock",
+      "hr 1 healthcare cuts new york",
+      "gary sinise",
+      "playstation store ps3 ps vita closure",
+      "mavrik bourque"
     ],
     "baidu": [
       "习近平向全体党员致以节日的问候",
       "“老马”获党内最高荣誉 网友刷屏",
       "A股交易新规下周一正式施行",
       "初心不改 用一生践行誓言",
-      "义乌商贸城9.42平商铺拍出1700万",
-      "永辉超市两位副总裁同一天辞职",
-      "小米高层重大调整",
-      "富春江第一网江鲜鲜到掉眉毛",
-      "今年中国首个台风来了",
-      "太空挂上了香港特区区旗",
       "微信转账误转他人 法院判了",
+      "湖南一地试点：小学入学可直升高中",
+      "初中生沉迷折纸近十年作品惊艳网友",
+      "王毅同美国国务卿鲁比奥通电话",
+      "YSL新款男士水晶鞋遭吐槽",
+      "太空挂上了香港特区区旗",
+      "世界杯：英格兰vs刚果金",
       "“中考作文阅卷30秒快速打分”不实",
       "委内瑞拉强震一周后首都现血色天空",
-      "一本“印错”的书却被抢购一空",
+      "电动汽车“最严国标”来了",
       "香港演员黄一山小儿子北大硕士毕业",
-      "世界杯：英格兰vs刚果金",
-      "樊振东正式加盟杜塞尔多夫",
-      "初中生沉迷折纸近十年作品惊艳网友",
-      "YSL新款男士水晶鞋遭吐槽",
-      "电动汽车“最严国标”来了"
+      "富春江第一网江鲜鲜到掉眉毛",
+      "高温使埃菲尔铁塔长高了10厘米",
+      "孩子中考取得好成绩 家长：全靠自觉",
+      "小米高层重大调整",
+      "今年中国首个台风来了"
     ],
     "wikipedia": [
-      "Madden NFL 27",
-      "Harvey L. Strelzin",
-      "Hans Lammers",
-      "Telecom Italia Lab",
-      "Prespa National Park",
-      "Monreale Cathedral mosaics",
-      "2026 MPBL season",
-      "Bob Novogratz",
-      "Bokeh",
-      "CSELT",
-      "Ashleigh Cummings",
-      "Ain't Misbehavin' (miniseries)",
-      "Platt Brothers",
-      "2026–27 Fenerbahçe S.K. (basketball) season",
-      "2026–27 MC Oran season",
-      "Weightlifting at the 2026 Commonwealth Games – Qualification",
-      "Romesh Ranganathan",
-      "Lipid raft",
-      "Aquiles Priester",
-      "Thomas Kingston (financier)"
+      "Valentina Srša",
+      "Otto, Duke of Lower Lorraine",
+      "Sydney School",
+      "Cenomanian",
+      "Newlyweds (2026 American TV series)",
+      "Steward Observatory",
+      "Danube American Football League",
+      "Valentina Rosamilia",
+      "Henry de Lesquen",
+      "2026 Colorado's 1st congressional district election",
+      "2010–11 Liga Nacional Superior de Voleibol Femenino",
+      "Valentina Delion",
+      "Viking Row",
+      "From the Jam",
+      "Miss Universe Malaysia 1973",
+      "2026 women's rugby union internationals",
+      "Valentina Costanza",
+      "Gerry Healy",
+      "Ong Yew Sin",
+      "Knowles (surname)"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -428,78 +426,42 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: code quality",
-      "github trending topic: css",
-      "github trending topic: python",
-      "github trending topic: project management",
-      "github trending topic: javascript",
-      "github trending topic: mcp",
-      "github trending topic: awesome lists",
-      "github trending topic: machine-learning",
-      "github trending topic: chrome",
-      "github trending topic: database",
-      "github trending topic: react",
-      "github trending topic: yandex-practicum",
-      "github trending topic: npm",
       "github trending topic: react native",
-      "github trending topic: html",
-      "github trending topic: typescript",
-      "github trending topic: compiler",
-      "github trending topic: ai-agents",
+      "github trending topic: chrome",
       "github trending topic: front end",
-      "github trending topic: cli",
-      "github trending topic: llm",
+      "github trending topic: typescript",
+      "github trending topic: workbuddy",
+      "github trending topic: codebuddy",
+      "github trending topic: project management",
+      "github trending topic: tailwindcss",
+      "github trending topic: javascript",
+      "github trending topic: code quality",
+      "github trending topic: agent-skills",
+      "github trending topic: database",
+      "github trending topic: compiler",
+      "github trending topic: css",
+      "github trending topic: scala",
+      "github trending topic: user-research",
+      "github trending topic: react",
+      "github trending topic: voc",
+      "github trending topic: python",
       "github trending topic: node.js",
-      "github trending topic: scala"
+      "github trending topic: customer-feedback",
+      "github trending topic: awesome lists",
+      "github trending topic: npm"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
     {
-      "keyword": "Five checks before connecting an OpenAI-compatible API",
-      "matched": "api",
-      "category": "dev",
-      "subcat": "api",
-      "type": "tool",
-      "name": "API Tester",
-      "name_zh": "API测试工具"
-    },
-    {
-      "keyword": "Five checks before connecting an OpenAI-compatible API",
+      "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
       "category": "ai",
       "subcat": "ai-chat",
       "type": "tool",
       "name": "AI Assistant",
       "name_zh": "AI助手"
-    },
-    {
-      "keyword": "Five checks before connecting an OpenAI-compatible API",
-      "matched": "check",
-      "category": "dev",
-      "subcat": "code",
-      "type": "tool",
-      "name": "Checker Tool",
-      "name_zh": "检测工具"
-    },
-    {
-      "keyword": "Why OCR is still an important tool in 2026",
-      "matched": "ocr",
-      "category": "ai",
-      "subcat": "ai-vision",
-      "type": "tool",
-      "name": "OCR Tool",
-      "name_zh": "文字识别工具"
-    },
-    {
-      "keyword": "Why OCR is still an important tool in 2026",
-      "matched": "import",
-      "category": "productivity",
-      "subcat": "office",
-      "type": "tool",
-      "name": "Importer",
-      "name_zh": "导入工具"
     },
     {
       "keyword": "LLMs — tool from ProductHunt",
@@ -554,6 +516,15 @@
       "type": "tool",
       "name": "Unit Converter",
       "name_zh": "单位换算"
+    },
+    {
+      "keyword": "Compiler-Assisted Floating-Point Error Analysis and Profiling with FPChecker",
+      "matched": "check",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "Checker Tool",
+      "name_zh": "检测工具"
     },
     {
       "keyword": "Show HN: A Free AI Visibility Tracker — user asking for tool recommendation (🔥1pts)",
@@ -638,8 +609,6 @@
     }
   ],
   "all_keywords": [
-    "Five checks before connecting an OpenAI-compatible API",
-    "Why OCR is still an important tool in 2026",
     "All Package Management Functionality Moved from Compiler to Build System",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -661,8 +630,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Show HN: SUNWÆE – your life's AI OS — user asking for tool recommendation (🔥2pts)",
-    "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥5pts)",
+    "Compiler-Assisted Floating-Point Error Analysis and Profiling with FPChecker",
     "Show HN: A Free AI Visibility Tracker — user asking for tool recommendation (🔥1pts)",
     "微信转账误转他人 法院判了",
     "electra-base-discriminator",
@@ -682,10 +650,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 176,
-    "valid_count": 42,
-    "rejected_count": 134,
-    "rejection_rate": 76.1,
+    "raw_count": 183,
+    "valid_count": 39,
+    "rejected_count": 144,
+    "rejection_rate": 78.7,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -695,29 +663,22 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "[bytecat]v 友赛博领鸡蛋 claude，新用户留言送 10 刀，十楼抽奖还送 10，中奖率 20%",
-      "I Cut My OpenAI Bill by 40x and You Can Too: My 2026 Migration Story",
-      "LongCat-2.0 Is a Warning Shot for Coding Agents, Not a Laptop Model"
+      "17 Best Places to Buy Old Gmail Accounts (PVA &amp; Aged) in ...",
+      "I Shipped an MCP Server to a Marketplace and It Just Went Live — 2 Hours, /usr/bin/bash.05/Call"
     ]
   },
   "trait_analysis": {
-    "total_captured": 353,
-    "chatter_blocked": 20,
-    "chatter_rate": 5.7,
-    "tool_signals_found": 176,
-    "tool_signal_rate": 49.9,
+    "total_captured": 351,
+    "chatter_blocked": 15,
+    "chatter_rate": 4.3,
+    "tool_signals_found": 183,
+    "tool_signal_rate": 52.1,
     "chatter_samples": [
       {
         "text": "结婚 12 年准备离婚了",
         "category": "entertainment",
         "matched": [
           "结婚"
-        ]
-      },
-      {
-        "text": "Today I Learned: Simplifying API Integrations with Consistent Error Handling",
-        "category": "chatter",
-        "matched": [
-          "fyi"
         ]
       },
       {
@@ -738,10 +699,17 @@
         ]
       },
       {
-        "text": "Nintendo has raised its employees base salary by 10% 🔥151pts 💬45",
+        "text": "Nintendo has raised its employees base salary by 10% 🔥226pts 💬101",
         "category": "job",
         "matched": [
           "salary"
+        ]
+      },
+      {
+        "text": "GovAuctions.app now in US,UK,CA,AU with deal scores and bid estimates — featured",
+        "category": "ad",
+        "matched": [
+          "deal"
         ]
       },
       {
@@ -749,20 +717,6 @@
         "category": "entertainment",
         "matched": [
           "Football"
-        ]
-      },
-      {
-        "text": "I got tired of granting mailbox access to trigger workflows by email — featured ",
-        "category": "chatter",
-        "matched": [
-          "rant"
-        ]
-      },
-      {
-        "text": "What AI music tool has the best workflow? — user asking for tool recommendation ",
-        "category": "entertainment",
-        "matched": [
-          "music"
         ]
       },
       {
@@ -780,6 +734,22 @@
             "Crisis",
             ""
           ]
+        ]
+      },
+      {
+        "text": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Dri",
+        "category": "chatter",
+        "matched": [
+          "vent",
+          "vent",
+          "vent"
+        ]
+      },
+      {
+        "text": "YSL新款男士水晶鞋遭吐槽",
+        "category": "chatter",
+        "matched": [
+          "吐槽"
         ]
       }
     ],
@@ -844,54 +814,53 @@
         ]
       },
       {
-        "text": "Five checks before connecting an OpenAI-compatible API",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['API', 'OpenAI']"
-        ]
-      },
-      {
-        "text": "I Cut My OpenAI Bill by 40x and You Can Too: My 2026 Migration Story",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('Can Too', 'To', '', '', '', ''), ('Story', 'to', '', '', '', '')]",
-          "技术概念: ['OpenAI']"
-        ]
-      },
-      {
-        "text": "LongCat-2.0 Is a Warning Shot for Coding Agents, Not a Laptop Model",
+        "text": "17 Best Places to Buy Old Gmail Accounts (PVA &amp; Aged) in ...",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('Laptop', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Places to Buy', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Why OCR is still an important tool in 2026",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('important tool', 'to', '', '', '', '')]",
-          "英文工具名词: ['tool']"
-        ]
-      },
-      {
-        "text": "Why I Stopped Calling Myself a Full-Stack Developer",
+        "text": "I Shipped an MCP Server to a Marketplace and It Just Went Live — 2 Hours, /usr/bin/bash.05/Call",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('Stopped', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Server to a', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "What happened to the fight for the internet?",
+        "text": "Acrok Video Converter Ultimate 7.4.191.1745 for macOS – Convert Blu-ray, DVD &amp; 4K Videos with Ea",
+        "confidence": 40,
+        "features": [
+          "英文动作特征: ['Converter']",
+          "英文工具名词: ['converter']"
+        ]
+      },
+      {
+        "text": "Best 3 Sites To Buy Edu Emails Accounts for Student ...",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('happened to the', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Sites To Buy', 'To', '', '', '', '')]"
         ]
       },
       {
-        "text": "Claude Code Is Steganographically Marking Requests",
-        "confidence": 15,
+        "text": "Best Places to Buy Aged Yahoo Accounts in the USA (Top 10)",
+        "confidence": 20,
         "features": [
-          "技术概念: ['Claude']"
+          "输入→输出链式: [('Places to Buy', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Top 10 Websites to Buy Old Yahoo Accounts in the USA",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Websites to Buy', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Top 07 Sites to Buying Edu Emails for Student Discounts",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Sites to Buying', 'to', '', '', '', '')]"
         ]
       }
     ]
