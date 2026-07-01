@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-01T04:44:55.309392+00:00     ║
+║       启动时间: 2026-07-01T10:04:22.330951+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -47,7 +47,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 19 articles
+  ✅ 20 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 24 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,15 +81,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 354
-  🚫 闲聊拦截: 13 条 (3.7%)
-  🧠 工具信号: 182 条 (51.4%)
+  原始信号总量: 353
+  🚫 闲聊拦截: 12 条 (3.4%)
+  🧠 工具信号: 178 条 (50.4%)
 
   📋 闲聊拦截样例:
-     [news] Recursion, Questions, and My Midlife Crisis as an AI
-     [chatter] Slint and the Node.js Event Loop
-     [news] Explore Ethereum by the Shape of a Transaction — featured on
-     [entertainment] Live face swap and outfit try-on in the browser — featured o
+     [entertainment] 结婚 12 年准备离婚了
+     [news] Stop Agents from Breaking Your Knowledge Base: Meet Vouch, a
+     [job] Who's hiring? Q3 2026
+     [chatter] Pokayoke – turn repo conventions into deterministic checks f
      [entertainment] What AI music tool has the best workflow? — user asking for 
 
   🧠 工具信号样例:
@@ -98,35 +98,35 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度35%] Does Python have a ternary conditional operator?
        ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
        ↳ 技术概念: ['Python']
-     [置信度15%]
+     [置信度15%] What are metaclasses in Python?
+       ↳ 技术概念: ['Py
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 354 条
-     🚫 闲聊拦截: 13 条 (3.7%)
-     🧠 工具信号: 182 条 (51.4%)
-     闲聊样例: Recursion, Questions, and My Midlife Crisis as an ... [news]
+     原始抓取: 353 条
+     🚫 闲聊拦截: 12 条 (3.4%)
+     🧠 工具信号: 178 条 (50.4%)
+     闲聊样例: 结婚 12 年准备离婚了... [entertainment]
      工具信号样例: What does the "yield" keyword do in Python?... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 182 → 有效 41
-     拒绝率: 77.5%
+     工具信号 178 → 有效 38
+     拒绝率: 78.7%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
+  ✅ 通过 (13):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
      [PASS  |  +65] Tracker Tool  [?]
-     [WARN  |  +48] OCR Tool  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
@@ -151,8 +151,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-01T04:44:55.461826+00:00
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-07-01T10:04:22.477057+00:00
    Already in catalog: 111 tools
    Previously produced: 0 tools
    Existing tool pages: 22 files
@@ -279,7 +279,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-01T04:44:55.309392+00:00 → 2026-07-01T04:45:07.038390+00:00
+  ⏱  耗时: 2026-07-01T10:04:22.330951+00:00 → 2026-07-01T10:04:34.159054+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
