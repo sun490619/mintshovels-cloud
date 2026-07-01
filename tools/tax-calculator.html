@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator - 税务计算器 | MintShovels</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #09090b; color: #fafafa; font-family: system-ui, -apple-system, sans-serif; min-height: 100vh; }
+        .card { background: #18181b; border: 1px solid #27272a; border-radius: 16px; padding: 24px; }
+        .btn-primary { background: linear-gradient(135deg,#6366f1,#8b5cf6); color:white; border:none; padding:10px 24px; border-radius:12px; font-weight:600; font-size:14px; cursor:pointer; }
+        .btn-primary:hover { transform:translateY(-1px); box-shadow:0 8px 25px rgba(99,102,241,0.3); }
+        .btn-secondary { background:#27272a; color:#d4d4d8; border:1px solid #3f3f46; padding:10px 24px; border-radius:12px; font-weight:600; font-size:14px; cursor:pointer; }
+        .btn-secondary:hover { background:#3f3f46; }
+        input, textarea { background:#18181b; border:1px solid #27272a; border-radius:10px; padding:10px 14px; color:#fafafa; font-size:14px; width:100%; }
+        input:focus, textarea:focus { outline:none; border-color:#6366f1; }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-3xl mx-auto">
+        <a href="../index.html" class="text-zinc-500 hover:text-white text-sm mb-6 inline-block">← MintShovels</a>
+        <div class="card mb-6">
+            <div class="text-5xl mb-4">💰</div>
+            <h1 class="text-2xl font-bold">Tax Calculator</h1>
+            <p class="text-zinc-400">税务计算器</p>
+            <span class="inline-block mt-2 px-3 py-1 rounded-full text-xs bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+                Shovel #056 · 🔧 Web Tool
+            </span>
+        </div>
+        <div class="card">
+            <div class="space-y-4">
+    <div><label class="text-xs text-zinc-400 block mb-1">身高 (cm)</label><input id="tax-calculator-param1" type="number" class="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-3 py-2 text-white text-sm" placeholder="例如 170"></div>
+        <div><label class="text-xs text-zinc-400 block mb-1">体重 (kg)</label><input id="tax-calculator-param2" type="number" class="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-3 py-2 text-white text-sm" placeholder="例如 65"></div>
+    <button onclick="calc()" class="btn-primary">🧮 开始计算</button>
+    <div id="calc-result" class="bg-zinc-800/50 rounded-lg p-4 text-center text-2xl font-bold text-emerald-400">BMI结果</div>
+</div>
+        </div>
+        <script>function calc() {
+    const a = parseFloat(document.getElementById('param1').value);
+    const b = parseFloat(document.getElementById('param2').value);
+    const result = document.getElementById('calc-result');
+    if (isNaN(a)) { result.innerHTML = '<p class="text-amber-400">请输入有效参数</p>'; return; }
+    const heightM = a / 100;
+    const bmi = b / (heightM * heightM);
+    let status = '';
+    if (bmi < 18.5) status = '偏瘦';
+    else if (bmi < 24) status = '正常';
+    else if (bmi < 28) status = '偏胖';
+    else status = '肥胖';
+    result.innerHTML = `<div class="text-3xl font-bold text-emerald-400">${bmi.toFixed(1)}</div><div class="text-sm text-zinc-400 mt-1">BMI · ${status}</div><div class="text-xs text-zinc-500 mt-2">身高 ${a}cm · 体重 ${b}kg</div>`;
+    // 保存历史
+    const history = JSON.parse(localStorage.getItem('calc_history') || '[]');
+    history.push({a, b, result: result.innerText, time: new Date().toISOString()});
+    if (history.length > 50) history.shift();
+    localStorage.setItem('calc_history', JSON.stringify(history));
+}</script>
+    </div>
+</body>
+</html>
