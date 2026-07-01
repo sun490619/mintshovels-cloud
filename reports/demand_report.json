@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T22:19:20.966972+00:00",
+  "generated_at": "2026-07-01T02:00:25.569622+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -102,52 +102,51 @@
       "How can I iterate over rows in a Pandas DataFrame?"
     ],
     "v2ex": [
-      "好奇大家用的牙膏是什么牌子的？",
-      "“万一免五”股票基金大笑脸低佣开户，抽鼠标迈从 A7 V3 PRO+；键盘迈从 Ace 68 V2。",
-      "苹果电脑全线涨价，大家还会继续买吗？",
-      "广东农村堂弟不爱读书，中专/技校已经极限了，求建议：未来还有哪些相对靠谱的出路？",
       "经济下行，我做了这些事情来节省开支，然后发现对生活品质几乎没有影响……欢迎补充",
-      "今年这是怎么了，各家✈️为啥都一直在抽风",
-      "兄弟们， deepseek 配合哪个编程工具最好用，有亲身体验的来说说",
+      "农村人太苦辣 🥵",
       "claude code 才冲了 max 今早收到了被封号了！",
-      "Claude 被封了，但我还是像个舔狗一样的想找回 Ta"
+      "Claude 被封了，但我还是像个舔狗一样的想找回 Ta",
+      "A 股现在还算是牛市吗",
+      "还没有被 A\\ 封号的小伙伴是啥配置啊",
+      "有坚持只用 claude，不用 codex 的人吗",
+      "有没有上海联通网络下稳定的梯子，大家推荐一下"
     ],
     "devto": [
       "DEV Community: programming",
-      "2-Minute Guide: Reading and Writing JSON in Python (2026)",
-      "2-Minute Guide: Logging in Python (the right way) (2026)",
-      "The Force Awakens: Test-Driven Development — why and how to start",
-      "Stable &amp; Active Profiles B\"uy Aged Veri\"fied PayPal Accounts,",
-      "Where to Buy Bulk Verified PayPal Accounts in US Trusted",
-      "إعداد بيئة البرمجة على نظام لينكس باستخدام Docker و Kubernetes: دليل المبتدئين",
-      "Argus for Claude Code: Cut Repetitive Workflow Token Usage by 80% with",
-      "Getting Started with Cybersecurity: A Beginner's Guide to Building a Home Network Security System using Raspberry Pi and Linux",
-      "Mastering Linux Terminal Commands for Web Developers: A Beginner's Guide",
-      "GLM-5.2 vs Anthropic Mythos: Bug-Finding for Real-World Code",
-      "أداة المختبر الافتراضي للبرمجة بلغة بايثون: كيفية استخدام مكتبة Pygame لبناء لعبة فيديو ثنائية الأبعاد بسيطة مع ميزات ذكاء اصطناعي",
-      "How to Learn System Design From Scratch (With No Distributed Systems Experience)"
+      "How AI Is Reshaping Developer Workflows: A Practical Guide [Image Test C]",
+      "How AI Is Reshaping Developer Workflows: A Practical Guide [Image Test B]",
+      "How AI Is Reshaping Developer Workflows: A Practical Guide [Image Test A]",
+      "3 Times You Need Base64 (and One Time You Definitely Don't)",
+      "Open-Source LLM APIs Beat Self-Hosting. Here's the Math.",
+      "Nobody Is Coming to Save Your Privacy. Build the Tools Yourself",
+      "Chasing Chroma’s Silent Data Loss: How Playwright E2E Tests Saved 72 Hours",
+      "VideoReTalking: 7.2K+ Stars",
+      "I built a Code Snippet Formatter — syntax highlight code and export as PNG",
+      "I built an Aspect Ratio Calculator — resize dimensions, simplify ratios, explore common ratios",
+      "I built a CSS Specificity Calculator with per-token breakdown and selector comparison",
+      "I built a free IP Address Info tool — geolocation, ISP, ASN, no API key needed"
     ],
     "lobsters": [
-      "stop asking writers about \"AI\"",
+      "jj jj jj jj jj",
+      "What happened to the fight for the internet?",
       "Claude Code Is Steganographically Marking Requests",
-      "What's wrong with EU age verification? (Nothing)",
-      "May in Servo: user scripts, mp4 compat, blackboxing in DevTools, and more",
       "The Threat of Residential Proxies",
+      "stop asking writers about \"AI\"",
+      "May in Servo: user scripts, mp4 compat, blackboxing in DevTools, and more",
       "Parse, Don't Validate — In a Language That Doesn't Want You To",
-      "Local Reasoning for Global Properties",
+      "What's wrong with EU age verification? (Nothing)",
       "Underappreciated builtin: Grand Unified Debugger",
+      "Local Reasoning for Global Properties",
       "The end of the AArch64 desktop experiment",
       "Investigating Linux graphics (2025)",
-      "What is `std::pin::Pin` in Rust?",
       "Generating the P3 Tiling",
       "Soatok’s Informal Guide to Threat Models",
-      "Run any Dockerfile on Vercel",
+      "What is `std::pin::Pin` in Rust?",
       "jj_tui: terminal user interface to jujutsu focused on speed and clarity",
       "Slint and the Node.js Event Loop",
-      "When Impressive Performance Gains Do Not Matter",
-      "jj jj jj jj jj",
-      "Serving Local AI on my Jetson through Durable Streams",
-      "Memory Safe Context Switching"
+      "ZLUDA 6 release (run CUDA on non-Nvidia GPUs)",
+      "I ported Kubernetes to the browser",
+      "Run any Dockerfile on Vercel"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -172,50 +171,51 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Claude Code is steganographically marking requests 🔥1183pts 💬310",
-      "Claude Sonnet 5 🔥732pts 💬405",
-      "Building a custom octocopter from scratch with no prior hardware experience 🔥300pts 💬68",
-      "Claude Science 🔥294pts 💬103",
-      "Nano Banana 2 Lite 🔥253pts 💬100",
-      "Knoppix 🔥218pts 💬92",
-      "Memoirs of Extraordinary Popular Delusions and the Madness of Crowds (1852) 🔥152pts 💬50",
-      "1.38 Millimeter Microcontroller 🔥133pts 💬88",
-      "I built a mmWave material classification radar (2025) 🔥112pts 💬30",
-      "I ported Kubernetes to the browser 🔥84pts 💬20",
-      "A peek into Reddit's anti-spam internals 🔥73pts 💬15",
-      "Have you restarted your computer this week? 🔥72pts 💬164",
-      "Amazon seller reveals glimpse of shadow bribery market 🔥68pts 💬34",
-      "CERN bids farewell to the LHC and enters Long Shutdown 3 🔥59pts 💬13",
-      "Waveloop: What Fable left me 🔥53pts 💬13",
-      "Set up your own DoH (DNS over HTTPS) service",
-      "How does a pull-back car work? Illustrated teardown",
-      "Meta's brain-scanning system reads sentences non-invasively, code open source",
-      "Matrix URIs, a URL syntax from Tim Berners-Lee that never shipped (1996)",
-      "I built a 10 inch mini rack from aluminium extrusions",
-      "SedonaDB 0.4: GPU-accelerated spatial joins",
-      "Reading the internals of Postgres: Database cluster, databases, and tables",
-      "Morbid: Debunking Modern Longevity Science",
-      "Stroustrup's Rule (2024)",
-      "Long Island's decommissioned nuclear power plant"
+      "Claude Code is steganographically marking requests 🔥1429pts 💬409",
+      "Claude Sonnet 5 🔥889pts 💬499",
+      "Claude Science 🔥371pts 💬122",
+      "Building a custom octocopter from scratch with no prior hardware experience 🔥331pts 💬69",
+      "Nano Banana 2 Lite 🔥308pts 💬120",
+      "Knoppix 🔥257pts 💬103",
+      "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5 🔥232pts 💬90",
+      "Memoirs of Extraordinary Popular Delusions and the Madness of Crowds (1852) 🔥170pts 💬54",
+      "I ported Kubernetes to the browser 🔥167pts 💬55",
+      "I built a mmWave material classification radar (2025) 🔥142pts 💬38",
+      "CERN bids farewell to the LHC and enters Long Shutdown 3 🔥119pts 💬32",
+      "Have you restarted your computer this week? 🔥115pts 💬220",
+      "From brain waves to words: a new path to communication without surgery 🔥109pts 💬58",
+      "How does a pull-back car work? Illustrated teardown 🔥107pts 💬26",
+      "Leanstral 1.5 🔥102pts 💬19",
+      "Waveloop: What Fable left me 🔥98pts 💬39",
+      "Tokyo has only two barley tea makers, we visited one to see how mugicha is made 🔥75pts 💬12",
+      "Long Island's decommissioned nuclear power plant 🔥75pts 💬11",
+      "I built a 10 inch mini rack from aluminium extrusions 🔥71pts 💬31",
+      "The President Made More Than $1Billon in Crypto Deals 🔥66pts 💬10",
+      "Stroustrup's Rule (2024) 🔥57pts 💬9",
+      "Reading the internals of Postgres: Database cluster, databases, and tables 🔥51pts 💬1",
+      "Ante: A new way to blend borrow checking and reference counting",
+      "Google copybara: moving code between repositories",
+      "Show HN: My 13-year-old built an ant colony tracker"
     ],
     "hn_show": [
-      "Open-source restreaming and live studio — featured on Hacker News (🔥1pts)",
+      "Coding agent that compiles intent into deterministic DAG before running — featured on Hacker News (🔥1pts)",
+      "Agentic OS – the operating system for AI agents — featured on Hacker News (🔥1pts)",
+      "Explore Ethereum by the Shape of a Transaction — featured on Hacker News (🔥2pts)",
+      "Fruitbox – Docker Compose for Apple's container runtime — featured on Hacker News (🔥2pts)",
+      "Yourself, in Every Light — featured on Hacker News (🔥2pts)",
+      "Free Online GIS Viewer and Format Converter — featured on Hacker News (🔥2pts)",
+      "Hinge for Trading — featured on Hacker News (🔥4pts)",
+      "TakoVM – open-source sandboxing for your agent's code — featured on Hacker News (🔥2pts)",
+      "Whenever Alignment Matters — featured on Hacker News (🔥1pts)",
+      "Open-source restreaming and live studio — featured on Hacker News (🔥4pts)",
       "Veritrace – B2B leads with a source URL on every row, no guessed emails — featured on Hacker News (🔥1pts)",
       "Turning Sentry errors into AI generated GitHub PRs with fixes — featured on Hacker News (🔥2pts)",
       "Mimir – local-first encrypted memory for AI agents (single Rust binary) — featured on Hacker News (🔥1pts)",
       "Mathematical fault-Isolation accelerator engine — featured on Hacker News (🔥1pts)",
       "Morph Reflexes – Multi-head classifiers for agent traces — featured on Hacker News (🔥3pts)",
-      "Openleetcode – LeetCode runner where tests live in the repo — featured on Hacker News (🔥3pts)",
+      "Openleetcode – LeetCode runner where tests live in the repo — featured on Hacker News (🔥4pts)",
       "Kage, verification and freshness for Google's OKF agent memory — featured on Hacker News (🔥3pts)",
-      "Jensen – a Deus Ex: Human Revolution theme for 30 developer apps — featured on Hacker News (🔥3pts)",
-      "Frontier AI Lab Jobs – Open Jobs by Function at OpenAI, Anthropic — featured on Hacker News (🔥2pts)",
-      "Distributed LLM tracing and GH PR/issue linking [Apache 2.0] — featured on Hacker News (🔥1pts)",
-      "Trains – leaderless total-order broadcast in Rust, formally verified — featured on Hacker News (🔥3pts)",
-      "Can you tell the difference between AI vs human-made fonts? — featured on Hacker News (🔥1pts)",
-      "LangevinAI – Automated FP&A for Everyone — featured on Hacker News (🔥1pts)",
-      "I made a heatmap of 3400 VCs who are open to cold emails — featured on Hacker News (🔥22pts)",
-      "BetterVideo - privacy-first video enhancement API — featured on Hacker News (🔥1pts)",
-      "Makes local LLMs faster and more reliable by optimizing for your device — featured on Hacker News (🔥5pts)"
+      "Jensen – a Deus Ex: Human Revolution theme for 30 developer apps — featured on Hacker News (🔥3pts)"
     ],
     "hn_ask_tools": [
       "Show HN: Morph Reflexes – Multi-head classifiers for agent traces — user asking for tool recommendation (🔥3pts)",
@@ -234,7 +234,7 @@
       "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
       "Which AI coding tools do AIs recommend? Data across 10 models and 1000 responses — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Non-profit school possibly hacked, locked out of Google Workspace. — user asking for tool recommendation (🔥6pts)",
-      "Show HN: Distributed LLM tracing and GH PR/issue linking [Apache 2.0] — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Distributed LLM tracing and GH PR/issue linking [Apache 2.0] — user asking for tool recommendation (🔥2pts)",
       "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥5pts)",
       "Show HN: Vibe zsh, turn natural language into shell commands — user asking for tool recommendation (🔥3pts)",
       "Ask HN: Is AI dumbing us down? — user asking for tool recommendation (🔥4pts)",
@@ -282,66 +282,66 @@
       "Presentation: Million PDFs: Building a Modern Document Infrastructure with Rust and Typst <img src=\"https://res.infoq.com/presentations/document-infrastructure-rust-typst/en/mediumimage/ErikSteiger-medium-1782220478687.jpg\"/><p>Erik Steiger",
       "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution <img src=\"https://res.infoq.com/articles/security-ai-threat-evolution/en/headerimage/security-ai-threat-evolution-header-1782202845102.jpg\"/><p>This v",
       "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins <img src=\"https://res.infoq.com/podcasts/natural-evolution-cloud-native/en/smallimage/the-infoq-podcast-logo-thumbnail-1782207787976.jpg\"/><p>In this ",
-      "AI Tools Accelerates Coding, but Not Overall Software Delivery, GitLab Research Finds <img src=\"https://res.infoq.com/news/2026/06/ai-coding-outpaces-governance/en/headerimage/ai-coding-outpaces-governance-1782718807762.jpeg\"/><p>GitLab",
+      "AI Tools Accelerates Coding, But Not Overall Software Delivery, GitLab Research Finds <img src=\"https://res.infoq.com/news/2026/06/ai-coding-outpaces-governance/en/headerimage/ai-coding-outpaces-governance-1782718807762.jpeg\"/><p>GitLab",
       "Swift 6.4 Brings New Language Features and Swift Testing/XCTest Interop <img src=\"https://res.infoq.com/news/2026/06/swift-6-4-beta-features/en/headerimage/android-studio-otter-llm-1782634112952.jpeg\"/><p>Currently availab",
       "AWS Previews FinOps Agent for Cost Analysis and Optimization <img src=\"https://res.infoq.com/news/2026/06/aws-finops-agent/en/headerimage/generatedHeaderImage-1781884717104.jpg\"/><p>Amazon has released AWS FinOp",
       "AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management <img src=\"https://res.infoq.com/news/2026/06/aws-credentials-provider/en/headerimage/generatedHeaderImage-1781712757418.jpg\"/><p>AWS has recently anno"
     ],
     "google_trends": [
-      "olise",
-      "france",
-      "mbappe age",
-      "william saliba",
-      "john cena hair transplant procedure",
-      "victor lindelöf",
-      "isak",
-      "jussie smollett",
-      "congressman tom kean jr",
-      "mbappe girlfriend"
+      "ana barbara",
+      "chicharito",
+      "citizen vigilante where to watch",
+      "lou trivino",
+      "trea turner",
+      "colorado election results",
+      "jason statham",
+      "gilberto mora",
+      "keon ellis",
+      "raúl rangel"
     ],
     "baidu": [
       "中共中央政治局召开会议",
-      "德国队已原地解散",
-      "世界杯：法国vs瑞典",
-      "@高考考生 这些骗局要当心",
-      "挪威2-1科特迪瓦",
-      "沃尔玛、永辉、小象超市抽检沦陷",
-      "西瓜价格大跳水",
-      "詹姆斯正式发声告别湖人",
-      "男生高考英语147分 字像打印的",
-      "九旬老人淘到“吴石”印章",
-      "詹姆斯4次换队都在世界杯期间",
-      "“高考估分715查分299”系谣言",
+      "世界杯死亡之组全部淘汰",
       "湖南一家5口惨遭灭门案告破",
-      "乘务员悄悄拉走女生并帮她换了车厢",
-      "A股上半年股王涨超770%",
-      "6名摩友躲雨被索要每人20元避雨费",
+      "@高考考生 这些骗局要当心",
+      "哈兰德绝杀创5大纪录",
+      "网红李雨禅被警方行政拘留",
+      "香港街头挂满国旗区旗",
+      "沃尔玛、永辉、小象超市抽检沦陷",
+      "王曼昱爆冷0-3不敌佐藤瞳",
+      "卢卡申科出席儿子北大毕业典礼",
+      "新疆女孩用放了一周的馕劈开西瓜",
+      "“高考估分715查分299”系谣言",
+      "西瓜价格大跳水",
       "董明珠：家电不换成格力凭什么分红",
-      "博物馆回应工地挖出僧人圆寂坐缸容器",
-      "海来阿木悼念早逝女儿阿果",
-      "婚宴现带冰碴预制菜 酒店全额退款"
+      "东风17实弹发射影像首次公开",
+      "世界杯：墨西哥vs厄瓜多尔",
+      "唐氏患者在爷爷葬礼上崩溃大哭",
+      "“机器人伴侣”订单破1.1万台",
+      "哈兰德：战胜巴西队机会非常小",
+      "海来阿木悼念早逝女儿阿果"
     ],
     "wikipedia": [
-      "Chief of the General Staff (Czech Republic)",
-      "Correctional Institution for Women (Mandaluyong)",
-      "Platythyrea parallela",
-      "Backrooms v.s Pop Culture",
-      "Duvernay, Alberta",
-      "Kristian Skjødt Kjærgaard",
-      "List of Xbox 360 accessories",
-      "The Call of the Wild (1908 film)",
-      "Kristian Pulli",
-      "Kristian Lipar",
-      "Platythyrea clypeata",
-      "Pooja Dhanda",
-      "Kristian Frost Olesen",
-      "Prince Fielder",
-      "Trump v. Barbara",
-      "Platythyrea",
-      "Dunmore, Alberta",
-      "Kristi Leskinen",
-      "Fingerboard",
-      "You Spin Me Round (Like a Record)"
+      "Vancouver Institute for the Americas",
+      "Gabi Moura",
+      "Grafana",
+      "Verena Hartmann",
+      "Binta Lake Fire",
+      "Steve Parker (artist)",
+      "David Bacon (photojournalist)",
+      "Associação Académica de Coimbra in European football",
+      "Tabea Rößner",
+      "Bighorn Fire",
+      "Healthcare in India",
+      "Stefan Strematz",
+      "Katja Dörner",
+      "Bel Air Fire",
+      "Women in Hospital",
+      "Ingrid Roitzsch",
+      "Dune: Awakening",
+      "Beckwourth Complex fires",
+      "Improvement District No. 349",
+      "Chromium"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -376,21 +376,21 @@
       "translation t5-small"
     ],
     "arxiv": [
-      "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, langu",
-      "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training Full-length song generation must preserve coherence and musicality, render detailed vocal and accompaniment acoustics, and follow lyrics and prompts. Existing language model-based systems face a struc",
-      "Self-Evolving World Models for LLM Agent Planning World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even",
-      "GROW$^2$: Grounding Which and Where for Robot Tool Use Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challeng",
-      "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to ex",
-      "DOPD: Dual On-policy Distillation On-policy distillation (OPD) offers superior capacity transfer by supervising student-sampled trajectories with dense token-level signals. To furnish high-quality supervision sources and thereby eleva",
-      "Optimization Dynamics Imprint Semantic Specificity in Contrastive Embedding Norms Contrastive embedding models trained with scale-invariant losses are typically paired with distance metrics like cosine similarity, effectively ignoring embedding magnitudes. However, surprisingly, em",
-      "C$^{2}$R: Cross-sample Consistency Regularization Mitigates Feature Splitting and Absorption in Sparse Autoencoders Sparse Autoencoders (SAEs) are widely used to interpret large language models by decomposing activations into sparse, human-understandable features, but scaling to large dictionaries exposes fundament",
-      "MESA: Prioritizing Vulnerable Communication Channels for Securing Multi-Agent Systems Multi-agent systems (MAS) are increasingly used to automate complex, distributed workflows. However, their inter-agent communication channels introduce new attack surfaces that remain poorly understoo",
-      "Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection Researchers and practitioners increasingly apply Large Language Models (LLMs) for automated vulnerability detection. Recent work has shown that LLMs are susceptible to the same cognitive heuristics th",
-      "Beyond 2D Matching: A Unified Single-Stage Framework for Geometry-Aware Cross-View Object Geo-Localization Cross-view object geo-localization (CVOGL) aims to locate a target object from a query view (e.g., ground or drone) within a geo-tagged reference image (e.g., satellite). Existing approaches heavily r",
-      "A Multi-task Mixture of Experts Framework for Malware Classification, Packing Detection, and Family Attribution Malware classification remains a challenging problem due to its inherent heterogeneity, the presence of packed binaries, and the diverse distribution of malware families. Traditional single-model dete",
-      "The Human Creativity Benchmark Modern AI evaluation frameworks treat evaluator disagreement as noise to be resolved. In creative domains, professional disagreement reflects genuine differences in taste, not measurement error. We ar",
-      "TraceLab: Characterizing Coding Agent Workloads for LLM Serving Coding agents are rapidly becoming a major application of agentic LLMs, but serving them efficiently remains challenging. Progress on this challenge requires understanding real workload patterns, yet ",
-      "Linguistic Firewall: Geometry as Defense in Multi-Agent Systems Routing The rapid integration of Large Language Models (LLMs) has driven the evolution of Multi-Agent Systems (MAS), where specialized agents collaborate to execute complex workflows. Effective orchestration "
+      "Improving Certified Robustness via Adversarial Distillation Certified training aims to produce models whose predictions can be formally verified against adversarial perturbations, typically by optimising upper bounds on the worst-case loss over an allowed pert",
+      "FARS: A Fully Automated Research System Deployed at Scale Recent automated research systems show that language-model agents can generate hypotheses, run experiments, and write complete manuscripts, but most evidence still comes from selected examples, human-",
+      "ECHO: Prune to act, trace to learn with selective turn memory in agentic RL Long-horizon language agents must repeatedly interact with tools, accumulate evidence, and make decisions under bounded context windows. Existing context-management methods make such rollouts feasible",
+      "Think in English, Answer in Korean: Efficient Adaptation of Multilingual Tool-Using Agents We present LuckyStar 111B, a 111B-parameter hybrid reasoning model developed through a collaboration between Cohere and LG CNS for Korean-English enterprise agents under practical memory and serving c",
+      "A Lifecycle and Application-Stack Survey of Large Language Model Vulnerabilities: Attacks, Risks, Defenses, and Open Problems Large language models are no longer only text generators. They are increasingly embedded in retrieval pipelines, enterprise assistants, coding environments, robotic systems, security-operation workflo",
+      "Intrinsic decomposition and editing of 3D Gaussian splats Intrinsic decomposition which expresses image colors as the product of diffuse albedo and shading, possibly augmented with view-dependent residuals has a long history in image editing as it enables th",
+      "A Tutorial on Autonomous Fault-Tolerant Control Using Knowledge-Grounded LLM Agents Fault recovery in process plants still relies heavily on plant operators, especially when faults fall outside predefined supervisory logic. Operators interpret alarms, procedures, P\\&IDs, interlocks, ",
+      "Scientific Explanations in Health Sciences: Causality, Trust, and Epistemic Adequacy Medical Artificial Intelligence (AI) is widely expected to transform clinical practice, yet the decision-making processes of many Machine Learning (ML) models remain opaque. Explainability has been ad",
+      "Automating Cause-Effect Specification with Knowledge Graphs and Large Language Models Engineering specifications such as interlocks, alarm rationalization tables, and cause-and-effect (C&E) matrices remain central to process control and safety, yet their creation is still predominantly",
+      "Learning Structurally Consistent Representations for Multi-View Radar Semantic Segmentation Radar sensors provide reliable perception under adverse weather and lighting conditions, but their sparse, noisy, and weakly semantic measurements make dense semantic segmentation challenging. Most ex",
+      "Preserve the Hard, Regenerate the Rest: Uncertainty-Guided Synthetic Training Data Augmentation with Diffusion Models Semantic segmentation models struggle with data sparsity and rare or visually diverse regions, e.g., dense regions or small objects in aerial or autonomous mobility data. While synthetic augmentation ",
+      "Token-Sparse Medical Multimodal Reasoning via Dual-Stream Reinforcement Learning Vision-language models (VLMs) combining reinforcement learning (RL) ignite remarkable progress in multimodal reasoning, yet still struggle with medical images, which typically exhibit extremely sparse",
+      "Comparative Analysis of Machine Learning based Intrusion Detection in Realistic IoT Networks The Internet of Things (IoT) is rapidly growing and expanding into various sectors, such as healthcare, transportation, smart homes, and more. Despite the benefits of using IoT devices, they present s",
+      "Evil Spectra: How Optimisers can Amplify or Suppress Emergent Misalignment Emergent misalignment (EM) is a recently discovered phenomenon in LLMs where fine-tuning on a narrow misaligned task, such as writing insecure code, leads to broadly misaligned behaviour on unrelated ",
+      "ZEBRA: Zero-Shot Entropy-Regularized Prompt Learning for Base-to-Novel Generalization in Audio-Language Models Audio-Language Models (ALMs) achieve strong zero-shot performance by aligning audio with textual class descriptions. Although prompt learning improves accuracy on base classes through few-shot supervi"
     ],
     "paperswithcode": [],
     "npm_registry": [
@@ -412,47 +412,92 @@
       "swagger2openapi — npm package: Convert Swagger 2.0 definitions to OpenApi 3.0 and validate",
       "@kakilangit/unix-time — npm package: WebAssembly bindings for Unix Time Converter tool",
       "pdf-to-png-converter — npm package: Node.js utility to convert PDF file/buffer pages to PNG files/buffers. No build-time compilation required — pre-built native binaries included for all major platforms.",
-      "swagger-converter — npm package: Converts Swagger documents from version 1.x to version 2.0",
       "v8-to-istanbul — npm package: convert from v8 coverage format to istanbul's format",
+      "swagger-converter — npm package: Converts Swagger documents from version 1.x to version 2.0",
       "jsonmatter — npm package: JSON formatter tool by stream",
       "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
       "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
       "sql-formatter — npm package: Format whitespace in a SQL query to make it more readable",
       "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
-      "sass-formatter — npm package: TypeScript Sass formatter",
       "prettier — npm package: Prettier is an opinionated code formatter",
-      "@expo/xcpretty — npm package: Parse and format xcodebuild logs",
+      "sass-formatter — npm package: TypeScript Sass formatter",
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format",
-      "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
+      "@expo/xcpretty — npm package: Parse and format xcodebuild logs",
+      "ecdsa-sig-formatter — npm package: Translate ECDSA signatures between ASN.1/DER and JOSE-style concatenation"
     ],
     "github_topics": [
-      "github trending topic: cli",
+      "github trending topic: javascript",
+      "github trending topic: node.js",
+      "github trending topic: code quality",
+      "github trending topic: claude",
+      "github trending topic: python",
       "github trending topic: ai-agents",
+      "github trending topic: front end",
+      "github trending topic: project management",
+      "github trending topic: css",
+      "github trending topic: compiler",
+      "github trending topic: database",
+      "github trending topic: machine-learning",
       "github trending topic: react",
-      "github trending topic: scala",
+      "github trending topic: npm",
       "github trending topic: fastapi",
       "github trending topic: chrome",
-      "github trending topic: database",
-      "github trending topic: node.js",
-      "github trending topic: nodejs",
-      "github trending topic: front end",
-      "github trending topic: npm",
-      "github trending topic: compiler",
-      "github trending topic: docker",
-      "github trending topic: typescript",
-      "github trending topic: python",
-      "github trending topic: llm",
-      "github trending topic: project management",
-      "github trending topic: javascript",
-      "github trending topic: css",
-      "github trending topic: awesome lists",
       "github trending topic: react native",
-      "github trending topic: code quality"
+      "github trending topic: nextjs",
+      "github trending topic: awesome lists",
+      "github trending topic: docker",
+      "github trending topic: scala",
+      "github trending topic: typescript"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
+    {
+      "keyword": "I built a Code Snippet Formatter — syntax highlight code and export as PNG",
+      "matched": "format",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "Formatter",
+      "name_zh": "格式化工具"
+    },
+    {
+      "keyword": "I built a Code Snippet Formatter — syntax highlight code and export as PNG",
+      "matched": "snippet",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "Code Snippet Manager",
+      "name_zh": "代码片段管理"
+    },
+    {
+      "keyword": "I built a Code Snippet Formatter — syntax highlight code and export as PNG",
+      "matched": "export",
+      "category": "productivity",
+      "subcat": "office",
+      "type": "tool",
+      "name": "Exporter",
+      "name_zh": "导出工具"
+    },
+    {
+      "keyword": "I built a Code Snippet Formatter — syntax highlight code and export as PNG",
+      "matched": "form",
+      "category": "dev",
+      "subcat": "web",
+      "type": "tool",
+      "name": "Form Builder",
+      "name_zh": "表单构建器"
+    },
+    {
+      "keyword": "I built a Code Snippet Formatter — syntax highlight code and export as PNG",
+      "matched": "tax",
+      "category": "finance",
+      "subcat": "tax",
+      "type": "tool",
+      "name": "Tax Calculator",
+      "name_zh": "税务计算器"
+    },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
@@ -479,15 +524,6 @@
       "type": "tool",
       "name": "Note Taker",
       "name_zh": "笔记工具"
-    },
-    {
-      "keyword": "Marketing automation platforms — tool from ProductHunt",
-      "matched": "form",
-      "category": "dev",
-      "subcat": "web",
-      "type": "tool",
-      "name": "Form Builder",
-      "name_zh": "表单构建器"
     },
     {
       "keyword": "Video editing — tool from ProductHunt",
@@ -517,7 +553,7 @@
       "name_zh": "单位换算"
     },
     {
-      "keyword": "Show HN: A Free AI Visibility Tracker — user asking for tool recommendation (🔥1pts)",
+      "keyword": "Show HN: My 13-year-old built an ant colony tracker",
       "matched": "track",
       "category": "productivity",
       "subcat": "tracking",
@@ -580,15 +616,6 @@
       "name_zh": "JSON格式化"
     },
     {
-      "keyword": "jsonmatter — npm package: JSON formatter tool by stream",
-      "matched": "format",
-      "category": "dev",
-      "subcat": "code",
-      "type": "tool",
-      "name": "Formatter",
-      "name_zh": "格式化工具"
-    },
-    {
       "keyword": "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
       "matched": "editor",
       "category": "productivity",
@@ -608,6 +635,8 @@
     }
   ],
   "all_keywords": [
+    "Nobody Is Coming to Save Your Privacy. Build the Tools Yourself",
+    "I built a Code Snippet Formatter — syntax highlight code and export as PNG",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -628,6 +657,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
+    "Show HN: My 13-year-old built an ant colony tracker",
     "Show HN: SUNWÆE – your life's AI OS — user asking for tool recommendation (🔥2pts)",
     "Show HN: AMA2, messenger built for AI agent — user asking for tool recommendation (🔥5pts)",
     "Ask HN: Is AI dumbing us down? — user asking for tool recommendation (🔥4pts)",
@@ -646,14 +676,14 @@
     "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
     "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
-    "sass-formatter — npm package: TypeScript Sass formatter",
-    "prettier — npm package: Prettier is an opinionated code formatter"
+    "prettier — npm package: Prettier is an opinionated code formatter",
+    "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 183,
-    "valid_count": 40,
-    "rejected_count": 143,
-    "rejection_rate": 78.1,
+    "raw_count": 185,
+    "valid_count": 43,
+    "rejected_count": 142,
+    "rejection_rate": 76.8,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -664,15 +694,15 @@
       "How slicing in Python works",
       "claude code 才冲了 max 今早收到了被封号了！",
       "Claude 被封了，但我还是像个舔狗一样的想找回 Ta",
-      "2-Minute Guide: Reading and Writing JSON in Python (2026)"
+      "有坚持只用 claude，不用 codex 的人吗"
     ]
   },
   "trait_analysis": {
     "total_captured": 350,
-    "chatter_blocked": 9,
-    "chatter_rate": 2.6,
-    "tool_signals_found": 183,
-    "tool_signal_rate": 52.3,
+    "chatter_blocked": 13,
+    "chatter_rate": 3.7,
+    "tool_signals_found": 185,
+    "tool_signal_rate": 52.9,
     "chatter_samples": [
       {
         "text": "Slint and the Node.js Event Loop",
@@ -682,11 +712,21 @@
         ]
       },
       {
-        "text": "Amazon seller reveals glimpse of shadow bribery market 🔥68pts 💬34",
+        "text": "The President Made More Than $1Billon in Crypto Deals 🔥66pts 💬10",
         "category": "news",
         "matched": [
           [
-            "reveals",
+            "President",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "Explore Ethereum by the Shape of a Transaction — featured on Hacker News (🔥2pts)",
+        "category": "news",
+        "matched": [
+          [
+            "Ethereum",
             ""
           ]
         ]
@@ -708,38 +748,42 @@
         ]
       },
       {
-        "text": "世界杯：法国vs瑞典",
+        "text": "colorado election results",
+        "category": "news",
+        "matched": [
+          [
+            "election",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "世界杯：墨西哥vs厄瓜多尔",
         "category": "entertainment",
         "matched": [
           "世界杯"
         ]
       },
       {
-        "text": "The Call of the Wild (1908 film)",
-        "category": "entertainment",
-        "matched": [
-          "film"
-        ]
-      },
-      {
-        "text": "Self-Evolving World Models for LLM Agent Planning World models offer a principle",
-        "category": "ad",
-        "matched": [
-          "offer"
-        ]
-      },
-      {
-        "text": "DOPD: Dual On-policy Distillation On-policy distillation (OPD) offers superior c",
-        "category": "job",
-        "matched": [
-          "offer"
-        ]
-      },
-      {
-        "text": "granturismo — npm package: generator tool",
+        "text": "唐氏患者在爷爷葬礼上崩溃大哭",
         "category": "chatter",
         "matched": [
-          "rant"
+          "崩溃"
+        ]
+      },
+      {
+        "text": "Associação Académica de Coimbra in European football",
+        "category": "entertainment",
+        "matched": [
+          "football"
+        ]
+      },
+      {
+        "text": "Intrinsic decomposition and editing of 3D Gaussian splats Intrinsic decompositio",
+        "category": "job",
+        "matched": [
+          "position",
+          "position"
         ]
       }
     ],
@@ -811,47 +855,50 @@
         ]
       },
       {
-        "text": "2-Minute Guide: Reading and Writing JSON in Python (2026)",
+        "text": "有坚持只用 claude，不用 codex 的人吗",
         "confidence": 15,
         "features": [
-          "技术概念: ['JSON', 'Python']"
+          "技术概念: ['claude']"
         ]
       },
       {
-        "text": "2-Minute Guide: Logging in Python (the right way) (2026)",
+        "text": "3 Times You Need Base64 (and One Time You Definitely Don't)",
         "confidence": 15,
         "features": [
-          "技术概念: ['Python']"
+          "技术概念: ['Base64']"
         ]
       },
       {
-        "text": "The Force Awakens: Test-Driven Development — why and how to start",
-        "confidence": 30,
-        "features": [
-          "输入→输出链式: [('how to start', 'to', '', '', '', '')]",
-          "需求表达: [('how to start', 'to', '', '', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "Where to Buy Bulk Verified PayPal Accounts in US Trusted",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('Where to Buy', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "إعداد بيئة البرمجة على نظام لينكس باستخدام Docker و Kubernetes: دليل المبتدئين",
+        "text": "Open-Source LLM APIs Beat Self-Hosting. Here's the Math.",
         "confidence": 15,
         "features": [
-          "技术概念: ['Kubernetes', 'Docker']"
+          "技术概念: ['LLM']"
         ]
       },
       {
-        "text": "Argus for Claude Code: Cut Repetitive Workflow Token Usage by 80% with",
+        "text": "Nobody Is Coming to Save Your Privacy. Build the Tools Yourself",
         "confidence": 35,
         "features": [
-          "输入→输出链式: [('Workflow Token', 'To', '', '', '', '')]",
-          "技术概念: ['Token', 'Claude']"
+          "输入→输出链式: [('Coming to Save', 'to', '', '', '', ''), ('the Tools', 'To', '', '', '', '')]",
+          "英文工具名词: ['tool']"
+        ]
+      },
+      {
+        "text": "I built a Code Snippet Formatter — syntax highlight code and export as PNG",
+        "confidence": 55,
+        "features": [
+          "英文动作特征: ['Formatter']",
+          "英文工具名词: ['formatter']",
+          "技术概念: ['PNG']"
+        ]
+      },
+      {
+        "text": "I built an Aspect Ratio Calculator — resize dimensions, simplify ratios, explore common ratios",
+        "confidence": 60,
+        "features": [
+          "英文动作特征: ['Calculator']",
+          "输入→输出链式: [('Calculator', 'to', '', '', '', '')]",
+          "英文工具名词: ['calculator']"
         ]
       }
     ]
