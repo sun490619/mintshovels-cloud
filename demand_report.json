@@ -1,35 +1,14 @@
 {
-  "timestamp": "2026-06-30T22:00:23.487182",
+  "timestamp": "2026-07-01T12:20:49.726602",
   "stats": {
-    "total": 29,
-    "passed": 9,
-    "blocked": 19,
-    "warned": 1
+    "total": 43,
+    "passed": 10,
+    "blocked": 31,
+    "warned": 2
   },
   "results": [
     {
-      "text": "Show HN: Autoharness – a self-learning, maintaining skill layer for Claude Code",
-      "pain_signal": {
-        "has_signal": false,
-        "level": 0,
-        "matched": []
-      },
-      "classification": {
-        "pass": false,
-        "is_unmet": false,
-        "is_feasible": false,
-        "canonical_name": "N/A",
-        "tool_type": "other",
-        "confidence": 95,
-        "reason": "该文本描述的是一个已存在的开源项目或产品发布（Show HN），属于产品推广而非未满足的工具需求。",
-        "feasibility_reason": "该内容本身即为已实现的软件产品，不属于待开发的工具需求。",
-        "verdict": "BLOCK",
-        "raw_text": "Show HN: Autoharness – a self-learning, maintaining skill layer for Claude Code"
-      },
-      "timestamp": "2026-06-30T22:00:18.871393"
-    },
-    {
-      "text": "Show HN: Rinkta – pulls finished work from all task managers into one dashboard",
+      "text": "Why do teams keep losing context, and why hasn't any tool fixed it?",
       "pain_signal": {
         "has_signal": false,
         "level": 0,
@@ -37,20 +16,20 @@
       },
       "classification": {
         "pass": true,
-        "is_unmet": false,
-        "is_feasible": true,
-        "canonical_name": "多平台任务聚合看板",
-        "tool_type": "processor",
-        "confidence": 95,
-        "reason": "用户需要一个能够整合不同任务管理平台数据并统一展示的仪表盘工具。",
-        "feasibility_reason": "通过调用各平台公开的API接口获取数据并进行前端聚合展示，在技术上完全可行。",
-        "verdict": "PASS",
-        "raw_text": "Show HN: Rinkta – pulls finished work from all task managers into one dashboard"
+        "is_unmet": true,
+        "is_feasible": false,
+        "canonical_name": "团队上下文同步与知识图谱构建工具",
+        "tool_type": "other",
+        "confidence": 85,
+        "reason": "用户表达了对团队协作中信息碎片化和上下文丢失的痛点，这是一个典型的知识管理与协作需求。",
+        "feasibility_reason": "该需求本质上是复杂的组织行为学与知识管理问题，依赖于团队内部海量非结构化数据的实时整合与语义理解，无法通过简单的输入输出工具解决。",
+        "verdict": "WARN",
+        "raw_text": "Why do teams keep losing context, and why hasn't any tool fixed it?"
       },
-      "timestamp": "2026-06-30T22:00:20.869323"
+      "timestamp": "2026-07-01T12:20:45.323848"
     },
     {
-      "text": "Show HN: Valmis, an OpenClaw alternative built for work, with security in mind",
+      "text": "What Happened to the Fight for the Internet?",
       "pain_signal": {
         "has_signal": false,
         "level": 0,
@@ -60,36 +39,57 @@
         "pass": false,
         "is_unmet": false,
         "is_feasible": false,
-        "canonical_name": "N/A",
+        "canonical_name": "无",
         "tool_type": "other",
         "confidence": 100,
-        "reason": "该文本是典型的 Show HN 推广帖，属于产品发布公告，而非用户提出的具体工具需求。",
-        "feasibility_reason": "文本内容为产品宣传，不包含可转化为在线工具的输入输出逻辑。",
+        "reason": "该文本是一个文章标题或话题讨论，属于观点性内容，而非具体的功能性操作需求。",
+        "feasibility_reason": "文本内容不包含输入、处理、输出的数据流逻辑，无法转化为在线工具。",
         "verdict": "BLOCK",
-        "raw_text": "Show HN: Valmis, an OpenClaw alternative built for work, with security in mind"
+        "raw_text": "What Happened to the Fight for the Internet?"
       },
-      "timestamp": "2026-06-30T22:00:22.187651"
+      "timestamp": "2026-07-01T12:20:47.318626"
     },
     {
-      "text": "Show HN: Built a minimalist currency converter app that I use daily now",
+      "text": "How to talk about \"AI\" without adding to the anthropomorphization",
       "pain_signal": {
         "has_signal": false,
         "level": 0,
         "matched": []
       },
       "classification": {
-        "pass": true,
+        "pass": false,
         "is_unmet": false,
-        "is_feasible": true,
-        "canonical_name": "极简货币转换器",
-        "tool_type": "converter",
+        "is_feasible": false,
+        "canonical_name": "无",
+        "tool_type": "other",
         "confidence": 95,
-        "reason": "用户描述了一个用于货币汇率转换的工具需求。",
-        "feasibility_reason": "货币转换逻辑简单，通过调用公开汇率API即可实现，技术上完全可行。",
-        "verdict": "PASS",
-        "raw_text": "Show HN: Built a minimalist currency converter app that I use daily now"
+        "reason": "该文本属于探讨AI伦理和语言表达的哲学/学术问题，而非具体的工具操作需求。",
+        "feasibility_reason": "这是一个认知和表达层面的议题，无法通过输入输出的逻辑转化为在线工具。",
+        "verdict": "BLOCK",
+        "raw_text": "How to talk about \"AI\" without adding to the anthropomorphization"
       },
-      "timestamp": "2026-06-30T22:00:23.485652"
+      "timestamp": "2026-07-01T12:20:48.521701"
+    },
+    {
+      "text": "Show HN: Gilfoyle's Project but IRL",
+      "pain_signal": {
+        "has_signal": false,
+        "level": 0,
+        "matched": []
+      },
+      "classification": {
+        "pass": false,
+        "is_unmet": false,
+        "is_feasible": false,
+        "canonical_name": "N/A",
+        "tool_type": "other",
+        "confidence": 95,
+        "reason": "该文本是典型的 Show HN 标题，指代电视剧《硅谷》中角色的项目，属于项目展示而非具体的功能性工具需求。",
+        "feasibility_reason": "文本描述的是一个具体的项目展示，而非一个可抽象为在线工具的通用需求。",
+        "verdict": "BLOCK",
+        "raw_text": "Show HN: Gilfoyle's Project but IRL"
+      },
+      "timestamp": "2026-07-01T12:20:49.724230"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T22:00:17.515129",
+  "updated_at": "2026-07-01T12:20:43.737224",
   "sources": {
     "reddit": 0,
     "hackernews": 4,
@@ -9,28 +9,28 @@
   "candidates_count": 4,
   "candidates": [
     {
-      "text": "Show HN: Autoharness – a self-learning, maintaining skill layer for Claude Code",
+      "text": "Why do teams keep losing context, and why hasn't any tool fixed it?",
       "source": "hackernews",
-      "url": "https://github.com/tigerless-labs/autoharness",
-      "fetched_at": "2026-06-30T21:58:20.918815"
+      "url": "https://news.ycombinator.com/item?id=48742163",
+      "fetched_at": "2026-07-01T12:16:48.456569"
     },
     {
-      "text": "Show HN: Rinkta – pulls finished work from all task managers into one dashboard",
+      "text": "What Happened to the Fight for the Internet?",
       "source": "hackernews",
-      "url": "https://rinkta.com/",
-      "fetched_at": "2026-06-30T21:59:12.088069"
+      "url": "https://dustycloud.org/blog/what-happened-to-the-fight-for-the-internet/",
+      "fetched_at": "2026-07-01T12:19:41.683030"
     },
     {
-      "text": "Show HN: Valmis, an OpenClaw alternative built for work, with security in mind",
+      "text": "How to talk about \"AI\" without adding to the anthropomorphization",
       "source": "hackernews",
-      "url": "https://github.com/valmishq/valmis",
-      "fetched_at": "2026-06-30T21:59:32.968106"
+      "url": "https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the/",
+      "fetched_at": "2026-07-01T12:19:52.960200"
     },
     {
-      "text": "Show HN: Built a minimalist currency converter app that I use daily now",
+      "text": "Show HN: Gilfoyle's Project but IRL",
       "source": "hackernews",
-      "url": "https://globallybased.com/denom",
-      "fetched_at": "2026-06-30T22:00:07.467190"
+      "url": "https://github.com/korrectional/GilfoyleAI",
+      "fetched_at": "2026-07-01T12:20:23.144954"
     }
   ]
 }

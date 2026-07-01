@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Tester - API测试工具 | MintShovels</title>
+    <meta name="description" content="Test REST APIs with full HTTP method support. Send GET, POST, PUT, PATCH, DELETE requests with custom headers and body. Free online API testing tool.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #09090b; color: #fafafa; font-family: system-ui, -apple-system, sans-serif; min-height: 100vh; }
+        .card { background: #18181b; border: 1px solid #27272a; border-radius: 16px; padding: 24px; }
+        .btn-primary { background: linear-gradient(135deg,#6366f1,#8b5cf6); color:white; border:none; padding:10px 24px; border-radius:12px; font-weight:600; font-size:14px; cursor:pointer; }
+        .btn-primary:hover { transform:translateY(-1px); box-shadow:0 8px 25px rgba(99,102,241,0.3); }
+        .btn-primary:disabled { opacity:0.5; cursor:not-allowed; transform:none; box-shadow:none; }
+        .btn-secondary { background:#27272a; color:#d4d4d8; border:1px solid #3f3f46; padding:10px 24px; border-radius:12px; font-weight:600; font-size:14px; cursor:pointer; }
+        .btn-secondary:hover { background:#3f3f46; }
+        .btn-secondary-sm { background:#27272a; color:#d4d4d8; border:1px solid #3f3f46; padding:6px 14px; border-radius:8px; font-weight:600; font-size:12px; cursor:pointer; }
+        .btn-secondary-sm:hover { background:#3f3f46; }
+        input, textarea, select { background:#18181b; border:1px solid #27272a; border-radius:10px; padding:10px 14px; color:#fafafa; font-size:14px; width:100%; }
+        input:focus, textarea:focus, select:focus { outline:none; border-color:#6366f1; }
+        .method-badge { padding:4px 10px; border-radius:6px; font-size:11px; font-weight:700; font-family:monospace; }
+        .method-get { background:#1a3a2a; color:#4ade80; }
+        .method-post { background:#1a2a3a; color:#60a5fa; }
+        .method-put { background:#2a1a3a; color:#c084fc; }
+        .method-patch { background:#2a2a1a; color:#facc15; }
+        .method-delete { background:#3a1a1a; color:#f87171; }
+        .status-badge { padding:4px 10px; border-radius:6px; font-size:12px; font-weight:600; }
+        .status-2xx { background:#1a3a2a; color:#4ade80; }
+        .status-3xx { background:#2a2a1a; color:#facc15; }
+        .status-4xx { background:#3a1a1a; color:#f87171; }
+        .status-5xx { background:#3a1a1a; color:#ef4444; }
+        .header-row { display:flex; align-items:center; gap:8px; margin-bottom:6px; }
+        .header-row input { flex:1; }
+        ::-webkit-scrollbar { width:6px; }
+        ::-webkit-scrollbar-track { background:#09090b; }
+        ::-webkit-scrollbar-thumb { background:#3f3f46; border-radius:3px; }
+        .response-tab { padding:6px 16px; border-radius:6px 6px 0 0; font-size:12px; cursor:pointer; background:#18181b; color:#71717a; border:none; }
+        .response-tab.active { background:#27272a; color:#fafafa; }
+        .history-item { padding:8px 12px; border-radius:8px; cursor:pointer; font-size:12px; }
+        .history-item:hover { background:#27272a; }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-5xl mx-auto">
+        <a href="../index.html" class="text-zinc-500 hover:text-white text-sm mb-6 inline-block">← MintShovels</a>
+        <div class="card mb-6">
+            <div class="text-5xl mb-4">💻</div>
+            <h1 class="text-2xl font-bold">API Tester</h1>
+            <p class="text-zinc-400">API测试工具 — 支持 GET/POST/PUT/PATCH/DELETE · 自定义 Headers · JSON 响应预览</p>
+            <span class="inline-block mt-2 px-3 py-1 rounded-full text-xs bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+                Shovel #035 · 🔧 Web Tool
+            </span>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <!-- Main Request Panel -->
+            <div class="lg:col-span-2 space-y-4">
+                <!-- URL Bar -->
+                <div class="card">
+                    <div class="flex gap-2 items-start">
+                        <select id="method" class="w-24 flex-shrink-0" style="padding:10px;">
+                            <option value="GET">GET</option>
+                            <option value="POST">POST</option>
+                            <option value="PUT">PUT</option>
+                            <option value="PATCH">PATCH</option>
+                            <option value="DELETE">DELETE</option>
+                        </select>
+                        <input id="url" type="url" class="flex-1" placeholder="https://api.example.com/endpoint" value="https://jsonplaceholder.typicode.com/posts/1">
+                        <button onclick="sendRequest()" id="sendBtn" class="btn-primary flex-shrink-0">🚀 发送</button>
+                    </div>
+                </div>
+
+                <!-- Headers -->
+                <div class="card">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-sm font-semibold text-zinc-300">📋 Headers</h3>
+                        <button onclick="addHeader()" class="btn-secondary-sm">+ 添加</button>
+                    </div>
+                    <div id="headersContainer">
+                        <div class="header-row">
+                            <input class="header-key" placeholder="Key" value="Content-Type">
+                            <input class="header-value" placeholder="Value" value="application/json">
+                            <button onclick="this.parentElement.remove()" class="text-red-500 hover:text-red-400 text-xs">✕</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Body -->
+                <div class="card" id="bodyCard">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-sm font-semibold text-zinc-300">📦 Request Body</h3>
+                        <div class="flex gap-2">
+                            <select id="bodyType" class="w-28 text-xs" style="padding:6px 10px;">
+                                <option value="json">JSON</option>
+                                <option value="form">Form Data</option>
+                                <option value="text">Plain Text</option>
+                            </select>
+                        </div>
+                    </div>
+                    <textarea id="requestBody" rows="6" class="font-mono text-xs" placeholder='{"key": "value"}'></textarea>
+                </div>
+
+                <!-- Response -->
+                <div class="card">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-sm font-semibold text-zinc-300">📥 Response</h3>
+                        <div id="responseMeta" class="flex items-center gap-3"></div>
+                    </div>
+                    <div id="responseTabs" class="flex gap-1 mb-2">
+                        <button class="response-tab active" onclick="switchResponseTab('body', this)">Body</button>
+                        <button class="response-tab" onclick="switchResponseTab('headers', this)">Headers</button>
+                        <button class="response-tab" onclick="switchResponseTab('timing', this)">Timing</button>
+                    </div>
+                    <div id="responseBody" class="bg-zinc-900 rounded-lg p-4 overflow-auto max-h-96">
+                        <pre id="responseContent" class="text-xs text-zinc-400 whitespace-pre-wrap font-mono">点击「🚀 发送」发起请求</pre>
+                    </div>
+                    <div id="responseHeaders" class="hidden bg-zinc-900 rounded-lg p-4 overflow-auto max-h-96">
+                        <pre id="responseHeadersContent" class="text-xs text-zinc-400 whitespace-pre-wrap font-mono"></pre>
+                    </div>
+                    <div id="responseTiming" class="hidden bg-zinc-900 rounded-lg p-4 overflow-auto max-h-96">
+                        <pre id="responseTimingContent" class="text-xs text-zinc-400 whitespace-pre-wrap font-mono"></pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar: History + Presets -->
+            <div class="space-y-4">
+                <div class="card">
+                    <h3 class="text-sm font-semibold text-zinc-300 mb-3">🕐 History</h3>
+                    <div id="historyList">
+                        <p class="text-zinc-600 text-xs">暂无记录</p>
+                    </div>
+                    <button onclick="clearHistory()" class="btn-danger-sm mt-2 w-full text-center">🗑 清空历史</button>
+                </div>
+                <div class="card">
+                    <h3 class="text-sm font-semibold text-zinc-300 mb-3">📌 Presets</h3>
+                    <div class="space-y-2">
+                        <button onclick="loadPreset('jsonplaceholder')" class="w-full text-left btn-secondary text-xs py-2">JSONPlaceholder GET</button>
+                        <button onclick="loadPreset('httpbin')" class="w-full text-left btn-secondary text-xs py-2">httpbin POST</button>
+                        <button onclick="loadPreset('catfact')" class="w-full text-left btn-secondary text-xs py-2">Cat Facts GET</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let history = JSON.parse(localStorage.getItem('apiTesterHistory') || '[]');
+        let responseHeadersData = null;
+        let responseTimingData = null;
+
+        function sendRequest() {
+            const method = document.getElementById('method').value;
+            const url = document.getElementById('url').value.trim();
+            const sendBtn = document.getElementById('sendBtn');
+
+            if (!url) { showResponse('请输入 URL', '#f87171'); return; }
+
+            // Validate URL
+            try { new URL(url); } catch(e) { showResponse('❌ URL 格式无效', '#f87171'); return; }
+
+            sendBtn.disabled = true;
+            sendBtn.textContent = '⏳ 发送中...';
+            document.getElementById('responseContent').textContent = '⏳ 请求中...';
+            document.getElementById('responseContent').style.color = '#a1a1aa';
+
+            // Collect headers
+            const headers = {};
+            document.querySelectorAll('.header-row').forEach(row => {
+                const key = row.querySelector('.header-key').value.trim();
+                const val = row.querySelector('.header-value').value.trim();
+                if (key) headers[key] = val;
+            });
+
+            // Collect body
+            let body = undefined;
+            const bodyType = document.getElementById('bodyType').value;
+            const bodyRaw = document.getElementById('requestBody').value.trim();
+            if (['POST', 'PUT', 'PATCH'].includes(method) && bodyRaw) {
+                if (bodyType === 'json') {
+                    try { body = JSON.parse(bodyRaw); } catch(e) { showResponse('❌ JSON 格式错误: ' + e.message, '#f87171'); return; }
+                } else if (bodyType === 'form') {
+                    const formData = new URLSearchParams();
+                    try {
+                        const parsed = JSON.parse(bodyRaw);
+                        Object.entries(parsed).forEach(([k,v]) => formData.append(k, v));
+                    } catch(e) {
+                        bodyRaw.split('&').forEach(pair => {
+                            const [k,v] = pair.split('=');
+                            if (k) formData.append(k.trim(), (v || '').trim());
+                        });
+                    }
+                    body = formData.toString();
+                    headers['Content-Type'] = 'application/x-www-form-urlencoded';
+                } else {
+                    body = bodyRaw;
+                }
+            }
+
+            const startTime = performance.now();
+
+            fetch(url, { method, headers, body })
+                .then(async res => {
+                    const endTime = performance.now();
+                    const elapsed = (endTime - startTime).toFixed(1);
+
+                    responseHeadersData = {};
+                    res.headers.forEach((v, k) => { responseHeadersData[k] = v; });
+
+                    const contentType = res.headers.get('content-type') || '';
+                    let responseText;
+                    let isJson = contentType.includes('application/json');
+
+                    try {
+                        if (isJson) {
+                            responseText = JSON.stringify(await res.json(), null, 2);
+                        } else {
+                            responseText = await res.text();
+                        }
+                    } catch(e) {
+                        responseText = '(无法读取响应体)';
+                    }
+
+                    responseTimingData = {
+                        '总耗时': `${elapsed} ms`,
+                        '状态码': res.status,
+                        '状态文本': res.statusText,
+                        '响应大小': `${new Blob([responseText]).size} bytes`,
+                        'Content-Type': contentType
+                    };
+
+                    // Show response
+                    const statusClass = res.status < 300 ? 'status-2xx' : res.status < 400 ? 'status-3xx' : res.status < 500 ? 'status-4xx' : 'status-5xx';
+                    document.getElementById('responseMeta').innerHTML = `
+                        <span class="status-badge ${statusClass}">${res.status} ${res.statusText}</span>
+                        <span class="text-xs text-zinc-500">${elapsed}ms</span>
+                        <span class="text-xs text-zinc-500">${new Blob([responseText]).size} B</span>
+                    `;
+
+                    document.getElementById('responseContent').textContent = responseText;
+                    document.getElementById('responseContent').style.color = '#d4d4d8';
+
+                    // Build headers display
+                    let headersDisplay = '';
+                    Object.entries(responseHeadersData).forEach(([k,v]) => {
+                        headersDisplay += `${k}: ${v}\n`;
+                    });
+                    document.getElementById('responseHeadersContent').textContent = headersDisplay;
+
+                    // Build timing display
+                    let timingDisplay = '';
+                    Object.entries(responseTimingData).forEach(([k,v]) => {
+                        timingDisplay += `${k}: ${v}\n`;
+                    });
+                    document.getElementById('responseTimingContent').textContent = timingDisplay;
+
+                    // Add to history
+                    addHistory({ method, url, status: res.status, time: elapsed, timestamp: new Date().toLocaleString() });
+
+                    sendBtn.disabled = false;
+                    sendBtn.textContent = '🚀 发送';
+                })
+                .catch(err => {
+                    showResponse(`❌ 请求失败: ${err.message}`, '#f87171');
+                    sendBtn.disabled = false;
+                    sendBtn.textContent = '🚀 发送';
+                });
+        }
+
+        function showResponse(text, color) {
+            const el = document.getElementById('responseContent');
+            el.textContent = text;
+            el.style.color = color || '#d4d4d8';
+            document.getElementById('responseMeta').innerHTML = '';
+            document.getElementById('responseHeadersContent').textContent = '';
+            document.getElementById('responseTimingContent').textContent = '';
+        }
+
+        function addHeader() {
+            const container = document.getElementById('headersContainer');
+            const row = document.createElement('div');
+            row.className = 'header-row';
+            row.innerHTML = `
+                <input class="header-key" placeholder="Key">
+                <input class="header-value" placeholder="Value">
+                <button onclick="this.parentElement.remove()" class="text-red-500 hover:text-red-400 text-xs">✕</button>
+            `;
+            container.appendChild(row);
+        }
+
+        function addHistory(entry) {
+            history.unshift(entry);
+            if (history.length > 20) history = history.slice(0, 20);
+            localStorage.setItem('apiTesterHistory', JSON.stringify(history));
+            renderHistory();
+        }
+
+        function renderHistory() {
+            const container = document.getElementById('historyList');
+            if (history.length === 0) {
+                container.innerHTML = '<p class="text-zinc-600 text-xs">暂无记录</p>';
+                return;
+            }
+            container.innerHTML = history.map((h, i) => `
+                <div class="history-item flex items-center gap-2" onclick="restoreHistory(${i})">
+                    <span class="method-badge method-${h.method.toLowerCase()}">${h.method}</span>
+                    <span class="flex-1 truncate text-zinc-400">${h.url}</span>
+                    <span class="text-xs text-zinc-600">${h.status}</span>
+                    <span class="text-xs text-zinc-600">${h.time}ms</span>
+                </div>
+            `).join('');
+        }
+
+        function restoreHistory(idx) {
+            const h = history[idx];
+            if (!h) return;
+            document.getElementById('method').value = h.method;
+            document.getElementById('url').value = h.url;
+        }
+
+        function clearHistory() {
+            history = [];
+            localStorage.removeItem('apiTesterHistory');
+            renderHistory();
+        }
+
+        function switchResponseTab(tab, btn) {
+            document.querySelectorAll('.response-tab').forEach(t => t.classList.remove('active'));
+            btn.classList.add('active');
+            ['responseBody', 'responseHeaders', 'responseTiming'].forEach(id => {
+                document.getElementById(id).classList.add('hidden');
+            });
+            const map = { body: 'responseBody', headers: 'responseHeaders', timing: 'responseTiming' };
+            document.getElementById(map[tab]).classList.remove('hidden');
+        }
+
+        function loadPreset(name) {
+            const presets = {
+                jsonplaceholder: { method: 'GET', url: 'https://jsonplaceholder.typicode.com/posts/1', body: '' },
+                httpbin: { method: 'POST', url: 'https://httpbin.org/post', body: '{"test": "hello"}' },
+                catfact: { method: 'GET', url: 'https://catfact.ninja/fact', body: '' }
+            };
+            const p = presets[name];
+            if (!p) return;
+            document.getElementById('method').value = p.method;
+            document.getElementById('url').value = p.url;
+            document.getElementById('requestBody').value = p.body;
+            document.getElementById('bodyType').value = 'json';
+        }
+
+        // Update body visibility based on method
+        document.getElementById('method').addEventListener('change', function() {
+            const showBody = ['POST', 'PUT', 'PATCH'].includes(this.value);
+            document.getElementById('bodyCard').style.display = showBody ? 'block' : 'none';
+        });
+        document.getElementById('method').dispatchEvent(new Event('change'));
+
+        // Initial render
+        renderHistory();
+    </script>
+</body>
+</html>

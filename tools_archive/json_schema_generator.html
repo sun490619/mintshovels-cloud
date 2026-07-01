@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>JSON to JSON Schema Generator</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;display:flex;justify-content:center;padding:40px 20px}
+.container{max-width:900px;width:100%}
+h1{font-size:22px;color:#58a6ff;margin-bottom:6px}
+.sub{font-size:13px;color:#8b949e;margin-bottom:24px}
+.panels{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:700px){.panels{grid-template-columns:1fr}}
+.box{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px}
+.box h3{font-size:14px;color:#8b949e;margin-bottom:10px}
+textarea{width:100%;min-height:220px;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px;color:#c9d1d9;font-family:'SF Mono',Monaco,monospace;font-size:12px;resize:vertical;outline:none}
+textarea:focus{border-color:#58a6ff}
+pre{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:14px;font-size:12px;overflow:auto;max-height:350px;white-space:pre-wrap;font-family:'SF Mono',Monaco,monospace;line-height:1.5}
+.btn{background:#238636;color:#fff;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;font-size:14px;font-weight:500;margin-right:8px;margin-top:12px}
+.btn:hover{background:#2ea043}
+.btn.copy{background:#21262d;border:1px solid #30363d;color:#c9d1d9}
+.btn.copy:hover{background:#30363d}
+.btn.sample{background:#1f2937;border:1px solid #374151;color:#9ca3af;font-size:12px;padding:6px 12px}
+.btn.sample:hover{background:#374151}
+.keyword{color:#ff7b72}.string{color:#a5d6ff}.number{color:#79c0ff}.bool{color:#ffa657}
+.toast{position:fixed;top:20px;right:20px;background:#238636;color:#fff;padding:10px 18px;border-radius:6px;font-size:13px;opacity:0;transition:opacity .3s;z-index:999}
+.toast.show{opacity:1}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>📋 JSON to JSON Schema</h1>
+<p class="sub">粘贴 JSON 数据 → 自动生成 JSON Schema 定义</p>
+
+<div class="panels">
+<div class="box">
+<h3>📥 JSON 数据</h3>
+<textarea id="input" placeholder='粘贴 JSON 数据...&#10;&#10;{"name":"Alice","age":25,"email":"alice@example.com","tags":["dev","js"],"address":{"city":"NYC","zip":"10001"}}'></textarea>
+<button class="btn sample" onclick="loadSample()">📎 加载示例</button>
+<button class="btn" onclick="generate()" style="float:right">⚡ 生成 Schema</button>
+</div>
+<div class="box">
+<h3>📤 JSON Schema</h3>
+<pre id="output">{}</pre>
+<button class="btn copy" onclick="copyResult()" style="float:right">📋 复制</button>
+</div>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+function loadSample(){
+  document.getElementById('input').value=JSON.stringify({
+    name:"Alice",age:25,email:"alice@example.com",
+    tags:["dev","js","react"],
+    address:{city:"New York",zip:"10001"},
+    isActive:true,score:95.5
+  },null,2);
+  generate();
+}
+
+function inferType(val){
+  if(val===null)return'null';
+  if(Array.isArray(val))return'array';
+  let t=typeof val;
+  if(t==='string')return'string';
+  if(t==='number')return Number.isInteger(val)?'integer':'number';
+  if(t==='boolean')return'boolean';
+  if(t==='object')return'object';
+  return'string';
+}
+
+function mergeSchemas(schemas){
+  let types=[...new Set(schemas.map(s=>s.type))];
+  if(types.length===1)return{type:types[0]};
+  return{type:types};
+}
+
+function jsonToSchema(obj,title){
+  let schema={};
+  if(title)schema.title=title;
+  let t=inferType(obj);
+
+  if(t==='object'){
+    schema.type='object';
+    schema.properties={};
+    let required=[];
+    for(let[key,val]of Object.entries(obj)){
+      schema.properties[key]=jsonToSchema(val);
+      if(val!==null&&val!==undefined)required.push(key);
+    }
+    if(required.length)schema.required=required;
+  }else if(t==='array'){
+    schema.type='array';
+    if(obj.length>0){
+      let itemSchemas=obj.map(item=>jsonToSchema(item));
+      let types=[...new Set(itemSchemas.map(s=>s.type))];
+      if(types.length===1){
+        schema.items={type:types[0]};
+        // if it's object, merge properties
+        if(types[0]==='object'){
+          let allKeys={};
+          itemSchemas.forEach(s=>{
+            if(s.properties)Object.keys(s.properties).forEach(k=>{allKeys[k]=1});
+          });
+          schema.items={type:'object',properties:{}};
+          Object.keys(allKeys).forEach(k=>{
+            schema.items.properties[k]=itemSchemas.find(s=>s.properties&&s.properties[k])?.properties?.[k]||{type:'string'};
+          });
+        }
+      }else{
+        schema.items={type:types};
+      }
+    }else{
+      schema.items={type:'string'};
+    }
+  }else if(t==='integer'){
+    schema.type='integer';
+    schema.examples=[obj];
+  }else if(t==='number'){
+    schema.type='number';
+    schema.examples=[obj];
+  }else{
+    schema.type=t;
+  }
+  return schema;
+}
+
+function generate(){
+  try{
+    let json=JSON.parse(document.getElementById('input').value);
+    let schema=jsonToSchema(json,'GeneratedSchema');
+    schema.$schema='http://json-schema.org/draft-07/schema#';
+    document.getElementById('output').textContent=JSON.stringify(schema,null,2);
+    showToast('Schema 生成完成!');
+  }catch(e){
+    document.getElementById('output').textContent='JSON 解析错误: '+e.message;
+  }
+}
+
+function copyResult(){
+  navigator.clipboard.writeText(document.getElementById('output').textContent);
+  showToast('已复制!');
+}
+function showToast(msg){
+  let t=document.getElementById('toast');t.textContent=msg;t.className='toast show';
+  setTimeout(()=>t.className='toast',1500);
+}
+// Auto generate on load
+window.onload=()=>{if(document.getElementById('input').value.trim())generate();};
+</script>
+</body>
+</html>

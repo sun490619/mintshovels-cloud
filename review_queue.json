@@ -65,5 +65,16 @@
     "pain_level": 0,
     "status": "pending",
     "added_at": "2026-06-30T11:46:53.540347"
+  },
+  {
+    "text": "Why do teams keep losing context, and why hasn't any tool fixed it?",
+    "canonical_name": "团队上下文同步与知识图谱构建工具",
+    "confidence": 85,
+    "reason": "用户表达了对团队协作中信息碎片化和上下文丢失的痛点，这是一个典型的知识管理与协作需求。",
+    "is_feasible": false,
+    "feasibility_reason": "该需求本质上是复杂的组织行为学与知识管理问题，依赖于团队内部海量非结构化数据的实时整合与语义理解，无法通过简单的输入输出工具解决。",
+    "pain_level": 0,
+    "status": "pending",
+    "added_at": "2026-07-01T12:20:49.725505"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_judged": 240,
+  "total_judged": 254,
   "total_corrected": 1,
   "history": [
     {
@@ -2762,6 +2762,174 @@
       "is_unmet": false,
       "is_feasible": true,
       "feasibility_reason": "货币转换逻辑简单，通过调用公开汇率API即可实现，技术上完全可行。"
+    },
+    {
+      "text": "Show HN: Webbynode – An observatory built from 700 fresh cloud deployments",
+      "timestamp": "2026-07-01T00:31:22.895911",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 95,
+      "reason": "该文本是典型的 Show HN（展示个人项目）标题，描述的是一个特定的观测项目，而非用户提出的工具需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "该内容属于项目展示或新闻分享，不具备输入-处理-输出的工具化需求属性。"
+    },
+    {
+      "text": "Show HN: Diskly – fast and beautiful macOS disk usage visualizer",
+      "timestamp": "2026-07-01T00:31:24.074969",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "Disk Usage Visualizer",
+      "confidence": 100,
+      "reason": "该文本是对现有产品（Diskly）的展示和推广，属于产品宣传而非未满足的需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "该需求已存在成熟的商业产品，不属于未满足的工具需求。"
+    },
+    {
+      "text": "Show HN: Openleetcode – local LeetCode runner with open test suites",
+      "timestamp": "2026-07-01T00:31:25.301784",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "LeetCode本地运行器",
+      "confidence": 95,
+      "reason": "该文本描述的是一个已存在的开源项目（Show HN），而非用户提出的未满足需求。",
+      "is_unmet": false,
+      "is_feasible": true,
+      "feasibility_reason": "该功能在技术上完全可行，但由于该项目已存在，不属于未满足的工具需求。"
+    },
+    {
+      "text": "Show HN: Astra – AI Dating Platform",
+      "timestamp": "2026-07-01T00:31:26.627648",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 100,
+      "reason": "该文本是对一个已存在产品（Astra）的展示或推广，属于产品介绍而非用户提出的工具需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "不属于用户需求描述，无需评估可行性。"
+    },
+    {
+      "text": "Show HN: I made a heatmap of 3400 VCs who are open to cold emails",
+      "timestamp": "2026-07-01T02:54:10.436525",
+      "pass": true,
+      "verdict": "PASS",
+      "canonical_name": "VC冷邮件联系人热力图查询工具",
+      "confidence": 90,
+      "reason": "用户展示了一个基于特定数据集（VC联系意愿）的可视化工具，属于数据查询与展示类需求。",
+      "is_unmet": false,
+      "is_feasible": true,
+      "feasibility_reason": "该工具本质是基于公开或已收集的数据进行前端可视化展示，技术上完全可行。"
+    },
+    {
+      "text": "Show HN: BetterVideo - privacy-first video enhancement API",
+      "timestamp": "2026-07-01T02:54:11.502501",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 100,
+      "reason": "该文本是典型的Show HN产品发布帖，属于产品推广而非用户提出的未满足需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "该文本本身是一个已存在的工具/API，而非用户描述的待解决需求。"
+    },
+    {
+      "text": "Ask HN: How do you share /skills across your dev team?",
+      "timestamp": "2026-07-01T02:54:12.722226",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 95,
+      "reason": "该文本是典型的社区讨论帖（Ask HN），旨在寻求团队协作经验和方法论，而非寻求具体的软件工具。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "这是一个管理和流程问题，无法通过单一的输入输出工具解决。"
+    },
+    {
+      "text": "Gemini Spark updates: macOS launch, connected apps and more",
+      "timestamp": "2026-07-01T05:28:59.075436",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "无",
+      "confidence": 100,
+      "reason": "该文本属于新闻资讯或产品更新公告，并非用户提出的具体功能需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "文本内容为信息陈述，不包含任何可转化为在线工具的输入输出逻辑。"
+    },
+    {
+      "text": "Underappreciated Builtin: Grand Unified Debugger",
+      "timestamp": "2026-07-01T05:29:00.312591",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 95,
+      "reason": "该文本是对现有技术概念或文章标题的讨论，而非对特定功能性工具的需求描述。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "文本内容属于信息分享或观点陈述，不包含明确的输入-处理-输出逻辑。"
+    },
+    {
+      "text": "Show HN: Mathematical fault-Isolation accelerator engine",
+      "timestamp": "2026-07-01T05:29:01.486464",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 95,
+      "reason": "该文本描述的是一个技术项目或研究成果的发布（Show HN），而非用户对特定工具功能的诉求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "属于技术展示或开源项目介绍，不属于可转化为在线小工具的特定用户需求。"
+    },
+    {
+      "text": "Why do teams keep losing context, and why hasn't any tool fixed it?",
+      "timestamp": "2026-07-01T12:20:45.313409",
+      "pass": true,
+      "verdict": "WARN",
+      "canonical_name": "团队上下文同步与知识图谱构建工具",
+      "confidence": 85,
+      "reason": "用户表达了对团队协作中信息碎片化和上下文丢失的痛点，这是一个典型的知识管理与协作需求。",
+      "is_unmet": true,
+      "is_feasible": false,
+      "feasibility_reason": "该需求本质上是复杂的组织行为学与知识管理问题，依赖于团队内部海量非结构化数据的实时整合与语义理解，无法通过简单的输入输出工具解决。"
+    },
+    {
+      "text": "What Happened to the Fight for the Internet?",
+      "timestamp": "2026-07-01T12:20:47.313854",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "无",
+      "confidence": 100,
+      "reason": "该文本是一个文章标题或话题讨论，属于观点性内容，而非具体的功能性操作需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "文本内容不包含输入、处理、输出的数据流逻辑，无法转化为在线工具。"
+    },
+    {
+      "text": "How to talk about \"AI\" without adding to the anthropomorphization",
+      "timestamp": "2026-07-01T12:20:48.514025",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "无",
+      "confidence": 95,
+      "reason": "该文本属于探讨AI伦理和语言表达的哲学/学术问题，而非具体的工具操作需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "这是一个认知和表达层面的议题，无法通过输入输出的逻辑转化为在线工具。"
+    },
+    {
+      "text": "Show HN: Gilfoyle's Project but IRL",
+      "timestamp": "2026-07-01T12:20:49.717057",
+      "pass": false,
+      "verdict": "BLOCK",
+      "canonical_name": "N/A",
+      "confidence": 95,
+      "reason": "该文本是典型的 Show HN 标题，指代电视剧《硅谷》中角色的项目，属于项目展示而非具体的功能性工具需求。",
+      "is_unmet": false,
+      "is_feasible": false,
+      "feasibility_reason": "文本描述的是一个具体的项目展示，而非一个可抽象为在线工具的通用需求。"
     }
   ],
   "corrections": [

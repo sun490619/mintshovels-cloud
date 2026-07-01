@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Editor - Markdown编辑器 | MintShovels</title>
+    <meta name="description" content="Live Markdown editor with real-time preview. Write and preview Markdown instantly. Free, no signup.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #09090b; color: #fafafa; font-family: system-ui, -apple-system, sans-serif; min-height: 100vh; }
+        .card { background: #18181b; border: 1px solid #27272a; border-radius: 16px; padding: 24px; }
+        .btn-primary { background: linear-gradient(135deg,#6366f1,#8b5cf6); color:white; border:none; padding:10px 24px; border-radius:12px; font-weight:600; font-size:14px; cursor:pointer; }
+        .btn-primary:hover { transform:translateY(-1px); box-shadow:0 8px 25px rgba(99,102,241,0.3); }
+        .btn-secondary { background:#27272a; color:#d4d4d8; border:1px solid #3f3f46; padding:10px 24px; border-radius:12px; font-weight:600; font-size:14px; cursor:pointer; }
+        .btn-secondary:hover { background:#3f3f46; }
+        input, textarea { background:#18181b; border:1px solid #27272a; border-radius:10px; padding:10px 14px; color:#fafafa; font-size:14px; width:100%; }
+        input:focus, textarea:focus { outline:none; border-color:#6366f1; }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-3xl mx-auto">
+        <a href="../index.html" class="text-zinc-500 hover:text-white text-sm mb-6 inline-block">← MintShovels</a>
+        <div class="card mb-6">
+            <div class="text-5xl mb-4">💼</div>
+            <h1 class="text-2xl font-bold">Markdown Editor</h1>
+            <p class="text-zinc-400">Markdown编辑器</p>
+            <span class="inline-block mt-2 px-3 py-1 rounded-full text-xs bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+                Shovel #025 · 🔧 Web Tool
+            </span>
+        </div>
+        <div class="card mb-4">
+            <div class="flex items-center gap-2 mb-3">
+                <button class="btn-secondary text-xs" onclick="insertMD('**Bold**')"><b>B</b></button>
+                <button class="btn-secondary text-xs" onclick="insertMD('*Italic*')"><i>I</i></button>
+                <button class="btn-secondary text-xs" onclick="insertMD('~~Strike~~')"><s>S</s></button>
+                <button class="btn-secondary text-xs" onclick="insertMD('\n- ')">• List</button>
+                <button class="btn-secondary text-xs" onclick="insertMD('[text](url)')">🔗 Link</button>
+                <button class="btn-secondary text-xs" onclick="insertMD('```\ncode\n```')">&lt;/&gt;</button>
+                <span class="text-xs text-zinc-500 ml-auto" id="mdWordCount"></span>
+            </div>
+            <textarea id="mdInput" class="h-48 font-mono text-sm" placeholder="# 标题&#10;&#10;写点 Markdown..."># 欢迎使用 Markdown 编辑器
+
+输入 **Markdown** 语法，实时预览效果。
+
+- 支持 *斜体* 和 **粗体**
+- 支持 ~~删除线~~
+- 支持 [链接](https://mintshovels.com)
+- 支持 \`行内代码\` 和代码块</textarea>
+        </div>
+        <div class="card">
+            <h3 class="text-sm font-semibold text-zinc-400 mb-3">👁 实时预览</h3>
+            <div id="mdPreview" class="prose prose-invert max-w-none text-sm leading-relaxed"></div>
+        </div>
+        <script>
+            const mdInput = document.getElementById('mdInput');
+            const mdPreview = document.getElementById('mdPreview');
+            const mdWordCount = document.getElementById('mdWordCount');
+
+            function renderMD(text) {
+                let html = text
+                    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                    .replace(/^### (.+)$/gm, '<h4 class="text-base font-semibold text-zinc-200 mt-3 mb-1">$1</h4>')
+                    .replace(/^## (.+)$/gm, '<h3 class="text-lg font-semibold text-zinc-200 mt-4 mb-2">$1</h3>')
+                    .replace(/^# (.+)$/gm, '<h2 class="text-xl font-semibold text-zinc-200 mt-4 mb-2">$1</h2>')
+                    .replace(/\*\*\*(.+?)\*\*\*/g, '<b><i>$1</i></b>')
+                    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+                    .replace(/\*(.+?)\*/g, '<i>$1</i>')
+                    .replace(/~~(.+?)~~/g, '<s class="text-zinc-500">$1</s>')
+                    .replace(/`([^`]+)`/g, '<code class="bg-zinc-800 px-1 py-0.5 rounded text-xs text-indigo-400">$1</code>')
+                    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-indigo-400 hover:underline" target="_blank">$1</a>')
+                    .replace(/^\- (.+)$/gm, '<li class="ml-4 text-zinc-300">$1</li>')
+                    .replace(/(<li.*<\/li>\n?)+/g, '<ul class="list-disc my-2">$&</ul>')
+                    .replace(/```(\w*)\n([\s\S]*?)```/g, '<pre class="bg-zinc-800 rounded-lg p-3 my-2 overflow-x-auto text-xs"><code>$2</code></pre>')
+                    .replace(/\n\n/g, '<br><br>')
+                    .replace(/\n/g, '<br>');
+                return html;
+            }
+
+            function insertMD(text) {
+                const s = mdInput.selectionStart, e = mdInput.selectionEnd;
+                mdInput.value = mdInput.value.substring(0, s) + text + mdInput.value.substring(e);
+                mdInput.focus();
+                mdInput.selectionStart = mdInput.selectionEnd = s + text.length;
+                updatePreview();
+            }
+
+            function updatePreview() {
+                const text = mdInput.value;
+                mdPreview.innerHTML = renderMD(text);
+                const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+                mdWordCount.textContent = `${text.length} 字符 · ${words} 词`;
+            }
+
+            mdInput.addEventListener('input', updatePreview);
+            updatePreview();
+        </script>
+    </div>
+</body>
+</html>

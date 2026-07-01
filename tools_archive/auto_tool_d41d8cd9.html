@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>向量数据库性能与成本对比基准测试工具</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0d1117;color:#c9d1d9;display:flex;justify-content:center;padding:40px 20px;min-height:100vh}
+.container{max-width:900px;width:100%}
+h1{font-size:22px;color:#58a6ff;margin-bottom:6px}
+.sub{font-size:13px;color:#8b949e;margin-bottom:24px}
+.box{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px;margin-bottom:16px}
+.box h3{font-size:14px;color:#8b949e;margin-bottom:10px}
+textarea{width:100%;min-height:180px;background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:12px;color:#c9d1d9;font-family:'SF Mono',Monaco,monospace;font-size:13px;resize:vertical;outline:none}
+textarea:focus{border-color:#58a6ff}
+pre{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:14px;font-size:13px;overflow:auto;max-height:350px;white-space:pre-wrap;font-family:'SF Mono',Monaco,monospace;line-height:1.5}
+.btn{background:#238636;color:#fff;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;font-size:14px;font-weight:500;margin-right:8px;margin-top:12px;transition:background .2s}
+.btn:hover{background:#2ea043}
+.btn.copy{background:#21262d;border:1px solid #30363d;color:#c9d1d9}
+.btn.copy:hover{background:#30363d}
+.btn.sample{background:#1f2937;border:1px solid #374151;color:#9ca3af;font-size:12px;padding:6px 12px}
+.btn.sample:hover{background:#374151}
+.result-box{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:14px;min-height:60px;font-family:'SF Mono',Monaco,monospace;font-size:13px}
+.toast{position:fixed;top:20px;right:20px;background:#238636;color:#fff;padding:10px 18px;border-radius:6px;font-size:13px;opacity:0;transition:opacity .3s;z-index:999}
+.toast.show{opacity:1}
+.toast.error{background:#da3633}
+.flex-row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.flex-row input{padding:8px 12px;background:#0d1117;border:1px solid #30363d;border-radius:6px;color:#c9d1d9;font-size:14px;outline:none}
+.flex-row input:focus{border-color:#58a6ff}
+.badge{display:inline-block;padding:3px 8px;border-radius:12px;font-size:11px;font-weight:500}
+.badge-auto{background:#1f2937;color:#9ca3af;border:1px solid #374151}
+@media(max-width:700px){.flex-row{flex-direction:column;align-items:stretch}}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🔍 向量数据库性能与成本对比基准测试工具</h1>
+<p class="sub">向量数据库性能与成本对比基准测试工具 <span class="badge badge-auto">Auto Generated</span></p>
+<div class="box" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<div><h3>📝 Text A</h3>
+<textarea id="inputA" placeholder="Paste original text..."></textarea></div>
+<div><h3>📝 Text B</h3>
+<textarea id="inputB" placeholder="Paste modified text..."></textarea></div>
+</div>
+<button class="btn" onclick="compare()">🔍 Compare</button>
+<button class="btn sample" onclick="loadSample()">📎 Sample</button>
+<div class="box" style="margin-top:16px">
+<h3>📊 Result</h3>
+<div class="result-box" id="output"></div>
+<button class="btn copy" onclick="copyText('output')">📋 Copy</button>
+</div>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+function loadSample(){{document.getElementById("inputA").value="The quick brown fox\njumps over the lazy dog\nHello World";document.getElementById("inputB").value="The quick brown cat\njumps over the lazy dog\nHello Universe"}}
+function compare(){{var a=document.getElementById("inputA").value.split("\n");var b=document.getElementById("inputB").value.split("\n");var max=Math.max(a.length,b.length);var r=[];for(var i=0;i<max;i++){{var la=a[i]||"(empty)";var lb=b[i]||"(empty)";if(la===lb){{r.push('<span style="color:#7ee787">  '+la+'</span>')}}else{{r.push('<span style="color:#ff7b72">- '+la+'</span>');r.push('<span style="color:#79c0ff">+ '+lb+'</span>')}}}}document.getElementById("output").innerHTML=r.join("<br>")||"No differences found"}}
+<script>
+function showToast(msg,isErr){var t=document.getElementById('toast');t.textContent=msg;t.className='toast'+(isErr?' error':'')+' show';setTimeout(function(){t.className='toast'},2000)}
+function copyText(elId){var el=document.getElementById(elId);var txt=el.tagName==='TEXTAREA'||el.tagName==='INPUT'?el.value:el.textContent;navigator.clipboard.writeText(txt).then(function(){showToast('✅ 已复制')}).catch(function(){showToast('复制失败',true)})}
+</script>
+</script>
+</body>
+</html>
