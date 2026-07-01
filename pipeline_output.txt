@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-01T14:52:28.572887+00:00     ║
+║       启动时间: 2026-07-01T17:21:26.383232+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 19 Show HN posts
+  ✅ 20 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -82,15 +82,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
   原始信号总量: 351
-  🚫 闲聊拦截: 15 条 (4.3%)
-  🧠 工具信号: 183 条 (52.1%)
+  🚫 闲聊拦截: 16 条 (4.6%)
+  🧠 工具信号: 178 条 (50.7%)
 
   📋 闲聊拦截样例:
      [entertainment] 结婚 12 年准备离婚了
-     [job] Who's hiring? Q3 2026
      [news] How Jujutsu Rethinks Git's Working Copy and Conflict Model
-     [job] Nintendo has raised its employees base salary by 10% 🔥226pts
-     [ad] GovAuctions.app now in US,UK,CA,AU with deal scores and bid 
+     [job] Who's hiring? Q3 2026
+     [job] Nintendo has raised its employees base salary by 10% 🔥385pts
+     [news] Apple 'Hide My Email' Vulnerability Reveals Peoples' Real Em
 
   🧠 工具信号样例:
      [置信度15%] What does the "yield" keyword do in Python?
@@ -100,9 +100,9 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['Python']
      [置信度15%] What are metaclasses in Python?
        ↳ 技术概念: ['Python']
-     [置信度2
+     [置信
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
@@ -110,24 +110,23 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 351 条
-     🚫 闲聊拦截: 15 条 (4.3%)
-     🧠 工具信号: 183 条 (52.1%)
+     🚫 闲聊拦截: 16 条 (4.6%)
+     🧠 工具信号: 178 条 (50.7%)
      闲聊样例: 结婚 12 年准备离婚了... [entertainment]
      工具信号样例: What does the "yield" keyword do in Python?... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 183 → 有效 39
-     拒绝率: 78.7%
+     工具信号 178 → 有效 39
+     拒绝率: 78.1%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
+  ✅ 通过 (13):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
-     [PASS  |  +75] Checker Tool  [?]
      [PASS  |  +65] Tracker Tool  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
@@ -153,8 +152,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-01T14:52:28.754955+00:00
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-07-01T17:21:26.537425+00:00
    Already in catalog: 113 tools
    Previously produced: 0 tools
    Existing tool pages: 24 files
@@ -285,7 +284,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-01T14:52:28.572887+00:00 → 2026-07-01T14:52:40.835559+00:00
+  ⏱  耗时: 2026-07-01T17:21:26.383232+00:00 → 2026-07-01T17:21:38.349906+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
