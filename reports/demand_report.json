@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T06:26:55.990531+00:00",
+  "generated_at": "2026-07-02T09:27:14.934918+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -103,50 +103,51 @@
     ],
     "v2ex": [
       "感觉女友很爱去看演唱会，不想让她去怎么办",
-      "[送激活码] 🎉 Wins 3.4 发布！把 Mac 刘海变成悬浮分屏岛，抽奖送激活码～",
-      "你左手按 b 键还是右手",
       "XDM，你们每个月使用 AI 的成本是多少",
-      "630 过去了，今天是下半年了，统计一个各位大佬公司的裁员比例？",
+      "这下好了,真死在科技里了",
       "大家避雷京东吧 买到二手退货和残次品组装的后封机 客服竟然帮腔说叫资源机",
       "最近使用 vless+xhttp+reality，网址用的苹果的， 1 年多被墙了。这是咋被发现的？技术探讨下",
-      "这下好了,真死在科技里了"
+      "请警惕账号 w1573007 发布的开源项目 Termo",
+      "[7 月] 一个真正一目了然的自建 Codex 中转站",
+      "JD 服务是越来越拉了，会跟上 Nokia 的步伐吧....",
+      "豆包为什么是神？"
     ],
     "devto": [
       "DEV Community: programming",
-      "Why Building Small Projects Beats Watching Endless Courses",
-      "Paul Martin Belts | Expert Guide to Custom Championship Belts",
-      "Rails 8 Released: Everything Developers Need to Know in 2026",
-      "GitHub Copilot, Cursor, Codeium, or Windsurf? How I Actually Chose My AI Coding Tool in 2026",
-      "How I Cut LLM Costs 40x While Keeping Our SLA Intact",
-      "JavaScript Math Reference",
-      "Why Your Web Application Feels Slow (And How ReactJS Development Services Improve Speed)",
-      "Smart Cloud Hosting Is the Part of Your App Nobody Thinks About Until Something Breaks",
-      "Complexity Should Be Earned",
-      "Why Your Crypto Order Book Depth Is Never Accurate Enough (Snapshot + Incremental Fix)",
-      "I Did the Math on Claude Sonnet 5. The 60% Opus Discount Is Real, But Temporary.",
-      "Designing .NET Microservices for Edge Computing in IoT and 5G"
+      "Free Music Production Samples — beatsyncpro.ai Jul 2026",
+      "Free Clip Pack Beats — beatsyncpro.ai Jul 2026",
+      "Neurofeedback Software App — prometheusdev.io Jul 2026",
+      "Trial Software Activation Server — prometheusdev.io Jul 2026",
+      "I Ran Enterprise and Startup AI APIs Side by Side — Here's the Truth",
+      "Structural Isolation: Shielding Personal Device Metrics from Network Scrapers",
+      "Automated Video Creation Tool — rendereelstudio.ai Jul 2026",
+      "Text To Video Ai Tool — rendereelstudio.ai Jul 2026",
+      "AI Challenges and Governance: From Infrastructure to the Digital Economy",
+      "I Had Access to One of the World's Most Powerful AI Models for a Month. $260 unpaid subscription for Free",
+      "تأثير التضخم على أسعار العقار في قطر",
+      "توافوا تمل من أن تكون رمزًا بتغير المناخ"
     ],
     "lobsters": [
       "US Supreme Court just blew up EU-US Data Transfers",
       "What happened to the fight for the internet?",
       "Artificial adventures",
+      "Announcing Box3D",
       "Pidgin 3.0 Alpha 2 (2.96.0) has been released",
       "Building a passive Ethernet tap",
-      "Announcing Box3D",
       "Uruky - The Paid European Search Engine",
       "All Package Management Functionality Moved from Compiler to Build System",
+      "The Physics of Memory (aka can Javascript ECS?)",
       "Who's hiring? Q3 2026",
       "jj jj jj jj jj",
+      "Creating a development sandbox with crosvm",
+      "The Internet I Grew Up With Doesn’t Exist Anymore",
       "Changes to Godot Engine Contribution Policies",
       "Progress Report: Linux 7.1 - Asahi Linux",
-      "The Physics of Memory (aka can Javascript ECS?)",
-      "The Internet I Grew Up With Doesn’t Exist Anymore",
-      "Which GitHub features are needed in a code forge before you can migrate?",
-      "Creating a development sandbox with crosvm",
-      "On Ditching Vagrant",
       "Unprivileged root via an out-of-bounds write in the FUSE readdir cache (CVE-2026-31694)",
-      "GraalVM Hello World Program Down To \"Just\" 6.5MB",
-      "GameBoy Emulator on ESP32 + Eink"
+      "Which GitHub features are needed in a code forge before you can migrate?",
+      "On Ditching Vagrant",
+      "Type definitions to retrieve objects from localStorage",
+      "Open Source as Infrastructure: Taking Roads and Bridges literally"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -171,55 +172,58 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "For first time, a cell built from scratch grows and divides 🔥819pts 💬270",
-      "FFmpeg 9.1's new AAC encoder 🔥342pts 💬106",
-      "ZCode – Harness for GLM-5.2 🔥334pts 💬269",
-      "Show HN: Searchable directory of 22k+ products from worker-owned co-ops 🔥314pts 💬63",
-      "Internal Combustion Engine (2021) 🔥307pts 💬90",
-      "What to learn to be a graphics programmer 🔥297pts 💬157",
-      "Monetization Gateway: Charge for any resource behind Cloudflare via x402 🔥278pts 💬192",
-      "Ask HN: Who is hiring? (July 2026) 🔥180pts 💬196",
-      "Oomwoo, an open-source robot vacuum you build yourself 🔥175pts 💬32",
-      "Bring back crappy forums 🔥153pts 💬97",
-      "Weave Robotics launches Isaac 1, a $7,999 home robot with Fall 2026 deliveries 🔥139pts 💬194",
-      "Ask HN: Who wants to be hired? (July 2026) 🔥120pts 💬283",
-      "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance 🔥113pts 💬97",
-      "Healthy but sedentary people show early decline in cellular energy production 🔥106pts 💬69",
-      "Why jet engines aren't made in China 🔥104pts 💬90",
-      "How do wombats poop cubes? 🔥92pts 💬39",
-      "Qualcomm Linux 2.0 🔥85pts 💬32",
-      "The Underhanded C Contest 🔥73pts 💬9",
-      "The Apple Disk II Controller Card (2021) 🔥71pts 💬18",
-      "Chip Off The Old Block 🔥69pts 💬7",
-      "The <Usermedia> HTML Element 🔥64pts 💬29",
-      "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers 🔥57pts 💬37",
-      "A new Android malware from Google",
-      "Learn Vim motions with an ice-cream van",
-      "Database Traffic Control"
+      "For first time, a cell built from scratch grows and divides 🔥854pts 💬276",
+      "ZCode – Harness for GLM-5.2 🔥392pts 💬291",
+      "A new Android malware from Google 🔥383pts 💬177",
+      "FFmpeg 9.1's new AAC encoder 🔥377pts 💬114",
+      "Show HN: Searchable directory of 22k+ products from worker-owned co-ops 🔥344pts 💬67",
+      "What to learn to be a graphics programmer 🔥339pts 💬177",
+      "Monetization Gateway: Charge for any resource behind Cloudflare via x402 🔥296pts 💬209",
+      "Oomwoo, an open-source robot vacuum you build yourself 🔥280pts 💬53",
+      "Bring back crappy forums 🔥254pts 💬150",
+      "Ask HN: Who is hiring? (July 2026) 🔥198pts 💬209",
+      "Weave Robotics launches Isaac 1, a $7,999 home robot with Fall 2026 deliveries 🔥177pts 💬246",
+      "How We Made IPFS Content Publishing 10x Faster 🔥165pts 💬54",
+      "Why jet engines aren't made in China 🔥156pts 💬128",
+      "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance 🔥154pts 💬146",
+      "Kimi K2.7 Code is generally available in GitHub Copilot 🔥139pts 💬47",
+      "Ask HN: Who wants to be hired? (July 2026) 🔥132pts 💬314",
+      "How do wombats poop cubes? 🔥116pts 💬52",
+      "Qualcomm Linux 2.0 🔥102pts 💬45",
+      "The Underhanded C Contest 🔥91pts 💬11",
+      "The Apple Disk II Controller Card (2021) 🔥84pts 💬20",
+      "Chip Off The Old Block 🔥81pts 💬8",
+      "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers 🔥79pts 💬65",
+      "Learn Vim motions with an ice-cream van 🔥68pts 💬14",
+      "CursorBench 3.1 🔥59pts 💬37",
+      "We Don't Have to Be This Bad at Improving Society"
     ],
     "hn_show": [
+      "Envcontract – Validate your .env and never commit a secret (100% local) — featured on Hacker News (🔥1pts)",
+      "Dart_agent_core – Run AI agents in Flutter apps with lifecycle hooks — featured on Hacker News (🔥1pts)",
+      "A tool to sync env files to your Git worktrees — featured on Hacker News (🔥1pts)",
+      "Ghbrk – Let AI agents run Git/gh without exposing SSH keys/API tokens — featured on Hacker News (🔥2pts)",
+      "Get a structured knowledge base instantly from conversations — featured on Hacker News (🔥1pts)",
+      "I trained a 1B LLM from scratch for $315 and open-sourced weights+data — featured on Hacker News (🔥2pts)",
+      "Azure DevOps/GitHub TUI — featured on Hacker News (🔥1pts)",
+      "MyWritingTwin: an AI Writing Profile that makes LLMs sound like you — featured on Hacker News (🔥3pts)",
+      "Noter – AI agent dashboard for monitoring coding harnesses locally — featured on Hacker News (🔥1pts)",
+      "Deterministic Simulation Testing — featured on Hacker News (🔥2pts)",
+      "Scalable AI Management Platform — featured on Hacker News (🔥1pts)",
       "LinkedIn Focus Chrome Extension — featured on Hacker News (🔥1pts)",
-      "What GPTBot sees before your React app hydrates — featured on Hacker News (🔥1pts)",
+      "What GPTBot sees before your React app hydrates — featured on Hacker News (🔥2pts)",
       "Designing a factory-safety agent (model reasons, code routes) — featured on Hacker News (🔥1pts)",
-      "I wrote a Rust book ending with a Redis clone — featured on Hacker News (🔥2pts)",
+      "I wrote a Rust book ending with a Redis clone — featured on Hacker News (🔥7pts)",
       "Searchable directory of HN Job postings — featured on Hacker News (🔥2pts)",
       "PDFWix – Browser-Based PDF Tools for Everyday Workflows — featured on Hacker News (🔥1pts)",
       "Claude Desktop Switcher for separating the whole Claude Desktop suite — featured on Hacker News (🔥2pts)",
-      "Margarita - Programming language for Agents using Markdown-ish syntax — featured on Hacker News (🔥2pts)",
-      "A complete AI agency at your fingertips — featured on Hacker News (🔥1pts)",
-      "One Page Life Calendar — featured on Hacker News (🔥1pts)",
-      "Rust Backed Fast Dataloader — featured on Hacker News (🔥1pts)",
-      "Techno Kick — featured on Hacker News (🔥2pts)",
-      "Tenjin – marketplace where humans and agents buy and sell MD files — featured on Hacker News (🔥2pts)",
-      "TheraJoy – bilateral stimulation for EMDR using Joy-Cons — featured on Hacker News (🔥1pts)",
-      "A local AI-powered Bloomberg terminal for German meme stocks — featured on Hacker News (🔥1pts)",
-      "Open-source Deterministic Guardrails Against AI Duplicated Code — featured on Hacker News (🔥1pts)",
-      "Agent Sessions – A model agnostic Claude managed agents alternative — featured on Hacker News (🔥2pts)"
+      "Margarita - Programming language for Agents using Markdown-ish syntax — featured on Hacker News (🔥4pts)",
+      "A complete AI agency at your fingertips — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Show HN: TheraJoy – bilateral stimulation for EMDR using Joy-Cons — user asking for tool recommendation (🔥1pts)",
       "LLM Colosseum – A zero-dependency browser RTS to test LLM tool calling — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Open-source sandbox for your product team — user asking for tool recommendation (🔥14pts)",
+      "Show HN: Open-source sandbox for your product team — user asking for tool recommendation (🔥15pts)",
       "Show HN: Clockjumper – An Intervibed Project — user asking for tool recommendation (🔥1pts)",
       "Despite its best efforts, Iran won't be able to toll the Strait of Hormuz — user asking for tool recommendation (🔥5pts)",
       "Show HN: Bytesalt – AI that finds bugs Playwright tests miss — user asking for tool recommendation (🔥1pts)",
@@ -239,7 +243,7 @@
       "Show HN: Distributed LLM tracing and GH PR/issue linking [Apache 2.0] — user asking for tool recommendation (🔥2pts)",
       "Show HN: fenic – LLMs as dataframe operators, query meaning and structure — user asking for tool recommendation (🔥3pts)",
       "Show HN: An Open Source Codex App that works across provider — user asking for tool recommendation (🔥1pts)",
-      "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥38pts)",
+      "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥40pts)",
       "Show HN: Riley – Content That Sounds Like You, Not Like AI — user asking for tool recommendation (🔥2pts)",
       "3 dangers of being locked into a harness. Your context layer is true freedom — user asking for tool recommendation (🔥1pts)",
       "Show HN: Pokayoke – turn repo conventions into deterministic checks for agents — user asking for tool recommendation (🔥1pts)",
@@ -270,6 +274,7 @@
       "No AI Agent Without Identity (Part 5): Auditability and the Minimum Bar for Governed Autonomy"
     ],
     "infoq": [
+      "Presentation: Enhancing Reliability Using Service-Level Prioritized Load Shedding at Netflix <img src=\"https://res.infoq.com/presentations/service-level-prioritized-load-shedding/en/mediumimage/medium-1782221254342.jpg\"/><p>The speakers discus",
       "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>Instacart redesigned its personalized marketing system using a configur",
       "Presentation: Graph RAG: Building Smarter Retrieval Workflows with Knowledge Graphs <img src=\"https://res.infoq.com/presentations/graph-rag-llm/en/mediumimage/CassieShum-medium-1782291352027.jpeg\"/><p>Cassie Shum discusses the archite",
       "HeroUI v3 Lands as a Ground-Up Rewrite for React and React Native, Built on Tailwind CSS v4 <img src=\"https://res.infoq.com/news/2026/07/heroui-v3-rewrite/en/headerimage/generatedHeaderImage-1782890990794.jpg\"/><p>HeroUI v3 is a redesigned Re",
@@ -283,64 +288,63 @@
       "Eliya 25 Brings a JVM-Level Diagnostic Profile to OpenJDK 25 LTS <img src=\"https://res.infoq.com/news/2026/06/eliya-jvm-diagnostic-profile/en/headerimage/java-istock-image-01-1762720446658-1782700328980.jpg\"/><p>Asy",
       "Inside Target’s LLM-Based System for Semantic Matching in Marketing Forecast Pipelines <img src=\"https://res.infoq.com/news/2026/06/target-ai-campaign-forecasting/en/headerimage/generatedHeaderImage-1780529558601.jpg\"/><p>Target built a ",
       "Presentation: Million PDFs: Building a Modern Document Infrastructure with Rust and Typst <img src=\"https://res.infoq.com/presentations/document-infrastructure-rust-typst/en/mediumimage/ErikSteiger-medium-1782220478687.jpg\"/><p>Erik Steiger",
-      "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution <img src=\"https://res.infoq.com/articles/security-ai-threat-evolution/en/headerimage/security-ai-threat-evolution-header-1782202845102.jpg\"/><p>This v",
-      "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins <img src=\"https://res.infoq.com/podcasts/natural-evolution-cloud-native/en/smallimage/the-infoq-podcast-logo-thumbnail-1782207787976.jpg\"/><p>In this "
+      "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution <img src=\"https://res.infoq.com/articles/security-ai-threat-evolution/en/headerimage/security-ai-threat-evolution-header-1782202845102.jpg\"/><p>This v"
     ],
     "google_trends": [
+      "atlas v rocket launch",
+      "houston rockets",
+      "rosalia",
       "jonathan kuminga",
       "alex scott",
       "andres escobar",
       "rob lowe",
-      "rocket launch today",
+      "dbacks",
       "marvin bagley",
-      "tom hanks",
-      "diamondbacks",
-      "lisa kudrow",
-      "dodgers score"
+      "tom hanks"
     ],
     "baidu": [
-      "致敬英雄 接续奋斗",
-      "世界杯16强已确定10席",
+      "奋力创造新的历史辉煌",
+      "茉莉奶白被LV起诉 法院判赔1030万",
+      "香港演员梁珊去世 被称“御用恶女”",
+      "中国经济向新向优的内在逻辑",
+      "花50元投注世界杯中182万多",
+      "毛宁向世界分享中国房屋喷雾冷却系统",
       "泽连斯基紧急中断出访返回基辅",
-      "中国经济驰而不息的底气所在",
-      "涉山西82死煤矿事故 崔瑞军被查",
-      "西安通报“赛格商场人员坠楼”",
-      "清华门前一张父女合影里彩蛋藏了17年",
-      "比利时内讧时对手都来劝架了",
-      "流浪汉在许家印英国豪宅廊下居住三年",
-      "母鸡俯身把小鸡背在身上",
-      "失联20年女儿归来和外甥女争遗产",
+      "情侣登顶纽约帝国大厦高空求婚",
+      "“全球最美女孩”晒照官宣结婚",
+      "SK海力士单日市值蒸发10000亿元",
+      "男子飞踹妻子舞伴后发现对方是女性",
       "北京网络辟谣优秀作品征集公告",
       "女童咳嗽两个月肺里洗出3升“牛奶”",
-      "宜宾一公园挖出上万现金？警方回应",
-      "青海发生车辆翻坠事故 致8人死亡",
-      "二手豪车大降价 车商：同行改干烧烤",
-      "泰山景区回应修建刀片刺绳隔离网",
-      "德国传奇球星炮轰“太太团”",
-      "日本市民大排长龙买中国相机",
-      "《歌手》公布第七期歌单"
+      "“存储一哥”暴跌",
+      "证监会同意宇树科技IPO注册",
+      "AI已出现欺骗行为 联合国发出警告",
+      "母鸡俯身把小鸡背在身上",
+      "何维将代表中方出席哈梅内伊葬礼",
+      "涉山西82死煤矿事故 崔瑞军被查",
+      "进口乙肝疫苗重返中国"
     ],
     "wikipedia": [
-      "Juliana Ngleya Moko",
-      "Road to Revolution: A Century of Russian Radicalism",
-      "Julián Velásquez",
-      "Clara Fountain",
-      "Julian Justus",
-      "The Conservative Illusion",
-      "Differential of the first kind",
-      "2026 in paleontology",
-      "Júlían J. K. Jóhannsson",
-      "Miss International 2026",
-      "Malik (2026 film)",
-      "Julián de Olivares",
-      "Mostly Murder",
-      "Júlia Vasconcelos",
-      "K. S. Prakash Rao",
-      "Left Hand, Right Hand!",
-      "Tornado outbreak of November 16–18, 2015",
-      "Norwich City F.C. Under-21s and Academy",
-      "John Kennedy (Louisiana politician)",
-      "I Am the Portuguese Blues"
+      "Project Hangang",
+      "River Radamus",
+      "Osmar Loss",
+      "Regine Crespin",
+      "Rivaldo Marshall",
+      "CS Rapid București (handball)",
+      "European Landowners' Organization",
+      "Rival Cadeau",
+      "Beşiktaş J.K. (men's basketball)",
+      "Duterte (surname)",
+      "Três Marias",
+      "List of Hwa Chong Institution people",
+      "Ritsu Kayotani",
+      "Anne Roussel",
+      "Rita Tamašauskaitė",
+      "1140",
+      "Al-Watir Raid",
+      "Rita Kirst",
+      "Asteroid belt",
+      "Arif Aiman"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -367,30 +371,14 @@
       "zero-shot-image-classification clip-vit-base-patch32",
       "xlm-roberta-base",
       "fill-mask xlm-roberta-base",
-      "nomic-embed-text-v1.5",
-      "sentence-similarity nomic-embed-text-v1.5",
       "t5-small",
       "translation t5-small",
+      "nomic-embed-text-v1.5",
+      "sentence-similarity nomic-embed-text-v1.5",
       "bge-reranker-v2-m3",
       "text-classification bge-reranker-v2-m3"
     ],
-    "arxiv": [
-      "Measuring the Gap Between Human and LLM Research Ideas LLMs are increasingly used to brainstorm research ideas, but existing evaluations mostly judge individual ideas by novelty, feasibility, or expert preference. We instead ask: how far are current LLM-g",
-      "Language-Critique Imitation Learning from Suboptimal Demonstrations Prior work on imitation learning from suboptimal demonstrations typically relies on compressed supervision signals such as confidence estimates, discriminator scores, or importance weights. These scal",
-      "AutoMem: Automated Learning of Memory as a Cognitive Skill Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by ",
-      "Theoria: Rewrite-Acceptability Verification over Informal Reasoning States When should an AI system's answer be trusted? Formal proof assistants offer certainty but cannot reach most of the problem distribution; scalar LLM judges offer coverage but produce opaque scores that",
-      "The State-Prediction Separation Hypothesis Transformers use the same forward computation stream to both predict the next token and store useful state for future token predictions. We formulate the \\emph{state-prediction separation hypothesis}:",
-      "FurnitureVLA: Learning Long-Horizon Bimanual Furniture Assembly with Vision-Language-Action Model Current work on robot furniture assembly mostly focuses on toy-scale settings or single-arm manipulation. We introduce FurnitureVLA, the first systematic study of real-scale bimanual furniture assembl",
-      "Are Performance-Optimization Benchmarks Reliably Measuring Coding Agents? Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and SWE-fficiency evaluate coding agents by applying patches to real repositories and comparing runtime against unoptimized b",
-      "Distill to Detect: Exposing Stealth Biases in LLMs through Cartridge Distillation Language models deployed in high-stakes roles can potentially favor certain entities, brands, or viewpoints, steering user decisions at scale. Such preferential biases can be introduced by any actor i",
-      "GPU-Parallel Linearization Error Bounds for Real-Time Robust Optimal Control of Nonlinear and Neural Network Dynamics This paper studies real-time robust optimal control for uncertain nonlinear systems, where linear time-varying (LTV) approximations make planning tractable but require sound linearization error bounds",
-      "World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video We present World from Motion, a method for generating freely renderable dynamic 3D Gaussian representations from monocular videos. Our approach conditions a video model on dense, pixel-aligned renderi",
-      "Optimal Resource Utilization for Autonomous Laboratory Orchestrators In autonomous laboratories, AI agents suggest the next batch of experiments to do. However, planning and executing those tasks taking full advantage of the available resources is a completely differen",
-      "Right in the Right Way: LM Training with Verifiable Rewards and Human Demonstrations RL with verifiable rewards (RLVR) has emerged as a powerful paradigm for training LMs on tasks with well-defined success metrics, such as code generation and mathematical reasoning. However, current R",
-      "Diffusion-GR2: Diffusion Generative Reasoning Re-ranker Generative reasoning re-rankers achieve strong recommendation accuracy by emitting a chain-of-thought before re-ordering a candidate list, but they are slow at inference: an autoregressive (AR) decode",
-      "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity Safety evaluations for language models increasingly depend on judgments about ambiguous natural-language behaviour: whether a model has followed an instruction, refused appropriately, complied with a ",
-      "Sequentially-Controlled Interactive Multi-Particle Flow-Maps for Online Feedback-Driven Search While generative models have enabled training-free reward alignment, current methods typically excel in local exploration within narrow regions of the underlying distribution. These approaches struggl"
-    ],
+    "arxiv": [],
     "paperswithcode": [],
     "npm_registry": [
       "@salesforce/pwa-kit-create-app — npm package: Salesforce's project generator tool",
@@ -425,40 +413,68 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: ai-agents",
-      "github trending topic: react native",
-      "github trending topic: database",
-      "github trending topic: code quality",
-      "github trending topic: npm",
       "github trending topic: llm",
-      "github trending topic: chrome",
-      "github trending topic: node.js",
-      "github trending topic: css",
-      "github trending topic: html",
-      "github trending topic: awesome lists",
+      "github trending topic: npm",
       "github trending topic: scala",
-      "github trending topic: typescript",
-      "github trending topic: python",
-      "github trending topic: streamlit",
       "github trending topic: front end",
+      "github trending topic: chrome",
+      "github trending topic: python",
+      "github trending topic: database",
+      "github trending topic: machine-learning",
+      "github trending topic: typescript",
       "github trending topic: project management",
-      "github trending topic: fastapi",
+      "github trending topic: react native",
+      "github trending topic: css",
       "github trending topic: react",
+      "github trending topic: nextjs",
+      "github trending topic: school",
+      "github trending topic: awesome lists",
       "github trending topic: compiler",
-      "github trending topic: javascript"
+      "github trending topic: tailwindcss",
+      "github trending topic: code quality",
+      "github trending topic: javascript",
+      "github trending topic: node.js",
+      "github trending topic: docker"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
     {
-      "keyword": "AI Coding Agents — tool from ProductHunt",
+      "keyword": "Automated Video Creation Tool — rendereelstudio.ai Jul 2026",
+      "matched": "video",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Video Converter",
+      "name_zh": "视频格式转换器"
+    },
+    {
+      "keyword": "Automated Video Creation Tool — rendereelstudio.ai Jul 2026",
       "matched": "ai",
       "category": "ai",
       "subcat": "ai-chat",
       "type": "tool",
       "name": "AI Assistant",
       "name_zh": "AI助手"
+    },
+    {
+      "keyword": "Automated Video Creation Tool — rendereelstudio.ai Jul 2026",
+      "matched": "render",
+      "category": "media",
+      "subcat": "graphics",
+      "type": "tool",
+      "name": "Renderer",
+      "name_zh": "渲染器"
+    },
+    {
+      "keyword": "Text To Video Ai Tool — rendereelstudio.ai Jul 2026",
+      "matched": "text",
+      "category": "productivity",
+      "subcat": "text",
+      "type": "tool",
+      "name": "Text Tools",
+      "name_zh": "文本工具箱"
     },
     {
       "keyword": "LLMs — tool from ProductHunt",
@@ -488,15 +504,6 @@
       "name_zh": "表单构建器"
     },
     {
-      "keyword": "Video editing — tool from ProductHunt",
-      "matched": "video",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Video Converter",
-      "name_zh": "视频格式转换器"
-    },
-    {
       "keyword": "Graphic design tools — tool from ProductHunt",
       "matched": "graph",
       "category": "productivity",
@@ -515,7 +522,7 @@
       "name_zh": "单位换算"
     },
     {
-      "keyword": "FFmpeg 9.1's new AAC encoder 🔥342pts 💬106",
+      "keyword": "FFmpeg 9.1's new AAC encoder 🔥377pts 💬114",
       "matched": "encoder",
       "category": "dev",
       "subcat": "encode",
@@ -597,6 +604,9 @@
     }
   ],
   "all_keywords": [
+    "[7 月] 一个真正一目了然的自建 Codex 中转站",
+    "Automated Video Creation Tool — rendereelstudio.ai Jul 2026",
+    "Text To Video Ai Tool — rendereelstudio.ai Jul 2026",
     "All Package Management Functionality Moved from Compiler to Build System",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -618,8 +628,8 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "FFmpeg 9.1's new AAC encoder 🔥342pts 💬106",
-    "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥38pts)",
+    "FFmpeg 9.1's new AAC encoder 🔥377pts 💬114",
+    "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥40pts)",
     "Show HN: Open-Source Interview Platform — user asking for tool recommendation (🔥6pts)",
     "electra-base-discriminator",
     "electra-base-discriminator",
@@ -638,10 +648,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 173,
-    "valid_count": 39,
-    "rejected_count": 134,
-    "rejection_rate": 77.5,
+    "raw_count": 161,
+    "valid_count": 42,
+    "rejected_count": 119,
+    "rejection_rate": 73.9,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -650,23 +660,23 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "[送激活码] 🎉 Wins 3.4 发布！把 Mac 刘海变成悬浮分屏岛，抽奖送激活码～",
-      "Paul Martin Belts | Expert Guide to Custom Championship Belts",
-      "Rails 8 Released: Everything Developers Need to Know in 2026"
+      "AI Challenges and Governance: From Infrastructure to the Digital Economy",
+      "I Had Access to One of the World's Most Powerful AI Models for a Month. $260 unpaid subscription for Free",
+      "What happened to the fight for the internet?"
     ]
   },
   "trait_analysis": {
-    "total_captured": 348,
-    "chatter_blocked": 13,
-    "chatter_rate": 3.7,
-    "tool_signals_found": 173,
-    "tool_signal_rate": 49.7,
+    "total_captured": 338,
+    "chatter_blocked": 11,
+    "chatter_rate": 3.3,
+    "tool_signals_found": 161,
+    "tool_signal_rate": 47.6,
     "chatter_samples": [
       {
-        "text": "I Did the Math on Claude Sonnet 5. The 60% Opus Discount Is Real, But Temporary.",
-        "category": "ad",
+        "text": "Free Music Production Samples — beatsyncpro.ai Jul 2026",
+        "category": "entertainment",
         "matched": [
-          "Discount"
+          "Music"
         ]
       },
       {
@@ -691,7 +701,7 @@
         ]
       },
       {
-        "text": "Ask HN: Who is hiring? (July 2026) 🔥180pts 💬196",
+        "text": "Ask HN: Who is hiring? (July 2026) 🔥198pts 💬209",
         "category": "job",
         "matched": [
           "hiring"
@@ -712,6 +722,13 @@
         ]
       },
       {
+        "text": "Presentation: Enhancing Reliability Using Service-Level Prioritized Load Sheddin",
+        "category": "entertainment",
+        "matched": [
+          "Netflix"
+        ]
+      },
+      {
         "text": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Dri",
         "category": "chatter",
         "matched": [
@@ -721,17 +738,10 @@
         ]
       },
       {
-        "text": "《歌手》公布第七期歌单",
+        "text": "Beşiktaş J.K. (men's basketball)",
         "category": "entertainment",
         "matched": [
-          "歌手"
-        ]
-      },
-      {
-        "text": "Malik (2026 film)",
-        "category": "entertainment",
-        "matched": [
-          "film"
+          "basketball"
         ]
       }
     ],
@@ -789,54 +799,41 @@
         ]
       },
       {
-        "text": "[送激活码] 🎉 Wins 3.4 发布！把 Mac 刘海变成悬浮分屏岛，抽奖送激活码～",
+        "text": "[7 月] 一个真正一目了然的自建 Codex 中转站",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('刘海变成悬浮分屏岛', '变成', '', '', '', '')]"
+          "输入→输出链式: [('中转站', '转', '', '', '', '')]"
         ]
       },
       {
-        "text": "Paul Martin Belts | Expert Guide to Custom Championship Belts",
-        "confidence": 20,
+        "text": "Automated Video Creation Tool — rendereelstudio.ai Jul 2026",
+        "confidence": 60,
         "features": [
-          "输入→输出链式: [('Guide to Custom', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "Rails 8 Released: Everything Developers Need to Know in 2026",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('Need to Know', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "GitHub Copilot, Cursor, Codeium, or Windsurf? How I Actually Chose My AI Coding Tool in 2026",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('Coding Tool', 'To', '', '', '', '')]",
+          "英文动作特征: ['Automated']",
+          "输入→输出链式: [('Automated', 'to', '', '', '', ''), ('Creation Tool', 'To', '', '', '', '')]",
           "英文工具名词: ['tool']"
         ]
       },
       {
-        "text": "How I Cut LLM Costs 40x While Keeping Our SLA Intact",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['LLM']"
-        ]
-      },
-      {
-        "text": "JavaScript Math Reference",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['JavaScript']"
-        ]
-      },
-      {
-        "text": "Why Your Crypto Order Book Depth Is Never Accurate Enough (Snapshot + Incremental Fix)",
+        "text": "Text To Video Ai Tool — rendereelstudio.ai Jul 2026",
         "confidence": 35,
         "features": [
-          "输入→输出链式: [('Crypto Order', 'to', '', '', '', '')]",
-          "技术概念: ['Crypto']"
+          "输入→输出链式: [('Text To Video', 'To', '', '', '', ''), ('Ai Tool', 'To', '', '', '', '')]",
+          "英文工具名词: ['tool']"
+        ]
+      },
+      {
+        "text": "AI Challenges and Governance: From Infrastructure to the Digital Economy",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('From Infrastructure to the', '', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "I Had Access to One of the World's Most Powerful AI Models for a Month. $260 unpaid subscription for",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Access to One', 'to', '', '', '', '')]"
         ]
       },
       {
@@ -844,6 +841,20 @@
         "confidence": 20,
         "features": [
           "输入→输出链式: [('happened to the', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "All Package Management Functionality Moved from Compiler to Build System",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('from Compiler to Build', '', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "The Physics of Memory (aka can Javascript ECS?)",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['Javascript']"
         ]
       }
     ]
