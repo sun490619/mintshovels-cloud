@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-02T14:22:08.063761+00:00     ║
+║       启动时间: 2026-07-02T16:56:51.616547+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -82,15 +82,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
   原始信号总量: 355
-  🚫 闲聊拦截: 16 条 (4.5%)
-  🧠 工具信号: 170 条 (47.9%)
+  🚫 闲聊拦截: 24 条 (6.8%)
+  🧠 工具信号: 178 条 (50.1%)
 
   📋 闲聊拦截样例:
      [job] career-ops
+     [job] Best Platforms Offering Reliable GitHub Accounts
      [chatter] Artificial adventures
      [chatter] On Ditching Vagrant
      [chatter] Preventing token theft
-     [job] Who's hiring? Q3 2026
 
   🧠 工具信号样例:
      [置信度35%] chrome-devtools-mcp
@@ -103,9 +103,9 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 输入→输出链式: [('pytorch', 'to', '', '', '', '')]
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
-     [置信度35%] Does Python have a ternary c
+     [置信度35%] D
 
-✅ 雷达完成 — 16 条建议
+✅ 雷达完成 — 18 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
@@ -113,34 +113,36 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 355 条
-     🚫 闲聊拦截: 16 条 (4.5%)
-     🧠 工具信号: 170 条 (47.9%)
+     🚫 闲聊拦截: 24 条 (6.8%)
+     🧠 工具信号: 178 条 (50.1%)
      闲聊样例: career-ops... [job]
      工具信号样例: chrome-devtools-mcp... [置信度35%]
 
   📊 硬核过滤器统计:
-     工具信号 170 → 有效 45
-     拒绝率: 73.5%
+     工具信号 178 → 有效 44
+     拒绝率: 75.3%
 
-  📊 意图分类器审计 — 审查 16 条需求
+  📊 意图分类器审计 — 审查 18 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (13):
+  ✅ 通过 (14):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
-     [PASS  |  +55] Encoder  [?]
+     [PASS  |  +70] PDF Editor  [?]
      [PASS  |  +55] Generator  [?]
+     [PASS  |  +55] Embedding Tool  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
      [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
-  🚫 拦截 (3):
+  🚫 拦截 (4):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
+     [BLOCK |  +10] Renderer  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
 
 ============================================================
@@ -155,17 +157,26 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-07-02T14:22:08.207639+00:00
-   Already in catalog: 115 tools
+📊 Demand report loaded: 18 suggestions
+   Generated at: 2026-07-02T16:56:51.770723+00:00
+   Already in catalog: 116 tools
    Previously produced: 0 tools
-   Existing tool pages: 26 files
-   Next shovel ID: shovel-061
+   Existing tool pages: 27 files
+   Next shovel ID: shovel-062
    Next script ID: script-011
 
-✅ All suggested tools already exist in catalog. Nothing to produce.
+🔧 Producing 1 new tools:
+   • Embedding Tool (向量嵌入工具) [ai/ai-data]
 
-📋 Running tests on current codebase...
+  🛠  Producing: Embedding Tool → shovel-062
+     📄 Page: tools/embedding-tool.html
+     ✅ Gate check passed
+  ✅ Inserted 1 entries into index.html
+
+  📝 Factory log updated
+
+==================================================
+🧪 TEST PHASE
 
 🧪 Running automated tests...
 ----------------------------------------
@@ -181,7 +192,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   ✅ Lucide Icons CDN
   [TOOLS Database]
   ✅ TOOLS array defined
-  ✅ TOOLS entries (70)
+  ✅ TOOLS entries (72)
   ✅ Has Web Tools (🔧)
   ✅ Has Scripts (📜)
   ✅ Has Live tools
@@ -209,13 +220,30 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
+  🌐 Testing local server on port 9653...
+  ✅ Local server: HTTP 200, 385195 bytes
 
-✅ 工厂完成 — 本次生产 0 个工具
+✅ All tests passed!
+
+==================================================
+⏭️  Skipping deployment (--no-deploy)
+==================================================
+
+==================================================
+🏭 Pipeline complete!
+   New tools: 1
+   • shovel-062: Embedding Tool
+   Tests: ✅ Passed
+==================================================
+
+
+✅ 工厂完成 — 本次生产 1 个工具
+   🛠  Producing: Embedding Tool → shovel-062
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
 ============================================================
-   生产工具健康率: 0.0% (70 个工具, 70 个问题)
+   生产工具健康率: 0.0% (72 个工具, 72 个问题)
    问题文件: ['shovel-001: 文件缺失', 'shovel-002: 文件缺失', 'shovel-003: 文件缺失', 'shovel-007: 文件缺失', 'script-001: 文件缺失', 'shovel-005: 文件缺失', 'shovel-009: 文件缺失', 'script-002: 文件缺失', 'shovel-004: 文件缺失', 'shovel-006: 文件缺失']
    ⚠️ 门禁警告 — 健康率 0.0% 低于90%阈值
 
@@ -224,7 +252,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 70 工具, 70 在线, 70 ready:true, 0 ready:false
+    ✅ TOOLS 数据库: 72 工具, 72 在线, 71 ready:true, 1 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
@@ -235,6 +263,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ crypto-price-tracker.html
     ✅ diff-viewer.html
     ✅ editor.html
+    ✅ embedding-tool.html
     ✅ encoder.html
     ✅ exporter.html
     ✅ generator.html
@@ -246,6 +275,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ name-generator.html
     ✅ note-taker.html
     ✅ ocr-tool.html
+    ✅ pdf-editor.html
     ✅ regex-tester.html
     ✅ search-tool.html
     ✅ sql-formatter.html
@@ -255,7 +285,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ video-converter.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 384158B
+    ✅ index.html — HTTP 200, 385195B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/audio-editor.html — HTTP 200
     ✅ tools/auto_tool_d41d8cd9.html — HTTP 200
@@ -264,6 +294,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/crypto-price-tracker.html — HTTP 200
     ✅ tools/diff-viewer.html — HTTP 200
     ✅ tools/editor.html — HTTP 200
+    ✅ tools/embedding-tool.html — HTTP 200
     ✅ tools/encoder.html — HTTP 200
     ✅ tools/exporter.html — HTTP 200
     ✅ tools/generator.html — HTTP 200
@@ -275,6 +306,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/name-generator.html — HTTP 200
     ✅ tools/note-taker.html — HTTP 200
     ✅ tools/ocr-tool.html — HTTP 200
+    ✅ tools/pdf-editor.html — HTTP 200
     ✅ tools/regex-tester.html — HTTP 200
     ✅ tools/search-tool.html — HTTP 200
     ✅ tools/sql-formatter.html — HTTP 200
@@ -283,15 +315,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/tracker-tool.html — HTTP 200
     ✅ tools/video-converter.html — HTTP 200
 
-  📊 测试汇总: 61 通过, 0 失败
+  📊 测试汇总: 65 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
-    ✅ 没有待上线的工具
+    🚀 1 个新工具测试通过，已标记 ready:true 正式上线
 
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-02T14:22:08.063761+00:00 → 2026-07-02T14:22:19.892066+00:00
+  ⏱  耗时: 2026-07-02T16:56:51.616547+00:00 → 2026-07-02T16:57:03.328379+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
@@ -301,9 +333,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      ✅ generator: OK
      ✅ validator: OK
      ✅ analyzer: OK
-  🧪 测试: 61✅ 0❌
-  🔧 工具总数: 70
-  📄 独立页面: 26
+  🧪 测试: 65✅ 0❌
+  🔧 工具总数: 72
+  🏷️  新上线: 1 个工具 (已标记 ready:true)
+  📄 独立页面: 28
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================
