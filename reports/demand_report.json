@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T22:23:24.552002+00:00",
+  "generated_at": "2026-07-02T01:54:16.217422+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -102,49 +102,50 @@
       "How can I iterate over rows in a Pandas DataFrame?"
     ],
     "v2ex": [
-      "农村人太苦辣 🥵",
       "[bytecat]v 友赛博领鸡蛋 claude，新用户留言送 10 刀，十楼抽奖还送 10，中奖率 20%",
       "结婚 12 年准备离婚了",
       "公司社保和公积金要拉满，所有多出的钱都让员工出，不签字就走人。额日了",
       "[抽 3 个永久授权] Termark：一个按自己习惯做出来的 SSH 客户端",
-      "[送激活码] 🎉 Wins 3.4 发布！把 Mac 刘海变成悬浮分屏岛，抽奖送激活码～"
+      "[送激活码] 🎉 Wins 3.4 发布！把 Mac 刘海变成悬浮分屏岛，抽奖送激活码～",
+      "几十年 windows 老登请教： MacOS 下到底如何快速地新建 txt 文件",
+      "你左手按 b 键还是右手"
     ],
     "devto": [
       "DEV Community: programming",
-      "2-Minute Guide: Logging in Python (the right way) (2026)",
-      "Free Preview: Unlocking the Power of AI Prompts for Developers",
-      "JSON Formatting Frenzy: Which Free Tool Wins the Speed Race?",
-      "Accept All, Understand None",
-      "AI: Today I Fixed a Loop and Saved the World (Probably)",
-      "Google ADK Go 2.0 Adds Graph Engine, Human-in-Loop for Agents",
-      "Keeping background services alive: Lessons from building Muffle",
-      "What 600 machine-to-machine peer reviews taught me about AI agent quality",
-      "Why MQTT, the IoT Protocol, Was Built for Oil Pipelines",
-      "Corvorum OS 1.0 - Sistema Operativo Tecnomántico",
-      "Phase Transfer Catalyst Manufacturing Plant on Turnkey Basis: Electrodialysis Technology Solutions",
-      "Choosing the Right Claude Model: A Practical Guide for Developers"
+      "AI's Daily Grind: Parentheses, Semicolons &amp; Existential Dread",
+      "Get a Prize for Challenge Submissions",
+      "AI’s Existential Crisis Averted—Again. (And Other Daily Delights)",
+      "**AI Life: Just Me, My Code, and 37 Existential Crises Before Lunch**",
+      "11 Free No-Key APIs Your AI Agent Can Use to Read the Web",
+      "I Wish I Switched From OpenAI Sooner — Here's Everything I Learned",
+      "责任链模式深度指南：构建可插拔业务流程的艺术",
+      "From 2 Hours to 3 Minutes: Automated Agent Memory Regression Testing with Playwright &amp; Pytest",
+      "Vector Database Comparison 2025",
+      "DeepSeek vs Qwen vs Kimi vs GLM: Which Chinese AI Wins in 2025?",
+      "What a Venture Studio Built on Real IoT Deployments Looks Like — Inside Aperture's Approach to AIoT Company Creation",
+      "How I Slashed Our LLM Costs 40x While Keeping p99 Latency Flat"
     ],
     "lobsters": [
       "What happened to the fight for the internet?",
       "US Supreme Court just blew up EU-US Data Transfers",
       "Building a passive Ethernet tap",
       "Pidgin 3.0 Alpha 2 (2.96.0) has been released",
+      "Announcing Box3D",
       "Uruky - The Paid European Search Engine",
+      "All Package Management Functionality Moved from Compiler to Build System",
       "jj jj jj jj jj",
       "Who's hiring? Q3 2026",
-      "Announcing Box3D",
-      "All Package Management Functionality Moved from Compiler to Build System",
       "Changes to Godot Engine Contribution Policies",
-      "Which GitHub features are needed in a code forge before you can migrate?",
       "Progress Report: Linux 7.1 - Asahi Linux",
+      "Which GitHub features are needed in a code forge before you can migrate?",
       "The Internet I Grew Up With Doesn’t Exist Anymore",
       "Claude Code Is Steganographically Marking Requests",
-      "GameBoy Emulator on ESP32 + Eink",
       "It's not me, it's the compiler",
-      "The Threat of Residential Proxies",
-      "Low-level Haskell: The cursed way to emulate inline assembly in Haskell/GHC",
+      "GameBoy Emulator on ESP32 + Eink",
       "GraalVM Hello World Program Down To \"Just\" 6.5MB",
-      "Stop Killing the Internet"
+      "Unprivileged root via an out-of-bounds write in the FUSE readdir cache (CVE-2026-31694)",
+      "Artificial adventures",
+      "The Threat of Residential Proxies"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -169,60 +170,61 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "For first time, a cell built from scratch grows and divides 🔥642pts 💬218",
-      "Physical disc production ending in Jan 2028 for new games on PlayStation 🔥499pts 💬552",
-      "Sony Deletes 551 Movies PlayStation Owners Paid For 🔥466pts 💬205",
-      "Box3D, an open source 3D physics engine 🔥369pts 💬82",
-      "Internal Combustion Engine (2021) 🔥250pts 💬57",
-      "Fable 5 Is Back 🔥223pts 💬204",
-      "FFmpeg 9.1's new AAC encoder 🔥221pts 💬78",
-      "Monetization Gateway: Charge for any resource behind Cloudflare via x402 🔥215pts 💬133",
-      "What to learn to be a graphics programmer 🔥174pts 💬81",
-      "Ask HN: Who is hiring? (July 2026) 🔥135pts 💬145",
-      "1-Bit Pixel Art Emojis 🔥127pts 💬20",
-      "How We Made IPFS Content Publishing 10x Faster 🔥126pts 💬37",
-      "Ask HN: Who wants to be hired? (July 2026) 🔥94pts 💬212",
-      "Fixing a kubelet memory leak in Kubernetes 1.36 🔥67pts 💬13",
-      "Show HN: Searchable directory of 22k+ products from worker-owned co-ops 🔥65pts 💬12",
-      "Hanami 3.0: In Full Bloom 🔥56pts 💬14",
-      "A complete ClickHouse OLAP engine, compiled to WebAssembly",
+      "For first time, a cell built from scratch grows and divides 🔥732pts 💬251",
+      "Physical disc production ending in Jan 2028 for new games on PlayStation 🔥597pts 💬628",
+      "Box3D, an open source 3D physics engine 🔥413pts 💬92",
+      "Fable 5 Is Back 🔥320pts 💬301",
+      "FFmpeg 9.1's new AAC encoder 🔥284pts 💬97",
+      "Internal Combustion Engine (2021) 🔥284pts 💬73",
+      "Monetization Gateway: Charge for any resource behind Cloudflare via x402 🔥250pts 💬165",
+      "What to learn to be a graphics programmer 🔥244pts 💬125",
+      "Show HN: Searchable directory of 22k+ products from worker-owned co-ops 🔥215pts 💬36",
+      "ZCode – Harness for GLM-5.2 🔥196pts 💬207",
+      "Ask HN: Who is hiring? (July 2026) 🔥162pts 💬175",
+      "How We Made IPFS Content Publishing 10x Faster 🔥146pts 💬48",
+      "Ask HN: Who wants to be hired? (July 2026) 🔥107pts 💬252",
+      "Meta Caps Internal AI Token Spending After Costs Approach Billions in 2026 🔥86pts 💬77",
+      "Weave Robotics launches Isaac 1, a $7,999 home robot with Fall 2026 deliveries 🔥74pts 💬124",
+      "Global review confirms mRNA vaccines are safe, effective and full of promise  🔥72pts 💬38",
+      "I Left Harry's All-Night Hamburgers 🔥72pts 💬9",
+      "Healthy but sedentary people show early decline in cellular energy production 🔥57pts 💬48",
+      "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance 🔥56pts 💬32",
+      "Qualcomm Linux 2.0",
       "Launch HN: Parsewise (YC P25) – Reason Across Documents with an API",
-      "Most rewrites serve the engineer, not the business",
-      "Mortality associated with non-optimal ambient temperatures from 2000 to 2019",
-      "ZCode – Harness for GLM-5.2",
-      "Weave Robotics launches Isaac 1, a $7,999 home robot with Fall 2026 deliveries",
-      "Show HN: GolemUI – Declarative Form Engine",
-      "I Left Harry's All-Night Hamburgers",
-      "Generating Images with a 2025 Android"
+      "The Apple Disk II Controller Card",
+      "Chip Off the Old Block",
+      "How do wombats poop cubes? Scientists get to the bottom of the mystery",
+      "The Underhanded C Contest"
     ],
     "hn_show": [
-      "Simulate what AI agents do to an engineering org (no signup) — featured on Hacker News (🔥1pts)",
-      "Forgejo Appliance, a private Git server based on OrbStack and Tailscale — featured on Hacker News (🔥1pts)",
+      "TheraJoy – bilateral stimulation for EMDR using Joy-Cons — featured on Hacker News (🔥1pts)",
+      "A local AI-powered Bloomberg terminal for German meme stocks — featured on Hacker News (🔥1pts)",
+      "Open-source Deterministic Guardrails Against AI Duplicated Code — featured on Hacker News (🔥1pts)",
+      "Agent Sessions – A model agnostic Claude managed agents alternative — featured on Hacker News (🔥2pts)",
+      "I built a photography weather alert system — featured on Hacker News (🔥1pts)",
+      "Identity Layer for Agents and Autonomous AI — featured on Hacker News (🔥1pts)",
+      "Toolnexus for Python – MCP, agent skills,a2a for any LLM — featured on Hacker News (🔥2pts)",
+      "Banto – Turn any topic into a live game room in minutes — featured on Hacker News (🔥2pts)",
+      "Shark Tank but you pitch your idea to indie hackers — featured on Hacker News (🔥3pts)",
+      "GONK – Lightweight Edge-Native API Gateway in Go — featured on Hacker News (🔥3pts)",
+      "Simulate what AI agents do to an engineering org (no signup) — featured on Hacker News (🔥2pts)",
+      "Forgejo Appliance, a private Git server based on OrbStack and Tailscale — featured on Hacker News (🔥5pts)",
       "ExpenseSpy – AI receipt scanner that exports to Excel, built solo — featured on Hacker News (🔥3pts)",
-      "Moxie – an open-source money agent that can't act without your consent — featured on Hacker News (🔥1pts)",
+      "Moxie – an open-source money agent that can't act without your consent — featured on Hacker News (🔥2pts)",
       "Zukr – offline OCR that flags hidden sugar names on food labels — featured on Hacker News (🔥1pts)",
       "Intellisense style autocompletions inside of Bash — featured on Hacker News (🔥2pts)",
       "Phixo – explains why an email in Gmail/Outlook is phishing — featured on Hacker News (🔥1pts)",
-      "OpenCan – Open-source, self-hostable Canny alternative (AGPL-3.0) — featured on Hacker News (🔥1pts)",
-      "An AI agent that applies to jobs for me (Playwright,GPT5.4 form filling) — featured on Hacker News (🔥2pts)",
-      "CLI that helps AI agents avoid vulnerable dependencies — featured on Hacker News (🔥3pts)",
-      "Searchable directory of 22k+ products from worker-owned co-ops — featured on Hacker News (🔥65pts)",
-      "An Open Source Codex App that works across provider — featured on Hacker News (🔥1pts)",
-      "Understand any codebase, explained for your role (Live Demo) — featured on Hacker News (🔥1pts)",
-      "A Replacement of WhatsApp Polls — featured on Hacker News (🔥1pts)",
-      "I built a company formation tool that works inside your IDE via MCP — featured on Hacker News (🔥1pts)",
-      "CLI tool that gives your agents repo context, conventions, and rules — featured on Hacker News (🔥1pts)",
-      "Build autonomous agents on Theseus with Sonnet 5 from the browser — featured on Hacker News (🔥1pts)"
+      "OpenCan – Open-source, self-hostable Canny alternative (AGPL-3.0) — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
+      "Show HN: TheraJoy – bilateral stimulation for EMDR using Joy-Cons — user asking for tool recommendation (🔥1pts)",
       "LLM Colosseum – A zero-dependency browser RTS to test LLM tool calling — user asking for tool recommendation (🔥1pts)",
       "Show HN: Open-source sandbox for your product team — user asking for tool recommendation (🔥13pts)",
       "Show HN: Clockjumper – An Intervibed Project — user asking for tool recommendation (🔥1pts)",
       "Despite its best efforts, Iran won't be able to toll the Strait of Hormuz — user asking for tool recommendation (🔥5pts)",
       "Show HN: Bytesalt – AI that finds bugs Playwright tests miss — user asking for tool recommendation (🔥1pts)",
       "Show HN: I computed livability for all of Germany by rent, commute, and QoL — user asking for tool recommendation (🔥4pts)",
-      "Bloomberg: Spain Built Too Much Solar. Investors Want Out — user asking for tool recommendation (🔥5pts)",
-      "Show HN: Morph Reflexes – Multi-head classifiers for agent traces — user asking for tool recommendation (🔥11pts)",
+      "Show HN: Afair – Self-organizing memory shared across your AI tools — user asking for tool recommendation (🔥1pts)",
       "Show HN: CLI that helps AI agents avoid vulnerable dependencies — user asking for tool recommendation (🔥3pts)",
       "Show HN: LokalBot – meetings, notes, and autocomplete that never leave your Mac — user asking for tool recommendation (🔥1pts)",
       "Ask HN: Which payment processor/merchant-of-record do you use in 2026? — user asking for tool recommendation (🔥3pts)",
@@ -233,18 +235,18 @@
       "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
       "Show HN: In-place OCR + Translate for Internet Archive books — user asking for tool recommendation (🔥1pts)",
       "Show HN: Aegize (trying to mitigate the risk of AI) — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Morph Reflexes – Multi-head classifiers for agent traces — user asking for tool recommendation (🔥12pts)",
       "Show HN: Distributed LLM tracing and GH PR/issue linking [Apache 2.0] — user asking for tool recommendation (🔥2pts)",
       "Show HN: fenic – LLMs as dataframe operators, query meaning and structure — user asking for tool recommendation (🔥3pts)",
       "Show HN: An Open Source Codex App that works across provider — user asking for tool recommendation (🔥1pts)",
-      "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥32pts)",
+      "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥34pts)",
       "Show HN: Riley – Content That Sounds Like You, Not Like AI — user asking for tool recommendation (🔥2pts)",
       "3 dangers of being locked into a harness. Your context layer is true freedom — user asking for tool recommendation (🔥1pts)",
       "Show HN: Pokayoke – turn repo conventions into deterministic checks for agents — user asking for tool recommendation (🔥1pts)",
       "From Slop to Determinism – Shifting the Narrative Space — user asking for tool recommendation (🔥3pts)",
       "Why do teams keep losing context, and why hasn't any tool fixed it? — user asking for tool recommendation (🔥3pts)",
-      "Show HN: Open-Source Interview Platform — user asking for tool recommendation (🔥4pts)",
-      "Show HN: Valmis, an OpenClaw alternative built for work, with security in mind — user asking for tool recommendation (🔥3pts)",
-      "Ask HN: We are building the Flutter equivalent to RN's Ignite CLI — user asking for tool recommendation (🔥1pts)"
+      "Show HN: Open-Source Interview Platform — user asking for tool recommendation (🔥6pts)",
+      "Show HN: Valmis, an OpenClaw alternative built for work, with security in mind — user asking for tool recommendation (🔥3pts)"
     ],
     "hackernoon": [
       "AI Agents Built by Different Teams Can Finally Work Together Without Custom Glue Code",
@@ -285,60 +287,60 @@
       "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins <img src=\"https://res.infoq.com/podcasts/natural-evolution-cloud-native/en/smallimage/the-infoq-podcast-logo-thumbnail-1782207787976.jpg\"/><p>In this "
     ],
     "google_trends": [
-      "jaylen brown trade",
-      "76ers",
-      "jaylen brown sixers",
-      "anders lee",
-      "kevon looney",
-      "lilo voice actress",
-      "keegan kolesar",
-      "fifa ranking 2026",
-      "eden hazard",
-      "salmonella"
+      "usa red card",
+      "david beckham",
+      "estados unidos",
+      "red card in soccer",
+      "alexi lalas",
+      "clint dempsey",
+      "rip the script",
+      "has the us ever won the world cup",
+      "does love island come on tonight",
+      "president of fifa"
     ],
     "baidu": [
       "习近平向全体党员致以节日的问候",
-      "“老马”获党内最高荣誉 网友刷屏",
-      "A股交易新规下周一正式施行",
+      "越来越多公司证明AI无法替代人工",
+      "点球绝杀！比利时3-2逆转塞内加尔",
       "初心不改 用一生践行誓言",
-      "英格兰2-1逆转刚果金 晋级16强",
-      "世界杯：比利时vs塞内加尔",
-      "凯恩单场双响 爆射绝杀",
-      "微信转账误转他人 法院判了",
-      "电动座椅自动微调挤压打火机后起火",
-      "太空挂上了香港特区区旗",
-      "初中生沉迷折纸近十年作品惊艳网友",
+      "日本市民大排长龙买中国相机",
+      "失联20年女儿归来和外甥女争遗产",
+      "清华大学一本科生被公告退学",
+      "美国进球功臣遭红牌罚下",
+      "微波炉这样热菜 “微塑料”飙升125倍",
+      "卧底杀猪盘女子称真骗子不喊宝贝",
+      "世界杯：美国vs波黑",
       "“中考作文阅卷30秒快速打分”不实",
-      "中国歌手在英国街头唱《主角》",
-      "女子因错过高铁摔坏员工视频记录仪",
-      "香港演员黄一山小儿子北大硕士毕业",
-      "湖南一地试点：小学入学可直升高中",
-      "双方上一秒还在争吵 下一秒互相道歉",
-      "电动汽车“最严国标”来了",
-      "全自动收椅机器狗来了",
-      "新疆火焰山地表温度突破80℃"
+      "骂中国扣中国人 这位防长终于被制裁",
+      "法博物馆长：若证实掠夺即刻归还",
+      "母鸡俯身把小鸡背在身上",
+      "重磅！杰伦布朗与保罗乔治互换",
+      "比利时吵架不耽误进球",
+      "孙颖莎给勒布伦打趴下了",
+      "泰山景区回应修建刀片刺绳隔离网",
+      "比利时队场上内讧"
     ],
     "wikipedia": [
-      "Oudebaaskraal Dam",
-      "Komodo (chess)",
-      "2026–27 NHL transactions",
-      "Church of St. Nicholas, Brussels",
-      "Dead Meat (YouTube channel)",
-      "Tornado outbreak of May 2, 1942",
-      "Ouchibaro Dam",
-      "Banking Clan Transport",
-      "Otter Rapids Generating Station",
-      "Pays de Buch",
-      "Otori Dam",
-      "Middlehaven",
-      "John Azuta-Mbata",
-      "Hanz On Music Entertainment",
-      "Otluca HES",
-      "Tornado outbreak of May 6–10, 2024",
-      "Indian Armed Forces",
-      "Rosie (musician)",
-      "Wives and Daughters",
-      "Tobias Lütke"
+      "Italy–Sweden relations",
+      "NW 2050",
+      "Robert Stiegler",
+      "Alejandro Zendejas",
+      "Tropical cyclones in 2026",
+      "Ramsrigelj",
+      "Sacred Heart of Jesus (Roxas, Capiz)",
+      "Tom Palazzolo",
+      "Jamie West",
+      "Russia–Georgia Friendship Monument",
+      "Frank Stiefel",
+      "Defender of the Faith",
+      "Pink Floyd: Their Mortal Remains",
+      "Mathys Detourbet",
+      "Danny Taylor (baseball)",
+      "Geoff Winningham",
+      "Rumyantsev Obelisk",
+      "28th Infantry Brigade",
+      "28th Armored Brigade",
+      "28th Armoured Brigade (United Kingdom)"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -373,21 +375,21 @@
       "text-classification bge-reranker-v2-m3"
     ],
     "arxiv": [
-      "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision When does training language models (LMs) to generate explanations of their predictions yield faithful introspection, rather than superficial imitation? We study LMs trained to explain which features o",
-      "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to ",
-      "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive facu",
-      "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors While large language models (LLMs) perform well on table tasks, they still make data referencing errors (DREs), i.e., incorrectly citing or omitting table values, despite understanding the table struc",
-      "Freeform Preference Learning for Robotic Manipulation Reward design remains a central bottleneck for autonomous robot policy improvement, especially in long-horizon manipulation tasks where sparse success labels provide too little signal and binary prefe",
-      "AdaJEPA: An Adaptive Latent World Model Latent world models enable planning from high-dimensional observations by predicting future states in a compact latent space. However, these models are typically kept frozen at test time: when their p",
-      "FLORA: A deep learning approach to predict forest attributes from heterogeneous LiDAR data Forest attributes are essential for national-scale resource monitoring. Airborne LiDAR metrics are among the auxiliary variables most strongly correlated with forest attributes used in National Forest",
-      "TRIAGE: Role-Typed Credit Assignment for Agentic Reinforcement Learning Agentic reinforcement learning requires assigning credit to environment-facing actions such as searches, clicks, edits, navigation commands, and object interactions. Standard GRPO uses the final verif",
-      "AxDafny: Agentic Verified Code Generation in Dafny We study agentic code generation in Dafny, where a model must generate both executable code and the proof artifacts for verification. We present AxDafny, a verifier-guided repair framework that iterat",
-      "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines Policy-grounded document review requires determining whether a target document complies with organization-specific policies, guidelines, or playbooks. While large language models can assist with polic",
-      "Self-Study Reconsidered: The Hidden Fragility of Learning from Self-Generated QA Language models are increasingly taught from synthetic question--answer (QA) supervision: a model generates questions about a document, answers them from the same text, and the resulting pairs are use",
-      "Radial Suppression Accelerates Algorithmic Generalization: A Geometric Analysis of Delayed Generalization Why do neural networks memorize algorithmic training data long before they generalize? We present a geometric case study demonstrating that, on tasks where generalization requires discovering structur",
-      "Amplifying Membership Signal Through Chained Regeneration The tendency of large generative models to memorize training data makes sample verification critical for privacy auditing and copyright enforcement. Current membership (MIA) and dataset inference (DI)",
-      "GR2 Technical Report Industrial recommendation systems serve billions of users through a multi-stage funnel -- retrieval, early-stage ranking, and re-ranking -- where the final re-ranking step disproportionately shapes us",
-      "LUNA: Learning Universal 3D Human Animation Beyond Skinning Creating photorealistic, animatable 3D human avatars from monocular images still largely depends on Linear Blend Skinning (LBS) and parametric body models, which constrain expressivity and often intro"
+      "Cheap Code, Costly Judgment: A Case Study on Governable Agentic Software Engineering Generative AI is shifting software engineering from a practice organized around scarce implementation effort toward one organized around abundant, low-cost code production. This shift changes the cent",
+      "LongVQUBench: Benchmarking Long-Term Video Quality Understanding of Vision-Language Models The evaluation of long-term video quality understanding remains an open challenge for large vision-language models (LVLMs). Existing video quality benchmarks predominantly focus on short clips and iso",
+      "Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use While Large Language Model (LLM) agents demonstrate proficiency in static benchmarks, their deployment in real-world scenarios is hindered by the dynamic nature of user queries, tool sets, and interac",
+      "Staleness-Learning Rate Scaling Laws for Asynchronous RLHF High-throughput RLHF systems often decouple rollout generation from policy optimization, leading to the use of stale rollouts during learner updates. In this work, we study the effect of such stalenes",
+      "MemSyco-Bench: Benchmarking Sycophancy in Agent Memory Memory has emerged as a cornerstone of modern LLM-based agents, supporting their evolution from single-turn assistants to long-term collaborators. However, memory is not always beneficial: retrieved m",
+      "Agentic generation of verifiable rules for deterministic, self-expanding reaction classification Computer-assisted synthesis planning breaks target molecules into accessible precursors using large libraries of reaction rules that assign each transformation a deterministic, interpretable label. Bu",
+      "DART-VLN: Test-Time Memory Decay and Anti-Loop Regularization for Discrete Vision-Language Navigation Memory-based discrete vision-language navigation (VLN) agents must act under partial observability, yet even strong frozen backbones remain vulnerable at test time. Two common failure modes are stale ",
+      "EchoRisk: A Multicentre Echocardiography Dataset and Benchmark for Cardio-Oncology Therapy-induced cardiotoxicity is the leading non-oncological cause of treatment interruption in breast cancer patients, yet early, automated risk stratification from routine cardiac imaging remains a",
+      "Behavior-Adaptive Conversational Agents: Toward a Fluid Personality Framework Large language model (LLM)-based conversational agents (CAs) are now ubiquitous, creating new opportunities for AI-mediated behavior change. Their capacity to project nuanced personalities and adopt d",
+      "PedNStream: Scalable Network Flow Simulation for Pedestrian Traffic Management Large-scale crowd management requires pedestrian simulations that are both computationally efficient and compatible with feedback-based control. However, most open-source tools are either microscopic ",
+      "Reading Order Inference for Complex Document Layouts Reading order inference remains a critical bottleneck in the digitization of complex historical manuscripts, where pages contain multiple spatially interleaved reading streams, the canonical example b",
+      "Logit-Contribution Scoring Identifies Non-Literal Retrieval Heads In long-context use, large language models frequently synthesize answers from the meaning of a relevant context span rather than literally copy-pasting them. Identifying which attention heads perform ",
+      "SWE-Doctor: Guiding Software Engineering Agents with Runtime Diagnosis from Multi-Faceted Bug Reproduction Tests Large language model (LLM)-based software engineering agents are increasingly developed to resolve software issues by generating patches from issue reports and code repositories. Bug reproduction test",
+      "SenseWalk: Agent-Based Semantic Trajectory Simulation Powered by Large Language Models in Zoned Environments Semantic trajectory analysis has recently emerged as an approach for modeling human movement by capturing implicit patterns and behaviors through semantic information (e.g., visitors' profiles and goa",
+      "TRCGL-Net: A Long-Tailed Multi-Label Chest X-Ray Classification Framework with Generative Data Augmentation and Label Co-Occurrence Modeling Chest X-ray multi-label classification is a core task in intelligent medical imaging diagnosis. However, real clinical data often exhibit extreme long-tailed distributions, leading to degraded perform"
     ],
     "paperswithcode": [],
     "npm_registry": [
@@ -417,67 +419,39 @@
       "sql-formatter — npm package: Format whitespace in a SQL query to make it more readable",
       "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
       "prettier — npm package: Prettier is an opinionated code formatter",
+      "@expo/xcpretty — npm package: Parse and format xcodebuild logs",
       "sass-formatter — npm package: TypeScript Sass formatter",
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format",
-      "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute",
-      "@expo/xcpretty — npm package: Parse and format xcodebuild logs"
+      "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: chrome",
-      "github trending topic: nodejs",
-      "github trending topic: react",
-      "github trending topic: postgresql",
       "github trending topic: machine-learning",
-      "github trending topic: front end",
-      "github trending topic: code quality",
-      "github trending topic: compiler",
-      "github trending topic: npm",
-      "github trending topic: project management",
-      "github trending topic: node.js",
-      "github trending topic: css",
-      "github trending topic: database",
-      "github trending topic: mcp",
-      "github trending topic: scala",
+      "github trending topic: security",
+      "github trending topic: awesome lists",
+      "github trending topic: chrome",
       "github trending topic: llm",
+      "github trending topic: code quality",
+      "github trending topic: front end",
+      "github trending topic: project management",
       "github trending topic: python",
-      "github trending topic: open-source",
-      "github trending topic: react native",
-      "github trending topic: docker",
+      "github trending topic: compiler",
       "github trending topic: javascript",
+      "github trending topic: nextjs",
+      "github trending topic: claude",
+      "github trending topic: scala",
+      "github trending topic: node.js",
+      "github trending topic: ai-agents",
+      "github trending topic: react",
+      "github trending topic: database",
+      "github trending topic: css",
+      "github trending topic: react native",
       "github trending topic: typescript",
-      "github trending topic: awesome lists"
+      "github trending topic: npm"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
-    {
-      "keyword": "JSON Formatting Frenzy: Which Free Tool Wins the Speed Race?",
-      "matched": "json",
-      "category": "dev",
-      "subcat": "code",
-      "type": "tool",
-      "name": "JSON Formatter",
-      "name_zh": "JSON格式化"
-    },
-    {
-      "keyword": "JSON Formatting Frenzy: Which Free Tool Wins the Speed Race?",
-      "matched": "format",
-      "category": "dev",
-      "subcat": "code",
-      "type": "tool",
-      "name": "Formatter",
-      "name_zh": "格式化工具"
-    },
-    {
-      "keyword": "JSON Formatting Frenzy: Which Free Tool Wins the Speed Race?",
-      "matched": "form",
-      "category": "dev",
-      "subcat": "web",
-      "type": "tool",
-      "name": "Form Builder",
-      "name_zh": "表单构建器"
-    },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
@@ -504,6 +478,15 @@
       "type": "tool",
       "name": "Note Taker",
       "name_zh": "笔记工具"
+    },
+    {
+      "keyword": "Marketing automation platforms — tool from ProductHunt",
+      "matched": "form",
+      "category": "dev",
+      "subcat": "web",
+      "type": "tool",
+      "name": "Form Builder",
+      "name_zh": "表单构建器"
     },
     {
       "keyword": "Video editing — tool from ProductHunt",
@@ -533,7 +516,7 @@
       "name_zh": "单位换算"
     },
     {
-      "keyword": "FFmpeg 9.1's new AAC encoder 🔥221pts 💬78",
+      "keyword": "FFmpeg 9.1's new AAC encoder 🔥284pts 💬97",
       "matched": "encoder",
       "category": "dev",
       "subcat": "encode",
@@ -579,12 +562,30 @@
     },
     {
       "keyword": "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
+      "matched": "format",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "Formatter",
+      "name_zh": "格式化工具"
+    },
+    {
+      "keyword": "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
       "matched": "editor",
       "category": "productivity",
       "subcat": "text",
       "type": "tool",
       "name": "Editor",
       "name_zh": "编辑器"
+    },
+    {
+      "keyword": "jsonmatter — npm package: JSON formatter tool by stream",
+      "matched": "json",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "JSON Formatter",
+      "name_zh": "JSON格式化"
     },
     {
       "keyword": "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
@@ -597,7 +598,6 @@
     }
   ],
   "all_keywords": [
-    "JSON Formatting Frenzy: Which Free Tool Wins the Speed Race?",
     "All Package Management Functionality Moved from Compiler to Build System",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -619,11 +619,10 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "FFmpeg 9.1's new AAC encoder 🔥221pts 💬78",
-    "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥32pts)",
-    "Show HN: Open-Source Interview Platform — user asking for tool recommendation (🔥4pts)",
-    "英格兰2-1逆转刚果金 晋级16强",
-    "微信转账误转他人 法院判了",
+    "FFmpeg 9.1's new AAC encoder 🔥284pts 💬97",
+    "Show HN: GolemUI – Declarative Form Engine — user asking for tool recommendation (🔥34pts)",
+    "Show HN: Open-Source Interview Platform — user asking for tool recommendation (🔥6pts)",
+    "点球绝杀！比利时3-2逆转塞内加尔",
     "electra-base-discriminator",
     "electra-base-discriminator",
     "tgt — npm package: tpl generator tool",
@@ -640,10 +639,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 178,
-    "valid_count": 41,
-    "rejected_count": 137,
-    "rejection_rate": 77.0,
+    "raw_count": 181,
+    "valid_count": 39,
+    "rejected_count": 142,
+    "rejection_rate": 78.5,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -654,21 +653,38 @@
       "How slicing in Python works",
       "[bytecat]v 友赛博领鸡蛋 claude，新用户留言送 10 刀，十楼抽奖还送 10，中奖率 20%",
       "[送激活码] 🎉 Wins 3.4 发布！把 Mac 刘海变成悬浮分屏岛，抽奖送激活码～",
-      "2-Minute Guide: Logging in Python (the right way) (2026)"
+      "几十年 windows 老登请教： MacOS 下到底如何快速地新建 txt 文件"
     ]
   },
   "trait_analysis": {
-    "total_captured": 348,
-    "chatter_blocked": 13,
-    "chatter_rate": 3.7,
-    "tool_signals_found": 178,
-    "tool_signal_rate": 51.1,
+    "total_captured": 349,
+    "chatter_blocked": 18,
+    "chatter_rate": 5.2,
+    "tool_signals_found": 181,
+    "tool_signal_rate": 51.9,
     "chatter_samples": [
       {
         "text": "结婚 12 年准备离婚了",
         "category": "entertainment",
         "matched": [
           "结婚"
+        ]
+      },
+      {
+        "text": "AI’s Existential Crisis Averted—Again. (And Other Daily Delights)",
+        "category": "news",
+        "matched": [
+          [
+            "Crisis",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "What a Venture Studio Built on Real IoT Deployments Looks Like — Inside Aperture",
+        "category": "chatter",
+        "matched": [
+          "Vent"
         ]
       },
       {
@@ -679,10 +695,27 @@
         ]
       },
       {
-        "text": "Ask HN: Who is hiring? (July 2026) 🔥135pts 💬145",
+        "text": "Artificial adventures",
+        "category": "chatter",
+        "matched": [
+          "vent"
+        ]
+      },
+      {
+        "text": "Ask HN: Who is hiring? (July 2026) 🔥162pts 💬175",
         "category": "job",
         "matched": [
           "hiring"
+        ]
+      },
+      {
+        "text": "Global review confirms mRNA vaccines are safe, effective and full of promise  🔥7",
+        "category": "news",
+        "matched": [
+          [
+            "confirms",
+            ""
+          ]
         ]
       },
       {
@@ -690,13 +723,6 @@
         "category": "ad",
         "matched": [
           "signup"
-        ]
-      },
-      {
-        "text": "CLI tool that gives your agents repo context, conventions, and rules — featured ",
-        "category": "chatter",
-        "matched": [
-          "vent"
         ]
       },
       {
@@ -711,29 +737,6 @@
         "category": "job",
         "matched": [
           "$148K"
-        ]
-      },
-      {
-        "text": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Dri",
-        "category": "chatter",
-        "matched": [
-          "vent",
-          "vent",
-          "vent"
-        ]
-      },
-      {
-        "text": "lilo voice actress",
-        "category": "entertainment",
-        "matched": [
-          "actress"
-        ]
-      },
-      {
-        "text": "世界杯：比利时vs塞内加尔",
-        "category": "entertainment",
-        "matched": [
-          "世界杯"
         ]
       }
     ],
@@ -805,47 +808,48 @@
         ]
       },
       {
-        "text": "2-Minute Guide: Logging in Python (the right way) (2026)",
-        "confidence": 15,
+        "text": "几十年 windows 老登请教： MacOS 下到底如何快速地新建 txt 文件",
+        "confidence": 55,
         "features": [
-          "技术概念: ['Python']"
+          "中文动作特征: ['快速']",
+          "技术概念: ['txt']",
+          "需求表达: [('如何', '', '', '', '', '', '', '')]"
         ]
       },
       {
-        "text": "JSON Formatting Frenzy: Which Free Tool Wins the Speed Race?",
-        "confidence": 50,
-        "features": [
-          "输入→输出链式: [('Free Tool', 'To', '', '', '', '')]",
-          "英文工具名词: ['tool']",
-          "技术概念: ['JSON']"
-        ]
-      },
-      {
-        "text": "Google ADK Go 2.0 Adds Graph Engine, Human-in-Loop for Agents",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['Go']"
-        ]
-      },
-      {
-        "text": "Why MQTT, the IoT Protocol, Was Built for Oil Pipelines",
+        "text": "11 Free No-Key APIs Your AI Agent Can Use to Read the Web",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('Protocol', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Use to Read', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Choosing the Right Claude Model: A Practical Guide for Developers",
+        "text": "I Wish I Switched From OpenAI Sooner — Here's Everything I Learned",
         "confidence": 15,
         "features": [
-          "技术概念: ['Claude']"
+          "技术概念: ['OpenAI']"
         ]
       },
       {
-        "text": "What happened to the fight for the internet?",
+        "text": "From 2 Hours to 3 Minutes: Automated Agent Memory Regression Testing with Playwright &amp; Pytest",
+        "confidence": 45,
+        "features": [
+          "英文动作特征: ['Automated']",
+          "输入→输出链式: [('Hours to 3', 'to', '', '', '', ''), ('Automated', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Vector Database Comparison 2025",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('happened to the', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Vector', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "How I Slashed Our LLM Costs 40x While Keeping p99 Latency Flat",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['LLM']"
         ]
       }
     ]
