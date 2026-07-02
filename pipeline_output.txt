@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-01T22:23:24.399556+00:00     ║
+║       启动时间: 2026-07-02T04:11:30.252657+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 6 topics
+  ✅ 8 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 348
-  🚫 闲聊拦截: 13 条 (3.7%)
-  🧠 工具信号: 178 条 (51.1%)
+  原始信号总量: 350
+  🚫 闲聊拦截: 16 条 (4.6%)
+  🧠 工具信号: 175 条 (50.0%)
 
   📋 闲聊拦截样例:
      [entertainment] 结婚 12 年准备离婚了
+     [entertainment] AWS for Newbies — Episode 2
      [job] Who's hiring? Q3 2026
-     [job] Ask HN: Who is hiring? (July 2026) 🔥135pts 💬145
-     [ad] Simulate what AI agents do to an engineering org (no signup)
-     [chatter] CLI tool that gives your agents repo context, conventions, a
+     [chatter] Artificial adventures
+     [news] Global review confirms mRNA vaccines are safe, effective and
 
   🧠 工具信号样例:
      [置信度15%] What does the "yield" keyword do in Python?
@@ -100,40 +100,41 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['Python']
      [置信度15%] What are metaclasses in Python?
        ↳ 技术概念: ['Python']
-     [置信度25%] How 
+     [置信度25%] How do I merge two dictionaries in a single express
 
-✅ 雷达完成 — 16 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 348 条
-     🚫 闲聊拦截: 13 条 (3.7%)
-     🧠 工具信号: 178 条 (51.1%)
+     原始抓取: 350 条
+     🚫 闲聊拦截: 16 条 (4.6%)
+     🧠 工具信号: 175 条 (50.0%)
      闲聊样例: 结婚 12 年准备离婚了... [entertainment]
      工具信号样例: What does the "yield" keyword do in Python?... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 178 → 有效 41
-     拒绝率: 77.0%
+     工具信号 175 → 有效 40
+     拒绝率: 77.1%
 
-  📊 意图分类器审计 — 审查 16 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (13):
-     [PASS  |  +55] JSON Formatter  [?]
-     [WARN  |  +45] Formatter  [?]
-     [WARN  |  +45] Form Builder  [?]
+  ✅ 通过 (14):
      [PASS  |  +55] LLM Tool  [?]
+     [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
      [PASS  |  +55] Encoder  [?]
+     [PASS  |  +65] Tracker Tool  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
+     [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Editor  [?]
+     [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
   🚫 拦截 (3):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
@@ -152,8 +153,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-07-01T22:23:24.552002+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-07-02T04:11:30.407204+00:00
    Already in catalog: 115 tools
    Previously produced: 0 tools
    Existing tool pages: 26 files
@@ -288,7 +289,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-01T22:23:24.399556+00:00 → 2026-07-01T22:23:36.970332+00:00
+  ⏱  耗时: 2026-07-02T04:11:30.252657+00:00 → 2026-07-02T04:11:42.559418+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
