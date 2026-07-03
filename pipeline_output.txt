@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-03T09:31:00.353817+00:00     ║
+║       启动时间: 2026-07-03T14:26:13.062491+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,11 +43,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 20 Show HN posts
+  ✅ 18 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 19 articles
+  ✅ 20 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 21 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,54 +81,52 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 353
-  🚫 闲聊拦截: 12 条 (3.4%)
-  🧠 工具信号: 184 条 (52.1%)
+  原始信号总量: 354
+  🚫 闲聊拦截: 18 条 (5.1%)
+  🧠 工具信号: 182 条 (51.4%)
 
   📋 闲聊拦截样例:
-     [job] career-ops
+     [news] Easy Decentralized Applications for a Reliable $650 Bitcoin 
+     [news] How to Get a Safe $1700 Bitcoin Loan for Decentralized Finan
      [news] Arbitrary code execution breaking sandboxes in KDE Plasma
      [chatter] Artificial adventures
-     [ad] Virginia bans sale of geolocation data 🔥759pts 💬124
-     [entertainment] Title IX Paved the Way for Women Sports
+     [ad] Virginia bans sale of geolocation data 🔥896pts 💬133
 
   🧠 工具信号样例:
      [置信度35%] chrome-devtools-mcp
        ↳ 输入→输出链式: [('devtools', 'to', '', '', '', '')]
        ↳ 英文工具名词: ['tool']
-     [置信度45%] autofix-ci
-       ↳ 英文动作特征: ['autofix']
-       ↳ 输入→输出链式: [('autofix', 'to', '', '', '', '')]
      [置信度20%] pytorch
        ↳ 输入→输出链式: [('pytorch', 'to', '', '', '', '')]
-     [置信度15%] What does the "yield" key
+     [置信度15%] claude-code
+       ↳ 技术概念: ['claude']
+     [置信度15%] What does the "yie
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 353 条
-     🚫 闲聊拦截: 12 条 (3.4%)
-     🧠 工具信号: 184 条 (52.1%)
-     闲聊样例: career-ops... [job]
+     原始抓取: 354 条
+     🚫 闲聊拦截: 18 条 (5.1%)
+     🧠 工具信号: 182 条 (51.4%)
+     闲聊样例: Easy Decentralized Applications for a Reliable $65... [news]
      工具信号样例: chrome-devtools-mcp... [置信度35%]
 
   📊 硬核过滤器统计:
-     工具信号 184 → 有效 43
-     拒绝率: 76.6%
+     工具信号 182 → 有效 41
+     拒绝率: 77.5%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
+  ✅ 通过 (13):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
-     [PASS  |  +65] Tracker Tool  [?]
      [WARN  |  +37] Format Converter  [?]
      [WARN  |  +30] Excel Tools  [?]
      [PASS  |  +55] Converter  [?]
@@ -154,8 +152,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-03T09:31:00.516422+00:00
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-07-03T14:26:13.220994+00:00
    Already in catalog: 122 tools
    Previously produced: 0 tools
    Existing tool pages: 33 files
@@ -304,7 +302,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-03T09:31:00.353817+00:00 → 2026-07-03T09:31:15.003226+00:00
+  ⏱  耗时: 2026-07-03T14:26:13.062491+00:00 → 2026-07-03T14:26:25.955478+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
