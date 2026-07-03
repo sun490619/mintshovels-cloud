@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T16:16:55.447285+00:00",
+  "generated_at": "2026-07-03T16:41:31.328171+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -115,18 +115,18 @@
     ],
     "devto": [
       "DEV Community: programming",
-      "The Go Concurrency Chronicles: A Jedi's Guide to Goroutines and Channels",
-      "Python dataclasses: Replace Your __init__ Methods",
-      "How to Fix Lovable.dev Build Failed Errors Cleanly",
-      "The Biggest Lie About Programming Complexity ⭐ (my favorite)",
-      "I Built NetWorthCurve.com: A Free Personal Finance Platform to Help Anyone Track and Grow Their Wealth",
-      "React Hooks Kya Hain aur Kyun Zaroori Hain (Complete Intro in Hindi)",
-      "Beyond the Password Jar: Is a Paid Manager a Developer's True Ally?",
-      "ALM Busy Circuits MFX Plugin Bundle Full version",
-      "Garbage Collection in Dart, Part 1: Memory and Pointers",
-      "n-Track Studio Suite v10.3.1 for Windows – Complete Music Production DAW for Creators",
-      "Introduction to React",
-      "Looking for Buy Aged Telegram Accounts? Here Are the 12 Best Marketplaces"
+      "Digital Marketing Course After 10th: Everything You Need to Know",
+      "29. Authentication and Security – Handling Credentials &amp; Designing a Secure Login",
+      "How to Fix Cursor AI Crash and Memory Leak Errors",
+      "Python异步编程入门：asyncio使用指南",
+      "Python装饰器的正确使用姿势",
+      "Kontakt 8 v8.11.0 for macOS Review – A Powerful Sampling Platform for Modern Music Production",
+      "Is it really important to start DSA early?",
+      "Waldorf Microwave 1 v2.0.0 for Windows Review: Classic Wavetable Power Reimagined",
+      "How to Fix Lovable.dev Not Loading and Access Issues",
+      "Waldorf Music Microwave 1 v2.0.0 for Windows Free Download",
+      "Waldorf Music Microwave 1 v2.0.0 for macOS Download",
+      "The Go Concurrency Chronicles: A Jedi's Guide to Goroutines and Channels"
     ],
     "lobsters": [
       "Fourteener Lobsters",
@@ -140,15 +140,15 @@
       "jj v0.43.0 released",
       "Dogesh is a Python-based interpreted programming language where every keyword speaks dog",
       ".gitignore Isn’t the Only Way To Ignore Files in Git",
+      "A [non-hybrid tls-mlkem] standard by any other name: How IETF evades responsibility for its actions",
       "‘guix substitute‘ and ‘guix pull‘ vulnerabilities",
       "ds.css: A css framework recreating the DS / DS Lite's UI",
       "Wordgard Release 0.1",
       "Until_Heat_Death_Do_Us_Part: Counting until the heat death of the universe, broadcasting counter every second over 100Mbps ethernet",
       "Tools or techniques for conveying mental models?",
+      "Understanding is the new bottleneck",
       "Since Linux 6.9 (May 2024), the LUKS encryption key remained resident in memory across suspend",
-      "Automating the Rubber Stamp: What If an Agent Ran Your Deployment Gate?",
-      "Self-Hosted AI news aggregator using Cloudflare Workers, Vectorize, and Nostr",
-      "Extralite 3.0.0 Released"
+      "Automating the Rubber Stamp: What If an Agent Ran Your Deployment Gate?"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -173,40 +173,43 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Half-Baked Product 🔥865pts 💬260",
-      "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory 🔥515pts 💬217",
-      "CarPlay Is Additive 🔥464pts 💬620",
-      "Right to Local Intelligence 🔥411pts 💬142",
-      "crustc: entirety of `rustc`, translated to C 🔥346pts 💬73",
-      "Reality has a surprising amount of detail (2017) 🔥338pts 💬124",
-      "Exapunks (2018) 🔥315pts 💬108",
-      "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says 🔥259pts 💬215",
-      "Valve open source the Steam Machine e-ink screen so you can make your own 🔥233pts 💬31",
-      "The Safari MCP server for web developers 🔥198pts 💬56",
-      "Wordgard: The new in-browser rich-text editor from the creator of ProseMirror 🔥141pts 💬67",
-      "Quake in 13 Kilobytes (2021) 🔥104pts 💬14",
-      "PostgreSQL and the OOM Killer: Why We Use Strict Memory Overcommit 🔥74pts 💬18",
-      "How working with a blind client revealed invisible accessibility gaps 🔥63pts 💬49",
-      "Markets are competitive if and only if P = NP 🔥51pts 💬21",
-      "Hackers shoveled snow for company, were rewarded with network admin access",
+      "Half-Baked Product 🔥898pts 💬276",
+      "CarPlay Is Additive 🔥471pts 💬623",
+      "Right to Local Intelligence 🔥420pts 💬147",
+      "crustc: entirety of `rustc`, translated to C 🔥347pts 💬74",
+      "Reality has a surprising amount of detail (2017) 🔥339pts 💬126",
+      "Exapunks (2018) 🔥316pts 💬109",
+      "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says 🔥269pts 💬224",
+      "Valve open source the Steam Machine e-ink screen so you can make your own 🔥256pts 💬35",
+      "The Safari MCP server for web developers 🔥202pts 💬56",
+      "Wordgard: The new in-browser rich-text editor from the creator of ProseMirror 🔥151pts 💬68",
+      "Quake in 13 Kilobytes (2021) 🔥110pts 💬16",
+      "Markets are competitive if and only if P = NP 🔥92pts 💬55",
+      "PostgreSQL and the OOM Killer: Why We Use Strict Memory Overcommit 🔥80pts 💬28",
+      "How working with a blind client revealed invisible accessibility gaps 🔥68pts 💬49",
+      "Hackers shoveled snow for company, were rewarded with network admin access 🔥53pts 💬27",
       "Gemini Code Assist will be shut down on July 17",
-      "Commodore 64 Basic for PostgreSQL",
       "The Fall and Rise of Screwworm",
+      "Commodore 64 Basic for PostgreSQL",
       "Hunting a 16-year-old SQLite WAL bug with TLA+",
       "Jamesob's guide to running SOTA LLMs locally",
-      "Local Reasoning for Global Properties",
+      "America, 1926: What a Forgotten 100-Year-Old Report Says About Who We Are",
+      "Factories Are Just Rooms",
       "Give Smart People the Tools to Do Smart Things",
-      "How to organize 3 acquired companies into one coherent website",
-      "Program-as-Weights: A Programming Paradigm for Fuzzy Functions"
+      "Local Reasoning for Global Properties",
+      "Best Simple System for Now"
     ],
     "hn_show": [
-      "Verbum Vitae – Bible memorization with spaced repetition — featured on Hacker News (🔥1pts)",
+      "Plasma Wiki – a CLI for maintaining agent-edited Markdown wikis — featured on Hacker News (🔥4pts)",
+      "I built a map to visualize the walkable area from any location — featured on Hacker News (🔥2pts)",
+      "U.S. Declaration of Independence but as Google Doc Version History — featured on Hacker News (🔥1pts)",
+      "Verbum Vitae – Bible memorization with spaced repetition — featured on Hacker News (🔥2pts)",
       "IDE for code assembly of reusable code blocks — featured on Hacker News (🔥1pts)",
       "Donation Tracker — featured on Hacker News (🔥1pts)",
-      "Hacker News but as Tweets — featured on Hacker News (🔥1pts)",
+      "Hacker News but as Tweets — featured on Hacker News (🔥2pts)",
       "Ultracodex – Run Claude Ultracode Dynamic Workflows with Codex Agents — featured on Hacker News (🔥1pts)",
       "Qwilfight – A Pokémon-themed Battleship-like game — featured on Hacker News (🔥2pts)",
-      "Daily vibe-coding video games, day 81: World Domination — featured on Hacker News (🔥1pts)",
+      "Daily vibe-coding video games, day 81: World Domination — featured on Hacker News (🔥2pts)",
       "I got tired of messy PDF bank statements, so I built a RAM-only parser — featured on Hacker News (🔥3pts)",
       "AI latent space with overlapping manifolds — featured on Hacker News (🔥2pts)",
       "SigRank – Competitive Stat Screen and Operator Performance Evals O7 — featured on Hacker News (🔥2pts)",
@@ -214,9 +217,7 @@
       "Hello Inbox – Maximize inbox placement for email marketing campaigns — featured on Hacker News (🔥2pts)",
       "Finding better quantum error correction codes using ILP — featured on Hacker News (🔥2pts)",
       "TaskPeace – a task queue my AI coding agents pull work from over MCP — featured on Hacker News (🔥3pts)",
-      "Humbug: GUI-based agentic dev platform built with only 3 dependencies — featured on Hacker News (🔥2pts)",
-      "Local-first NetOps agent with guardrailed execution and low token cost — featured on Hacker News (🔥1pts)",
-      "San Francisco Library Events — featured on Hacker News (🔥1pts)"
+      "Humbug: GUI-based agentic dev platform built with only 3 dependencies — featured on Hacker News (🔥2pts)"
     ],
     "hn_ask_tools": [
       "Ask HN: Is it just me or does Claude / Sonnet 5 sound condescending recently? — user asking for tool recommendation (🔥1pts)",
@@ -290,60 +291,59 @@
       "Presentation: The Infrastructure Challenge Behind Production AI <img src=\"https://res.infoq.com/presentations/ai-infrastructure-scaling-architecture/en/mediumimage/infoq-live-medium-1782888285223.jpg\"/><p>The panel"
     ],
     "google_trends": [
+      "instacart down",
+      "bts chile",
+      "ostapenko",
+      "nato",
       "estatus de protección temporal",
-      "nathan ake",
       "us senior open",
+      "nathan ake",
       "sting operation",
       "jon pardi",
-      "rayan rupert",
-      "4th of july fireworks near me",
-      "rich eisen",
-      "tommy paul",
-      "rich paul"
+      "rayan rupert"
     ],
     "baidu": [
       "习近平出席中央军委晋升上将军衔仪式",
-      "LV曾起诉鸭血粉丝店商标侵权",
+      "郭士强：队员是我选的 输球责任在我",
       "中国男篮73比92不敌日本男篮",
       "台风来袭 全场景防御指南请收好",
       "知名女企业家郭恒华被刑拘",
       "4名大学生出题 AI考了0分",
       "世界杯：澳大利亚vs埃及",
-      "教育部：坚决杜绝用手机布置作业",
-      "村民报警抓蛇没想到是“买1送22”",
       "女子自家种的黄瓜上长了一片叶子",
+      "村民报警抓蛇没想到是“买1送22”",
+      "教育部：坚决杜绝用手机布置作业",
       "被游客掰断手臂的NPC系一级运动员",
       "“南宁邕江开放水上运动”系误读",
       "国乒男单交出难堪答卷",
-      "女子10年未体检 子宫内肿瘤长到13斤",
-      "中央考核巡查组暗访 揪出致命隐患",
       "两岁娃喊腿疼半年一查竟是白血病",
+      "女子10年未体检 子宫内肿瘤长到13斤",
       "一天3款新车上市 造手机的都沉默了",
+      "中央考核巡查组暗访 揪出致命隐患",
       "52亿入局200万离场 苏宁甩卖家乐福",
-      "郭士强：队员是我选的 输球责任在我",
+      "河南部分西瓜价格跌至1毛多一斤",
       "身价8.07亿欧元对阵5450万欧元"
     ],
     "wikipedia": [
-      "Dobara Phir Se",
-      "Marián Hronský",
-      "Chris Hughes (TV personality)",
-      "FC Jurong",
-      "Kodak Black discography",
-      "Primrose Hill",
-      "Columbia (carousel)",
-      "Pleasant Valley (Little Rock)",
-      "Kanseche",
-      "Breeze Airways",
-      "Sports in Los Angeles",
-      "Louis Jacobs",
-      "Defence Space Administration (Nigeria)",
-      "Kinam (Indigenous Toltec Yoga from Mexico)",
-      "PAOK FC",
-      "Interstate 170",
-      "Grace Lee (politician)",
-      "Fire (Kasabian song)",
-      "List of electoral wards in Surrey",
-      "Rosalinda Fogliani"
+      "2006–07 Ystalyfera RFC season",
+      "Garendon Abbey",
+      "List of districts of Himachal Pradesh by highest point",
+      "Nodar Mgaloblishvili",
+      "Stomper the Maverick",
+      "Gallen Abbey",
+      "National Stakes (Sandown Park)",
+      "Ingeborg Kaiser",
+      "African Alliance Insurance Plc",
+      "Fürstenzell Abbey",
+      "Tim Stanley",
+      "Tsinghua Bamboo Slips",
+      "The Defence of Rorke's Drift",
+      "Extra (franchise)",
+      "Coles Group",
+      "Merab Merabishvili",
+      "Shadow stack",
+      "Furness Abbey",
+      "Joker Xue"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -428,28 +428,28 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: react native",
-      "github trending topic: proxy",
+      "github trending topic: chrome",
+      "github trending topic: claude-code",
+      "github trending topic: node.js",
       "github trending topic: machine-learning",
-      "github trending topic: dashboard",
-      "github trending topic: typescript",
-      "github trending topic: compiler",
-      "github trending topic: code quality",
+      "github trending topic: archived",
       "github trending topic: react",
-      "github trending topic: tg-fix",
+      "github trending topic: claude",
+      "github trending topic: code quality",
+      "github trending topic: react native",
+      "github trending topic: npm",
+      "github trending topic: ai-agents",
+      "github trending topic: llm",
+      "github trending topic: scala",
       "github trending topic: project management",
+      "github trending topic: javascript",
       "github trending topic: front end",
       "github trending topic: css",
-      "github trending topic: scala",
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: javascript",
+      "github trending topic: compiler",
       "github trending topic: database",
-      "github trending topic: npm",
-      "github trending topic: chrome",
       "github trending topic: python",
       "github trending topic: awesome lists",
-      "github trending topic: node.js",
-      "github trending topic: tg-proxy"
+      "github trending topic: typescript"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -644,10 +644,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 179,
+    "raw_count": 178,
     "valid_count": 41,
-    "rejected_count": 138,
-    "rejection_rate": 77.1,
+    "rejected_count": 137,
+    "rejection_rate": 77.0,
     "rejected_samples": [
       "pytorch",
       "What does the \"yield\" keyword do in Python?",
@@ -657,19 +657,33 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "The Go Concurrency Chronicles: A Jedi's Guide to Goroutines and Channels",
-      "Python dataclasses: Replace Your __init__ Methods"
+      "Digital Marketing Course After 10th: Everything You Need to Know",
+      "How to Fix Cursor AI Crash and Memory Leak Errors"
     ]
   },
   "trait_analysis": {
     "total_captured": 352,
-    "chatter_blocked": 11,
-    "chatter_rate": 3.1,
-    "tool_signals_found": 179,
-    "tool_signal_rate": 50.9,
+    "chatter_blocked": 12,
+    "chatter_rate": 3.4,
+    "tool_signals_found": 178,
+    "tool_signal_rate": 50.6,
     "chatter_samples": [
       {
-        "text": "n-Track Studio Suite v10.3.1 for Windows – Complete Music Production DAW for Cre",
+        "text": "Kontakt 8 v8.11.0 for macOS Review – A Powerful Sampling Platform for Modern Mus",
+        "category": "entertainment",
+        "matched": [
+          "Music"
+        ]
+      },
+      {
+        "text": "Waldorf Music Microwave 1 v2.0.0 for Windows Free Download",
+        "category": "entertainment",
+        "matched": [
+          "Music"
+        ]
+      },
+      {
+        "text": "Waldorf Music Microwave 1 v2.0.0 for macOS Download",
         "category": "entertainment",
         "matched": [
           "Music"
@@ -683,13 +697,6 @@
             "breaking",
             ""
           ]
-        ]
-      },
-      {
-        "text": "San Francisco Library Events — featured on Hacker News (🔥1pts)",
-        "category": "chatter",
-        "matched": [
-          "vent"
         ]
       },
       {
@@ -738,13 +745,6 @@
         "category": "entertainment",
         "matched": [
           "世界杯"
-        ]
-      },
-      {
-        "text": "Sports in Los Angeles",
-        "category": "entertainment",
-        "matched": [
-          "Sports"
         ]
       }
     ],
@@ -831,22 +831,14 @@
         ]
       },
       {
-        "text": "The Go Concurrency Chronicles: A Jedi's Guide to Goroutines and Channels",
-        "confidence": 35,
+        "text": "Digital Marketing Course After 10th: Everything You Need to Know",
+        "confidence": 20,
         "features": [
-          "输入→输出链式: [('Guide to Goroutines', 'to', '', '', '', '')]",
-          "技术概念: ['Go']"
+          "输入→输出链式: [('Need to Know', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Python dataclasses: Replace Your __init__ Methods",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['Python']"
-        ]
-      },
-      {
-        "text": "How to Fix Lovable.dev Build Failed Errors Cleanly",
+        "text": "How to Fix Cursor AI Crash and Memory Leak Errors",
         "confidence": 30,
         "features": [
           "输入→输出链式: [('How to Fix', 'to', '', '', '', '')]",
@@ -854,10 +846,18 @@
         ]
       },
       {
-        "text": "I Built NetWorthCurve.com: A Free Personal Finance Platform to Help Anyone Track and Grow Their Weal",
+        "text": "Is it really important to start DSA early?",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('Platform to Help', 'to', '', '', '', '')]"
+          "输入→输出链式: [('important to start', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "How to Fix Lovable.dev Not Loading and Access Issues",
+        "confidence": 30,
+        "features": [
+          "输入→输出链式: [('How to Fix', 'to', '', '', '', '')]",
+          "需求表达: [('How to Fix', 'to', '', '', '', '', '', '')]"
         ]
       }
     ]

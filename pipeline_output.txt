@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-03T14:26:13.062491+00:00     ║
+║       启动时间: 2026-07-03T16:41:31.153234+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -59,7 +59,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 📖 水系4: 维基百科 & AI趋势
 🔍 [8/25] Fetching Wikipedia...
-  ✅ 20 pages
+  ✅ 19 pages
 🔍 [9/25] Fetching HuggingFace...
   ✅ 40 models
 🔍 [21/25] Fetching arXiv cs.AI...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 354
-  🚫 闲聊拦截: 18 条 (5.1%)
-  🧠 工具信号: 182 条 (51.4%)
+  原始信号总量: 352
+  🚫 闲聊拦截: 12 条 (3.4%)
+  🧠 工具信号: 178 条 (50.6%)
 
   📋 闲聊拦截样例:
-     [news] Easy Decentralized Applications for a Reliable $650 Bitcoin 
-     [news] How to Get a Safe $1700 Bitcoin Loan for Decentralized Finan
+     [entertainment] Kontakt 8 v8.11.0 for macOS Review – A Powerful Sampling Pla
+     [entertainment] Waldorf Music Microwave 1 v2.0.0 for Windows Free Download
+     [entertainment] Waldorf Music Microwave 1 v2.0.0 for macOS Download
      [news] Arbitrary code execution breaking sandboxes in KDE Plasma
-     [chatter] Artificial adventures
-     [ad] Virginia bans sale of geolocation data 🔥896pts 💬133
+     [job] Career Suggestion: What would you do if you are in this situ
 
   🧠 工具信号样例:
      [置信度35%] chrome-devtools-mcp
@@ -98,9 +98,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 英文工具名词: ['tool']
      [置信度20%] pytorch
        ↳ 输入→输出链式: [('pytorch', 'to', '', '', '', '')]
-     [置信度15%] claude-code
-       ↳ 技术概念: ['claude']
-     [置信度15%] What does the "yie
+     [置信度15%] claude-c
 
 ✅ 雷达完成 — 16 条建议
 
@@ -109,15 +107,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 354 条
-     🚫 闲聊拦截: 18 条 (5.1%)
-     🧠 工具信号: 182 条 (51.4%)
-     闲聊样例: Easy Decentralized Applications for a Reliable $65... [news]
+     原始抓取: 352 条
+     🚫 闲聊拦截: 12 条 (3.4%)
+     🧠 工具信号: 178 条 (50.6%)
+     闲聊样例: Kontakt 8 v8.11.0 for macOS Review – A Powerful Sa... [entertainment]
      工具信号样例: chrome-devtools-mcp... [置信度35%]
 
   📊 硬核过滤器统计:
-     工具信号 182 → 有效 41
-     拒绝率: 77.5%
+     工具信号 178 → 有效 41
+     拒绝率: 77.0%
 
   📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -153,7 +151,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-07-03T14:26:13.220994+00:00
+   Generated at: 2026-07-03T16:41:31.328171+00:00
    Already in catalog: 122 tools
    Previously produced: 0 tools
    Existing tool pages: 33 files
@@ -302,7 +300,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-03T14:26:13.062491+00:00 → 2026-07-03T14:26:25.955478+00:00
+  ⏱  耗时: 2026-07-03T16:41:31.153234+00:00 → 2026-07-03T16:41:43.168823+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
