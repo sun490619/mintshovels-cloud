@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T13:50:55.612876+00:00",
+  "generated_at": "2026-07-04T15:51:26.580888+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -107,48 +107,48 @@
       "问大佬们个问题， App 只要接了手机验证码就需要办理等保二级？",
       "智普 coding plan 抢不到，有没有什么方法啊...",
       "完了，到 2031 年，内存可能都不会降价。",
-      "专科毕业 3 年还在频繁换工作，正常节奏应该是什么样？",
-      "你喜欢注释丰富， Commit Message 详尽，还是反之？",
-      "盒马会员性价比很低，没什么优惠",
+      "省到就是赚到？",
       "阿里的产品真的挺有意思的，不开麦克风权限不给用键盘打字",
-      "省到就是赚到？"
+      "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
+      "你喜欢注释丰富， Commit Message 详尽，还是反之？",
+      "盒马会员性价比很低，没什么优惠"
     ],
     "devto": [
       "DEV Community: programming",
-      "I Found Claude Fable 5's Best Use Case. It Cost 75% of My Monthly Quota to Get There.",
-      "🚀 What if you could walk around the world without a wallet, cash, or even a phone?",
-      "Need $1300 in Trading Liquidity Without Selling Your Altcoins",
-      "Need $650 in Quick Capital From Your Cryptocurrency Wallet",
-      "Migrating from Linear to Radial in one command",
-      "Why a green, mergeable PR sat unmerged for 24 days",
-      "Chinese AI Models: The OpenAI Alternatives Every Developer Should Know",
-      "Benchmarking Chinese LLM APIs: DeepSeek V3 vs Qwen3 vs Kimi K2 — A Developer's Guide (2026)",
-      "Download Yakuza Kiwami NSP Full Game Latest 2026",
-      "Building an Onchain Reputation Graph for Open Source",
-      "Why Good Developers Write Less Code, Not More",
-      "React me Multiple useState kaise Manage Karein"
+      "إنشاء تطبيق ويب آمن باستخدام بايثون و فلاسك",
+      "COMPARISON OPERATOR",
+      "The Incident Postmortem Template That Actually Prevents the Next Outage",
+      "How to Feed 100K Words to AI (Without Breaking the Bank)",
+      "Your AI coding agent isn't lying to you. It's optimizing. published: false",
+      "Hyperia: a terminal where AI agents are first-class tenants 👻🐚",
+      "Improving my Cross-Distro Package manager made in Rust",
+      "How I Use AI to Ship Features Faster Without Getting Messy Code",
+      "Why Java Still Matters Today (Even in the Age of New Languages)",
+      "LongCat-2.0 — ทำไมนักพัฒนาทั่วโลกถึงชื่นชมโมเดล AI จากบริษัทส่งอาหารของจีน",
+      "80. Remove Duplicates from Sorted Array II",
+      "JavaScript Roadmap"
     ],
     "lobsters": [
       "Fourteener Lobsters",
-      "Why implementing ActivityPub is hard, and why it doesn't have to be",
-      "Magit 4.6 released",
-      "I Don't Maintain My Homelab",
       "What should a personal website be?",
+      "Magit 4.6 released",
+      "Why implementing ActivityPub is hard, and why it doesn't have to be",
+      "I Don't Maintain My Homelab",
+      "Reducing Assumptions, Exploding Your Code",
       "Why don't people use git properly?",
       "My favorite keyboards",
-      "Reducing Assumptions, Exploding Your Code",
-      "Goodbye, forever, probably",
-      "Clickhouse is winning the Observability Wars",
-      "Suffix BWT vs cyclic shift BWT, and fast computation",
       "Who's Hiring? - Support Edition - Q3 2026",
       "FreeBSD ate my ram",
-      "Very Average Prototypes",
-      "Synthesis is harder than analysis",
+      "Goodbye, forever, probably",
       "Developer Verification – LineageOS",
-      "crustc: Entirety of rustc, translated to C",
-      "Espionage Against the European Parliament: Member of Committee Investigating Spyware Hacked with Pegasus",
-      "Agentic coding notes from Galapogos Island",
-      "Rust - Handling Results In A Map Closure"
+      "Clickhouse is winning the Observability Wars",
+      "Suffix BWT vs cyclic shift BWT, and fast computation",
+      "EndBASIC 0.14: Are we multimedia yet?",
+      "Synthesis is harder than analysis",
+      "On intent of Code",
+      "Rust - Handling Results In A Map Closure",
+      "Very Average Prototypes",
+      "Espionage Against the European Parliament: Member of Committee Investigating Spyware Hacked with Pegasus"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -173,53 +173,53 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "The bottleneck might be the air in the room 🔥483pts 💬298",
-      "Costco is the anti-Amazon 🔥455pts 💬413",
-      "Jamesob's guide to running SOTA LLMs locally 🔥371pts 💬168",
-      "Performance per dollar is getting faster and cheaper 🔥289pts 💬104",
-      "Leanstral 1.5: Proof abundance for all 🔥288pts 💬83",
-      "SearXNG: A free internet metasearch engine 🔥238pts 💬65",
-      "Giant trees have no trouble pumping water to top branches: new research 🔥229pts 💬102",
-      "Hunting a 16-year-old SQLite WAL bug with TLA+ 🔥223pts 💬28",
-      "Maybe you should learn something 🔥198pts 💬92",
-      "Odin, Wikipedia and engagement farming 🔥188pts 💬253",
-      "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV 🔥165pts 💬36",
-      "FreeBSD ate my RAM 🔥162pts 💬64",
-      "Agentic coding notes from Galapagos Island 🔥131pts 💬61",
-      "Applied Category Theory Course (2018) 🔥129pts 💬11",
-      "New serious vulnerabilities spiked around release of Claude Mythos Preview 🔥128pts 💬54",
-      "Mir Books – Books from the Soviet Era 🔥114pts 💬49",
-      "Synthesis is harder than analysis 🔥113pts 💬26",
-      "MSI Center – How to gain SYSTEM privileges in seconds 🔥112pts 💬47",
-      "The firefighting system of the Van der Heyden brothers in 17th century Amsterdam 🔥110pts 💬20",
-      "Soatok's Informal Guide to Threat Models 🔥108pts 💬26",
-      "Gone but Not Forgotten: Recovering the Dead Web 🔥85pts 💬29",
-      "Astrophysicists Puzzle over Webb’s New Universe 🔥77pts 💬31",
-      "Postgres data stored in Parquet on S3: LTAP architecture explained 🔥71pts 💬21",
-      "The Vespa at 80: Why the Italian scooter remains the coolest thing on 2 wheels",
-      "2026 Unslop AI-Written Fiction Contest Results"
+      "The bottleneck might be the air in the room 🔥572pts 💬333",
+      "Costco is the anti-Amazon 🔥484pts 💬448",
+      "Jamesob's guide to running SOTA LLMs locally 🔥379pts 💬171",
+      "Performance per dollar is getting faster and cheaper 🔥308pts 💬124",
+      "Leanstral 1.5: Proof abundance for all 🔥307pts 💬86",
+      "Maybe you should learn something 🔥281pts 💬141",
+      "SearXNG: A free internet metasearch engine 🔥249pts 💬69",
+      "Giant trees have no trouble pumping water to top branches: new research 🔥241pts 💬107",
+      "Odin, Wikipedia and engagement farming 🔥205pts 💬288",
+      "FreeBSD ate my RAM 🔥173pts 💬72",
+      "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV 🔥171pts 💬41",
+      "Agentic coding notes from Galapagos Island 🔥145pts 💬67",
+      "Explanation of everything you can see in htop/top on Linux 🔥142pts 💬18",
+      "New serious vulnerabilities spiked around release of Claude Mythos Preview 🔥139pts 💬60",
+      "Mir Books – Books from the Soviet Era 🔥130pts 💬64",
+      "MSI Center – How to gain SYSTEM privileges in seconds 🔥123pts 💬51",
+      "Synthesis is harder than analysis 🔥123pts 💬30",
+      "Astrophysicists Puzzle over Webb’s New Universe 🔥119pts 💬65",
+      "The firefighting system of the Van der Heyden brothers in 17th century Amsterdam 🔥117pts 💬23",
+      "Potential session/cache leakage between workspace instances or consumer accounts 🔥105pts 💬36",
+      "Postgres data stored in Parquet on S3: LTAP architecture explained 🔥105pts 💬30",
+      "The Vespa at 80: Why the Italian scooter remains the coolest thing on 2 wheels 🔥78pts 💬72",
+      "Night Witches – all-female Soviet aviator regiment WW2",
+      "2026 Unslop AI-Written Fiction Contest Results",
+      "The Scanline Sweeper: A Glyph Rendering Algorithm [pdf]"
     ],
     "hn_show": [
-      "Quick and dirty inter-agent collaboration — featured on Hacker News (🔥1pts)",
-      "Language Learning Roguelike Game — featured on Hacker News (🔥1pts)",
+      "SurfSkills – agent skills, each with a video of it working — featured on Hacker News (🔥1pts)",
+      "Home Page as a Chatbot — featured on Hacker News (🔥1pts)",
+      "World Release Notes – Every country as a software project — featured on Hacker News (🔥1pts)",
+      "GREF – Interactive search and replace for terminal and Vim — featured on Hacker News (🔥1pts)",
+      "I built a personalized AI newsletter you configure by replying to it — featured on Hacker News (🔥1pts)",
+      "Thèque, a private visual library for the things you save — featured on Hacker News (🔥2pts)",
+      "Hacker-News Buddies — featured on Hacker News (🔥5pts)",
+      "Open Kioku – local evidence layer for AI coding agents — featured on Hacker News (🔥2pts)",
+      "Text to Favicon — featured on Hacker News (🔥1pts)",
+      "VideoPicAI – Create Videos and Images with AI Magic — featured on Hacker News (🔥1pts)",
+      "Quick and dirty inter-agent collaboration — featured on Hacker News (🔥2pts)",
+      "Language Learning Roguelike Game — featured on Hacker News (🔥2pts)",
       "Mycelium – AI agent plugin guiding you from purpose to market — featured on Hacker News (🔥1pts)",
       "IchiPitchy – browser-based vocal editor and multitrack mixer — featured on Hacker News (🔥1pts)",
       "Convert Android Motion Photos to Apple Live Photos — featured on Hacker News (🔥1pts)",
       "Owthorize: catch destructive AI-agent tool calls before they run — featured on Hacker News (🔥1pts)",
-      "Open-source no-code back end platform, now with AI flow generation — featured on Hacker News (🔥1pts)",
+      "Open-source no-code back end platform, now with AI flow generation — featured on Hacker News (🔥2pts)",
       "A 'what you see is what you get' HTML editor for Mac — featured on Hacker News (🔥1pts)",
-      "Foundation, a different approach to software and AI — featured on Hacker News (🔥4pts)",
-      "Groot – Kubernetes incident evidence in one .tar.gz — featured on Hacker News (🔥1pts)",
-      "Rethinking Anti-Cheat: Can Trust Be Distributed? — featured on Hacker News (🔥2pts)",
-      "I built a tool to audit error density and modern PC optimization — featured on Hacker News (🔥1pts)",
-      "Sandbox-proxy – A forward proxy that injects credentials to sandboxes — featured on Hacker News (🔥2pts)",
-      "Tokdash – a local dashboard for AI token and quota tracking — featured on Hacker News (🔥1pts)",
-      "A free, no-ad, no-account, no-server iOS calorie budgeting/diet app — featured on Hacker News (🔥3pts)",
-      "ProxyBoy. A Windows HTTP/HTTPS debugging proxy with an AI assistant — featured on Hacker News (🔥1pts)",
-      "FluxDown – Free, open-source IDM alternative in Rust and Flutter — featured on Hacker News (🔥1pts)",
-      "Visual Knowledge Canvas for Learners — featured on Hacker News (🔥3pts)",
-      "An AI that brutally rates your cat, and 18 games where your cat plays — featured on Hacker News (🔥1pts)",
-      "AI Coloring Page Generator for printable classroom worksheets — featured on Hacker News (🔥1pts)"
+      "Groot – Kubernetes incident evidence in one .tar.gz — featured on Hacker News (🔥2pts)",
+      "Rethinking Anti-Cheat: Can Trust Be Distributed? — featured on Hacker News (🔥2pts)"
     ],
     "hn_ask_tools": [
       "A fleshed-out IPv5 proposal — user asking for tool recommendation (🔥4pts)",
@@ -248,10 +248,10 @@
       "Show HN: Track Token usage for major platforms,know your token flow — user asking for tool recommendation (🔥4pts)",
       "Show HN: I ran 400 hours of interviews, so I built the tool I wished existed — user asking for tool recommendation (🔥2pts)",
       "Show HN: Make your terminal pulse orange when Claude Code needs input — user asking for tool recommendation (🔥3pts)",
-      "Return of RSS Feeds — user asking for tool recommendation (🔥2pts)",
+      "Sylix, an free and open alternative to cursor and antigravity — user asking for tool recommendation (🔥1pts)",
+      "Return of RSS Feeds — user asking for tool recommendation (🔥3pts)",
       "P2P out the box alternative to Ngrok/Cloudflare using Iroh — user asking for tool recommendation (🔥2pts)",
-      "Olive – Lisp VSCode Extension (Alternative to Alive) — user asking for tool recommendation (🔥35pts)",
-      "Show HN: LimitBar, a macOS menu bar app showing your Claude usage limits — user asking for tool recommendation (🔥2pts)"
+      "Olive – Lisp VSCode Extension (Alternative to Alive) — user asking for tool recommendation (🔥39pts)"
     ],
     "hackernoon": [
       "62 Blog Posts To Learn About Social Engineering",
@@ -292,60 +292,60 @@
       "HeroUI v3 Lands as a Ground-Up Rewrite for React and React Native, Built on Tailwind CSS v4 <img src=\"https://res.infoq.com/news/2026/07/heroui-v3-rewrite/en/headerimage/generatedHeaderImage-1782890990794.jpg\"/><p>HeroUI v3 is a redesigned Re"
     ],
     "google_trends": [
-      "gas station near me",
-      "aspen acres fire",
-      "ken burns",
-      "elise mertens",
-      "s.w.a.t.",
-      "eala",
-      "elena rybakina",
-      "england vs india",
-      "revolutionary war",
-      "what is the 4th of july"
+      "madison keys",
+      "alexander zverev",
+      "jasmine paolini",
+      "july 4th fireworks near me",
+      "usa vs england",
+      "world cup top 16",
+      "tennis scores",
+      "jones beach air show",
+      "bristol 4th of july parade",
+      "fbi"
     ],
     "baidu": [
       "庆祝中国共产党成立105周年大会侧记",
-      "佛得角再次感谢中国：帮我们圆梦",
-      "日本首次公布跟踪中国航母视频",
+      "中国7舰横穿日本4大要道",
+      "世界杯17至32位排名：佛得角第32名",
       "中小学生暑期安全提示请收好",
       "到底是谁取消了有线耳机",
       "王力宏演唱会摔倒 面部出血",
-      "张雪透露目前负债接近1亿",
-      "普京首次承认俄罗斯缺油",
-      "心梗老人看牙被全口拔光 余额被刷光",
-      "霉霉婚礼后纽约天空变粉",
-      "清华教授肖鹰：期待蒋方舟告我",
-      "宁夏辟谣“硒砂瓜滞销烂市”",
-      "情侣酒后入住酒店 女子翻窗坠亡",
-      "董路：中国足球小将现在就能超越日本",
-      "13年前收礼被偷拍的县长被查",
-      "曝赛琳娜是霉霉婚礼唯一能带手机者",
-      "女孩摸自行车把手遭掌掴 家属发声",
+      "世界杯：加拿大vs摩洛哥",
       "多省献血量还在降 血站寻找下一袋血",
-      "佛得角很多球员在更衣室哭了",
-      "男子酒足饭饱后脑干出血被送进ICU"
+      "日本首次公布跟踪中国航母视频",
+      "霉霉婚礼后纽约天空变粉",
+      "十万余元的手镯直接“砍”到399元",
+      "宁夏辟谣“硒砂瓜滞销烂市”",
+      "女子确诊肺癌晚期在地铁上介绍自己",
+      "没戏拍的短剧演员在横店卖凉皮",
+      "女孩摸自行车把手遭掌掴 家属发声",
+      "曝赛琳娜是霉霉婚礼唯一能带手机者",
+      "佛得角再次感谢中国：帮我们圆梦",
+      "世界杯1/8决赛观赛指南",
+      "不到50元的“次抛衣”热销",
+      "巴拉圭总统因迷信不敢现场看世界杯"
     ],
     "wikipedia": [
-      "William Wallis (cricketer)",
-      "Flag of Khiva",
-      "FIFA World Cup on Fox After Hours with James Corden",
-      "Flag of Katanga",
-      "Tom Walker (cricketer)",
-      "Kiryl Pyachenin",
-      "Inverness Caledonian Thistle F.C.",
-      "Flags of the Kingdom of Kandy",
-      "Pattiyal",
-      "Flag of the People's Republic of Kampuchea",
-      "Peter Walker (cricketer, born 1952)",
-      "Rosalinda Galán (singer)",
-      "Hellenhahn-Schellenberg",
-      "Communist Party of Greece (Marxist–Leninist)",
-      "Flag of Democratic Kampuchea",
-      "Henry Walker (cricketer)",
-      "Brad Meltzer",
-      "Nasir",
-      "Emblems of the Kalmar Union",
-      "Digital Archives"
+      "Sinfest",
+      "2026 Astrakhan Oblast legislative election",
+      "Basella alba",
+      "Gabe Okoye",
+      "Mother's Finest (album)",
+      "Thakin Ba Hein",
+      "Signal (disambiguation)",
+      "Jevon Kearse",
+      "2026 Broxbourne Borough Council election",
+      "Anna Rajan",
+      "Pilar Pallete",
+      "Gauteng and Environs Library Consortium",
+      "RK Slovenj Gradec 2011",
+      "23rd/21st Battalion (Australia)",
+      "Rewind Racers",
+      "John Oliver",
+      "Unite the Union",
+      "William Tebeau",
+      "Wei-Wen Yu",
+      "1996 Gangneung submarine infiltration incident"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -430,29 +430,31 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: awesome lists",
-      "github trending topic: telegram",
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: npm",
-      "github trending topic: llm",
-      "github trending topic: tg-proxy",
-      "github trending topic: scala",
-      "github trending topic: css",
-      "github trending topic: javascript",
-      "github trending topic: tg-fix",
-      "github trending topic: compiler",
-      "github trending topic: chrome",
-      "github trending topic: react",
-      "github trending topic: code quality",
-      "github trending topic: proxy",
-      "github trending topic: python",
-      "github trending topic: react native",
-      "github trending topic: typescript",
       "github trending topic: project management",
-      "github trending topic: node.js",
-      "github trending topic: proxy-tg",
+      "github trending topic: tg-fix",
+      "github trending topic: tg-ws-proxy",
+      "github trending topic: python",
+      "github trending topic: css",
+      "github trending topic: compiler",
+      "github trending topic: coursework",
       "github trending topic: database",
-      "github trending topic: front end"
+      "github trending topic: chrome",
+      "github trending topic: node.js",
+      "github trending topic: npm",
+      "github trending topic: javascript",
+      "github trending topic: front end",
+      "github trending topic: typescript",
+      "github trending topic: tg-proxy",
+      "github trending topic: gaming",
+      "github trending topic: react",
+      "github trending topic: software",
+      "github trending topic: scala",
+      "github trending topic: hhu",
+      "github trending topic: windows",
+      "github trending topic: code quality",
+      "github trending topic: awesome lists",
+      "github trending topic: llm",
+      "github trending topic: react native"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -520,6 +522,24 @@
       "type": "tool",
       "name": "Unit Converter",
       "name_zh": "单位换算"
+    },
+    {
+      "keyword": "The Scanline Sweeper: A Glyph Rendering Algorithm [pdf]",
+      "matched": "pdf",
+      "category": "productivity",
+      "subcat": "office",
+      "type": "tool",
+      "name": "PDF Editor",
+      "name_zh": "PDF编辑器"
+    },
+    {
+      "keyword": "The Scanline Sweeper: A Glyph Rendering Algorithm [pdf]",
+      "matched": "render",
+      "category": "media",
+      "subcat": "graphics",
+      "type": "tool",
+      "name": "Renderer",
+      "name_zh": "渲染器"
     },
     {
       "keyword": "tgt — npm package: tpl generator tool",
@@ -598,6 +618,7 @@
     "chrome-devtools-mcp",
     "Claude 账号被封风险检测工具",
     "问大佬们个问题， App 只要接了手机验证码就需要办理等保二级？",
+    "Improving my Cross-Distro Package manager made in Rust",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -618,8 +639,9 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
+    "The Scanline Sweeper: A Glyph Rendering Algorithm [pdf]",
     "A fleshed-out IPv5 proposal — user asking for tool recommendation (🔥4pts)",
-    "Return of RSS Feeds — user asking for tool recommendation (🔥2pts)",
+    "Return of RSS Feeds — user asking for tool recommendation (🔥3pts)",
     "electra-base-discriminator",
     "electra-base-discriminator",
     "tgt — npm package: tpl generator tool",
@@ -637,10 +659,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 180,
-    "valid_count": 40,
-    "rejected_count": 140,
-    "rejection_rate": 77.8,
+    "raw_count": 181,
+    "valid_count": 42,
+    "rejected_count": 139,
+    "rejection_rate": 76.8,
     "rejected_samples": [
       "allcontributors",
       "What does the \"yield\" keyword do in Python?",
@@ -650,15 +672,15 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "I Found Claude Fable 5's Best Use Case. It Cost 75% of My Monthly Quota to Get There.",
-      "Need $650 in Quick Capital From Your Cryptocurrency Wallet"
+      "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
+      "COMPARISON OPERATOR"
     ]
   },
   "trait_analysis": {
-    "total_captured": 355,
-    "chatter_blocked": 9,
-    "chatter_rate": 2.5,
-    "tool_signals_found": 180,
+    "total_captured": 357,
+    "chatter_blocked": 13,
+    "chatter_rate": 3.6,
+    "tool_signals_found": 181,
     "tool_signal_rate": 50.7,
     "chatter_samples": [
       {
@@ -666,6 +688,23 @@
         "category": "ad",
         "matched": [
           "优惠"
+        ]
+      },
+      {
+        "text": "The Incident Postmortem Template That Actually Prevents the Next Outage",
+        "category": "chatter",
+        "matched": [
+          "vent"
+        ]
+      },
+      {
+        "text": "How to Feed 100K Words to AI (Without Breaking the Bank)",
+        "category": "news",
+        "matched": [
+          [
+            "Breaking",
+            ""
+          ]
         ]
       },
       {
@@ -713,27 +752,20 @@
         ]
       },
       {
-        "text": "revolutionary war",
+        "text": "世界杯：加拿大vs摩洛哥",
+        "category": "entertainment",
+        "matched": [
+          "世界杯"
+        ]
+      },
+      {
+        "text": "2026 Astrakhan Oblast legislative election",
         "category": "news",
         "matched": [
           [
-            "war",
+            "election",
             ""
           ]
-        ]
-      },
-      {
-        "text": "Rosalinda Galán (singer)",
-        "category": "entertainment",
-        "matched": [
-          "singer"
-        ]
-      },
-      {
-        "text": "granturismo — npm package: generator tool",
-        "category": "chatter",
-        "matched": [
-          "rant"
         ]
       }
     ],
@@ -822,32 +854,31 @@
         ]
       },
       {
-        "text": "I Found Claude Fable 5's Best Use Case. It Cost 75% of My Monthly Quota to Get There.",
-        "confidence": 35,
+        "text": "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
+        "confidence": 15,
         "features": [
-          "输入→输出链式: [('Quota to Get', 'to', '', '', '', '')]",
           "技术概念: ['Claude']"
         ]
       },
       {
-        "text": "Need $650 in Quick Capital From Your Cryptocurrency Wallet",
+        "text": "COMPARISON OPERATOR",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('Cryptocurrency', 'to', '', '', '', '')]"
+          "输入→输出链式: [('OPERATOR', 'TO', '', '', '', '')]"
         ]
       },
       {
-        "text": "Migrating from Linear to Radial in one command",
+        "text": "Your AI coding agent isn't lying to you. It's optimizing. published: false",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('from Linear to Radial', '', '', '', '', '')]"
+          "输入→输出链式: [('lying to you', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Chinese AI Models: The OpenAI Alternatives Every Developer Should Know",
+        "text": "Improving my Cross-Distro Package manager made in Rust",
         "confidence": 15,
         "features": [
-          "技术概念: ['OpenAI']"
+          "技术概念: ['Rust']"
         ]
       }
     ]
