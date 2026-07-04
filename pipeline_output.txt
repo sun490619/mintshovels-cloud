@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-04T10:58:08.927963+00:00     ║
+║       启动时间: 2026-07-04T13:50:55.453805+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 19 Show HN posts
+  ✅ 20 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 25 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 356
-  🚫 闲聊拦截: 11 条 (3.1%)
-  🧠 工具信号: 185 条 (52.0%)
+  原始信号总量: 355
+  🚫 闲聊拦截: 9 条 (2.5%)
+  🧠 工具信号: 180 条 (50.7%)
 
   📋 闲聊拦截样例:
      [ad] 盒马会员性价比很低，没什么优惠
+     [job] Who's Hiring? - Support Edition - Q3 2026
      [news] Espionage Against the European Parliament: Member of Committ
-     [news] Arbitrary code execution breaking sandboxes in KDE Plasma
-     [chatter] Majority.wtf · guess yesterday's most common answer to a que
-     [ad] On99 – a no-signup Hong Kong Mark Six checker and stats expl
+     [news] Oracle Quietly Halves Free Tier Ampere A1 Compute Limits wit
+     [news] SwiftUI Adds New Document Protocol, Improves Performance, an
 
   🧠 工具信号样例:
      [置信度35%] chrome-devtools-mcp
@@ -99,30 +99,29 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度20%] allcontributors
        ↳ 输入→输出链式: [('allcontributors', 'to', '', '', '', '')]
      [置信度15%] What does the "yield" keyword do in Python?
-       ↳ 
+       ↳ 技术概念: ['Python']
+  
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 15 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 356 条
-     🚫 闲聊拦截: 11 条 (3.1%)
-     🧠 工具信号: 185 条 (52.0%)
+     原始抓取: 355 条
+     🚫 闲聊拦截: 9 条 (2.5%)
+     🧠 工具信号: 180 条 (50.7%)
      闲聊样例: 盒马会员性价比很低，没什么优惠... [ad]
      工具信号样例: chrome-devtools-mcp... [置信度35%]
 
   📊 硬核过滤器统计:
-     工具信号 185 → 有效 41
+     工具信号 180 → 有效 40
      拒绝率: 77.8%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 15 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
-     [WARN  |  +44] Crypto Price Tracker  [?]
-     [PASS  |  +65] Tracker Tool  [?]
+  ✅ 通过 (12):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
@@ -152,8 +151,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-04T10:58:09.063108+00:00
+📊 Demand report loaded: 15 suggestions
+   Generated at: 2026-07-04T13:50:55.612876+00:00
    Already in catalog: 123 tools
    Previously produced: 0 tools
    Existing tool pages: 34 files
@@ -304,7 +303,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-04T10:58:08.927963+00:00 → 2026-07-04T10:58:21.310068+00:00
+  ⏱  耗时: 2026-07-04T13:50:55.453805+00:00 → 2026-07-04T13:51:08.980712+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
