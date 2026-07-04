@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T10:58:09.063108+00:00",
+  "generated_at": "2026-07-04T12:51:43.529489+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -104,50 +104,50 @@
     "v2ex": [
       "暗色模式到底是怎么流行起来的？？",
       "Claude 账号被封风险检测工具",
-      "因为帮朋友代充了 ChatGPT Plus，我的 Apple ID 不干净了",
       "问大佬们个问题， App 只要接了手机验证码就需要办理等保二级？",
       "智普 coding plan 抢不到，有没有什么方法啊...",
       "完了，到 2031 年，内存可能都不会降价。",
-      "你希望别人拥有的人生体验",
-      "v2 不是喜欢推荐高考生选计算机专业吗？",
       "你喜欢注释丰富， Commit Message 详尽，还是反之？",
-      "盒马会员性价比很低，没什么优惠"
+      "盒马会员性价比很低，没什么优惠",
+      "专科毕业 3 年还在频繁换工作，正常节奏应该是什么样？",
+      "阿里的产品真的挺有意思的，不开麦克风权限不给用键盘打字",
+      "如何最大化使用 codex 的额度？"
     ],
     "devto": [
       "DEV Community: programming",
-      "Python Data Pipeline Automation: Build ETL Workflows That Scale",
-      "Best Interior Design Near Me: A Practical Guide to Choosing the Right Interior Designer for Your Dream Home",
-      "Build a Real-Time Crypto Portfolio Tracker in Python",
-      "First Time Dog Owner Advice for a Happy, Healthy Best Friend",
-      "Where can I get reliable help with an assignment writing?",
-      "Download Eko and the Bewitched Lands NSP Full Game Latest 2026",
-      "How to Design a Config-Driven Frontend Architecture for Enterprise Applications",
-      "React useState Functional Update Kya Hai",
-      "Code healing AI",
-      "What Is TypeScript? Why Every JavaScript Developer Should Learn It in 2026",
-      "Breez Polo Reserve – The Ideal Destination for Contemporary Residential Living",
-      "Common beginner mistakes in Python (and how to fix them)"
+      "React me Multiple useState kaise Manage Karein",
+      "Download TAURONOS NSP Full Game Latest 2026",
+      "Data structures your CS degree kind of glossed over",
+      "Aimersoft Video Suite 12.0.1.6 for macOS – Complete Video Converter, Editor, DVD &amp; Media Toolkit",
+      "Why Are Businesses Switching to WhatsApp Business API for Customer Communication?",
+      "Creating a Simple Chatbot with Python and the Rasa Framework: A Beginner's Guide to Building Conversational AI Interfaces",
+      "دورة شاملة لتعلم أساسيات لغة برمجة بايثون وتطبيقاتها في مجال الأمن السيبراني",
+      "Meet injectAsync(): How injectAsync() in Angular 22 Can Shrink Your Initial Bundle Without Changing Your Architecture — Here's NG 22 (Part 3)",
+      "Download One Lonely Outpost NSP Full Game Latest 2026",
+      "Badland Party 2.0.0 for Mac – Download the Ultimate Multiplayer Adventure Game",
+      "Getting Started with Cybersecurity: A Beginner's Guide to Installing and Configuring Ubuntu as a Penetration Testing Platform with Kali Linux Tools",
+      "iFinance 4.5.23 for macOS – Complete Personal Finance &amp; Budget Management Software"
     ],
     "lobsters": [
       "Fourteener Lobsters",
       "Why implementing ActivityPub is hard, and why it doesn't have to be",
       "Magit 4.6 released",
       "I Don't Maintain My Homelab",
-      "My favorite keyboards",
-      "Why don't people use git properly?",
-      "Clickhouse is winning the Observability Wars",
-      "Goodbye, forever, probably",
       "What should a personal website be?",
+      "Why don't people use git properly?",
+      "My favorite keyboards",
+      "Goodbye, forever, probably",
+      "Clickhouse is winning the Observability Wars",
       "Suffix BWT vs cyclic shift BWT, and fast computation",
-      "Synthesis is harder than analysis",
-      "crustc: Entirety of rustc, translated to C",
       "Very Average Prototypes",
-      "A [non-hybrid tls-mlkem] standard by any other name: How IETF evades responsibility for its actions",
+      "Synthesis is harder than analysis",
+      "Developer Verification – LineageOS",
+      "Reducing Assumptions, Exploding Your Code",
+      "crustc: Entirety of rustc, translated to C",
+      "FreeBSD ate my ram",
       "Espionage Against the European Parliament: Member of Committee Investigating Spyware Hacked with Pegasus",
       "Agentic coding notes from Galapogos Island",
-      "Arbitrary code execution breaking sandboxes in KDE Plasma",
-      "Diving into the depths of Widevine L3",
-      "What are you doing this weekend?",
+      "A [non-hybrid tls-mlkem] standard by any other name: How IETF evades responsibility for its actions",
       "Rust - Handling Results In A Map Closure"
     ],
     "producthunt": [
@@ -173,33 +173,45 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Costco is the anti-Amazon 🔥416pts 💬387",
-      "Jamesob's guide to running SOTA LLMs locally 🔥352pts 💬155",
-      "The bottleneck might be the air in the room 🔥285pts 💬171",
-      "Performance per dollar is getting faster and cheaper 🔥256pts 💬90",
-      "Factories are just rooms 🔥251pts 💬105",
-      "Leanstral 1.5: Proof abundance for all 🔥245pts 💬72",
-      "SearXNG: A free internet metasearch engine 🔥220pts 💬59",
-      "Hunting a 16-year-old SQLite WAL bug with TLA+ 🔥218pts 💬25",
-      "Giant trees have no trouble pumping water to top branches: new research 🔥209pts 💬96",
-      "Odin, Wikipedia and engagement farming 🔥158pts 💬211",
-      "FreeBSD ate my RAM 🔥145pts 💬49",
-      "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV 🔥144pts 💬30",
-      "Applied Category Theory Course (2018) 🔥114pts 💬9",
-      "Maybe you should learn something 🔥112pts 💬39",
-      "New serious vulnerabilities spiked around release of Claude Mythos Preview 🔥112pts 💬35",
-      "Agentic coding notes from Galapagos Island 🔥99pts 💬43",
-      "Synthesis is harder than analysis 🔥98pts 💬22",
-      "The firefighting system of the Van der Heyden brothers in 17th century Amsterdam 🔥98pts 💬17",
-      "MSI Center – How to gain SYSTEM privileges in seconds 🔥95pts 💬28",
-      "Soatok's Informal Guide to Threat Models 🔥94pts 💬12",
-      "Mir Books – Books from the Soviet Era 🔥91pts 💬30",
-      "David Beazley – Programming Courses 🔥88pts 💬26",
-      "Gone but Not Forgotten: Recovering the Dead Web 🔥70pts 💬22",
-      "Postgres data stored in Parquet on S3: LTAP architecture explained",
-      "Astrophysicists Puzzle over Webb's New Universe"
+      "Costco is the anti-Amazon 🔥433pts 💬400",
+      "The bottleneck might be the air in the room 🔥430pts 💬259",
+      "Jamesob's guide to running SOTA LLMs locally 🔥364pts 💬166",
+      "Leanstral 1.5: Proof abundance for all 🔥271pts 💬80",
+      "Performance per dollar is getting faster and cheaper 🔥270pts 💬100",
+      "Factories are just rooms 🔥255pts 💬107",
+      "SearXNG: A free internet metasearch engine 🔥232pts 💬63",
+      "Giant trees have no trouble pumping water to top branches: new research 🔥220pts 💬102",
+      "Hunting a 16-year-old SQLite WAL bug with TLA+ 🔥220pts 💬27",
+      "Odin, Wikipedia and engagement farming 🔥175pts 💬231",
+      "Maybe you should learn something 🔥168pts 💬68",
+      "FreeBSD ate my RAM 🔥157pts 💬61",
+      "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV 🔥153pts 💬34",
+      "Applied Category Theory Course (2018) 🔥125pts 💬11",
+      "New serious vulnerabilities spiked around release of Claude Mythos Preview 🔥121pts 💬50",
+      "Agentic coding notes from Galapagos Island 🔥119pts 💬59",
+      "David Beazley – Programming Courses 🔥111pts 💬30",
+      "The firefighting system of the Van der Heyden brothers in 17th century Amsterdam 🔥107pts 💬19",
+      "Mir Books – Books from the Soviet Era 🔥106pts 💬46",
+      "MSI Center – How to gain SYSTEM privileges in seconds 🔥105pts 💬40",
+      "Synthesis is harder than analysis 🔥105pts 💬23",
+      "Soatok's Informal Guide to Threat Models 🔥104pts 💬25",
+      "Gone but Not Forgotten: Recovering the Dead Web 🔥80pts 💬27",
+      "Postgres data stored in Parquet on S3: LTAP architecture explained 🔥56pts 💬18",
+      "Astrophysicists Puzzle over Webb's New Universe 🔥55pts 💬17"
     ],
     "hn_show": [
+      "A 'what you see is what you get' HTML editor for Mac — featured on Hacker News (🔥1pts)",
+      "Foundation, a different approach to software and AI — featured on Hacker News (🔥1pts)",
+      "Groot – Kubernetes incident evidence in one .tar.gz — featured on Hacker News (🔥1pts)",
+      "Rethinking Anti-Cheat: Can Trust Be Distributed? — featured on Hacker News (🔥2pts)",
+      "I built a tool to audit error density and modern PC optimization — featured on Hacker News (🔥1pts)",
+      "Sandbox-proxy – A forward proxy that injects credentials to sandboxes — featured on Hacker News (🔥2pts)",
+      "Tokdash – a local dashboard for AI token and quota tracking — featured on Hacker News (🔥1pts)",
+      "A free, no-ad, no-account, no-server iOS calorie budgeting/diet app — featured on Hacker News (🔥3pts)",
+      "ProxyBoy. A Windows HTTP/HTTPS debugging proxy with an AI assistant — featured on Hacker News (🔥1pts)",
+      "FluxDown – Free, open-source IDM alternative in Rust and Flutter — featured on Hacker News (🔥1pts)",
+      "Visual Knowledge Canvas for Learners — featured on Hacker News (🔥3pts)",
+      "An AI that brutally rates your cat, and 18 games where your cat plays — featured on Hacker News (🔥1pts)",
       "AI Coloring Page Generator for printable classroom worksheets — featured on Hacker News (🔥1pts)",
       "AI Video Detector – check whether a video may be AI-generated — featured on Hacker News (🔥1pts)",
       "AssistantAI – Real-Time Conversation Hints and Screenshot Analysis — featured on Hacker News (🔥1pts)",
@@ -207,18 +219,7 @@
       "An MCP server that gives your AI assistant write access to /etc./hosts — featured on Hacker News (🔥2pts)",
       "ASMLings – Rustlings-style exercises for Intel 8086 assembly — featured on Hacker News (🔥2pts)",
       "Majority.wtf · guess yesterday's most common answer to a question — featured on Hacker News (🔥1pts)",
-      "Psycurate – Curated place for privacy-first, free psychological tools — featured on Hacker News (🔥1pts)",
-      "Quizzyly – A Chrome Extension to Get Quiz from Current Webpage — featured on Hacker News (🔥1pts)",
-      "Self hosted excalidraw workspace with storage — featured on Hacker News (🔥1pts)",
-      "A Simple Containerized Browser — featured on Hacker News (🔥1pts)",
-      "Autosynth – generating synthetic data with strong/weak model filtering — featured on Hacker News (🔥1pts)",
-      "Forge – A JavaScript runtime built on Mozilla SpiderMonkey — featured on Hacker News (🔥4pts)",
-      "WhosBuilt terminal lookup for who built a website — featured on Hacker News (🔥2pts)",
-      "I built LibreYOLO, an MIT-licensed YOLO library — featured on Hacker News (🔥2pts)",
-      "Impasto – baker's percentages, poolish timing, DDT math for pizza nerds — featured on Hacker News (🔥1pts)",
-      "Windows Auto Profiles – WinGet wrapper that adds app profiles — featured on Hacker News (🔥1pts)",
-      "FlipFlow FlipFlow turns PDF, Word, and images into flipbooks — featured on Hacker News (🔥1pts)",
-      "On99 – a no-signup Hong Kong Mark Six checker and stats explorer — featured on Hacker News (🔥1pts)"
+      "Psycurate – Curated place for privacy-first, free psychological tools — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "A fleshed-out IPv5 proposal — user asking for tool recommendation (🔥4pts)",
@@ -247,10 +248,10 @@
       "Show HN: Track Token usage for major platforms,know your token flow — user asking for tool recommendation (🔥4pts)",
       "Show HN: I ran 400 hours of interviews, so I built the tool I wished existed — user asking for tool recommendation (🔥2pts)",
       "Show HN: Make your terminal pulse orange when Claude Code needs input — user asking for tool recommendation (🔥3pts)",
+      "P2P out the box alternative to Ngrok/Cloudflare using Iroh — user asking for tool recommendation (🔥1pts)",
+      "Olive – Lisp VSCode Extension (Alternative to Alive) — user asking for tool recommendation (🔥2pts)",
       "Show HN: LimitBar, a macOS menu bar app showing your Claude usage limits — user asking for tool recommendation (🔥2pts)",
-      "Feedback about a Visualping alternative using AI to monitor websites — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Quick anonymous text and file sharing over the internet — user asking for tool recommendation (🔥1pts)",
-      "Show HN: I revived a 128MB RAM NAS by building my own control panel — user asking for tool recommendation (🔥1pts)"
+      "Feedback about a Visualping alternative using AI to monitor websites — user asking for tool recommendation (🔥1pts)"
     ],
     "hackernoon": [
       "62 Blog Posts To Learn About Social Engineering",
@@ -291,60 +292,59 @@
       "HeroUI v3 Lands as a Ground-Up Rewrite for React and React Native, Built on Tailwind CSS v4 <img src=\"https://res.infoq.com/news/2026/07/heroui-v3-rewrite/en/headerimage/generatedHeaderImage-1782890990794.jpg\"/><p>HeroUI v3 is a redesigned Re"
     ],
     "google_trends": [
-      "lena dunham",
-      "catherine, princess of wales",
-      "alex de minaur",
-      "matthew mcconaughey",
-      "marta kostyuk",
-      "peachtree road race 2026",
-      "space x",
-      "russia news",
-      "motorcycle accident attorney",
-      "cloud"
+      "british royal family",
+      "country music",
+      "al roker",
+      "michael strahan",
+      "ashlyn krueger",
+      "barbora krejčíková",
+      "bmw international open",
+      "british grand prix",
+      "is sam's club open on the 4th of july",
+      "wordle help"
     ],
     "baidu": [
-      "总书记深情寄望青年",
+      "庆祝中国共产党成立105周年大会侧记",
+      "佛得角再次感谢中国：帮我们圆梦",
       "佛得角很多球员在更衣室哭了",
-      "佛得角主帅：没多少球队能进阿根廷2球",
-      "未来5年 城市、乡村、河湖要更美丽",
-      "7-11起诉耐克：新鞋配色涉嫌抄袭",
-      "佛得角计划对阵中国男足",
-      "人民日报：佛得角已经创造了历史",
-      "被LV起诉索赔200万 餐吧老板发声",
-      "张雪透露目前负债接近1亿",
-      "佛得角小球迷哭成泪人门将摸头安慰",
-      "云南大理1小时发生3次四级以上地震",
-      "宁夏辟谣“硒砂瓜滞销烂市”",
-      "到底是谁在替699分女孩“不配”",
-      "三亚一社区发生海水倒灌 街巷被淹",
-      "阿根廷队发文致敬佛得角",
+      "中小学生暑期安全提示请收好",
+      "13年前收礼被偷拍的县长被查",
       "电子屏显示旅客如厕时长 旅客：尴尬",
+      "心梗老人看牙被全口拔光 余额被刷光",
+      "王力宏演唱会摔倒 面部出血",
+      "人民日报：佛得角已经创造了历史",
+      "伊朗民众泪别哈梅内伊",
+      "霉霉婚礼后纽约天空变粉",
+      "宁夏辟谣“硒砂瓜滞销烂市”",
       "情侣酒后入住酒店 女子翻窗坠亡",
       "LV在中国密集发起商标诉讼",
-      "王楚钦孙颖莎混双决赛不敌韩国组合",
-      "不到50元的“次抛衣”热销"
+      "张雪透露目前负债接近1亿",
+      "不到50元的“次抛衣”热销",
+      "男子酒足饭饱后脑干出血被送进ICU",
+      "佛得角计划对阵中国男足",
+      "女孩摸自行车把手遭掌掴 家属发声",
+      "网传的哈兰德食谱普通人能照搬吗"
     ],
     "wikipedia": [
-      "List of Swiss records in athletics",
-      "Château Soubiran",
-      "Radhia Cousot",
-      "Julian House",
-      "Liquour",
-      "Farès Ferjani",
-      "List of The Railway Series and Thomas & Friends characters",
-      "Trabzonspor B.K.",
-      "Allan Feldt",
-      "2026 Jeonbuk Hyundai Motors season",
-      "Nvidia DGX",
-      "Department of Home, Prohibition and Excise",
-      "United States Semiquincentennial",
-      "Mongolian People's Party",
-      "West Creek Lake",
-      "2026 Écône consecrations",
-      "Royal Academy Exhibition of 1797",
-      "Sabich",
-      "Are You Washed in the Blood?",
-      "Pensando En Ti"
+      "Shakti (2010 film)",
+      "Claude Sterckx",
+      "Walter Krueger",
+      "Chornyy Lis Republic",
+      "Power Barons",
+      "Northamptonshire Senior Cup",
+      "Sita Ramam",
+      "Mon (emblem)",
+      "Pritam and Pedro",
+      "Marvin Berglas",
+      "2026 WTA Finals",
+      "Ultimate Fighting Championship",
+      "Google Street View",
+      "12th (Service) Battalion, South Wales Borderers (3rd Gwent)",
+      "Cricket at the 2028 Summer Olympics",
+      "Enyellé",
+      "Temitope Adedeji Adewale",
+      "Anupam Biswas",
+      "Katherine Grafton Miller"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -429,54 +429,33 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
+      "github trending topic: javascript",
+      "github trending topic: docker",
+      "github trending topic: react native",
+      "github trending topic: chrome",
+      "github trending topic: npm",
+      "github trending topic: security",
+      "github trending topic: awesome lists",
+      "github trending topic: scala",
+      "github trending topic: database",
+      "github trending topic: rust",
+      "github trending topic: css",
+      "github trending topic: python",
+      "github trending topic: sqlite",
       "github trending topic: llm",
       "github trending topic: react",
-      "github trending topic: gemini",
-      "github trending topic: gpt",
-      "github trending topic: react native",
-      "github trending topic: npm",
-      "github trending topic: low-cost-api",
-      "github trending topic: typescript",
-      "github trending topic: qwen",
-      "github trending topic: front end",
-      "github trending topic: scala",
-      "github trending topic: llama",
       "github trending topic: project management",
-      "github trending topic: mistral",
-      "github trending topic: chrome",
-      "github trending topic: node.js",
-      "github trending topic: database",
-      "github trending topic: code quality",
       "github trending topic: compiler",
-      "github trending topic: javascript",
-      "github trending topic: css",
-      "github trending topic: claude",
-      "github trending topic: openai-api",
-      "github trending topic: awesome lists",
-      "github trending topic: python"
+      "github trending topic: code quality",
+      "github trending topic: machine-learning",
+      "github trending topic: front end",
+      "github trending topic: typescript",
+      "github trending topic: node.js"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
-    {
-      "keyword": "Build a Real-Time Crypto Portfolio Tracker in Python",
-      "matched": "crypto",
-      "category": "finance",
-      "subcat": "crypto",
-      "type": "tool",
-      "name": "Crypto Price Tracker",
-      "name_zh": "加密货币行情追踪"
-    },
-    {
-      "keyword": "Build a Real-Time Crypto Portfolio Tracker in Python",
-      "matched": "track",
-      "category": "productivity",
-      "subcat": "tracking",
-      "type": "tool",
-      "name": "Tracker Tool",
-      "name_zh": "追踪工具"
-    },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
@@ -617,8 +596,6 @@
     "chrome-devtools-mcp",
     "Claude 账号被封风险检测工具",
     "问大佬们个问题， App 只要接了手机验证码就需要办理等保二级？",
-    "v2 不是喜欢推荐高考生选计算机专业吗？",
-    "Build a Real-Time Crypto Portfolio Tracker in Python",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -657,10 +634,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 185,
-    "valid_count": 41,
+    "raw_count": 183,
+    "valid_count": 39,
     "rejected_count": 144,
-    "rejection_rate": 77.8,
+    "rejection_rate": 78.7,
     "rejected_samples": [
       "allcontributors",
       "What does the \"yield\" keyword do in Python?",
@@ -670,22 +647,29 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "因为帮朋友代充了 ChatGPT Plus，我的 Apple ID 不干净了",
-      "Python Data Pipeline Automation: Build ETL Workflows That Scale"
+      "React me Multiple useState kaise Manage Karein",
+      "Aimersoft Video Suite 12.0.1.6 for macOS – Complete Video Converter, Editor, DVD &amp; Media Toolkit"
     ]
   },
   "trait_analysis": {
-    "total_captured": 356,
-    "chatter_blocked": 11,
-    "chatter_rate": 3.1,
-    "tool_signals_found": 185,
-    "tool_signal_rate": 52.0,
+    "total_captured": 353,
+    "chatter_blocked": 10,
+    "chatter_rate": 2.8,
+    "tool_signals_found": 183,
+    "tool_signal_rate": 51.8,
     "chatter_samples": [
       {
         "text": "盒马会员性价比很低，没什么优惠",
         "category": "ad",
         "matched": [
           "优惠"
+        ]
+      },
+      {
+        "text": "Badland Party 2.0.0 for Mac – Download the Ultimate Multiplayer Adventure Game",
+        "category": "chatter",
+        "matched": [
+          "vent"
         ]
       },
       {
@@ -699,27 +683,10 @@
         ]
       },
       {
-        "text": "Arbitrary code execution breaking sandboxes in KDE Plasma",
-        "category": "news",
-        "matched": [
-          [
-            "breaking",
-            ""
-          ]
-        ]
-      },
-      {
         "text": "Majority.wtf · guess yesterday's most common answer to a question — featured on ",
         "category": "chatter",
         "matched": [
           "wtf"
-        ]
-      },
-      {
-        "text": "On99 – a no-signup Hong Kong Mark Six checker and stats explorer — featured on H",
-        "category": "ad",
-        "matched": [
-          "signup"
         ]
       },
       {
@@ -750,17 +717,24 @@
         ]
       },
       {
-        "text": "被LV起诉索赔200万 餐吧老板发声",
-        "category": "chatter",
+        "text": "country music",
+        "category": "entertainment",
         "matched": [
-          "老板"
+          "music"
         ]
       },
       {
-        "text": "2026 Jeonbuk Hyundai Motors season",
+        "text": "Shakti (2010 film)",
         "category": "entertainment",
         "matched": [
-          "season"
+          "film"
+        ]
+      },
+      {
+        "text": "granturismo — npm package: generator tool",
+        "category": "chatter",
+        "matched": [
+          "rant"
         ]
       }
     ],
@@ -842,13 +816,6 @@
         ]
       },
       {
-        "text": "因为帮朋友代充了 ChatGPT Plus，我的 Apple ID 不干净了",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['ChatGPT']"
-        ]
-      },
-      {
         "text": "问大佬们个问题， App 只要接了手机验证码就需要办理等保二级？",
         "confidence": 30,
         "features": [
@@ -856,26 +823,35 @@
         ]
       },
       {
-        "text": "v2 不是喜欢推荐高考生选计算机专业吗？",
-        "confidence": 30,
+        "text": "React me Multiple useState kaise Manage Karein",
+        "confidence": 15,
         "features": [
-          "中文动作特征: ['计算']"
+          "技术概念: ['React']"
         ]
       },
       {
-        "text": "Python Data Pipeline Automation: Build ETL Workflows That Scale",
+        "text": "Aimersoft Video Suite 12.0.1.6 for macOS – Complete Video Converter, Editor, DVD &amp; Media Toolkit",
         "confidence": 60,
         "features": [
-          "英文动作特征: ['Automation']",
-          "输入→输出链式: [('Automation', 'to', '', '', '', '')]",
-          "技术概念: ['Python']"
+          "英文动作特征: ['Converter', 'Editor']",
+          "输入→输出链式: [('Editor', 'to', '', '', '', ''), ('Media Toolkit', 'To', '', '', '', '')]",
+          "英文工具名词: ['converter', 'editor', 'tool']"
         ]
       },
       {
-        "text": "Best Interior Design Near Me: A Practical Guide to Choosing the Right Interior Designer for Your Dre",
-        "confidence": 20,
+        "text": "Why Are Businesses Switching to WhatsApp Business API for Customer Communication?",
+        "confidence": 35,
         "features": [
-          "输入→输出链式: [('Guide to Choosing', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Switching to WhatsApp', 'to', '', '', '', ''), ('Customer', 'to', '', '', '', '')]",
+          "技术概念: ['API']"
+        ]
+      },
+      {
+        "text": "Creating a Simple Chatbot with Python and the Rasa Framework: A Beginner's Guide to Building Convers",
+        "confidence": 35,
+        "features": [
+          "输入→输出链式: [('Guide to Building', 'to', '', '', '', '')]",
+          "技术概念: ['Python']"
         ]
       }
     ]
