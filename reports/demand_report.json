@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T15:51:26.580888+00:00",
+  "generated_at": "2026-07-04T16:10:12.469096+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -108,13 +108,15 @@
       "智普 coding plan 抢不到，有没有什么方法啊...",
       "完了，到 2031 年，内存可能都不会降价。",
       "省到就是赚到？",
-      "阿里的产品真的挺有意思的，不开麦克风权限不给用键盘打字",
       "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
       "你喜欢注释丰富， Commit Message 详尽，还是反之？",
+      "阿里的产品真的挺有意思的，不开麦克风权限不给用键盘打字",
       "盒马会员性价比很低，没什么优惠"
     ],
     "devto": [
       "DEV Community: programming",
+      "Structuring a Senior Data Scientist Resume After a Chinese SOE Tenure",
+      "Getting Started with Linux Security: A Beginner's Guide to Hardening Ubuntu Server with UFW and Fail2Ban Configuration",
       "إنشاء تطبيق ويب آمن باستخدام بايثون و فلاسك",
       "COMPARISON OPERATOR",
       "The Incident Postmortem Template That Actually Prevents the Next Outage",
@@ -124,31 +126,29 @@
       "Improving my Cross-Distro Package manager made in Rust",
       "How I Use AI to Ship Features Faster Without Getting Messy Code",
       "Why Java Still Matters Today (Even in the Age of New Languages)",
-      "LongCat-2.0 — ทำไมนักพัฒนาทั่วโลกถึงชื่นชมโมเดล AI จากบริษัทส่งอาหารของจีน",
-      "80. Remove Duplicates from Sorted Array II",
-      "JavaScript Roadmap"
+      "LongCat-2.0 — ทำไมนักพัฒนาทั่วโลกถึงชื่นชมโมเดล AI จากบริษัทส่งอาหารของจีน"
     ],
     "lobsters": [
       "Fourteener Lobsters",
       "What should a personal website be?",
       "Magit 4.6 released",
+      "Reducing Assumptions, Exploding Your Code",
       "Why implementing ActivityPub is hard, and why it doesn't have to be",
       "I Don't Maintain My Homelab",
-      "Reducing Assumptions, Exploding Your Code",
       "Why don't people use git properly?",
-      "My favorite keyboards",
       "Who's Hiring? - Support Edition - Q3 2026",
+      "My favorite keyboards",
       "FreeBSD ate my ram",
       "Goodbye, forever, probably",
+      "EndBASIC 0.14: Are we multimedia yet?",
+      "Do Wavy Walls Really Use Fewer Bricks? I Tested It in Blender",
       "Developer Verification – LineageOS",
       "Clickhouse is winning the Observability Wars",
       "Suffix BWT vs cyclic shift BWT, and fast computation",
-      "EndBASIC 0.14: Are we multimedia yet?",
       "Synthesis is harder than analysis",
       "On intent of Code",
       "Rust - Handling Results In A Map Closure",
-      "Very Average Prototypes",
-      "Espionage Against the European Parliament: Member of Committee Investigating Spyware Hacked with Pegasus"
+      "Very Average Prototypes"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -173,34 +173,37 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "The bottleneck might be the air in the room 🔥572pts 💬333",
-      "Costco is the anti-Amazon 🔥484pts 💬448",
-      "Jamesob's guide to running SOTA LLMs locally 🔥379pts 💬171",
-      "Performance per dollar is getting faster and cheaper 🔥308pts 💬124",
-      "Leanstral 1.5: Proof abundance for all 🔥307pts 💬86",
-      "Maybe you should learn something 🔥281pts 💬141",
-      "SearXNG: A free internet metasearch engine 🔥249pts 💬69",
-      "Giant trees have no trouble pumping water to top branches: new research 🔥241pts 💬107",
-      "Odin, Wikipedia and engagement farming 🔥205pts 💬288",
-      "FreeBSD ate my RAM 🔥173pts 💬72",
-      "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV 🔥171pts 💬41",
-      "Agentic coding notes from Galapagos Island 🔥145pts 💬67",
-      "Explanation of everything you can see in htop/top on Linux 🔥142pts 💬18",
-      "New serious vulnerabilities spiked around release of Claude Mythos Preview 🔥139pts 💬60",
-      "Mir Books – Books from the Soviet Era 🔥130pts 💬64",
-      "MSI Center – How to gain SYSTEM privileges in seconds 🔥123pts 💬51",
-      "Synthesis is harder than analysis 🔥123pts 💬30",
-      "Astrophysicists Puzzle over Webb’s New Universe 🔥119pts 💬65",
-      "The firefighting system of the Van der Heyden brothers in 17th century Amsterdam 🔥117pts 💬23",
-      "Potential session/cache leakage between workspace instances or consumer accounts 🔥105pts 💬36",
-      "Postgres data stored in Parquet on S3: LTAP architecture explained 🔥105pts 💬30",
-      "The Vespa at 80: Why the Italian scooter remains the coolest thing on 2 wheels 🔥78pts 💬72",
-      "Night Witches – all-female Soviet aviator regiment WW2",
+      "The bottleneck might be the air in the room 🔥591pts 💬347",
+      "Costco is the anti-Amazon 🔥491pts 💬449",
+      "Jamesob's guide to running SOTA LLMs locally 🔥382pts 💬172",
+      "Leanstral 1.5: Proof abundance for all 🔥311pts 💬87",
+      "Performance per dollar is getting faster and cheaper 🔥310pts 💬126",
+      "Maybe you should learn something 🔥293pts 💬144",
+      "SearXNG: A free internet metasearch engine 🔥250pts 💬69",
+      "Giant trees have no trouble pumping water to top branches: new research 🔥243pts 💬107",
+      "Odin, Wikipedia and engagement farming 🔥212pts 💬299",
+      "FreeBSD ate my RAM 🔥176pts 💬72",
+      "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV 🔥175pts 💬42",
+      "Explanation of everything you can see in htop/top on Linux 🔥162pts 💬22",
+      "Agentic coding notes from Galapagos Island 🔥147pts 💬67",
+      "New serious vulnerabilities spiked around release of Claude Mythos Preview 🔥141pts 💬61",
+      "Mir Books – Books from the Soviet Era 🔥132pts 💬64",
+      "Synthesis is harder than analysis 🔥127pts 💬30",
+      "Astrophysicists Puzzle over Webb’s New Universe 🔥125pts 💬70",
+      "MSI Center – How to gain SYSTEM privileges in seconds 🔥125pts 💬51",
+      "Potential session/cache leakage between workspace instances or consumer accounts 🔥123pts 💬46",
+      "The firefighting system of the Van der Heyden brothers in 17th century Amsterdam 🔥118pts 💬25",
+      "Postgres data stored in Parquet on S3: LTAP architecture explained 🔥112pts 💬34",
+      "The Vespa at 80: Why the Italian scooter remains the coolest thing on 2 wheels 🔥83pts 💬78",
       "2026 Unslop AI-Written Fiction Contest Results",
-      "The Scanline Sweeper: A Glyph Rendering Algorithm [pdf]"
+      "Night Witches – all-female Soviet aviator regiment WW2",
+      "What ORMs have taught me: just learn SQL (2014)"
     ],
     "hn_show": [
-      "SurfSkills – agent skills, each with a video of it working — featured on Hacker News (🔥1pts)",
+      "See a Random American — featured on Hacker News (🔥1pts)",
+      "WyrmRSS - Self-hosted RSS reader with inline YoutTube — featured on Hacker News (🔥1pts)",
+      "Gemma 3 inference in pure C++ with Metal acceleration — featured on Hacker News (🔥1pts)",
+      "SurfSkills – agent skills, each with a video of it working — featured on Hacker News (🔥2pts)",
       "Home Page as a Chatbot — featured on Hacker News (🔥1pts)",
       "World Release Notes – Every country as a software project — featured on Hacker News (🔥1pts)",
       "GREF – Interactive search and replace for terminal and Vim — featured on Hacker News (🔥1pts)",
@@ -216,10 +219,7 @@
       "IchiPitchy – browser-based vocal editor and multitrack mixer — featured on Hacker News (🔥1pts)",
       "Convert Android Motion Photos to Apple Live Photos — featured on Hacker News (🔥1pts)",
       "Owthorize: catch destructive AI-agent tool calls before they run — featured on Hacker News (🔥1pts)",
-      "Open-source no-code back end platform, now with AI flow generation — featured on Hacker News (🔥2pts)",
-      "A 'what you see is what you get' HTML editor for Mac — featured on Hacker News (🔥1pts)",
-      "Groot – Kubernetes incident evidence in one .tar.gz — featured on Hacker News (🔥2pts)",
-      "Rethinking Anti-Cheat: Can Trust Be Distributed? — featured on Hacker News (🔥2pts)"
+      "Open-source no-code back end platform, now with AI flow generation — featured on Hacker News (🔥2pts)"
     ],
     "hn_ask_tools": [
       "A fleshed-out IPv5 proposal — user asking for tool recommendation (🔥4pts)",
@@ -242,7 +242,7 @@
       "Show HN: Wax Spinner, a \"now playing\" social app for vinyl record collectors — user asking for tool recommendation (🔥1pts)",
       "Show HN: A tool to help people in social situations — user asking for tool recommendation (🔥3pts)",
       "Show HN: An MCP server that gives your AI assistant write access to /etc./hosts — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Local privacy-first Microsoft Recall alternative with Gemma 4 — user asking for tool recommendation (🔥10pts)",
+      "Show HN: Local privacy-first Microsoft Recall alternative with Gemma 4 — user asking for tool recommendation (🔥11pts)",
       "Show HN: StayThere.ai - Book directly at over 96k short term rentals — user asking for tool recommendation (🔥3pts)",
       "Cadreen – memory, governance, self-healing, and execution as one system — user asking for tool recommendation (🔥5pts)",
       "Show HN: Track Token usage for major platforms,know your token flow — user asking for tool recommendation (🔥4pts)",
@@ -292,60 +292,60 @@
       "HeroUI v3 Lands as a Ground-Up Rewrite for React and React Native, Built on Tailwind CSS v4 <img src=\"https://res.infoq.com/news/2026/07/heroui-v3-rewrite/en/headerimage/generatedHeaderImage-1782890990794.jpg\"/><p>HeroUI v3 is a redesigned Re"
     ],
     "google_trends": [
-      "madison keys",
+      "lost",
+      "andrew giuliani",
+      "caroline wozniacki",
+      "malia obama",
+      "fireworks nyc",
+      "amanda anisimova",
       "alexander zverev",
       "jasmine paolini",
-      "july 4th fireworks near me",
       "usa vs england",
-      "world cup top 16",
-      "tennis scores",
-      "jones beach air show",
-      "bristol 4th of july parade",
-      "fbi"
+      "july 4th fireworks near me"
     ],
     "baidu": [
       "庆祝中国共产党成立105周年大会侧记",
       "中国7舰横穿日本4大要道",
       "世界杯17至32位排名：佛得角第32名",
       "中小学生暑期安全提示请收好",
-      "到底是谁取消了有线耳机",
+      "辽宁抚顺特大暴雨致3人死亡",
       "王力宏演唱会摔倒 面部出血",
       "世界杯：加拿大vs摩洛哥",
-      "多省献血量还在降 血站寻找下一袋血",
+      "教育机构员工泄愤删考生志愿致落榜",
+      "街头大叔：不装了 佛得角门将是我儿子",
       "日本首次公布跟踪中国航母视频",
-      "霉霉婚礼后纽约天空变粉",
       "十万余元的手镯直接“砍”到399元",
       "宁夏辟谣“硒砂瓜滞销烂市”",
       "女子确诊肺癌晚期在地铁上介绍自己",
-      "没戏拍的短剧演员在横店卖凉皮",
+      "到底是谁取消了有线耳机",
+      "霉霉婚礼后纽约天空变粉",
       "女孩摸自行车把手遭掌掴 家属发声",
-      "曝赛琳娜是霉霉婚礼唯一能带手机者",
-      "佛得角再次感谢中国：帮我们圆梦",
+      "没戏拍的短剧演员在横店卖凉皮",
       "世界杯1/8决赛观赛指南",
       "不到50元的“次抛衣”热销",
       "巴拉圭总统因迷信不敢现场看世界杯"
     ],
     "wikipedia": [
-      "Sinfest",
-      "2026 Astrakhan Oblast legislative election",
-      "Basella alba",
-      "Gabe Okoye",
-      "Mother's Finest (album)",
-      "Thakin Ba Hein",
-      "Signal (disambiguation)",
-      "Jevon Kearse",
-      "2026 Broxbourne Borough Council election",
-      "Anna Rajan",
-      "Pilar Pallete",
-      "Gauteng and Environs Library Consortium",
-      "RK Slovenj Gradec 2011",
-      "23rd/21st Battalion (Australia)",
-      "Rewind Racers",
-      "John Oliver",
-      "Unite the Union",
-      "William Tebeau",
-      "Wei-Wen Yu",
-      "1996 Gangneung submarine infiltration incident"
+      "Anson Brown Building",
+      "Campagnone Common",
+      "Timeline of the American Revolution",
+      "Warner Premiere",
+      "Primorsky Boulevard (1988 television miniseries)",
+      "Robin Byrd",
+      "403 Flying Training School (FTS), Kano",
+      "Campa de los Ingleses Park",
+      "Battle of Tonlé Sap",
+      "USAV SP4 James A. Loux",
+      "Chief Yowlachie",
+      "Doris Fuchs (scientist)",
+      "Hecho en México (Alejandro Fernández album)",
+      "Camp Pathfinder",
+      "Ben Ames Williams",
+      "1994 Asian Junior Women's Volleyball Championship",
+      "Adela Paulina Baltoi",
+      "Tomáš Jurčo",
+      "Alan Napier",
+      "Thorburn Brailsford Robertson"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -430,31 +430,28 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: project management",
-      "github trending topic: tg-fix",
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: python",
-      "github trending topic: css",
-      "github trending topic: compiler",
-      "github trending topic: coursework",
-      "github trending topic: database",
-      "github trending topic: chrome",
-      "github trending topic: node.js",
       "github trending topic: npm",
-      "github trending topic: javascript",
-      "github trending topic: front end",
-      "github trending topic: typescript",
-      "github trending topic: tg-proxy",
-      "github trending topic: gaming",
-      "github trending topic: react",
-      "github trending topic: software",
-      "github trending topic: scala",
-      "github trending topic: hhu",
-      "github trending topic: windows",
-      "github trending topic: code quality",
-      "github trending topic: awesome lists",
       "github trending topic: llm",
-      "github trending topic: react native"
+      "github trending topic: database",
+      "github trending topic: javascript",
+      "github trending topic: project management",
+      "github trending topic: scala",
+      "github trending topic: react native",
+      "github trending topic: express",
+      "github trending topic: nodejs",
+      "github trending topic: node.js",
+      "github trending topic: tg-fix",
+      "github trending topic: awesome lists",
+      "github trending topic: tg-ws-proxy",
+      "github trending topic: chrome",
+      "github trending topic: tg-proxy",
+      "github trending topic: react",
+      "github trending topic: front end",
+      "github trending topic: python",
+      "github trending topic: compiler",
+      "github trending topic: code quality",
+      "github trending topic: typescript",
+      "github trending topic: css"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -522,24 +519,6 @@
       "type": "tool",
       "name": "Unit Converter",
       "name_zh": "单位换算"
-    },
-    {
-      "keyword": "The Scanline Sweeper: A Glyph Rendering Algorithm [pdf]",
-      "matched": "pdf",
-      "category": "productivity",
-      "subcat": "office",
-      "type": "tool",
-      "name": "PDF Editor",
-      "name_zh": "PDF编辑器"
-    },
-    {
-      "keyword": "The Scanline Sweeper: A Glyph Rendering Algorithm [pdf]",
-      "matched": "render",
-      "category": "media",
-      "subcat": "graphics",
-      "type": "tool",
-      "name": "Renderer",
-      "name_zh": "渲染器"
     },
     {
       "keyword": "tgt — npm package: tpl generator tool",
@@ -639,7 +618,6 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "The Scanline Sweeper: A Glyph Rendering Algorithm [pdf]",
     "A fleshed-out IPv5 proposal — user asking for tool recommendation (🔥4pts)",
     "Return of RSS Feeds — user asking for tool recommendation (🔥3pts)",
     "electra-base-discriminator",
@@ -659,10 +637,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 181,
-    "valid_count": 42,
-    "rejected_count": 139,
-    "rejection_rate": 76.8,
+    "raw_count": 176,
+    "valid_count": 41,
+    "rejected_count": 135,
+    "rejection_rate": 76.7,
     "rejected_samples": [
       "allcontributors",
       "What does the \"yield\" keyword do in Python?",
@@ -673,15 +651,15 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
-      "COMPARISON OPERATOR"
+      "Getting Started with Linux Security: A Beginner's Guide to Hardening Ubuntu Server with UFW and Fail2Ban Configuration"
     ]
   },
   "trait_analysis": {
-    "total_captured": 357,
-    "chatter_blocked": 13,
-    "chatter_rate": 3.6,
-    "tool_signals_found": 181,
-    "tool_signal_rate": 50.7,
+    "total_captured": 354,
+    "chatter_blocked": 12,
+    "chatter_rate": 3.4,
+    "tool_signals_found": 176,
+    "tool_signal_rate": 49.7,
     "chatter_samples": [
       {
         "text": "盒马会员性价比很低，没什么优惠",
@@ -715,16 +693,6 @@
         ]
       },
       {
-        "text": "Espionage Against the European Parliament: Member of Committee Investigating Spy",
-        "category": "news",
-        "matched": [
-          [
-            "Parliament",
-            ""
-          ]
-        ]
-      },
-      {
         "text": "Oracle Quietly Halves Free Tier Ampere A1 Compute Limits with No Public Announce",
         "category": "news",
         "matched": [
@@ -752,6 +720,13 @@
         ]
       },
       {
+        "text": "amanda anisimova",
+        "category": "chatter",
+        "matched": [
+          "imo"
+        ]
+      },
+      {
         "text": "世界杯：加拿大vs摩洛哥",
         "category": "entertainment",
         "matched": [
@@ -759,13 +734,10 @@
         ]
       },
       {
-        "text": "2026 Astrakhan Oblast legislative election",
-        "category": "news",
+        "text": "Primorsky Boulevard (1988 television miniseries)",
+        "category": "chatter",
         "matched": [
-          [
-            "election",
-            ""
-          ]
+          "imo"
         ]
       }
     ],
@@ -861,6 +833,13 @@
         ]
       },
       {
+        "text": "Getting Started with Linux Security: A Beginner's Guide to Hardening Ubuntu Server with UFW and Fail",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Guide to Hardening', 'to', '', '', '', '')]"
+        ]
+      },
+      {
         "text": "COMPARISON OPERATOR",
         "confidence": 20,
         "features": [
@@ -872,13 +851,6 @@
         "confidence": 20,
         "features": [
           "输入→输出链式: [('lying to you', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "Improving my Cross-Distro Package manager made in Rust",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['Rust']"
         ]
       }
     ]

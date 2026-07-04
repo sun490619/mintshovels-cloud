@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-04T13:50:55.453805+00:00     ║
+║       启动时间: 2026-07-04T16:10:12.330858+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 355
-  🚫 闲聊拦截: 9 条 (2.5%)
-  🧠 工具信号: 180 条 (50.7%)
+  原始信号总量: 354
+  🚫 闲聊拦截: 12 条 (3.4%)
+  🧠 工具信号: 176 条 (49.7%)
 
   📋 闲聊拦截样例:
      [ad] 盒马会员性价比很低，没什么优惠
+     [chatter] The Incident Postmortem Template That Actually Prevents the 
+     [news] How to Feed 100K Words to AI (Without Breaking the Bank)
      [job] Who's Hiring? - Support Edition - Q3 2026
-     [news] Espionage Against the European Parliament: Member of Committ
      [news] Oracle Quietly Halves Free Tier Ampere A1 Compute Limits wit
-     [news] SwiftUI Adds New Document Protocol, Improves Performance, an
 
   🧠 工具信号样例:
      [置信度35%] chrome-devtools-mcp
@@ -109,15 +109,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 355 条
-     🚫 闲聊拦截: 9 条 (2.5%)
-     🧠 工具信号: 180 条 (50.7%)
+     原始抓取: 354 条
+     🚫 闲聊拦截: 12 条 (3.4%)
+     🧠 工具信号: 176 条 (49.7%)
      闲聊样例: 盒马会员性价比很低，没什么优惠... [ad]
      工具信号样例: chrome-devtools-mcp... [置信度35%]
 
   📊 硬核过滤器统计:
-     工具信号 180 → 有效 40
-     拒绝率: 77.8%
+     工具信号 176 → 有效 41
+     拒绝率: 76.7%
 
   📊 意图分类器审计 — 审查 15 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -152,7 +152,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 15 suggestions
-   Generated at: 2026-07-04T13:50:55.612876+00:00
+   Generated at: 2026-07-04T16:10:12.469096+00:00
    Already in catalog: 123 tools
    Previously produced: 0 tools
    Existing tool pages: 34 files
@@ -303,7 +303,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-04T13:50:55.453805+00:00 → 2026-07-04T13:51:08.980712+00:00
+  ⏱  耗时: 2026-07-04T16:10:12.330858+00:00 → 2026-07-04T16:10:26.052834+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
