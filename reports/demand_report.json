@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T16:10:12.469096+00:00",
+  "generated_at": "2026-07-04T18:46:48.873554+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -104,51 +104,51 @@
     "v2ex": [
       "暗色模式到底是怎么流行起来的？？",
       "Claude 账号被封风险检测工具",
-      "问大佬们个问题， App 只要接了手机验证码就需要办理等保二级？",
       "智普 coding plan 抢不到，有没有什么方法啊...",
+      "问大佬们个问题， App 只要接了手机验证码就需要办理等保二级？",
       "完了，到 2031 年，内存可能都不会降价。",
-      "省到就是赚到？",
       "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
-      "你喜欢注释丰富， Commit Message 详尽，还是反之？",
+      "哎，婚姻的意义是什么",
       "阿里的产品真的挺有意思的，不开麦克风权限不给用键盘打字",
-      "盒马会员性价比很低，没什么优惠"
+      "省到就是赚到？",
+      "你喜欢注释丰富， Commit Message 详尽，还是反之？"
     ],
     "devto": [
       "DEV Community: programming",
-      "Structuring a Senior Data Scientist Resume After a Chinese SOE Tenure",
-      "Getting Started with Linux Security: A Beginner's Guide to Hardening Ubuntu Server with UFW and Fail2Ban Configuration",
-      "إنشاء تطبيق ويب آمن باستخدام بايثون و فلاسك",
-      "COMPARISON OPERATOR",
-      "The Incident Postmortem Template That Actually Prevents the Next Outage",
-      "How to Feed 100K Words to AI (Without Breaking the Bank)",
-      "Your AI coding agent isn't lying to you. It's optimizing. published: false",
-      "Hyperia: a terminal where AI agents are first-class tenants 👻🐚",
-      "Improving my Cross-Distro Package manager made in Rust",
-      "How I Use AI to Ship Features Faster Without Getting Messy Code",
-      "Why Java Still Matters Today (Even in the Age of New Languages)",
-      "LongCat-2.0 — ทำไมนักพัฒนาทั่วโลกถึงชื่นชมโมเดล AI จากบริษัทส่งอาหารของจีน"
+      "Global Access] B\"uy Verified PayPal Accounts (Dedicated IP &amp; Verified)",
+      "I Couldn't Find a Good Image Metadata Tool, So I Built One",
+      "Technical Resume Expert – AI Powered ATS Resume Analyzer Using Streamlit &amp; Google Gemini 2.5 Flash",
+      "Arturia Stage-73 V v1.3.1.1782 For Mac",
+      "MP3 Gain 5.3.0 for macOS Free Download",
+      "Building a B+ Tree Storage Engine (Part 1): Why Order Stops Making Sense on Disk",
+      "The Real Problem With Tutorial Hell Is What Tutorials Remove",
+      "Why One AI Reviewer Is Not Enough: Launching Acrity",
+      "🇺🇸 Remote Software Development Opportunity – Experienced Developers Wanted",
+      "RF Music - Comp87 v2.0.3 Full version",
+      "RF Music - Comp87 MB v2.0.3 Full version",
+      "Comic Life 33.5.9 (v35475) Full version"
     ],
     "lobsters": [
       "Fourteener Lobsters",
       "What should a personal website be?",
-      "Magit 4.6 released",
       "Reducing Assumptions, Exploding Your Code",
-      "Why implementing ActivityPub is hard, and why it doesn't have to be",
-      "I Don't Maintain My Homelab",
-      "Why don't people use git properly?",
-      "Who's Hiring? - Support Edition - Q3 2026",
-      "My favorite keyboards",
-      "FreeBSD ate my ram",
-      "Goodbye, forever, probably",
-      "EndBASIC 0.14: Are we multimedia yet?",
       "Do Wavy Walls Really Use Fewer Bricks? I Tested It in Blender",
+      "Why don't people use git properly?",
+      "Magit 4.6 released",
+      "Why implementing ActivityPub is hard, and why it doesn't have to be",
+      "EndBASIC 0.14: Are we multimedia yet?",
+      "I Don't Maintain My Homelab",
+      "Who's Hiring? - Support Edition - Q3 2026",
+      "FreeBSD ate my ram",
+      "The GNU Emacs Architecture",
+      "My favorite keyboards",
+      "Goodbye, forever, probably",
+      "Game Boy Advance Dev: Logging to the console",
       "Developer Verification – LineageOS",
-      "Clickhouse is winning the Observability Wars",
+      "SecretSpec 0.13: SDKs for Python, Node.js, Go, Ruby, and Haskell",
       "Suffix BWT vs cyclic shift BWT, and fast computation",
-      "Synthesis is harder than analysis",
-      "On intent of Code",
-      "Rust - Handling Results In A Map Closure",
-      "Very Average Prototypes"
+      "Clickhouse is winning the Observability Wars",
+      "thundersnap v0.01: an undo button for everything"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -173,63 +173,63 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "The bottleneck might be the air in the room 🔥591pts 💬347",
-      "Costco is the anti-Amazon 🔥491pts 💬449",
-      "Jamesob's guide to running SOTA LLMs locally 🔥382pts 💬172",
-      "Leanstral 1.5: Proof abundance for all 🔥311pts 💬87",
-      "Performance per dollar is getting faster and cheaper 🔥310pts 💬126",
-      "Maybe you should learn something 🔥293pts 💬144",
-      "SearXNG: A free internet metasearch engine 🔥250pts 💬69",
-      "Giant trees have no trouble pumping water to top branches: new research 🔥243pts 💬107",
-      "Odin, Wikipedia and engagement farming 🔥212pts 💬299",
-      "FreeBSD ate my RAM 🔥176pts 💬72",
-      "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV 🔥175pts 💬42",
-      "Explanation of everything you can see in htop/top on Linux 🔥162pts 💬22",
-      "Agentic coding notes from Galapagos Island 🔥147pts 💬67",
-      "New serious vulnerabilities spiked around release of Claude Mythos Preview 🔥141pts 💬61",
-      "Mir Books – Books from the Soviet Era 🔥132pts 💬64",
-      "Synthesis is harder than analysis 🔥127pts 💬30",
-      "Astrophysicists Puzzle over Webb’s New Universe 🔥125pts 💬70",
-      "MSI Center – How to gain SYSTEM privileges in seconds 🔥125pts 💬51",
-      "Potential session/cache leakage between workspace instances or consumer accounts 🔥123pts 💬46",
-      "The firefighting system of the Van der Heyden brothers in 17th century Amsterdam 🔥118pts 💬25",
-      "Postgres data stored in Parquet on S3: LTAP architecture explained 🔥112pts 💬34",
-      "The Vespa at 80: Why the Italian scooter remains the coolest thing on 2 wheels 🔥83pts 💬78",
-      "2026 Unslop AI-Written Fiction Contest Results",
-      "Night Witches – all-female Soviet aviator regiment WW2",
-      "What ORMs have taught me: just learn SQL (2014)"
+      "The bottleneck might be the air in the room 🔥675pts 💬375",
+      "Maybe you should learn something 🔥359pts 💬170",
+      "Leanstral 1.5: Proof abundance for all 🔥330pts 💬93",
+      "Performance per dollar is getting faster and cheaper 🔥327pts 💬128",
+      "Explanation of everything you can see in htop/top on Linux (2019) 🔥279pts 💬32",
+      "Giant trees have no trouble pumping water to top branches: new research 🔥251pts 💬110",
+      "Potential session/cache leakage between workspace instances or consumer accounts 🔥217pts 💬101",
+      "Leaking YouTube creators' private videos 🔥203pts 💬87",
+      "Astrophysicists Puzzle over Webb’s New Universe 🔥158pts 💬94",
+      "Mir Books – Books from the Soviet Era 🔥147pts 💬73",
+      "Postgres data stored in Parquet on S3: LTAP architecture explained 🔥133pts 💬42",
+      "The Vespa at 80 🔥118pts 💬99",
+      "Google Books (or similar) all book scans – $200k bounty (2025) 🔥104pts 💬23",
+      "Night Witches – all-female Soviet aviator regiment WW2 🔥68pts 💬25",
+      "Meta data center water discharges suspended for contaminating water supply 🔥66pts 💬21",
+      "Breaking the Bird Barrier: Scientist Decodes Zebra Finch Language 🔥55pts 💬15",
+      "No more than 100 000 faint satellites should orbit Earth",
+      "Windows CE Dreamcast Community Edition (wince-dc)",
+      "Finland's last analogue landline phones go silent after 150 years",
+      "The Reports of Jim Carrey's Death Are a Failure Mode",
+      "Rob Pike – 'Concurrency Is Not Parallelism' [video] (2012)",
+      "Designing DB partitions you don't have to babysit",
+      "Curveball",
+      "Verizon is About to Break our Watches",
+      "Plein Air"
     ],
     "hn_show": [
+      "Cute Music App — featured on Hacker News (🔥1pts)",
+      "AI-powered code review tool — featured on Hacker News (🔥1pts)",
+      "A home for short stories generated from 5 random emojis — featured on Hacker News (🔥2pts)",
+      "AI Interview Coach – practice with honest hiring-manager-grade feedback — featured on Hacker News (🔥1pts)",
+      "Routing24 – free route optimization agent for Claude Cowork/WebMCP — featured on Hacker News (🔥1pts)",
+      "A Kagi News–style news aggregator for Zimbabwe — featured on Hacker News (🔥1pts)",
+      "Plot Workshop – A story planning tool for writers — featured on Hacker News (🔥1pts)",
+      "Follow London Trains in 3D — featured on Hacker News (🔥2pts)",
       "See a Random American — featured on Hacker News (🔥1pts)",
       "WyrmRSS - Self-hosted RSS reader with inline YoutTube — featured on Hacker News (🔥1pts)",
-      "Gemma 3 inference in pure C++ with Metal acceleration — featured on Hacker News (🔥1pts)",
+      "Work on multiple projects at once (ONE terminal window for everything) — featured on Hacker News (🔥2pts)",
+      "Gemma 3 inference in pure C++ with Metal acceleration — featured on Hacker News (🔥2pts)",
       "SurfSkills – agent skills, each with a video of it working — featured on Hacker News (🔥2pts)",
       "Home Page as a Chatbot — featured on Hacker News (🔥1pts)",
       "World Release Notes – Every country as a software project — featured on Hacker News (🔥1pts)",
       "GREF – Interactive search and replace for terminal and Vim — featured on Hacker News (🔥1pts)",
+      "Sylix, a free native Cursor/Antigravity alternative — featured on Hacker News (🔥1pts)",
       "I built a personalized AI newsletter you configure by replying to it — featured on Hacker News (🔥1pts)",
       "Thèque, a private visual library for the things you save — featured on Hacker News (🔥2pts)",
-      "Hacker-News Buddies — featured on Hacker News (🔥5pts)",
-      "Open Kioku – local evidence layer for AI coding agents — featured on Hacker News (🔥2pts)",
-      "Text to Favicon — featured on Hacker News (🔥1pts)",
-      "VideoPicAI – Create Videos and Images with AI Magic — featured on Hacker News (🔥1pts)",
-      "Quick and dirty inter-agent collaboration — featured on Hacker News (🔥2pts)",
-      "Language Learning Roguelike Game — featured on Hacker News (🔥2pts)",
-      "Mycelium – AI agent plugin guiding you from purpose to market — featured on Hacker News (🔥1pts)",
-      "IchiPitchy – browser-based vocal editor and multitrack mixer — featured on Hacker News (🔥1pts)",
-      "Convert Android Motion Photos to Apple Live Photos — featured on Hacker News (🔥1pts)",
-      "Owthorize: catch destructive AI-agent tool calls before they run — featured on Hacker News (🔥1pts)",
-      "Open-source no-code back end platform, now with AI flow generation — featured on Hacker News (🔥2pts)"
+      "Hacker-News Buddies — featured on Hacker News (🔥6pts)"
     ],
     "hn_ask_tools": [
+      "Tests Are SQL Files Too — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Routing24 – free route optimization agent for Claude Cowork/WebMCP — user asking for tool recommendation (🔥1pts)",
       "A fleshed-out IPv5 proposal — user asking for tool recommendation (🔥4pts)",
       "Show HN: Scout.kids – Agents that find activies for families — user asking for tool recommendation (🔥4pts)",
       "Show HN: How clanker are you? A reverse Turing test — user asking for tool recommendation (🔥9pts)",
       "Show HN: Sharing LLM Artifacts with your team — user asking for tool recommendation (🔥2pts)",
       "Show HN: Emra – A workspace where every app you build shares one db — user asking for tool recommendation (🔥3pts)",
       "Ask HN: Is it just me or does Claude / Sonnet 5 sound condescending recently? — user asking for tool recommendation (🔥1pts)",
-      "What I had to unlearn as a perfectionist before I could ship — user asking for tool recommendation (🔥2pts)",
-      "A B2B marketing agency grew to $1.5M ARR in 6 months by betting on AI — user asking for tool recommendation (🔥1pts)",
       "Ask HN: How are you creating demo videos for your product? — user asking for tool recommendation (🔥1pts)",
       "Show HN: CLI that helps AI agents avoid vulnerable dependencies — user asking for tool recommendation (🔥24pts)",
       "Show HN: LokalBot – meetings, notes, and autocomplete that never leave your Mac — user asking for tool recommendation (🔥1pts)",
@@ -239,8 +239,10 @@
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Psycurate – Curated place for privacy-first, free psychological tools — user asking for tool recommendation (🔥1pts)",
+      "What I had to unlearn as a perfectionist before I could ship — user asking for tool recommendation (🔥2pts)",
       "Show HN: Wax Spinner, a \"now playing\" social app for vinyl record collectors — user asking for tool recommendation (🔥1pts)",
       "Show HN: A tool to help people in social situations — user asking for tool recommendation (🔥3pts)",
+      "A B2B marketing agency grew to $1.5M ARR in 6 months by betting on AI — user asking for tool recommendation (🔥1pts)",
       "Show HN: An MCP server that gives your AI assistant write access to /etc./hosts — user asking for tool recommendation (🔥2pts)",
       "Show HN: Local privacy-first Microsoft Recall alternative with Gemma 4 — user asking for tool recommendation (🔥11pts)",
       "Show HN: StayThere.ai - Book directly at over 96k short term rentals — user asking for tool recommendation (🔥3pts)",
@@ -248,12 +250,13 @@
       "Show HN: Track Token usage for major platforms,know your token flow — user asking for tool recommendation (🔥4pts)",
       "Show HN: I ran 400 hours of interviews, so I built the tool I wished existed — user asking for tool recommendation (🔥2pts)",
       "Show HN: Make your terminal pulse orange when Claude Code needs input — user asking for tool recommendation (🔥3pts)",
-      "Sylix, an free and open alternative to cursor and antigravity — user asking for tool recommendation (🔥1pts)",
       "Return of RSS Feeds — user asking for tool recommendation (🔥3pts)",
-      "P2P out the box alternative to Ngrok/Cloudflare using Iroh — user asking for tool recommendation (🔥2pts)",
-      "Olive – Lisp VSCode Extension (Alternative to Alive) — user asking for tool recommendation (🔥39pts)"
+      "P2P out the box alternative to Ngrok/Cloudflare using Iroh — user asking for tool recommendation (🔥2pts)"
     ],
     "hackernoon": [
+      "How to Use OpenAI Codex Subagents Step by Step",
+      "The TechBeat: Yes, Websites Can Detect Your VPN. Here's How (7/4/2026)",
+      "205 Blog Posts To Learn About Vpn",
       "62 Blog Posts To Learn About Social Engineering",
       "57 Blog Posts To Learn About Smart Contract Security",
       "Building Sustainable Digital Growth Through Cloud Architecture and Platform Engineering",
@@ -269,10 +272,7 @@
       "500 Blog Posts To Learn About Security",
       "BTSE Group Launches BTSE Indonesia, Enters One of Asia’s Fastest-Growing Crypto Markets",
       "C# PDF Libraries: What 'Free' Really Costs You (2026 Guide)",
-      "I Compared 5 Free JavaScript Gantt Libraries by Project Fit",
-      "Today’s AI Is a Mathematical Scam",
-      "On-Chain Liquidity for Reinsurance Capital: Interview With Veritas CEO Amaury Dalleur﻿ ﻿ ",
-      "Hello Anthropic! “Don’t Court the Third Kick of a Mule!”"
+      "I Compared 5 Free JavaScript Gantt Libraries by Project Fit"
     ],
     "infoq": [
       "Cycle Introduces EU Control Plane as Sovereignty Debate Continues <img src=\"https://res.infoq.com/news/2026/07/cycle-eu-control-plane/en/headerimage/generatedHeaderImage-1782203284411.jpg\"/><p>Cycle recently introduc",
@@ -292,60 +292,60 @@
       "HeroUI v3 Lands as a Ground-Up Rewrite for React and React Native, Built on Tailwind CSS v4 <img src=\"https://res.infoq.com/news/2026/07/heroui-v3-rewrite/en/headerimage/generatedHeaderImage-1782890990794.jpg\"/><p>HeroUI v3 is a redesigned Re"
     ],
     "google_trends": [
-      "lost",
-      "andrew giuliani",
-      "caroline wozniacki",
-      "malia obama",
-      "fireworks nyc",
-      "amanda anisimova",
-      "alexander zverev",
-      "jasmine paolini",
-      "usa vs england",
-      "july 4th fireworks near me"
+      "brendan beck",
+      "azzedine ounahi",
+      "morocco fc",
+      "oil tanker u-turn hormuz",
+      "ridley scott",
+      "7 wonders of america",
+      "gianni infantino",
+      "arthur fery",
+      "hakimi soccer",
+      "shakur stevenson"
     ],
     "baidu": [
       "庆祝中国共产党成立105周年大会侧记",
       "中国7舰横穿日本4大要道",
-      "世界杯17至32位排名：佛得角第32名",
+      "街头大叔：不装了 佛得角门将是我儿子",
       "中小学生暑期安全提示请收好",
       "辽宁抚顺特大暴雨致3人死亡",
       "王力宏演唱会摔倒 面部出血",
       "世界杯：加拿大vs摩洛哥",
-      "教育机构员工泄愤删考生志愿致落榜",
-      "街头大叔：不装了 佛得角门将是我儿子",
-      "日本首次公布跟踪中国航母视频",
-      "十万余元的手镯直接“砍”到399元",
-      "宁夏辟谣“硒砂瓜滞销烂市”",
       "女子确诊肺癌晚期在地铁上介绍自己",
+      "十万余元的手镯直接“砍”到399元",
       "到底是谁取消了有线耳机",
-      "霉霉婚礼后纽约天空变粉",
-      "女孩摸自行车把手遭掌掴 家属发声",
-      "没戏拍的短剧演员在横店卖凉皮",
-      "世界杯1/8决赛观赛指南",
       "不到50元的“次抛衣”热销",
+      "宁夏辟谣“硒砂瓜滞销烂市”",
+      "世界杯17至32位排名：佛得角第32名",
+      "佛得角再次感谢中国：帮我们圆梦",
+      "日本首次公布跟踪中国航母视频",
+      "没戏拍的短剧演员在横店卖凉皮",
+      "张雪回应还清近亿债务",
+      "世界杯1/8决赛观赛指南",
+      "多省献血量还在降 血站寻找下一袋血",
       "巴拉圭总统因迷信不敢现场看世界杯"
     ],
     "wikipedia": [
-      "Anson Brown Building",
-      "Campagnone Common",
-      "Timeline of the American Revolution",
-      "Warner Premiere",
-      "Primorsky Boulevard (1988 television miniseries)",
-      "Robin Byrd",
-      "403 Flying Training School (FTS), Kano",
-      "Campa de los Ingleses Park",
-      "Battle of Tonlé Sap",
-      "USAV SP4 James A. Loux",
-      "Chief Yowlachie",
-      "Doris Fuchs (scientist)",
-      "Hecho en México (Alejandro Fernández album)",
-      "Camp Pathfinder",
-      "Ben Ames Williams",
-      "1994 Asian Junior Women's Volleyball Championship",
-      "Adela Paulina Baltoi",
-      "Tomáš Jurčo",
-      "Alan Napier",
-      "Thorburn Brailsford Robertson"
+      "Iranian Jews in Israel",
+      "Grace Neville (footballer)",
+      "Abu Bakr Khairat",
+      "New York City Human Resources Administration",
+      "River Corrib",
+      "Muhammad Yaseen (politician)",
+      "When the Wind Blows (comics)",
+      "Photographers of the American Civil War",
+      "Ryan Gibbons (cyclist)",
+      "W80 (nuclear warhead)",
+      "John Geesnell Yap",
+      "Thaana",
+      "Youcef Reguigui",
+      "Helen Slater",
+      "Kanwarpal Tathgur",
+      "University of the Philippines Dasmariñas",
+      "List of tallest buildings in Qatar",
+      "Threat model",
+      "Walwal",
+      "Pierre Nord"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -430,33 +430,44 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: npm",
-      "github trending topic: llm",
-      "github trending topic: database",
-      "github trending topic: javascript",
-      "github trending topic: project management",
-      "github trending topic: scala",
-      "github trending topic: react native",
-      "github trending topic: express",
-      "github trending topic: nodejs",
-      "github trending topic: node.js",
-      "github trending topic: tg-fix",
-      "github trending topic: awesome lists",
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: chrome",
-      "github trending topic: tg-proxy",
-      "github trending topic: react",
-      "github trending topic: front end",
-      "github trending topic: python",
       "github trending topic: compiler",
-      "github trending topic: code quality",
+      "github trending topic: project management",
+      "github trending topic: chrome",
+      "github trending topic: llm",
+      "github trending topic: css",
       "github trending topic: typescript",
-      "github trending topic: css"
+      "github trending topic: react native",
+      "github trending topic: scala",
+      "github trending topic: front end",
+      "github trending topic: claude-code",
+      "github trending topic: database",
+      "github trending topic: nodejs",
+      "github trending topic: awesome lists",
+      "github trending topic: rag",
+      "github trending topic: npm",
+      "github trending topic: fastapi",
+      "github trending topic: react",
+      "github trending topic: javascript",
+      "github trending topic: node.js",
+      "github trending topic: postgresql",
+      "github trending topic: code quality",
+      "github trending topic: ai-agents",
+      "github trending topic: machine-learning",
+      "github trending topic: python"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
+    {
+      "keyword": "I Couldn't Find a Good Image Metadata Tool, So I Built One",
+      "matched": "image",
+      "category": "media",
+      "subcat": "image",
+      "type": "tool",
+      "name": "Image Tool",
+      "name_zh": "图片工具"
+    },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
@@ -521,6 +532,15 @@
       "name_zh": "单位换算"
     },
     {
+      "keyword": "Tests Are SQL Files Too — user asking for tool recommendation (🔥1pts)",
+      "matched": "sql",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "SQL Formatter",
+      "name_zh": "SQL格式化"
+    },
+    {
       "keyword": "tgt — npm package: tpl generator tool",
       "matched": "generator",
       "category": "misc",
@@ -582,22 +602,13 @@
       "type": "tool",
       "name": "JSON Formatter",
       "name_zh": "JSON格式化"
-    },
-    {
-      "keyword": "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
-      "matched": "sql",
-      "category": "dev",
-      "subcat": "code",
-      "type": "tool",
-      "name": "SQL Formatter",
-      "name_zh": "SQL格式化"
     }
   ],
   "all_keywords": [
     "chrome-devtools-mcp",
     "Claude 账号被封风险检测工具",
     "问大佬们个问题， App 只要接了手机验证码就需要办理等保二级？",
-    "Improving my Cross-Distro Package manager made in Rust",
+    "I Couldn't Find a Good Image Metadata Tool, So I Built One",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -618,6 +629,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
+    "Tests Are SQL Files Too — user asking for tool recommendation (🔥1pts)",
     "A fleshed-out IPv5 proposal — user asking for tool recommendation (🔥4pts)",
     "Return of RSS Feeds — user asking for tool recommendation (🔥3pts)",
     "electra-base-discriminator",
@@ -637,10 +649,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 176,
-    "valid_count": 41,
-    "rejected_count": 135,
-    "rejection_rate": 76.7,
+    "raw_count": 179,
+    "valid_count": 42,
+    "rejected_count": 137,
+    "rejection_rate": 76.5,
     "rejected_samples": [
       "allcontributors",
       "What does the \"yield\" keyword do in Python?",
@@ -651,32 +663,46 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
-      "Getting Started with Linux Security: A Beginner's Guide to Hardening Ubuntu Server with UFW and Fail2Ban Configuration"
+      "Global Access] B\"uy Verified PayPal Accounts (Dedicated IP &amp; Verified)"
     ]
   },
   "trait_analysis": {
-    "total_captured": 354,
-    "chatter_blocked": 12,
-    "chatter_rate": 3.4,
-    "tool_signals_found": 176,
-    "tool_signal_rate": 49.7,
+    "total_captured": 356,
+    "chatter_blocked": 14,
+    "chatter_rate": 3.9,
+    "tool_signals_found": 179,
+    "tool_signal_rate": 50.3,
     "chatter_samples": [
       {
-        "text": "盒马会员性价比很低，没什么优惠",
-        "category": "ad",
+        "text": "RF Music - Comp87 v2.0.3 Full version",
+        "category": "entertainment",
         "matched": [
-          "优惠"
+          "Music"
         ]
       },
       {
-        "text": "The Incident Postmortem Template That Actually Prevents the Next Outage",
-        "category": "chatter",
+        "text": "RF Music - Comp87 MB v2.0.3 Full version",
+        "category": "entertainment",
         "matched": [
-          "vent"
+          "Music"
         ]
       },
       {
-        "text": "How to Feed 100K Words to AI (Without Breaking the Bank)",
+        "text": "Who's Hiring? - Support Edition - Q3 2026",
+        "category": "job",
+        "matched": [
+          "Hiring"
+        ]
+      },
+      {
+        "text": "Google Books (or similar) all book scans – $200k bounty (2025) 🔥104pts 💬23",
+        "category": "job",
+        "matched": [
+          "$200k"
+        ]
+      },
+      {
+        "text": "Breaking the Bird Barrier: Scientist Decodes Zebra Finch Language 🔥55pts 💬15",
         "category": "news",
         "matched": [
           [
@@ -686,10 +712,17 @@
         ]
       },
       {
-        "text": "Who's Hiring? - Support Edition - Q3 2026",
+        "text": "Cute Music App — featured on Hacker News (🔥1pts)",
+        "category": "entertainment",
+        "matched": [
+          "Music"
+        ]
+      },
+      {
+        "text": "AI Interview Coach – practice with honest hiring-manager-grade feedback — featur",
         "category": "job",
         "matched": [
-          "Hiring"
+          "hiring"
         ]
       },
       {
@@ -717,27 +750,6 @@
         "category": "entertainment",
         "matched": [
           "Netflix"
-        ]
-      },
-      {
-        "text": "amanda anisimova",
-        "category": "chatter",
-        "matched": [
-          "imo"
-        ]
-      },
-      {
-        "text": "世界杯：加拿大vs摩洛哥",
-        "category": "entertainment",
-        "matched": [
-          "世界杯"
-        ]
-      },
-      {
-        "text": "Primorsky Boulevard (1988 television miniseries)",
-        "category": "chatter",
-        "matched": [
-          "imo"
         ]
       }
     ],
@@ -833,24 +845,27 @@
         ]
       },
       {
-        "text": "Getting Started with Linux Security: A Beginner's Guide to Hardening Ubuntu Server with UFW and Fail",
-        "confidence": 20,
+        "text": "Global Access] B\"uy Verified PayPal Accounts (Dedicated IP &amp; Verified)",
+        "confidence": 15,
         "features": [
-          "输入→输出链式: [('Guide to Hardening', 'to', '', '', '', '')]"
+          "技术概念: ['IP']"
         ]
       },
       {
-        "text": "COMPARISON OPERATOR",
-        "confidence": 20,
+        "text": "I Couldn't Find a Good Image Metadata Tool, So I Built One",
+        "confidence": 35,
         "features": [
-          "输入→输出链式: [('OPERATOR', 'TO', '', '', '', '')]"
+          "输入→输出链式: [('Metadata Tool', 'To', '', '', '', '')]",
+          "英文工具名词: ['tool']"
         ]
       },
       {
-        "text": "Your AI coding agent isn't lying to you. It's optimizing. published: false",
-        "confidence": 20,
+        "text": "Technical Resume Expert – AI Powered ATS Resume Analyzer Using Streamlit &amp; Google Gemini 2.5 Fla",
+        "confidence": 55,
         "features": [
-          "输入→输出链式: [('lying to you', 'to', '', '', '', '')]"
+          "英文动作特征: ['Analyzer']",
+          "英文工具名词: ['analyzer']",
+          "技术概念: ['Gemini']"
         ]
       }
     ]
