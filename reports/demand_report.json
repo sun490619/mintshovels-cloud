@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T15:57:05.910866+00:00",
+  "generated_at": "2026-07-05T16:15:20.248013+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -107,26 +107,26 @@
       "数字游民 有推荐的宜居城市吗？",
       "车祸中窥探中国医院的专科细分。",
       "用 AI 生成一个小浣熊水浒卡鉴赏网站",
-      "原来 FM 调频转播站晚上会关站",
       "土区续费 GPT plus 还是 500 里拉",
-      "用 HK 节点 使用 Codex 时老是出现： stream disconnected before completion: tls handshake eof",
+      "原来 FM 调频转播站晚上会关站",
       "以前值钱的东西，现在都不值钱了，老登资产被时代抛弃",
+      "用 HK 节点 使用 Codex 时老是出现： stream disconnected before completion: tls handshake eof",
       "Claude 被封了也不要去用 codex"
     ],
     "devto": [
       "DEV Community: programming",
-      "A cheap, persistent memory that learns your repo so your agent stops re-reading it",
-      "GSoC'26 Midterm Blog: Building BLT University Into an Interactive Security Learning Platform",
-      "The GNU Emacs Architecture: Unlocking the Core [pdf] — What Nobody Tells You",
-      "Counting Sort: The Sorting Hat's Secret (Harry Potter)",
-      "Remote Opportunities with an American Development Team",
-      "Alibaba Blocks Claude Code After Anthropic’s Tracking Experiment",
-      "Anthropic Launches In-House Drug Discovery for Neglected Diseases",
-      "We Built An Animated Universe Because Production Was Broken (Again)",
-      "3 tricks that made my feed format 62% smaller than JSON Feed",
-      "The Crucial Role of Software Architecture in Building Scalable Web Apps",
-      "I stopped prompt-and-praying with Claude Code. Now it interviews me first.",
-      "Best 7 Site To Buy Hard gmail any year Mix country/24"
+      "SafeHaven: A Java Desktop App Designed for Autistic Children's Learning Journey",
+      "Building a Personal Learning Path Agent in typescript with HazelJS",
+      "2-Minute Guide: Type Hints in Python (2026)",
+      "The Tokenizer Tax: How Your Bill Goes Up Without a Price Change",
+      "One Prompt, Many Moods: How to Generate a Full Week of Background Music from a Single AI Brief",
+      "Quick Tip: List comprehensions are faster than `map()` in most cases (2026)",
+      "The Sound of \"Done\": Using AI Music Cues to Mark Creative Milestones and Beat Procrastination",
+      "100 Battle-Tested AI Prompts for Developers - Free Preview",
+      "Top Python GitHub Repositories This Week (2026-W28)",
+      "I Built an Automated Python System That Earns $26/Month",
+      "Genre Is Dead, Function Is Everything: Rethinking How Creators Choose Background Music in 2026",
+      "A cheap, persistent memory that learns your repo so your agent stops re-reading it"
     ],
     "lobsters": [
       "Fourteener Lobsters",
@@ -138,69 +138,71 @@
       "How is Zig working out after 3 years and 100k lines of game code?",
       "Bad Epoll (CVE-2026-46242)",
       "Do Wavy Walls Really Use Fewer Bricks? I Tested It in Blender",
-      "Run Windows 2000 on a DEC Alpha with a new es40 fork",
       "small details in my mastodon client that i wanted more people to notice",
+      "Run Windows 2000 on a DEC Alpha with a new es40 fork",
       "Dark mode with web standards",
-      "What should a personal website be?",
       "Immich v3.0.0 Released",
       "Scheme is a Hoot",
+      "What should a personal website be?",
       "Reducing Assumptions, Exploding Your Code",
+      "PEP 814: Add frozendict built-in type",
       "thundersnap v0.01: an undo button for everything",
       "Who's Hiring? - Support Edition - Q3 2026",
-      "PEP 814: Add frozendict built-in type",
       "The GNU Emacs Architecture"
     ],
     "producthunt": [
-      "Wispr Flow",
-      "Oz by Warp",
-      "Viktor Skills Marketplace",
-      "FocusBuddy (YC S24)",
+      "Engineering \\u0026 Development",
+      "Vibe Coding Tools",
+      "AI Coding Agents",
+      "LLMs",
+      "AI Chatbots",
+      "AI Infrastructure Tools",
       "Productivity",
-      "Artificial Intelligence",
-      "Audio",
-      "Tanay Kothari",
-      "Wispr Flow: Dictation That Works Everywhere",
-      "WorkBuddy",
-      "Tech",
-      "DocsAlot",
-      "API",
-      "SaaS",
-      "Bots",
-      "Endl",
-      "Fintech",
-      "Payments",
-      "Web3",
-      "TryCase"
+      "AI notetakers",
+      "Note and writing apps",
+      "Team collaboration software",
+      "Marketing \\u0026 Sales",
+      "Lead generation software",
+      "Marketing automation platforms",
+      "Design \\u0026 Creative",
+      "Video editing",
+      "Design resources",
+      "Graphic design tools",
+      "Social \\u0026 Community",
+      "Social Networking",
+      "Professional networking platforms"
     ],
     "hacker_news": [
-      "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable 🔥617pts 💬258",
-      "If you're a button, you have one job 🔥412pts 💬204",
-      "Shadcn/UI now defaults to Base UI instead of Radix 🔥222pts 💬110",
-      "“Beyond the limit”: Satellites and mirrors in space pose threat to the night sky 🔥182pts 💬283",
-      "Organic Maps 🔥168pts 💬48",
-      "Meta's Un-Stable Signature 🔥123pts 💬18",
-      "The GNU Emacs Architecture: Unlocking the Core [pdf] 🔥123pts 💬8",
-      "Introduction to Compilers and Language Design 🔥114pts 💬14",
-      "Pandoc Lua Filters 🔥110pts 💬10",
-      "Phosh 0.56.0 🔥108pts 💬28",
-      "Atomic Force Microscope [video] 🔥105pts 💬13",
-      "Claude Design System Prompt 🔥103pts 💬28",
-      "Fast Software, the Best Software (2019) 🔥88pts 💬44",
-      "Cannabis Users Face Substantially Higher Risk of Heart Attack (2025) 🔥85pts 💬106",
+      "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable 🔥619pts 💬261",
+      "If you're a button, you have one job 🔥425pts 💬211",
+      "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance 🔥332pts 💬133",
+      "Shadcn/UI now defaults to Base UI instead of Radix 🔥226pts 💬116",
+      "Organic Maps 🔥213pts 💬54",
+      "“Beyond the limit”: Satellites and mirrors in space pose threat to the night sky 🔥182pts 💬290",
+      "Introduction to Compilers and Language Design 🔥134pts 💬16",
+      "The GNU Emacs Architecture: Unlocking the Core [pdf] 🔥127pts 💬8",
+      "Meta's Un-Stable Signature 🔥124pts 💬18",
+      "Phosh 0.56.0 🔥115pts 💬34",
+      "Pandoc Lua Filters 🔥112pts 💬10",
+      "Atomic Force Microscope [video] 🔥106pts 💬15",
+      "Cannabis Users Face Substantially Higher Risk of Heart Attack (2025) 🔥95pts 💬118",
+      "EU Council forces Chat Control via fast-track 🔥94pts 💬24",
+      "Fast Software, the Best Software (2019) 🔥91pts 💬49",
       "Moby Dick Workout (2022) 🔥82pts 💬27",
-      "The Log is the Agent 🔥81pts 💬25",
+      "The Log is the Agent 🔥82pts 💬26",
       "Artful Cats: Feline-Inspired Art and Artifacts 🔥72pts 💬5",
-      "EU Council forces Chat Control via fast-track 🔥70pts 💬13",
-      "Return of the Nigerian Prince Redux: Beware Book Club and Book Review Scams (2025) 🔥69pts 💬23",
-      "Knowledge Should Not Be Gated 🔥61pts 💬42",
-      "Megawatts by Microwave 🔥56pts 💬5",
-      "Trust your compiler: Modern C++",
+      "Knowledge Should Not Be Gated 🔥63pts 💬42",
+      "Megawatts by Microwave 🔥57pts 💬5",
+      "Trust your compiler: Modern C++ 🔥51pts 💬30",
       "Show HN: KiCad in the Browser",
-      "Pi square is nearly 10",
-      "Medieval-style fortifications are back in the Sahel"
+      "Medieval-style fortifications are back in the Sahel",
+      "Functional Programming in hica",
+      "Airplane Boneyards List and Map"
     ],
     "hn_show": [
-      "Battle City Like Game I Made with Classmates 14 Years Ago — featured on Hacker News (🔥1pts)",
+      "Tinysandbox – An ultra-minimal sandbox with QuickJS WASM isolates — featured on Hacker News (🔥2pts)",
+      "Code-Manager — featured on Hacker News (🔥1pts)",
+      "Battle City Like Game I Made with Classmates 14 Years Ago — featured on Hacker News (🔥2pts)",
       "Glyph a blockchain where the proof-of-work is neural network inference — featured on Hacker News (🔥1pts)",
       "AI blog system with human DNA — featured on Hacker News (🔥1pts)",
       "Contextrot– Analyze where Claude Code degrades from its own session log — featured on Hacker News (🔥2pts)",
@@ -216,13 +218,11 @@
       "Neil the Seal Game — featured on Hacker News (🔥3pts)",
       "CAVS – Open-source content-addressable updates for game assets — featured on Hacker News (🔥3pts)",
       "Essential Media Player – A web-based (PWA) local media player — featured on Hacker News (🔥2pts)",
-      "Daily Refreshed drop-in replacement for LiteLLM's model price map — featured on Hacker News (🔥3pts)",
-      "Build offline-first web apps in pure Go and HTML — featured on Hacker News (🔥4pts)",
-      "Minicraft - Running Minecraft Classic from a Single Twitter Post — featured on Hacker News (🔥4pts)"
+      "Daily Refreshed drop-in replacement for LiteLLM's model price map — featured on Hacker News (🔥3pts)"
     ],
     "hn_ask_tools": [
       "Show HN: microide, a 100% vibecoded IDE that LLM agents can drive — user asking for tool recommendation (🔥2pts)",
-      "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥42pts)",
+      "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥46pts)",
       "Show HN: Design Patterns for AI — user asking for tool recommendation (🔥4pts)",
       "Show HN: Selbstbild – What Fable 5 thinks of your HN comment history — user asking for tool recommendation (🔥3pts)",
       "Retrieval is not the future of AI – if it was, Google would have won already — user asking for tool recommendation (🔥3pts)",
@@ -247,12 +247,15 @@
       "Show HN: StayThere.ai - Book directly at over 96k short term rentals — user asking for tool recommendation (🔥3pts)",
       "Show HN: Track Token usage for major platforms,know your token flow — user asking for tool recommendation (🔥5pts)",
       "Show HN: I ran 400 hours of interviews, so I built the tool I wished existed — user asking for tool recommendation (🔥2pts)",
+      "Machine Is a Server. Do Not Power Down — user asking for tool recommendation (🔥1pts)",
       "Show HN: Essential Media Player – A web-based (PWA) local media player — user asking for tool recommendation (🔥2pts)",
       "Show HN: Devflow CMS – Hybrid CMS Alternative to Joomla, Drupal, and WordPress — user asking for tool recommendation (🔥1pts)",
-      "Return of RSS Feeds — user asking for tool recommendation (🔥4pts)",
-      "P2P out the box alternative to Ngrok/Cloudflare using Iroh — user asking for tool recommendation (🔥2pts)"
+      "Return of RSS Feeds — user asking for tool recommendation (🔥4pts)"
     ],
     "hackernoon": [
+      "The TechBeat: Vibe Coding Starts at Localhost (7/5/2026)",
+      "173 Blog Posts To Learn About Agile Software Development",
+      "AIR Kit Deep Dive: Is AIR Kit the Best ZK Identity SDK in Web3? A Developer's Hands-On Review",
       "Vantage Introduces 24/7 Gold CFD Trading With XAUUSD247",
       "98 Blog Posts To Learn About Agile Development",
       "Nvidia China Chip Curbs Accelerate Domestic AI Substitution",
@@ -267,10 +270,7 @@
       "Spec-Driven Development Is the New Developer Superpower",
       "What Building a Self-Paced Math System Taught Me About Software Design",
       "The Real Reason Rural Areas Stay Offline Is Not Technology",
-      "I Built a Local AI Linux Assistant That Doesn't Rely on the Cloud",
-      "How to Feed AI Agents Clean Website Screenshots Without Running a Browser",
-      "Building Neon Rush 3D for Mobile and Desktop as a Solo Indie Developer",
-      "The Death of Notifications: Why Software Needs to Learn How to Converse"
+      "I Built a Local AI Linux Assistant That Doesn't Rely on the Cloud"
     ],
     "infoq": [
       "AWS Introduces Amazon S3 Annotations <img src=\"https://res.infoq.com/news/2026/07/aws-s3-annotations/en/headerimage/generatedHeaderImage-1782327927331.jpg\"/><p>AWS recently announced Amaz",
@@ -290,16 +290,16 @@
       "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>Instacart redesigned its personalized marketing system using a configur"
     ],
     "google_trends": [
+      "paul george celtics trade statement",
+      "isaac del toro",
+      "george russell",
+      "silverstone gp",
+      "guam",
       "charles leclerc",
       "max verstappen",
       "world cup schedule",
-      "iphone 17 pro",
-      "hubert hurkacz",
-      "the new york times",
-      "alejandro davidovich fokina",
-      "the hunting party",
-      "a que hora juega mexico",
-      "sabalenka"
+      "sabalenka vs osaka",
+      "hubert hurkacz"
     ],
     "baidu": [
       "不断创造无愧于时代和人民的新业绩",
@@ -315,35 +315,35 @@
       "哈兰德大战巴西前“从头开始”备战",
       "广州辟谣征集解禁摩托意见",
       "1个月没喂 七八斤锦鲤只剩骨架",
-      "硬盘一天三个价 电脑价格突然暴涨",
       "19岁“第一夫人” 51岁秘鲁女总统",
+      "硬盘一天三个价 电脑价格突然暴涨",
       "巴西英格兰力争破“魔咒”",
-      "国家一级文物上现广告字样",
-      "六警齐发！6省份有10级以上雷暴大风",
+      "4名高考生打暑假工 高温硬扛32吨货",
+      "老人看牙遭全口拔光 医院被顶格处罚",
       "高原反应？英格兰主帅称在酒店头疼",
-      "4名高考生打暑假工 高温硬扛32吨货"
+      "国家一级文物上现广告字样"
     ],
     "wikipedia": [
-      "Wadleigh State Park",
-      "Tata Daewoo",
-      "FDIC International",
-      "Bravo (surname)",
-      "Colt Canada C20",
-      "Roman Catholic Diocese of Lexington",
-      "Waddon Ponds",
-      "1983–84 Serie A",
-      "Constance Tipper",
-      "Rachel Mary Parsons",
-      "Winifred Pink",
-      "Katharine Parsons",
-      "CAPSTONE",
-      "Autoclave",
-      "Total Nonstop Action (pay-per-view series)",
-      "Eleanor Lausch",
-      "Quartier de la Madeleine",
-      "Antennaria virginica",
-      "2026 North Texas SC season",
-      "Legal Aid, Sentencing and Punishment of Offenders Act 2012"
+      "Bonnemaison",
+      "Kabori",
+      "Goldman Sachs controversies",
+      "Milky Way (film)",
+      "Wolfe Tones GAA (Chicago)",
+      "Aris Thessaloniki F.C.",
+      "Golam Mustafa",
+      "Corselitze Forest",
+      "List of Turkic mythological figures",
+      "Tuskaloosa chiefdom",
+      "Glenalmond College",
+      "Wuyuan River National Wetland Park",
+      "Bourré",
+      "Converse Basin Grove",
+      "Chibiverse",
+      "Jin Mingri",
+      "Srouji",
+      "Valanchery",
+      "Wungong Regional Park",
+      "List of Hunter × Hunter chapters"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -428,28 +428,29 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: node.js",
-      "github trending topic: windows",
-      "github trending topic: automation",
-      "github trending topic: react",
-      "github trending topic: css",
+      "github trending topic: database",
       "github trending topic: python",
+      "github trending topic: node.js",
       "github trending topic: compiler",
       "github trending topic: react native",
-      "github trending topic: ai-agents",
-      "github trending topic: npm",
-      "github trending topic: machine-learning",
-      "github trending topic: chrome",
-      "github trending topic: database",
-      "github trending topic: project management",
-      "github trending topic: code quality",
-      "github trending topic: scala",
       "github trending topic: javascript",
-      "github trending topic: typescript",
-      "github trending topic: awesome lists",
-      "github trending topic: llm",
+      "github trending topic: threats",
+      "github trending topic: nextjs",
       "github trending topic: front end",
-      "github trending topic: detection"
+      "github trending topic: typescript",
+      "github trending topic: detection",
+      "github trending topic: code quality",
+      "github trending topic: postgresql",
+      "github trending topic: llm",
+      "github trending topic: machine-learning",
+      "github trending topic: npm",
+      "github trending topic: project management",
+      "github trending topic: react",
+      "github trending topic: css",
+      "github trending topic: chrome",
+      "github trending topic: scala",
+      "github trending topic: data",
+      "github trending topic: awesome lists"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -474,22 +475,58 @@
       "name_zh": "AI助手"
     },
     {
-      "keyword": "Audio — tool from ProductHunt",
-      "matched": "audio",
-      "category": "media",
-      "subcat": "audio",
+      "keyword": "LLMs — tool from ProductHunt",
+      "matched": "llm",
+      "category": "ai",
+      "subcat": "ai-chat",
       "type": "tool",
-      "name": "Audio Editor",
-      "name_zh": "音频编辑器"
+      "name": "LLM Tool",
+      "name_zh": "大模型工具"
     },
     {
-      "keyword": "API — tool from ProductHunt",
-      "matched": "api",
-      "category": "dev",
-      "subcat": "api",
+      "keyword": "AI notetakers — tool from ProductHunt",
+      "matched": "note",
+      "category": "productivity",
+      "subcat": "text",
       "type": "tool",
-      "name": "API Tester",
-      "name_zh": "API测试工具"
+      "name": "Note Taker",
+      "name_zh": "笔记工具"
+    },
+    {
+      "keyword": "Marketing automation platforms — tool from ProductHunt",
+      "matched": "form",
+      "category": "dev",
+      "subcat": "web",
+      "type": "tool",
+      "name": "Form Builder",
+      "name_zh": "表单构建器"
+    },
+    {
+      "keyword": "Video editing — tool from ProductHunt",
+      "matched": "video",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Video Converter",
+      "name_zh": "视频格式转换器"
+    },
+    {
+      "keyword": "Graphic design tools — tool from ProductHunt",
+      "matched": "graph",
+      "category": "productivity",
+      "subcat": "data",
+      "type": "tool",
+      "name": "Graph Tool",
+      "name_zh": "图形工具"
+    },
+    {
+      "keyword": "Social \\u0026 Community — tool from ProductHunt",
+      "matched": "unit",
+      "category": "misc",
+      "subcat": "misc",
+      "type": "tool",
+      "name": "Unit Converter",
+      "name_zh": "单位换算"
     },
     {
       "keyword": "Tests Are SQL Files Too — user asking for tool recommendation (🔥3pts)",
@@ -555,15 +592,6 @@
       "name_zh": "编辑器"
     },
     {
-      "keyword": "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
-      "matched": "form",
-      "category": "dev",
-      "subcat": "web",
-      "type": "tool",
-      "name": "Form Builder",
-      "name_zh": "表单构建器"
-    },
-    {
       "keyword": "jsonmatter — npm package: JSON formatter tool by stream",
       "matched": "json",
       "category": "dev",
@@ -580,27 +608,27 @@
     "用 AI 生成一个小浣熊水浒卡鉴赏网站",
     "原来 FM 调频转播站晚上会关站",
     "Better Models: Worse Tools",
-    "Wispr Flow — tool from ProductHunt",
-    "Oz by Warp — tool from ProductHunt",
-    "Viktor Skills Marketplace — tool from ProductHunt",
-    "FocusBuddy (YC S24) — tool from ProductHunt",
+    "Engineering \\u0026 Development — tool from ProductHunt",
+    "Vibe Coding Tools — tool from ProductHunt",
+    "AI Coding Agents — tool from ProductHunt",
+    "LLMs — tool from ProductHunt",
+    "AI Chatbots — tool from ProductHunt",
+    "AI Infrastructure Tools — tool from ProductHunt",
     "Productivity — tool from ProductHunt",
-    "Artificial Intelligence — tool from ProductHunt",
-    "Audio — tool from ProductHunt",
-    "Tanay Kothari — tool from ProductHunt",
-    "Wispr Flow: Dictation That Works Everywhere — tool from ProductHunt",
-    "WorkBuddy — tool from ProductHunt",
-    "Tech — tool from ProductHunt",
-    "DocsAlot — tool from ProductHunt",
-    "API — tool from ProductHunt",
-    "SaaS — tool from ProductHunt",
-    "Bots — tool from ProductHunt",
-    "Endl — tool from ProductHunt",
-    "Fintech — tool from ProductHunt",
-    "Payments — tool from ProductHunt",
-    "Web3 — tool from ProductHunt",
-    "TryCase — tool from ProductHunt",
-    "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥42pts)",
+    "AI notetakers — tool from ProductHunt",
+    "Note and writing apps — tool from ProductHunt",
+    "Team collaboration software — tool from ProductHunt",
+    "Marketing \\u0026 Sales — tool from ProductHunt",
+    "Lead generation software — tool from ProductHunt",
+    "Marketing automation platforms — tool from ProductHunt",
+    "Design \\u0026 Creative — tool from ProductHunt",
+    "Video editing — tool from ProductHunt",
+    "Design resources — tool from ProductHunt",
+    "Graphic design tools — tool from ProductHunt",
+    "Social \\u0026 Community — tool from ProductHunt",
+    "Social Networking — tool from ProductHunt",
+    "Professional networking platforms — tool from ProductHunt",
+    "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥46pts)",
     "Show HN: Design Patterns for AI — user asking for tool recommendation (🔥4pts)",
     "Tests Are SQL Files Too — user asking for tool recommendation (🔥3pts)",
     "Return of RSS Feeds — user asking for tool recommendation (🔥4pts)",
@@ -621,10 +649,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 182,
+    "raw_count": 180,
     "valid_count": 45,
-    "rejected_count": 137,
-    "rejection_rate": 75.3,
+    "rejected_count": 135,
+    "rejection_rate": 75.0,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -639,12 +667,33 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 352,
-    "chatter_blocked": 8,
-    "chatter_rate": 2.3,
-    "tool_signals_found": 182,
-    "tool_signal_rate": 51.7,
+    "total_captured": 353,
+    "chatter_blocked": 11,
+    "chatter_rate": 3.1,
+    "tool_signals_found": 180,
+    "tool_signal_rate": 51.0,
     "chatter_samples": [
+      {
+        "text": "One Prompt, Many Moods: How to Generate a Full Week of Background Music from a S",
+        "category": "entertainment",
+        "matched": [
+          "Music"
+        ]
+      },
+      {
+        "text": "The Sound of \"Done\": Using AI Music Cues to Mark Creative Milestones and Beat Pr",
+        "category": "entertainment",
+        "matched": [
+          "Music"
+        ]
+      },
+      {
+        "text": "Genre Is Dead, Function Is Everything: Rethinking How Creators Choose Background",
+        "category": "entertainment",
+        "matched": [
+          "Music"
+        ]
+      },
       {
         "text": "Who's Hiring? - Support Edition - Q3 2026",
         "category": "job",
@@ -697,17 +746,10 @@
         ]
       },
       {
-        "text": "2026 North Texas SC season",
+        "text": "Milky Way (film)",
         "category": "entertainment",
         "matched": [
-          "season"
-        ]
-      },
-      {
-        "text": "granturismo — npm package: generator tool",
-        "category": "chatter",
-        "matched": [
-          "rant"
+          "film"
         ]
       }
     ],
@@ -789,7 +831,7 @@
         "text": "[新用户送 10 刀] 超低价 Codex API，最低每刀不到 0.05R，纯血 gpt plus 号池反代，可用 gpt5.5， gpt5.4, gpt-image2，稳定好用",
         "confidence": 15,
         "features": [
-          "技术概念: ['API', 'gpt']"
+          "技术概念: ['gpt', 'API']"
         ]
       },
       {
@@ -800,17 +842,17 @@
         ]
       },
       {
-        "text": "原来 FM 调频转播站晚上会关站",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('调频转播站晚上会关站', '转', '', '', '', '')]"
-        ]
-      },
-      {
         "text": "土区续费 GPT plus 还是 500 里拉",
         "confidence": 15,
         "features": [
           "技术概念: ['GPT']"
+        ]
+      },
+      {
+        "text": "原来 FM 调频转播站晚上会关站",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('调频转播站晚上会关站', '转', '', '', '', '')]"
         ]
       },
       {

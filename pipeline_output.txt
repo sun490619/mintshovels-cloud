@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-05T13:57:47.451572+00:00     ║
+║       启动时间: 2026-07-05T16:15:20.093067+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 352
-  🚫 闲聊拦截: 8 条 (2.3%)
-  🧠 工具信号: 189 条 (53.7%)
+  原始信号总量: 353
+  🚫 闲聊拦截: 11 条 (3.1%)
+  🧠 工具信号: 180 条 (51.0%)
 
   📋 闲聊拦截样例:
+     [entertainment] One Prompt, Many Moods: How to Generate a Full Week of Backg
+     [entertainment] The Sound of "Done": Using AI Music Cues to Mark Creative Mi
+     [entertainment] Genre Is Dead, Function Is Everything: Rethinking How Creato
      [job] Who's Hiring? - Support Edition - Q3 2026
      [news] AWS Introduces Amazon S3 Annotations <img src="https://res.i
-     [news] Oracle Quietly Halves Free Tier Ampere A1 Compute Limits wit
-     [news] SwiftUI Adds New Document Protocol, Improves Performance, an
-     [entertainment] Presentation: Enhancing Reliability Using Service-Level Prio
 
   🧠 工具信号样例:
      [置信度15%] claude-skills
@@ -99,7 +99,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['claude']
      [置信度15%] copilot-pull-request-reviewer
        ↳ 英文工具名词: ['viewer']
-     [置信度15%] What does the "yield" keyword do in P
+     [置信度15%] What does the "yie
 
 ✅ 雷达完成 — 16 条建议
 
@@ -108,15 +108,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 352 条
-     🚫 闲聊拦截: 8 条 (2.3%)
-     🧠 工具信号: 189 条 (53.7%)
-     闲聊样例: Who's Hiring? - Support Edition - Q3 2026... [job]
+     原始抓取: 353 条
+     🚫 闲聊拦截: 11 条 (3.1%)
+     🧠 工具信号: 180 条 (51.0%)
+     闲聊样例: One Prompt, Many Moods: How to Generate a Full Wee... [entertainment]
      工具信号样例: claude-skills... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 189 → 有效 45
-     拒绝率: 76.2%
+     工具信号 180 → 有效 45
+     拒绝率: 75.0%
 
   📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -152,7 +152,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-07-05T13:57:47.621594+00:00
+   Generated at: 2026-07-05T16:15:20.248013+00:00
    Already in catalog: 125 tools
    Previously produced: 0 tools
    Existing tool pages: 36 files
@@ -307,7 +307,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-05T13:57:47.451572+00:00 → 2026-07-05T13:57:58.791381+00:00
+  ⏱  耗时: 2026-07-05T16:15:20.093067+00:00 → 2026-07-05T16:15:35.430692+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
