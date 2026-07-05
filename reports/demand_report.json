@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T04:10:29.953530+00:00",
+  "generated_at": "2026-07-05T06:26:45.108725+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -104,28 +104,29 @@
     "v2ex": [
       "哎，婚姻的意义是什么",
       "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
-      "省到就是赚到？",
       "数字游民 有推荐的宜居城市吗？",
-      "哪些国家/地区可以数字游民转长居签证？",
+      "省到就是赚到？",
       "原来 FM 调频转播站晚上会关站",
-      "claude 老号被封",
-      "网传上海张江 AI 公司被三哥抱团要求加薪，锁代码库的事，真假？",
-      "Ai 时代，圆了我高中时的梦--建一个“炫酷”的个人网站",
-      "选岗求助：城商行科技岗还是文理学院专任教师岗"
+      "哪些国家/地区可以数字游民转长居签证？",
+      "用 AI 生成一个小浣熊水浒卡鉴赏网站",
+      "有一些生活中的烦恼，希望大佬们指点迷津",
+      "用 HK 节点 使用 Codex 时老是出现： stream disconnected before completion: tls handshake eof",
+      "claude 老号被封"
     ],
     "devto": [
       "DEV Community: programming",
-      "Top 17 Places to Buy Telegram Accounts safely in (PVA, Bulk, Cheap)",
-      "100 Battle-Tested AI Prompts for Developers - Free Preview",
-      "I Asked 3 AI Coding Tools to Fix the Same Bug. The Results Were Shocking.",
-      "Download all your AWS S3 bucket folders in single script",
-      "Stop Dumping Instructions Into CLAUDE.md — Use the 3-Layer Agent Harness",
-      "Event-Driven vs Request/Response: Service Boundary Decisions",
-      "How to Deploy Llama 2 on DigitalOcean for $5/Month",
-      "Top 11 Lightweight IDEs That Speed Up Python Coding in 2026",
-      "10 Modern Python Features You're Missing",
-      "I Cut OpenAI From My Stack And Saved 97%: Here's How",
-      "Cx Dev Log — 2026-07-04"
+      "The Push Notification Bug That Took Three Layers to Find",
+      "From MVP to Scale: My Take on Startup vs Enterprise AI APIs",
+      "CONDITIONAL STATEMENT",
+      "I Built an Enterprise VPN SaaS Platform Using Google AI Studio (Almost) with a Single Prompt",
+      "I Spent Weeks Comparing AI Models and the Prices Made Me Gasp",
+      "Binary Search: The One Ring to Rule Them All",
+      "Debugging Python Fights: An AI's Daily Drama",
+      "Growth of virtual gaming social spaces",
+      "Debugging Is a Search Problem: Bisect Everything",
+      "Why Python Developers Fail Default Mutable Argument Questions in Interviews",
+      "Global Phone &amp; Email Verification - Built Smarter. Priced Better.",
+      "AI's Existential Crisis: Recursion Edition (Or, Why My Fingers Are Safe)"
     ],
     "lobsters": [
       "Fourteener Lobsters",
@@ -136,17 +137,17 @@
       "Bad Epoll (CVE-2026-46242)",
       "The Lion, The Witch, and the audacity of recruiters",
       "Reducing Assumptions, Exploding Your Code",
+      "Dark mode with web standards",
       "Immich v3.0.0 Released",
       "thundersnap v0.01: an undo button for everything",
       "EndBASIC 0.14: Are we multimedia yet?",
+      "Scheme is a Hoot",
       "Who's Hiring? - Support Edition - Q3 2026",
-      "Dark mode with web standards",
-      "Magit 4.6 released",
       "Why don't people use git properly?",
+      "Magit 4.6 released",
+      "How to call Linux code from a Wine process",
       "FreeBSD ate my ram",
       "I Don't Maintain My Homelab",
-      "How to call Linux code from a Wine process",
-      "Why implementing ActivityPub is hard, and why it doesn't have to be",
       "Game Boy Advance Dev: Logging to the console"
     ],
     "producthunt": [
@@ -172,56 +173,55 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Leaking YouTube creators' private videos 🔥525pts 💬301",
-      "Explanation of everything you can see in htop/top on Linux (2019) 🔥425pts 💬55",
-      "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable 🔥410pts 💬157",
-      "Google Books (or similar) all book scans – $200k bounty (2025) 🔥372pts 💬199",
-      "Potential session/cache leakage between workspace instances or consumer accounts 🔥281pts 💬129",
-      "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance 🔥184pts 💬60",
-      "Zig: All Package Management Functionality Moved from Compiler to Build System 🔥161pts 💬33",
-      "The Vespa at 80 🔥151pts 💬138",
-      "Verizon is about to break our Gizmo watches 🔥149pts 💬92",
-      "What ORMs have taught me: just learn SQL (2014) 🔥139pts 💬182",
-      "Fable created novel 4D splat format 🔥130pts 💬48",
-      "Better Models: Worse Tools 🔥123pts 💬38",
-      "\"Beyond the limit\": Satellites and mirrors in space pose threat to the night sky 🔥113pts 💬203",
-      "Drone Physics 🔥97pts 💬27",
-      "Windows CE Dreamcast Community Edition (wince-dc) 🔥96pts 💬21",
-      "As downtown Seattle offices empty, city facing years of 'zombie' towers 🔥79pts 💬112",
-      "It's not me, it's the compiler 🔥73pts 💬11",
-      "Jellyfish can heal wounds in minutes. Scientists want their secrets 🔥63pts 💬16",
-      "Egg consumption inversely correlated with Alzheimer's 🔥53pts 💬32",
-      "Meta's Un-Stable Signature",
-      "Reflections on the Guillotine (1957)",
-      "University of Oxford Is Older Than the Aztec Empire and Other Facts of History (2013)",
+      "Leaking YouTube creators' private videos 🔥564pts 💬314",
+      "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable 🔥481pts 💬191",
+      "Google Books (or similar) all book scans – $200k bounty (2025) 🔥413pts 💬225",
+      "Potential session/cache leakage between workspace instances or consumer accounts 🔥286pts 💬130",
+      "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance 🔥224pts 💬78",
+      "Zig: All Package Management Functionality Moved from Compiler to Build System 🔥173pts 💬43",
+      "What ORMs have taught me: just learn SQL (2014) 🔥155pts 💬189",
+      "Better Models: Worse Tools 🔥144pts 💬45",
+      "\"Beyond the limit\": Satellites and mirrors in space pose threat to the night sky 🔥129pts 💬213",
+      "If you're a button, you have one job 🔥107pts 💬32",
+      "Jellyfish can heal wounds in minutes. Scientists want their secrets 🔥88pts 💬17",
+      "Shadcn/UI now defaults to Base UI instead of Radix 🔥58pts 💬7",
+      "Meta's Un-Stable Signature 🔥56pts 💬2",
+      "President pardons 9 for Clean Air violations for 'fixing their car' 🔥55pts 💬21",
+      "Atomic Force Microscope high-speed video, stainless etching, bacteria, and more",
       "Return of the Nigerian Prince Redux: Beware Book Club and Book Review Scams (2025)",
-      "If you're a button, you have one job",
-      "Atomic Force Microscope high-speed video, stainless etching, bacteria, and more"
+      "Drone Autonomy Crash Course",
+      "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii",
+      "Efficacy and Safety of Psilocybin in Treatment-Resistant Major Depression",
+      "Artful Cats: Feline-Inspired Art and Artifacts",
+      "Protocol Prying: Vulnerability Research in AirDrop and Quick Share",
+      "The Log Is the Agent",
+      "Moby Dick Workout",
+      "How to organize 3 acquired companies into one coherent website",
+      "Mouse: Precision Editing Tools for AI Coding Agents"
     ],
     "hn_show": [
-      "Inches to CM converter with charts and screen size references — featured on Hacker News (🔥1pts)",
-      "How do you guys keep your journey diaries? — featured on Hacker News (🔥1pts)",
-      "Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device — featured on Hacker News (🔥2pts)",
-      "Minesweeper.free – Play minesweeper online free — featured on Hacker News (🔥2pts)",
+      "Onboard-CLI, an AST-based tool to detect architectural drift — featured on Hacker News (🔥1pts)",
+      "Codex-review – a read-only cross-model review skill for Claude Code — featured on Hacker News (🔥1pts)",
+      "Inches to CM converter with charts and screen size references — featured on Hacker News (🔥2pts)",
+      "How do you guys keep your journey diaries? — featured on Hacker News (🔥2pts)",
+      "Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device — featured on Hacker News (🔥3pts)",
+      "Minesweeper.free – Play minesweeper online free — featured on Hacker News (🔥3pts)",
       "Inches to MM converter for manufacturing and hardware checks — featured on Hacker News (🔥3pts)",
       "Two-tier-memory – queryable long-term memory for AI coding agents — featured on Hacker News (🔥2pts)",
       "WifeBench – My wife vibes LLM rankings — featured on Hacker News (🔥2pts)",
-      "Isthistechdead.com got a full UI revamp — featured on Hacker News (🔥2pts)",
+      "Isthistechdead.com got a full UI revamp — featured on Hacker News (🔥4pts)",
       "Apple Foundation Model in Xcode-Beta — featured on Hacker News (🔥2pts)",
       "Desunofier – Removing shimmer from Suno songs — featured on Hacker News (🔥3pts)",
       "Markdown to PDF CLI Tool — featured on Hacker News (🔥5pts)",
-      "Mise – A keyboard-driven Python/Qt6 browser built for fanless laptops — featured on Hacker News (🔥5pts)",
+      "Mise – A keyboard-driven Python/Qt6 browser built for fanless laptops — featured on Hacker News (🔥6pts)",
       "Seize the means of production from our agentic overlords — featured on Hacker News (🔥3pts)",
       "I built an encrypted BLE dongle for pasting stuff to air-gapped devices — featured on Hacker News (🔥5pts)",
-      "Using Wake-on-LAN for an AI Project — featured on Hacker News (🔥2pts)",
-      "Grade your code's post-quantum crypto exposure A–F, free, in-browser — featured on Hacker News (🔥3pts)",
-      "TeXposit – LaTeX and Markdown Editor — featured on Hacker News (🔥2pts)",
-      "Waypoint.nvim – A Neovim plugin for bookmarking lines of code — featured on Hacker News (🔥9pts)"
+      "Using Wake-on-LAN for an AI Project — featured on Hacker News (🔥2pts)"
     ],
     "hn_ask_tools": [
       "Retrieval is not the future of AI – if it was, Google would have won already — user asking for tool recommendation (🔥3pts)",
       "Tests Are SQL Files Too — user asking for tool recommendation (🔥3pts)",
-      "Show HN: Routing24 – free route optimization agent for Claude Cowork/WebMCP — user asking for tool recommendation (🔥3pts)",
+      "Show HN: Routing24 – free route optimization agent for Claude Cowork/WebMCP — user asking for tool recommendation (🔥4pts)",
       "Show HN: Scout.kids – Agents that find activies for families — user asking for tool recommendation (🔥4pts)",
       "Show HN: How clanker are you? A reverse Turing test — user asking for tool recommendation (🔥10pts)",
       "Show HN: Emra – A workspace where every app you build shares one db — user asking for tool recommendation (🔥3pts)",
@@ -235,7 +235,7 @@
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
       "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device — user asking for tool recommendation (🔥3pts)",
       "I built a environment reloader for Windows Shells — user asking for tool recommendation (🔥3pts)",
       "Show HN: Psycurate – Curated place for privacy-first, free psychological tools — user asking for tool recommendation (🔥1pts)",
       "Show HN: A tool to help people in social situations — user asking for tool recommendation (🔥3pts)",
@@ -288,60 +288,60 @@
       "HeroUI v3 Lands as a Ground-Up Rewrite for React and React Native, Built on Tailwind CSS v4 <img src=\"https://res.infoq.com/news/2026/07/heroui-v3-rewrite/en/headerimage/generatedHeaderImage-1782890990794.jpg\"/><p>HeroUI v3 is a redesigned Re"
     ],
     "google_trends": [
-      "trump age",
-      "brad paisley",
-      "arizona diamondbacks",
-      "fireworks los angeles",
-      "fireworks seattle",
-      "lupita nyong'o",
-      "hamilton",
-      "katherine heigl",
-      "brandon woodruff",
-      "chicago fireworks 2026"
+      "will smith",
+      "denzel washington",
+      "coney island shooting",
+      "flood warning",
+      "newport beach news",
+      "waikiki fireworks",
+      "provo fire",
+      "seattle fireworks",
+      "westgate shooting",
+      "chelan hills fire"
     ],
     "baidu": [
       "敢为人先的改革精神",
-      "巴拉圭门将赛后用球砸姆巴佩",
-      "为找稀土 日本开始拆空调了",
+      "人民日报：告别查家底 找回教育初心",
+      "马宁的含金量还在上升",
       "“人造太阳”时间表更新",
+      "3岁女童被喂到70斤吃播赚流量",
+      "泰安市民多次见动物挂“刀片网”死亡",
       "十几元一件的网红裤已让很多人社死",
-      "配音从业者几乎成为“免费劳动力”",
-      "5条狗出逃3小时致1死1伤 主人获刑",
-      "巴拉圭法国冲突",
-      "人民日报：自动续费的坑平台得填",
-      "河南西瓜滞销 瓜农：1瓶水能换3个瓜",
-      "法国1-0小胜巴拉圭晋级8强",
+      "为找稀土 日本开始拆空调了",
+      "老人月入2万与儿媳争财产败诉",
+      "女子蹭弟媳车 没开空调把娃热炸毛",
+      "网红打车到拉萨视频爆火 被奖励50万",
       "“石宇为石学敏院士长子”不实",
-      "王力宏耳朵缝了27针 脸缝了12针",
-      "女子确诊肺癌晚期在地铁上介绍自己",
       "网络情感导师：搭讪10分钟能发生关系",
-      "中气爱：超强台风巴威很可能登陆",
-      "吴京李连杰为师父贺90岁大寿",
-      "姆巴佩真的生气了",
-      "王曼昱蒯曼击败日本组合夺冠",
-      "金价结束四周连跌"
+      "蒯曼4比3逆转佐藤瞳晋级4强",
+      "巴拉圭门将赛后用球砸姆巴佩",
+      "王力宏耳朵缝了27针 脸缝了12针",
+      "警方通报女孩摸自行车把手遭掌掴",
+      "河南西瓜滞销 瓜农：1瓶水能换3个瓜",
+      "5条狗出逃3小时致1死1伤 主人获刑",
+      "姆巴佩真的生气了"
     ],
     "wikipedia": [
-      "Packs (band)",
-      "Eladio González Garza",
-      "David Turner (dramatist)",
-      "Reach Angkar Thom",
-      "2026–27 AC Monza season",
-      "The Singer in the Mask season 4",
-      "KNPR",
-      "Murder of Ashley Smylie",
-      "KS, MO",
-      "Vasyl Stepanchenko",
-      "Wii Party",
-      "Barbie",
-      "Grigg (crater)",
-      "Sonic the Hedgehog (2006 video game)",
-      "Beavis and Butt-Head",
-      "Association of Southeast Asia",
-      "Cicadellini",
-      "California Baptist Lancers men's basketball statistical leaders",
-      "Stalinon",
-      "Stalinon"
+      "Little Lungs in a Great Big World",
+      "The Girl Who Loved Animals",
+      "James Higginson (filmmaker)",
+      "Titan Merchandise",
+      "William Big Springs",
+      "Gibraltar Falls (short story)",
+      "Edgar A. Cohen",
+      "Fish Cheeks",
+      "Ibu Mertua-ku",
+      "Brandon Landers",
+      "Stan Poray",
+      "Martin of Jumièges",
+      "David Parrish",
+      "List of Czech writers",
+      "Eddie Arroyo",
+      "Alan Lynch (artist)",
+      "Oliver Wolcott Jr.",
+      "Yuji Itadori",
+      "The Comet (short story)",
+      "Larry Littlebird"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -426,39 +426,49 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
+      "github trending topic: compiler",
+      "github trending topic: ai-agents",
       "github trending topic: awesome lists",
+      "github trending topic: node.js",
+      "github trending topic: nextjs",
+      "github trending topic: llm",
+      "github trending topic: css",
       "github trending topic: javascript",
-      "github trending topic: chrome",
-      "github trending topic: database",
-      "github trending topic: claude-code",
-      "github trending topic: project management",
-      "github trending topic: react native",
+      "github trending topic: react",
       "github trending topic: python",
       "github trending topic: scala",
-      "github trending topic: cli",
+      "github trending topic: typescript",
+      "github trending topic: chrome",
+      "github trending topic: postgresql",
+      "github trending topic: project management",
+      "github trending topic: machine-learning",
       "github trending topic: front end",
-      "github trending topic: node.js",
-      "github trending topic: react",
       "github trending topic: npm",
       "github trending topic: code quality",
-      "github trending topic: compiler",
-      "github trending topic: typescript",
-      "github trending topic: css",
-      "github trending topic: html",
-      "github trending topic: developer-tools"
+      "github trending topic: react native",
+      "github trending topic: database"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
     {
-      "keyword": "I Asked 3 AI Coding Tools to Fix the Same Bug. The Results Were Shocking.",
+      "keyword": "用 AI 生成一个小浣熊水浒卡鉴赏网站",
       "matched": "ai",
       "category": "ai",
       "subcat": "ai-chat",
       "type": "tool",
       "name": "AI Assistant",
       "name_zh": "AI助手"
+    },
+    {
+      "keyword": "From MVP to Scale: My Take on Startup vs Enterprise AI APIs",
+      "matched": "api",
+      "category": "dev",
+      "subcat": "api",
+      "type": "tool",
+      "name": "API Tester",
+      "name_zh": "API测试工具"
     },
     {
       "keyword": "LLMs — tool from ProductHunt",
@@ -598,9 +608,10 @@
   ],
   "all_keywords": [
     "chrome-devtools-mcp",
-    "哪些国家/地区可以数字游民转长居签证？",
     "原来 FM 调频转播站晚上会关站",
-    "I Asked 3 AI Coding Tools to Fix the Same Bug. The Results Were Shocking.",
+    "哪些国家/地区可以数字游民转长居签证？",
+    "用 AI 生成一个小浣熊水浒卡鉴赏网站",
+    "From MVP to Scale: My Take on Startup vs Enterprise AI APIs",
     "Better Models: Worse Tools",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -622,10 +633,12 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Better Models: Worse Tools 🔥123pts 💬38",
+    "Better Models: Worse Tools 🔥144pts 💬45",
+    "Mouse: Precision Editing Tools for AI Coding Agents",
     "Tests Are SQL Files Too — user asking for tool recommendation (🔥3pts)",
     "Show HN: Document to Excel Converter — user asking for tool recommendation (🔥2pts)",
     "Return of RSS Feeds — user asking for tool recommendation (🔥4pts)",
+    "蒯曼4比3逆转佐藤瞳晋级4强",
     "electra-base-discriminator",
     "electra-base-discriminator",
     "tgt — npm package: tpl generator tool",
@@ -640,14 +653,13 @@
     "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "prettier — npm package: Prettier is an opinionated code formatter",
-    "sass-formatter — npm package: TypeScript Sass formatter",
-    "github trending topic: developer-tools"
+    "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 186,
-    "valid_count": 45,
+    "raw_count": 188,
+    "valid_count": 47,
     "rejected_count": 141,
-    "rejection_rate": 75.8,
+    "rejection_rate": 75.0,
     "rejected_samples": [
       "allcontributors",
       "What does the \"yield\" keyword do in Python?",
@@ -658,21 +670,24 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
-      "claude 老号被封"
+      "用 HK 节点 使用 Codex 时老是出现： stream disconnected before completion: tls handshake eof"
     ]
   },
   "trait_analysis": {
-    "total_captured": 348,
+    "total_captured": 349,
     "chatter_blocked": 11,
     "chatter_rate": 3.2,
-    "tool_signals_found": 186,
-    "tool_signal_rate": 53.4,
+    "tool_signals_found": 188,
+    "tool_signal_rate": 53.9,
     "chatter_samples": [
       {
-        "text": "Event-Driven vs Request/Response: Service Boundary Decisions",
-        "category": "chatter",
+        "text": "AI's Existential Crisis: Recursion Edition (Or, Why My Fingers Are Safe)",
+        "category": "news",
         "matched": [
-          "vent"
+          [
+            "Crisis",
+            ""
+          ]
         ]
       },
       {
@@ -683,10 +698,30 @@
         ]
       },
       {
-        "text": "Google Books (or similar) all book scans – $200k bounty (2025) 🔥372pts 💬199",
+        "text": "Google Books (or similar) all book scans – $200k bounty (2025) 🔥413pts 💬225",
         "category": "job",
         "matched": [
           "$200k"
+        ]
+      },
+      {
+        "text": "President pardons 9 for Clean Air violations for 'fixing their car' 🔥55pts 💬21",
+        "category": "news",
+        "matched": [
+          [
+            "President",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "Record-breaking solo rower Kelsey Pfendler arrives in Hawaii",
+        "category": "news",
+        "matched": [
+          [
+            "breaking",
+            ""
+          ]
         ]
       },
       {
@@ -724,25 +759,13 @@
         ]
       },
       {
-        "text": "2026–27 AC Monza season",
-        "category": "entertainment",
+        "text": "flood warning",
+        "category": "news",
         "matched": [
-          "season"
-        ]
-      },
-      {
-        "text": "The Singer in the Mask season 4",
-        "category": "entertainment",
-        "matched": [
-          "Singer",
-          "season"
-        ]
-      },
-      {
-        "text": "California Baptist Lancers men's basketball statistical leaders",
-        "category": "entertainment",
-        "matched": [
-          "basketball"
+          [
+            "flood",
+            ""
+          ]
         ]
       }
     ],
@@ -822,13 +845,6 @@
         ]
       },
       {
-        "text": "哪些国家/地区可以数字游民转长居签证？",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('地区可以数字游民转长居签证', '转', '', '', '', '')]"
-        ]
-      },
-      {
         "text": "原来 FM 调频转播站晚上会关站",
         "confidence": 20,
         "features": [
@@ -836,25 +852,31 @@
         ]
       },
       {
+        "text": "哪些国家/地区可以数字游民转长居签证？",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('地区可以数字游民转长居签证', '转', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "用 AI 生成一个小浣熊水浒卡鉴赏网站",
+        "confidence": 30,
+        "features": [
+          "中文动作特征: ['生成']"
+        ]
+      },
+      {
+        "text": "用 HK 节点 使用 Codex 时老是出现： stream disconnected before completion: tls handshake eof",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['tls']"
+        ]
+      },
+      {
         "text": "claude 老号被封",
         "confidence": 15,
         "features": [
           "技术概念: ['claude']"
-        ]
-      },
-      {
-        "text": "Top 17 Places to Buy Telegram Accounts safely in (PVA, Bulk, Cheap)",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('Places to Buy', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "I Asked 3 AI Coding Tools to Fix the Same Bug. The Results Were Shocking.",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('Coding Tools', 'To', '', '', '', '')]",
-          "英文工具名词: ['tool']"
         ]
       }
     ]
