@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-05T04:10:29.805779+00:00     ║
+║       启动时间: 2026-07-05T09:17:34.838686+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -33,7 +33,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [4/25] Fetching V2EX...
   ✅ 10 topics
 🔍 [12/25] Fetching Dev.to...
-  ✅ 12 articles
+  ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
   ✅ 20 items
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 20 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 348
-  🚫 闲聊拦截: 11 条 (3.2%)
-  🧠 工具信号: 186 条 (53.4%)
+  原始信号总量: 351
+  🚫 闲聊拦截: 14 条 (4.0%)
+  🧠 工具信号: 185 条 (52.7%)
 
   📋 闲聊拦截样例:
-     [chatter] Event-Driven vs Request/Response: Service Boundary Decisions
+     [news] The Matrix of Problem Solving: Breaking Down Complex Problem
      [job] Who's Hiring? - Support Edition - Q3 2026
      [job] Google Books (or similar) all book scans – $200k bounty (202
-     [job] Career Suggestion: What would you do if you are in this situ
-     [news] Oracle Quietly Halves Free Tier Ampere A1 Compute Limits wit
+     [news] Record-breaking solo rower Kelsey Pfendler arrives in Hawaii
+     [chatter] EV Batteries Are Defying Expectations After Miles
 
   🧠 工具信号样例:
      [置信度35%] chrome-devtools-mcp
@@ -98,7 +98,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 英文工具名词: ['tool']
      [置信度20%] allcontributors
        ↳ 输入→输出链式: [('allcontributors', 'to', '', '', '', '')]
-     [置信度15%] What does the "yield" k
+     [置信度15%] What does the "yield" keyword do 
 
 ✅ 雷达完成 — 16 条建议
 
@@ -107,15 +107,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 348 条
-     🚫 闲聊拦截: 11 条 (3.2%)
-     🧠 工具信号: 186 条 (53.4%)
-     闲聊样例: Event-Driven vs Request/Response: Service Boundary... [chatter]
+     原始抓取: 351 条
+     🚫 闲聊拦截: 14 条 (4.0%)
+     🧠 工具信号: 185 条 (52.7%)
+     闲聊样例: The Matrix of Problem Solving: Breaking Down Compl... [news]
      工具信号样例: chrome-devtools-mcp... [置信度35%]
 
   📊 硬核过滤器统计:
-     工具信号 186 → 有效 45
-     拒绝率: 75.8%
+     工具信号 185 → 有效 43
+     拒绝率: 76.8%
 
   📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -151,7 +151,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-07-05T04:10:29.953530+00:00
+   Generated at: 2026-07-05T09:17:34.992558+00:00
    Already in catalog: 124 tools
    Previously produced: 0 tools
    Existing tool pages: 35 files
@@ -304,7 +304,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-05T04:10:29.805779+00:00 → 2026-07-05T04:10:42.498989+00:00
+  ⏱  耗时: 2026-07-05T09:17:34.838686+00:00 → 2026-07-05T09:17:46.043768+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
