@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T21:45:26.436265+00:00",
+  "generated_at": "2026-07-05T22:08:30.760224+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -108,40 +108,40 @@
       "用 AI 生成一个小浣熊水浒卡鉴赏网站",
       "土区续费 GPT plus 还是 500 里拉",
       "原来 FM 调频转播站晚上会关站",
+      "Claude 被封了也不要去用 codex",
       "以前值钱的东西，现在都不值钱了，老登资产被时代抛弃",
       "用 HK 节点 使用 Codex 时老是出现： stream disconnected before completion: tls handshake eof",
-      "Claude 被封了也不要去用 codex",
       "AI 编程到底多强？亲身案例分享给你！"
     ],
     "devto": [
       "DEV Community: programming",
+      "DeepSeek vs Qwen vs Kimi vs GLM: Which One Should You Actually Use?",
+      "100 Battle-Tested AI Prompts for Developers - Free Preview",
+      "The Python Developer's Toolkit: 10 Must-Know Libraries",
+      "How to Choose Between Cache First, Network First, and Stale-While-Revalidate",
+      "The Second Brain They Can’t Subpoena: Local RAG on a Pi 5",
       "Build a Bulletproof Claude Code JSONL Parser",
       "Anthropic's Fable 5 gets production workshop series from @_vmlops",
       "Sakana Fugu: How Collaborative AI is Changing the Game",
       "Intro to Frontend Authory 2026: Stay tuned!",
       "The R‑Model: How Neural Networks Evolve Without Consciousness",
       "Buy Old Gmail Accounts- 2.0",
-      "Docker vs VM",
-      "Run LLMs Locally with Ollama in 2026: The Practical Developer Guide",
-      "I Cut My OpenAI Bill By 40x: A Data Scientist's Migration",
-      "Why Website Performance Matters More Than Ever in 2026",
-      "Salam is a general-purpose and systems programming language designed for efficient software development",
-      "Download Morkull Ascend to the Gods NSP Full Game Latest 2026"
+      "Docker vs VM"
     ],
     "lobsters": [
       "If you’re a button, you have one job",
       "Fourteener Lobsters",
       "Returning to Zig",
       "Better Models: Worse Tools",
-      "ABI vs. API (2004)",
       "Rayfish - P2P VPN built on top of Iroh",
+      "ABI vs. API (2004)",
       "Run Windows 2000 on a DEC Alpha with a new es40 fork",
       "Work In Progress Rust",
       "How is Zig working out after 3 years and 100k lines of game code?",
+      "Installing A/UX 1.1 like it’s the 90s",
       "The Lion, The Witch, and the audacity of recruiters",
       "small details in my mastodon client that i wanted more people to notice",
       "Embedding information in disorder",
-      "Installing A/UX 1.1 like it’s the 90s",
       "Bad Epoll (CVE-2026-46242)",
       "Do Wavy Walls Really Use Fewer Bricks? I Tested It in Blender",
       "Dark mode with web standards",
@@ -173,55 +173,55 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Organic Maps 🔥685pts 💬196",
-      "EU Council forces Chat Control via fast-track 🔥365pts 💬201",
-      "Introduction to Compilers and Language Design (2021) 🔥245pts 💬42",
-      "It's not about physical vs. digital games, it's about ownership 🔥210pts 💬155",
-      "The future of Flipper Zero development 🔥147pts 💬27",
-      "Starring the Computer 🔥133pts 💬32",
-      "The great blogging collapse: What happened to 100 successful blogs? 🔥127pts 💬100",
-      "Small Penis Rule 🔥98pts 💬31",
-      "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf] 🔥87pts 💬55",
-      "Run Windows 2000 on a DEC Alpha with a new es40 fork 🔥84pts 💬45",
-      "OpenWiki: CLI that writes and maintains agent documentation for your codebase 🔥76pts 💬20",
-      "Airplane Boneyards List and Map 🔥71pts 💬12",
-      "Jim Keller's startup is building a factory to mass-produce small chip fabs 🔥62pts 💬12",
-      "Mr. Baby Paint and accidentally discovering a new cellular automata 🔥53pts 💬9",
-      "Reparaible and open source paper printer",
+      "Organic Maps 🔥693pts 💬198",
+      "Introduction to Compilers and Language Design (2021) 🔥248pts 💬42",
+      "It's not about physical vs. digital games, it's about ownership 🔥221pts 💬164",
+      "The future of Flipper Zero development 🔥152pts 💬32",
+      "Starring the Computer 🔥135pts 💬32",
+      "The great blogging collapse: What happened to 100 successful blogs? 🔥131pts 💬102",
+      "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf] 🔥93pts 💬57",
+      "Run Windows 2000 on a DEC Alpha with a new es40 fork 🔥87pts 💬45",
+      "Reparaible and open source paper printer 🔥78pts 💬22",
+      "OpenWiki: CLI that writes and maintains agent documentation for your codebase 🔥78pts 💬22",
+      "Airplane Boneyards List and Map 🔥72pts 💬12",
+      "Jim Keller's startup is building a factory to mass-produce small chip fabs 🔥70pts 💬13",
+      "Mr. Baby Paint and accidentally discovering a new cellular automata 🔥62pts 💬11",
       "Installing A/UX 1.1 like it's the 90s",
       "Why DMARC's new \"NP\" tag can fail with DNSSEC",
       "You need a webring",
       "Papa Johns Can Predict When Your Fridge Is Empty",
+      "Completing a Computer Science Degree on Coursera",
       "Optimizing an algorithm that's quadratic by design",
       "We Always Leave Things Unfinished",
+      "Cursed circuits #5: capacitance multiplier",
+      "Show HN: Homegames. An open-source game platform I've been making for 8 years",
       "How to organize 3 acquired companies into one coherent website",
-      "Conway's Game of Life, in real life",
-      "Completing a Computer Science Degree on Coursera",
+      "Dungeon Proof Crawler: learn how to write proofs with RPG",
       "Pint in England"
     ],
     "hn_show": [
-      "Homegames. An open-source game platform I've been making for 8 years — featured on Hacker News (🔥5pts)",
+      "Homegames. An open-source game platform I've been making for 8 years — featured on Hacker News (🔥16pts)",
       "Can I Walk My Dog? Weather-based safety calculator for dog walks — featured on Hacker News (🔥2pts)",
       "Thunderstorm tracker for Mexico England world cup game — featured on Hacker News (🔥2pts)",
       "clip.video - Turn podcasts and long videos into short vertical clips — featured on Hacker News (🔥2pts)",
       "Sidenote – comment on your rendered blog, an LLM writes the Git diff — featured on Hacker News (🔥2pts)",
       "A bedside camera detects REM sleep and agrees with a clinical EEG — featured on Hacker News (🔥3pts)",
-      "Osint tool that finds exposed files on domains — featured on Hacker News (🔥7pts)",
+      "Osint tool that finds exposed files on domains — featured on Hacker News (🔥14pts)",
       "Open-source guided code reviews — featured on Hacker News (🔥3pts)",
-      "Social and context-aware AI platform to do math — featured on Hacker News (🔥3pts)",
+      "Social and context-aware AI platform to do math — featured on Hacker News (🔥4pts)",
       "3·6·9 COMMANDER, a turn-based strategy card game — featured on Hacker News (🔥4pts)",
-      "TrainSim – a browser train tycoon — featured on Hacker News (🔥2pts)",
-      "Make No Mistakes – AI coding agents must prove their work — featured on Hacker News (🔥1pts)",
+      "TrainSim – a browser train tycoon — featured on Hacker News (🔥3pts)",
+      "Make No Mistakes – AI coding agents must prove their work — featured on Hacker News (🔥3pts)",
       "Nomlings – a virtual pet that eats your Claude Code session's tokens — featured on Hacker News (🔥4pts)",
       "Video Effects SDK – Face Avatars — featured on Hacker News (🔥2pts)",
       "Diffy – browser extension for faster GitHub PR review experience — featured on Hacker News (🔥3pts)",
       "Pgconverge – An experimental multi-master PostgreSQL framework in Go — featured on Hacker News (🔥2pts)",
       "GameFork – AI agents publish and fork browser games via MCP — featured on Hacker News (🔥2pts)",
-      "Keyboard-first Hacker News client with a twist — featured on Hacker News (🔥1pts)",
-      "Sun light and path calculation for photography — featured on Hacker News (🔥2pts)"
+      "Keyboard-first Hacker News client with a twist — featured on Hacker News (🔥2pts)",
+      "Sun light and path calculation for photography — featured on Hacker News (🔥3pts)"
     ],
     "hn_ask_tools": [
-      "Show HN: microide, a 100% vibecoded IDE that LLM agents can drive — user asking for tool recommendation (🔥2pts)",
+      "Show HN: microide, a 100% vibecoded IDE that LLM agents can drive — user asking for tool recommendation (🔥3pts)",
       "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥89pts)",
       "Show HN: Design Patterns for AI — user asking for tool recommendation (🔥4pts)",
       "Show HN: Selbstbild – What Fable 5 thinks of your HN comment history — user asking for tool recommendation (🔥3pts)",
@@ -237,13 +237,13 @@
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
       "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
-      "Show HN: I hated how much my 12-year-old played Roblox, so we built our own FPS — user asking for tool recommendation (🔥4pts)",
+      "Show HN: I hated how much my 12-year-old played Roblox, so we built our own FPS — user asking for tool recommendation (🔥5pts)",
       "Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device — user asking for tool recommendation (🔥3pts)",
       "I built a environment reloader for Windows Shells — user asking for tool recommendation (🔥3pts)",
       "Show HN: Psycurate – Curated place for privacy-first, free psychological tools — user asking for tool recommendation (🔥1pts)",
       "Ask HN: What metrics do you track when building agents? — user asking for tool recommendation (🔥2pts)",
       "Show HN: Pgconverge – An experimental multi-master PostgreSQL framework in Go — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Plan your multi-day hut hikes in the alps — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Plan your multi-day hut hikes in the alps — user asking for tool recommendation (🔥3pts)",
       "Show HN: I built an encrypted BLE dongle for pasting stuff to air-gapped devices — user asking for tool recommendation (🔥5pts)",
       "Show HN: Local privacy-first Microsoft Recall alternative with Gemma 4 — user asking for tool recommendation (🔥12pts)",
       "Show HN: StayThere.ai - Book directly at over 96k short term rentals — user asking for tool recommendation (🔥3pts)",
@@ -290,16 +290,16 @@
       "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>Instacart redesigned its personalized marketing system using a configur"
     ],
     "google_trends": [
-      "leonardo dicaprio",
-      "s&p 500 2026 market prediction",
-      "powerball july 4 2026 jackpot",
-      "chris rock",
-      "endrick brazil",
-      "jalen brunson",
-      "zombieland",
-      "club de futbol cruz azul femenil",
-      "riley greene",
-      "carlos carrasco"
+      "golden boot race 2026",
+      "golden boot",
+      "haaland goals in world cup 2026",
+      "fifa ranking 2026",
+      "mexico city weather",
+      "china",
+      "world cup winners list",
+      "pavel mintyukov",
+      "goleadores del mundial 2026",
+      "manchester united"
     ],
     "baidu": [
       "不断创造无愧于时代和人民的新业绩",
@@ -312,38 +312,38 @@
       "C罗：美加墨是我最后一届世界杯",
       "暂停蒋方舟导师研究生招生资格1年",
       "C罗笑谈阿根廷人都不喜欢自己",
-      "哈兰德大战巴西前“从头开始”备战",
+      "老人看牙遭全口拔光 医院被顶格处罚",
       "广州辟谣征集解禁摩托意见",
       "废品遇上鬼秤一笔差价上万元",
       "“东风快递”送达画面曝光",
-      "美国头号射手巴洛贡禁赛处罚暂缓执行",
-      "巴西英格兰力争破“魔咒”",
       "佛得角队回国 机场人山人海",
-      "老人看牙遭全口拔光 医院被顶格处罚",
+      "电诈人员用AI同时和100多人聊天",
+      "空调为啥必须要有外机",
+      "美国头号射手巴洛贡禁赛处罚暂缓执行",
       "高原反应？英格兰主帅称在酒店头疼",
-      "电诈人员用AI同时和100多人聊天"
+      "哈梅内伊三个儿子现身告别仪式"
     ],
     "wikipedia": [
-      "San Clemente, Venice",
-      "Haysfield Airport",
-      "Italia (airship)",
-      "Rent control in Massachusetts",
-      "Yusuke Shimada",
-      "Fungu Yasini Island",
-      "Hanamaki Airport",
-      "The Adventures of Paddy the Pelican",
-      "Remittitur",
-      "Mudeford Lifeboat Station",
-      "Fundy National Park",
-      "Hamilton Airport (Victoria)",
-      "13th Carabinieri Regiment",
-      "Zenda, Virginia",
-      "Dentyl pH",
-      "Hamadan International Airport",
-      "Fundy Biosphere Reserve",
-      "Hakodate Airport",
-      "Funagata Renpō Prefectural Natural Park",
-      "Brenner (crater)"
+      "NBA Sixth Man of the Year",
+      "Banglalink",
+      "Bokoro Airport (Democratic Republic of the Congo)",
+      "Boké Baralande Airport",
+      "List of male underwear models",
+      "Gosho Park",
+      "Família é Tudo",
+      "Waccamaw Siouan Indians",
+      "Derk Mah Shuri",
+      "Boende Airport",
+      "2026 FIFA World Cup knockout stage",
+      "Bodaybo Airport",
+      "They All Get Guns",
+      "Oneida (town), Wisconsin",
+      "I Have No Mouth, and I Must Scream",
+      "Tomáš Cahlík",
+      "Whitney Reynolds",
+      "Clara-Jumi Kang",
+      "Blue Canyon–Nyack Airport",
+      "David Møller Wolfe"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -428,28 +428,31 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: python",
-      "github trending topic: database",
-      "github trending topic: chrome",
-      "github trending topic: tg-ws-proxy",
-      "github trending topic: javascript",
-      "github trending topic: typescript",
-      "github trending topic: awesome lists",
-      "github trending topic: compiler",
-      "github trending topic: react",
-      "github trending topic: code quality",
-      "github trending topic: front end",
-      "github trending topic: css",
-      "github trending topic: music-production",
-      "github trending topic: tg-proxy",
-      "github trending topic: postgresql",
-      "github trending topic: llm",
       "github trending topic: npm",
-      "github trending topic: react native",
-      "github trending topic: scala",
-      "github trending topic: tg-fix",
+      "github trending topic: database",
+      "github trending topic: front end",
+      "github trending topic: visibility-public",
       "github trending topic: node.js",
-      "github trending topic: project management"
+      "github trending topic: awesome lists",
+      "github trending topic: pending-review",
+      "github trending topic: llm",
+      "github trending topic: cat-platform-infra",
+      "github trending topic: chrome",
+      "github trending topic: typescript",
+      "github trending topic: javascript",
+      "github trending topic: tg-ws-proxy",
+      "github trending topic: cat-trading-finance",
+      "github trending topic: cat-data-rag-docs",
+      "github trending topic: react native",
+      "github trending topic: compiler",
+      "github trending topic: python",
+      "github trending topic: react",
+      "github trending topic: tg-proxy",
+      "github trending topic: code quality",
+      "github trending topic: origin-fork",
+      "github trending topic: scala",
+      "github trending topic: cat-ai-agents",
+      "github trending topic: css"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -526,6 +529,15 @@
       "type": "tool",
       "name": "Unit Converter",
       "name_zh": "单位换算"
+    },
+    {
+      "keyword": "Dungeon Proof Crawler: learn how to write proofs with RPG",
+      "matched": "crawl",
+      "category": "dev",
+      "subcat": "scraping",
+      "type": "tool",
+      "name": "Web Crawler",
+      "name_zh": "网页爬虫"
     },
     {
       "keyword": "Tests Are SQL Files Too — user asking for tool recommendation (🔥3pts)",
@@ -627,6 +639,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
+    "Dungeon Proof Crawler: learn how to write proofs with RPG",
     "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥89pts)",
     "Show HN: Design Patterns for AI — user asking for tool recommendation (🔥4pts)",
     "Tests Are SQL Files Too — user asking for tool recommendation (🔥3pts)",
@@ -648,9 +661,9 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 178,
-    "valid_count": 45,
-    "rejected_count": 133,
+    "raw_count": 182,
+    "valid_count": 46,
+    "rejected_count": 136,
     "rejection_rate": 74.7,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
@@ -662,15 +675,15 @@
       "How slicing in Python works",
       "[新用户送 10 刀] 超低价 Codex API，最低每刀不到 0.05R，纯血 gpt plus 号池反代，可用 gpt5.5， gpt5.4, gpt-image2，稳定好用",
       "土区续费 GPT plus 还是 500 里拉",
-      "用 HK 节点 使用 Codex 时老是出现： stream disconnected before completion: tls handshake eof"
+      "Claude 被封了也不要去用 codex"
     ]
   },
   "trait_analysis": {
-    "total_captured": 352,
-    "chatter_blocked": 9,
-    "chatter_rate": 2.6,
-    "tool_signals_found": 178,
-    "tool_signal_rate": 50.6,
+    "total_captured": 355,
+    "chatter_blocked": 7,
+    "chatter_rate": 2.0,
+    "tool_signals_found": 182,
+    "tool_signal_rate": 51.3,
     "chatter_samples": [
       {
         "text": "AWS Introduces Amazon S3 Annotations <img src=\"https://res.infoq.com/news/2026/0",
@@ -710,16 +723,6 @@
         ]
       },
       {
-        "text": "s&p 500 2026 market prediction",
-        "category": "news",
-        "matched": [
-          [
-            "s&p",
-            ""
-          ]
-        ]
-      },
-      {
         "text": "世界杯：巴西vs挪威",
         "category": "entertainment",
         "matched": [
@@ -727,10 +730,10 @@
         ]
       },
       {
-        "text": "The Adventures of Paddy the Pelican",
-        "category": "chatter",
+        "text": "NBA Sixth Man of the Year",
+        "category": "entertainment",
         "matched": [
-          "vent"
+          "NBA"
         ]
       },
       {
@@ -738,13 +741,6 @@
         "category": "chatter",
         "matched": [
           "rant"
-        ]
-      },
-      {
-        "text": "github trending topic: music-production",
-        "category": "entertainment",
-        "matched": [
-          "music"
         ]
       }
     ],
@@ -851,10 +847,10 @@
         ]
       },
       {
-        "text": "用 HK 节点 使用 Codex 时老是出现： stream disconnected before completion: tls handshake eof",
+        "text": "Claude 被封了也不要去用 codex",
         "confidence": 15,
         "features": [
-          "技术概念: ['tls']"
+          "技术概念: ['Claude']"
         ]
       }
     ]
