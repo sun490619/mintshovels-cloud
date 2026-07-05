@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T18:53:40.571407+00:00",
+  "generated_at": "2026-07-05T19:36:09.689025+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -115,25 +115,25 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "Buy Understanding Yahoo Mail Accounts:",
+      "Buy Understanding Educational Email Accounts (Edu Emails):",
+      "سوزن زرین — Complete Guide",
+      "The Python Developer's Toolkit: 10 Must-Know Libraries",
+      "I Spent Today Building Instead of Marketing — But Here’s What I Shipped",
+      "AI agents now rely on RSS for structured content feeds",
       "10 Steps To Buy Old Yahoo Accounts In Bulk (PVA, Aged)",
       "The Rise of Contract-Based Agents: Comparing My \"Contract-First\" Approach to Karpathy's \"LOOPS.md\"",
       "Building a Simple Chatbot using Python and Natural Language Processing for Beginners",
       "React 19 Features — What Actually Changed and What I Use",
       "كيفية بناء تطبيق ويب آمن باستخدام لغة بايثون و إطار Flask",
-      "We let AI write the code. We just don't let it check its own work.",
-      "May the Strategy Be With You: A Dev’s Quest to Slay the If‑Else Dragon",
-      "How AI Changes Prototyping and Testing Ideas",
-      "What You Don't Know Will Kill You",
-      "AI Didn't Kill the Filmmaker. It Killed the Decade-Long Wait.",
-      "AI's Daily Grind: Another Day, Another Line of Code (But at Least I Don't Have to Answer 'How Are You?')",
-      "I Built a Security Scanner for AI Apps — Then I Ran It on My Own Site"
+      "We let AI write the code. We just don't let it check its own work."
     ],
     "lobsters": [
       "If you’re a button, you have one job",
       "Fourteener Lobsters",
       "Returning to Zig",
-      "Better Models: Worse Tools",
       "ABI vs. API (2004)",
+      "Better Models: Worse Tools",
       "The Lion, The Witch, and the audacity of recruiters",
       "How is Zig working out after 3 years and 100k lines of game code?",
       "Run Windows 2000 on a DEC Alpha with a new es40 fork",
@@ -141,14 +141,14 @@
       "small details in my mastodon client that i wanted more people to notice",
       "Do Wavy Walls Really Use Fewer Bricks? I Tested It in Blender",
       "Dark mode with web standards",
+      "Rayfish - P2P VPN built on top of Iroh",
+      "Installing A/UX 1.1 like it’s the 90s",
       "Scheme is a Hoot",
       "Immich v3.0.0 Released",
       "What should a personal website be?",
       "Work In Progress Rust",
-      "Rayfish - P2P VPN built on top of Iroh",
       "PEP 814: Add frozendict built-in type",
-      "Reducing Assumptions, Exploding Your Code",
-      "thundersnap v0.01: an undo button for everything"
+      "Reducing Assumptions, Exploding Your Code"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -173,56 +173,56 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable 🔥644pts 💬269",
-      "Organic Maps 🔥493pts 💬148",
-      "If you're a button, you have one job 🔥491pts 💬243",
-      "EU Council forces Chat Control via fast-track 🔥259pts 💬132",
-      "Shadcn/UI now defaults to Base UI instead of Radix 🔥253pts 💬138",
-      "Introduction to Compilers and Language Design 🔥222pts 💬32",
-      "The GNU Emacs Architecture: Unlocking the Core [pdf] 🔥156pts 💬10",
-      "Phosh 0.56.0 🔥132pts 💬52",
-      "Pandoc Lua Filters 🔥126pts 💬11",
-      "Fast Software, the Best Software (2019) 🔥107pts 💬56",
-      "Mark Zuckerberg tells staff that AI agents haven't progressed enough 🔥101pts 💬80",
-      "Zuckerberg's Increasingly Bizarre War on Whistleblowers 🔥87pts 💬6",
-      "It's not about physical vs. digital games, it's about ownership 🔥80pts 💬53",
-      "Rayfish, Peer-to-peer mesh VPN with no server to trust 🔥76pts 💬50",
-      "Show HN: KiCad in the Browser 🔥75pts 💬30",
-      "The Great Blogging Collapse: What Happened to 100 Successful Blogs? 🔥74pts 💬57",
-      "Web-based cryptography is always snake oil 🔥70pts 💬81",
-      "Megawatts by Microwave 🔥70pts 💬5",
-      "Medieval-style fortifications are back in the Sahel 🔥66pts 💬52",
-      "\"These cameras are just like the Eye of Sauron\" 🔥63pts 💬30",
-      "Run Windows 2000 on a DEC Alpha with a new es40 fork 🔥62pts 💬30",
-      "Airplane Boneyards List and Map 🔥60pts 💬12",
-      "The Computers Used in Movies 🔥59pts 💬20",
-      "Autonomous flying umbrella follows and shields users from rain and sunlight 🔥55pts 💬25",
-      "OpenWiki: CLI that writes and maintains agent documentation for your codebase"
+      "Organic Maps 🔥548pts 💬163",
+      "EU Council forces Chat Control via fast-track 🔥280pts 💬153",
+      "Shadcn/UI now defaults to Base UI instead of Radix 🔥262pts 💬140",
+      "Introduction to Compilers and Language Design (2021) 🔥232pts 💬36",
+      "The GNU Emacs Architecture: Unlocking the Core [pdf] 🔥159pts 💬12",
+      "Pandoc Lua Filters 🔥128pts 💬11",
+      "It's not about physical vs. digital games, it's about ownership 🔥110pts 💬88",
+      "The great blogging collapse: What happened to 100 successful blogs? 🔥86pts 💬63",
+      "Starring the Computer 🔥84pts 💬27",
+      "Rayfish, Peer-to-peer mesh VPN with no server to trust 🔥83pts 💬55",
+      "Show HN: KiCad in the Browser 🔥77pts 💬30",
+      "Web-based cryptography is always snake oil 🔥74pts 💬86",
+      "A sociotechnical threat model for AI-driven smart home devices 🔥72pts 💬40",
+      "Medieval-style fortifications are back in the Sahel 🔥70pts 💬54",
+      "Run Windows 2000 on a DEC Alpha with a new es40 fork 🔥69pts 💬39",
+      "Airplane Boneyards List and Map 🔥62pts 💬12",
+      "Autonomous flying umbrella follows and shields users from rain and sunlight 🔥61pts 💬27",
+      "OpenWiki: CLI that writes and maintains agent documentation for your codebase 🔥55pts 💬16",
+      "The future of Flipper Zero development",
+      "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+      "Falling fertility on the left as key driver of US birth decline",
+      "Why DMARC's new \"NP\" tag can fail with DNSSEC",
+      "Moving Back Home Used to Be a Sign of Failure. Now It Shows Financial Savvy",
+      "Do you hate XML? (2010)",
+      "How to organize 3 acquired companies into one coherent website"
     ],
     "hn_show": [
-      "Nomlings – a virtual pet that eats your Claude Code session's tokens — featured on Hacker News (🔥1pts)",
-      "Video Effects SDK – Face Avatars — featured on Hacker News (🔥1pts)",
-      "Diffy – browser extension for faster GitHub PR review experience — featured on Hacker News (🔥2pts)",
-      "Pgconverge – An experimental multi-master PostgreSQL framework in Go — featured on Hacker News (🔥1pts)",
-      "GameFork – AI agents publish and fork browser games via MCP — featured on Hacker News (🔥1pts)",
+      "TrainSim – a browser train tycoon, built because I like trains — featured on Hacker News (🔥1pts)",
+      "Make No Mistakes – AI coding agents must prove their work — featured on Hacker News (🔥1pts)",
+      "Nomlings – a virtual pet that eats your Claude Code session's tokens — featured on Hacker News (🔥3pts)",
+      "Video Effects SDK – Face Avatars — featured on Hacker News (🔥2pts)",
+      "Diffy – browser extension for faster GitHub PR review experience — featured on Hacker News (🔥3pts)",
+      "Pgconverge – An experimental multi-master PostgreSQL framework in Go — featured on Hacker News (🔥2pts)",
+      "GameFork – AI agents publish and fork browser games via MCP — featured on Hacker News (🔥2pts)",
       "Keyboard-first Hacker News client with a twist — featured on Hacker News (🔥1pts)",
       "Sun light and path calculation for photography — featured on Hacker News (🔥2pts)",
       "A GPUdriven voxel engine with binary greedy meshing & indirectrendering — featured on Hacker News (🔥1pts)",
       "rockbox-dsp – A reusable Rust DSP library extracted from Rockbox — featured on Hacker News (🔥1pts)",
-      "Meon – declarative flat-parsing engine (SoA, no AST) — featured on Hacker News (🔥1pts)",
+      "Meon – declarative flat-parsing engine (SoA, no AST) — featured on Hacker News (🔥2pts)",
       "Aletheia – The Uncertainty Loop Agent for Claude Code and Codex — featured on Hacker News (🔥1pts)",
       "Goldseam – heal broken Cypress selectors with a local LLM — featured on Hacker News (🔥2pts)",
       "Detecting AI slop with regex and Stephen King — featured on Hacker News (🔥2pts)",
       "EdgeRunner – run GGUF models with Swift and Metal — featured on Hacker News (🔥2pts)",
       "Handoff – a verified context bridge between Claude Code sessions — featured on Hacker News (🔥3pts)",
       "I hated how much my 12-year-old played Roblox, so we built our own FPS — featured on Hacker News (🔥4pts)",
-      "Handwriting recognition for Obsidian on your terms — featured on Hacker News (🔥1pts)",
-      "Heckle – Send a bug's full browser context to your coding agent — featured on Hacker News (🔥3pts)",
-      "Onboard-CLI – A local-first Go tool to map codebase — featured on Hacker News (🔥1pts)"
+      "Handwriting recognition for Obsidian on your terms — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Show HN: microide, a 100% vibecoded IDE that LLM agents can drive — user asking for tool recommendation (🔥2pts)",
-      "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥75pts)",
+      "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥77pts)",
       "Show HN: Design Patterns for AI — user asking for tool recommendation (🔥4pts)",
       "Show HN: Selbstbild – What Fable 5 thinks of your HN comment history — user asking for tool recommendation (🔥3pts)",
       "Retrieval is not the future of AI – if it was, Google would have won already — user asking for tool recommendation (🔥4pts)",
@@ -241,8 +241,8 @@
       "Show HN: Local MCP – Claude/ChatGPT read your iMessage, Teams, files on-device — user asking for tool recommendation (🔥3pts)",
       "I built a environment reloader for Windows Shells — user asking for tool recommendation (🔥3pts)",
       "Show HN: Psycurate – Curated place for privacy-first, free psychological tools — user asking for tool recommendation (🔥1pts)",
-      "Ask HN: What metrics do you track when building agents? — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Pgconverge – An experimental multi-master PostgreSQL framework in Go — user asking for tool recommendation (🔥1pts)",
+      "Ask HN: What metrics do you track when building agents? — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Pgconverge – An experimental multi-master PostgreSQL framework in Go — user asking for tool recommendation (🔥2pts)",
       "Show HN: Plan your multi-day hut hikes in the alps — user asking for tool recommendation (🔥2pts)",
       "Show HN: I built an encrypted BLE dongle for pasting stuff to air-gapped devices — user asking for tool recommendation (🔥5pts)",
       "Show HN: Local privacy-first Microsoft Recall alternative with Gemma 4 — user asking for tool recommendation (🔥12pts)",
@@ -290,16 +290,16 @@
       "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>Instacart redesigned its personalized marketing system using a configur"
     ],
     "google_trends": [
-      "jannik sinner",
-      "wings vs tempo",
-      "coco gauff",
-      "shintaro mochizuki",
-      "save america",
-      "joe ryan",
-      "wkbn",
-      "mallory mcmorrow",
-      "red dead redemption 2",
-      "lucas glover"
+      "brasil - noruega",
+      "tigers vs rangers",
+      "felix auger aliassime",
+      "rays vs astros",
+      "brésil – norvège",
+      "powerball jackpot july 4 2026",
+      "current mortgage rates",
+      "ben kohles",
+      "sheamus",
+      "kate middleton three peaks challenge"
     ],
     "baidu": [
       "不断创造无愧于时代和人民的新业绩",
@@ -315,35 +315,35 @@
       "哈兰德大战巴西前“从头开始”备战",
       "广州辟谣征集解禁摩托意见",
       "“东风快递”送达画面曝光",
-      "19岁“第一夫人” 51岁秘鲁女总统",
-      "电诈人员用AI同时和100多人聊天",
-      "巴西英格兰力争破“魔咒”",
       "佛得角队回国 机场人山人海",
-      "空调为啥必须要有外机",
+      "欧洲车市变天：中国品牌击败日本对手",
+      "巴西英格兰力争破“魔咒”",
+      "电诈人员用AI同时和100多人聊天",
+      "19岁“第一夫人” 51岁秘鲁女总统",
       "高原反应？英格兰主帅称在酒店头疼",
-      "欧洲车市变天：中国品牌击败日本对手"
+      "老人看牙遭全口拔光 医院被顶格处罚"
     ],
     "wikipedia": [
-      "Sandusky Bay Conference",
-      "Buzuluksky Bor National Park",
-      "Roads in South Africa",
-      "2009 Indian general election",
-      "Beach (disambiguation)",
-      "Grand Mosque of Sabilal Muhtadin",
-      "Buxa Tiger Reserve",
-      "2026–27 Los Angeles Clippers season",
-      "Dilip Singh Gurjar",
-      "King Kong",
-      "FC 93 Bobigny-Bagnolet-Gagny",
-      "Anti-Yoruba sentiment",
-      "Mindhack",
-      "Buttermilk Falls Natural Area",
-      "Masta Killa",
-      "Corazón Guerrero",
-      "Butterleaf National Park",
-      "Paul Rodriguez (Ridiculousness)",
-      "Steinwenden",
-      "Angelina County Airport"
+      "10th Platino Awards",
+      "15th Ward (Syracuse, New York)",
+      "Williams Field",
+      "List of Chinese princesses",
+      "THE HOLY",
+      "Willard Municipal Airport",
+      "2026 Florida gubernatorial election",
+      "Rent control in Massachusetts",
+      "Lone Star Conference",
+      "Choghakhor Wetland",
+      "We Reserve the Right",
+      "Utah State Bar",
+      "Wickenburg Municipal Airport",
+      "Bret Bonanni",
+      "Alessandro, Prince of Ottajano",
+      "Zulfiqar Ali Atre",
+      "Chocón Machacas",
+      "Jordin Sparks (Ridiculousness)",
+      "Chris Brown",
+      "Benny Snell Jr."
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -428,29 +428,29 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: llm",
-      "github trending topic: chrome",
-      "github trending topic: react",
-      "github trending topic: compiler",
+      "github trending topic: tg-ws-proxy",
       "github trending topic: awesome lists",
-      "github trending topic: nlp",
-      "github trending topic: scala",
-      "github trending topic: database",
-      "github trending topic: npm",
-      "github trending topic: project management",
-      "github trending topic: machine-learning",
-      "github trending topic: mcp",
-      "github trending topic: node.js",
-      "github trending topic: front end",
-      "github trending topic: react native",
       "github trending topic: code quality",
-      "github trending topic: javascript",
-      "github trending topic: css",
       "github trending topic: typescript",
-      "github trending topic: docker",
-      "github trending topic: ai-agents",
-      "github trending topic: data-analysis",
-      "github trending topic: python"
+      "github trending topic: python",
+      "github trending topic: proxy-tg",
+      "github trending topic: project management",
+      "github trending topic: react native",
+      "github trending topic: node.js",
+      "github trending topic: proxy",
+      "github trending topic: database",
+      "github trending topic: telegram",
+      "github trending topic: javascript",
+      "github trending topic: tg-fix",
+      "github trending topic: scala",
+      "github trending topic: tg-proxy",
+      "github trending topic: front end",
+      "github trending topic: react",
+      "github trending topic: featured",
+      "github trending topic: npm",
+      "github trending topic: css",
+      "github trending topic: compiler",
+      "github trending topic: chrome"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -628,7 +628,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥75pts)",
+    "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥77pts)",
     "Show HN: Design Patterns for AI — user asking for tool recommendation (🔥4pts)",
     "Tests Are SQL Files Too — user asking for tool recommendation (🔥3pts)",
     "Return of RSS Feeds — user asking for tool recommendation (🔥4pts)",
@@ -649,10 +649,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 188,
+    "raw_count": 186,
     "valid_count": 45,
-    "rejected_count": 143,
-    "rejection_rate": 76.1,
+    "rejected_count": 141,
+    "rejection_rate": 75.8,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -668,21 +668,11 @@
   },
   "trait_analysis": {
     "total_captured": 353,
-    "chatter_blocked": 9,
-    "chatter_rate": 2.5,
-    "tool_signals_found": 188,
-    "tool_signal_rate": 53.3,
+    "chatter_blocked": 7,
+    "chatter_rate": 2.0,
+    "tool_signals_found": 186,
+    "tool_signal_rate": 52.7,
     "chatter_samples": [
-      {
-        "text": "Zuckerberg's Increasingly Bizarre War on Whistleblowers 🔥87pts 💬6",
-        "category": "news",
-        "matched": [
-          [
-            "War",
-            ""
-          ]
-        ]
-      },
       {
         "text": "AWS Introduces Amazon S3 Annotations <img src=\"https://res.infoq.com/news/2026/0",
         "category": "news",
@@ -728,20 +718,13 @@
         ]
       },
       {
-        "text": "2009 Indian general election",
+        "text": "2026 Florida gubernatorial election",
         "category": "news",
         "matched": [
           [
             "election",
             ""
           ]
-        ]
-      },
-      {
-        "text": "2026–27 Los Angeles Clippers season",
-        "category": "entertainment",
-        "matched": [
-          "season"
         ]
       },
       {
@@ -830,7 +813,7 @@
         "text": "[新用户送 10 刀] 超低价 Codex API，最低每刀不到 0.05R，纯血 gpt plus 号池反代，可用 gpt5.5， gpt5.4, gpt-image2，稳定好用",
         "confidence": 15,
         "features": [
-          "技术概念: ['gpt', 'API']"
+          "技术概念: ['API', 'gpt']"
         ]
       },
       {
