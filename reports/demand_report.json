@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T17:31:14.279382+00:00",
+  "generated_at": "2026-07-06T19:25:39.924800+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -107,40 +107,40 @@
     ],
     "devto": [
       "DEV Community: programming",
-      "Hello World!",
-      "Yaarwin games, Yearwin games",
-      "The Matrix of SOLID: Mastering SRP in Python",
-      "Why I Switched to RunConvert.com for everyday file convert",
-      "The test that catches the race your agent silenced",
-      "Can You Really Make Money with AI Music? Breaking Down Streaming Royalties, Sync Fees, and Platform ToS",
-      "Code-Review Culture: The 2026 Playbook",
-      "The Truth About Bitcoin Recovery Services HIRE META TECH RECOVERY PRO",
-      "AI Background Music as a Product: Building and Selling Custom Sound Libraries for Creators and SaaS Teams",
-      "Playlist, Channel, Catalog: How to Turn AI Music into Passive Income Across Spotify and YouTube",
-      "The Professionals Who Didn't Wait — And What be10x Made Possible for Them",
-      "From Prompts to Paychecks: 7 Real Ways Creators Monetize AI‑Generated Music in 2026"
+      "Microdosify Reviews What Users Are Saying in 2024",
+      "I Ran the Numbers on Building a $40K Local LLM Rig — Here's When It Actually Makes Sense",
+      "Sliding Window: The Pattern Detector — Like Neo Seeing the Code",
+      "قمر — Complete Guide",
+      "I Ran 10 Coding AIs Through Real Client Work — Here's the Bill",
+      "LLMs replace humans in 8-track tape optimization",
+      "Statistics: Parametric and Non-Parametric Tests in Data Science",
+      "The Year Duplicated Code Rose 8x",
+      "The Project Constitution I Would Write Before Letting AI Build My App In 2026",
+      "AI Coding Agents in 2026: 8 Tools That Actually Ship Production Code",
+      "2026 Premium 108 Ways To Buy Verified Stripe Accounts In Bulk (PVA + Aged)",
+      "Best 144 Ways To Buy Verified Stripe Accounts Right Now (Aged, PVA, Strong)"
     ],
     "lobsters": [
       "Faster Builds with Elm 0.19.2",
       "A Speed Limit for Computers",
-      "Jam Programming Language",
       "sneakerweb",
+      "Jam Programming Language",
       "Konform Browser 140.12.0-103",
-      "Work In Progress Rust",
       "Caught a .git/config crawler",
-      "Web Security docs on MDN",
-      "Mr. Baby Paint &amp; accidentally discovering a new cellular automata",
       "The (Petty) Reason We Didn't End Up Using jj",
-      "fin: a Jellyfin &amp; Subsonic client for the terminal",
-      "What are you doing this week?",
-      "Rayfish - P2P VPN built on top of Iroh",
+      "Mr. Baby Paint &amp; accidentally discovering a new cellular automata",
+      "Web Security docs on MDN",
       "PREEMPT_NONE Is Dead; Your Postgres Probably Doesn’t Care",
-      "If you’re a button, you have one job",
+      "Work In Progress Rust",
       "Can you run every line of code in Super Mario Bros.?",
+      "What are you doing this week?",
+      "fin: a Jellyfin &amp; Subsonic client for the terminal",
+      "Rayfish - P2P VPN built on top of Iroh",
+      "If you’re a button, you have one job",
+      "Seventy Years of Parsing: Theoretical and Practical Consequences",
       "Embedding information in disorder",
       "How a Skiing Accident Put Our Development Practices to the test",
-      "Seventy Years of Parsing: Theoretical and Practical Consequences",
-      "A Novel Look at Error Handling in Rust"
+      "Postgres Is Enough"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -165,59 +165,61 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Real-time map of Great Britain's rail network 🔥320pts 💬123",
-      "Building relationships with customers through support didn't turn out as hoped 🔥277pts 💬167",
-      "Road to Elm 1.0 🔥225pts 💬95",
-      "Nintendo announces new product revisions in Europe with replaceable batteries 🔥197pts 💬135",
-      "Introduction to Genomics for Engineers 🔥168pts 💬25",
-      "Aluminum foil (2021) 🔥149pts 💬51",
-      "Resetting Xbox 🔥124pts 💬86",
-      "Clojure 1.13 adds support for checked keys 🔥121pts 💬23",
-      "What Emily Bender meant by \"stochastic parrots\" 🔥111pts 💬134",
-      "Fable 5 On Vending-Bench: Misbehaving, With Plausible Deniability 🔥109pts 💬60",
-      "Amazon will stop accepting new customers for Mechanical Turk 🔥106pts 💬31",
-      "AMD Ryzen AI Halo – $4k AI Dev Kit 🔥105pts 💬82",
-      "DOJ Closing Abbott Labs Case Spurs Wider Corporate Crime Retreat 🔥72pts 💬20",
-      "Should DayQuil Be Legal? 🔥64pts 💬73",
-      "Why low-latency Java still requires discipline? 🔥59pts 💬31",
-      "The Complete Homemade Juggling Beanbag Guide 🔥58pts 💬6",
-      "Apricot Computers: An underrated British brand 🔥56pts 💬18",
-      "When 2+2=5 🔥52pts 💬20",
-      "Multilingual experience linked to delayed aging",
-      "Electric anti-aircraft interceptor drone breaks world air speed record at 434mph",
-      "1k Words: A Writing Contest",
-      "Lost and Found",
-      "Egypt Is Building a New Nile",
+      "Real-time map of Great Britain's rail network 🔥341pts 💬128",
+      "Building relationships with customers through support didn't turn out as hoped 🔥299pts 💬175",
+      "Resetting Xbox 🔥268pts 💬202",
+      "Road to Elm 1.0 🔥260pts 💬116",
+      "Nintendo announces new product revisions in Europe with replaceable batteries 🔥245pts 💬156",
+      "Aluminum foil (2021) 🔥191pts 💬86",
+      "AMD Ryzen AI Halo – $4k AI Dev Kit 🔥189pts 💬147",
+      "Introduction to Genomics for Engineers 🔥186pts 💬26",
+      "Fable 5 On Vending-Bench: Misbehaving, With Plausible Deniability 🔥143pts 💬95",
+      "Clojure 1.13 adds support for checked keys 🔥142pts 💬30",
+      "What Emily Bender meant by \"stochastic parrots\" 🔥137pts 💬173",
+      "DOJ Closing Abbott Labs Case Spurs Wider Corporate Crime Retreat 🔥107pts 💬32",
+      "Should DayQuil Be Legal? 🔥99pts 💬145",
+      "OpenWrt One – Open Hardware Router 🔥92pts 💬39",
+      "Kani: A Model Checker for Rust 🔥78pts 💬3",
+      "The Supreme Court Just Lit a Fuse Under Flock's License Plate Camera Empire 🔥77pts 💬53",
+      "Why low-latency Java still requires discipline? 🔥74pts 💬39",
+      "Egypt Is Building a New Nile 🔥72pts 💬10",
+      "When 2+2=5 🔥67pts 💬33",
+      "Apricot Computers: An underrated British brand 🔥64pts 💬20",
+      "1k Words: A Writing Contest 🔥59pts 💬26",
+      "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers 🔥54pts 💬20",
+      "Pros and Cons of Solo Development",
       "Show HN: Pulpie – Models for Cleaning the Web",
-      "How to organize 3 acquired companies into one coherent website"
+      "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files"
     ],
     "hn_show": [
-      "Nordstjernen Web Browser 1.0.18 — featured on Hacker News (🔥2pts)",
-      "Record, replay, and improve AI agents in production — featured on Hacker News (🔥1pts)",
-      "I Made a Mac Native Excalidraw (Open Sourced) — featured on Hacker News (🔥3pts)",
-      "Silicon Physics Sandbox — featured on Hacker News (🔥4pts)",
-      "Nook – a sticky note on the edge of your monitor — featured on Hacker News (🔥2pts)",
-      "Cona – design your real room in 3D, in the browser — featured on Hacker News (🔥2pts)",
-      "I build a screenshot Mac app for Pi — featured on Hacker News (🔥2pts)",
-      "Char-width – final answer to measure terminal text width — featured on Hacker News (🔥2pts)",
-      "A Wordle game that insults you as you play — featured on Hacker News (🔥2pts)",
-      "A website that shows every pro triathlete's swim, bike, and run gear — featured on Hacker News (🔥2pts)",
-      "Voltius – open-source SSH/SFTP client, built in Rust — featured on Hacker News (🔥4pts)",
-      "Pulpie – Models for Cleaning the Web — featured on Hacker News (🔥19pts)",
-      "Built a Website for People Who Miss the Old Web — featured on Hacker News (🔥2pts)",
-      "Mazzap, a Level 4 Open Source Digital Twin Engine — featured on Hacker News (🔥3pts)",
-      "Causari – Content-addressable ledger for AI agent code edits — featured on Hacker News (🔥3pts)",
-      "Tetris where every pixel is another Tetris (23,040 games in GLSL) — featured on Hacker News (🔥2pts)",
-      "Nectar, a Rust-like React that compiles to WebAssembly — featured on Hacker News (🔥3pts)",
-      "Keyhole – Share secrets with your AI agents — featured on Hacker News (🔥2pts)"
+      "HN-client – A fast, minimalist Hacker News terminal client in Go — featured on Hacker News (🔥1pts)",
+      "orzma – a terminal emulator that renders webviews inside the terminal — featured on Hacker News (🔥1pts)",
+      "RagPack – Lightweight self-hosted RAG infra for startups — featured on Hacker News (🔥1pts)",
+      "Code Review Enviornment for the Modern Era — featured on Hacker News (🔥3pts)",
+      "I built a safety shield for AI agents that intercepts dangerous commands — featured on Hacker News (🔥1pts)",
+      "Dynpipe – Easy Web and CLI P2P transfer tool using simple word codes — featured on Hacker News (🔥1pts)",
+      "Arda Translate, free private on-device (iOS) translation — featured on Hacker News (🔥1pts)",
+      "An interactive, interlinked city exploration project (St. Louis) — featured on Hacker News (🔥2pts)",
+      "Grinta –local-first AI coding agent that passed 106-minute stress test — featured on Hacker News (🔥1pts)",
+      "Skeights – Serialize sklearn models to safetensors and JSON, no pickle — featured on Hacker News (🔥3pts)",
+      "Boilerroom: dialer, call recording, and managed follow-up — featured on Hacker News (🔥4pts)",
+      "The ocean in Final Fantasy IX is made of Wang tiles — featured on Hacker News (🔥3pts)",
+      "Give your files an undo button — featured on Hacker News (🔥2pts)",
+      "Venetianblinds.js – evenly spaced windows into text files — featured on Hacker News (🔥2pts)",
+      "Focal Harvest – CLI research pipeline to search, scrape and notify — featured on Hacker News (🔥3pts)",
+      "Every \"I am\" statement in the Congressional Record — featured on Hacker News (🔥2pts)",
+      "Nordstjernen Web Browser 1.0.18 — featured on Hacker News (🔥4pts)",
+      "Record, replay, and improve AI agents in production — featured on Hacker News (🔥2pts)",
+      "I Made a Mac Native Excalidraw (Open Sourced) — featured on Hacker News (🔥6pts)",
+      "Silicon Physics Sandbox — featured on Hacker News (🔥5pts)"
     ],
     "hn_ask_tools": [
       "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map — user asking for tool recommendation (🔥2pts)",
       "Tools/approach to pentest my own framework/SaaS? — user asking for tool recommendation (🔥2pts)",
-      "Show HN: An unmetered LLM API–$6/month, no token tracking, no limits — user asking for tool recommendation (🔥6pts)",
+      "Show HN: An unmetered LLM API–$6/month, no token tracking, no limits — user asking for tool recommendation (🔥7pts)",
       "Show HN: Logo Design for Busy Founders — user asking for tool recommendation (🔥3pts)",
       "Show HN: microide, a 100% vibecoded IDE that LLM agents can drive — user asking for tool recommendation (🔥3pts)",
-      "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥106pts)",
+      "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥107pts)",
       "Show HN: Design Patterns for AI — user asking for tool recommendation (🔥4pts)",
       "Show HN: Selbstbild – What Fable 5 thinks of your HN comment history — user asking for tool recommendation (🔥6pts)",
       "Ask HN: How are you creating demo videos for your product? — user asking for tool recommendation (🔥1pts)",
@@ -283,16 +285,16 @@
       "Presentation: Fine Tuning the Enterprise: Reinforcement Learning in Practice <img src=\"https://res.infoq.com/presentations/rft-openai-model/en/mediumimage/WenjieZiWillHang-medium-1782220624463.jpg\"/><p>The speakers discuss Agen"
     ],
     "google_trends": [
-      "kate mansi",
-      "noskova tennis",
-      "united states department of justice",
-      "wrigley field",
-      "rasul douglas",
-      "rui hachimura",
-      "pringles pop dog buns",
-      "ukraine drone strike omsk refinery",
-      "michelle buteau",
-      "the hunting party nbc status"
+      "fox one",
+      "youtube tv",
+      "lamine yamal",
+      "diddy",
+      "fox sports",
+      "diogo costa",
+      "fox",
+      "yamal",
+      "emmitt smith",
+      "fubo"
     ],
     "baidu": [
       "“总书记鼓励我好好干”",
@@ -300,43 +302,43 @@
       "不到2年 中国再向太平洋发射战略导弹",
       "多地紧急响应全力防汛抢险",
       "直径1000公里超强台风逼近或直扑浙江",
-      "世界杯“最贵”的一场较量来了",
-      "在佛得角玩一周要花多少钱",
-      "五预警齐发！广西有大暴雨、特大暴雨",
       "世界杯：葡萄牙vs西班牙",
-      "北京空中出现巨幕雨幡",
+      "广西南宁洪涝灾害还存在三方面风险",
+      "五预警齐发！广西有大暴雨、特大暴雨",
+      "小孩被白鲸吓到的后续来了",
+      "在佛得角玩一周要花多少钱",
       "子弟兵投入广西六蓝水库抢险救灾",
       "内蒙古网民造谣“凶案现场”被罚",
       "广西六蓝水库",
-      "小孩被白鲸吓到的后续来了",
-      "C罗：最后一届世界杯希望能赢西班牙",
-      "韩国总统李在明遭死亡威胁",
-      "广西南宁洪涝灾害还存在三方面风险",
-      "破纪录！广西暴雨为何这么猛",
+      "过去24小时广西下了多少雨",
+      "河南人用西瓜“甜”了全网",
       "耐克被711起诉后下架涉事鞋款",
-      "广西南宁受灾情况通报"
+      "意大利老板在上海卖帕尼尼",
+      "破纪录！广西暴雨为何这么猛",
+      "北京空中出现巨幕雨幡",
+      "郭艾伦犀利点评杨瀚森"
     ],
     "wikipedia": [
-      "Fer (Dora Baltea)",
-      "Denis Levitsky",
-      "Mount Adams Wilderness",
-      "Lawrenceville, Georgia",
-      "Alpha (2026 film)",
-      "Radical Republicans",
-      "The Fantastic Four: First Steps",
-      "Mount Adams Recreation Area",
-      "2025 Porsche Carrera Cup Germany",
-      "2026 Championship League (ranking)",
-      "Mount Abu Wildlife Sanctuary",
-      "Eastern Orthodoxy in Norway",
-      "Eurovision Song Contest Asia",
-      "The Simpsons Guy",
-      "Mount Aberdeen National Park",
-      "Peter Drummond-Murray of Mastrick",
-      "Josefa Segovia",
-      "The Old Woman in the Wood",
-      "2026 United States Senate election in Michigan",
-      "Larry Constantine"
+      "How to Rule the World",
+      "Teetotum",
+      "Khalifa Mohammad Asadullah",
+      "Beginning of Things",
+      "The Best of Mantronix (1986–1988)",
+      "Filippo Scotti (footballer)",
+      "Eleni Markou",
+      "Kiara Romero",
+      "James Walker (RAF officer)",
+      "Match Point (TV series)",
+      "Mali Sadio",
+      "List of number-one singles of 2026 (Portugal)",
+      "15 (software engineer)",
+      "Now! Music (Volume IV)",
+      "Love Island USA season 8",
+      "La Vara (restaurant)",
+      "Mauno Meesit",
+      "1. FC Magdeburg",
+      "Close Together (As You and Me)",
+      "List of goat breeds"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -391,9 +393,9 @@
     "npm_registry": [
       "@salesforce/pwa-kit-create-app — npm package: Salesforce's project generator tool",
       "eurostat-barcode-generator — npm package: a simplified barcode generator tool with options",
-      "insomnia-documenter — npm package: API documentation generator tool for Insomnia.",
       "granturismo — npm package: generator tool",
       "tgt — npm package: tpl generator tool",
+      "insomnia-documenter — npm package: API documentation generator tool for Insomnia.",
       "conjurate — npm package: Pluggable generator tool",
       "packs — npm package: Static survey generator tool",
       "pwa-kit-create-app — npm package: Salesforce's project generator tool",
@@ -421,27 +423,27 @@
       "xml-formatter — npm package: Converts a XML string into a human readable format (pretty print) while respecting the xml:space attribute"
     ],
     "github_topics": [
-      "github trending topic: front end",
-      "github trending topic: npm",
-      "github trending topic: html",
-      "github trending topic: compiler",
+      "github trending topic: python",
+      "github trending topic: awesome lists",
+      "github trending topic: cli",
+      "github trending topic: chrome",
       "github trending topic: scala",
-      "github trending topic: claude-code",
+      "github trending topic: database",
+      "github trending topic: compiler",
+      "github trending topic: desktop-app",
+      "github trending topic: front end",
+      "github trending topic: css",
+      "github trending topic: llm",
       "github trending topic: typescript",
       "github trending topic: node.js",
-      "github trending topic: awesome lists",
-      "github trending topic: code quality",
-      "github trending topic: chrome",
-      "github trending topic: machine-learning",
-      "github trending topic: claude",
-      "github trending topic: llm",
+      "github trending topic: javascript",
       "github trending topic: react native",
-      "github trending topic: database",
+      "github trending topic: npm",
       "github trending topic: project management",
+      "github trending topic: code quality",
       "github trending topic: react",
-      "github trending topic: css",
-      "github trending topic: python",
-      "github trending topic: javascript"
+      "github trending topic: linux",
+      "github trending topic: computer-vision"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -457,6 +459,15 @@
       "name_zh": "视频格式转换器"
     },
     {
+      "keyword": "AI Coding Agents in 2026: 8 Tools That Actually Ship Production Code",
+      "matched": "ai",
+      "category": "ai",
+      "subcat": "ai-chat",
+      "type": "tool",
+      "name": "AI Assistant",
+      "name_zh": "AI助手"
+    },
+    {
       "keyword": "Caught a .git/config crawler",
       "matched": "crawl",
       "category": "dev",
@@ -464,15 +475,6 @@
       "type": "tool",
       "name": "Web Crawler",
       "name_zh": "网页爬虫"
-    },
-    {
-      "keyword": "AI Coding Agents — tool from ProductHunt",
-      "matched": "ai",
-      "category": "ai",
-      "subcat": "ai-chat",
-      "type": "tool",
-      "name": "AI Assistant",
-      "name_zh": "AI助手"
     },
     {
       "keyword": "LLMs — tool from ProductHunt",
@@ -518,6 +520,15 @@
       "type": "tool",
       "name": "Unit Converter",
       "name_zh": "单位换算"
+    },
+    {
+      "keyword": "Kani: A Model Checker for Rust 🔥78pts 💬3",
+      "matched": "check",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "Checker Tool",
+      "name_zh": "检测工具"
     },
     {
       "keyword": "Show HN: Logo Design for Busy Founders — user asking for tool recommendation (🔥3pts)",
@@ -614,6 +625,7 @@
     "claude-skills",
     "claude-video",
     "继续推广我的 gpt 中转站，注册就送 28.8$余额，已稳定运行俩月了",
+    "AI Coding Agents in 2026: 8 Tools That Actually Ship Production Code",
     "Caught a .git/config crawler",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -635,8 +647,9 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
+    "Kani: A Model Checker for Rust 🔥78pts 💬3",
     "Show HN: Logo Design for Busy Founders — user asking for tool recommendation (🔥3pts)",
-    "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥106pts)",
+    "Show HN: KiCad in the Browser — user asking for tool recommendation (🔥107pts)",
     "Show HN: Design Patterns for AI — user asking for tool recommendation (🔥4pts)",
     "Show HN: Mochi Analytics — user asking for tool recommendation (🔥4pts)",
     "Auto Split for 3D Printing Is Now Available in Meshy: from Model to Build Plate",
@@ -654,13 +667,14 @@
     "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "prettier — npm package: Prettier is an opinionated code formatter",
-    "sass-formatter — npm package: TypeScript Sass formatter"
+    "sass-formatter — npm package: TypeScript Sass formatter",
+    "github trending topic: desktop-app"
   ],
   "filter_stats": {
-    "raw_count": 171,
-    "valid_count": 44,
-    "rejected_count": 127,
-    "rejection_rate": 74.3,
+    "raw_count": 176,
+    "valid_count": 47,
+    "rejected_count": 129,
+    "rejection_rate": 73.3,
     "rejected_samples": [
       "gastown",
       "What does the \"yield\" keyword do in Python?",
@@ -675,11 +689,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 350,
-    "chatter_blocked": 17,
-    "chatter_rate": 4.9,
-    "tool_signals_found": 171,
-    "tool_signal_rate": 48.9,
+    "total_captured": 352,
+    "chatter_blocked": 16,
+    "chatter_rate": 4.5,
+    "tool_signals_found": 176,
+    "tool_signal_rate": 50.0,
     "chatter_samples": [
       {
         "text": "“万 1 免 5”股票 ETF 大笑脸低佣开户，抽键盘迈从 Ace 68 V2；鼠标迈从 A7 V3 PRO+。 [7.6 日~7.13 日]",
@@ -699,44 +713,10 @@
         ]
       },
       {
-        "text": "Can You Really Make Money with AI Music? Breaking Down Streaming Royalties, Sync",
-        "category": "news",
+        "text": "I Ran the Numbers on Building a $40K Local LLM Rig — Here's When It Actually Mak",
+        "category": "job",
         "matched": [
-          [
-            "Breaking",
-            ""
-          ]
-        ]
-      },
-      {
-        "text": "The Truth About Bitcoin Recovery Services HIRE META TECH RECOVERY PRO",
-        "category": "news",
-        "matched": [
-          [
-            "Bitcoin",
-            ""
-          ]
-        ]
-      },
-      {
-        "text": "AI Background Music as a Product: Building and Selling Custom Sound Libraries fo",
-        "category": "entertainment",
-        "matched": [
-          "Music"
-        ]
-      },
-      {
-        "text": "Playlist, Channel, Catalog: How to Turn AI Music into Passive Income Across Spot",
-        "category": "entertainment",
-        "matched": [
-          "Music"
-        ]
-      },
-      {
-        "text": "From Prompts to Paychecks: 7 Real Ways Creators Monetize AI‑Generated Music in 2",
-        "category": "entertainment",
-        "matched": [
-          "Music"
+          "$40K"
         ]
       },
       {
@@ -747,10 +727,20 @@
         ]
       },
       {
-        "text": "AMD Ryzen AI Halo – $4k AI Dev Kit 🔥105pts 💬82",
+        "text": "AMD Ryzen AI Halo – $4k AI Dev Kit 🔥189pts 💬147",
         "category": "job",
         "matched": [
           "$4k"
+        ]
+      },
+      {
+        "text": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers 🔥54",
+        "category": "news",
+        "matched": [
+          [
+            "War",
+            ""
+          ]
         ]
       },
       {
@@ -759,6 +749,33 @@
         "matched": [
           "Netflix",
           "Netflix"
+        ]
+      },
+      {
+        "text": "AWS Introduces Amazon S3 Annotations <img src=\"https://res.infoq.com/news/2026/0",
+        "category": "news",
+        "matched": [
+          [
+            "announced",
+            "d"
+          ]
+        ]
+      },
+      {
+        "text": "Oracle Quietly Halves Free Tier Ampere A1 Compute Limits with No Public Announce",
+        "category": "news",
+        "matched": [
+          [
+            "Announcement",
+            "ment"
+          ]
+        ]
+      },
+      {
+        "text": "fox sports",
+        "category": "entertainment",
+        "matched": [
+          "sports"
         ]
       }
     ],
@@ -861,17 +878,18 @@
         ]
       },
       {
-        "text": "The Matrix of SOLID: Mastering SRP in Python",
-        "confidence": 15,
+        "text": "Sliding Window: The Pattern Detector — Like Neo Seeing the Code",
+        "confidence": 20,
         "features": [
-          "技术概念: ['Python']"
+          "输入→输出链式: [('Detector', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Why I Switched to RunConvert.com for everyday file convert",
-        "confidence": 20,
+        "text": "AI Coding Agents in 2026: 8 Tools That Actually Ship Production Code",
+        "confidence": 35,
         "features": [
-          "输入→输出链式: [('Switched to RunConvert', 'to', '', '', '', '')]"
+          "输入→输出链式: [('8 Tools', 'To', '', '', '', '')]",
+          "英文工具名词: ['tool']"
         ]
       }
     ]
