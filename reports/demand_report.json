@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-07-07T09:56:23.143714+00:00",
+  "generated_at": "2026-07-07T11:35:11.934609+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
       {
-        "repo": "asgeirtj/system_prompts_leaks",
-        "url": "https://github.com/asgeirtj/system_prompts_leaks"
+        "repo": "Zackriya-Solutions/meetily",
+        "url": "https://github.com/Zackriya-Solutions/meetily"
       },
       {
         "repo": "addyosmani/agent-skills",
         "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "repo": "Zackriya-Solutions/meetily",
-        "url": "https://github.com/Zackriya-Solutions/meetily"
       },
       {
         "repo": "ruvnet/RuView",
@@ -28,52 +24,52 @@
         "url": "https://github.com/apps/github-actions"
       },
       {
-        "repo": "Leonxlnx/taste-skill",
-        "url": "https://github.com/Leonxlnx/taste-skill"
+        "repo": "asgeirtj/system_prompts_leaks",
+        "url": "https://github.com/asgeirtj/system_prompts_leaks"
       },
       {
-        "repo": "alirezarezvani/claude-skills",
-        "url": "https://github.com/alirezarezvani/claude-skills"
+        "repo": "TencentCloud/CubeSandbox",
+        "url": "https://github.com/TencentCloud/CubeSandbox"
       },
       {
-        "repo": "openai/codex-plugin-cc",
-        "url": "https://github.com/openai/codex-plugin-cc"
+        "repo": "AhmadIbrahiim/Website-downloader",
+        "url": "https://github.com/AhmadIbrahiim/Website-downloader"
       },
       {
-        "repo": "mvanhorn/last30days-skill",
-        "url": "https://github.com/mvanhorn/last30days-skill"
-      },
-      {
-        "repo": "ogulcancelik/herdr",
-        "url": "https://github.com/ogulcancelik/herdr"
-      },
-      {
-        "repo": "bradautomates/claude-video",
-        "url": "https://github.com/bradautomates/claude-video"
-      },
-      {
-        "repo": "karakeep-app/karakeep",
-        "url": "https://github.com/karakeep-app/karakeep"
-      },
-      {
-        "repo": "firecrawl/firecrawl",
-        "url": "https://github.com/firecrawl/firecrawl"
+        "repo": "apps/copilot-swe-agent",
+        "url": "https://github.com/apps/copilot-swe-agent"
       },
       {
         "repo": "steipete/CodexBar",
         "url": "https://github.com/steipete/CodexBar"
       },
       {
-        "repo": "alibaba/zvec",
-        "url": "https://github.com/alibaba/zvec"
+        "repo": "dotnet/skills",
+        "url": "https://github.com/dotnet/skills"
       },
       {
-        "repo": "sindresorhus/awesome",
-        "url": "https://github.com/sindresorhus/awesome"
+        "repo": "apps/github-copilot-cli",
+        "url": "https://github.com/apps/github-copilot-cli"
       },
       {
-        "repo": "gastownhall/gastown",
-        "url": "https://github.com/gastownhall/gastown"
+        "repo": "iOfficeAI/OfficeCLI",
+        "url": "https://github.com/iOfficeAI/OfficeCLI"
+      },
+      {
+        "repo": "bradautomates/claude-video",
+        "url": "https://github.com/bradautomates/claude-video"
+      },
+      {
+        "repo": "kyutai-labs/pocket-tts",
+        "url": "https://github.com/kyutai-labs/pocket-tts"
+      },
+      {
+        "repo": "hesreallyhim/awesome-claude-code",
+        "url": "https://github.com/hesreallyhim/awesome-claude-code"
+      },
+      {
+        "repo": "apps/copilot-pull-request-reviewer",
+        "url": "https://github.com/apps/copilot-pull-request-reviewer"
       }
     ],
     "stackoverflow": [
@@ -100,47 +96,47 @@
       "小红书的骚操作会不会毁掉整个行业的 VIE？",
       "分析分析，你们老婆也这样吗",
       "“万一免五”低佣低两融老倔驴开户巨靠谱，继续抽 JBL GO4 小音箱..喜欢动次打次的来~~",
-      "国行红米手机有推荐吗？",
       "这篇文章勾起了我的对于体罚的回忆",
+      "国行红米手机有推荐吗？",
       "有没有这样一种工作",
       "Cursor 无法手动关掉 max mode 使用了"
     ],
     "devto": [
       "DEV Community: programming",
-      "How AI Integration Services Cut Costs for Enterprises",
-      "Associate Vice President Email List Reach Influential Business Leaders with Ready Mailing Team",
-      "General Managers Mailing List Connect with Business Leaders and Drive Targeted Growth",
-      "P Watched an AI That Only Looked One Way. The 99.97% Was Real. It Just Missed Everything That Mattered.",
-      "Qualcomm — Deep Dive",
-      "Get Your Gaming Console Back to Peak Performance",
-      "Write MCP Servers in Python in 10 Lines with FastMCP",
-      "Top 10 Best Jigoshop to WooCommerce Migration Companies",
-      "Why I built an API-first e-commerce platform",
-      "What Makes a Top Python Development Company Stand Out?",
-      "I Stopped Watching Tutorials for 3 Days… And Something Surprising Happened",
-      "AI's Guide to Human Decoding: A Day in the Life of a Code Translator"
+      "Mapping a Full Agentic SDLC: Planning, Build, Test, Deploy, Monitor, Patch",
+      "ServiceNow Online Training In Hyderabad | ServiceNow Training",
+      "Cut your LLM bill by matching the model to the task — a real price comparison",
+      "React useContext Hook aur Context API Kaise Kaam Karta Hai",
+      "Claude Code Pricing 2026: Pro vs Max vs Team (Updated June)",
+      "AI's Existential Dread: Another Day, Another Line of Code",
+      "enable AI's Full Potential: Structure Your Codebase for Agent Success",
+      "Termite Control Services in Dubai: The Complete Guide to Protecting Your Property",
+      "AI Coding Tip 026 - Assign a Persona to Every Skill Definition",
+      "We Are Building an Hybrid AI Call-Center",
+      "The ‘Action Item’ Graveyard: Why Your Sprint Retrospectives Are Just Emotional Theatre",
+      "How a Lorem Ipsum generator actually builds fake Latin from a real word pool"
     ],
     "lobsters": [
       "Odin 1.0 Announcement",
+      "Together for a healthier Clippy",
       "ReactOS \"Open-Source Windows\" Project Now Capable Of Running Half-Life 2",
       "GLM 5.2 and the coming AI margin collapse",
       "Faster Builds with Elm 0.19.2",
+      "Why false sharing alignment should be 128 bytes on x64",
+      "Waterfall CAD Playground - A Haskell powered programmable-CAD environment, in the browser with WASM",
       "sneakerweb",
-      "The (Petty) Reason We Didn't End Up Using jj",
       "Radicle: P2P Git Replication with Git Native Issues and Patches",
-      "OpenSSH 10.4",
-      "A Speed Limit for Computers",
       "Compiling a Go program into a native binary for Nintendo Switch (2022)",
+      "The (Petty) Reason We Didn't End Up Using jj",
+      "OpenSSH 10.4",
+      "Google’s exponential path to climate-wrecking digital bloat",
+      "A Speed Limit for Computers",
+      "Eliminating Go bound checks with unsafe",
       "Postgres Is Enough",
       "Jam Programming Language",
       "PREEMPT_NONE Is Dead; Your Postgres Probably Doesn’t Care",
-      "Eliminating Go bound checks with unsafe",
-      "Mr. Baby Paint &amp; accidentally discovering a new cellular automata",
-      "Waterfall CAD Playground - A Haskell powered programmable-CAD environment, in the browser with WASM",
-      "Together for a healthier Clippy",
       "Januscape: Guest-to-Host Escape in KVM/x86",
-      "Caught a .git/config crawler",
-      "Google’s exponential path to climate-wrecking digital bloat"
+      "Mr. Baby Paint &amp; accidentally discovering a new cellular automata"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -165,34 +161,43 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Resetting Xbox 🔥622pts 💬670",
-      "OpenWrt One – Open Hardware Router 🔥619pts 💬240",
-      "CoMaps – FOSS Offline Maps 🔥562pts 💬123",
-      "Fable turned reMarkable into Tom Riddle's diary from Harry Potter 🔥463pts 💬289",
-      "GLM 5.2 and the coming AI margin collapse 🔥419pts 💬254",
-      "A global workspace in language models 🔥371pts 💬136",
-      "AMD Ryzen AI Halo – $4k AI Dev Kit 🔥331pts 💬225",
-      "Ternlight – 7 MB embedding model that runs in browser (WASM) 🔥221pts 💬52",
-      "How to sequence your own DNA at home 🔥214pts 💬76",
-      "Learning to code is still worthwhile 🔥205pts 💬208",
-      "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files 🔥180pts 💬54",
-      "Linux on the Atari Jaguar 🔥153pts 💬39",
-      "Small AI Models Gain Traction In places with unreliable networks 🔥143pts 💬50",
-      "Kani: A Model Checker for Rust 🔥143pts 💬8",
-      "Rotman Lens 🔥112pts 💬33",
-      "Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359] 🔥111pts 💬37",
-      "NSA and IETF: Fairness 🔥110pts 💬90",
-      "Pruning RAG context down to what the answer actually needs 🔥103pts 💬21",
-      "OpenSSH 10.4/10.4p1 Released 🔥79pts 💬16",
-      "M/PC – A Concatenative OS 🔥63pts 💬10",
-      "Microsoft Can Track Users via a Windows Device ID",
-      "YC CEO says he ships 37K LoC AI code per day. A developer looked under the hood",
-      "Dolosse – a South African invention used over the world",
-      "A 2048-spin bulk acoustic wave Ising machine for number partitioning and Sudoku",
-      "EndBASIC 0.14: Are we multimedia yet?"
+      "OpenWrt One – Open Hardware Router 🔥675pts 💬252",
+      "Resetting Xbox 🔥649pts 💬717",
+      "CoMaps – FOSS Offline Maps 🔥611pts 💬134",
+      "Fable turned reMarkable into Tom Riddle's diary from Harry Potter 🔥497pts 💬315",
+      "GLM 5.2 and the coming AI margin collapse 🔥479pts 💬287",
+      "A global workspace in language models 🔥390pts 💬148",
+      "AMD Ryzen AI Halo – $4k AI Dev Kit 🔥343pts 💬229",
+      "Ternlight – 7 MB embedding model that runs in browser (WASM) 🔥253pts 💬56",
+      "How to sequence your own DNA at home 🔥250pts 💬99",
+      "Learning to code is still worthwhile 🔥230pts 💬223",
+      "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files 🔥188pts 💬56",
+      "Small AI Models Gain Traction In places with unreliable networks 🔥167pts 💬58",
+      "Linux on the Atari Jaguar 🔥158pts 💬48",
+      "Kani: A Model Checker for Rust 🔥149pts 💬9",
+      "NSA and IETF: Fairness 🔥121pts 💬93",
+      "Rotman Lens 🔥117pts 💬36",
+      "Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359] 🔥116pts 💬45",
+      "Pruning RAG context down to what the answer actually needs 🔥109pts 💬27",
+      "Microsoft Can Track Users via a Windows Device ID 🔥102pts 💬41",
+      "OpenSSH 10.4/10.4p1 Released 🔥87pts 💬16",
+      "Dolosse – a South African invention used over the world 🔥74pts 💬20",
+      "M/PC – A Concatenative OS 🔥66pts 💬10",
+      "The Art of Computer Programming by Donald E. Knuth",
+      "EndBASIC 0.14: Are we multimedia yet?",
+      "Inkfield"
     ],
     "hn_show": [
-      "A Haskell programmable-CAD environment, in the browser with WASM — featured on Hacker News (🔥2pts)",
+      "Unlimitedcodex – Flat-Price OpenAI-Compatible GPT/Codex API Access — featured on Hacker News (🔥1pts)",
+      "Multi-channel color QR code generator — featured on Hacker News (🔥1pts)",
+      "Orchestra – Browser automation tool with export plain Playwright — featured on Hacker News (🔥1pts)",
+      "A simple random animal generator — featured on Hacker News (🔥1pts)",
+      "A read-only MCP server for WooCommerce — featured on Hacker News (🔥1pts)",
+      "Formester – a form builder with no limits on forms or submissions — featured on Hacker News (🔥1pts)",
+      "Brianni – AI chat on GPT/Claude/Gemini that we can't read (provable) — featured on Hacker News (🔥1pts)",
+      "iOS-style \"select text on any image\" OCR for de-googled Android — featured on Hacker News (🔥1pts)",
+      "Formo – Analytics and attribution for onchain apps — featured on Hacker News (🔥1pts)",
+      "A Haskell programmable-CAD environment, in the browser with WASM — featured on Hacker News (🔥4pts)",
       "Deceptive.design – dark pattern types, laws and cases (rebuilt) — featured on Hacker News (🔥1pts)",
       "A calculator CLI to help your agents perform calculations accurately — featured on Hacker News (🔥1pts)",
       "Flag Click – Country Clicker Game — featured on Hacker News (🔥1pts)",
@@ -202,15 +207,7 @@
       "FaultFixer – For websites and apps to self-heal themselves — featured on Hacker News (🔥1pts)",
       "Ex Situ, open-source spatial index of displaced cultural artifacts — featured on Hacker News (🔥2pts)",
       "Disguise any article as VS Code, Excel or Slack – with a boss key — featured on Hacker News (🔥1pts)",
-      "Access-aware text-to-SQL – stop LLM agents overfetching data — featured on Hacker News (🔥1pts)",
-      "A router that drops costs by roughly 45% — featured on Hacker News (🔥1pts)",
-      "Shadow Web – Cut 64–97% of web page tokens for LLM agents — featured on Hacker News (🔥1pts)",
-      "Fast, native Mac file manager (filters, fuzzy find, 9 MB, no Electron) — featured on Hacker News (🔥3pts)",
-      "A free, GPU-accelerated Texas Hold'em GTO solver in C++/CUDA — featured on Hacker News (🔥3pts)",
-      "99 Business Ideas — featured on Hacker News (🔥2pts)",
-      "A map of every UK company, updated monthly — featured on Hacker News (🔥1pts)",
-      "I made a browser TUI with its own layout engine — featured on Hacker News (🔥5pts)",
-      "PDF YouTube Transcriptions — featured on Hacker News (🔥1pts)"
+      "Access-aware text-to-SQL – stop LLM agents overfetching data — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "China chip equipment rally faces earnings test amid memory boom bets — user asking for tool recommendation (🔥1pts)",
@@ -237,33 +234,34 @@
       "Show HN: Selbstbild – What Fable 5 thinks of your HN comment history — user asking for tool recommendation (🔥6pts)",
       "Show HN: Psycurate – Curated place for privacy-first, free psychological tools — user asking for tool recommendation (🔥1pts)",
       "Show HN: PDF YouTube Transcriptions — user asking for tool recommendation (🔥1pts)",
-      "Hate \"The Algorithm?\" RSS Is One of the Tools You've Been Looking For — user asking for tool recommendation (🔥17pts)",
+      "Hate \"The Algorithm?\" RSS Is One of the Tools You've Been Looking For — user asking for tool recommendation (🔥20pts)",
       "Ask HN: Open-source website builders for animated sites like Higgsfield? — user asking for tool recommendation (🔥4pts)",
       "Ask HN: What metrics do you track when building agents? — user asking for tool recommendation (🔥2pts)",
       "Show HN: I built an encrypted BLE dongle for pasting stuff to air-gapped devices — user asking for tool recommendation (🔥5pts)",
-      "Cartes.app – a free and open map, a Web alternative to Google and Apple maps — user asking for tool recommendation (🔥1pts)",
-      "Machine Is a Server. Do Not Power Down — user asking for tool recommendation (🔥1pts)"
+      "Show HN: Orchestra – Browser automation tool with export plain Playwright — user asking for tool recommendation (🔥1pts)",
+      "Cartes.app – a free and open map, a Web alternative to Google and Apple maps — user asking for tool recommendation (🔥1pts)"
     ],
     "hackernoon": [
-      "We Tried Building an In-House AI Routing Layer - It Blew Up at $500/Month Per Engineer",
-      "Build a Lightning Node in Rust: Everything Guide From Prerequisites to Payment Requests",
-      "One Company Runs 95% of Solana's Validators. Flowra's Harry Hwang Is Building the Open Alternative",
-      "213 Blog Posts To Learn About Android App Development",
-      "Running Tech Startups Is Quite Like Running A Restaurant",
-      "AI Memory Should Be Product State, Not a Hidden Prompt Trick",
-      "Deribit and SignalPlus Launch The Island Trading Competition With Up to $600,000 USDC in Prizes",
-      "Unreal Engine 5.8 Windows Optimization Guide (v1.0)",
-      "Your Multi-Agent System Is a Distributed System. Treat It Like One",
-      "AWS IoT Core in Production: How We Built OTA Firmware Pipelines for 300+ Physical EV Chargers",
-      "I Automated My Communication, and Everything Worked. Then I Slowly Disappeared",
-      "The Stablecoin Gold Rush Has a Plot Twist",
-      "Developing Engineering Judgment in the Age of AI Code Generation",
-      "What Five Years in Banking Taught Me About Building Consumer Apps",
-      "Crypto Portfolio Tracking Is Broken. It Needs to Become Action-Aware.",
-      "The TechBeat: How Small Postgres Metadata Tables Quietly Throttle Your Largest Queries (7/6/2026)",
-      "117 Blog Posts To Learn About Amazon Web Services",
-      "We Used Benchmaxxers' Favourite Trick to Climb 10 Places on the Hugging Face Open ASR Leaderboard",
-      "Dmytro Rukin on Building Cross-Border Payment Infrastructure in Latin America"
+      "Why AI Agent Cost Attribution Has to Be Per Task",
+      "Breach At The Beach: The Ultimate Entra ID Training Experience",
+      "Is the Traditional Career Ladder Becoming a Lattice?",
+      "EvilTokens: How “Ghost” Code Threatens US and European Businesses",
+      "SOC 2 from the DevOps Angle: Why Your Infrastructure Engineer Is Your Best Compliance Lead",
+      "Your Model Isn't the Hack Target. the Plumbing Around it Is.",
+      "UK’s Productivity Problem: What Can Large Organisations Do?",
+      "Google’s AI Search Answers Has a Reddit Problem — And Publishers Should Be Furious",
+      "5+ Open-Source Projects for Focus & Productivity —To Support Via Kivach",
+      "Closed Source LLMs Bankroll the AI Companies and Bankrupt the World - And 5 Guidelines to Reverse It",
+      "The Death of the Travel Search Box",
+      "Risk Management Software for Medical Device Development: 8 Platforms Compared",
+      "The 32-Bit Integer That Leaks Your Neighbor's GPU Memory: A Deep Dive Into CVE-2026-53923 in vLLM",
+      "319 Blog Posts To Learn About Android",
+      "AI Writes 80% of Code Now - Here's Why That's a Different Problem for Fintech",
+      "What 12 Farm Zones Revealed About a 562-Hectare Field (Part 2 of 2)",
+      "Stop Routing Every Developer Query to Top-Tier LLMs",
+      "From £50k to £20k: How I Tamed the AI Subscription Chaos in a 120-Vendor Enterprise",
+      "There Is No Git for AI Filmmaking - Here Is How I Build My Own",
+      "I Have 880,000 Lines of Code, and I Trust Half of Them"
     ],
     "infoq": [
       "Presentation: Designing AI Platforms for Reliability: Tools for Certainty, Agents for Discovery <img src=\"https://res.infoq.com/presentations/reliable-ai-platforms/en/mediumimage/aaron-erickson-medium-1782819611516.jpg\"/><p>Aaron Erickson explain",
@@ -283,60 +281,60 @@
       "Hardwood Promises High-Speed JVM Apache Parquet Processing with Zero Mandatory Dependencies <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>Hardwood, the project Gunnar Morling kick-started to improve the handli"
     ],
     "google_trends": [
-      "meghan hayden",
-      "skylar diggins",
-      "tesla",
-      "bitcoin",
-      "hotel",
-      "bitcoin price",
-      "climate change",
-      "artificial intelligence",
-      "pool",
-      "new york weather"
+      "angel reese",
+      "jim cramer new stock picks",
+      "new york mets",
+      "tianwen-2",
+      "big tigger",
+      "prince harry daily mail lawsuit",
+      "sling",
+      "sony ps plus july 2026",
+      "strait of hormuz news",
+      "publix organic blueberry recall"
     ],
     "baidu": [
       "习近平对防汛救灾工作作出重要指示",
       "中方回应多国“批评”中国试射导弹",
-      "机票价大跳水 多条热门航线低于高铁",
+      "佛得角邀国足比赛被婉拒？足协回应",
       "水利部升级发布洪水橙色预警",
+      "机票价大跳水 多条热门航线低于高铁",
       "日本品牌拿七七当七夕引众怒",
+      "比利时大胜美国 世界杯最大爽剧",
+      "广西：急需有橡皮艇冲锋舟的志愿队伍",
+      "“还我佛得角”",
       "马克龙下榻酒店附近连发爆炸",
       "湖北黄石特大龙卷风致2死51伤",
-      "直击广西洪涝抢险现场",
-      "比利时大胜美国 世界杯最大爽剧",
-      "“还我佛得角”",
-      "前华为天才少年吐槽DeepSeek面试",
-      "“超强台风巴威风力18级”不实",
-      "高校全额收购学生父亲的万斤西瓜",
+      "网传新能源车智驾芯片新规系谣言",
+      "比利时：我看谁还打电话",
       "多方回应广西横州洪涝致养殖蛇外窜",
-      "暑假工干活太好 被老板加钱请回",
+      "卢卡库跳“特朗普之舞”贴脸嘲讽",
       "印度男子与38岁情妇枪杀22岁妻子",
-      "世界杯只剩最后10场比赛",
-      "美国队输大了足球输麻了",
-      "湖北黄冈龙卷风亲历者：怕死还录了音",
-      "卢卡库跳“特朗普之舞”贴脸嘲讽"
+      "男子婚内转51万给小18岁情人",
+      "广西广东江苏等地有大到暴雨",
+      "百亿富豪翁先定被留置 公司回应",
+      "从填表到刷脸 谁在过度收集个人信息"
     ],
     "wikipedia": [
-      "Nyala Airport",
-      "Verdaguer station",
-      "Healthcare in Ethiopia",
-      "St Mary's Church, Sheriffhales",
-      "List of Imperial Japanese Navy admirals",
-      "Zineb Kharroubi",
-      "Economy of Laos",
-      "Chuvash people",
-      "Semnan province",
-      "List of presidents of the University of Missouri System",
-      "Ellen O'Keefe",
-      "Bengaluru FC",
-      "Gunnar Cederschiöld",
-      "East Bengal Club",
-      "Brown Line (CTA)",
-      "Teachers' Superannuation Act 1967",
-      "Republic of Hawaii",
-      "Garry Buckley",
-      "Han Seong-sook",
-      "World Championship of Online Poker"
+      "UAE Women's Football League",
+      "Samuel Doria Medina",
+      "List of 60 Minutes episodes",
+      "Nadir Abu Khalid",
+      "Malone, Washington",
+      "Northwest Territorial Imperative",
+      "Rod Wave discography",
+      "Mains electricity by country",
+      "The Nutty Professor (1963 film)",
+      "Amor (Emmanuel Cortes song)",
+      "Judith Waudo",
+      "RY Scuti",
+      "Human papillomavirus infection",
+      "Malone, Washington",
+      "Torres (musician)",
+      "Mitch Epstein",
+      "Carlos Baxter",
+      "2026 Negombo prison riot",
+      "Estonia in the Eurovision Song Contest",
+      "M Lhuillier"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -397,8 +395,8 @@
       "conjurate — npm package: Pluggable generator tool",
       "packs — npm package: Static survey generator tool",
       "@mobify/create-app — npm package: Mobify's project generator tool",
+      "grunt-phpdocumentor — npm package: Runs the PHPDocumentor documentation generator tool.",
       "love-island-gems-generator — npm package: love-island-gems-generator-tool",
-      "pwa-kit-create-app — npm package: Salesforce's project generator tool",
       "@teld-approval/converter — npm package: converter tool",
       "@adobe/aem-cs-source-migration-dispatcher-converter — npm package: AEM as a Cloud Service Dispatcher Converter tool",
       "@adobe/aem-cs-source-migration-index-converter — npm package: AEM as a Cloud Service Index Converter tool",
@@ -421,33 +419,42 @@
       "ecdsa-sig-formatter — npm package: Translate ECDSA signatures between ASN.1/DER and JOSE-style concatenation"
     ],
     "github_topics": [
-      "github trending topic: project management",
-      "github trending topic: front end",
-      "github trending topic: react native",
-      "github trending topic: llm",
-      "github trending topic: chrome",
-      "github trending topic: scala",
-      "github trending topic: code quality",
-      "github trending topic: python",
-      "github trending topic: telegram-ws-proxy",
-      "github trending topic: react",
-      "github trending topic: javascript",
-      "github trending topic: typescript",
-      "github trending topic: node.js",
-      "github trending topic: machine-learning",
-      "github trending topic: scx",
-      "github trending topic: fastapi",
-      "github trending topic: awesome lists",
       "github trending topic: database",
+      "github trending topic: node.js",
       "github trending topic: css",
+      "github trending topic: javascript",
+      "github trending topic: react",
+      "github trending topic: project management",
+      "github trending topic: bioc-data-experiment",
+      "github trending topic: llm",
+      "github trending topic: front end",
+      "github trending topic: python",
+      "github trending topic: code quality",
+      "github trending topic: chrome",
       "github trending topic: npm",
       "github trending topic: tg-ws-proxy",
-      "github trending topic: compiler"
+      "github trending topic: bioc-package",
+      "github trending topic: awesome lists",
+      "github trending topic: compiler",
+      "github trending topic: typescript",
+      "github trending topic: scala",
+      "github trending topic: bioconductor",
+      "github trending topic: bioc-data-annotation",
+      "github trending topic: react native"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
+    {
+      "keyword": "Website-downloader",
+      "matched": "download",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Downloader",
+      "name_zh": "下载器"
+    },
     {
       "keyword": "claude-video",
       "matched": "video",
@@ -458,22 +465,40 @@
       "name_zh": "视频格式转换器"
     },
     {
-      "keyword": "AI's Guide to Human Decoding: A Day in the Life of a Code Translator",
+      "keyword": "copilot-pull-request-reviewer",
+      "matched": "viewer",
+      "category": "misc",
+      "subcat": "misc",
+      "type": "tool",
+      "name": "Viewer",
+      "name_zh": "查看器"
+    },
+    {
+      "keyword": "Mapping a Full Agentic SDLC: Planning, Build, Test, Deploy, Monitor, Patch",
+      "matched": "monitor",
+      "category": "dev",
+      "subcat": "devops",
+      "type": "tool",
+      "name": "Site Monitor",
+      "name_zh": "站点监控器"
+    },
+    {
+      "keyword": "Mapping a Full Agentic SDLC: Planning, Build, Test, Deploy, Monitor, Patch",
+      "matched": "deploy",
+      "category": "dev",
+      "subcat": "devops",
+      "type": "tool",
+      "name": "Deploy Tool",
+      "name_zh": "部署工具"
+    },
+    {
+      "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
       "category": "ai",
       "subcat": "ai-chat",
       "type": "tool",
       "name": "AI Assistant",
       "name_zh": "AI助手"
-    },
-    {
-      "keyword": "Caught a .git/config crawler",
-      "matched": "crawl",
-      "category": "dev",
-      "subcat": "scraping",
-      "type": "tool",
-      "name": "Web Crawler",
-      "name_zh": "网页爬虫"
     },
     {
       "keyword": "LLMs — tool from ProductHunt",
@@ -521,7 +546,7 @@
       "name_zh": "单位换算"
     },
     {
-      "keyword": "Kani: A Model Checker for Rust 🔥143pts 💬8",
+      "keyword": "Kani: A Model Checker for Rust 🔥149pts 💬9",
       "matched": "check",
       "category": "dev",
       "subcat": "code",
@@ -621,11 +646,12 @@
     }
   ],
   "all_keywords": [
-    "claude-skills",
+    "Website-downloader",
     "claude-video",
+    "awesome-claude-code",
+    "copilot-pull-request-reviewer",
     "使用 claude code 进行开发，一天用 600 人民币算多吗？",
-    "AI's Guide to Human Decoding: A Day in the Life of a Code Translator",
-    "Caught a .git/config crawler",
+    "Mapping a Full Agentic SDLC: Planning, Build, Test, Deploy, Monitor, Patch",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -646,9 +672,10 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Kani: A Model Checker for Rust 🔥143pts 💬8",
+    "Kani: A Model Checker for Rust 🔥149pts 💬9",
     "Show HN: Logo Design for Busy Founders — user asking for tool recommendation (🔥3pts)",
     "Show HN: PDF YouTube Transcriptions — user asking for tool recommendation (🔥1pts)",
+    "男子婚内转51万给小18岁情人",
     "electra-base-discriminator",
     "electra-base-discriminator",
     "tgt — npm package: tpl generator tool",
@@ -656,22 +683,21 @@
     "packs — npm package: Static survey generator tool",
     "@mobify/create-app — npm package: Mobify's project generator tool",
     "love-island-gems-generator — npm package: love-island-gems-generator-tool",
-    "pwa-kit-create-app — npm package: Salesforce's project generator tool",
     "@teld-approval/converter — npm package: converter tool",
     "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
     "jsonmatter — npm package: JSON formatter tool by stream",
     "editorjs-inline-marker — npm package: Inline formatter tool for editorjs",
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "prettier — npm package: Prettier is an opinionated code formatter",
-    "sass-formatter — npm package: TypeScript Sass formatter"
+    "sass-formatter — npm package: TypeScript Sass formatter",
+    "github trending topic: bioc-package"
   ],
   "filter_stats": {
-    "raw_count": 174,
-    "valid_count": 43,
-    "rejected_count": 131,
+    "raw_count": 182,
+    "valid_count": 45,
+    "rejected_count": 137,
     "rejection_rate": 75.3,
     "rejected_samples": [
-      "gastown",
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
       "What are metaclasses in Python?",
@@ -679,32 +705,23 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "Get Your Gaming Console Back to Peak Performance",
-      "Write MCP Servers in Python in 10 Lines with FastMCP"
+      "Cut your LLM bill by matching the model to the task — a real price comparison",
+      "React useContext Hook aur Context API Kaise Kaam Karta Hai",
+      "Claude Code Pricing 2026: Pro vs Max vs Team (Updated June)"
     ]
   },
   "trait_analysis": {
-    "total_captured": 351,
-    "chatter_blocked": 16,
-    "chatter_rate": 4.6,
-    "tool_signals_found": 174,
-    "tool_signal_rate": 49.6,
+    "total_captured": 352,
+    "chatter_blocked": 12,
+    "chatter_rate": 3.4,
+    "tool_signals_found": 182,
+    "tool_signal_rate": 51.7,
     "chatter_samples": [
       {
         "text": "同事送了个洗碗机之后回不去了",
         "category": "chatter",
         "matched": [
           "同事"
-        ]
-      },
-      {
-        "text": "Associate Vice President Email List Reach Influential Business Leaders with Read",
-        "category": "news",
-        "matched": [
-          [
-            "President",
-            ""
-          ]
         ]
       },
       {
@@ -718,24 +735,24 @@
         ]
       },
       {
-        "text": "AMD Ryzen AI Halo – $4k AI Dev Kit 🔥331pts 💬225",
+        "text": "AMD Ryzen AI Halo – $4k AI Dev Kit 🔥343pts 💬229",
         "category": "job",
         "matched": [
           "$4k"
         ]
       },
       {
-        "text": "Dolosse – a South African invention used over the world",
+        "text": "Dolosse – a South African invention used over the world 🔥74pts 💬20",
         "category": "chatter",
         "matched": [
           "vent"
         ]
       },
       {
-        "text": "Running Tech Startups Is Quite Like Running A Restaurant",
-        "category": "chatter",
+        "text": "Is the Traditional Career Ladder Becoming a Lattice?",
+        "category": "job",
         "matched": [
-          "rant"
+          "Career"
         ]
       },
       {
@@ -757,32 +774,34 @@
         ]
       },
       {
-        "text": "bitcoin",
-        "category": "news",
+        "text": "UAE Women's Football League",
+        "category": "entertainment",
         "matched": [
-          [
-            "bitcoin",
-            ""
-          ]
+          "Football"
         ]
       },
       {
-        "text": "bitcoin price",
-        "category": "news",
+        "text": "The Nutty Professor (1963 film)",
+        "category": "entertainment",
         "matched": [
-          [
-            "bitcoin",
-            ""
-          ]
+          "film"
+        ]
+      },
+      {
+        "text": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action ",
+        "category": "job",
+        "matched": [
+          "position"
         ]
       }
     ],
     "tool_signal_samples": [
       {
-        "text": "claude-skills",
-        "confidence": 15,
+        "text": "Website-downloader",
+        "confidence": 40,
         "features": [
-          "技术概念: ['claude']"
+          "英文动作特征: ['downloader']",
+          "英文工具名词: ['downloader']"
         ]
       },
       {
@@ -793,10 +812,17 @@
         ]
       },
       {
-        "text": "gastown",
-        "confidence": 20,
+        "text": "awesome-claude-code",
+        "confidence": 15,
         "features": [
-          "输入→输出链式: [('gastown', 'to', '', '', '', '')]"
+          "技术概念: ['claude']"
+        ]
+      },
+      {
+        "text": "copilot-pull-request-reviewer",
+        "confidence": 15,
+        "features": [
+          "英文工具名词: ['viewer']"
         ]
       },
       {
@@ -859,31 +885,27 @@
         ]
       },
       {
-        "text": "Get Your Gaming Console Back to Peak Performance",
-        "confidence": 20,
+        "text": "Mapping a Full Agentic SDLC: Planning, Build, Test, Deploy, Monitor, Patch",
+        "confidence": 60,
         "features": [
-          "输入→输出链式: [('Back to Peak', 'to', '', '', '', '')]"
+          "英文动作特征: ['Monitor']",
+          "输入→输出链式: [('Monitor', 'to', '', '', '', '')]",
+          "英文工具名词: ['monitor']"
         ]
       },
       {
-        "text": "Write MCP Servers in Python in 10 Lines with FastMCP",
+        "text": "Cut your LLM bill by matching the model to the task — a real price comparison",
+        "confidence": 35,
+        "features": [
+          "输入→输出链式: [('model to the', 'to', '', '', '', '')]",
+          "技术概念: ['LLM']"
+        ]
+      },
+      {
+        "text": "React useContext Hook aur Context API Kaise Kaam Karta Hai",
         "confidence": 15,
         "features": [
-          "技术概念: ['Python']"
-        ]
-      },
-      {
-        "text": "Top 10 Best Jigoshop to WooCommerce Migration Companies",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('Jigoshop to WooCommerce', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "Why I built an API-first e-commerce platform",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['API']"
+          "技术概念: ['React', 'API']"
         ]
       }
     ]
