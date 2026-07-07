@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-07T04:07:17.738338+00:00     ║
+║       启动时间: 2026-07-07T09:56:22.993311+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 9 topics
+  ✅ 10 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 20 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -82,15 +82,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
   原始信号总量: 351
-  🚫 闲聊拦截: 14 条 (4.0%)
-  🧠 工具信号: 172 条 (49.0%)
+  🚫 闲聊拦截: 16 条 (4.6%)
+  🧠 工具信号: 174 条 (49.6%)
 
   📋 闲聊拦截样例:
-     [entertainment] I built a lightweight Football Manager alternative because I
-     [job] AMD Ryzen AI Halo – $4k AI Dev Kit 🔥292pts 💬214
-     [chatter] Running Tech Startups Is Quite Like Running A Restaurant
-     [entertainment] Netflix Cuts Cassandra Read Latency from Seconds to Millisec
-     [news] AWS Introduces Amazon S3 Annotations <img src="https://res.i
+     [chatter] 同事送了个洗碗机之后回不去了
+     [news] Associate Vice President Email List Reach Influential Busine
+     [news] Odin 1.0 Announcement
+     [job] AMD Ryzen AI Halo – $4k AI Dev Kit 🔥331pts 💬225
+     [chatter] Dolosse – a South African invention used over the world
 
   🧠 工具信号样例:
      [置信度15%] claude-skills
@@ -99,9 +99,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['claude']
      [置信度20%] gastown
        ↳ 输入→输出链式: [('gastown', 'to', '', '', '', '')]
-     [置信度15%] What does the "yield" keyw
+     [置信度15%] What does the "yield" keyword do in Python?
+       ↳ 技术概念: ['Python']
+     [置信度35%] Does Python have a ternary conditional ope
 
-✅ 雷达完成 — 18 条建议
+✅ 雷达完成 — 19 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
@@ -109,18 +111,18 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 351 条
-     🚫 闲聊拦截: 14 条 (4.0%)
-     🧠 工具信号: 172 条 (49.0%)
-     闲聊样例: I built a lightweight Football Manager alternative... [entertainment]
+     🚫 闲聊拦截: 16 条 (4.6%)
+     🧠 工具信号: 174 条 (49.6%)
+     闲聊样例: 同事送了个洗碗机之后回不去了... [chatter]
      工具信号样例: claude-skills... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 172 → 有效 43
-     拒绝率: 75.0%
+     工具信号 174 → 有效 43
+     拒绝率: 75.3%
 
-  📊 意图分类器审计 — 审查 18 条需求
+  📊 意图分类器审计 — 审查 19 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
+  ✅ 通过 (15):
      [PASS  |  +70] Video Converter  [?]
      [WARN  |  +35] Web Crawler  [?]
      [PASS  |  +55] LLM Tool  [?]
@@ -128,6 +130,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
      [PASS  |  +75] Checker Tool  [?]
+     [PASS  |  +70] PDF Editor  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
@@ -153,8 +156,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-07-07T04:07:17.891526+00:00
+📊 Demand report loaded: 19 suggestions
+   Generated at: 2026-07-07T09:56:23.143714+00:00
    Already in catalog: 129 tools
    Previously produced: 0 tools
    Existing tool pages: 40 files
@@ -317,7 +320,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-07T04:07:17.738338+00:00 → 2026-07-07T04:07:30.037771+00:00
+  ⏱  耗时: 2026-07-07T09:56:22.993311+00:00 → 2026-07-07T09:56:35.277954+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
