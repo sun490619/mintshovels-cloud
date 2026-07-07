@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T22:02:18.416503+00:00",
+  "generated_at": "2026-07-07T22:17:25.901846+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -107,18 +107,18 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "Digital Consciousness: Beyond the Hype",
+      "Cómo detener la inyección de prompts en agentes de IA que leen contenido no confiable",
+      "Building AI Systems That *Feel* Like They Think",
+      "Build AI Communities That Work Anywhere",
+      "Pre-allocate Like a Pro",
       "Transcribe Your Thoughts: Supercharging Content Creation with Speech-to-Text",
       "MacSurf 1.68 – NetSurf on OS 9 Released: The Complete Guide",
       "Detener alucinaciones de agentes de IA: Validar antes de que el agente escriba en memoria",
       "Cómo probar agentes de IA contra fallos de producción antes que tus usuarios",
       "The Em Dash Isn't the Tell — Your Comment Is",
       "7 Breaking Changes in the 2026-07-28 MCP Spec: Your Before/After Migration Guide",
-      "Secure 117 buy old gmail accounts-2fa,email,Aged,PVA,Strong,Verified,Ready Made 2026",
-      "Bulk 204 buy old gmail accounts-2fa,email,Aged,PVA,Strong,Verified,Bulk",
-      "Free Jim's TrueType QR Code Font. 300+ glyphs for QR codes. Download at: https://github.com/jimparis/qr-font",
-      "Aesecnryption demo site",
-      "RAITHOS777: Deploy 4 Vercel Apps Like a Pro",
-      "Digital Consciousness: RAITHOS777 Ecosystem Explained"
+      "Secure 117 buy old gmail accounts-2fa,email,Aged,PVA,Strong,Verified,Ready Made 2026"
     ],
     "lobsters": [
       "Odin 1.0 Announcement",
@@ -128,18 +128,18 @@
       "Why false sharing alignment should be 128 bytes on x64",
       "Waterfall CAD Playground - A Haskell powered programmable-CAD environment, in the browser with WASM",
       "I was wrong about game development",
-      "Mechanized type inference for record concatenation",
       "Signed Integers By Default",
+      "Mechanized type inference for record concatenation",
       "Your Rust Service Isn't Leaking — It Could Be the Allocator",
       "ReactOS \"Open-Source Windows\" Project Now Capable Of Running Half-Life 2",
       "The Popup That Says the Quiet Part Out Loud",
       "GLM 5.2 and the coming AI margin collapse",
       "Radicle: P2P Git Replication with Git Native Issues and Patches",
+      "Friction is a Feature",
       "Faster Builds with Elm 0.19.2",
       "OpenSSH 10.4",
-      "Friction is a Feature",
-      "Compiling a Go program into a native binary for Nintendo Switch (2022)",
       "New Research: A \"Verified\" GitHub Commit Is NOT Unique",
+      "Compiling a Go program into a native binary for Nintendo Switch (2022)",
       "GitHub Has Restricted Access to Star Data"
     ],
     "producthunt": [
@@ -165,31 +165,31 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time 🔥622pts 💬145",
-      "Chat Control passed first round in EU Parliament 🔥488pts 💬208",
-      "Microsoft fire idTech team at Id software 🔥448pts 💬431",
-      "98% isn't much 🔥442pts 💬279",
-      "A better way to tie gym shorts (or any drawstring) [video] 🔥415pts 💬150",
-      "Chat Control 1.0 and 2.0 Explained 🔥323pts 💬104",
-      "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format 🔥269pts 💬46",
-      "China sentences official to death for taking $325M in bribes 🔥229pts 💬252",
-      "Every new car sold in the European Union must include a driver monitoring camera 🔥219pts 💬265",
-      "Astro 7.0 🔥149pts 💬35",
-      "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro 🔥145pts 💬26",
-      "Why skilled workers come to Germany and then leave again 🔥132pts 💬297",
-      "The revenge of the philosophy majors 🔥115pts 💬180",
-      "Jim's TrueType QR Code Font 🔥103pts 💬13",
-      "Show HN: Davit, a Apple Containers UI 🔥101pts 💬14",
-      "Why we built yet another Postgres connection pooler 🔥100pts 💬25",
-      "Automating AI Away 🔥81pts 💬40",
-      "l: A new runtime for k and q 🔥75pts 💬52",
-      "Herdr: One terminal to rule them all 🔥73pts 💬45",
-      "MacSurf 1.68 – NetSurf on OS 9 Released 🔥58pts 💬9",
-      "Fixing analog audio on the $2.58 HDMI-to-VGA adapter 🔥57pts 💬18",
-      "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl 🔥55pts 💬6",
-      "Notes on Software Quality 🔥53pts 💬31",
-      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
-      "Show HN: Docx-CLI: agents read/edit Word docs using 1/2 the time and tokens"
+      "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time 🔥634pts 💬151",
+      "Chat Control passed first round in EU Parliament 🔥498pts 💬213",
+      "Microsoft fire idTech team at Id software 🔥460pts 💬437",
+      "98% isn't much 🔥445pts 💬281",
+      "A better way to tie gym shorts (or any drawstring) [video] 🔥420pts 💬150",
+      "Chat Control 1.0 and 2.0 Explained 🔥346pts 💬110",
+      "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format 🔥274pts 💬47",
+      "Every new car sold in the European Union must include a driver monitoring camera 🔥246pts 💬309",
+      "China sentences official to death for taking $325M in bribes 🔥238pts 💬265",
+      "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro 🔥168pts 💬31",
+      "Astro 7.0 🔥152pts 💬35",
+      "Why skilled workers come to Germany and then leave again 🔥137pts 💬317",
+      "The revenge of the philosophy majors 🔥119pts 💬183",
+      "Show HN: Davit, a Apple Containers UI 🔥110pts 💬18",
+      "Jim's TrueType QR Code Font 🔥106pts 💬14",
+      "Why we built yet another Postgres connection pooler 🔥104pts 💬26",
+      "Automating AI Away 🔥84pts 💬41",
+      "Herdr: One terminal to rule them all 🔥83pts 💬48",
+      "l: A new runtime for k and q 🔥81pts 💬52",
+      "Fixing analog audio on the $2.58 HDMI-to-VGA adapter 🔥60pts 💬18",
+      "MacSurf 1.68 – NetSurf on OS 9 Released 🔥60pts 💬9",
+      "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl 🔥58pts 💬8",
+      "Notes on Software Quality 🔥55pts 💬31",
+      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop 🔥52pts 💬13",
+      "Men's average testosterone levels have halved in last 50 years"
     ],
     "hn_show": [
       "OCR Buddy: local browser OCR for code, formulas (LaTeX) and tables — featured on Hacker News (🔥2pts)",
@@ -200,7 +200,7 @@
       "Agent Bus – IRC-style message bus for AI agents (MCP) — featured on Hacker News (🔥1pts)",
       "Dotenv-Diff v3.0.0 — featured on Hacker News (🔥1pts)",
       "Gawk CLI – a live AI update feed in your terminal — featured on Hacker News (🔥1pts)",
-      "Mouse Without Borders for Linux (Go Client for the PowerToys Protocol) — featured on Hacker News (🔥1pts)",
+      "Mouse Without Borders for Linux (Go Client for the PowerToys Protocol) — featured on Hacker News (🔥2pts)",
       "Free PDF Document Redaction — featured on Hacker News (🔥1pts)",
       "Limen – Composable Authentication for Go — featured on Hacker News (🔥2pts)",
       "Dejavu, stop showing coding agents the same command output twice — featured on Hacker News (🔥1pts)",
@@ -221,7 +221,7 @@
       "Show HN: SpreadsheetPreview: Pdf.js for Spreadsheets — user asking for tool recommendation (🔥3pts)",
       "China chip equipment rally faces earnings test amid memory boom bets — user asking for tool recommendation (🔥1pts)",
       "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map — user asking for tool recommendation (🔥4pts)",
-      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥48pts)",
+      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥52pts)",
       "Ask HN: How are you creating demo videos for your product? — user asking for tool recommendation (🔥1pts)",
       "Show HN: LokalBot – meetings, notes, and autocomplete that never leave your Mac — user asking for tool recommendation (🔥1pts)",
       "Ask HN: Which payment processor/merchant-of-record do you use in 2026? — user asking for tool recommendation (🔥4pts)",
@@ -238,7 +238,7 @@
       "Show HN: CLRK, an open-source agent runtime with gVisor and MitM guardrails — user asking for tool recommendation (🔥3pts)",
       "Show HN: Prizmi – a proactive AI assistant for everyday life — user asking for tool recommendation (🔥2pts)",
       "Show HN: WritingLint – a prose linter with rules over a dependency graph — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Halo – open-source, tamper-evident runtime evidence for AI agents — user asking for tool recommendation (🔥19pts)",
+      "Show HN: Halo – open-source, tamper-evident runtime evidence for AI agents — user asking for tool recommendation (🔥20pts)",
       "Show HN: Mondael.com – Institutional Intelligence for Prediction Markets — user asking for tool recommendation (🔥5pts)",
       "ScreenStack Is Looking for Design Partners — user asking for tool recommendation (🔥1pts)",
       "Show HN: An agentic CRM, built for AI agents to drive over plain HTTP — user asking for tool recommendation (🔥1pts)",
@@ -284,16 +284,16 @@
       "Cycle Introduces EU Control Plane as Sovereignty Debate Continues <img src=\"https://res.infoq.com/news/2026/07/cycle-eu-control-plane/en/headerimage/generatedHeaderImage-1782203284411.jpg\"/><p>Cycle recently introduc"
     ],
     "google_trends": [
+      "jurgen klopp",
+      "athletics vs tigers",
+      "mariners vs marlins",
+      "sri lanka vs west indies",
       "cubs vs orioles",
-      "cucho hernández",
       "braves vs pirates",
+      "cucho hernández",
       "max holloway",
-      "embolo",
       "encino fire",
-      "jonathan kuminga",
-      "nueva york",
-      "millionaire",
-      "chennedy carter"
+      "nueva york"
     ],
     "baidu": [
       "勋章无言",
@@ -310,33 +310,34 @@
       "网传新能源车智驾芯片新规系谣言",
       "江苏：这个时间暂停一切线下教学",
       "日本海域半截女尸确认为中国籍女子",
-      "比利时：我看谁还打电话",
+      "大爷爱犬去世后为陌生女子遛狗12年",
       "跌个不停！美股半导体连跌第四天",
       "闪迪、美光科技跌超6%",
       "消防员救灾后席地而睡 拍摄者发声",
-      "大爷爱犬去世后为陌生女子遛狗12年",
-      "贵港高中被困师生高呼：解放军来了！"
+      "贵港高中被困师生高呼：解放军来了！",
+      "90后夫妇连夜做400份包子送往一线"
     ],
     "wikipedia": [
-      "Ahmose-Sitamun",
-      "Røst Airport",
-      "Invitatory",
-      "UAAP Season 89 basketball tournaments",
-      "Jacob Ben-Ami",
-      "Declaring a National Energy Emergency (Executive Order 14156)",
-      "Abivax",
-      "Rørvik Airport",
-      "Kurt von Holleben",
-      "Nike Fixing her Sandal",
-      "Troy Jackson (politician)",
-      "Potato Bag Gang",
-      "Australia (continent)",
-      "Røros Airport",
-      "Bob Mansfield",
-      "Before The World Turns To Dust",
-      "2026 Clacton by-election",
-      "Saidapet",
-      "Adley Rutschman"
+      "Thousand Thoughts (band)",
+      "Multiplexed Assays of Variant Effect",
+      "Manhattan Gardens",
+      "Queen Sindeok",
+      "Scammon Bay Airport",
+      "WIG30",
+      "Adam Shapiro (actor)",
+      "Saül Airport",
+      "Jiuquan",
+      "Mototok International GmbH",
+      "Kurumbapalayam (Madukkarai)",
+      "Morgan Jerkins",
+      "Naughty Dog",
+      "Saïda Airport",
+      "The Holocaust in Ukraine",
+      "Savoonga, Alaska",
+      "Mohina",
+      "Database trigger",
+      "Count Binface",
+      "Sayak Airport"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -421,30 +422,30 @@
       "ecdsa-sig-formatter — npm package: Translate ECDSA signatures between ASN.1/DER and JOSE-style concatenation"
     ],
     "github_topics": [
-      "github trending topic: typescript",
+      "github trending topic: desktop-app",
+      "github trending topic: css",
+      "github trending topic: react",
+      "github trending topic: javascript",
+      "github trending topic: code quality",
+      "github trending topic: claude-code",
+      "github trending topic: compiler",
+      "github trending topic: awesome lists",
+      "github trending topic: managed-by-terraform",
+      "github trending topic: download",
+      "github trending topic: project management",
+      "github trending topic: python",
+      "github trending topic: pro-tool",
+      "github trending topic: llm",
       "github trending topic: front end",
+      "github trending topic: scala",
+      "github trending topic: software",
       "github trending topic: windows-11",
+      "github trending topic: node.js",
       "github trending topic: database",
       "github trending topic: npm",
       "github trending topic: chrome",
-      "github trending topic: code quality",
-      "github trending topic: javascript",
-      "github trending topic: python",
-      "github trending topic: llm",
-      "github trending topic: css",
-      "github trending topic: desktop-app",
-      "github trending topic: pro-tool",
-      "github trending topic: software",
-      "github trending topic: react",
-      "github trending topic: compiler",
-      "github trending topic: download",
-      "github trending topic: node.js",
-      "github trending topic: gaming",
-      "github trending topic: pc-game",
       "github trending topic: react native",
-      "github trending topic: scala",
-      "github trending topic: project management",
-      "github trending topic: awesome lists"
+      "github trending topic: typescript"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -659,10 +660,10 @@
     "github trending topic: pro-tool"
   ],
   "filter_stats": {
-    "raw_count": 180,
+    "raw_count": 178,
     "valid_count": 43,
-    "rejected_count": 137,
-    "rejection_rate": 76.1,
+    "rejected_count": 135,
+    "rejection_rate": 75.8,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -671,17 +672,17 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "Free Jim's TrueType QR Code Font. 300+ glyphs for QR codes. Download at: https://github.com/jimparis/qr-font",
       "Google’s exponential path to climate-wrecking digital bloat",
-      "Your Rust Service Isn't Leaking — It Could Be the Allocator"
+      "Your Rust Service Isn't Leaking — It Could Be the Allocator",
+      "ReactOS \"Open-Source Windows\" Project Now Capable Of Running Half-Life 2"
     ]
   },
   "trait_analysis": {
-    "total_captured": 353,
-    "chatter_blocked": 14,
-    "chatter_rate": 4.0,
-    "tool_signals_found": 180,
-    "tool_signal_rate": 51.0,
+    "total_captured": 354,
+    "chatter_blocked": 12,
+    "chatter_rate": 3.4,
+    "tool_signals_found": 178,
+    "tool_signal_rate": 50.3,
     "chatter_samples": [
       {
         "text": "同事送了个洗碗机之后回不去了",
@@ -718,7 +719,7 @@
         ]
       },
       {
-        "text": "Chat Control passed first round in EU Parliament 🔥488pts 💬208",
+        "text": "Chat Control passed first round in EU Parliament 🔥498pts 💬213",
         "category": "news",
         "matched": [
           [
@@ -763,11 +764,10 @@
         ]
       },
       {
-        "text": "UAAP Season 89 basketball tournaments",
-        "category": "entertainment",
+        "text": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action ",
+        "category": "job",
         "matched": [
-          "Season",
-          "basketball"
+          "position"
         ]
       }
     ],
@@ -861,13 +861,6 @@
         ]
       },
       {
-        "text": "Free Jim's TrueType QR Code Font. 300+ glyphs for QR codes. Download at: https://github.com/jimparis",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['https']"
-        ]
-      },
-      {
         "text": "Google’s exponential path to climate-wrecking digital bloat",
         "confidence": 20,
         "features": [
@@ -880,6 +873,13 @@
         "features": [
           "输入→输出链式: [('Allocator', 'to', '', '', '', '')]",
           "技术概念: ['Rust']"
+        ]
+      },
+      {
+        "text": "ReactOS \"Open-Source Windows\" Project Now Capable Of Running Half-Life 2",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('ReactOS', 'tO', '', '', '', '')]"
         ]
       }
     ]
