@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-07T09:56:22.993311+00:00     ║
+║       启动时间: 2026-07-07T14:54:51.959213+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -47,7 +47,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 19 articles
+  ✅ 20 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 22 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,27 +81,29 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 351
-  🚫 闲聊拦截: 16 条 (4.6%)
-  🧠 工具信号: 174 条 (49.6%)
+  原始信号总量: 353
+  🚫 闲聊拦截: 16 条 (4.5%)
+  🧠 工具信号: 173 条 (49.0%)
 
   📋 闲聊拦截样例:
      [chatter] 同事送了个洗碗机之后回不去了
-     [news] Associate Vice President Email List Reach Influential Busine
+     [chatter] 华为天才少年吐槽 DeepSeek 面试不规范，程序员的你怎么看？
+     [news] How to Open a Secure $650 Bitcoin Loan for Margin Trades
      [news] Odin 1.0 Announcement
-     [job] AMD Ryzen AI Halo – $4k AI Dev Kit 🔥331pts 💬225
-     [chatter] Dolosse – a South African invention used over the world
+     [job] AMD Ryzen AI Halo – $4k AI Dev Kit 🔥364pts 💬239
 
   🧠 工具信号样例:
-     [置信度15%] claude-skills
-       ↳ 技术概念: ['claude']
+     [置信度40%] Website-downloader
+       ↳ 英文动作特征: ['downloader']
+       ↳ 英文工具名词: ['downloader']
      [置信度15%] claude-video
        ↳ 技术概念: ['claude']
-     [置信度20%] gastown
-       ↳ 输入→输出链式: [('gastown', 'to', '', '', '', '')]
+     [置信度15%] awesome-claude-code
+       ↳ 技术概念: ['claude']
+     [置信度15%] copilot-pull-request-reviewer
+       ↳ 英文工具名词: ['viewer']
      [置信度15%] What does the "yield" keyword do in Python?
-       ↳ 技术概念: ['Python']
-     [置信度35%] Does Python have a ternary conditional ope
+       ↳ 
 
 ✅ 雷达完成 — 19 条建议
 
@@ -110,38 +112,38 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 351 条
-     🚫 闲聊拦截: 16 条 (4.6%)
-     🧠 工具信号: 174 条 (49.6%)
+     原始抓取: 353 条
+     🚫 闲聊拦截: 16 条 (4.5%)
+     🧠 工具信号: 173 条 (49.0%)
      闲聊样例: 同事送了个洗碗机之后回不去了... [chatter]
-     工具信号样例: claude-skills... [置信度15%]
+     工具信号样例: Website-downloader... [置信度40%]
 
   📊 硬核过滤器统计:
-     工具信号 174 → 有效 43
-     拒绝率: 75.3%
+     工具信号 173 → 有效 43
+     拒绝率: 75.1%
 
   📊 意图分类器审计 — 审查 19 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (15):
+  ✅ 通过 (14):
+     [WARN  |  +45] Downloader  [?]
      [PASS  |  +70] Video Converter  [?]
-     [WARN  |  +35] Web Crawler  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
-     [PASS  |  +75] Checker Tool  [?]
      [PASS  |  +70] PDF Editor  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
+     [PASS  |  +55] JSON Formatter  [?]
      [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Editor  [?]
-     [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
-  🚫 拦截 (4):
+  🚫 拦截 (5):
+     [BLOCK |  +20] Viewer  [?]  ← 多维评分 20 低于门槛 30
+     [BLOCK |  +10] Random Picker  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
-     [BLOCK |  +20] Log Viewer  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
 
 ============================================================
@@ -157,16 +159,25 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 19 suggestions
-   Generated at: 2026-07-07T09:56:23.143714+00:00
-   Already in catalog: 129 tools
+   Generated at: 2026-07-07T14:54:52.109249+00:00
+   Already in catalog: 130 tools
    Previously produced: 0 tools
-   Existing tool pages: 40 files
-   Next shovel ID: shovel-075
+   Existing tool pages: 41 files
+   Next shovel ID: shovel-076
    Next script ID: script-011
 
-✅ All suggested tools already exist in catalog. Nothing to produce.
+🔧 Producing 1 new tools:
+   • Random Picker (随机选择器) [gaming/fun]
 
-📋 Running tests on current codebase...
+  🛠  Producing: Random Picker → shovel-076
+     📄 Page: tools/random-picker.html
+     ✅ Gate check passed
+  ✅ Inserted 1 entries into index.html
+
+  📝 Factory log updated
+
+==================================================
+🧪 TEST PHASE
 
 🧪 Running automated tests...
 ----------------------------------------
@@ -182,7 +193,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   ✅ Lucide Icons CDN
   [TOOLS Database]
   ✅ TOOLS array defined
-  ✅ TOOLS entries (84)
+  ✅ TOOLS entries (86)
   ✅ Has Web Tools (🔧)
   ✅ Has Scripts (📜)
   ✅ Has Live tools
@@ -210,13 +221,30 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
+  🌐 Testing local server on port 9613...
+  ✅ Local server: HTTP 200, 392253 bytes
 
-✅ 工厂完成 — 本次生产 0 个工具
+✅ All tests passed!
+
+==================================================
+⏭️  Skipping deployment (--no-deploy)
+==================================================
+
+==================================================
+🏭 Pipeline complete!
+   New tools: 1
+   • shovel-076: Random Picker
+   Tests: ✅ Passed
+==================================================
+
+
+✅ 工厂完成 — 本次生产 1 个工具
+   🛠  Producing: Random Picker → shovel-076
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
 ============================================================
-   生产工具健康率: 0.0% (84 个工具, 84 个问题)
+   生产工具健康率: 0.0% (86 个工具, 86 个问题)
    问题文件: ['shovel-001: 文件缺失', 'shovel-002: 文件缺失', 'shovel-003: 文件缺失', 'shovel-007: 文件缺失', 'script-001: 文件缺失', 'shovel-005: 文件缺失', 'shovel-009: 文件缺失', 'script-002: 文件缺失', 'shovel-004: 文件缺失', 'shovel-006: 文件缺失']
    ⚠️ 门禁警告 — 健康率 0.0% 低于90%阈值
 
@@ -225,7 +253,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 84 工具, 84 在线, 84 ready:true, 0 ready:false
+    ✅ TOOLS 数据库: 86 工具, 86 在线, 85 ready:true, 1 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
@@ -239,6 +267,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ css-tools.html
     ✅ deploy-tool.html
     ✅ diff-viewer.html
+    ✅ downloader.html
     ✅ editor.html
     ✅ embedding-tool.html
     ✅ encoder.html
@@ -259,6 +288,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ pdf-editor.html
     ✅ prompt-optimizer.html
     ✅ proxy-tool.html
+    ✅ random-picker.html
     ✅ regex-tester.html
     ✅ search-tool.html
     ✅ sql-formatter.html
@@ -270,7 +300,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ web-crawler.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 391253B
+    ✅ index.html — HTTP 200, 392253B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/ai-generator.html — HTTP 200
     ✅ tools/audio-editor.html — HTTP 200
@@ -282,6 +312,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/css-tools.html — HTTP 200
     ✅ tools/deploy-tool.html — HTTP 200
     ✅ tools/diff-viewer.html — HTTP 200
+    ✅ tools/downloader.html — HTTP 200
     ✅ tools/editor.html — HTTP 200
     ✅ tools/embedding-tool.html — HTTP 200
     ✅ tools/encoder.html — HTTP 200
@@ -302,6 +333,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/pdf-editor.html — HTTP 200
     ✅ tools/prompt-optimizer.html — HTTP 200
     ✅ tools/proxy-tool.html — HTTP 200
+    ✅ tools/random-picker.html — HTTP 200
     ✅ tools/regex-tester.html — HTTP 200
     ✅ tools/search-tool.html — HTTP 200
     ✅ tools/sql-formatter.html — HTTP 200
@@ -312,15 +344,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/viewer.html — HTTP 200
     ✅ tools/web-crawler.html — HTTP 200
 
-  📊 测试汇总: 89 通过, 0 失败
+  📊 测试汇总: 93 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
-    ✅ 没有待上线的工具
+    🚀 1 个新工具测试通过，已标记 ready:true 正式上线
 
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-07T09:56:22.993311+00:00 → 2026-07-07T09:56:35.277954+00:00
+  ⏱  耗时: 2026-07-07T14:54:51.959213+00:00 → 2026-07-07T14:55:06.894271+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
@@ -330,9 +362,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      ✅ generator: OK
      ✅ validator: OK
      ✅ analyzer: OK
-  🧪 测试: 89✅ 0❌
-  🔧 工具总数: 84
-  📄 独立页面: 40
+  🧪 测试: 93✅ 0❌
+  🔧 工具总数: 86
+  🏷️  新上线: 1 个工具 (已标记 ready:true)
+  📄 独立页面: 42
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================
