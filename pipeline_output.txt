@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-06T22:20:06.332622+00:00     ║
+║       启动时间: 2026-07-07T04:07:17.738338+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 10 topics
+  ✅ 9 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 19 Show HN posts
+  ✅ 20 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -82,15 +82,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
   原始信号总量: 351
-  🚫 闲聊拦截: 12 条 (3.4%)
-  🧠 工具信号: 179 条 (51.0%)
+  🚫 闲聊拦截: 14 条 (4.0%)
+  🧠 工具信号: 172 条 (49.0%)
 
   📋 闲聊拦截样例:
-     [news] “万 1 免 5”股票 ETF 大笑脸低佣开户，抽键盘迈从 Ace 68 V2；鼠标迈从 A7 V3 PRO+。 [7.
-     [job] 招聘遇到工作经历完全造假的 211
-     [job] AMD Ryzen AI Halo – $4k AI Dev Kit 🔥248pts 💬176
-     [news] CS2 Fog Of War: Server-sided anti-wallhack occlusion culling
+     [entertainment] I built a lightweight Football Manager alternative because I
+     [job] AMD Ryzen AI Halo – $4k AI Dev Kit 🔥292pts 💬214
      [chatter] Running Tech Startups Is Quite Like Running A Restaurant
+     [entertainment] Netflix Cuts Cassandra Read Latency from Seconds to Millisec
+     [news] AWS Introduces Amazon S3 Annotations <img src="https://res.i
 
   🧠 工具信号样例:
      [置信度15%] claude-skills
@@ -99,9 +99,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['claude']
      [置信度20%] gastown
        ↳ 输入→输出链式: [('gastown', 'to', '', '', '', '')]
-     [置信度15%] What does the "yield" keyword do in Python?
-       ↳ 技术概念: ['Python']
-     [置信度35%] Doe
+     [置信度15%] What does the "yield" keyw
 
 ✅ 雷达完成 — 18 条建议
 
@@ -111,25 +109,25 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 351 条
-     🚫 闲聊拦截: 12 条 (3.4%)
-     🧠 工具信号: 179 条 (51.0%)
-     闲聊样例: “万 1 免 5”股票 ETF 大笑脸低佣开户，抽键盘迈从 Ace 68 V2；鼠标迈从 A7 V3... [news]
+     🚫 闲聊拦截: 14 条 (4.0%)
+     🧠 工具信号: 172 条 (49.0%)
+     闲聊样例: I built a lightweight Football Manager alternative... [entertainment]
      工具信号样例: claude-skills... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 179 → 有效 44
-     拒绝率: 75.4%
+     工具信号 172 → 有效 43
+     拒绝率: 75.0%
 
   📊 意图分类器审计 — 审查 18 条需求
   ──────────────────────────────────────────────────────────────────────
   ✅ 通过 (14):
      [PASS  |  +70] Video Converter  [?]
-     [PASS  |  +75] Checker Tool  [?]
      [WARN  |  +35] Web Crawler  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
+     [PASS  |  +75] Checker Tool  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
@@ -156,7 +154,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-07-06T22:20:06.482249+00:00
+   Generated at: 2026-07-07T04:07:17.891526+00:00
    Already in catalog: 129 tools
    Previously produced: 0 tools
    Existing tool pages: 40 files
@@ -319,7 +317,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-06T22:20:06.332622+00:00 → 2026-07-06T22:20:19.152553+00:00
+  ⏱  耗时: 2026-07-07T04:07:17.738338+00:00 → 2026-07-07T04:07:30.037771+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
