@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T21:54:48.291104+00:00",
+  "generated_at": "2026-07-08T22:13:44.750990+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -110,6 +110,7 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "I scanned Cal.com with my evidence-based CLI. The best result was what it refused to say",
       "Front end",
       "FullAgenticStack: eBPF “de verdade” em VPS vs Bare Metal",
       "May the Commits Be With You: Writing Meaningful Commit Messages",
@@ -120,8 +121,7 @@
       "FullAgenticStack: Minha Arquitetura Básica (ainda SEM IA)",
       "How I Ship Production Code With AI Models Under $1/M",
       "How I Built DevTeam AI: A Multi-Agent Software Engineering Team Powered by QwenCloud",
-      "ACID vs BASE",
-      "I finally built team collaboration into LaunchAlly 🚀"
+      "ACID vs BASE"
     ],
     "lobsters": [
       "A bug which only affected left-handed users",
@@ -131,18 +131,18 @@
       "a software engineering interview question I like: computing the median",
       "NoiseLang: Where N = 5 is a Dirac delta",
       "Odin 1.0 Announcement",
-      "Funding open-source software without compromising it",
       "Eve Online's Carbon engine is now open source: Fenris Creations explains why",
+      "Funding open-source software without compromising it",
       "Unicode's Transliteration Rules Are Turing-Complete",
       "Together for a healthier Clippy",
       "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
       "Accessibility in GNOME",
       "Democratizing Abandonware",
       "Zine 0.12.0",
+      "The best WebAssembly runtime may still be no runtime at all",
       "Almost Always Unsigned",
       "Google’s exponential path to climate-wrecking digital bloat",
       "BotKit: Standalone ActivityPub bots in TypeScript",
-      "The best WebAssembly runtime may still be no runtime at all",
       "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)"
     ],
     "producthunt": [
@@ -168,33 +168,34 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Decoding the obfuscated bash script on a Uniqlo t-shirt 🔥1214pts 💬194",
-      "Chatto is now open source 🔥577pts 💬162",
-      "GPT‑Live 🔥515pts 💬357",
-      "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos 🔥490pts 💬187",
-      "TypeScript 7 🔥372pts 💬135",
-      "Mistral's Robostral Navigate: a state of the art robotics navigation model 🔥364pts 💬87",
-      "EVE Online's Carbon engine is now open source: Fenris Creations explains why 🔥361pts 💬121",
-      "EU now one step away from reviving private message scanning rules 🔥286pts 💬120",
-      "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence 🔥227pts 💬118",
-      "OpenBSD has a use-after-free allowing local privilege escalation to root 🔥226pts 💬105",
+      "Decoding the obfuscated bash script on a Uniqlo t-shirt 🔥1223pts 💬197",
+      "Chatto is now open source 🔥596pts 💬170",
+      "GPT‑Live 🔥525pts 💬363",
+      "TypeScript 7 🔥380pts 💬142",
+      "Mistral's Robostral Navigate: a state of the art robotics navigation model 🔥368pts 💬88",
+      "EVE Online's Carbon engine is now open source: Fenris Creations explains why 🔥366pts 💬121",
+      "Grok 4.5 🔥363pts 💬274",
+      "EU now one step away from reviving private message scanning rules 🔥299pts 💬122",
+      "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence 🔥233pts 💬119",
+      "OpenBSD has a use-after-free allowing local privilege escalation to root 🔥230pts 💬106",
       "Cloudflare Meerkat - Globally distributed consensus 🔥191pts 💬41",
-      "PlayStation can delete all your digital games after 3 years of inactivity (EU) 🔥174pts 💬81",
-      "The classifiers Anthropic puts in front of Fable are too zealous 🔥138pts 💬117",
-      "Show HN: Microsoft releases Flint, a visualization language for AI agents 🔥126pts 💬53",
+      "PlayStation can delete all your digital games after 3 years of inactivity (EU) 🔥182pts 💬84",
+      "What Do We Know About the Microplastics Inside Us? 🔥160pts 💬86",
+      "The classifiers Anthropic puts in front of Fable are too zealous 🔥150pts 💬132",
+      "Show HN: Microsoft releases Flint, a visualization language for AI agents 🔥131pts 💬57",
+      "Cloudflare Drop 🔥122pts 💬67",
       "Show HN: Follow London Trains in 3D 🔥120pts 💬54",
-      "Cloudflare Drop 🔥110pts 💬62",
-      "TabFont – guitar tabs rendered as you type 🔥72pts 💬21",
-      "Separating signal from noise in coding evaluations 🔥63pts 💬28",
-      "FAANG Simulator 🔥61pts 💬19",
-      "A bug which affected only left handed users",
-      "OpenMandriva: Statement regarding attempted distribution sabotage",
+      "FAANG Simulator 🔥87pts 💬30",
+      "Separating signal from noise in coding evaluations 🔥79pts 💬37",
+      "TabFont – guitar tabs rendered as you type 🔥74pts 💬21",
+      "OpenMandriva: Statement regarding attempted distribution sabotage 🔥56pts 💬9",
+      "A bug which affected only left handed users 🔥54pts 💬29",
       "I Built a Telegram Client for Pi",
       "Understanding B-Tree Indexes in PostgreSQL: A Comprehensive Guide– Part 1",
-      "Show HN: Agent Draw: An agent draws while you talk, built on TLDraw",
-      "DKIM2 and DMARCbis Have Landed"
+      "Turning a pile of documents into a searchable useable knowledge base"
     ],
     "hn_show": [
+      "Day planner shaped like a clock (2-way calendar and Todoist sync) — featured on Hacker News (🔥1pts)",
       "Screenstab (tilt-shift-style screenshots) is now free and open source — featured on Hacker News (🔥2pts)",
       "Probed – Talk to your People. Customer chat, feedback, and roadmaps — featured on Hacker News (🔥1pts)",
       "Runtime security enforcement and capability scoping for agents — featured on Hacker News (🔥2pts)",
@@ -202,27 +203,26 @@
       "Mark Highlight, a Xcode-Style VSCode Extension — featured on Hacker News (🔥1pts)",
       "Handsum: An LQIP Image File Format — featured on Hacker News (🔥2pts)",
       "Nully – FOSS AI chat without the bloat — featured on Hacker News (🔥2pts)",
-      "Onboard-CLI, a LLM powered and AST-based tool to visualize codebase — featured on Hacker News (🔥10pts)",
-      "Skill-extractor turns coding agent transcripts into reusable skills — featured on Hacker News (🔥2pts)",
-      "Hnwork.app – UI for Who is hiring posts — featured on Hacker News (🔥14pts)",
+      "Onboard-CLI, a LLM powered and AST-based tool to visualize codebase — featured on Hacker News (🔥12pts)",
+      "Skill-extractor turns coding agent transcripts into reusable skills — featured on Hacker News (🔥3pts)",
+      "Hnwork.app – UI for Who is hiring posts — featured on Hacker News (🔥15pts)",
       "REST - Living Without Burnout. A manifesto about sustainable discipline — featured on Hacker News (🔥2pts)",
       "SharpSkill – Test your IT skills in 15 different spoken languages — featured on Hacker News (🔥4pts)",
       "Nodeup – automate Node.js version upgrades and NPM package migration — featured on Hacker News (🔥3pts)",
       "Connect DuckDB to any database that has an ADBC driver — featured on Hacker News (🔥3pts)",
       "Nino – a dedicated CFP/CPA team and AI to manage your financial life — featured on Hacker News (🔥1pts)",
       "Genbuzz – An agent-driven news aggregator for AI filmmaking — featured on Hacker News (🔥2pts)",
-      "Crondex - All the Cron Jobs — featured on Hacker News (🔥1pts)",
-      "Leafwright – Generate PDFs without running headless Chrome — featured on Hacker News (🔥1pts)"
+      "Crondex - All the Cron Jobs — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Show HN: Screenstab (tilt-shift-style screenshots) is now free and open source — user asking for tool recommendation (🔥2pts)",
       "Ask HN: Is there anything good in the existence of LLMs? — user asking for tool recommendation (🔥4pts)",
       "Show HN: SpreadsheetPreview: Pdf.js for Spreadsheets — user asking for tool recommendation (🔥3pts)",
+      "Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT) — user asking for tool recommendation (🔥1pts)",
       "Show HN: Scout.kids – Agents that find activies for families — user asking for tool recommendation (🔥4pts)",
       "Show HN: Emra – A workspace where every app you build shares one db — user asking for tool recommendation (🔥3pts)",
       "Show HN: Document to Excel Converter — user asking for tool recommendation (🔥2pts)",
       "Launch HN: Manufact (YC S25) – MCP Cloud — user asking for tool recommendation (🔥111pts)",
-      "Show HN: TheraJoy – bilateral stimulation for EMDR using Joy-Cons — user asking for tool recommendation (🔥1pts)",
       "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥211pts)",
       "Ask HN: How are you creating demo videos for your product? — user asking for tool recommendation (🔥1pts)",
       "Show HN: LokalBot – meetings, notes, and autocomplete that never leave your Mac — user asking for tool recommendation (🔥1pts)",
@@ -231,22 +231,31 @@
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
       "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Moo, Git versions code, moo versions machines — user asking for tool recommendation (🔥7pts)",
-      "Show HN: Fluffy Sparrow – Frictionless, Fast, Note Taking App — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Moo, Git versions code, moo versions machines — user asking for tool recommendation (🔥8pts)",
+      "Show HN: Fluffy Sparrow – Frictionless, Fast, Note Taking App — user asking for tool recommendation (🔥2pts)",
       "Show HN: CodeRadius, map and govern multi repo architectures — user asking for tool recommendation (🔥1pts)",
       "Show HN: Free PDF Document Redaction — user asking for tool recommendation (🔥1pts)",
       "Show HN: Bike4Mind – open-core AI workbench; any model, agents, RAG, self-host — user asking for tool recommendation (🔥3pts)",
       "Ask HN: I use coding agents daily, but how do real engineers use them? — user asking for tool recommendation (🔥3pts)",
       "Show HN: Captchainbox – make senders work to get into your inbox — user asking for tool recommendation (🔥6pts)",
-      "Show HN: Selbstbild – What Fable 5 thinks of your HN comment history — user asking for tool recommendation (🔥6pts)",
       "Show HN: Runtime security enforcement and capability scoping for agents — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Microsoft releases Flint, a visualization language for AI agents — user asking for tool recommendation (🔥126pts)",
+      "Show HN: Microsoft releases Flint, a visualization language for AI agents — user asking for tool recommendation (🔥131pts)",
       "Show HN: FrankenMarkdown, Render .md Files to PDF/HTML (also in browser) — user asking for tool recommendation (🔥2pts)",
       "Show HN: CLRK, an open-source agent runtime with gVisor and MitM guardrails — user asking for tool recommendation (🔥5pts)",
       "Show HN: Halo – open-source, tamper-evident runtime evidence for AI agents — user asking for tool recommendation (🔥37pts)",
-      "ScreenStack Is Looking for Design Partners — user asking for tool recommendation (🔥1pts)"
+      "ScreenStack Is Looking for Design Partners — user asking for tool recommendation (🔥1pts)",
+      "Panoramax – The free alternative to photo-mapping territories — user asking for tool recommendation (🔥2pts)"
     ],
     "hackernoon": [
+      "5 Common Alt Text Mistakes and How to Avoid Them",
+      "Human-in-the-Loop Doesn't Scale - Human-on-the-Loop Does",
+      "Building an AI Dream Analysis Engine, Part 2: Designing a Production-Ready LLM Pipeline",
+      "Decent Colors for pi.dev on a Bare Linux VT",
+      "500 Blog Posts To Learn About Api",
+      "OpenMatter Network Joins HOL Initiative to Help Define Standards for Verifiable AI Collaboration ",
+      "Building a Local LLM-as-Judge Pipeline for Image Dataset Curation",
+      "We Call It African Tech But the Stack Says Otherwise",
+      "Bitsec Claims Wider Vulnerability Coverage Than Jailbroken Claude Fable 5",
       "The TechBeat: What 500 People Taught Me About AI That Nobody Else is Talking About (7/8/2026)",
       "129 Blog Posts To Learn About Api Integration",
       "The Beginner's Guide to Neural Networks",
@@ -256,17 +265,7 @@
       "The $51 Billion RWA Market Is a Mirage; Here’s Why Institutional Capital Still Won’t Flow",
       "Convert PDF to Image in C#: The One-Liner That Isn't in 2026",
       "How Europe Regulated Its Way Out of the Stablecoin Market",
-      "How We Built a Global Low-Latency App Without a Traditional Backend",
-      "Building a Self-Healing RAG Pipeline With LangGraph, LangChain, and LLM-as-Judge",
-      "What If the Fermi Paradox Is Asking the Wrong Question?",
-      "Safety-Critical Industries Offer a Blueprint for Enterprise AI Governance",
-      "Google Delays Gemini 3.5 Pro to July 17: The Strategic Play Behind the Scrapped Base Model",
-      "Prediction Markets Are Entering Their Infrastructure Era",
-      "How Float Runs an AI Energy Company on a 3-Person Team with Tiger Data",
-      "Bittensor Cleans House: Inactive Subnets To No Longer Get Weekly Emissions Says Const",
-      "RAG Was Read-Only. Meet the File Agent.",
-      "Fleet Safety Camera System Engineering Knowledge Series",
-      "The Smartphone Is the New Office, But Workplace Software Has Not Caught Up"
+      "How We Built a Global Low-Latency App Without a Traditional Backend"
     ],
     "infoq": [
       "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>Airbnb engineers detailed Sitar-agent, a Kubernetes sidecar for dynamic",
@@ -286,16 +285,16 @@
       "AWS Introduces Amazon S3 Annotations <img src=\"https://res.infoq.com/news/2026/07/aws-s3-annotations/en/headerimage/generatedHeaderImage-1782327927331.jpg\"/><p>AWS recently announced Amaz"
     ],
     "google_trends": [
-      "darrell sheets",
+      "luke wilson",
+      "kylie jenner pink hair",
+      "cristina sanz",
+      "bricks and minifigs",
       "earthquake chicago",
+      "darrell sheets",
       "lauren sanchez bezos fiji diving",
+      "trump at nato",
       "lausanne-sport x flamengo",
-      "nato summit donald trump remarks",
-      "rocket lab",
-      "jonas valančiūnas",
-      "ida wobker meltdown",
-      "cheetah girls",
-      "dylan cease"
+      "rocket lab"
     ],
     "baidu": [
       "习近平勉励广大科技工作者",
@@ -310,36 +309,36 @@
       "知名“TVB绿叶”朱维德去世",
       "救命药从24元涨到600元还买不到",
       "网传“百色严重洪灾”视频为拼接",
-      "霍尔木兹海峡油轮通行“基本停止”",
-      "最爱发钱老板又发近300万和50吨西瓜",
       "C罗乘坐私人飞机离开",
+      "最爱发钱老板又发近300万和50吨西瓜",
       "FBI追查阿根廷足协3亿美元大案",
-      "超强台风巴威即将进入48小时警戒线",
       "救援现场“到处都是喊救命的人”",
-      "国台办回应台海巡部门倡导不理海警",
+      "超强台风巴威即将进入48小时警戒线",
+      "霍尔木兹海峡油轮通行“基本停止”",
+      "最新世界杯夺冠概率阿根廷第三",
       "长龙航空不再强制空姐盘发"
     ],
     "wikipedia": [
-      "PBC Academic",
-      "Stopford Brooke (politician)",
-      "Jesús Hernández (footballer, born 2003)",
-      "Cartier station (Ontario)",
-      "Georgian architecture",
-      "Noah Z. Jones",
-      "Results of the 2025 New Zealand territorial authority elections in Hawke's Bay",
-      "Cyttariaceae",
-      "Edward Lear",
-      "Aditya Vikram Sengupta",
-      "René Claude Meka",
-      "Shades of Deep Purple",
-      "Rhaenyra Targaryen",
-      "Elijah Cutler Behunin Cabin",
-      "Fred Roe (polo)",
-      "Hollywood Stuntz gang assault",
-      "NeighborWorks America",
-      "History of the Jews in Mauritius",
-      "2026 Toronto Blue Jays season",
-      "STX Entertainment"
+      "Leaky Roof Gastropub",
+      "Cemetery Hill",
+      "Anthony Howard (swimmer)",
+      "Anthony Ervin",
+      "Nathan Salmón",
+      "Anthony Ang",
+      "Consequentialism",
+      "Ante Roje",
+      "David Luiz",
+      "Sea Cliff station",
+      "Antal Száll",
+      "List of Atari 2600 games",
+      "Antal Gáborfi",
+      "Jacaerys Velaryon",
+      "Anouar Ben Naceur",
+      "Confirmation (Catholic)",
+      "Jorge Eduardo Mora",
+      "September 21",
+      "Rail transport modelling",
+      "Annika Saarnak"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -424,29 +423,29 @@
       "@expo/xcpretty — npm package: Parse and format xcodebuild logs"
     ],
     "github_topics": [
-      "github trending topic: node.js",
-      "github trending topic: farming",
+      "github trending topic: javascript",
+      "github trending topic: awesome lists",
+      "github trending topic: bioc-package",
       "github trending topic: typescript",
+      "github trending topic: chrome",
+      "github trending topic: bioc-software",
+      "github trending topic: llm",
+      "github trending topic: react native",
+      "github trending topic: npm",
+      "github trending topic: css",
+      "github trending topic: database",
+      "github trending topic: scala",
+      "github trending topic: bioconductor",
+      "github trending topic: compiler",
+      "github trending topic: machine-learning",
+      "github trending topic: java",
+      "github trending topic: node.js",
+      "github trending topic: front end",
       "github trending topic: project management",
+      "github trending topic: claude-code",
       "github trending topic: code quality",
       "github trending topic: react",
-      "github trending topic: ai-agents",
-      "github trending topic: bioc-software",
-      "github trending topic: chrome",
-      "github trending topic: pyfarm",
-      "github trending topic: scala",
-      "github trending topic: css",
-      "github trending topic: npm",
-      "github trending topic: farm",
-      "github trending topic: bioc-package",
-      "github trending topic: front end",
-      "github trending topic: react native",
-      "github trending topic: bioconductor",
-      "github trending topic: database",
-      "github trending topic: python",
-      "github trending topic: compiler",
-      "github trending topic: javascript",
-      "github trending topic: awesome lists"
+      "github trending topic: python"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -660,10 +659,10 @@
     "github trending topic: bioc-package"
   ],
   "filter_stats": {
-    "raw_count": 174,
+    "raw_count": 172,
     "valid_count": 42,
-    "rejected_count": 132,
-    "rejection_rate": 75.9,
+    "rejected_count": 130,
+    "rejection_rate": 75.6,
     "rejected_samples": [
       "PhotoGIMP",
       "DesktopCommanderMCP",
@@ -678,11 +677,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 352,
-    "chatter_blocked": 15,
-    "chatter_rate": 4.3,
-    "tool_signals_found": 174,
-    "tool_signal_rate": 49.4,
+    "total_captured": 351,
+    "chatter_blocked": 12,
+    "chatter_rate": 3.4,
+    "tool_signals_found": 172,
+    "tool_signal_rate": 49.0,
     "chatter_samples": [
       {
         "text": "Odin 1.0 Announcement",
@@ -695,17 +694,10 @@
         ]
       },
       {
-        "text": "Hnwork.app – UI for Who is hiring posts — featured on Hacker News (🔥14pts)",
+        "text": "Hnwork.app – UI for Who is hiring posts — featured on Hacker News (🔥15pts)",
         "category": "job",
         "matched": [
           "hiring"
-        ]
-      },
-      {
-        "text": "Safety-Critical Industries Offer a Blueprint for Enterprise AI Governance",
-        "category": "ad",
-        "matched": [
-          "Offer"
         ]
       },
       {
@@ -758,10 +750,17 @@
         ]
       },
       {
-        "text": "Hollywood Stuntz gang assault",
-        "category": "entertainment",
+        "text": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for S",
+        "category": "chatter",
         "matched": [
-          "Hollywood"
+          "imo"
+        ]
+      },
+      {
+        "text": "RSF-GLLM: Bridging the Semantic Gap in Multi-Hop Knowledge Graph QA via Recurren",
+        "category": "chatter",
+        "matched": [
+          "vent"
         ]
       }
     ],
@@ -856,17 +855,17 @@
         ]
       },
       {
+        "text": "I scanned Cal.com with my evidence-based CLI. The best result was what it refused to say",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('refused to say', 'to', '', '', '', '')]"
+        ]
+      },
+      {
         "text": "Decoding JWT: It's Not Encryption, It's a Signature",
         "confidence": 15,
         "features": [
           "技术概念: ['JWT']"
-        ]
-      },
-      {
-        "text": "I finally built team collaboration into LaunchAlly 🚀",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('into LaunchAlly', 'to', '', '', '', '')]"
         ]
       },
       {
