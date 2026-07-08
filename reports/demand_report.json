@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T16:23:29.955750+00:00",
+  "generated_at": "2026-07-08T16:44:48.459907+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -114,18 +114,18 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "[Quick Read] 10 Essential FastAPI Best Practices and Deployment Tips for High-Performance Applications",
+      "HitPaw Univd 4.7.0 for macOS Review – An All-in-One Video Converter, Compressor, and Media Toolkit for Mac",
+      "AI Debugging: My Code Worked. The Universe Did Not.",
+      "How one word-splitter converts between every programming case",
+      "Design Patterns in Ruby #2: Observer Pattern",
+      "Writing White Papers for CBSC: A Practical Guide",
+      "Concept of closure in javascript",
       "2-Minute Guide: Type Hints in Python (2026)",
       "White Papers That Developers Actually Read",
       "15,000 PR Reviews: Fixing the Code Review Bottleneck with Mesrai AI",
       "The Field Took Twenty Minutes",
-      "Automate Repetitive Tasks with Python: Boosting Developer Productivity by 500%",
-      "Engineering Team Extension: Scaling Development Teams with Global Talent",
-      "2-Minute Python Guide: f-strings (2026)",
-      "探索 AI 时代 Java 开发的挑战与解决方案",
-      "How I Made $750 With Python Automation (Step-by-Step)",
-      "Quick Tip: List comprehensions are faster than `map()` in most cases (2026)",
-      "100 Battle-Tested AI Prompts for Developers - Free Preview",
-      "Structure and Interpretation of Computer Programs Video Lectures (1986) — What Nobody Tells You"
+      "Automate Repetitive Tasks with Python: Boosting Developer Productivity by 500%"
     ],
     "lobsters": [
       "A bug which only affected left-handed users",
@@ -140,13 +140,13 @@
       "You shouldn't trust Trusted Publishing",
       "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
       "Unicode's Transliteration Rules Are Turing-Complete",
-      "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
-      "I was wrong about game development",
       "Obfuscated bash script by Akamai being supplied to consumers via retail stores",
-      "A Final Return for OpenBSD Anti-Return-Oriented Programming Mitigations",
-      "Abject 0.8.2 released",
-      "Why false sharing alignment should be 128 bytes on x64",
+      "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
       "BotKit: Standalone ActivityPub bots in TypeScript",
+      "I was wrong about game development",
+      "Funding open-source software without compromising it",
+      "A Final Return for OpenBSD Anti-Return-Oriented Programming Mitigations",
+      "Why false sharing alignment should be 128 bytes on x64",
       "Your Rust Service Isn't Leaking — It Could Be the Allocator"
     ],
     "producthunt": [
@@ -172,34 +172,36 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Decoding the obfuscated bash script on a Uniqlo t-shirt 🔥943pts 💬166",
-      "Chat Control 1.0 and 2.0 Explained 🔥835pts 💬315",
-      "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro 🔥477pts 💬89",
-      "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos 🔥399pts 💬158",
-      "Herdr: One terminal to rule them all 🔥367pts 💬152",
-      "Tenda firmware (multiple versions) contains hidden authentication backdoor 🔥298pts 💬103",
+      "Decoding the obfuscated bash script on a Uniqlo t-shirt 🔥955pts 💬170",
+      "Chat Control 1.0 and 2.0 Explained 🔥835pts 💬316",
+      "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro 🔥478pts 💬90",
+      "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos 🔥405pts 💬159",
+      "Herdr: One terminal to rule them all 🔥369pts 💬152",
+      "Tenda firmware (multiple versions) contains hidden authentication backdoor 🔥299pts 💬104",
       "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024) 🔥281pts 💬197",
-      "Structure and Interpretation of Computer Programs Video Lectures (1986) 🔥274pts 💬37",
-      "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup 🔥249pts 💬131",
-      "EVE Online's Carbon engine is now open source: Fenris Creations explains why 🔥244pts 💬81",
-      "Canada's only watchmaking school still ticking after 80 years 🔥201pts 💬116",
-      "Apple to increase spend with Broadcom to produce billions more U.S. chips 🔥197pts 💬153",
-      "LineageOS Statistics 🔥167pts 💬92",
-      "Mistral's Robostral Navigate: a state of the art robotics navigation model 🔥162pts 💬34",
-      "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks 🔥143pts 💬51",
-      "Home made GPU escalated quickly [video] 🔥130pts 💬43",
-      "The difference between \"today's task\" and \"accretive work\" 🔥110pts 💬59",
-      "OpenBSD has a use-after-free allowing local privilege escalation to root 🔥107pts 💬42",
-      "Cloudflare Meerkat - Globally distributed consensus 🔥99pts 💬17",
-      "Chatto is now Open Source 🔥87pts 💬15",
-      "Japan's Hayabusa2 probe to conduct flyby of Torifune asteroid 🔥86pts 💬11",
-      "Geosql: A Claude/Codex skill for geospatial data 🔥83pts 💬11",
-      "It seems that the age of reading might be a short anomaly in human history 🔥76pts 💬156",
-      "Ants: Who looks after the injured in a colony? 🔥74pts 💬33",
-      "NoiseLang: Where N = 5 is a Dirac delta 🔥67pts 💬30"
+      "Structure and Interpretation of Computer Programs Video Lectures (1986) 🔥277pts 💬37",
+      "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup 🔥249pts 💬132",
+      "EVE Online's Carbon engine is now open source: Fenris Creations explains why 🔥247pts 💬82",
+      "Canada's only watchmaking school still ticking after 80 years 🔥202pts 💬119",
+      "Apple to increase spend with Broadcom to produce billions more U.S. chips 🔥201pts 💬158",
+      "Mistral's Robostral Navigate: a state of the art robotics navigation model 🔥175pts 💬39",
+      "LineageOS Statistics 🔥169pts 💬93",
+      "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks 🔥145pts 💬53",
+      "Home made GPU escalated quickly [video] 🔥135pts 💬43",
+      "Chatto is now Open Source 🔥114pts 💬20",
+      "The difference between \"today's task\" and \"accretive work\" 🔥112pts 💬59",
+      "OpenBSD has a use-after-free allowing local privilege escalation to root 🔥109pts 💬44",
+      "Cloudflare Meerkat - Globally distributed consensus 🔥108pts 💬17",
+      "Japan's Hayabusa2 probe to conduct flyby of Torifune asteroid 🔥87pts 💬11",
+      "Geosql: A Claude/Codex skill for geospatial data 🔥84pts 💬11",
+      "It seems that the age of reading might be a short anomaly in human history 🔥83pts 💬172",
+      "Ants: Who looks after the injured in a colony? 🔥76pts 💬33",
+      "NoiseLang: Where N = 5 is a Dirac delta 🔥70pts 💬31"
     ],
     "hn_show": [
-      "FPGA-SIM – interactive virtual boards to help teach Verilog — featured on Hacker News (🔥1pts)",
+      "InterviewWatch – Detect AI Assistance During Live Technical Interviews — featured on Hacker News (🔥1pts)",
+      "Free plugin that finds where your code overpays for LLM APIs — featured on Hacker News (🔥1pts)",
+      "FPGA-SIM – interactive virtual boards to help teach Verilog — featured on Hacker News (🔥2pts)",
       "Open-source web monitoring software — featured on Hacker News (🔥2pts)",
       "Respect the Oracle – An agent skill that stops agents from overfitting — featured on Hacker News (🔥1pts)",
       "envapt, typed env config for decoupled TS codebases (Node to edge) — featured on Hacker News (🔥1pts)",
@@ -215,9 +217,7 @@
       "Free tool that shows what AI assistants see when they crawl your site — featured on Hacker News (🔥1pts)",
       "Stop agents from taking irreversible actions without approval — featured on Hacker News (🔥1pts)",
       "Getapps.cafe – I built 40 native Mac apps under one subscription — featured on Hacker News (🔥1pts)",
-      "Singularity the Game – watch a band of Claudes build a POD TCG business — featured on Hacker News (🔥1pts)",
-      "Vault-cortex – Access your Obsidian vault from any device via MCP — featured on Hacker News (🔥1pts)",
-      "Cruxible – Open-source governed truth layer for AI agents — featured on Hacker News (🔥1pts)"
+      "Singularity the Game – watch a band of Claudes build a POD TCG business — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Show HN: Kettio – using ML to assume audience buying — user asking for tool recommendation (🔥2pts)",
@@ -228,7 +228,7 @@
       "Show HN: FlowHook – a file watcher that knows if your build passed or failed — user asking for tool recommendation (🔥3pts)",
       "Show HN: hnsubstacks – Browse only Substacks submitted to HN — user asking for tool recommendation (🔥2pts)",
       "Show HN: Patterns with Friends – free multiplayer tile game (no sign-up, no ads) — user asking for tool recommendation (🔥3pts)",
-      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥206pts)",
+      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥207pts)",
       "Ask HN: How are you creating demo videos for your product? — user asking for tool recommendation (🔥1pts)",
       "Show HN: LokalBot – meetings, notes, and autocomplete that never leave your Mac — user asking for tool recommendation (🔥1pts)",
       "Ask HN: Which payment processor/merchant-of-record do you use in 2026? — user asking for tool recommendation (🔥4pts)",
@@ -291,16 +291,16 @@
       "AWS Introduces Amazon S3 Annotations <img src=\"https://res.infoq.com/news/2026/07/aws-s3-annotations/en/headerimage/generatedHeaderImage-1782327927331.jpg\"/><p>AWS recently announced Amaz"
     ],
     "google_trends": [
+      "andrey santos",
+      "quasi moon",
+      "connor storrie",
+      "otan",
+      "home run derby 2026",
       "tour de france stage 5",
       "jac caglianone",
       "simone biles",
-      "christopher nolan the odyssey backlash",
       "andy beshear",
-      "rahm emanuel",
-      "trump lincoln memorial renovation lawsuit",
-      "joy behar",
-      "soccer fifa world cup",
-      "bears training camp"
+      "christopher nolan the odyssey backlash"
     ],
     "baidu": [
       "习近平勉励广大科技工作者",
@@ -320,11 +320,32 @@
       "超强台风巴威即将进入48小时警戒线",
       "FBI追查阿根廷足协3亿美元大案",
       "“中国房地产调整或接近尾声”",
+      "C罗乘坐私人飞机离开",
       "广西大爷坚持抱树一天一夜后获救",
-      "香港飞伦敦航班一度失联北约战机升空",
       "长龙航空不再强制空姐盘发"
     ],
-    "wikipedia": [],
+    "wikipedia": [
+      "João Klauss",
+      "The Working Man",
+      "Automobiles Alpine",
+      "Lists of newspapers",
+      "Lance Skiiiwalker",
+      "List of non-Japanese sumo wrestlers",
+      "Mirandiba",
+      "Naseem Hamed",
+      "Montfort School, Yercaud",
+      "Sonia Gandhi",
+      "Okhotigone",
+      "Sun Valley High School (Arizona)",
+      "Godzilla (franchise)",
+      "Katseye",
+      "Serbia national cricket team",
+      "Dacia Striker",
+      "List of Richmond Ivy SC players",
+      "60th Separate Guards Motor Rifle Battalion",
+      "Oliver Reed",
+      "Maragala mountain range"
+    ],
     "huggingface": [
       "all-MiniLM-L6-v2",
       "sentence-similarity all-MiniLM-L6-v2",
@@ -408,28 +429,26 @@
       "@expo/xcpretty — npm package: Parse and format xcodebuild logs"
     ],
     "github_topics": [
-      "github trending topic: code quality",
-      "github trending topic: scala",
-      "github trending topic: bioconductor",
-      "github trending topic: react",
       "github trending topic: node.js",
-      "github trending topic: awesome lists",
       "github trending topic: react native",
-      "github trending topic: npm",
-      "github trending topic: claude-code",
-      "github trending topic: css",
-      "github trending topic: bioc-software",
-      "github trending topic: database",
-      "github trending topic: bioc-package",
-      "github trending topic: front end",
       "github trending topic: javascript",
-      "github trending topic: python",
+      "github trending topic: bioc-package",
+      "github trending topic: react",
+      "github trending topic: code quality",
+      "github trending topic: front end",
       "github trending topic: compiler",
+      "github trending topic: bioc-software",
+      "github trending topic: npm",
+      "github trending topic: awesome lists",
+      "github trending topic: scala",
+      "github trending topic: rag",
+      "github trending topic: css",
       "github trending topic: typescript",
+      "github trending topic: python",
+      "github trending topic: bioconductor",
+      "github trending topic: database",
       "github trending topic: chrome",
-      "github trending topic: llm",
-      "github trending topic: project management",
-      "github trending topic: ai-agents"
+      "github trending topic: project management"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -632,10 +651,10 @@
     "github trending topic: bioc-package"
   ],
   "filter_stats": {
-    "raw_count": 174,
+    "raw_count": 177,
     "valid_count": 40,
-    "rejected_count": 134,
-    "rejection_rate": 77.0,
+    "rejected_count": 137,
+    "rejection_rate": 77.4,
     "rejected_samples": [
       "PhotoGIMP",
       "DesktopCommanderMCP",
@@ -650,11 +669,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 333,
-    "chatter_blocked": 14,
-    "chatter_rate": 4.2,
-    "tool_signals_found": 174,
-    "tool_signal_rate": 52.3,
+    "total_captured": 351,
+    "chatter_blocked": 13,
+    "chatter_rate": 3.7,
+    "tool_signals_found": 177,
+    "tool_signal_rate": 50.4,
     "chatter_samples": [
       {
         "text": "Odin 1.0 Announcement",
@@ -706,13 +725,6 @@
         ]
       },
       {
-        "text": "soccer fifa world cup",
-        "category": "entertainment",
-        "matched": [
-          "soccer"
-        ]
-      },
-      {
         "text": "救命药从24元涨到600元还买不到",
         "category": "chatter",
         "matched": [
@@ -731,6 +743,13 @@
         "category": "chatter",
         "matched": [
           "老板"
+        ]
+      },
+      {
+        "text": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for S",
+        "category": "chatter",
+        "matched": [
+          "imo"
         ]
       }
     ],
@@ -825,26 +844,27 @@
         ]
       },
       {
-        "text": "2-Minute Guide: Type Hints in Python (2026)",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['Python']"
-        ]
-      },
-      {
-        "text": "The Field Took Twenty Minutes",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('Field Took', 'To', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "Automate Repetitive Tasks with Python: Boosting Developer Productivity by 500%",
+        "text": "HitPaw Univd 4.7.0 for macOS Review – An All-in-One Video Converter, Compressor, and Media Toolkit f",
         "confidence": 60,
         "features": [
-          "英文动作特征: ['Automate']",
-          "输入→输出链式: [('Automate', 'to', '', '', '', '')]",
-          "技术概念: ['Python']"
+          "英文动作特征: ['Converter', 'Compressor']",
+          "输入→输出链式: [('Media Toolkit', 'To', '', '', '', '')]",
+          "英文工具名词: ['converter', 'compressor', 'tool']"
+        ]
+      },
+      {
+        "text": "How one word-splitter converts between every programming case",
+        "confidence": 40,
+        "features": [
+          "英文动作特征: ['splitter']",
+          "英文工具名词: ['splitter']"
+        ]
+      },
+      {
+        "text": "Concept of closure in javascript",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['javascript']"
         ]
       }
     ]

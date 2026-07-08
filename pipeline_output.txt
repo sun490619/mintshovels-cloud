@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-08T14:32:45.932072+00:00     ║
+║       启动时间: 2026-07-08T16:44:48.310943+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 20 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 354
+  原始信号总量: 351
   🚫 闲聊拦截: 13 条 (3.7%)
-  🧠 工具信号: 176 条 (49.7%)
+  🧠 工具信号: 177 条 (50.4%)
 
   📋 闲聊拦截样例:
-     [job] Scope of Digital Marketing: Future Opportunities, Career Gro
-     [news] Access Up to $2,000 Liquidity Without Selling Your Bitcoin
-     [job] Why Paid Internships Are the Smartest First Step for Every S
      [news] Odin 1.0 Announcement
-     [news] Michael Saylor Better Hope Bitcoin Doesn't Rise Too Much
+     [ad] Safety-Critical Industries Offer a Blueprint for Enterprise 
+     [entertainment] Netflix Cuts Cassandra Read Latency from Seconds to Millisec
+     [news] AWS Introduces Amazon S3 Annotations <img src="https://res.i
+     [entertainment] tour de france stage 5
 
   🧠 工具信号样例:
      [置信度20%] PhotoGIMP
@@ -99,7 +99,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', '', '')]
      [置信度45%] autoremesher
        ↳ 英文动作特征: ['autoremesher']
-       ↳ 输入→输出链式: [('autoremeshe
+       ↳ 输入→输出链式: [('autoremesher', 'to', '', 
 
 ✅ 雷达完成 — 17 条建议
 
@@ -108,15 +108,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 354 条
+     原始抓取: 351 条
      🚫 闲聊拦截: 13 条 (3.7%)
-     🧠 工具信号: 176 条 (49.7%)
-     闲聊样例: Scope of Digital Marketing: Future Opportunities, ... [job]
+     🧠 工具信号: 177 条 (50.4%)
+     闲聊样例: Odin 1.0 Announcement... [news]
      工具信号样例: PhotoGIMP... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 176 → 有效 40
-     拒绝率: 77.3%
+     工具信号 177 → 有效 40
+     拒绝率: 77.4%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -153,7 +153,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-08T14:32:46.091484+00:00
+   Generated at: 2026-07-08T16:44:48.459907+00:00
    Already in catalog: 132 tools
    Previously produced: 0 tools
    Existing tool pages: 43 files
@@ -322,7 +322,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-08T14:32:45.932072+00:00 → 2026-07-08T14:32:59.566201+00:00
+  ⏱  耗时: 2026-07-08T16:44:48.310943+00:00 → 2026-07-08T16:45:01.610520+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
