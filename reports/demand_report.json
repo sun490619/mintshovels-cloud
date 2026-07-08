@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T18:59:59.160884+00:00",
+  "generated_at": "2026-07-08T19:46:02.141150+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -110,40 +110,40 @@
     ],
     "devto": [
       "DEV Community: programming",
-      "How to Approach Any LeetCode Problem in 5 Steps – A 'Matrix' Mindset",
-      "استخدام لغة جافا سكريبت وأطر العمل رياكت وNODE.js لإنشاء تطبيقات الويب الحديثة للمبتدئين",
-      "AnyMP4 Android Data Recovery 2.1.26 for macOS – Recover Deleted Android Files on Mac with Preview and Selective Restore",
-      "إنشاء تطبيق ويب باستخدام بايثون وفلاسك للbeginners",
-      "Assassin’s Creed Rogue Mac Download Now",
-      "How I Structure Large Next.js Projects — Folder Architecture Guide",
-      "WiFi Scanner 3.4.0 for macOS Free Download",
-      "I built training wheels for AI coding agents, then found a critical bug in them by pointing my code reviewer at them",
-      "Downcast 2.11.33 for macOS – A Feature-Rich Podcast Player and Downloader",
-      "The Placebo Bug: Why Smart Developers Leave Mistakes in Their Code on Purpose",
-      "Tuxera NTFS 2026.1 for macOS Review – Fast NTFS Support",
-      "I built an enterprise-grade Logistics Dashboard in React &amp; Tailwind. Giving away the Lite UI kit for free!"
+      "Deputy CEO to Solo AI Dev: What My Executive Past Actually Built",
+      "Chess Mathematics",
+      "Building a Basic Chatbot using Python and NLTK: A Beginner's Guide to Conversational AI",
+      "ayatsaadati — Complete Guide",
+      "How do programmers make money in 2026?",
+      "Getting Started with Python for Web Scraping: A Beginner's Guide",
+      "A gg Trusted Destination for Modern Online Entertainment",
+      "Age of Empires II matches LLMs in functional completeness",
+      "Creating a Secure E-commerce Website from Scratch using HTML, CSS, JavaScript, and PHP",
+      "Building a Simple Chatbot using Python and Natural Language Processing for Absolute Beginners",
+      "C# 15 Preview: Union Types and Closed Hierarchies, Finally",
+      "How to Approach Any LeetCode Problem in 5 Steps – A 'Matrix' Mindset"
     ],
     "lobsters": [
       "A bug which only affected left-handed users",
       "Jim's TrueType QR Code Font",
+      "Obfuscated bash script by Akamai being supplied to consumers via retail stores",
       "a software engineering interview question I like: computing the median",
       "Odin 1.0 Announcement",
-      "Obfuscated bash script by Akamai being supplied to consumers via retail stores",
       "NoiseLang: Where N = 5 is a Dirac delta",
+      "Announcing TypeScript 7.0",
       "Together for a healthier Clippy",
-      "Funding open-source software without compromising it",
       "Accessibility in GNOME",
       "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos",
-      "Unicode's Transliteration Rules Are Turing-Complete",
+      "Funding open-source software without compromising it",
       "Democratizing Abandonware",
+      "Unicode's Transliteration Rules Are Turing-Complete",
       "Google’s exponential path to climate-wrecking digital bloat",
       "Eve Online's Carbon engine is now open source: Fenris Creations explains why",
       "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
       "You shouldn't trust Trusted Publishing",
-      "Announcing TypeScript 7.0",
+      "BotKit: Standalone ActivityPub bots in TypeScript",
       "Zine 0.12.0",
-      "The best WebAssembly runtime may still be no runtime at all",
-      "I was wrong about game development"
+      "The best WebAssembly runtime may still be no runtime at all"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -168,53 +168,51 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Decoding the obfuscated bash script on a Uniqlo t-shirt 🔥1103pts 💬185",
-      "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos 🔥461pts 💬178",
-      "Chatto is now Open Source 🔥378pts 💬97",
-      "GPT‑Live 🔥336pts 💬241",
-      "Tenda firmware (multiple versions) contains hidden authentication backdoor 🔥326pts 💬112",
-      "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024) 🔥313pts 💬210",
-      "EVE Online's Carbon engine is now open source: Fenris Creations explains why 🔥309pts 💬108",
-      "Structure and Interpretation of Computer Programs Video Lectures (1986) 🔥305pts 💬41",
-      "Mistral's Robostral Navigate: a state of the art robotics navigation model 🔥299pts 💬66",
-      "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup 🔥265pts 💬140",
-      "Apple to increase spend with Broadcom to produce billions more U.S. chips 🔥248pts 💬207",
-      "TypeScript 7 🔥199pts 💬61",
-      "OpenBSD has a use-after-free allowing local privilege escalation to root 🔥174pts 💬82",
-      "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks 🔥164pts 💬63",
-      "Cloudflare Meerkat - Globally distributed consensus 🔥157pts 💬33",
-      "Grok 4.5 🔥152pts 💬93",
-      "EU now one step away from reviving private message scanning rules 🔥133pts 💬32",
-      "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence 🔥130pts 💬83",
-      "Japan's Hayabusa2 probe to conduct flyby of Torifune asteroid 🔥128pts 💬16",
-      "Geosql: A Claude/Codex skill for geospatial data 🔥107pts 💬13",
-      "Ants: Who looks after the injured in a colony? 🔥96pts 💬47",
-      "Show HN: Follow London Trains in 3D 🔥94pts 💬40",
-      "NoiseLang: Where N = 5 is a Dirac delta 🔥89pts 💬44",
-      "What Do We Know About the Microplastics Inside Us?",
-      "TabFont – guitar tabs rendered as you type"
+      "Decoding the obfuscated bash script on a Uniqlo t-shirt 🔥1137pts 💬189",
+      "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos 🔥470pts 💬180",
+      "Chatto is now Open Source 🔥427pts 💬119",
+      "GPT‑Live 🔥394pts 💬267",
+      "EVE Online's Carbon engine is now open source: Fenris Creations explains why 🔥340pts 💬118",
+      "Structure and Interpretation of Computer Programs Video Lectures (1986) 🔥334pts 💬43",
+      "Tenda firmware (multiple versions) contains hidden authentication backdoor 🔥330pts 💬114",
+      "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024) 🔥319pts 💬217",
+      "Mistral's Robostral Navigate: a state of the art robotics navigation model 🔥319pts 💬75",
+      "Apple to increase spend with Broadcom to produce billions more U.S. chips 🔥262pts 💬215",
+      "TypeScript 7 🔥245pts 💬80",
+      "Grok 4.5 🔥243pts 💬163",
+      "OpenBSD has a use-after-free allowing local privilege escalation to root 🔥203pts 💬91",
+      "EU now one step away from reviving private message scanning rules 🔥191pts 💬71",
+      "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks 🔥167pts 💬64",
+      "Cloudflare Meerkat - Globally distributed consensus 🔥166pts 💬36",
+      "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence 🔥158pts 💬91",
+      "Japan's Hayabusa2 probe to conduct flyby of Torifune asteroid 🔥150pts 💬17",
+      "Geosql: A Claude/Codex skill for geospatial data 🔥111pts 💬13",
+      "What Do We Know About the Microplastics Inside Us? 🔥102pts 💬28",
+      "Show HN: Follow London Trains in 3D 🔥99pts 💬44",
+      "NoiseLang: Where N = 5 is a Dirac delta 🔥96pts 💬47",
+      "PlayStation can delete all your digital games after 3 years of inactivity (EU) 🔥96pts 💬42",
+      "Show HN: Microsoft releases Flint, a visualization language for AI agents 🔥78pts 💬30",
+      "TabFont – guitar tabs rendered as you type 🔥56pts 💬13"
     ],
     "hn_show": [
+      "REST – Living Without Burnout — featured on Hacker News (🔥1pts)",
+      "SharpSkill – Test your IT skills in 15 different spoken languages — featured on Hacker News (🔥1pts)",
+      "Nodeup – automate Node.js version upgrades and NPM package migration — featured on Hacker News (🔥2pts)",
+      "Connect DuckDB to any database that has an ADBC driver — featured on Hacker News (🔥1pts)",
+      "Nino – a dedicated CFP/CPA team and AI to manage your financial life — featured on Hacker News (🔥1pts)",
       "Genbuzz – An agent-driven news aggregator for AI filmmaking — featured on Hacker News (🔥2pts)",
-      "All the Cron Jobs — featured on Hacker News (🔥1pts)",
+      "Crondex - All the Cron Jobs — featured on Hacker News (🔥1pts)",
       "Leafwright – Generate PDFs without running headless Chrome — featured on Hacker News (🔥1pts)",
       "Axiom-02 – Deterministic engine modeling cognitive dissonance — featured on Hacker News (🔥1pts)",
       "MacPad – a tiny macOS Notepad.exe-style editor — featured on Hacker News (🔥1pts)",
-      "Moo, Git versions code, moo versions machines — featured on Hacker News (🔥4pts)",
+      "Moo, Git versions code, moo versions machines — featured on Hacker News (🔥7pts)",
       "A YC/PG Essays Directory Roadmap — featured on Hacker News (🔥1pts)",
       "Open-source GUI for editing 3D molecular structures with diffusion — featured on Hacker News (🔥2pts)",
       "The Long Walk (Of Paintings) — featured on Hacker News (🔥1pts)",
       "Makoto – blocks AI agent claims that contradict its logged actions — featured on Hacker News (🔥1pts)",
-      "Foreman, a self-hosted LLM gateway for cost aware model routing — featured on Hacker News (🔥2pts)",
-      "Monogram, AI app with on the fly generation — featured on Hacker News (🔥4pts)",
-      "Requirements Engineering with Formal Verification — featured on Hacker News (🔥9pts)",
-      "Microsoft releases Flint, a visualization language for AI agents — featured on Hacker News (🔥38pts)",
-      "Hover over your UI element to get its exact location in code — featured on Hacker News (🔥2pts)",
-      "Apposters – Generate a project website directly from a GitHub link — featured on Hacker News (🔥1pts)",
-      "Copy the Code. Keep the Updates — featured on Hacker News (🔥1pts)",
-      "A browser MMO snake where ~1000 players share one CPU core — featured on Hacker News (🔥1pts)",
-      "Runo – open-source web scraping that returns typed JSON — featured on Hacker News (🔥1pts)",
-      "Arbor – code graph MCP server so agents stop grep-reading your codebase — featured on Hacker News (🔥1pts)"
+      "Foreman, a self-hosted LLM gateway for cost aware model routing — featured on Hacker News (🔥3pts)",
+      "Monogram, AI app with on the fly generation — featured on Hacker News (🔥8pts)",
+      "Requirements Engineering with Formal Verification — featured on Hacker News (🔥10pts)"
     ],
     "hn_ask_tools": [
       "Ask HN: Is there anything good in the existence of LLMs? — user asking for tool recommendation (🔥4pts)",
@@ -225,7 +223,7 @@
       "Launch HN: Manufact (YC S25) – MCP Cloud — user asking for tool recommendation (🔥111pts)",
       "Show HN: TheraJoy – bilateral stimulation for EMDR using Joy-Cons — user asking for tool recommendation (🔥1pts)",
       "Show HN: Capacitor – shared mem for Claude Code, Cursor and other coding agents — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥208pts)",
+      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥210pts)",
       "Ask HN: How are you creating demo videos for your product? — user asking for tool recommendation (🔥1pts)",
       "Show HN: LokalBot – meetings, notes, and autocomplete that never leave your Mac — user asking for tool recommendation (🔥1pts)",
       "Ask HN: What tool are you using for A/B tests and analyzing and documenting them — user asking for tool recommendation (🔥2pts)",
@@ -233,7 +231,7 @@
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
       "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Moo, Git versions code, moo versions machines — user asking for tool recommendation (🔥4pts)",
+      "Show HN: Moo, Git versions code, moo versions machines — user asking for tool recommendation (🔥7pts)",
       "Show HN: Fluffy Sparrow – Frictionless, Fast, Note Taking App — user asking for tool recommendation (🔥1pts)",
       "Show HN: CodeRadius, map and govern multi repo architectures — user asking for tool recommendation (🔥1pts)",
       "Show HN: Free PDF Document Redaction — user asking for tool recommendation (🔥1pts)",
@@ -241,7 +239,7 @@
       "Ask HN: I use coding agents daily, but how do real engineers use them? — user asking for tool recommendation (🔥3pts)",
       "Show HN: Captchainbox – make senders work to get into your inbox — user asking for tool recommendation (🔥6pts)",
       "Show HN: Selbstbild – What Fable 5 thinks of your HN comment history — user asking for tool recommendation (🔥6pts)",
-      "Show HN: Microsoft releases Flint, a visualization language for AI agents — user asking for tool recommendation (🔥38pts)",
+      "Show HN: Microsoft releases Flint, a visualization language for AI agents — user asking for tool recommendation (🔥78pts)",
       "Show HN: FrankenMarkdown, Render .md Files to PDF/HTML (also in browser) — user asking for tool recommendation (🔥2pts)",
       "Show HN: Halo – open-source, tamper-evident runtime evidence for AI agents — user asking for tool recommendation (🔥37pts)",
       "ScreenStack Is Looking for Design Partners — user asking for tool recommendation (🔥1pts)",
@@ -288,16 +286,16 @@
       "AWS Introduces Amazon S3 Annotations <img src=\"https://res.infoq.com/news/2026/07/aws-s3-annotations/en/headerimage/generatedHeaderImage-1782327927331.jpg\"/><p>AWS recently announced Amaz"
     ],
     "google_trends": [
-      "chuck schumer",
-      "trump kennedy center signage dispute",
-      "florida lottery results",
-      "larry nance jr",
-      "arby's",
-      "air force sergeant promotion errors",
-      "fomc",
-      "fomc minutes",
-      "jim bridenstine",
-      "e. jean carroll"
+      "alexia putellas",
+      "phil regan",
+      "fire pits",
+      "connor bedard",
+      "brandy norwood",
+      "new trial",
+      "7-eleven",
+      "news",
+      "e jean carroll",
+      "golden state warriors"
     ],
     "baidu": [
       "习近平勉励广大科技工作者",
@@ -310,38 +308,38 @@
       "邓紫棋杭州演唱会取消",
       "“中国房地产调整或接近尾声”",
       "知名“TVB绿叶”朱维德去世",
-      "救命药从24元涨到600元还买不到",
+      "最爱发钱老板又发近300万和50吨西瓜",
       "网传“百色严重洪灾”视频为拼接",
       "C罗乘坐私人飞机离开",
-      "最爱发钱老板又发近300万和50吨西瓜",
-      "粉笔CEO张小龙辞职",
       "FBI追查阿根廷足协3亿美元大案",
-      "最新世界杯夺冠概率阿根廷第三",
-      "救援现场“到处都是喊救命的人”",
+      "粉笔CEO张小龙辞职",
       "霍尔木兹海峡油轮通行“基本停止”",
+      "救命药从24元涨到600元还买不到",
+      "广西贵港上万名师生被困",
+      "最新世界杯夺冠概率阿根廷第三",
       "长龙航空不再强制空姐盘发"
     ],
     "wikipedia": [
-      "Maja Hug",
-      "House on Eden",
-      "Maia Sørensen",
-      "Kirby: Squeak Squad",
-      "No Questions Asked (song)",
-      "John C. Holden",
-      "Mai Asada",
-      "Dictator Kylian Mbappé",
-      "2024 Iraq FA Cup final",
-      "Mill Neck station",
-      "YG Marley",
-      "Robert Bowie Owens",
-      "Maé-Bérénice Méité",
-      "Christianity in Japan",
-      "Revelation (song)",
-      "Croatia national under-19 football team",
-      "Andrey Santos",
-      "Pennsylvania Railroad 460",
-      "Upper Saddle River, New Jersey",
-      "A62 motorway (Greece)"
+      "Bitpanda",
+      "The Death of Robin Hood",
+      "Monte Carlo (2011 film)",
+      "Brive–Souillac Airport",
+      "2026–27 UEFA Champions League qualifying",
+      "Kach Diyan Wanga",
+      "Cryptonomicon",
+      "Kilwins",
+      "Yuki Sakakihara",
+      "George Anderson Mercer",
+      "Senega scoparioides",
+      "List of Disney Channel original films",
+      "Lucía Zárate",
+      "Radha Madhavam (2024 film)",
+      "Croatia women's national under-19 football team",
+      "Vladimir Schneider",
+      "Bristol Airport",
+      "Alexandra Eala",
+      "Jbala Region",
+      "Carnegie Institution for Science"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -426,28 +424,28 @@
       "@expo/xcpretty — npm package: Parse and format xcodebuild logs"
     ],
     "github_topics": [
-      "github trending topic: bioconductor",
-      "github trending topic: mcp",
-      "github trending topic: scala",
-      "github trending topic: npm",
-      "github trending topic: code quality",
-      "github trending topic: typescript",
-      "github trending topic: database",
-      "github trending topic: awesome lists",
-      "github trending topic: javascript",
-      "github trending topic: react native",
-      "github trending topic: python",
-      "github trending topic: chrome",
-      "github trending topic: bioc-package",
-      "github trending topic: react",
       "github trending topic: project management",
-      "github trending topic: bioc-software",
-      "github trending topic: ai-agents",
-      "github trending topic: cli",
-      "github trending topic: node.js",
-      "github trending topic: front end",
+      "github trending topic: chrome",
+      "github trending topic: react",
+      "github trending topic: react native",
+      "github trending topic: javascript",
+      "github trending topic: typescript",
+      "github trending topic: scala",
       "github trending topic: compiler",
-      "github trending topic: css"
+      "github trending topic: python",
+      "github trending topic: npm",
+      "github trending topic: node.js",
+      "github trending topic: flask",
+      "github trending topic: bioc-package",
+      "github trending topic: css",
+      "github trending topic: code quality",
+      "github trending topic: database",
+      "github trending topic: nikit-sorted",
+      "github trending topic: front end",
+      "github trending topic: bioconductor",
+      "github trending topic: awesome lists",
+      "github trending topic: openai",
+      "github trending topic: bioc-software"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -461,15 +459,6 @@
       "type": "tool",
       "name": "Video Converter",
       "name_zh": "视频格式转换器"
-    },
-    {
-      "keyword": "WiFi Scanner 3.4.0 for macOS Free Download",
-      "matched": "download",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Downloader",
-      "name_zh": "下载器"
     },
     {
       "keyword": "Obfuscated bash script by Akamai being supplied to consumers via retail stores",
@@ -628,8 +617,6 @@
   "all_keywords": [
     "claude-video",
     "继续推广我的 gpt 中转站，注册就送 28.8$余额，已稳定运行俩月有余了",
-    "WiFi Scanner 3.4.0 for macOS Free Download",
-    "Downcast 2.11.33 for macOS – A Feature-Rich Podcast Player and Downloader",
     "Obfuscated bash script by Akamai being supplied to consumers via retail stores",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -672,10 +659,10 @@
     "github trending topic: bioc-package"
   ],
   "filter_stats": {
-    "raw_count": 178,
-    "valid_count": 44,
+    "raw_count": 176,
+    "valid_count": 42,
     "rejected_count": 134,
-    "rejection_rate": 75.3,
+    "rejection_rate": 76.1,
     "rejected_samples": [
       "PhotoGIMP",
       "DesktopCommanderMCP",
@@ -690,11 +677,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 353,
-    "chatter_blocked": 12,
-    "chatter_rate": 3.4,
-    "tool_signals_found": 178,
-    "tool_signal_rate": 50.4,
+    "total_captured": 351,
+    "chatter_blocked": 14,
+    "chatter_rate": 4.0,
+    "tool_signals_found": 176,
+    "tool_signal_rate": 50.1,
     "chatter_samples": [
       {
         "text": "Odin 1.0 Announcement",
@@ -732,13 +719,6 @@
         ]
       },
       {
-        "text": "救命药从24元涨到600元还买不到",
-        "category": "chatter",
-        "matched": [
-          "救命"
-        ]
-      },
-      {
         "text": "最爱发钱老板又发近300万和50吨西瓜",
         "category": "chatter",
         "matched": [
@@ -746,31 +726,38 @@
         ]
       },
       {
-        "text": "救援现场“到处都是喊救命的人”",
+        "text": "救命药从24元涨到600元还买不到",
         "category": "chatter",
         "matched": [
           "救命"
         ]
       },
       {
-        "text": "Croatia national under-19 football team",
+        "text": "Monte Carlo (2011 film)",
+        "category": "entertainment",
+        "matched": [
+          "film"
+        ]
+      },
+      {
+        "text": "2026–27 UEFA Champions League qualifying",
+        "category": "chatter",
+        "matched": [
+          "fyi"
+        ]
+      },
+      {
+        "text": "Radha Madhavam (2024 film)",
+        "category": "entertainment",
+        "matched": [
+          "film"
+        ]
+      },
+      {
+        "text": "Croatia women's national under-19 football team",
         "category": "entertainment",
         "matched": [
           "football"
-        ]
-      },
-      {
-        "text": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for S",
-        "category": "chatter",
-        "matched": [
-          "imo"
-        ]
-      },
-      {
-        "text": "RSF-GLLM: Bridging the Semantic Gap in Multi-Hop Knowledge Graph QA via Recurren",
-        "category": "chatter",
-        "matched": [
-          "vent"
         ]
       }
     ],
@@ -865,25 +852,25 @@
         ]
       },
       {
-        "text": "How to Approach Any LeetCode Problem in 5 Steps – A 'Matrix' Mindset",
-        "confidence": 30,
-        "features": [
-          "输入→输出链式: [('How to Approach', 'to', '', '', '', '')]",
-          "需求表达: [('How to Approach', 'to', '', '', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "استخدام لغة جافا سكريبت وأطر العمل رياكت وNODE.js لإنشاء تطبيقات الويب الحديثة للمبتدئين",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['js']"
-        ]
-      },
-      {
-        "text": "AnyMP4 Android Data Recovery 2.1.26 for macOS – Recover Deleted Android Files on Mac with Preview an",
+        "text": "Deputy CEO to Solo AI Dev: What My Executive Past Actually Built",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('Restore', 'to', '', '', '', '')]"
+          "输入→输出链式: [('CEO to Solo', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Building a Basic Chatbot using Python and NLTK: A Beginner's Guide to Conversational AI",
+        "confidence": 35,
+        "features": [
+          "输入→输出链式: [('Guide to Conversational', 'to', '', '', '', '')]",
+          "技术概念: ['Python']"
+        ]
+      },
+      {
+        "text": "Getting Started with Python for Web Scraping: A Beginner's Guide",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['Python']"
         ]
       }
     ]
