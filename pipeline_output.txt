@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-07T22:17:25.742660+00:00     ║
+║       启动时间: 2026-07-08T03:32:41.575307+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 24 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 354
-  🚫 闲聊拦截: 12 条 (3.4%)
-  🧠 工具信号: 178 条 (50.3%)
+  原始信号总量: 353
+  🚫 闲聊拦截: 11 条 (3.1%)
+  🧠 工具信号: 181 条 (51.3%)
 
   📋 闲聊拦截样例:
      [chatter] 同事送了个洗碗机之后回不去了
      [chatter] 华为天才少年吐槽 DeepSeek 面试不规范，程序员的你怎么看？
-     [news] 7 Breaking Changes in the 2026-07-28 MCP Spec: Your Before/A
      [news] Odin 1.0 Announcement
-     [news] Chat Control passed first round in EU Parliament 🔥498pts 💬21
+     [news] Envirotech Vehicles (NASDAQ: EVTV) Closes Merger with Azio A
+     [entertainment] Netflix Cuts Cassandra Read Latency from Seconds to Millisec
 
   🧠 工具信号样例:
      [置信度40%] Website-downloader
@@ -102,7 +102,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['claude']
      [置信度15%] copilot-pull-request-reviewer
        ↳ 英文工具名词: ['viewer']
-     [置信度15%] What does the "yield" keyword do in
+     [置信度15%] What does the "yield" keyw
 
 ✅ 雷达完成 — 18 条建议
 
@@ -111,15 +111,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 354 条
-     🚫 闲聊拦截: 12 条 (3.4%)
-     🧠 工具信号: 178 条 (50.3%)
+     原始抓取: 353 条
+     🚫 闲聊拦截: 11 条 (3.1%)
+     🧠 工具信号: 181 条 (51.3%)
      闲聊样例: 同事送了个洗碗机之后回不去了... [chatter]
      工具信号样例: Website-downloader... [置信度40%]
 
   📊 硬核过滤器统计:
-     工具信号 178 → 有效 43
-     拒绝率: 75.8%
+     工具信号 181 → 有效 40
+     拒绝率: 77.9%
 
   📊 意图分类器审计 — 审查 18 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -157,7 +157,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-07-07T22:17:25.901846+00:00
+   Generated at: 2026-07-08T03:32:41.700186+00:00
    Already in catalog: 132 tools
    Previously produced: 0 tools
    Existing tool pages: 43 files
@@ -326,7 +326,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-07T22:17:25.742660+00:00 → 2026-07-07T22:17:38.068163+00:00
+  ⏱  耗时: 2026-07-08T03:32:41.575307+00:00 → 2026-07-08T03:32:54.138359+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
