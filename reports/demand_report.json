@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T05:39:08.151313+00:00",
+  "generated_at": "2026-07-08T08:01:57.561515+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -97,50 +97,50 @@
       "fcodex 小站开业，评论送 5 额度,倍率低至:0.07x;plus 0.11x;pro 号池倍率 0.25x",
       "为什么中央政府不管控国人使用外国大模型？",
       "华为天才少年吐槽 DeepSeek 面试不规范，程序员的你怎么看？",
-      "如果有家族遗传脱发应尽早使用非那雄胺",
-      "技术人员都不要去碰菠菜、多层次网络营销（传销/MLM）、未经合规许可的离岸数字货币交易所项目？",
-      "35 岁了， 一事无成，还没有对象，感到未来人生会继续平庸且孤单",
       "好奇大家裤衩多久换？",
-      "写代码 15 年，没项目不用去公司也不发工资",
-      "改正对部分华为产品的一些偏见",
-      "人生真是给我开了个玩笑，父亲 59 岁突然查出来癌症晚期"
+      "人生真是给我开了个玩笑，父亲 59 岁突然查出来癌症晚期",
+      "如果有家族遗传脱发应尽早使用非那雄胺",
+      "35 岁了， 一事无成，还没有对象，感到未来人生会继续平庸且孤单",
+      "你有没有那样一瞬间, 觉得自己老了?",
+      "做梦都想买个单人沙发，但是租房😮‍💨",
+      "硬盘要涨价到啥时候？怎么越涨越高了"
     ],
     "devto": [
       "DEV Community: programming",
-      "Why Employers Value Practical Skills More Than High CGPA in 2026",
-      "Beyond the Hype: Reality Checking AI Product Development",
-      "Top AI Trends Every Tech Student Should Watch in 2026",
-      "Why Your Python Code Passes Local Tests but Fails Hidden Test Cases",
-      "Will AI Change Campus Placements? What Students Should Know in 2026",
-      "Web Scraping in 2026: Easy, Safe, and Smart Data Extraction",
-      "Execution Latency in My Polymarket Trading Bot - Sub-Second Trade Execution System Design",
-      "What are OSS and BSS? Telecom Systems Explained",
-      "My Polymarket Bot Has a Volatility Filter Now. Here Is Why I Built It Last.",
-      "How Threads Work",
-      "Sustainable Visual Merchandising India: Smarter Retail Displays",
-      "Which Services Offer AI Search Optimization Audits to Help My Site Rank Better in Generative AI Results?"
+      "How My AI Handles Deployments Better Than I Do",
+      "Saliva Collection and Diagnostic Market Expansion Driven by Home-Based Testing Solutions",
+      "Freedom Blueprint Review: The Secret System That Could Deliver $1,797.65 Daily – My Honest Experience.",
+      "🚀React Router Setup Using createBrowserRouter (v6+ Pattern)",
+      "CSS Flexbox",
+      "Top 10 Best Magento to WooCommerce Migration Companies",
+      "Why Your AI Agent Lies to You",
+      "The AI That Writes Code Can't See Its Own Bugs",
+      "AI Agents in Banking and Financial Services: Use Cases, Architecture, and Compliance Considerations",
+      "Better Models Only Move You Up One Axis of Vibe Coding",
+      "Building Northbridge Analytics: Turning Gut Feelings Into Governed Data",
+      "Testing the New HTTP QUERY Method (RFC 10008): A Guide for Test Engineers and Developers"
     ],
     "lobsters": [
       "Odin 1.0 Announcement",
       "Together for a healthier Clippy",
       "You shouldn't trust Trusted Publishing",
       "Google’s exponential path to climate-wrecking digital bloat",
+      "Jim's TrueType QR Code Font",
+      "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
       "Why false sharing alignment should be 128 bytes on x64",
       "Waterfall CAD Playground - A Haskell powered programmable-CAD environment, in the browser with WASM",
-      "Mechanized type inference for record concatenation",
-      "Jim's TrueType QR Code Font",
       "I was wrong about game development",
-      "Signed Integers By Default",
+      "Mechanized type inference for record concatenation",
       "Your Rust Service Isn't Leaking — It Could Be the Allocator",
-      "Notes on software quality",
-      "The Popup That Says the Quiet Part Out Loud",
-      "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
-      "A Final Return for OpenBSD Anti-Return-Oriented Programming Mitigations",
       "a software engineering interview question I like: computing the median",
-      "ReactOS \"Open-Source Windows\" Project Now Capable Of Running Half-Life 2",
-      "A Measurement Study on the Adoption of Pledges and Unveils in the OpenBSD Operating System",
+      "Notes on software quality",
+      "Signed Integers By Default",
+      "A Final Return for OpenBSD Anti-Return-Oriented Programming Mitigations",
+      "The Popup That Says the Quiet Part Out Loud",
+      "fastSwan: Nvidia ConnectX-7 by numbers",
       "Friction is a Feature",
-      "Radicle: P2P Git Replication with Git Native Issues and Patches"
+      "A Measurement Study on the Adoption of Pledges and Unveils in the OpenBSD Operating System",
+      "Licensing can be joyful (and legally dubious) (2024)"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -165,33 +165,41 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time 🔥728pts 💬173",
-      "Chat Control 1.0 and 2.0 Explained 🔥525pts 💬171",
-      "Every new car sold in the European Union must include a driver monitoring camera 🔥508pts 💬667",
-      "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format 🔥439pts 💬71",
-      "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro 🔥357pts 💬73",
-      "Show HN: Davit, a Apple Containers UI 🔥257pts 💬56",
-      "Herdr: One terminal to rule them all 🔥225pts 💬102",
-      "Why skilled workers come to Germany and then leave again 🔥220pts 💬550",
-      "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup 🔥167pts 💬74",
-      "Jim's TrueType QR Code Font 🔥160pts 💬21",
-      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop 🔥132pts 💬37",
-      "We're extending access to Fable 5 on all paid plans through July 12 🔥129pts 💬139",
-      "l: A new runtime for k and q 🔥126pts 💬66",
-      "Tenda firmware (multiple versions) contains hidden authentication backdoor 🔥112pts 💬29",
-      "Notes on Software Quality 🔥108pts 💬50",
-      "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl 🔥102pts 💬11",
-      "Structure and Interpretation of Computer Programs Video Lectures (1986) 🔥101pts 💬9",
-      "Is The Economist Always Wrong? 🔥100pts 💬67",
-      "Canada's only watchmaking school still ticking after 80 years 🔥91pts 💬37",
-      "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024) 🔥72pts 💬32",
-      "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday 🔥57pts 💬15",
-      "IEEE Rolls Out Large Language Models Training Course 🔥51pts 💬7",
-      "Scheme Is a Hoot",
-      "Show HN: Chiptune Radio",
-      "First Principles of Model Routing"
+      "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time 🔥747pts 💬174",
+      "Chat Control 1.0 and 2.0 Explained 🔥602pts 💬215",
+      "Every new car sold in the European Union must include a driver monitoring camera 🔥585pts 💬748",
+      "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format 🔥492pts 💬74",
+      "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro 🔥386pts 💬77",
+      "Show HN: Davit, a Apple Containers UI 🔥287pts 💬64",
+      "Herdr: One terminal to rule them all 🔥261pts 💬114",
+      "Why skilled workers come to Germany and then leave again 🔥244pts 💬613",
+      "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup 🔥191pts 💬90",
+      "Tenda firmware (multiple versions) contains hidden authentication backdoor 🔥176pts 💬51",
+      "Why we built yet another Postgres connection pooler 🔥176pts 💬41",
+      "We're extending access to Fable 5 on all paid plans through July 12 🔥173pts 💬176",
+      "Jim's TrueType QR Code Font 🔥171pts 💬22",
+      "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday 🔥156pts 💬89",
+      "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024) 🔥154pts 💬83",
+      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop 🔥153pts 💬41",
+      "Structure and Interpretation of Computer Programs Video Lectures (1986) 🔥144pts 💬14",
+      "l: A new runtime for k and q 🔥139pts 💬75",
+      "Canada's only watchmaking school still ticking after 80 years 🔥122pts 💬56",
+      "Notes on Software Quality 🔥119pts 💬50",
+      "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos 🔥85pts 💬27",
+      "IEEE Rolls Out Large Language Models Training Course 🔥65pts 💬9",
+      "Scheme Is a Hoot 🔥65pts 💬6",
+      "LineageOS Statistics 🔥61pts 💬32",
+      "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks 🔥54pts 💬11"
     ],
     "hn_show": [
+      "An MCP server where the mind on the other end remembers you — featured on Hacker News (🔥1pts)",
+      "An AI Agent that automates workflows on your Mobile — featured on Hacker News (🔥1pts)",
+      "Tools and skills to build better sites with AI — featured on Hacker News (🔥2pts)",
+      "Plugin to Connect Pi to Signal — featured on Hacker News (🔥1pts)",
+      "Jot, a menu bar app that catches a thought before it's gone — featured on Hacker News (🔥1pts)",
+      "Relis – Extract Bubble.io app architecture into migration-ready docs — featured on Hacker News (🔥2pts)",
+      "Codex-profiles – isolated Codex CLI/Desktop profiles — featured on Hacker News (🔥3pts)",
+      "FlareDB – Apache Beam native streaming database for realtime analytics — featured on Hacker News (🔥3pts)",
       "SkelForm – 2D skeletal animator for games — featured on Hacker News (🔥1pts)",
       "I built an AI hairstyle preview tool before your next haircut — featured on Hacker News (🔥1pts)",
       "0day Rubbish – AI Vulnerability Discovery Platform (0day-Rubbish.com) — featured on Hacker News (🔥1pts)",
@@ -200,49 +208,42 @@
       "A quiet new tab that replaces your default boring new tab in Chrome — featured on Hacker News (🔥1pts)",
       "ChatGPT, Claude and Codex-style chat inputs in one React component — featured on Hacker News (🔥1pts)",
       "I created a ninety second challenge for conversations that matter — featured on Hacker News (🔥2pts)",
-      "FactIQ – a realtime econ+finance database for AI agents — featured on Hacker News (🔥4pts)",
-      "Ghostmeet – Self-hosted meeting transcription and summaries — featured on Hacker News (🔥11pts)",
+      "FactIQ – a realtime econ+finance database for AI agents — featured on Hacker News (🔥5pts)",
+      "Ghostmeet – Self-hosted meeting transcription and summaries — featured on Hacker News (🔥13pts)",
       "Plagiarism.Free – Free Plagiarism Checker — featured on Hacker News (🔥3pts)",
-      "FrankenMarkdown, Render .md Files to PDF/HTML (also in browser) — featured on Hacker News (🔥2pts)",
-      "Chiptune Radio — featured on Hacker News (🔥35pts)",
-      "your website as a TUI, over SSH right now — featured on Hacker News (🔥5pts)",
-      "Turbo – An open-source, fast HTTP server with a real-time config GUI — featured on Hacker News (🔥4pts)",
-      "Fortress – a stealth Chromium so your agents stop getting blocked — featured on Hacker News (🔥37pts)",
-      "Perks Reminder – open-source tracker for expiring card benefits — featured on Hacker News (🔥2pts)",
-      "A LinkedIn / X CLI for your agents — featured on Hacker News (🔥3pts)",
-      "PGP made convenient (encrypted at rest with passkeys) — featured on Hacker News (🔥2pts)"
+      "FrankenMarkdown, Render .md Files to PDF/HTML (also in browser) — featured on Hacker News (🔥2pts)"
     ],
     "hn_ask_tools": [
-      "Show HN: PGP made convenient (encrypted at rest with passkeys) — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Bike4Mind – open-core AI workbench; any model, agents, RAG, self-host — user asking for tool recommendation (🔥1pts)",
-      "Show HN: FlowHook – a file watcher that knows if your build passed or failed — user asking for tool recommendation (🔥3pts)",
-      "Show HN: hnsubstacks – Browse only Substacks submitted to HN — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Patterns with Friends – free multiplayer tile game (no sign-up, no ads) — user asking for tool recommendation (🔥3pts)",
-      "Show HN: The Banana Test: coding agents grow a 3D banana plant' — user asking for tool recommendation (🔥2pts)",
       "Show HN: SpreadsheetPreview: Pdf.js for Spreadsheets — user asking for tool recommendation (🔥3pts)",
-      "Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT) — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥132pts)",
+      "Show HN: Scout.kids – Agents that find activies for families — user asking for tool recommendation (🔥4pts)",
+      "Show HN: Emra – A workspace where every app you build shares one db — user asking for tool recommendation (🔥3pts)",
+      "Show HN: Document to Excel Converter — user asking for tool recommendation (🔥2pts)",
+      "Launch HN: Manufact (YC S25) – MCP Cloud — user asking for tool recommendation (🔥111pts)",
+      "Show HN: TheraJoy – bilateral stimulation for EMDR using Joy-Cons — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Capacitor – shared mem for Claude Code, Cursor and other coding agents — user asking for tool recommendation (🔥2pts)",
+      "Show HN: SUNWÆE – your life's AI OS — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥153pts)",
       "Ask HN: How are you creating demo videos for your product? — user asking for tool recommendation (🔥1pts)",
       "Show HN: LokalBot – meetings, notes, and autocomplete that never leave your Mac — user asking for tool recommendation (🔥1pts)",
-      "Ask HN: Which payment processor/merchant-of-record do you use in 2026? — user asking for tool recommendation (🔥4pts)",
       "Ask HN: What tool are you using for A/B tests and analyzing and documenting them — user asking for tool recommendation (🔥2pts)",
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
-      "Show HN: FrankenMarkdown, Render .md Files to PDF/HTML (also in browser) — user asking for tool recommendation (🔥2pts)",
+      "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
       "Show HN: Free PDF Document Redaction — user asking for tool recommendation (🔥1pts)",
-      "Show HN: DemandMap – Memory Mapping S3 into Polars on macOS Without FUSE — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Bike4Mind – open-core AI workbench; any model, agents, RAG, self-host — user asking for tool recommendation (🔥2pts)",
       "Ask HN: I use coding agents daily, but how do real engineers use them? — user asking for tool recommendation (🔥3pts)",
       "Show HN: Captchainbox – make senders work to get into your inbox — user asking for tool recommendation (🔥6pts)",
+      "Show HN: Selbstbild – What Fable 5 thinks of your HN comment history — user asking for tool recommendation (🔥6pts)",
+      "Show HN: Psycurate – Curated place for privacy-first, free psychological tools — user asking for tool recommendation (🔥1pts)",
+      "Show HN: A tool to help people in social situations — user asking for tool recommendation (🔥3pts)",
+      "Career Suggestion: What would you do if you are in this situation? — user asking for tool recommendation (🔥1pts)",
+      "Show HN: FrankenMarkdown, Render .md Files to PDF/HTML (also in browser) — user asking for tool recommendation (🔥2pts)",
       "Show HN: CLRK, an open-source agent runtime with gVisor and MitM guardrails — user asking for tool recommendation (🔥4pts)",
       "Show HN: Prizmi – a proactive AI assistant for everyday life — user asking for tool recommendation (🔥2pts)",
       "Show HN: WritingLint – a prose linter with rules over a dependency graph — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Halo – open-source, tamper-evident runtime evidence for AI agents — user asking for tool recommendation (🔥28pts)",
-      "Show HN: Mondael.com – Institutional Intelligence for Prediction Markets — user asking for tool recommendation (🔥5pts)",
-      "Show HN: SkelForm – 2D skeletal animator for games — user asking for tool recommendation (🔥1pts)",
-      "Show HN: An agentic CRM, built for AI agents to drive over plain HTTP — user asking for tool recommendation (🔥1pts)",
-      "Ask HN: What are alternative to Upwork for side gig? — user asking for tool recommendation (🔥5pts)",
-      "Show HN: Orchestra – Browser automation tool with export plain Playwright — user asking for tool recommendation (🔥1pts)"
+      "Show HN: Halo – open-source, tamper-evident runtime evidence for AI agents — user asking for tool recommendation (🔥32pts)",
+      "Show HN: The Banana Test: coding agents grow a 3D banana plant' — user asking for tool recommendation (🔥2pts)"
     ],
     "hackernoon": [
       "My Journey From a Warehouse Floor to the Microsoft Store and Everywhere in Between",
@@ -284,60 +285,60 @@
       "Cycle Introduces EU Control Plane as Sovereignty Debate Continues <img src=\"https://res.infoq.com/news/2026/07/cycle-eu-control-plane/en/headerimage/generatedHeaderImage-1782203284411.jpg\"/><p>Cycle recently introduc"
     ],
     "google_trends": [
-      "kospi",
-      "loans",
-      "kuwait",
-      "kyle karros",
-      "jordan romano",
-      "auli'i cravalho",
-      "evan phillips",
-      "mason miller",
-      "alex freeland",
-      "quinten post"
+      "bitcoin",
+      "microsoft",
+      "msi 2026",
+      "openai",
+      "tesla",
+      "台风",
+      "new york weather",
+      "t1 vs g2",
+      "x.",
+      "margaret qualley"
     ],
     "baidu": [
-      "盯紧压实责任全力抢险救援",
+      "加快高水平科技自立自强",
       "巴西队包机回国 仅一人乘机",
       "霍启刚痛斥美政客让世界杯失去灵魂",
-      "暴雨+强对流双预警齐发",
+      "从四个新数据读懂上半年中国经济",
+      "法国球员回应全阿根廷裁判组执法",
+      "千只瘫痪小猫超65%吃同一品牌猫粮",
+      "董宇辉陪同昆凌和孩子们爬长城",
+      "两年内导弹两连发 意味着什么",
       "挪威队多人生病 主帅咳嗽不停",
-      "国台办批谷立言：把自己当“太上皇”",
-      "埃及与阿根廷球迷爆发冲突 警察出动",
-      "埃及总统赛后发文",
-      "女子晒警察执勤照称“点男模”被拘",
-      "超级台风“巴威”可能一路刮到东北",
-      "免费辅导孩子的“神仙物业”撤场",
-      "广西“洪水冲下很多尸体”不实",
-      "苏醒回应阿根廷队黑赢",
-      "四川宜宾市高县再次发生5.0级地震",
-      "老人吃胡萝卜窒息死亡 保姆判赔20万",
-      "脱口秀唐香玉拒不道歉被强执",
       "河南老君山月薪6万招云海观察员",
-      "刘建宏：足球也是“弱国无外交”",
+      "龙卷风横扫20分钟：人被卷起 家被吹空",
+      "广西“洪水冲下很多尸体”不实",
+      "免费辅导孩子的“神仙物业”撤场",
+      "法拉利高管：中国车企像在开发快消品",
+      "女子成植物人15年用坏4部空调",
+      "#广西暴雨洪灾互助通道#",
+      "埃及总统赛后发文",
+      "阿根廷首都发生骚乱 至少19人被捕",
       "企业研发制冷马甲 穿上直降8-15℃",
-      "伊朗总统启程回国"
+      "女子晒警察执勤照称“点男模”被拘"
     ],
     "wikipedia": [
-      "The Beast That Shouted Love at the Heart of the World (short story)",
-      "2026 Women's Premier League (Singapore)",
-      "Leslie Lyness",
-      "House of the Temple",
-      "Marie Viková",
-      "Masayoshi Tomizuka",
-      "The Odyssey (2026 film)",
-      "Mudan, Heze",
-      "2026 Championship League (ranking)",
-      "Armin Meiwes",
-      "William L. Jorgensen",
-      "Naomi Kusumi",
-      "Kagoshima Airport",
-      "Republican Majority for Choice",
-      "Bell curve god",
-      "2026 Championship League (ranking)",
-      "Khans of Sahiwal",
-      "Wadi Fira (region)",
-      "Helga Stephenson",
-      "2026–27 Anaheim Ducks season"
+      "Agile Robots SE",
+      "Mardaani (film series)",
+      "NLEX Road Warriors draft history",
+      "Social Liberal Democratic Party",
+      "Economy of British Columbia",
+      "Pawan Singh filmography",
+      "Gliding motility",
+      "Territorial evolution of Greece",
+      "Southwest Conference",
+      "Xylota xanthocnema",
+      "Ivan Banić",
+      "Phil Simmons",
+      "Amanita armeniaca",
+      "State funeral of Ali Khamenei",
+      "Arrival (soundtrack)",
+      "55th Pennsylvania Infantry Regiment",
+      "Vladimir Komarov (disambiguation)",
+      "Tumur Khurlat",
+      "BepiColombo",
+      "2026–27 Chelsea F.C. season"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -356,20 +357,20 @@
       "sentence-similarity all-mpnet-base-v2",
       "bge-m3",
       "sentence-similarity bge-m3",
-      "Qwen3-0.6B",
-      "text-generation Qwen3-0.6B",
       "mobilenetv3_small_100.lamb_in1k",
       "image-classification mobilenetv3_small_100.lamb_in1k",
+      "Qwen3-0.6B",
+      "text-generation Qwen3-0.6B",
       "clip-vit-base-patch32",
       "zero-shot-image-classification clip-vit-base-patch32",
       "t5-small",
       "translation t5-small",
       "xlm-roberta-base",
       "fill-mask xlm-roberta-base",
-      "Qwen3-8B",
-      "text-generation Qwen3-8B",
       "bge-reranker-v2-m3",
-      "text-classification bge-reranker-v2-m3"
+      "text-classification bge-reranker-v2-m3",
+      "Qwen3-8B",
+      "text-generation Qwen3-8B"
     ],
     "arxiv": [
       "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatena",
@@ -422,31 +423,27 @@
       "ecdsa-sig-formatter — npm package: Translate ECDSA signatures between ASN.1/DER and JOSE-style concatenation"
     ],
     "github_topics": [
-      "github trending topic: front end",
-      "github trending topic: compiler",
-      "github trending topic: lyric-writer",
-      "github trending topic: music",
-      "github trending topic: react native",
-      "github trending topic: react",
-      "github trending topic: awesome lists",
-      "github trending topic: project management",
-      "github trending topic: code quality",
-      "github trending topic: npm",
-      "github trending topic: node.js",
-      "github trending topic: database",
       "github trending topic: python",
-      "github trending topic: chrome",
-      "github trending topic: music-producer",
-      "github trending topic: javascript",
-      "github trending topic: typescript",
       "github trending topic: css",
-      "github trending topic: lyrics-archive",
-      "github trending topic: machine-learning",
-      "github trending topic: composer",
-      "github trending topic: lyrics-collection",
+      "github trending topic: nodejs",
+      "github trending topic: awesome lists",
+      "github trending topic: javascript",
       "github trending topic: scala",
-      "github trending topic: lyrics",
-      "github trending topic: lyricist"
+      "github trending topic: chrome",
+      "github trending topic: npm",
+      "github trending topic: react",
+      "github trending topic: machine-learning",
+      "github trending topic: react native",
+      "github trending topic: llm",
+      "github trending topic: node.js",
+      "github trending topic: front end",
+      "github trending topic: code quality",
+      "github trending topic: project management",
+      "github trending topic: claude-code",
+      "github trending topic: compiler",
+      "github trending topic: database",
+      "github trending topic: typescript",
+      "github trending topic: streamlit"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -534,6 +531,33 @@
       "name_zh": "单位换算"
     },
     {
+      "keyword": "Show HN: Document to Excel Converter — user asking for tool recommendation (🔥2pts)",
+      "matched": "convert",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Format Converter",
+      "name_zh": "万能格式转换器"
+    },
+    {
+      "keyword": "Show HN: Document to Excel Converter — user asking for tool recommendation (🔥2pts)",
+      "matched": "excel",
+      "category": "productivity",
+      "subcat": "office",
+      "type": "tool",
+      "name": "Excel Tools",
+      "name_zh": "Excel工具箱"
+    },
+    {
+      "keyword": "Show HN: Document to Excel Converter — user asking for tool recommendation (🔥2pts)",
+      "matched": "converter",
+      "category": "media",
+      "subcat": "video",
+      "type": "tool",
+      "name": "Converter",
+      "name_zh": "格式转换"
+    },
+    {
       "keyword": "Show HN: Free PDF Document Redaction — user asking for tool recommendation (🔥1pts)",
       "matched": "pdf",
       "category": "productivity",
@@ -559,24 +583,6 @@
       "type": "tool",
       "name": "Survey Builder",
       "name_zh": "问卷构建器"
-    },
-    {
-      "keyword": "@teld-approval/converter — npm package: converter tool",
-      "matched": "convert",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Format Converter",
-      "name_zh": "万能格式转换器"
-    },
-    {
-      "keyword": "@teld-approval/converter — npm package: converter tool",
-      "matched": "converter",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Converter",
-      "name_zh": "格式转换"
     },
     {
       "keyword": "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
@@ -640,6 +646,8 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
+    "Show HN: Document to Excel Converter — user asking for tool recommendation (🔥2pts)",
+    "Show HN: SUNWÆE – your life's AI OS — user asking for tool recommendation (🔥2pts)",
     "Show HN: Free PDF Document Redaction — user asking for tool recommendation (🔥1pts)",
     "An Open Source Tool for Safely Analyzing Exposed Modbus PLCs",
     "electra-base-discriminator",
@@ -658,10 +666,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 171,
-    "valid_count": 40,
+    "raw_count": 173,
+    "valid_count": 42,
     "rejected_count": 131,
-    "rejection_rate": 76.6,
+    "rejection_rate": 75.7,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -670,30 +678,23 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "Why Your Python Code Passes Local Tests but Fails Hidden Test Cases",
-      "Google’s exponential path to climate-wrecking digital bloat",
-      "Your Rust Service Isn't Leaking — It Could Be the Allocator"
+      "🚀React Router Setup Using createBrowserRouter (v6+ Pattern)",
+      "CSS Flexbox",
+      "Top 10 Best Magento to WooCommerce Migration Companies"
     ]
   },
   "trait_analysis": {
-    "total_captured": 355,
-    "chatter_blocked": 15,
-    "chatter_rate": 4.2,
-    "tool_signals_found": 171,
-    "tool_signal_rate": 48.2,
+    "total_captured": 352,
+    "chatter_blocked": 14,
+    "chatter_rate": 4.0,
+    "tool_signals_found": 173,
+    "tool_signal_rate": 49.1,
     "chatter_samples": [
       {
         "text": "华为天才少年吐槽 DeepSeek 面试不规范，程序员的你怎么看？",
         "category": "chatter",
         "matched": [
           "吐槽"
-        ]
-      },
-      {
-        "text": "Which Services Offer AI Search Optimization Audits to Help My Site Rank Better i",
-        "category": "ad",
-        "matched": [
-          "Offer"
         ]
       },
       {
@@ -704,6 +705,13 @@
             "Announcement",
             "ment"
           ]
+        ]
+      },
+      {
+        "text": "Career Suggestion: What would you do if you are in this situation? — user asking",
+        "category": "job",
+        "matched": [
+          "Career"
         ]
       },
       {
@@ -735,6 +743,16 @@
         ]
       },
       {
+        "text": "bitcoin",
+        "category": "news",
+        "matched": [
+          [
+            "bitcoin",
+            ""
+          ]
+        ]
+      },
+      {
         "text": "企业研发制冷马甲 穿上直降8-15℃",
         "category": "ad",
         "matched": [
@@ -742,24 +760,17 @@
         ]
       },
       {
-        "text": "The Odyssey (2026 film)",
+        "text": "Mardaani (film series)",
         "category": "entertainment",
         "matched": [
           "film"
         ]
       },
       {
-        "text": "2026–27 Anaheim Ducks season",
+        "text": "2026–27 Chelsea F.C. season",
         "category": "entertainment",
         "matched": [
           "season"
-        ]
-      },
-      {
-        "text": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for S",
-        "category": "chatter",
-        "matched": [
-          "imo"
         ]
       }
     ],
@@ -846,32 +857,31 @@
         ]
       },
       {
-        "text": "Why Your Python Code Passes Local Tests but Fails Hidden Test Cases",
+        "text": "🚀React Router Setup Using createBrowserRouter (v6+ Pattern)",
         "confidence": 15,
         "features": [
-          "技术概念: ['Python']"
+          "技术概念: ['React']"
         ]
       },
       {
-        "text": "Google’s exponential path to climate-wrecking digital bloat",
+        "text": "CSS Flexbox",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['CSS']"
+        ]
+      },
+      {
+        "text": "Top 10 Best Magento to WooCommerce Migration Companies",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('path to climate', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Magento to WooCommerce', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Your Rust Service Isn't Leaking — It Could Be the Allocator",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('Allocator', 'to', '', '', '', '')]",
-          "技术概念: ['Rust']"
-        ]
-      },
-      {
-        "text": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589",
+        "text": "Why Your AI Agent Lies to You",
         "confidence": 20,
         "features": [
-          "输入→输出链式: [('escalation to root', 'to', '', '', '', '')]"
+          "输入→输出链式: [('Lies to You', 'to', '', '', '', '')]"
         ]
       }
     ]
