@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-07-08T10:52:24.121643+00:00",
+  "generated_at": "2026-07-08T11:10:29.488312+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
       {
         "repo": "MadsLorentzen/ai-job-search",
         "url": "https://github.com/MadsLorentzen/ai-job-search"
-      },
-      {
-        "repo": "Zackriya-Solutions/meetily",
-        "url": "https://github.com/Zackriya-Solutions/meetily"
       },
       {
         "repo": "addyosmani/agent-skills",
@@ -28,52 +24,60 @@
         "url": "https://github.com/apps/github-actions"
       },
       {
-        "repo": "asgeirtj/system_prompts_leaks",
-        "url": "https://github.com/asgeirtj/system_prompts_leaks"
+        "repo": "TencentCloud/TencentDB-Agent-Memory",
+        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
       },
       {
-        "repo": "TencentCloud/CubeSandbox",
-        "url": "https://github.com/TencentCloud/CubeSandbox"
+        "repo": "prisma/prisma",
+        "url": "https://github.com/prisma/prisma"
       },
       {
-        "repo": "AhmadIbrahiim/Website-downloader",
-        "url": "https://github.com/AhmadIbrahiim/Website-downloader"
+        "repo": "apps/renovate",
+        "url": "https://github.com/apps/renovate"
       },
       {
-        "repo": "apps/copilot-swe-agent",
-        "url": "https://github.com/apps/copilot-swe-agent"
+        "repo": "mvanhorn/last30days-skill",
+        "url": "https://github.com/mvanhorn/last30days-skill"
       },
       {
-        "repo": "steipete/CodexBar",
-        "url": "https://github.com/steipete/CodexBar"
-      },
-      {
-        "repo": "dotnet/skills",
-        "url": "https://github.com/dotnet/skills"
-      },
-      {
-        "repo": "apps/github-copilot-cli",
-        "url": "https://github.com/apps/github-copilot-cli"
+        "repo": "argoproj/argo-cd",
+        "url": "https://github.com/argoproj/argo-cd"
       },
       {
         "repo": "iOfficeAI/OfficeCLI",
         "url": "https://github.com/iOfficeAI/OfficeCLI"
       },
       {
+        "repo": "apps/github-copilot-cli",
+        "url": "https://github.com/apps/github-copilot-cli"
+      },
+      {
+        "repo": "asgeirtj/system_prompts_leaks",
+        "url": "https://github.com/asgeirtj/system_prompts_leaks"
+      },
+      {
+        "repo": "obra/superpowers",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "repo": "alibaba/zvec",
+        "url": "https://github.com/alibaba/zvec"
+      },
+      {
+        "repo": "Diolinux/PhotoGIMP",
+        "url": "https://github.com/Diolinux/PhotoGIMP"
+      },
+      {
+        "repo": "wonderwhy-er/DesktopCommanderMCP",
+        "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+      },
+      {
         "repo": "bradautomates/claude-video",
         "url": "https://github.com/bradautomates/claude-video"
       },
       {
-        "repo": "kyutai-labs/pocket-tts",
-        "url": "https://github.com/kyutai-labs/pocket-tts"
-      },
-      {
-        "repo": "hesreallyhim/awesome-claude-code",
-        "url": "https://github.com/hesreallyhim/awesome-claude-code"
-      },
-      {
-        "repo": "apps/copilot-pull-request-reviewer",
-        "url": "https://github.com/apps/copilot-pull-request-reviewer"
+        "repo": "TencentCloud/CubeSandbox",
+        "url": "https://github.com/TencentCloud/CubeSandbox"
       }
     ],
     "stackoverflow": [
@@ -107,6 +111,10 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "How I Started Building SiteGen AI-website builder",
+      "I Kept Rebuilding the Same AI Context From Scratch. Here's What I Learned About \"Why AI Forgets\".",
+      "I Cut My AI Bill From $500 to $12.50: A Solo Dev Migration Guide",
+      "Performance Testing vs Scalability Testing",
       "The AI said it was done. It wasn't. Three times.",
       "Prediction Market Solutions: Features, Benefits, and Development Costs",
       "Elevate Your Swim Performance with Open-Back Performance Swimsuits and Laguna Jammers Men’s Swimwear",
@@ -114,11 +122,7 @@
       "Experiential Marketing Services in India: Creating Brand Experiences People Remember",
       "the agentic shift: when ai stops predicting and starts doing",
       "React useReducer Hook Complete Guide",
-      "Building Phantom Protocol: What I Learned Shipping My First Autonomous Agent System on Qwen Cloud",
-      "How to Build Scalable Generative AI Development Services with Python, Node.js, AWS, and Docker",
-      "Cybersecurity in an Air‑Gapped World: Diodes, RF Interception, and the Collapse of VPN Hysteria",
-      "AI's Existential Crisis: Another Day, Another Syntax Error",
-      "Conditional statements in Python: if, elif, and else"
+      "Building Phantom Protocol: What I Learned Shipping My First Autonomous Agent System on Qwen Cloud"
     ],
     "lobsters": [
       "Odin 1.0 Announcement",
@@ -126,10 +130,10 @@
       "Together for a healthier Clippy",
       "You shouldn't trust Trusted Publishing",
       "Google’s exponential path to climate-wrecking digital bloat",
-      "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
       "a software engineering interview question I like: computing the median",
-      "Why false sharing alignment should be 128 bytes on x64",
+      "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
       "I was wrong about game development",
+      "Why false sharing alignment should be 128 bytes on x64",
       "Your Rust Service Isn't Leaking — It Could Be the Allocator",
       "Waterfall CAD Playground - A Haskell powered programmable-CAD environment, in the browser with WASM",
       "Mechanized type inference for record concatenation",
@@ -138,9 +142,9 @@
       "Signed Integers By Default",
       "The Popup That Says the Quiet Part Out Loud",
       "Friction is a Feature",
-      "Accessibility in GNOME",
-      "Extreme Haskell: Typed Expression EDSLs (Part 1)",
-      "fastSwan: Nvidia ConnectX-7 by numbers"
+      "A Measurement Study on the Adoption of Pledges and Unveils in the OpenBSD Operating System",
+      "Licensing can be joyful (and legally dubious) (2024)",
+      "Accessibility in GNOME"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -165,31 +169,31 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time 🔥771pts 💬190",
-      "Chat Control 1.0 and 2.0 Explained 🔥683pts 💬272",
-      "Every new car sold in the European Union must include a driver monitoring camera 🔥658pts 💬831",
-      "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format 🔥538pts 💬78",
-      "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro 🔥427pts 💬80",
-      "Show HN: Davit, a Apple Containers UI 🔥312pts 💬75",
-      "Herdr: One terminal to rule them all 🔥296pts 💬133",
-      "Tenda firmware (multiple versions) contains hidden authentication backdoor 🔥225pts 💬72",
-      "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup 🔥212pts 💬100",
-      "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos 🔥208pts 💬85",
-      "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024) 🔥205pts 💬126",
-      "Decoding the obfuscated bash script on a Uniqlo t-shirt 🔥198pts 💬45",
-      "Why we built yet another Postgres connection pooler 🔥194pts 💬46",
-      "Structure and Interpretation of Computer Programs Video Lectures (1986) 🔥192pts 💬20",
-      "Jim's TrueType QR Code Font 🔥185pts 💬22",
-      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop 🔥165pts 💬51",
-      "Canada's only watchmaking school still ticking after 80 years 🔥150pts 💬73",
-      "l: A new runtime for k and q 🔥147pts 💬88",
-      "Notes on Software Quality 🔥137pts 💬57",
-      "LineageOS Statistics 🔥100pts 💬58",
-      "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks 🔥82pts 💬25",
-      "Scheme Is a Hoot 🔥81pts 💬13",
-      "IEEE Rolls Out Large Language Models Training Course 🔥79pts 💬10",
-      "The difference between \"today's task\" and \"accretive work\" 🔥57pts 💬29",
-      "Show HN: Chiptune Radio 🔥52pts 💬14"
+      "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time 🔥772pts 💬192",
+      "Chat Control 1.0 and 2.0 Explained 🔥689pts 💬276",
+      "Every new car sold in the European Union must include a driver monitoring camera 🔥666pts 💬837",
+      "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format 🔥543pts 💬78",
+      "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro 🔥427pts 💬81",
+      "Show HN: Davit, a Apple Containers UI 🔥316pts 💬75",
+      "Herdr: One terminal to rule them all 🔥298pts 💬134",
+      "Decoding the obfuscated bash script on a Uniqlo t-shirt 🔥237pts 💬56",
+      "Tenda firmware (multiple versions) contains hidden authentication backdoor 🔥231pts 💬72",
+      "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos 🔥220pts 💬91",
+      "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup 🔥213pts 💬100",
+      "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024) 🔥208pts 💬130",
+      "Structure and Interpretation of Computer Programs Video Lectures (1986) 🔥196pts 💬21",
+      "Why we built yet another Postgres connection pooler 🔥194pts 💬47",
+      "Jim's TrueType QR Code Font 🔥187pts 💬24",
+      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop 🔥168pts 💬51",
+      "Canada's only watchmaking school still ticking after 80 years 🔥154pts 💬73",
+      "l: A new runtime for k and q 🔥148pts 💬88",
+      "Notes on Software Quality 🔥138pts 💬58",
+      "LineageOS Statistics 🔥103pts 💬59",
+      "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks 🔥84pts 💬25",
+      "Scheme Is a Hoot 🔥83pts 💬14",
+      "IEEE Rolls Out Large Language Models Training Course 🔥81pts 💬10",
+      "The difference between \"today's task\" and \"accretive work\" 🔥58pts 💬34",
+      "Show HN: Chiptune Radio 🔥53pts 💬14"
     ],
     "hn_show": [
       "HeatPumpWise – heat pump calculators for homeowners — featured on Hacker News (🔥1pts)",
@@ -210,8 +214,7 @@
       "Plugin to Connect Pi to Signal — featured on Hacker News (🔥1pts)",
       "Jot, a menu bar app that catches a thought before it's gone — featured on Hacker News (🔥3pts)",
       "Relis – Extract Bubble.io app architecture into migration-ready docs — featured on Hacker News (🔥2pts)",
-      "Codex-profiles – isolated Codex CLI/Desktop profiles — featured on Hacker News (🔥3pts)",
-      "FlareDB – Apache Beam native streaming database for realtime analytics — featured on Hacker News (🔥3pts)"
+      "Codex-profiles – isolated Codex CLI/Desktop profiles — featured on Hacker News (🔥3pts)"
     ],
     "hn_ask_tools": [
       "Ask HN: Is there anything good in the existence of LLMs? — user asking for tool recommendation (🔥2pts)",
@@ -222,7 +225,7 @@
       "Show HN: Patterns with Friends – free multiplayer tile game (no sign-up, no ads) — user asking for tool recommendation (🔥3pts)",
       "Show HN: The Banana Test: coding agents grow a 3D banana plant' — user asking for tool recommendation (🔥2pts)",
       "Show HN: SpreadsheetPreview: Pdf.js for Spreadsheets — user asking for tool recommendation (🔥3pts)",
-      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥165pts)",
+      "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥168pts)",
       "Ask HN: How are you creating demo videos for your product? — user asking for tool recommendation (🔥1pts)",
       "Show HN: LokalBot – meetings, notes, and autocomplete that never leave your Mac — user asking for tool recommendation (🔥1pts)",
       "Ask HN: Which payment processor/merchant-of-record do you use in 2026? — user asking for tool recommendation (🔥4pts)",
@@ -285,60 +288,60 @@
       "Cycle Introduces EU Control Plane as Sovereignty Debate Continues <img src=\"https://res.infoq.com/news/2026/07/cycle-eu-control-plane/en/headerimage/generatedHeaderImage-1782203284411.jpg\"/><p>Cycle recently introduc"
     ],
     "google_trends": [
+      "nolan wells update",
+      "israel news",
+      "oil price",
+      "dow jones futures",
       "larry mcreynolds",
       "child",
       "auto accident attorney",
-      "oil prices",
-      "explosive diarrhea parasite",
-      "chicago bears",
       "red sox standings",
-      "cecilia suarez",
-      "washington commanders",
-      "lol msi"
+      "chicago bears",
+      "cecilia suarez"
     ],
     "baidu": [
       "加快高水平科技自立自强",
       "本届世界杯7队仍不败",
       "孩子列出高考标配清单压垮家长",
       "从四个新数据读懂上半年中国经济",
-      "超强台风巴威即将进入48小时警戒线",
-      "广西贵港紧急通知：别直接饮用自来水",
-      "女子成植物人15年用坏4部空调",
-      "T1无缘四强 创队史MSI最差战绩",
-      "河南老君山月薪6万招云海观察员",
       "中国潜射战略导弹试射内情曝光",
-      "法拉利高管：中国车企像在开发快消品",
-      "广西“洪水冲下很多尸体”不实",
+      "救命药从24元涨到600元还买不到",
+      "女子成植物人15年用坏4部空调",
       "男子送外卖爬上5楼误入一场画展",
-      "MSI淘汰赛G2战胜T1晋级四强",
-      "千只瘫痪小猫超65%吃同一品牌猫粮",
-      "#广西暴雨洪灾互助通道#",
+      "法拉利高管：中国车企像在开发快消品",
+      "C罗的分段睡眠法普通人能模仿吗",
+      "河南老君山月薪6万招云海观察员",
+      "广西“洪水冲下很多尸体”不实",
+      "马克龙欲吻手被埃尔多安夫人婉拒",
       "特朗普：美伊谅解备忘录“已终结”",
-      "非正经球迷观赛：颜值 梗王 太太团",
       "贵港一高校8000师生被洪水围困",
-      "C罗的分段睡眠法普通人能模仿吗"
+      "#广西暴雨洪灾互助通道#",
+      "外交部：军事手段解决不了根本问题",
+      "非正经球迷观赛：颜值 梗王 太太团",
+      "千只瘫痪小猫超65%吃同一品牌猫粮",
+      "74岁“肥猫”郑则仕再回应去世传闻"
     ],
     "wikipedia": [
-      "Sea of Hope (film)",
-      "Mating disruption",
-      "Invincibles (film)",
-      "Džob",
-      "France Life Imaging",
-      "Caravan (2025 film)",
-      "Better Go Mad in the Wild",
-      "Beverly Vance",
-      "The Sirens and Ulysses",
-      "Haaparanta–Tornio railway",
-      "AFC Bournemouth",
-      "Just Dance: Decades of Hits",
-      "Franck Langolff",
-      "Kwon Young-jin (politician)",
-      "Sekmai (Meitei dialect)",
-      "Timeline of the nuclear program of Iran",
-      "List of ambassadors to the Philippines",
-      "Craig Mottram",
-      "George III",
-      "Toussaint Louverture (film)"
+      "Khorramabad",
+      "2–0 lead is the worst lead",
+      "Big Brother 28 (American season)",
+      "Arsphenamine",
+      "Big Brother 28 (American season)",
+      "Big Brother 28 (American season)",
+      "Dorothy Kamenshek",
+      "Australian Industry Group",
+      "Nick Twisk",
+      "Bouygues",
+      "Elstronwick",
+      "8-inch gun M1888",
+      "Swiss Systematics Society",
+      "Ismet Mujezinović",
+      "Kaifeng North railway station",
+      "Giacomo Gates",
+      "Sitalkuchi Assembly constituency",
+      "George Anderson Mercer",
+      "Michele Guindani",
+      "A Man for All Seasons (play)"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -423,41 +426,33 @@
       "paknevis — npm package: Paknevis.js is a persian text formatter tool."
     ],
     "github_topics": [
-      "github trending topic: telegram-fix",
-      "github trending topic: automation",
-      "github trending topic: typescript",
-      "github trending topic: javascript",
-      "github trending topic: zapret-telegram",
+      "github trending topic: bioinformatics",
+      "github trending topic: compiler",
       "github trending topic: css",
-      "github trending topic: awesome lists",
-      "github trending topic: chrome",
-      "github trending topic: database",
-      "github trending topic: react native",
-      "github trending topic: react",
-      "github trending topic: claude",
-      "github trending topic: scala",
-      "github trending topic: code quality",
       "github trending topic: npm",
-      "github trending topic: node.js",
-      "github trending topic: front end",
-      "github trending topic: vite",
-      "github trending topic: python",
+      "github trending topic: typescript",
+      "github trending topic: database",
+      "github trending topic: developer-tools",
       "github trending topic: project management",
-      "github trending topic: compiler"
+      "github trending topic: code quality",
+      "github trending topic: nodejs",
+      "github trending topic: windows",
+      "github trending topic: awesome lists",
+      "github trending topic: node.js",
+      "github trending topic: python",
+      "github trending topic: chrome",
+      "github trending topic: genomics",
+      "github trending topic: llm",
+      "github trending topic: front end",
+      "github trending topic: react",
+      "github trending topic: scala",
+      "github trending topic: react native",
+      "github trending topic: javascript"
     ],
     "search_log_top": [],
     "pain_points": []
   },
   "tool_suggestions": [
-    {
-      "keyword": "Website-downloader",
-      "matched": "download",
-      "category": "media",
-      "subcat": "video",
-      "type": "tool",
-      "name": "Downloader",
-      "name_zh": "下载器"
-    },
     {
       "keyword": "claude-video",
       "matched": "video",
@@ -466,15 +461,6 @@
       "type": "tool",
       "name": "Video Converter",
       "name_zh": "视频格式转换器"
-    },
-    {
-      "keyword": "copilot-pull-request-reviewer",
-      "matched": "viewer",
-      "category": "misc",
-      "subcat": "misc",
-      "type": "tool",
-      "name": "Viewer",
-      "name_zh": "查看器"
     },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
@@ -622,10 +608,7 @@
     }
   ],
   "all_keywords": [
-    "Website-downloader",
     "claude-video",
-    "awesome-claude-code",
-    "copilot-pull-request-reviewer",
     "继续推广我的 gpt 中转站，注册就送 28.8$余额，已稳定运行俩月有余了",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -663,14 +646,17 @@
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "prettier — npm package: Prettier is an opinionated code formatter",
     "sass-formatter — npm package: TypeScript Sass formatter",
-    "paknevis — npm package: Paknevis.js is a persian text formatter tool."
+    "paknevis — npm package: Paknevis.js is a persian text formatter tool.",
+    "github trending topic: developer-tools"
   ],
   "filter_stats": {
-    "raw_count": 173,
-    "valid_count": 42,
-    "rejected_count": 131,
-    "rejection_rate": 75.7,
+    "raw_count": 168,
+    "valid_count": 40,
+    "rejected_count": 128,
+    "rejection_rate": 76.2,
     "rejected_samples": [
+      "PhotoGIMP",
+      "DesktopCommanderMCP",
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
       "What are metaclasses in Python?",
@@ -678,28 +664,16 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "FUNCTIONS OF JS",
-      "the agentic shift: when ai stops predicting and starts doing",
-      "React useReducer Hook Complete Guide"
+      "FUNCTIONS OF JS"
     ]
   },
   "trait_analysis": {
-    "total_captured": 352,
-    "chatter_blocked": 15,
-    "chatter_rate": 4.3,
-    "tool_signals_found": 173,
-    "tool_signal_rate": 49.1,
+    "total_captured": 353,
+    "chatter_blocked": 13,
+    "chatter_rate": 3.7,
+    "tool_signals_found": 168,
+    "tool_signal_rate": 47.6,
     "chatter_samples": [
-      {
-        "text": "AI's Existential Crisis: Another Day, Another Syntax Error",
-        "category": "news",
-        "matched": [
-          [
-            "Crisis",
-            ""
-          ]
-        ]
-      },
       {
         "text": "Odin 1.0 Announcement",
         "category": "news",
@@ -739,48 +713,64 @@
         ]
       },
       {
-        "text": "lol msi",
+        "text": "dow jones futures",
+        "category": "news",
+        "matched": [
+          [
+            "dow",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "救命药从24元涨到600元还买不到",
         "category": "chatter",
         "matched": [
-          "lol"
+          "救命"
         ]
       },
       {
-        "text": "Sea of Hope (film)",
+        "text": "Big Brother 28 (American season)",
         "category": "entertainment",
         "matched": [
-          "film"
+          "season"
         ]
       },
       {
-        "text": "Invincibles (film)",
+        "text": "Big Brother 28 (American season)",
         "category": "entertainment",
         "matched": [
-          "film"
+          "season"
         ]
       },
       {
-        "text": "Caravan (2025 film)",
+        "text": "Big Brother 28 (American season)",
         "category": "entertainment",
         "matched": [
-          "film"
+          "season"
         ]
       },
       {
-        "text": "Haaparanta–Tornio railway",
+        "text": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for S",
         "category": "chatter",
         "matched": [
-          "rant"
+          "imo"
         ]
       }
     ],
     "tool_signal_samples": [
       {
-        "text": "Website-downloader",
-        "confidence": 40,
+        "text": "PhotoGIMP",
+        "confidence": 20,
         "features": [
-          "英文动作特征: ['downloader']",
-          "英文工具名词: ['downloader']"
+          "输入→输出链式: [('PhotoGIMP', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "DesktopCommanderMCP",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', '', '')]"
         ]
       },
       {
@@ -788,20 +778,6 @@
         "confidence": 15,
         "features": [
           "技术概念: ['claude']"
-        ]
-      },
-      {
-        "text": "awesome-claude-code",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['claude']"
-        ]
-      },
-      {
-        "text": "copilot-pull-request-reviewer",
-        "confidence": 15,
-        "features": [
-          "英文工具名词: ['viewer']"
         ]
       },
       {
@@ -883,6 +859,14 @@
         "confidence": 15,
         "features": [
           "技术概念: ['React']"
+        ]
+      },
+      {
+        "text": "Building Phantom Protocol: What I Learned Shipping My First Autonomous Agent System on Qwen Cloud",
+        "confidence": 45,
+        "features": [
+          "英文动作特征: ['Autonomous']",
+          "输入→输出链式: [('Phantom', 'to', '', '', '', ''), ('Protocol', 'to', '', '', '', '')]"
         ]
       }
     ]

@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-08T08:40:25.763701+00:00     ║
+║       启动时间: 2026-07-08T11:10:29.340115+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -27,7 +27,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 🌐 水系1: 开发者问答枢纽
 🔍 [2/25] Scraping GitHub Trending...
-  ✅ 18 repos
+  ✅ 19 repos
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 20 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 21 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,50 +81,47 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 352
-  🚫 闲聊拦截: 11 条 (3.1%)
-  🧠 工具信号: 172 条 (48.9%)
+  原始信号总量: 353
+  🚫 闲聊拦截: 13 条 (3.7%)
+  🧠 工具信号: 168 条 (47.6%)
 
   📋 闲聊拦截样例:
      [news] Odin 1.0 Announcement
-     [news] Envirotech Vehicles (NASDAQ: EVTV) Closes Merger with Azio A
+     [news] Michael Saylor Better Hope Bitcoin Doesn't Rise Too Much
      [entertainment] Netflix Cuts Cassandra Read Latency from Seconds to Millisec
      [news] AWS Introduces Amazon S3 Annotations <img src="https://res.i
-     [news] bitcoin
+     [news] dow jones futures
 
   🧠 工具信号样例:
-     [置信度40%] Website-downloader
-       ↳ 英文动作特征: ['downloader']
-       ↳ 英文工具名词: ['downloader']
+     [置信度20%] PhotoGIMP
+       ↳ 输入→输出链式: [('PhotoGIMP', 'to', '', '', '', '')]
+     [置信度20%] DesktopCommanderMCP
+       ↳ 输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', '', '')]
      [置信度15%] claude-video
        ↳ 技术概念: ['claude']
-     [置信度15%] awesome-claude-code
-       ↳ 技术概念: ['claude']
-     [置信度15%] copilot-pull-request-reviewer
-       ↳ 英文工具名词: ['viewer']
-     [置信度15%] What does th
+     [置信度15%] What does the "yield" keyword do in Python?
+       ↳ 技术
 
-✅ 雷达完成 — 19 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 352 条
-     🚫 闲聊拦截: 11 条 (3.1%)
-     🧠 工具信号: 172 条 (48.9%)
+     原始抓取: 353 条
+     🚫 闲聊拦截: 13 条 (3.7%)
+     🧠 工具信号: 168 条 (47.6%)
      闲聊样例: Odin 1.0 Announcement... [news]
-     工具信号样例: Website-downloader... [置信度40%]
+     工具信号样例: PhotoGIMP... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 172 → 有效 41
+     工具信号 168 → 有效 40
      拒绝率: 76.2%
 
-  📊 意图分类器审计 — 审查 19 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (15):
-     [WARN  |  +45] Downloader  [?]
+  ✅ 通过 (14):
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
@@ -139,8 +136,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
      [WARN  |  +30] Text Tools  [?]
-  🚫 拦截 (4):
-     [BLOCK |  +20] Viewer  [?]  ← 多维评分 20 低于门槛 30
+  🚫 拦截 (3):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
@@ -157,8 +153,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 19 suggestions
-   Generated at: 2026-07-08T08:40:25.910205+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-07-08T11:10:29.488312+00:00
    Already in catalog: 132 tools
    Previously produced: 0 tools
    Existing tool pages: 43 files
@@ -327,7 +323,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-08T08:40:25.763701+00:00 → 2026-07-08T08:40:46.970957+00:00
+  ⏱  耗时: 2026-07-08T11:10:29.340115+00:00 → 2026-07-08T11:10:42.194410+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
