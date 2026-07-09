@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-08T22:13:44.603698+00:00     ║
+║       启动时间: 2026-07-09T04:01:29.176979+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -27,11 +27,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 🌐 水系1: 开发者问答枢纽
 🔍 [2/25] Scraping GitHub Trending...
-  ✅ 19 repos
+  ✅ 20 repos
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 9 topics
+  ✅ 10 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 25 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 351
-  🚫 闲聊拦截: 12 条 (3.4%)
-  🧠 工具信号: 172 条 (49.0%)
+  原始信号总量: 356
+  🚫 闲聊拦截: 8 条 (2.2%)
+  🧠 工具信号: 189 条 (53.1%)
 
   📋 闲聊拦截样例:
      [news] Odin 1.0 Announcement
-     [job] Hnwork.app – UI for Who is hiring posts — featured on Hacker
      [entertainment] Netflix Cuts Cassandra Read Latency from Seconds to Millisec
      [news] AWS Introduces Amazon S3 Annotations <img src="https://res.i
-     [news] earthquake chicago
+     [news] War Remnants Museum
+     [entertainment] List of music genres and styles
 
   🧠 工具信号样例:
      [置信度20%] PhotoGIMP
@@ -100,37 +100,37 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度45%] autoremesher
        ↳ 英文动作特征: ['autoremesher']
        ↳ 输入→输出链式: [('autoremesher', 'to', '', '', '', '')]
+     [置信度15%] cla
 
-✅ 雷达完成 — 18 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 351 条
-     🚫 闲聊拦截: 12 条 (3.4%)
-     🧠 工具信号: 172 条 (49.0%)
+     原始抓取: 356 条
+     🚫 闲聊拦截: 8 条 (2.2%)
+     🧠 工具信号: 189 条 (53.1%)
      闲聊样例: Odin 1.0 Announcement... [news]
      工具信号样例: PhotoGIMP... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 172 → 有效 42
-     拒绝率: 75.6%
+     工具信号 189 → 有效 39
+     拒绝率: 79.4%
 
-  📊 意图分类器审计 — 审查 18 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (15):
+  ✅ 通过 (14):
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
-     [WARN  |  +37] Format Converter  [?]
-     [WARN  |  +30] Excel Tools  [?]
-     [PASS  |  +55] Converter  [?]
      [PASS  |  +70] PDF Editor  [?]
      [PASS  |  +55] Generator  [?]
+     [WARN  |  +37] Format Converter  [?]
+     [PASS  |  +55] Converter  [?]
      [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
@@ -153,8 +153,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-07-08T22:13:44.750990+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-07-09T04:01:29.348294+00:00
    Already in catalog: 132 tools
    Previously produced: 0 tools
    Existing tool pages: 43 files
@@ -323,7 +323,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-08T22:13:44.603698+00:00 → 2026-07-08T22:13:55.376124+00:00
+  ⏱  耗时: 2026-07-09T04:01:29.176979+00:00 → 2026-07-09T04:01:42.862262+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
