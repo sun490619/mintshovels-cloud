@@ -1,12 +1,8 @@
 {
-  "generated_at": "2026-07-09T04:01:29.348294+00:00",
+  "generated_at": "2026-07-09T06:30:15.501222+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
-      {
-        "repo": "MadsLorentzen/ai-job-search",
-        "url": "https://github.com/MadsLorentzen/ai-job-search"
-      },
       {
         "repo": "addyosmani/agent-skills",
         "url": "https://github.com/addyosmani/agent-skills"
@@ -108,47 +104,47 @@
       "抖音上那些月不敷出的家庭记录视频是真的吗？",
       "现在你们一个月话费要多少？",
       "明后天阿里就全面禁用 Claude 了，那他们用啥啊？",
-      "巴威台风上海影响有限，你们开始囤东西了吗？",
       "能不能推举点办公室零食",
+      "巴威台风上海影响有限，你们开始囤东西了吗？",
       "民办本科教职未签合同想跑路， 3 万 AI 应用开发培训值得报吗？",
-      "2026 年 07 月购买了 Quantumult X"
+      "分享一个东西。。别骂我"
     ],
     "devto": [
       "DEV Community: programming",
-      "AI Video Generators in July 2026: How I’d Compare Veo 3.1, Sora 2, Kling, and Wan",
-      "Signature invalid but bot was working: why clock drift breaks auth suddenly",
-      "GPT-5.6 model preview: an indie developer migration checklist",
-      "Your website was built for humans. But can AI understand it?",
-      "Your Model Is 'Opus-Class.' Now What?",
-      "Maintaining P99 Latency with Autoscaling Cold Starts",
-      "How to Deploy Llama 2 on a $5/month DigitalOcean Droplet",
-      "8 Free Food &amp; Nutrition APIs (No Key, Tested 2026)",
-      "Day 4 of 100 Days of GenAI for DevOps🚀",
-      "The 10 Most Expensive Software Failures in History — and the One Thing They Share",
-      "What actually happens when you launch a side project with zero audience",
-      "Compilable and Executable Pseudocode (spec) Solves AI Coding Hallucinations"
+      "Building a Closed-Loop AI Traffic Management System with Computer Vision, AI Prediction, and SCADA",
+      "2-Minute Guide: Type Hints in Python (2026)",
+      "How to Scale a Next.js SaaS from Starter to Production",
+      "Quick Python Tip: Unpack Dictionaries Directly Into Function Arguments (2026)",
+      "Hi I'm a Backend Developer &amp; they are killing me (Thread, Worker, Process)",
+      "Why I Stopped Using Postman After 3 Years By Abubakkar Sajid — Founder, API Test Lab",
+      "100 Battle-Tested AI Prompts for Developers - Free Preview",
+      "Is the Original Grokking the System Design Interview Still Worth It? My Honest Review After Revisiting It",
+      "I Built a 6-Step E-Commerce Visual Pipeline Using Only CLI Commands",
+      "Unicode's transliteration rules are Turing-complete — What Nobody Tells You",
+      "Mastering the Production Gap: A Critical Analysis of Why AI Insurance Projects Fail",
+      "What Is npx ruv-swarm? Exploring Ephemeral Intelligence in Rust Without LLMs"
     ],
     "lobsters": [
-      "Announcing TypeScript 7.0",
       "Rewriting Bun in Rust",
-      "A bug which only affected left-handed users",
+      "Announcing TypeScript 7.0",
       "Interview: Drew DeVault on an AI-free version of Vim",
+      "A bug which only affected left-handed users",
       "Obfuscated bash script by Akamai being supplied to consumers via retail stores",
       "Jim's TrueType QR Code Font",
       "Funding open-source software without compromising it",
       "SpaceWASM: NASA/JPL's Wasm interpreter for spacecraft sequencing",
+      "OpenMandriva Says Former Contributor Sabotaged Its Repositories",
       "a software engineering interview question I like: computing the median",
       "Unicode's Transliteration Rules Are Turing-Complete",
       "Eve Online's Carbon engine is now open source: Fenris Creations explains why",
       "NoiseLang: Where N = 5 is a Dirac delta",
-      "OpenMandriva Says Former Contributor Sabotaged Its Repositories",
+      "Almost Always Unsigned (2022)",
       "Odin 1.0 Announcement",
-      "Almost Always Unsigned",
       "Accessibility in GNOME",
+      "Patching MechCommander’s “left arm bug” for fun and profit",
       "Zine 0.12.0",
       "LisaFPGA: the Apple Lisa computer implemented inside an FPGA",
-      "Together for a healthier Clippy",
-      "GitLost: How We Tricked GitHub’s AI Agent into Leaking Private Repos"
+      "Keygen Church - Oscuro Domine"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -173,36 +169,41 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Decoding the obfuscated bash script on a Uniqlo t-shirt 🔥1328pts 💬210",
-      "Chatto is now open source 🔥795pts 💬211",
-      "GPT‑Live 🔥633pts 💬422",
-      "Grok 4.5 🔥518pts 💬677",
-      "TypeScript 7 🔥506pts 💬202",
-      "John Deere owners will get the right to repair equipment under FTC settlement 🔥447pts 💬90",
-      "Mistral's Robostral Navigate: a state of the art robotics navigation model 🔥431pts 💬97",
-      "Rewriting Bun in Rust 🔥368pts 💬198",
-      "FAANG Simulator 🔥332pts 💬126",
-      "Cloudflare Drop 🔥311pts 💬149",
-      "Cloudflare Meerkat - Globally distributed consensus 🔥231pts 💬47",
-      "Show HN: Microsoft releases Flint, a visualization language for AI agents 🔥227pts 💬84",
-      "Separating signal from noise in coding evaluations 🔥177pts 💬66",
-      "I Think I Have LLM Burnout 🔥170pts 💬111",
-      "We made Grok 4.5, GPT-5.5, and Claude build the same apps 🔥104pts 💬40",
-      "A bug which affected only left handed users 🔥96pts 💬47",
-      "Turning a pile of documents into a searchable useable knowledge base 🔥95pts 💬21",
-      "OpenMandriva: Statement regarding attempted distribution sabotage 🔥86pts 💬16",
-      "Show HN: Yamanote.fun – A complete soundscape for Tokyo's Yamanote line 🔥80pts 💬19",
-      "New Sweden: the US's long-lost 'secret' colony 🔥65pts 💬14",
-      "Unicode's transliteration rules are Turing-complete 🔥56pts 💬15",
-      "Remote Attestation",
-      "MIRA: Multiplayer Interactive World Models Trained on Rocket League",
+      "Decoding the obfuscated bash script on a Uniqlo t-shirt 🔥1349pts 💬212",
+      "Chatto is now open source 🔥898pts 💬228",
+      "GPT‑Live 🔥668pts 💬438",
+      "John Deere owners will get the right to repair equipment under FTC settlement 🔥623pts 💬121",
+      "Grok 4.5 🔥554pts 💬767",
+      "TypeScript 7 🔥550pts 💬215",
+      "Rewriting Bun in Rust 🔥460pts 💬239",
+      "Cloudflare Drop 🔥367pts 💬185",
+      "FAANG Simulator 🔥364pts 💬142",
+      "I think I have LLM burnout 🔥276pts 💬206",
+      "Show HN: Microsoft releases Flint, a visualization language for AI agents 🔥249pts 💬99",
+      "Cloudflare Meerkat - Globally distributed consensus 🔥241pts 💬48",
+      "Separating signal from noise in coding evaluations 🔥198pts 💬71",
+      "We made Grok 4.5, GPT-5.5, and Claude build the same apps 🔥137pts 💬70",
+      "Show HN: Yamanote.fun – A complete soundscape for Tokyo's Yamanote line 🔥122pts 💬25",
+      "Turning a pile of documents into a searchable useable knowledge base 🔥115pts 💬27",
+      "A bug which affected only left handed users 🔥104pts 💬54",
+      "OpenMandriva: Statement regarding attempted distribution sabotage 🔥90pts 💬16",
+      "New Sweden: the US's long-lost 'secret' colony 🔥85pts 💬31",
+      "Unicode's transliteration rules are Turing-complete 🔥78pts 💬25",
+      "Remote Attestation 🔥68pts 💬54",
+      "MIRA: Multiplayer Interactive World Models Trained on Rocket League 🔥55pts 💬11",
       "Patching MechCommander's \"left arm bug\" for fun and profit",
-      "My road trip with the do-gooding cactus smugglers"
+      "Cargo-nextest: 3x faster than cargo test, per-test isolation, first-class CI",
+      "Benchmarking coding agents on Databricks' multi-million line codebase"
     ],
     "hn_show": [
+      "Kinetic – an experimental decentralized naming protocol — featured on Hacker News (🔥1pts)",
+      "Copresent – Turn your phone into a Google Slides remote — featured on Hacker News (🔥1pts)",
+      "Prompt Injection as an Egress Problem — featured on Hacker News (🔥1pts)",
+      "Computer Use with any models Clanker Secretary — featured on Hacker News (🔥2pts)",
+      "Embeddable visual HTML/CSS page editor — featured on Hacker News (🔥1pts)",
       "Figment – An AI that I made my friends talk to for 2 weeks — featured on Hacker News (🔥2pts)",
-      "Free and OSS way to extend client-facing functionality of Linear — featured on Hacker News (🔥2pts)",
-      "SlopWatch - A browser extension to rate webpages with AI content — featured on Hacker News (🔥3pts)",
+      "Free and OSS way to extend client-facing functionality of Linear — featured on Hacker News (🔥3pts)",
+      "SlopWatch - A browser extension to rate webpages with AI content — featured on Hacker News (🔥4pts)",
       "I mapped 8.5M research papers into an interactive atlas — featured on Hacker News (🔥2pts)",
       "Atelier - open source, honest 30% savings on Claude code. — featured on Hacker News (🔥2pts)",
       "I solved biggest issue for the mainatiners of GitHub — featured on Hacker News (🔥3pts)",
@@ -210,15 +211,10 @@
       "RepoFleet – manage issues that span multiple Git repositories — featured on Hacker News (🔥2pts)",
       "Python SDK for Content Integrity — featured on Hacker News (🔥2pts)",
       "Date Time calulator with unique functions — featured on Hacker News (🔥2pts)",
-      "OpenScreenShot: open-source full-page screenshot and annotation tool — featured on Hacker News (🔥4pts)",
+      "OpenScreenShot: open-source full-page screenshot and annotation tool — featured on Hacker News (🔥9pts)",
       "I built 38-0, a Premier League draft game with a Poisson match engine — featured on Hacker News (🔥4pts)",
-      "Cyrinx (36kbps Acoustic Transport) — featured on Hacker News (🔥3pts)",
-      "Ghost – real-time AI that tells you what to say during job interviews — featured on Hacker News (🔥1pts)",
-      "Tilion – MCP for Claude Code to stop it getting blocked on the web — featured on Hacker News (🔥5pts)",
-      "Chrome extension that creates mini-Chrome extensions for you — featured on Hacker News (🔥1pts)",
-      "Calculator.Free - 200+ Free Calculators — featured on Hacker News (🔥2pts)",
-      "Skillburst - AI skills for your whole team, not just the engineers — featured on Hacker News (🔥1pts)",
-      "Amotions app in Zoom: real-time guidance for sales calls — featured on Hacker News (🔥2pts)"
+      "Cyrinx (36kbps Acoustic Transport) — featured on Hacker News (🔥4pts)",
+      "Ghost – real-time AI that tells you what to say during job interviews — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Show HN: I mapped 8.5M research papers into an interactive atlas — user asking for tool recommendation (🔥2pts)",
@@ -227,8 +223,8 @@
       "Ask HN: Is there anything good in the existence of LLMs? — user asking for tool recommendation (🔥4pts)",
       "Show HN: Bike4Mind – open-core AI workbench; any model, agents, RAG, self-host — user asking for tool recommendation (🔥4pts)",
       "Show HN: SpreadsheetPreview: Pdf.js for Spreadsheets — user asking for tool recommendation (🔥3pts)",
+      "Show HN: An unmetered LLM API–$6/month, no token tracking, no limits — user asking for tool recommendation (🔥12pts)",
       "Show HN: Scout.kids – Agents that find activies for families — user asking for tool recommendation (🔥4pts)",
-      "Show HN: Emra – A workspace where every app you build shares one db — user asking for tool recommendation (🔥3pts)",
       "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥213pts)",
       "Ask HN: How are you creating demo videos for your product? — user asking for tool recommendation (🔥1pts)",
       "Show HN: LokalBot – meetings, notes, and autocomplete that never leave your Mac — user asking for tool recommendation (🔥1pts)",
@@ -242,12 +238,12 @@
       "Show HN: Fluffy Sparrow – Frictionless, Fast, Note Taking App — user asking for tool recommendation (🔥2pts)",
       "Show HN: CodeRadius, map and govern multi repo architectures — user asking for tool recommendation (🔥1pts)",
       "Show HN: Free PDF Document Redaction — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT) — user asking for tool recommendation (🔥15pts)",
+      "Show HN: Frugon – Find which LLM calls a cheaper model could handle (local, MIT) — user asking for tool recommendation (🔥18pts)",
       "Ask HN: I use coding agents daily, but how do real engineers use them? — user asking for tool recommendation (🔥3pts)",
       "Show HN: Figment – An AI that I made my friends talk to for 2 weeks — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Free and OSS way to extend client-facing functionality of Linear — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Free and OSS way to extend client-facing functionality of Linear — user asking for tool recommendation (🔥3pts)",
       "Show HN: Runtime security enforcement and capability scoping for agents — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Microsoft releases Flint, a visualization language for AI agents — user asking for tool recommendation (🔥227pts)",
+      "Show HN: Microsoft releases Flint, a visualization language for AI agents — user asking for tool recommendation (🔥250pts)",
       "Show HN: FrankenMarkdown, Render .md Files to PDF/HTML (also in browser) — user asking for tool recommendation (🔥2pts)",
       "Show HN: CLRK, an open-source agent runtime with gVisor and MitM guardrails — user asking for tool recommendation (🔥5pts)",
       "Panoramax – The free alternative to photo-mapping territories — user asking for tool recommendation (🔥2pts)"
@@ -291,60 +287,60 @@
       "AWS Introduces Amazon S3 Annotations <img src=\"https://res.infoq.com/news/2026/07/aws-s3-annotations/en/headerimage/generatedHeaderImage-1782327927331.jpg\"/><p>AWS recently announced Amaz"
     ],
     "google_trends": [
-      "tiffany haddish",
-      "fold 8",
-      "alan roden",
-      "mn twins",
-      "roki sasaki",
-      "dodgers vs rockies",
-      "ximena herrera",
-      "jo adell",
-      "tyasha harris",
-      "nneka ogwumike"
+      "bitcoin",
+      "台风",
+      "alaskaair",
+      "rory mcilroy",
+      "showdown",
+      "dorothea puente",
+      "new york times",
+      "ca lottery",
+      "is mexico and england playing again",
+      "obsidian fallout games"
     ],
     "baidu": [
       "向着建成科技强国的目标坚定迈进",
-      "台风巴威可能正面登陆",
-      "新华社：国足成绩再不好 也不能造谣",
+      "暴雨蓝色预警：10余省区市有大到暴雨",
+      "六蓝水库溃口洪灾致26人死亡",
       "台风来临 请备好这份避险指南",
-      "中方代表：反对一切冲突中的性暴力",
-      "17岁运动员因热射病离世？教练回应",
+      "台风巴威到哪了",
+      "广西蛇企发声",
       "村民在养猪场旁挖出1400年前佛首",
+      "中方代表：反对一切冲突中的性暴力",
+      "千亿市值民企被曝全员停薪",
       "丹顶鹤被抱走 其他鹤“一键跟随”",
-      "工人坠亡近百万赔偿金无人继承",
-      "高温天绿豆汤当水喝解暑？医生提醒",
-      "养“光伏羊”每年收入近10万元",
+      "花呗崩了 支付宝道歉",
       "广西村民要求先救猪后救人？谣言",
-      "雷军正式公布小米汽车新系列",
-      "公司欠薪60万想拿茶抵 法院判了",
-      "上海暴雨",
-      "男子把“人生第1台车”藏6楼避台风",
-      "机甲平台驶入洪水校园 学生瞬间沸腾",
-      "5亿年前的“桃花水母”现身达州",
       "44岁渐冻症男子结婚生下双胞胎女儿",
-      "为了稀土 日本已开始捡垃圾"
+      "科创50指数涨超6%",
+      "公司欠薪60万想拿茶抵 法院判了",
+      "雷军正式公布小米汽车新系列",
+      "上海暴雨",
+      "6岁男孩一手一箱水帮搬救灾物资",
+      "为了稀土 日本已开始捡垃圾",
+      "丑闻动摇足球根基 FIFA主席该换人了"
     ],
     "wikipedia": [
-      "Weitzman National Museum of American Jewish History",
-      "Quercus myrsinifolia",
-      "2026 Canadian Championship",
-      "Plamo-Kyoshiro",
-      "Bill Carruthers",
-      "2026 China League Two",
-      "Dzhendem tepe",
-      "Weisman Art Museum",
-      "War Remnants Museum",
-      "Marocella",
-      "Waldinger Gallery",
-      "Graham Platner",
-      "West Slavic languages",
-      "List of music genres and styles",
-      "Wah Gardens",
-      "Johnston Island Air Force Base",
-      "Fish Bones",
-      "Toluca FC",
-      "Gary Barlow",
-      "Virginia Holocaust Museum"
+      "Driving to Geronimo's Grave and Other Stories",
+      "2026 Carlos Alcaraz tennis season",
+      "Echoes of the Goddess",
+      "Like a House on Fire (short story collection)",
+      "The King in the Tree: Three Novellas",
+      "Ronald Davison",
+      "López de Bertodano Formation",
+      "Savile Club",
+      "Gravelton, New Hampshire",
+      "Dreamsongs: A RRetrospective",
+      "Gravelton, New Hampshire",
+      "Teregova mine",
+      "Infinitive (Ancient Greek)",
+      "Lions in Winter",
+      "Koi (song)",
+      "Yehuda HaKohen",
+      "Danish Cemetery, Serampore",
+      "Sanctified and Chicken Fried",
+      "David Bloom",
+      "Delaware"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -399,14 +395,14 @@
     "npm_registry": [
       "@salesforce/pwa-kit-create-app — npm package: Salesforce's project generator tool",
       "eurostat-barcode-generator — npm package: a simplified barcode generator tool with options",
-      "granturismo — npm package: generator tool",
       "tgt — npm package: tpl generator tool",
+      "granturismo — npm package: generator tool",
       "insomnia-documenter — npm package: API documentation generator tool for Insomnia.",
       "conjurate — npm package: Pluggable generator tool",
       "packs — npm package: Static survey generator tool",
-      "@mobify/create-app — npm package: Mobify's project generator tool",
       "love-island-gems-generator — npm package: love-island-gems-generator-tool",
       "grunt-phpdocumentor — npm package: Runs the PHPDocumentor documentation generator tool.",
+      "pwa-kit-create-app — npm package: Salesforce's project generator tool",
       "@teld-approval/converter — npm package: converter tool",
       "@adobe/aem-cs-source-migration-dispatcher-converter — npm package: AEM as a Cloud Service Dispatcher Converter tool",
       "@adobe/aem-cs-source-migration-index-converter — npm package: AEM as a Cloud Service Index Converter tool",
@@ -429,31 +425,28 @@
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format"
     ],
     "github_topics": [
-      "github trending topic: gemini",
-      "github trending topic: grok",
+      "github trending topic: node.js",
       "github trending topic: npm",
+      "github trending topic: awesome lists",
       "github trending topic: javascript",
+      "github trending topic: tailwindcss",
+      "github trending topic: langchain",
       "github trending topic: llm",
+      "github trending topic: code quality",
+      "github trending topic: typescript",
+      "github trending topic: python",
+      "github trending topic: react",
+      "github trending topic: database",
+      "github trending topic: rag",
       "github trending topic: front end",
       "github trending topic: react native",
-      "github trending topic: gpt",
-      "github trending topic: deepseek",
-      "github trending topic: low-cost-api",
-      "github trending topic: project management",
-      "github trending topic: database",
+      "github trending topic: chrome",
       "github trending topic: scala",
-      "github trending topic: typescript",
-      "github trending topic: awesome lists",
-      "github trending topic: claude",
-      "github trending topic: react",
-      "github trending topic: qwen",
-      "github trending topic: code quality",
-      "github trending topic: css",
+      "github trending topic: streamlit",
+      "github trending topic: project management",
+      "github trending topic: nextjs",
       "github trending topic: compiler",
-      "github trending topic: free-ai",
-      "github trending topic: python",
-      "github trending topic: openai-api",
-      "github trending topic: chrome"
+      "github trending topic: css"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -643,8 +636,8 @@
     "tgt — npm package: tpl generator tool",
     "conjurate — npm package: Pluggable generator tool",
     "packs — npm package: Static survey generator tool",
-    "@mobify/create-app — npm package: Mobify's project generator tool",
     "love-island-gems-generator — npm package: love-island-gems-generator-tool",
+    "pwa-kit-create-app — npm package: Salesforce's project generator tool",
     "@teld-approval/converter — npm package: converter tool",
     "editorjs-inline-formatter — npm package: Inline formatter tool for editorjs",
     "jsonmatter — npm package: JSON formatter tool by stream",
@@ -673,11 +666,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 356,
-    "chatter_blocked": 8,
-    "chatter_rate": 2.2,
+    "total_captured": 352,
+    "chatter_blocked": 9,
+    "chatter_rate": 2.6,
     "tool_signals_found": 189,
-    "tool_signal_rate": 53.1,
+    "tool_signal_rate": 53.7,
     "chatter_samples": [
       {
         "text": "Odin 1.0 Announcement",
@@ -708,20 +701,27 @@
         ]
       },
       {
-        "text": "War Remnants Museum",
+        "text": "bitcoin",
         "category": "news",
         "matched": [
           [
-            "War",
+            "bitcoin",
             ""
           ]
         ]
       },
       {
-        "text": "List of music genres and styles",
+        "text": "Driving to Geronimo's Grave and Other Stories",
+        "category": "chatter",
+        "matched": [
+          "imo"
+        ]
+      },
+      {
+        "text": "2026 Carlos Alcaraz tennis season",
         "category": "entertainment",
         "matched": [
-          "music"
+          "season"
         ]
       },
       {
@@ -847,18 +847,19 @@
         ]
       },
       {
-        "text": "AI Video Generators in July 2026: How I’d Compare Veo 3.1, Sora 2, Kling, and Wan",
-        "confidence": 35,
+        "text": "2-Minute Guide: Type Hints in Python (2026)",
+        "confidence": 15,
         "features": [
-          "输入→输出链式: [('Generators', 'to', '', '', '', '')]",
-          "英文工具名词: ['generator']"
+          "技术概念: ['Python']"
         ]
       },
       {
-        "text": "GPT-5.6 model preview: an indie developer migration checklist",
-        "confidence": 15,
+        "text": "How to Scale a Next.js SaaS from Starter to Production",
+        "confidence": 45,
         "features": [
-          "技术概念: ['GPT']"
+          "输入→输出链式: [('How to Scale', 'to', '', '', '', ''), ('from Starter to Production', '', '', '', '', '')]",
+          "技术概念: ['js']",
+          "需求表达: [('How to Scale', 'to', '', '', '', '', '', '')]"
         ]
       }
     ]
