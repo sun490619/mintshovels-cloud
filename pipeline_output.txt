@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-09T04:01:29.176979+00:00     ║
+║       启动时间: 2026-07-09T09:58:26.148299+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 19 Show HN posts
+  ✅ 18 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 25 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 356
-  🚫 闲聊拦截: 8 条 (2.2%)
-  🧠 工具信号: 189 条 (53.1%)
+  原始信号总量: 352
+  🚫 闲聊拦截: 10 条 (2.8%)
+  🧠 工具信号: 177 条 (50.3%)
 
   📋 闲聊拦截样例:
-     [news] Odin 1.0 Announcement
+     [ad] PandaPage – host an HTML page with one curl, no signup, auto
      [entertainment] Netflix Cuts Cassandra Read Latency from Seconds to Millisec
-     [news] AWS Introduces Amazon S3 Annotations <img src="https://res.i
-     [news] War Remnants Museum
-     [entertainment] List of music genres and styles
+     [entertainment] little house on the prairie netflix
+     [entertainment] 2025–26 Fulham F.C. season
+     [entertainment] The Lord of the Rings (film series)
 
   🧠 工具信号样例:
      [置信度20%] PhotoGIMP
@@ -99,8 +99,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', '', '')]
      [置信度45%] autoremesher
        ↳ 英文动作特征: ['autoremesher']
-       ↳ 输入→输出链式: [('autoremesher', 'to', '', '', '', '')]
-     [置信度15%] cla
+       ↳ 输入→输出链式: [('autoremesher'
 
 ✅ 雷达完成 — 17 条建议
 
@@ -109,15 +108,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 356 条
-     🚫 闲聊拦截: 8 条 (2.2%)
-     🧠 工具信号: 189 条 (53.1%)
-     闲聊样例: Odin 1.0 Announcement... [news]
+     原始抓取: 352 条
+     🚫 闲聊拦截: 10 条 (2.8%)
+     🧠 工具信号: 177 条 (50.3%)
+     闲聊样例: PandaPage – host an HTML page with one curl, no si... [ad]
      工具信号样例: PhotoGIMP... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 189 → 有效 39
-     拒绝率: 79.4%
+     工具信号 177 → 有效 39
+     拒绝率: 78.0%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -154,7 +153,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-09T04:01:29.348294+00:00
+   Generated at: 2026-07-09T09:58:26.298494+00:00
    Already in catalog: 132 tools
    Previously produced: 0 tools
    Existing tool pages: 43 files
@@ -323,7 +322,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-09T04:01:29.176979+00:00 → 2026-07-09T04:01:42.862262+00:00
+  ⏱  耗时: 2026-07-09T09:58:26.148299+00:00 → 2026-07-09T09:58:38.431517+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
