@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-09T15:27:44.349118+00:00     ║
+║       启动时间: 2026-07-09T19:56:58.013156+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,11 +43,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 19 Show HN posts
+  ✅ 20 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 20 articles
+  ✅ 19 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 21 topics
+  ✅ 25 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 350
-  🚫 闲聊拦截: 9 条 (2.6%)
-  🧠 工具信号: 171 条 (48.9%)
+  原始信号总量: 354
+  🚫 闲聊拦截: 13 条 (3.7%)
+  🧠 工具信号: 182 条 (51.4%)
 
   📋 闲聊拦截样例:
-     [news] EU Parliament greenlights Chat Control 1.0 – Breyer: "Our ch
-     [entertainment] Bonnie Tyler, singer of Total Eclipse of the Heart, dies age
-     [entertainment] Presentation: Accelerating Netflix Data: A Cross-Team Journe
-     [news] Earthquake light
-     [news] 1930 Nevada gubernatorial election
+     [job] Executive Career Pivot AI Developer: What Actually Transferr
+     [entertainment] Ashampoo Movie Studio Pro v3.1.1 Full version
+     [news] EU Parliament greenlights Chat Control 1.0 🔥707pts 💬357
+     [news] The glass backbone: Why the Army's logistics will break in t
+     [job] Uphold and XDC Launch the First On-Chain XDC Staking Offerin
 
   🧠 工具信号样例:
      [置信度15%] awesome-design-md
@@ -100,40 +100,38 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] claude-cookbooks
        ↳ 技术概念: ['claude']
      [置信度45%] autoremesher
-       ↳ 英文动作特征: ['autoremesher']
-      
 
-✅ 雷达完成 — 17 条建议
+
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 350 条
-     🚫 闲聊拦截: 9 条 (2.6%)
-     🧠 工具信号: 171 条 (48.9%)
-     闲聊样例: EU Parliament greenlights Chat Control 1.0 – Breye... [news]
+     原始抓取: 354 条
+     🚫 闲聊拦截: 13 条 (3.7%)
+     🧠 工具信号: 182 条 (51.4%)
+     闲聊样例: Executive Career Pivot AI Developer: What Actually... [job]
      工具信号样例: awesome-design-md... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 171 → 有效 41
-     拒绝率: 76.0%
+     工具信号 182 → 有效 39
+     拒绝率: 78.6%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
+  ✅ 通过 (13):
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
-     [WARN  |  +45] Editor  [?]
-     [PASS  |  +70] PDF Editor  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
      [WARN  |  +45] Formatter  [?]
+     [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
      [WARN  |  +30] Text Tools  [?]
@@ -154,8 +152,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-09T15:27:44.514083+00:00
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-07-09T19:56:58.152267+00:00
    Already in catalog: 132 tools
    Previously produced: 0 tools
    Existing tool pages: 43 files
@@ -324,7 +322,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-09T15:27:44.349118+00:00 → 2026-07-09T15:27:56.778036+00:00
+  ⏱  耗时: 2026-07-09T19:56:58.013156+00:00 → 2026-07-09T19:57:09.261896+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
