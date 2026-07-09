@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-09T09:58:26.148299+00:00     ║
+║       启动时间: 2026-07-09T15:27:44.349118+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -27,7 +27,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 🌐 水系1: 开发者问答枢纽
 🔍 [2/25] Scraping GitHub Trending...
-  ✅ 20 repos
+  ✅ 17 repos
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
@@ -43,11 +43,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 19 articles
+  ✅ 20 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 22 topics
+  ✅ 21 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,25 +81,27 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 352
-  🚫 闲聊拦截: 10 条 (2.8%)
-  🧠 工具信号: 177 条 (50.3%)
+  原始信号总量: 350
+  🚫 闲聊拦截: 9 条 (2.6%)
+  🧠 工具信号: 171 条 (48.9%)
 
   📋 闲聊拦截样例:
-     [ad] PandaPage – host an HTML page with one curl, no signup, auto
-     [entertainment] Netflix Cuts Cassandra Read Latency from Seconds to Millisec
-     [entertainment] little house on the prairie netflix
-     [entertainment] 2025–26 Fulham F.C. season
-     [entertainment] The Lord of the Rings (film series)
+     [news] EU Parliament greenlights Chat Control 1.0 – Breyer: "Our ch
+     [entertainment] Bonnie Tyler, singer of Total Eclipse of the Heart, dies age
+     [entertainment] Presentation: Accelerating Netflix Data: A Cross-Team Journe
+     [news] Earthquake light
+     [news] 1930 Nevada gubernatorial election
 
   🧠 工具信号样例:
-     [置信度20%] PhotoGIMP
-       ↳ 输入→输出链式: [('PhotoGIMP', 'to', '', '', '', '')]
+     [置信度15%] awesome-design-md
+       ↳ 技术概念: ['md']
      [置信度20%] DesktopCommanderMCP
        ↳ 输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', '', '')]
+     [置信度15%] claude-cookbooks
+       ↳ 技术概念: ['claude']
      [置信度45%] autoremesher
        ↳ 英文动作特征: ['autoremesher']
-       ↳ 输入→输出链式: [('autoremesher'
+      
 
 ✅ 雷达完成 — 17 条建议
 
@@ -108,15 +110,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 352 条
-     🚫 闲聊拦截: 10 条 (2.8%)
-     🧠 工具信号: 177 条 (50.3%)
-     闲聊样例: PandaPage – host an HTML page with one curl, no si... [ad]
-     工具信号样例: PhotoGIMP... [置信度20%]
+     原始抓取: 350 条
+     🚫 闲聊拦截: 9 条 (2.6%)
+     🧠 工具信号: 171 条 (48.9%)
+     闲聊样例: EU Parliament greenlights Chat Control 1.0 – Breye... [news]
+     工具信号样例: awesome-design-md... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 177 → 有效 39
-     拒绝率: 78.0%
+     工具信号 171 → 有效 41
+     拒绝率: 76.0%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -126,12 +128,12 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
+     [WARN  |  +45] Editor  [?]
      [PASS  |  +70] PDF Editor  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
      [WARN  |  +45] Formatter  [?]
-     [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
      [WARN  |  +30] Text Tools  [?]
@@ -153,7 +155,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-09T09:58:26.298494+00:00
+   Generated at: 2026-07-09T15:27:44.514083+00:00
    Already in catalog: 132 tools
    Previously produced: 0 tools
    Existing tool pages: 43 files
@@ -322,7 +324,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-09T09:58:26.148299+00:00 → 2026-07-09T09:58:38.431517+00:00
+  ⏱  耗时: 2026-07-09T15:27:44.349118+00:00 → 2026-07-09T15:27:56.778036+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
