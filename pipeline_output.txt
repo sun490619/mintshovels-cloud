@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-10T17:02:58.712709+00:00     ║
+║       启动时间: 2026-07-10T19:44:05.889614+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -33,7 +33,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [4/25] Fetching V2EX...
   ✅ 9 topics
 🔍 [12/25] Fetching Dev.to...
-  ✅ 12 articles
+  ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
   ✅ 20 items
 
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 17 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 24 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,24 +81,23 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 352
-  🚫 闲聊拦截: 16 条 (4.5%)
-  🧠 工具信号: 188 条 (53.4%)
+  原始信号总量: 351
+  🚫 闲聊拦截: 14 条 (4.0%)
+  🧠 工具信号: 198 条 (56.4%)
 
   📋 闲聊拦截样例:
-     [entertainment] On-Device Celebrity Vegetables: Building a Playful LiteRT.js
-     [news] EU Parliament greenlights Chat Control 1.0 🔥1547pts 💬785
-     [news] The glass backbone: Why the Army's logistics will break in t
-     [chatter] Interview with Mitchell Hashimoto about Ghostty and Zig 🔥335
-     [chatter] Ditching Vagrant: VMs with KVM and Virsh on Debian 🔥67pts 💬2
+     [chatter] Interview with Mitchell Hashimoto about Ghostty and Zig 🔥367
+     [news] War Atlas: An interactive cartography of every named war in 
+     [news] Who inherits your bitcoin when you die? Kresus wants an answ
+     [entertainment] Your AI Film Is Beautiful and Invisible. Distribution Is the
+     [entertainment] Presentation: Accelerating Netflix Data: A Cross-Team Journe
 
   🧠 工具信号样例:
      [置信度20%] DesktopCommanderMCP
        ↳ 输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', '', '')]
      [置信度45%] autofix-ci
        ↳ 英文动作特征: ['autofix']
-       ↳ 输入→输出链式: [('autofix', 'to', '', '', '', '')]
-     [置
+       ↳ 输入→输出链式: [('autofix', 'to', '', '', '', ''
 
 ✅ 雷达完成 — 17 条建议
 
@@ -107,15 +106,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 352 条
-     🚫 闲聊拦截: 16 条 (4.5%)
-     🧠 工具信号: 188 条 (53.4%)
-     闲聊样例: On-Device Celebrity Vegetables: Building a Playful... [entertainment]
+     原始抓取: 351 条
+     🚫 闲聊拦截: 14 条 (4.0%)
+     🧠 工具信号: 198 条 (56.4%)
+     闲聊样例: Interview with Mitchell Hashimoto about Ghostty an... [chatter]
      工具信号样例: DesktopCommanderMCP... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 188 → 有效 43
-     拒绝率: 77.1%
+     工具信号 198 → 有效 44
+     拒绝率: 77.8%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -152,7 +151,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-10T17:02:58.871703+00:00
+   Generated at: 2026-07-10T19:44:06.034859+00:00
    Already in catalog: 133 tools
    Previously produced: 0 tools
    Existing tool pages: 44 files
@@ -323,7 +322,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-10T17:02:58.712709+00:00 → 2026-07-10T17:03:10.167005+00:00
+  ⏱  耗时: 2026-07-10T19:44:05.889614+00:00 → 2026-07-10T19:44:17.547931+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
