@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-09T22:37:49.403814+00:00     ║
+║       启动时间: 2026-07-10T04:01:21.062797+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 10 topics
+  ✅ 9 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 24 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -82,15 +82,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
   原始信号总量: 352
-  🚫 闲聊拦截: 13 条 (3.7%)
-  🧠 工具信号: 186 条 (52.8%)
+  🚫 闲聊拦截: 15 条 (4.3%)
+  🧠 工具信号: 190 条 (54.0%)
 
   📋 闲聊拦截样例:
-     [job] From Classroom Code to Career Code: A Developer's CV Triumph
-     [news] EU Parliament greenlights Chat Control 1.0 🔥876pts 💬425
+     [news] EU Parliament greenlights Chat Control 1.0 🔥1056pts 💬521
      [news] The glass backbone: Why the Army's logistics will break in t
-     [chatter] Fluidic control and fault-tolerant and branchless C99 and Ja
-     [ad] Sell your unused AI Credits or buy Claude credits for 50% of
+     [chatter] Interview with Mitchell Hashimoto about Ghostty and Zig 🔥156
+     [ad] Even Keel – free, no-signup freelance pricing calculators — 
+     [job] Uphold and XDC Launch the First On-Chain XDC Staking Offerin
 
   🧠 工具信号样例:
      [置信度15%] awesome-design-md
@@ -101,7 +101,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['claude']
      [置信度45%] autor
 
-✅ 雷达完成 — 18 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
@@ -109,18 +109,18 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 352 条
-     🚫 闲聊拦截: 13 条 (3.7%)
-     🧠 工具信号: 186 条 (52.8%)
-     闲聊样例: From Classroom Code to Career Code: A Developer's ... [job]
+     🚫 闲聊拦截: 15 条 (4.3%)
+     🧠 工具信号: 190 条 (54.0%)
+     闲聊样例: EU Parliament greenlights Chat Control 1.0 🔥1056pt... [news]
      工具信号样例: awesome-design-md... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 186 → 有效 42
-     拒绝率: 77.4%
+     工具信号 190 → 有效 41
+     拒绝率: 78.4%
 
-  📊 意图分类器审计 — 审查 18 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (15):
+  ✅ 通过 (14):
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
@@ -129,7 +129,6 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [WARN  |  +37] Format Converter  [?]
      [WARN  |  +30] Excel Tools  [?]
      [PASS  |  +55] Converter  [?]
-     [PASS  |  +70] PDF Editor  [?]
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +45] Formatter  [?]
@@ -153,8 +152,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-07-09T22:37:49.568045+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-07-10T04:01:21.228976+00:00
    Already in catalog: 132 tools
    Previously produced: 0 tools
    Existing tool pages: 43 files
@@ -323,7 +322,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-09T22:37:49.403814+00:00 → 2026-07-09T22:38:00.452867+00:00
+  ⏱  耗时: 2026-07-10T04:01:21.062797+00:00 → 2026-07-10T04:01:33.686778+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
