@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-11T19:15:56.474391+00:00     ║
+║       启动时间: 2026-07-11T21:56:32.068414+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -33,7 +33,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [4/25] Fetching V2EX...
   ✅ 8 topics
 🔍 [12/25] Fetching Dev.to...
-  ✅ 12 articles
+  ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
   ✅ 20 items
 
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 20 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 24 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 350
-  🚫 闲聊拦截: 11 条 (3.1%)
-  🧠 工具信号: 188 条 (53.7%)
+  原始信号总量: 351
+  🚫 闲聊拦截: 12 条 (3.4%)
+  🧠 工具信号: 188 条 (53.6%)
 
   📋 闲聊拦截样例:
-     [chatter] Leaded Gas Was a Known Poison the Day It Was Invented (2016)
+     [ad] Tencent in Talks for Majority Stake in Manus at $2B After Me
      [job] The early History of the Singular Value Decomposition (1993)
-     [chatter] Quantum hardware now fault-tolerant without extra engineerin
      [news] Who inherits your bitcoin when you die? Kresus wants an answ
      [entertainment] Presentation: Accelerating Netflix Data: A Cross-Team Journe
+     [entertainment] 世界杯：挪威vs英格兰
 
   🧠 工具信号样例:
      [置信度15%] claude-code-templates
@@ -98,34 +98,38 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] meshoptimizer
        ↳ 英文工具名词: ['optimizer']
      [置信度20%] DesktopCommanderMCP
-       ↳ 输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', 
+       ↳ 输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', '', '')]
+     [置信度45%] autofix-ci
+       ↳ 英文动作特
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 19 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 350 条
-     🚫 闲聊拦截: 11 条 (3.1%)
-     🧠 工具信号: 188 条 (53.7%)
-     闲聊样例: Leaded Gas Was a Known Poison the Day It Was Inven... [chatter]
+     原始抓取: 351 条
+     🚫 闲聊拦截: 12 条 (3.4%)
+     🧠 工具信号: 188 条 (53.6%)
+     闲聊样例: Tencent in Talks for Majority Stake in Manus at $2... [ad]
      工具信号样例: claude-code-templates... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 188 → 有效 44
-     拒绝率: 76.6%
+     工具信号 188 → 有效 43
+     拒绝率: 77.1%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 19 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
+  ✅ 通过 (16):
      [WARN  |  +45] Template Builder  [?]
-     [WARN  |  +36] Unit Converter  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
+     [WARN  |  +36] Unit Converter  [?]
+     [PASS  |  +65] Tracker Tool  [?]
+     [PASS  |  +70] PDF Editor  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
@@ -151,8 +155,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-11T19:15:56.590491+00:00
+📊 Demand report loaded: 19 suggestions
+   Generated at: 2026-07-11T21:56:32.209468+00:00
    Already in catalog: 133 tools
    Previously produced: 0 tools
    Existing tool pages: 44 files
@@ -323,7 +327,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-11T19:15:56.474391+00:00 → 2026-07-11T19:16:08.432823+00:00
+  ⏱  耗时: 2026-07-11T21:56:32.068414+00:00 → 2026-07-11T21:56:46.166520+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
