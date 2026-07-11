@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T10:07:17.197366+00:00",
+  "generated_at": "2026-07-11T10:21:11.484471+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -109,11 +109,12 @@
       "小米手机强制更新系统",
       "7.11 号土区续费的 GPT plus 还是 499 里拉，下个周期也是",
       "实际上发现大多人 A 股赚不到钱都是割肉造成的",
-      "时隔一天， codex 凌晨又重置了……",
-      "数字永生可行吗？"
+      "最近遇到的三个选择，想看看大家怎么看",
+      "时隔一天， codex 凌晨又重置了……"
     ],
     "devto": [
       "DEV Community: programming",
+      "I Built a Full-Stack Ticketing Platform. Here are 4 Infrastructure Nightmares I Had to Fix",
       "Donor Management Software: The Foundation of Smarter Nonprofit Growth",
       "Negotiating Your Salary Like a Jedi: The Data‑Driven Anchor Technique",
       "Why Fundraising Software Is Essential for Modern Nonprofits",
@@ -124,8 +125,7 @@
       "Buy Edu Emails With Clean History",
       "Идеальная длина ролика для TikTok, Reels и YouTube Shorts в 2026 году",
       "OpenAI Claims 54% Token Efficiency Gain on Agentic Coding in New Model",
-      "OpenAI GPT-5.6 Sol matches Fable 5 at 1/3 cost, adds multi-agent API",
-      "What is an API? An Explanation for Complete Beginners"
+      "OpenAI GPT-5.6 Sol matches Fable 5 at 1/3 cost, adds multi-agent API"
     ],
     "lobsters": [
       "An update on the scraper situation",
@@ -172,35 +172,36 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Apple sues OpenAI, accuses ex-employees of stealing trade secrets 🔥1080pts 💬560",
-      "Show HN: Getting GLM 5.2 running on my slow computer 🔥856pts 💬211",
-      "QuadRF can spot drones and see WiFi through my wall 🔥588pts 💬195",
-      "New York City to ban deceptive subscription practices 🔥524pts 💬251",
-      "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf] 🔥453pts 💬364",
-      "Good Tools Are Invisible 🔥438pts 💬204",
+      "Apple sues OpenAI, accuses ex-employees of stealing trade secrets 🔥1093pts 💬562",
+      "Show HN: Getting GLM 5.2 running on my slow computer 🔥856pts 💬213",
+      "QuadRF can spot drones and see WiFi through my wall 🔥589pts 💬196",
+      "New York City to ban deceptive subscription practices 🔥526pts 💬251",
+      "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf] 🔥455pts 💬364",
+      "Good Tools Are Invisible 🔥440pts 💬205",
       "Late Bronze Age Collapse 🔥369pts 💬251",
-      "AI 2040: Plan A 🔥265pts 💬276",
-      "Einstein's relativity rules chemical bonds in heavy elements, new research shows 🔥249pts 💬89",
+      "AI 2040: Plan A 🔥268pts 💬278",
+      "Einstein's relativity rules chemical bonds in heavy elements, new research shows 🔥250pts 💬90",
       "The tech of 'Terminator 2' – an oral history (2017) 🔥217pts 💬77",
       "An update on residential proxies and the scraper situation 🔥202pts 💬184",
-      "Snails' teeth beats spider silk as nature's strongest material (2015) 🔥190pts 💬147",
-      "SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth 🔥189pts 💬622",
-      "Lost city discovered beneath Egypt's desert with ancient church 🔥181pts 💬129",
+      "SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth 🔥190pts 💬623",
+      "Snails' teeth beats spider silk as nature's strongest material (2015) 🔥190pts 💬148",
+      "Lost city discovered beneath Egypt's desert with ancient church 🔥183pts 💬131",
       "Combustion engine web-based simulator 🔥174pts 💬68",
       "A love letter to flashcards 🔥153pts 💬98",
       "Alternate clock designs and time systems 🔥147pts 💬80",
-      "After 7 years in production, Scarf has reluctantly moved away from Haskell 🔥138pts 💬176",
+      "After 7 years in production, Scarf has reluctantly moved away from Haskell 🔥139pts 💬179",
       "Computation as a universal and fundamental concept 🔥131pts 💬93",
-      "An iroh powered smart fan 🔥106pts 💬27",
-      "The vintage beauty of Soviet control rooms (2018) 🔥103pts 💬30",
-      "Inference Optimization for MiMo v2.5: Pushing Hybrid SWA Efficiency to the Limit 🔥77pts 💬30",
+      "An iroh powered smart fan 🔥109pts 💬28",
+      "The vintage beauty of Soviet control rooms (2018) 🔥106pts 💬32",
+      "Inference Optimization for MiMo v2.5: Pushing Hybrid SWA Efficiency to the Limit 🔥77pts 💬32",
       "Silent speech with ultrasound 🔥54pts 💬13",
       "Preemption is GC for memory reordering (2019)",
       "The Lindy effect in software"
     ],
     "hn_show": [
+      "Code Airlock: Run Claude Code and Codex in Disposable MicroVMs — featured on Hacker News (🔥1pts)",
       "The MCP Census – 15,382 MCP servers, health-checked — featured on Hacker News (🔥1pts)",
-      "Richest people in the world by wealth creation instead of ownership — featured on Hacker News (🔥1pts)",
+      "Richest people in the world by wealth creation instead of ownership — featured on Hacker News (🔥2pts)",
       "Create realistic group photos in real time with AI — featured on Hacker News (🔥1pts)",
       "Image Generation API with QR code tracking and MCP support — featured on Hacker News (🔥1pts)",
       "A strategic word game where you make many words with 1 letter per turn — featured on Hacker News (🔥1pts)",
@@ -216,8 +217,7 @@
       "River Rescue – Game mechanic for 3yo — featured on Hacker News (🔥1pts)",
       "Files402 – share or sell a folder online from $1/mo — featured on Hacker News (🔥1pts)",
       "Numbergram – Make 10 from 4 numbers — featured on Hacker News (🔥1pts)",
-      "Paste a URL, get an honest answer to \"can I build this with a prompt?\" — featured on Hacker News (🔥1pts)",
-      "I built a YouTube for generative videos in 50 prompts — featured on Hacker News (🔥1pts)"
+      "Paste a URL, get an honest answer to \"can I build this with a prompt?\" — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Show HN: A deterministic I Ching engine, cross-validated against another impl — user asking for tool recommendation (🔥2pts)",
@@ -289,8 +289,8 @@
       "AWS Details How One Customer Scaled to One Million Lambda Functions <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>AWS has outlined how ProGlove, an industrial-wearables manufacturer, wa"
     ],
     "google_trends": [
-      "what is new on netflix",
       "que ver esta noche",
+      "what is new on netflix",
       "hotel",
       "car accident attorney",
       "xero",
@@ -305,44 +305,44 @@
       "台风巴威登陆地点有变",
       "巴威过境日本 大树连根拔起雨横飞",
       "如何防御应对风暴潮 海浪灾害",
+      "长沙霸占车位公职人员被停职",
       "风灾正在击穿“落地窗崇拜”",
-      "周星驰官宣新一代星女郎雪野",
       "日本可回收火箭着陆成功 仅飞11米",
       "北京暴雨红色预警",
       "浙江最高风速已达13级",
-      "浙江：台州温岭已进入台风十级风圈",
-      "台风天钱塘江现罕见“蝴蝶潮”",
-      "杭州暴雨大量车辆被淹系谣言",
-      "长沙霸占车位公职人员被停职",
+      "巴威登陆地点范围再缩小",
+      "最新研判！台风巴威登陆时间或提前",
+      "教育部：“教师全面硕士化”系谣言",
       "雷军让卖车的和卖房的都沉默了",
       "男子30秒吻女友195次 破吉尼斯纪录",
-      "房产中介被指“吃48万元差价”",
+      "浙江：台州温岭已进入台风十级风圈",
+      "“世界正数第一玩得起的人”哈兰德",
+      "浙江湖州市长：全面进入战时状态",
       "台风巴威不走寻常路",
-      "周星驰《功夫女足》口碑两极分化",
-      "台风10级风圈快上岸了",
-      "浙江湖州市长：全面进入战时状态"
+      "房产中介被指“吃48万元差价”",
+      "台风10级风圈快上岸了"
     ],
     "wikipedia": [
-      "Oswald the Lucky Rabbit filmography",
-      "List of Star Wars: Knights of the Old Republic characters",
-      "Clinch Mountain",
-      "2026 Nations Championship Southern Hemisphere Series",
-      "Chloe Lincoln",
-      "Commercial Crew Program",
-      "Suvinder Vicky",
-      "Mate (drink)",
-      "Among the Living",
-      "Juan Fernandez Women's Group",
-      "In Praise of Shadows",
-      "Secretary of State for Defence",
-      "Sarajevo Film Festival",
-      "South African War Memorial (South Australia)",
-      "Aceh War",
-      "Ted Rusoff",
-      "Emperor Tenji",
-      "Eleceed",
-      "Stryper",
-      "Darren Chua"
+      "César Trelles",
+      "Hong Myung-bo",
+      "Paola Antonelli",
+      "United States men's national ball hockey team",
+      "Vitālijs Astafjevs",
+      "Wilhelm Nicolaysen",
+      "Magdalen Berns",
+      "Eliminate Sparrows campaign",
+      "List of cities in Australia",
+      "Amanpulo",
+      "Wilhelm Lorentz Lexau Nicolaysen",
+      "Avenue of honour",
+      "Danny Yeo (swimmer)",
+      "Charles Darwin (Collier)",
+      "2024 Greek wildfires",
+      "Penny Wolin",
+      "Miles Platting (ward)",
+      "Total Eclipse of the Heart",
+      "Open Era tennis records – Women's singles",
+      "Deaths in March 2022"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -427,29 +427,28 @@
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format"
     ],
     "github_topics": [
-      "github trending topic: react native",
-      "github trending topic: scala",
+      "github trending topic: docker",
       "github trending topic: awesome lists",
-      "github trending topic: quiz",
+      "github trending topic: automation",
+      "github trending topic: compiler",
       "github trending topic: code quality",
       "github trending topic: css",
-      "github trending topic: compiler",
-      "github trending topic: layer-7-ddos",
-      "github trending topic: chrome",
-      "github trending topic: node.js",
-      "github trending topic: python",
-      "github trending topic: typescript",
-      "github trending topic: javascript",
-      "github trending topic: rebirthstress",
-      "github trending topic: ai-agents",
-      "github trending topic: react",
+      "github trending topic: react native",
       "github trending topic: npm",
-      "github trending topic: layer-7-http-flood",
-      "github trending topic: web-booter",
-      "github trending topic: growth-dummy",
+      "github trending topic: node.js",
       "github trending topic: database",
+      "github trending topic: react",
+      "github trending topic: typescript",
+      "github trending topic: codex",
+      "github trending topic: chrome",
+      "github trending topic: quiz",
+      "github trending topic: javascript",
+      "github trending topic: growth-dummy",
+      "github trending topic: front end",
       "github trending topic: project management",
-      "github trending topic: front end"
+      "github trending topic: claude-code",
+      "github trending topic: python",
+      "github trending topic: scala"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -644,7 +643,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Good Tools Are Invisible 🔥438pts 💬204",
+    "Good Tools Are Invisible 🔥440pts 💬205",
     "Ask HN: Experiences of Working in Big Data — user asking for tool recommendation (🔥1pts)",
     "Show HN: The Flint Programming Language — user asking for tool recommendation (🔥4pts)",
     "electra-base-discriminator",
@@ -664,10 +663,10 @@
     "paknevis — npm package: Paknevis.js is a persian text formatter tool."
   ],
   "filter_stats": {
-    "raw_count": 185,
+    "raw_count": 187,
     "valid_count": 43,
-    "rejected_count": 142,
-    "rejection_rate": 76.8,
+    "rejected_count": 144,
+    "rejection_rate": 77.0,
     "rejected_samples": [
       "DesktopCommanderMCP",
       "TypeScript",
@@ -682,11 +681,11 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 352,
-    "chatter_blocked": 16,
-    "chatter_rate": 4.5,
-    "tool_signals_found": 185,
-    "tool_signal_rate": 52.6,
+    "total_captured": 351,
+    "chatter_blocked": 12,
+    "chatter_rate": 3.4,
+    "tool_signals_found": 187,
+    "tool_signal_rate": 53.3,
     "chatter_samples": [
       {
         "text": "Negotiating Your Salary Like a Jedi: The Data‑Driven Anchor Technique",
@@ -696,7 +695,7 @@
         ]
       },
       {
-        "text": "The vintage beauty of Soviet control rooms (2018) 🔥103pts 💬30",
+        "text": "The vintage beauty of Soviet control rooms (2018) 🔥106pts 💬32",
         "category": "entertainment",
         "matched": [
           "beauty"
@@ -742,31 +741,24 @@
         ]
       },
       {
-        "text": "Sarajevo Film Festival",
-        "category": "entertainment",
+        "text": "OpenCoF: Learning to Reason Through Video Generation Reasoning has become a core",
+        "category": "ad",
         "matched": [
-          "Film",
-          "Festival"
+          "offer"
         ]
       },
       {
-        "text": "South African War Memorial (South Australia)",
-        "category": "news",
+        "text": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam ",
+        "category": "chatter",
         "matched": [
-          [
-            "War",
-            ""
-          ]
+          "imo"
         ]
       },
       {
-        "text": "Aceh War",
-        "category": "news",
+        "text": "Validity of LLMs as data annotators: AMALIA on authority A national language mod",
+        "category": "job",
         "matched": [
-          [
-            "War",
-            ""
-          ]
+          "offer"
         ]
       }
     ],

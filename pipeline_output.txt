@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-11T08:07:12.767172+00:00     ║
+║       启动时间: 2026-07-11T10:21:11.331044+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 10 topics
+  ✅ 9 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 24 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,46 +81,46 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 353
-  🚫 闲聊拦截: 19 条 (5.4%)
-  🧠 工具信号: 185 条 (52.4%)
+  原始信号总量: 351
+  🚫 闲聊拦截: 12 条 (3.4%)
+  🧠 工具信号: 187 条 (53.3%)
 
   📋 闲聊拦截样例:
-     [news] Building barge-in detection without breaking the conversatio
-     [news] War Atlas: An interactive cartography of every named war in 
+     [job] Negotiating Your Salary Like a Jedi: The Data‑Driven Anchor 
+     [entertainment] The vintage beauty of Soviet control rooms (2018) 🔥106pts 💬3
      [chatter] Inference Optimization for MiMo v2.5: Pushing Hybrid SWA Eff
-     [entertainment] The vintage beauty of Soviet control rooms (2018) 🔥51pts 💬18
-     [ad] Vxpix – $50 Lifetime Screenshot API, Free Tier with No Signu
+     [news] Who inherits your bitcoin when you die? Kresus wants an answ
+     [entertainment] Your AI Film Is Beautiful and Invisible. Distribution Is the
 
   🧠 工具信号样例:
      [置信度20%] DesktopCommanderMCP
        ↳ 输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', '', '')]
      [置信度45%] autofix-ci
        ↳ 英文动作特征: ['autofix']
-       ↳ 输入→输出链式: [('autofix', 'to', '', '', '', '')]
-     [置
+       ↳ 输入→输出链式: [('autofix', 'to', '', '', '', '')
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 18 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 353 条
-     🚫 闲聊拦截: 19 条 (5.4%)
-     🧠 工具信号: 185 条 (52.4%)
-     闲聊样例: Building barge-in detection without breaking the c... [news]
+     原始抓取: 351 条
+     🚫 闲聊拦截: 12 条 (3.4%)
+     🧠 工具信号: 187 条 (53.3%)
+     闲聊样例: Negotiating Your Salary Like a Jedi: The Data‑Driv... [job]
      工具信号样例: DesktopCommanderMCP... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 185 → 有效 42
-     拒绝率: 77.3%
+     工具信号 187 → 有效 43
+     拒绝率: 77.0%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 18 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
+  ✅ 通过 (15):
      [WARN  |  +45] Template Builder  [?]
+     [PASS  |  +65] Tracker Tool  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
@@ -151,8 +151,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-11T08:07:12.905852+00:00
+📊 Demand report loaded: 18 suggestions
+   Generated at: 2026-07-11T10:21:11.484471+00:00
    Already in catalog: 133 tools
    Previously produced: 0 tools
    Existing tool pages: 44 files
@@ -323,7 +323,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-11T08:07:12.767172+00:00 → 2026-07-11T08:07:24.268818+00:00
+  ⏱  耗时: 2026-07-11T10:21:11.331044+00:00 → 2026-07-11T10:21:26.636351+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
