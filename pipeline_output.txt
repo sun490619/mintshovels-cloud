@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-11T03:28:28.437661+00:00     ║
+║       启动时间: 2026-07-11T08:07:12.767172+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 9 topics
+  ✅ 10 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -81,15 +81,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 352
-  🚫 闲聊拦截: 20 条 (5.7%)
-  🧠 工具信号: 185 条 (52.6%)
+  原始信号总量: 353
+  🚫 闲聊拦截: 19 条 (5.4%)
+  🧠 工具信号: 185 条 (52.4%)
 
   📋 闲聊拦截样例:
-     [chatter] 后续: 老板要求用 AI 几周完成一年的工作量
-     [chatter] I Wish I Knew About Multimodal AI APIs Sooner — Here's the F
+     [news] Building barge-in detection without breaking the conversatio
      [news] War Atlas: An interactive cartography of every named war in 
      [chatter] Inference Optimization for MiMo v2.5: Pushing Hybrid SWA Eff
+     [entertainment] The vintage beauty of Soviet control rooms (2018) 🔥51pts 💬18
      [ad] Vxpix – $50 Lifetime Screenshot API, Free Tier with No Signu
 
   🧠 工具信号样例:
@@ -98,9 +98,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度45%] autofix-ci
        ↳ 英文动作特征: ['autofix']
        ↳ 输入→输出链式: [('autofix', 'to', '', '', '', '')]
-     [置信度15%] yaml-cpp
-       ↳ 技术概念: ['yaml']
- 
+     [置
 
 ✅ 雷达完成 — 17 条建议
 
@@ -109,10 +107,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 352 条
-     🚫 闲聊拦截: 20 条 (5.7%)
-     🧠 工具信号: 185 条 (52.6%)
-     闲聊样例: 后续: 老板要求用 AI 几周完成一年的工作量... [chatter]
+     原始抓取: 353 条
+     🚫 闲聊拦截: 19 条 (5.4%)
+     🧠 工具信号: 185 条 (52.4%)
+     闲聊样例: Building barge-in detection without breaking the c... [news]
      工具信号样例: DesktopCommanderMCP... [置信度20%]
 
   📊 硬核过滤器统计:
@@ -154,7 +152,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-11T03:28:28.577181+00:00
+   Generated at: 2026-07-11T08:07:12.905852+00:00
    Already in catalog: 133 tools
    Previously produced: 0 tools
    Existing tool pages: 44 files
@@ -325,7 +323,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-11T03:28:28.437661+00:00 → 2026-07-11T03:28:42.125527+00:00
+  ⏱  耗时: 2026-07-11T08:07:12.767172+00:00 → 2026-07-11T08:07:24.268818+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
