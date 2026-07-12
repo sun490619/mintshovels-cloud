@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T12:44:27.850004+00:00",
+  "generated_at": "2026-07-12T13:44:29.116509+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -106,27 +106,27 @@
       "专科大二，喜欢底层开发(?)，但有点迷茫想听听建议...",
       "A÷，老子跟你拼了，被迫成为精神美国人",
       "干程序年头多了是不是多少都得沾点易经",
-      "中国人的 homeLab，从 matrix 聊天服务器开始",
-      "魔兽争霸 3 网页版",
       "16 号从大陆去台湾旅行 大概 3 天 请问大家有什么方式能回回血？ 机票有点贵",
-      "为什么 chatgpt 这么固执",
+      "中国人的 homeLab，从 matrix 聊天服务器开始",
       "把微信转成 wechat 对现有业务有什么影响？",
-      "奔三 感觉自己漂泊不定 怎么规划人生"
+      "为什么 chatgpt 这么固执",
+      "奔三 感觉自己漂泊不定 怎么规划人生",
+      "grok-4.5 真的比 gpt-5.6 sol 好用吧"
     ],
     "devto": [
       "DEV Community: programming",
-      "🚀 How I Started Preparing for Campus Placements in My 2nd Year (A Complete Roadmap)",
-      "Every AI tool, agent, and site builder a developer should know in 2026",
-      "Python Functional Programming: map, filter, reduce, and More",
-      "Python dataclasses: The Complete Guide (with Examples)",
-      "Buy Understanding Yahoo Mail Accounts:",
-      "Buy Verified Skrill Accounts With Clean History\"",
-      "The Missing Manual for Developers Just Got Significantly Better",
-      "DORA Metrics Measure Delivery Health. What Measures Security Posture Health?",
-      "React me Custom Hooks Kaise Banayein (Step-by-Step (Hindi)",
-      "Looping",
-      "Automating AI Agent Memory Validation with Playwright: The 8-Hour 'Random Amnesia' Bug",
-      "Quick Python Tip: Use functools.cache for Effortless Memoization (2026)"
+      "ARTLESS TECHNOLOGY",
+      "Why Investors Choose a $2.500 Bitcoin Loan Over Selling",
+      "$2.500 BTC Loan: The Safest Way to Access Immediate Cash",
+      "Need $2,500 Fast? Why a Secure Crypto Loan Wins",
+      "Compare Rates for a Secure $2.500 Ethereum Loan",
+      "Building HemoConnect: An AI-Powered Companion for Thalassemia Management",
+      "How to Improve Streaming Performance on Fire TV Stick in 2026",
+      "Building a Telegram AI Agent for Personal Use",
+      "A Small Prompt Workflow That Made My AI Image Experiments Easier To Debug",
+      "Trusted Cryptocurrency Recovery Firm Ongoing, ZEUS CRYPTO RECOVERY SERVICES",
+      "Best Trusted Sites for a $2.500 Crypto-Backed Loan in 2026",
+      "AIWave Article"
     ],
     "lobsters": [
       "Where did my segfault go?",
@@ -135,9 +135,11 @@
       "The Proportional Web",
       "Good Tools Are Invisible",
       "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
+      "ghostel.el - Terminal emulator powered by libghostty",
       "Data-directed programming in Haskell (SICP2.4.3)",
       "Today I Rescued 7,234 Old GIFs",
       "An update on the scraper situation",
+      "Ant, a lightweight JavaScript runtime",
       "Gamedev in Zig is actually pretty good (2025)",
       "I converted an Android app to a webpage",
       "Handsum: An LQIP Image File Format",
@@ -145,9 +147,7 @@
       "Hacking Apple - SQL Injection to Remote Code Execution — ProjectDiscovery Blog",
       "An Agent in 100 Lines of Lisp",
       "I tried NetBSD as a desktop, and it felt like stepping into the '90s in a good way",
-      "Ant, a lightweight JavaScript runtime",
       "gap: UI text diff",
-      "ghostel.el - Terminal emulator powered by libghostty",
       "Madame Semver Will See You Now"
     ],
     "producthunt": [
@@ -173,36 +173,43 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Prefer strict tables in SQLite 🔥309pts 💬158",
-      "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom 🔥292pts 💬113",
-      "Show HN: Ant – A JavaScript runtime and ecosystem 🔥288pts 💬128",
-      "Mesh LLM: distributed AI computing on iroh 🔥277pts 💬64",
-      "We scaled PgBouncer to 4x throughput 🔥221pts 💬53",
-      "Modern decor may be straining people's brains 🔥211pts 💬219",
-      "UPI: Anatomy of a Payment Transaction 🔥207pts 💬92",
-      "An agent in 100 lines of Lisp 🔥179pts 💬49",
-      "RISCBoy is an open-source portable games console, designed from scratch 🔥161pts 💬21",
-      "Vint Cerf, a “father of the Internet”, is retiring 🔥140pts 💬85",
-      "The early History of the Singular Value Decomposition (1993) [pdf] 🔥126pts 💬66",
-      "Under federal rule, colleges must leave grads better off or lose financial aid 🔥117pts 💬253",
-      "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts 🔥110pts 💬17",
-      "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase 🔥95pts 💬42",
-      "Autopsy Study Finds Replicating SARS-CoV-2 in the Hearts of Long Covid 🔥93pts 💬11",
-      "A dock that wakes up reliably 🔥90pts 💬54",
-      "I Did Not Kill Stanley Lieber: How to Draw (With 9front) 🔥82pts 💬27",
-      "Woman in Brazil enslaved for 55 years by 3 generations of the same family 🔥72pts 💬53",
-      "Protobuf-py: Protobuf for Python, without compromises 🔥71pts 💬15",
-      "Old and new apps, via modern coding agents by Terry Tao 🔥63pts 💬10",
-      "Text art tools 🔥61pts 💬19",
-      "Jellyfish Undersea Roundabout 🔥57pts 💬20",
-      "EF Core 11 makes your split queries faster",
-      "Ghostel.el: Terminal emulator powered by libghostty",
-      "Handsum: An LQIP Image File Format"
+      "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom 🔥303pts 💬121",
+      "Show HN: Ant – A JavaScript runtime and ecosystem 🔥294pts 💬132",
+      "Mesh LLM: distributed AI computing on iroh 🔥288pts 💬66",
+      "Modern decor may be straining people's brains 🔥225pts 💬224",
+      "We scaled PgBouncer to 4x throughput 🔥225pts 💬53",
+      "UPI: Anatomy of a Payment Transaction 🔥214pts 💬98",
+      "An agent in 100 lines of Lisp 🔥183pts 💬51",
+      "RISCBoy is an open-source portable games console, designed from scratch 🔥169pts 💬23",
+      "Vint Cerf, a “father of the Internet”, is retiring 🔥165pts 💬98",
+      "Under federal rule, colleges must leave grads better off or lose financial aid 🔥135pts 💬291",
+      "The early History of the Singular Value Decomposition (1993) [pdf] 🔥131pts 💬69",
+      "Old and new apps, via modern coding agents by Terry Tao 🔥119pts 💬27",
+      "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts 🔥114pts 💬19",
+      "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase 🔥101pts 💬46",
+      "I Did Not Kill Stanley Lieber: How to Draw (With 9front) 🔥86pts 💬29",
+      "Protobuf-py: Protobuf for Python, without compromises 🔥82pts 💬17",
+      "Ghostel.el: Terminal emulator powered by libghostty 🔥76pts 💬4",
+      "Text art tools 🔥68pts 💬19",
+      "Jellyfish Undersea Roundabout 🔥60pts 💬22",
+      "EF Core 11 makes your split queries faster 🔥52pts 💬25",
+      "Datacentres drive up big tech's carbon emissions to a third of those of France",
+      "Yt-Dlp Sequence Diagrams",
+      "Handsum: An LQIP Image File Format",
+      "Understanding the Odin Programming Language",
+      "Xbox 'OG' Adventures"
     ],
     "hn_show": [
+      "Nihonpost – Japanese postal code lookup for Vue 3 — featured on Hacker News (🔥1pts)",
+      "Nihonpost – Japanese postal code lookup for Vue 3 — featured on Hacker News (🔥1pts)",
+      "Jargo – Conversational-AI Golang Framework — featured on Hacker News (🔥1pts)",
+      "Only 1 of 4,356 reachable MCP servers is ready for the 2026-07-28 spec — featured on Hacker News (🔥1pts)",
+      "Audit.md for UI/UX Audit — featured on Hacker News (🔥1pts)",
+      "Opinionated Python based Markdown slide generation tool — featured on Hacker News (🔥1pts)",
+      "LocalMask – local-first CLI that masks PII and secrets before LLMs — featured on Hacker News (🔥2pts)",
       "Avoid codebase sloppification and AI-generated spaghetti code — featured on Hacker News (🔥2pts)",
       "Dr. Wong – an AI space for journaling and self-reflection — featured on Hacker News (🔥2pts)",
-      "Sanbox, batteries included sandboxes for AI agents — featured on Hacker News (🔥3pts)",
+      "Sanbox, batteries included sandboxes for AI agents — featured on Hacker News (🔥4pts)",
       "Fenzo – Build an interactive course on any topic — featured on Hacker News (🔥3pts)",
       "Display Big Text on Screen — featured on Hacker News (🔥2pts)",
       "Spendict – a performance marketer's verdict for AI agents, over MCP — featured on Hacker News (🔥2pts)",
@@ -212,13 +219,7 @@
       "DPDK vs. Af_XDP Latency Benchmarks Tested on Real NICs — featured on Hacker News (🔥2pts)",
       "DejaView – Terminal dashboard for all your Claude Code sessions — featured on Hacker News (🔥1pts)",
       "Godot running Gemma 4 inference in GDScript and Vulkan compute shaders — featured on Hacker News (🔥1pts)",
-      "Markdown Tools Online – 16 free browser-based Markdown converters — featured on Hacker News (🔥1pts)",
-      "LifePath – See what Einstein was doing at your exact age — featured on Hacker News (🔥2pts)",
-      "InLie – See manipulation tactics in political videos, live — featured on Hacker News (🔥3pts)",
-      "Zero Trust Boundary for Agents — featured on Hacker News (🔥3pts)",
-      "Inkfold – workspace across multiple AI providers with shared memory — featured on Hacker News (🔥1pts)",
-      "PalExplorer – peer-to-peer file sharing with no central server — featured on Hacker News (🔥2pts)",
-      "Bgchanger.video – change video backgrounds online — featured on Hacker News (🔥1pts)"
+      "Markdown Tools Online – 16 free browser-based Markdown converters — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Ask HN: Can anyone explain this Gsearch rabbit-hole? — user asking for tool recommendation (🔥2pts)",
@@ -249,7 +250,7 @@
       "Show HN: The Flint Programming Language — user asking for tool recommendation (🔥4pts)",
       "Show HN: R3 – A Local Code Review Tool for You and Your AI Agent — user asking for tool recommendation (🔥5pts)",
       "Building a real-time AI tutor for 5-year-olds — user asking for tool recommendation (🔥150pts)",
-      "Show HN: Ant – A JavaScript runtime and ecosystem — user asking for tool recommendation (🔥288pts)",
+      "Show HN: Ant – A JavaScript runtime and ecosystem — user asking for tool recommendation (🔥295pts)",
       "Open-Source Alternative to Buffer, Typefully, Hootsuite — user asking for tool recommendation (🔥2pts)"
     ],
     "hackernoon": [
@@ -291,59 +292,60 @@
       "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference inside the Database <img src=\"https://res.infoq.com/news/2026/07/alloydb-ai-proxy-models/en/headerimage/generatedHeaderImage-1783079201479.jpg\"/><p>Google shipped AlloyDB"
     ],
     "google_trends": [
-      "matt damon",
-      "matt damon wife",
-      "luisa stefani",
-      "charlize theron odyssey premiere",
-      "abdul el-sayed",
-      "bison attack yellowstone",
-      "gabriela dabrowski",
-      "lennox lewis",
-      "connections hint today mashable",
-      "kristina mladenovic"
+      "cbs sunday morning",
+      "jj abrams",
+      "noah kahan tour",
+      "who died today",
+      "netflix new releases this week",
+      "antifa",
+      "todd kress",
+      "the rip",
+      "coco vandeweghe",
+      "dwayne johnson"
     ],
     "baidu": [
       "自主创新 科技工作者大有作为",
       "台风巴威风力持续减小 最新预测",
-      "瑞士主帅：裁判误判偷走了胜利",
-      "台风天这8件事千万别做",
-      "中方：日本没资格说三道四",
-      "超强厄尔尼诺事件要来了",
-      "小鹏X9集体趴窝 疑因高温",
-      "哈兰德：我现在已经彻底累垮了",
       "副局长买10亿Token手搓防汛APP",
+      "防汛防台风 各部门这样部署",
+      "新能源车平均车龄仅1.8年",
+      "哈兰德：我现在已经彻底累垮了",
+      "小鹏X9集体趴窝 疑因高温",
+      "樊振东武磊将解说世界杯决赛",
+      "瑞士主帅：裁判误判偷走了胜利",
       "北京上演绝美晚霞 颜值“爆表”",
       "“星女郎”艾米被北电录取",
       "浙江28人借巴威造谣被查处",
-      "热恋半年发现媒人和女友是同一人",
       "邹市明夫妇“两亿败局”的商业复盘",
-      "BLG遭HLE逆转 无缘MSI冠军",
-      "观众吐槽：周星驰 到底谁欠谁电影票",
-      "韩红武汉演唱会宣布取消",
-      "巴威登陆地街道广告立牌被整片吹烂",
-      "新能源车平均车龄仅1.8年",
-      "河南17岁少年买站票到广西救灾"
+      "热恋半年发现媒人和女友是同一人",
+      "中方：日本没资格说三道四",
+      "为什么中国人这么喜欢哈兰德",
+      "巴威接下来携暴雨大暴雨去哪儿",
+      "超强厄尔尼诺事件要来了",
+      "台风把瀑布吹到倒流",
+      "老人制止施暴鼻子被咬掉 伤情披露"
     ],
     "wikipedia": [
-      "Lambach (Loper Bach)",
-      "Spatulipalpia ambahonella",
-      "Yiddishist movement",
-      "Zac Dalpe",
-      "Gurpartap Singh",
-      "Another Side (Corbin Bleu album)",
-      "Pip and Posy",
-      "Lambach (Eickumer Mühlenbach)",
-      "Glasat na Bulgaria (TV series)",
-      "Woad (disambiguation)",
-      "Landerbach",
-      "2026 FC Seoul season",
-      "Langer Bach",
-      "Hasta la Raíz",
-      "Official Charts",
-      "South Cape May, New Jersey",
-      "Lannertbach",
-      "Bonne Bay Marine Station",
-      "Kingdom of Prussia"
+      "Urban Dictionary",
+      "Dahle (river)",
+      "People's Daily",
+      "Ayako Kawasumi",
+      "Thomas Toffel",
+      "Urs Luterbacher",
+      "France women's national volleyball team",
+      "Digital marketing",
+      "Bobritzsch (river)",
+      "Bahre",
+      "K. Pajanivel",
+      "Bahra (river)",
+      "MCND",
+      "Alexa Moreno",
+      "Before Me (album)",
+      "Würzbach",
+      "28 Gun Bad Boy",
+      "Angelos",
+      "Robert Alan Olson",
+      "Calgary Sports and Entertainment"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -428,30 +430,30 @@
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format"
     ],
     "github_topics": [
-      "github trending topic: javascript",
-      "github trending topic: discord-zapret",
-      "github trending topic: scala",
-      "github trending topic: python",
-      "github trending topic: rust",
-      "github trending topic: project management",
-      "github trending topic: fixdiscord",
-      "github trending topic: compiler",
-      "github trending topic: typescript",
-      "github trending topic: discordzapret",
-      "github trending topic: code quality",
-      "github trending topic: awesome lists",
-      "github trending topic: zapret-discord",
       "github trending topic: front end",
-      "github trending topic: node.js",
-      "github trending topic: discordfix",
-      "github trending topic: react native",
-      "github trending topic: zapret-discord-youtube",
-      "github trending topic: database",
-      "github trending topic: developer-tools",
       "github trending topic: npm",
+      "github trending topic: code quality",
+      "github trending topic: javascript",
+      "github trending topic: scala",
+      "github trending topic: react native",
+      "github trending topic: typescript",
+      "github trending topic: css",
+      "github trending topic: database",
+      "github trending topic: project management",
+      "github trending topic: llm-gateway",
+      "github trending topic: ai-agents",
       "github trending topic: chrome",
+      "github trending topic: awesome lists",
+      "github trending topic: veo",
+      "github trending topic: compiler",
+      "github trending topic: python",
+      "github trending topic: qwen-37",
       "github trending topic: react",
-      "github trending topic: css"
+      "github trending topic: midjourney",
+      "github trending topic: openai-api",
+      "github trending topic: node.js",
+      "github trending topic: mistral",
+      "github trending topic: sora"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -476,7 +478,7 @@
       "name_zh": "模板构建器"
     },
     {
-      "keyword": "Every AI tool, agent, and site builder a developer should know in 2026",
+      "keyword": "AI Coding Agents — tool from ProductHunt",
       "matched": "ai",
       "category": "ai",
       "subcat": "ai-chat",
@@ -530,7 +532,7 @@
       "name_zh": "单位换算"
     },
     {
-      "keyword": "Text art tools 🔥61pts 💬19",
+      "keyword": "Text art tools 🔥68pts 💬19",
       "matched": "text",
       "category": "productivity",
       "subcat": "text",
@@ -616,7 +618,6 @@
     "claude-cookbooks",
     "claude-code-templates",
     "把微信转成 wechat 对现有业务有什么影响？",
-    "Every AI tool, agent, and site builder a developer should know in 2026",
     "Good Tools Are Invisible",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -638,10 +639,9 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Text art tools 🔥61pts 💬19",
+    "Text art tools 🔥68pts 💬19",
     "Ask HN: Experiences of Working in Big Data — user asking for tool recommendation (🔥1pts)",
     "Show HN: The Flint Programming Language — user asking for tool recommendation (🔥4pts)",
-    "BLG遭HLE逆转 无缘MSI冠军",
     "electra-base-discriminator",
     "electra-base-discriminator",
     "tgt — npm package: tpl generator tool",
@@ -656,14 +656,13 @@
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "prettier — npm package: Prettier is an opinionated code formatter",
     "sass-formatter — npm package: TypeScript Sass formatter",
-    "paknevis — npm package: Paknevis.js is a persian text formatter tool.",
-    "github trending topic: developer-tools"
+    "paknevis — npm package: Paknevis.js is a persian text formatter tool."
   ],
   "filter_stats": {
-    "raw_count": 183,
-    "valid_count": 46,
-    "rejected_count": 137,
-    "rejection_rate": 74.9,
+    "raw_count": 186,
+    "valid_count": 43,
+    "rejected_count": 143,
+    "rejection_rate": 76.9,
     "rejected_samples": [
       "DesktopCommanderMCP",
       "What does the \"yield\" keyword do in Python?",
@@ -674,21 +673,48 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "为什么 chatgpt 这么固执",
-      "Python Functional Programming: map, filter, reduce, and More"
+      "grok-4.5 真的比 gpt-5.6 sol 好用吧"
     ]
   },
   "trait_analysis": {
-    "total_captured": 354,
-    "chatter_blocked": 10,
-    "chatter_rate": 2.8,
-    "tool_signals_found": 183,
-    "tool_signal_rate": 51.7,
+    "total_captured": 356,
+    "chatter_blocked": 14,
+    "chatter_rate": 3.9,
+    "tool_signals_found": 186,
+    "tool_signal_rate": 52.2,
     "chatter_samples": [
       {
-        "text": "The early History of the Singular Value Decomposition (1993) [pdf] 🔥126pts 💬66",
+        "text": "Why Investors Choose a $2.500 Bitcoin Loan Over Selling",
+        "category": "news",
+        "matched": [
+          [
+            "Bitcoin",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "Compare Rates for a Secure $2.500 Ethereum Loan",
+        "category": "news",
+        "matched": [
+          [
+            "Ethereum",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "The early History of the Singular Value Decomposition (1993) [pdf] 🔥131pts 💬69",
         "category": "job",
         "matched": [
           "position"
+        ]
+      },
+      {
+        "text": "Xbox 'OG' Adventures",
+        "category": "chatter",
+        "matched": [
+          "vent"
         ]
       },
       {
@@ -700,24 +726,31 @@
         ]
       },
       {
-        "text": "观众吐槽：周星驰 到底谁欠谁电影票",
-        "category": "chatter",
+        "text": "noah kahan tour",
+        "category": "entertainment",
         "matched": [
-          "吐槽"
+          "tour"
         ]
       },
       {
-        "text": "Another Side (Corbin Bleu album)",
+        "text": "netflix new releases this week",
+        "category": "entertainment",
+        "matched": [
+          "netflix"
+        ]
+      },
+      {
+        "text": "Before Me (album)",
         "category": "entertainment",
         "matched": [
           "album"
         ]
       },
       {
-        "text": "2026 FC Seoul season",
+        "text": "Calgary Sports and Entertainment",
         "category": "entertainment",
         "matched": [
-          "season"
+          "Sports"
         ]
       },
       {
@@ -725,34 +758,6 @@
         "category": "ad",
         "matched": [
           "offer"
-        ]
-      },
-      {
-        "text": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam ",
-        "category": "chatter",
-        "matched": [
-          "imo"
-        ]
-      },
-      {
-        "text": "Validity of LLMs as data annotators: AMALIA on authority A national language mod",
-        "category": "job",
-        "matched": [
-          "offer"
-        ]
-      },
-      {
-        "text": "ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation ",
-        "category": "chatter",
-        "matched": [
-          "vent"
-        ]
-      },
-      {
-        "text": "granturismo — npm package: generator tool",
-        "category": "chatter",
-        "matched": [
-          "rant"
         ]
       }
     ],
@@ -838,13 +843,6 @@
         ]
       },
       {
-        "text": "为什么 chatgpt 这么固执",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['chatgpt']"
-        ]
-      },
-      {
         "text": "把微信转成 wechat 对现有业务有什么影响？",
         "confidence": 20,
         "features": [
@@ -852,18 +850,24 @@
         ]
       },
       {
-        "text": "Every AI tool, agent, and site builder a developer should know in 2026",
-        "confidence": 35,
+        "text": "为什么 chatgpt 这么固执",
+        "confidence": 15,
         "features": [
-          "输入→输出链式: [('AI tool', 'to', '', '', '', '')]",
-          "英文工具名词: ['tool']"
+          "技术概念: ['chatgpt']"
         ]
       },
       {
-        "text": "Python Functional Programming: map, filter, reduce, and More",
+        "text": "grok-4.5 真的比 gpt-5.6 sol 好用吧",
         "confidence": 15,
         "features": [
-          "技术概念: ['Python']"
+          "技术概念: ['gpt']"
+        ]
+      },
+      {
+        "text": "$2.500 BTC Loan: The Safest Way to Access Immediate Cash",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Way to Access', 'to', '', '', '', '')]"
         ]
       }
     ]

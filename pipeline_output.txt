@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-12T10:39:34.507709+00:00     ║
+║       启动时间: 2026-07-12T13:44:28.994634+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,11 +43,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 19 Show HN posts
+  ✅ 20 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 18 articles
+  ✅ 19 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 22 topics
+  ✅ 24 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,27 +81,26 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 352
-  🚫 闲聊拦截: 10 条 (2.8%)
-  🧠 工具信号: 179 条 (50.9%)
+  原始信号总量: 356
+  🚫 闲聊拦截: 14 条 (3.9%)
+  🧠 工具信号: 186 条 (52.2%)
 
   📋 闲聊拦截样例:
+     [news] Why Investors Choose a $2.500 Bitcoin Loan Over Selling
+     [news] Compare Rates for a Secure $2.500 Ethereum Loan
      [job] The early History of the Singular Value Decomposition (1993)
+     [chatter] Xbox 'OG' Adventures
      [entertainment] Presentation: Accelerating Netflix Data: A Cross-Team Journe
-     [entertainment] taylor swift new album
-     [chatter] 观众吐槽：周星驰 到底谁欠谁电影票
-     [chatter] 当地通报国企老板办公室收礼：已免职
 
   🧠 工具信号样例:
-     [置信度15%] claude-code-templates
-       ↳ 技术概念: ['claude']
-     [置信度15%] meshoptimizer
-       ↳ 英文工具名词: ['optimizer']
      [置信度20%] DesktopCommanderMCP
        ↳ 输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', '', '')]
-     [置信度45%] autofix-ci
-       ↳ 英文动作特征: ['autofix']
-       ↳ 输入→输出链式: [('autofix', 'to', '', '', '', ''
+     [置信度15%] awesome-llm-apps
+       ↳ 技术概念: ['llm']
+     [置信度15%] claude-cookbooks
+       ↳ 技术概念: ['claude']
+     [置信度15%] claude-code-templates
+       ↳ 技术概念: ['claude']
 
 ✅ 雷达完成 — 17 条建议
 
@@ -110,25 +109,26 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 352 条
-     🚫 闲聊拦截: 10 条 (2.8%)
-     🧠 工具信号: 179 条 (50.9%)
-     闲聊样例: The early History of the Singular Value Decomposit... [job]
-     工具信号样例: claude-code-templates... [置信度15%]
+     原始抓取: 356 条
+     🚫 闲聊拦截: 14 条 (3.9%)
+     🧠 工具信号: 186 条 (52.2%)
+     闲聊样例: Why Investors Choose a $2.500 Bitcoin Loan Over Se... [news]
+     工具信号样例: DesktopCommanderMCP... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 179 → 有效 41
-     拒绝率: 77.1%
+     工具信号 186 → 有效 43
+     拒绝率: 76.9%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
   ✅ 通过 (14):
-     [WARN  |  +45] Template Builder  [?]
      [PASS  |  +55] LLM Tool  [?]
+     [WARN  |  +45] Template Builder  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
+     [WARN  |  +30] Text Tools  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
@@ -136,7 +136,6 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
-     [WARN  |  +30] Text Tools  [?]
   🚫 拦截 (3):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
@@ -155,7 +154,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-12T10:39:34.739518+00:00
+   Generated at: 2026-07-12T13:44:29.116509+00:00
    Already in catalog: 133 tools
    Previously produced: 0 tools
    Existing tool pages: 44 files
@@ -326,7 +325,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-12T10:39:34.507709+00:00 → 2026-07-12T10:39:46.523691+00:00
+  ⏱  耗时: 2026-07-12T13:44:28.994634+00:00 → 2026-07-12T13:44:43.011644+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
