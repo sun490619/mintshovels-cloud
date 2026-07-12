@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-12T16:04:12.238400+00:00     ║
+║       启动时间: 2026-07-12T19:16:03.477186+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -31,7 +31,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 10 topics
+  ✅ 9 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 19 Show HN posts
+  ✅ 20 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 25 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 356
-  🚫 闲聊拦截: 11 条 (3.1%)
-  🧠 工具信号: 188 条 (52.8%)
+  原始信号总量: 353
+  🚫 闲聊拦截: 9 条 (2.5%)
+  🧠 工具信号: 187 条 (53.0%)
 
   📋 闲聊拦截样例:
-     [job] AI Boosts Research Careers but Flattens Scientific Discovery
-     [chatter] Xbox 'OG' Adventures
+     [job] AI boosts research careers but narrow the span of ideas expl
+     [chatter] Free tool matches your startup or nonprofit to open federal 
      [entertainment] Presentation: Accelerating Netflix Data: A Cross-Team Journe
-     [entertainment] mlb futures game
-     [job] Jeļena Ostapenko career statistics
+     [entertainment] 1932 Notre Dame Fighting Irish football team
+     [ad] OpenCoF: Learning to Reason Through Video Generation Reasoni
 
   🧠 工具信号样例:
      [置信度20%] DesktopCommanderMCP
@@ -99,9 +99,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['llm']
      [置信度15%] claude-cookbooks
        ↳ 技术概念: ['claude']
-     [置信度15%] claude-code-templates
-       ↳ 技术概念: ['claude']
-     [置信度15%] What does the "yield" keyword
+     [置信度15%] 
 
 ✅ 雷达完成 — 17 条建议
 
@@ -110,15 +108,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 356 条
-     🚫 闲聊拦截: 11 条 (3.1%)
-     🧠 工具信号: 188 条 (52.8%)
-     闲聊样例: AI Boosts Research Careers but Flattens Scientific... [job]
+     原始抓取: 353 条
+     🚫 闲聊拦截: 9 条 (2.5%)
+     🧠 工具信号: 187 条 (53.0%)
+     闲聊样例: AI boosts research careers but narrow the span of ... [job]
      工具信号样例: DesktopCommanderMCP... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 188 → 有效 44
-     拒绝率: 76.6%
+     工具信号 187 → 有效 42
+     拒绝率: 77.5%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -129,7 +127,6 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
-     [WARN  |  +30] Text Tools  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
@@ -137,6 +134,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
+     [WARN  |  +30] Text Tools  [?]
   🚫 拦截 (3):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
@@ -155,7 +153,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-12T16:04:12.385095+00:00
+   Generated at: 2026-07-12T19:16:03.635863+00:00
    Already in catalog: 133 tools
    Previously produced: 0 tools
    Existing tool pages: 44 files
@@ -326,7 +324,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-12T16:04:12.238400+00:00 → 2026-07-12T16:04:26.894253+00:00
+  ⏱  耗时: 2026-07-12T19:16:03.477186+00:00 → 2026-07-12T19:16:16.506139+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
