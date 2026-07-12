@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T03:40:00.164543+00:00",
+  "generated_at": "2026-07-12T05:44:50.949224+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -104,50 +104,50 @@
     "v2ex": [
       "国模 Minimax 的能力到底如何？ glm 抢不到 打算买一下 minimax",
       "魔兽争霸 3 网页版",
-      "功夫女足口碑",
       "专科大二，喜欢底层开发(?)，但有点迷茫想听听建议...",
-      "我发现 Codex 经常会写入幽灵规则",
-      "Codex 今天是不是放开了五小时限额？",
-      "请教，现在团队扩招，我希望招朋友进来，该注意些什么？",
+      "干程序年头多了是不是多少都得沾点易经",
+      "A÷，老子跟你拼了，被迫成为精神美国人",
+      "16 号从大陆去台湾旅行 大概 3 天 请问大家有什么方式能回回血？ 机票有点贵",
+      "钥匙忘拔，电动车被别人骑走， 有点成心魔了，另外问一下有摩托车推荐吗",
       "求推荐电视上给儿童看动画的 app",
-      "A÷，老子跟你拼了，被迫成为精神美国人"
+      "请教，现在团队扩招，我希望招朋友进来，该注意些什么？"
     ],
     "devto": [
       "DEV Community: programming",
-      "Navigating Data Egress Fees: A Hidden Cloud Cost for Startups",
-      "AIWave Article",
-      "Cx Dev Log — 2026-07-11",
-      "GPT-5.6 hit #1 on LMSYS coding in 24 hours — here is what changed",
-      "How I Stopped Getting Paged at 3 AM: Building Resilient API Clients",
-      "Show HN: Learn by rebuilding Redis, Git, a database from scratch — What Nobody Tells You",
-      "GPT-5.5 vs Claude vs DeepSeek: 3 months of real benchmarks",
-      "Today I Learned: Scalability Starts with a Solid Architecture",
-      "Criando uma Barra de Navegação Mobile sem JavaScript",
-      "Building Telemetry Tracker",
-      "Building a Telegram AI Agent for Personal Use",
-      "From 2-Hour Manual Regression to 8 Minutes: Doubling Accuracy in LLM Memory Testing"
+      "A Simple Guide to Trucking Tax Compliance Rules",
+      "I Wrote About Token Waste. Then I Built a Tool That Blocks It Before It Happens",
+      "How to Buy and Sell Twitter Accounts that are for Sale Buy ...",
+      "From a CMS in a College Dorm to Full Stack Engineering: My First Two Years in Tech",
+      "The Matrix: Decoding the 10 Most Common Coding Interview Mistakes",
+      "Buy Old Twitter Accounts - 100% active &amp; full verified",
+      "Buy Old Twitter Accounts - Verified &amp; Aged Profiles",
+      "AI Companion in Production by Month Three: 5 Architecture Decisions and Infra Tuning",
+      "Questions Answered, Existential Crisis Dodged",
+      "TIL: Python's `collections.Counter` makes frequency counting trivial (2026)",
+      "100 Battle-Tested AI Prompts for Developers - Free Preview",
+      "TIL: enumerate() Has a start Parameter You Probably Never Used (2026)"
     ],
     "lobsters": [
       "Where did my segfault go?",
       "Good Tools Are Invisible",
-      "An update on the scraper situation",
       "reaction: A daemon that scans program outputs for repeated patterns, and takes action",
+      "An update on the scraper situation",
+      "Who does Anubis actually stop?",
       "I converted an Android app to a webpage",
       "Gamedev in Zig is actually pretty good (2025)",
+      "In defense of not understanding your codebase",
       "I tried NetBSD as a desktop, and it felt like stepping into the '90s in a good way",
-      "Today I Rescued 7,234 Old GIFs",
       "Handsum: An LQIP Image File Format",
+      "Today I Rescued 7,234 Old GIFs",
       "Madame Semver Will See You Now",
+      "An Agent in 100 Lines of Lisp",
       "Odyssey Linux",
       "Hannah Montana Linux v26.0",
       "Working With AI: A Concrete Example",
-      "Who does Anubis actually stop?",
+      "The accessible contrast ratio colour grid thing",
       "gap: UI text diff",
       "RISCBoy RISC-V homebrew portable game console",
-      "The accessible contrast ratio colour grid thing",
-      "An Agent in 100 Lines of Lisp",
-      "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-      "In defense of not understanding your codebase"
+      "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -172,33 +172,37 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Prefer strict tables in SQLite 🔥236pts 💬116",
-      "Show HN: Ant – A JavaScript runtime and ecosystem 🔥202pts 💬86",
-      "We scaled PgBouncer to 4x throughput 🔥185pts 💬38",
-      "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom 🔥178pts 💬59",
-      "Show HN: Learn by rebuilding Redis, Git, a database from scratch 🔥137pts 💬39",
-      "Mesh LLM: distributed AI computing on iroh 🔥134pts 💬32",
-      "UPI: Anatomy of a Payment Transaction 🔥120pts 💬44",
-      "The early History of the Singular Value Decomposition (1993) [pdf] 🔥97pts 💬60",
-      "Doctors die. It's not like the rest of us, but it should be (2016) 🔥94pts 💬58",
-      "Biff.graph: structure your Clojure codebase as a queryable graph 🔥92pts 💬8",
-      "What xAI's Grok Build CLI Actually Sends to xAI 🔥91pts 💬47",
-      "RISCBoy is an open-source portable games console, designed from scratch 🔥74pts 💬17",
-      "ZeroFS vs. Amazon S3 Files 🔥68pts 💬16",
-      "Show HN: Orbit – AR satellite tracker, watch 15k+ objects 🔥64pts 💬17",
-      "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts 🔥63pts 💬8",
-      "Long Covid May Physically Damage the Nerves That Control the Stomach 🔥61pts 💬33",
-      "An agent in 100 lines of Lisp",
-      "Martha Lillard, last US polio patient using iron lung, dies at 78 in Oklahoma",
-      "A dock that wakes up reliably",
-      "A pure scheme web programming tool",
-      "Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL",
-      "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture",
+      "Prefer strict tables in SQLite 🔥250pts 💬121",
+      "Show HN: Ant – A JavaScript runtime and ecosystem 🔥223pts 💬98",
+      "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom 🔥213pts 💬69",
+      "We scaled PgBouncer to 4x throughput 🔥194pts 💬39",
+      "What xAI's Grok Build CLI Actually Sends to xAI 🔥174pts 💬93",
+      "Mesh LLM: distributed AI computing on iroh 🔥174pts 💬40",
+      "Show HN: Learn by rebuilding Redis, Git, a database from scratch 🔥146pts 💬41",
+      "UPI: Anatomy of a Payment Transaction 🔥140pts 💬52",
+      "Biff.graph: structure your Clojure codebase as a queryable graph 🔥120pts 💬9",
+      "Doctors die. It's not like the rest of us, but it should be (2016) 🔥118pts 💬67",
+      "The early History of the Singular Value Decomposition (1993) [pdf] 🔥107pts 💬61",
+      "RISCBoy is an open-source portable games console, designed from scratch 🔥97pts 💬17",
+      "Long Covid May Physically Damage the Nerves That Control the Stomach 🔥91pts 💬37",
+      "An agent in 100 lines of Lisp 🔥89pts 💬5",
+      "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts 🔥75pts 💬10",
+      "A pure scheme web programming tool 🔥71pts 💬17",
+      "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture 🔥67pts 💬19",
+      "Martha Lillard, last US polio patient using iron lung, dies at 78 in Oklahoma 🔥61pts 💬14",
+      "A dock that wakes up reliably 🔥58pts 💬38",
+      "A Erlang style pure Scheme Webserver and further",
       "I Did Not Kill Stanley Lieber: How to Draw (With 9front)",
       "Optimization Solver as a Service",
-      "How to organize 3 acquired companies into one coherent website"
+      "Fixed three bugs that made Qwen3.5-122B a daily driver on Mac Studio",
+      "Jellyfish Undersea Roundabout",
+      "The Energetic Costs of Cellular Computation (2012)"
     ],
     "hn_show": [
+      "Skiff, a frontier isochrone tuning simulation for sailboats — featured on Hacker News (🔥4pts)",
+      "AsyncFutures – A Ruby gem for asynchronous/concurrent code execution — featured on Hacker News (🔥1pts)",
+      "Chameleon – shows Claude a real file from your repo before it edits — featured on Hacker News (🔥1pts)",
+      "Dgxtop: Rust Monitor for DGX or need to monitor GPU status — featured on Hacker News (🔥1pts)",
       "We beat Anubis with our stealth MCP — featured on Hacker News (🔥8pts)",
       "Quantum-Qec / Matrix-Free Quantum Homeostatic Engine(Blueprint) — featured on Hacker News (🔥3pts)",
       "Confessor – replay what private info Claude Code accessed on your PC — featured on Hacker News (🔥4pts)",
@@ -211,11 +215,7 @@
       "Document Scanner for Freight Verification — featured on Hacker News (🔥3pts)",
       "OpenBenchmarks – Helping agents discover and pick the right SaaS APIs — featured on Hacker News (🔥6pts)",
       "Sanfransim.com – a long waited startup simulation game — featured on Hacker News (🔥2pts)",
-      "Ant – A JavaScript runtime and ecosystem — featured on Hacker News (🔥202pts)",
-      "Use GPT-5.6 and other models in Claude Code — featured on Hacker News (🔥1pts)",
-      "Sqlsure – deterministic semantic checks for AI-generated SQL — featured on Hacker News (🔥23pts)",
-      "Don't let your engineering brain rot in the age of AI — featured on Hacker News (🔥2pts)",
-      "Share and explore custom Claude Code status lines — featured on Hacker News (🔥2pts)"
+      "Ant – A JavaScript runtime and ecosystem — featured on Hacker News (🔥223pts)"
     ],
     "hn_ask_tools": [
       "The Population Bust Is Coming Sooner Than Anyone Is Prepared For — user asking for tool recommendation (🔥10pts)",
@@ -246,7 +246,7 @@
       "Show HN: R3 – A Local Code Review Tool for You and Your AI Agent — user asking for tool recommendation (🔥5pts)",
       "Building a real-time AI tutor for 5-year-olds — user asking for tool recommendation (🔥148pts)",
       "Show HN: Microsoft releases Flint, a visualization language for AI agents — user asking for tool recommendation (🔥345pts)",
-      "Show HN: Ant – A JavaScript runtime and ecosystem — user asking for tool recommendation (🔥202pts)",
+      "Show HN: Ant – A JavaScript runtime and ecosystem — user asking for tool recommendation (🔥223pts)",
       "Open-Source Alternative to Buffer, Typefully, Hootsuite — user asking for tool recommendation (🔥2pts)"
     ],
     "hackernoon": [
@@ -287,60 +287,60 @@
       "AWS Details How One Customer Scaled to One Million Lambda Functions <img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\"/><p>AWS has outlined how ProGlove, an industrial-wearables manufacturer, wa"
     ],
     "google_trends": [
-      "the odyssey",
-      "sophie cunningham",
-      "messi wife",
-      "jayson tatum",
-      "troy",
-      "walton goggins",
-      "qatar",
-      "conor mcgregor walkout song",
-      "cuti romero",
-      "landon knack"
+      "new girl",
+      "val kilmer",
+      "katie thurston",
+      "scarlett johansson",
+      "ca lottery",
+      "npb",
+      "dust advisory",
+      "ryan garcia",
+      "world cup trophy",
+      "slavery"
     ],
     "baidu": [
       "为建设科技强国多立新功",
-      "台风巴威登陆现场画面",
-      "世界杯：阿根廷vs瑞士",
+      "阿根廷3比1战胜瑞士",
+      "巴威已进入安徽",
       "遭遇强降雨有关险情如何避险自救",
-      "台风侵袭下700多棵树被连根拔起",
-      "瑞士队恩博洛假摔被罚下",
-      "江苏多地：在家宅一天 尽量别点外卖",
-      "哈兰德的世界杯结束了",
-      "哈兰德推人犯规 进球无效",
-      "浙江象山有屋顶被掀 门框也被吹落",
-      "英格兰2比1挪威晋级四强",
-      "无人机吊起2人神图系AI合成",
-      "台风登陆十分钟风云骤变 树连根拔起",
-      "邹市明拒绝和冉莹颖沟通",
-      "6月全国新增新冠确诊7.9万例",
+      "世界前四齐聚世界杯四强",
       "新规挽救英格兰队",
-      "台风巴威在浙江乐清二次登陆",
+      "江苏多地：在家宅一天 尽量别点外卖",
+      "无缘四强 哈兰德赛后发声",
+      "台风巴威登陆现场画面",
+      "台风巴威成陆上巨型洒水车",
+      "台风侵袭下700多棵树被连根拔起",
+      "无人机吊起2人神图系AI合成",
+      "邹市明拒绝和冉莹颖沟通",
+      "浙江211条预警连发",
+      "6月全国新增新冠确诊7.9万例",
+      "记者眼镜被台风吹走一把捞回",
       "哈兰德世界杯84%时间在散步",
-      "国际足联主席：考虑世界杯扩军至64队",
-      "上半年电视剧收视率排名出炉"
+      "贝林厄姆连场双响 真正的大英救星",
+      "瑞士队恩博洛假摔被罚下",
+      "时隔36年 世界杯四强再现全冠军球队"
     ],
     "wikipedia": [
-      "Daly language",
-      "Islamic military jurisprudence",
-      "Owen Jones",
-      "The Cat in the Hat (2003 film)",
-      "Silver Trails",
-      "Super Dimension Century Orguss",
-      "Bunuban language",
-      "The Bunyas",
-      "Rate Your Mate",
-      "Munawwar Ali",
-      "Dudley Boyz",
-      "Arab News",
-      "Kriti II",
-      "Sarkcess Music",
-      "KZMJ",
-      "Enea Arena",
-      "Sarkcess Music",
-      "Heath Ledger",
-      "World of Outlaws",
-      "Song of the Drifter"
+      "2026 Punjab, India local elections",
+      "Killing of Sam Nordquist",
+      "Gurk Cathedral",
+      "Octabenzone",
+      "William Carson",
+      "Sarmi-Jayapura language",
+      "Sheriff Dugald MacTavish of Dunardry",
+      "VASP",
+      "Gunnilbo Church",
+      "Gumaca Cathedral",
+      "Aleks Le",
+      "Guldrupe Church",
+      "Ramu-Lower Sepik language",
+      "Milan Chams",
+      "Guiuan Church",
+      "Driving range",
+      "Television broadcaster",
+      "Guimbal Church",
+      "Cars 2: The Video Game",
+      "Yeldulknie Conservation Park"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -400,8 +400,8 @@
       "insomnia-documenter — npm package: API documentation generator tool for Insomnia.",
       "conjurate — npm package: Pluggable generator tool",
       "packs — npm package: Static survey generator tool",
-      "love-island-gems-generator — npm package: love-island-gems-generator-tool",
       "grunt-phpdocumentor — npm package: Runs the PHPDocumentor documentation generator tool.",
+      "love-island-gems-generator — npm package: love-island-gems-generator-tool",
       "pwa-kit-create-app — npm package: Salesforce's project generator tool",
       "@teld-approval/converter — npm package: converter tool",
       "@adobe/aem-cs-source-migration-dispatcher-converter — npm package: AEM as a Cloud Service Dispatcher Converter tool",
@@ -425,28 +425,29 @@
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format"
     ],
     "github_topics": [
-      "github trending topic: database",
-      "github trending topic: front end",
-      "github trending topic: typescript",
-      "github trending topic: node.js",
-      "github trending topic: mcp",
-      "github trending topic: llm",
-      "github trending topic: awesome lists",
-      "github trending topic: css",
-      "github trending topic: nodejs",
-      "github trending topic: ai-agents",
-      "github trending topic: project management",
       "github trending topic: react native",
-      "github trending topic: npm",
-      "github trending topic: claude-code",
-      "github trending topic: claude",
-      "github trending topic: code quality",
-      "github trending topic: compiler",
-      "github trending topic: chrome",
-      "github trending topic: react",
+      "github trending topic: docker",
       "github trending topic: python",
+      "github trending topic: css",
+      "github trending topic: code quality",
+      "github trending topic: database",
+      "github trending topic: nextjs",
       "github trending topic: javascript",
-      "github trending topic: scala"
+      "github trending topic: ai-agents",
+      "github trending topic: typescript",
+      "github trending topic: npm",
+      "github trending topic: front end",
+      "github trending topic: scala",
+      "github trending topic: project management",
+      "github trending topic: fastapi",
+      "github trending topic: compiler",
+      "github trending topic: react",
+      "github trending topic: nestjs",
+      "github trending topic: chrome",
+      "github trending topic: node.js",
+      "github trending topic: documentation",
+      "github trending topic: awesome lists",
+      "github trending topic: llm"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -460,15 +461,6 @@
       "type": "tool",
       "name": "Template Builder",
       "name_zh": "模板构建器"
-    },
-    {
-      "keyword": "Building Telemetry Tracker",
-      "matched": "track",
-      "category": "productivity",
-      "subcat": "tracking",
-      "type": "tool",
-      "name": "Tracker Tool",
-      "name_zh": "追踪工具"
     },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
@@ -532,33 +524,6 @@
       "type": "tool",
       "name": "Unit Converter",
       "name_zh": "单位换算"
-    },
-    {
-      "keyword": "Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL",
-      "matched": "sql",
-      "category": "dev",
-      "subcat": "code",
-      "type": "tool",
-      "name": "SQL Formatter",
-      "name_zh": "SQL格式化"
-    },
-    {
-      "keyword": "Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL",
-      "matched": "generate",
-      "category": "ai",
-      "subcat": "ai-image",
-      "type": "tool",
-      "name": "AI Generator",
-      "name_zh": "AI生成器"
-    },
-    {
-      "keyword": "Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL",
-      "matched": "check",
-      "category": "dev",
-      "subcat": "code",
-      "type": "tool",
-      "name": "Checker Tool",
-      "name_zh": "检测工具"
     },
     {
       "keyword": "Show HN: Free PDF Document Redaction — user asking for tool recommendation (🔥1pts)",
@@ -633,6 +598,15 @@
       "name_zh": "JSON格式化"
     },
     {
+      "keyword": "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
+      "matched": "sql",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "SQL Formatter",
+      "name_zh": "SQL格式化"
+    },
+    {
       "keyword": "paknevis — npm package: Paknevis.js is a persian text formatter tool.",
       "matched": "text",
       "category": "productivity",
@@ -645,7 +619,6 @@
   "all_keywords": [
     "claude-code-templates",
     "autofix-ci",
-    "Building Telemetry Tracker",
     "Good Tools Are Invisible",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -667,9 +640,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Show HN: Orbit – AR satellite tracker, watch 15k+ objects 🔥64pts 💬17",
-    "A pure scheme web programming tool",
-    "Show HN: Sqlsure – deterministic semantic checks for AI-generated SQL",
+    "A pure scheme web programming tool 🔥71pts 💬17",
     "Ask HN: Experiences of Working in Big Data — user asking for tool recommendation (🔥1pts)",
     "Show HN: Free PDF Document Redaction — user asking for tool recommendation (🔥1pts)",
     "electra-base-discriminator",
@@ -689,10 +660,10 @@
     "paknevis — npm package: Paknevis.js is a persian text formatter tool."
   ],
   "filter_stats": {
-    "raw_count": 181,
-    "valid_count": 44,
-    "rejected_count": 137,
-    "rejection_rate": 75.7,
+    "raw_count": 175,
+    "valid_count": 41,
+    "rejected_count": 134,
+    "rejection_rate": 76.6,
     "rejected_samples": [
       "meshoptimizer",
       "DesktopCommanderMCP",
@@ -707,14 +678,31 @@
     ]
   },
   "trait_analysis": {
-    "total_captured": 349,
-    "chatter_blocked": 11,
-    "chatter_rate": 3.2,
-    "tool_signals_found": 181,
-    "tool_signal_rate": 51.9,
+    "total_captured": 350,
+    "chatter_blocked": 9,
+    "chatter_rate": 2.6,
+    "tool_signals_found": 175,
+    "tool_signal_rate": 50.0,
     "chatter_samples": [
       {
-        "text": "The early History of the Singular Value Decomposition (1993) [pdf] 🔥97pts 💬60",
+        "text": "How to Buy and Sell Twitter Accounts that are for Sale Buy ...",
+        "category": "ad",
+        "matched": [
+          "Sale"
+        ]
+      },
+      {
+        "text": "Questions Answered, Existential Crisis Dodged",
+        "category": "news",
+        "matched": [
+          [
+            "Crisis",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "The early History of the Singular Value Decomposition (1993) [pdf] 🔥107pts 💬61",
         "category": "job",
         "matched": [
           "position"
@@ -726,34 +714,6 @@
         "matched": [
           "Netflix",
           "netflix"
-        ]
-      },
-      {
-        "text": "世界杯：阿根廷vs瑞士",
-        "category": "entertainment",
-        "matched": [
-          "世界杯"
-        ]
-      },
-      {
-        "text": "The Cat in the Hat (2003 film)",
-        "category": "entertainment",
-        "matched": [
-          "film"
-        ]
-      },
-      {
-        "text": "Sarkcess Music",
-        "category": "entertainment",
-        "matched": [
-          "Music"
-        ]
-      },
-      {
-        "text": "Sarkcess Music",
-        "category": "entertainment",
-        "matched": [
-          "Music"
         ]
       },
       {
@@ -782,6 +742,13 @@
         "category": "chatter",
         "matched": [
           "vent"
+        ]
+      },
+      {
+        "text": "granturismo — npm package: generator tool",
+        "category": "chatter",
+        "matched": [
+          "rant"
         ]
       }
     ],
@@ -882,18 +849,19 @@
         ]
       },
       {
-        "text": "GPT-5.6 hit #1 on LMSYS coding in 24 hours — here is what changed",
-        "confidence": 15,
+        "text": "A Simple Guide to Trucking Tax Compliance Rules",
+        "confidence": 20,
         "features": [
-          "技术概念: ['GPT']"
+          "输入→输出链式: [('Guide to Trucking', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "How I Stopped Getting Paged at 3 AM: Building Resilient API Clients",
-        "confidence": 35,
+        "text": "I Wrote About Token Waste. Then I Built a Tool That Blocks It Before It Happens",
+        "confidence": 50,
         "features": [
-          "输入→输出链式: [('Stopped', 'to', '', '', '', '')]",
-          "技术概念: ['API']"
+          "输入→输出链式: [('About Token', 'To', '', '', '', ''), ('a Tool', 'To', '', '', '', '')]",
+          "英文工具名词: ['tool']",
+          "技术概念: ['Token']"
         ]
       }
     ]
