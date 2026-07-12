@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-12T19:16:03.477186+00:00     ║
+║       启动时间: 2026-07-12T21:58:17.181009+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 20 Show HN posts
+  ✅ 19 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 22 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -83,13 +83,13 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
   原始信号总量: 353
   🚫 闲聊拦截: 9 条 (2.5%)
-  🧠 工具信号: 187 条 (53.0%)
+  🧠 工具信号: 180 条 (51.0%)
 
   📋 闲聊拦截样例:
-     [job] AI boosts research careers but narrow the span of ideas expl
-     [chatter] Free tool matches your startup or nonprofit to open federal 
      [entertainment] Presentation: Accelerating Netflix Data: A Cross-Team Journe
-     [entertainment] 1932 Notre Dame Fighting Irish football team
+     [news] president trump plane security
+     [chatter] Robin Dillimore
+     [chatter] Dr. Oliver Tree's Extremely Epic Art Grant For Baby Geniuses
      [ad] OpenCoF: Learning to Reason Through Video Generation Reasoni
 
   🧠 工具信号样例:
@@ -99,7 +99,9 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['llm']
      [置信度15%] claude-cookbooks
        ↳ 技术概念: ['claude']
-     [置信度15%] 
+     [置信度15%] claude-code-templates
+       ↳ 技术概念: ['claude']
+     [置信度15%] Wh
 
 ✅ 雷达完成 — 17 条建议
 
@@ -110,13 +112,13 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 353 条
      🚫 闲聊拦截: 9 条 (2.5%)
-     🧠 工具信号: 187 条 (53.0%)
-     闲聊样例: AI boosts research careers but narrow the span of ... [job]
+     🧠 工具信号: 180 条 (51.0%)
+     闲聊样例: Presentation: Accelerating Netflix Data: A Cross-T... [entertainment]
      工具信号样例: DesktopCommanderMCP... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 187 → 有效 42
-     拒绝率: 77.5%
+     工具信号 180 → 有效 43
+     拒绝率: 76.1%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -153,7 +155,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-12T19:16:03.635863+00:00
+   Generated at: 2026-07-12T21:58:17.425390+00:00
    Already in catalog: 133 tools
    Previously produced: 0 tools
    Existing tool pages: 44 files
@@ -324,7 +326,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-12T19:16:03.477186+00:00 → 2026-07-12T19:16:16.506139+00:00
+  ⏱  耗时: 2026-07-12T21:58:17.181009+00:00 → 2026-07-12T21:58:30.375261+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
