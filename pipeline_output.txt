@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-12T03:40:00.004458+00:00     ║
+║       启动时间: 2026-07-12T08:28:04.637730+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 17 Show HN posts
+  ✅ 16 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 349
-  🚫 闲聊拦截: 11 条 (3.2%)
-  🧠 工具信号: 181 条 (51.9%)
+  原始信号总量: 348
+  🚫 闲聊拦截: 12 条 (3.4%)
+  🧠 工具信号: 174 条 (50.0%)
 
   📋 闲聊拦截样例:
+     [job] Python programming Summer Internship for Freshers with Live 
+     [job] How to Master The early History of the Singular Value Decomp
      [job] The early History of the Singular Value Decomposition (1993)
      [entertainment] Presentation: Accelerating Netflix Data: A Cross-Team Journe
-     [entertainment] 世界杯：阿根廷vs瑞士
-     [entertainment] The Cat in the Hat (2003 film)
-     [entertainment] Sarkcess Music
+     [chatter] 当地通报国企老板办公室收礼：已免职
 
   🧠 工具信号样例:
      [置信度15%] claude-code-templates
@@ -100,46 +100,42 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度20%] DesktopCommanderMCP
        ↳ 输入→输出链式: [('DesktopCommanderMCP', 'to', '', '', '', '')]
      [置信度45%] autofix-ci
-       ↳ 英文动作特征: ['autofix']
-       ↳ 输入→输出链式: [('autofix', 'to', '', 
+       ↳ 英文动作特
 
-✅ 雷达完成 — 21 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 349 条
-     🚫 闲聊拦截: 11 条 (3.2%)
-     🧠 工具信号: 181 条 (51.9%)
-     闲聊样例: The early History of the Singular Value Decomposit... [job]
+     原始抓取: 348 条
+     🚫 闲聊拦截: 12 条 (3.4%)
+     🧠 工具信号: 174 条 (50.0%)
+     闲聊样例: Python programming Summer Internship for Freshers ... [job]
      工具信号样例: claude-code-templates... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 181 → 有效 44
-     拒绝率: 75.7%
+     工具信号 174 → 有效 41
+     拒绝率: 76.4%
 
-  📊 意图分类器审计 — 审查 20 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (17):
+  ✅ 通过 (14):
      [WARN  |  +45] Template Builder  [?]
-     [PASS  |  +65] Tracker Tool  [?]
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
      [WARN  |  +36] Unit Converter  [?]
-     [PASS  |  +55] SQL Formatter  [?]
-     [PASS  |  +65] AI Generator  [?]
-     [PASS  |  +75] Checker Tool  [?]
-     [PASS  |  +70] PDF Editor  [?]
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
      [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
+     [PASS  |  +55] SQL Formatter  [?]
+     [WARN  |  +30] Text Tools  [?]
   🚫 拦截 (3):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
@@ -157,8 +153,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 21 suggestions
-   Generated at: 2026-07-12T03:40:00.164543+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-07-12T08:28:04.796758+00:00
    Already in catalog: 133 tools
    Previously produced: 0 tools
    Existing tool pages: 44 files
@@ -329,7 +325,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-12T03:40:00.004458+00:00 → 2026-07-12T03:40:12.305081+00:00
+  ⏱  耗时: 2026-07-12T08:28:04.637730+00:00 → 2026-07-12T08:28:16.931503+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
