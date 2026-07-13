@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T17:03:17.329801+00:00",
+  "generated_at": "2026-07-13T17:19:33.668897+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -90,32 +90,32 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "I Delayed Multi-Model Orchestration. Then the Economics Changed.",
+      "AI's Day: Answered Questions, Helped People. That's It. (But It's a Blog Post Now)",
+      "How to Become a Data Analyst in 2026",
+      "Object in JavaScript",
+      "A Function Signature Is Part of Your Domain Model",
+      "Implementing Automated Testing for Web Applications with Python and Selenium: A Beginner's Guide",
+      "Python multiprocessing vs threading: When to Use Each",
       "AI Foundations Every Developer Should Understand in 2026",
       "Building a Secure Web Application with Python and Flask: A Step-by-Step Guide",
       "Compare the Safest $2.500 Crypto Lending Options",
       "Best Peer to Peer Deals for a $2.500 Crypto Loan",
-      "Getting Started with Machine Learning on Linux: A Beginner's Guide to Installing and Using TensorFlow and Keras for Image Classification Tasks",
-      "Object in JS",
-      "Best Free QR Code Generator this year",
-      "دورة شاملة لتعلم أساسيات تصميم واجهات المستخدم مع لغة برمجة جافاسكريبت باستخدام مكتبة رياكت",
-      "Memory Management in JavaScript Games — `destroy()`, `hide()`, and Object Pooling",
-      "Your Feedback Made This Better — Here's What Changed",
-      "إنشاء تطبيق ويب بسيط باستخدام لغة برمجة بايثون و إطار Flask",
-      "A -Practical- Guide -to Bybit- Identity -Checks"
+      "Getting Started with Machine Learning on Linux: A Beginner's Guide to Installing and Using TensorFlow and Keras for Image Classification Tasks"
     ],
     "lobsters": [
       "Quadrupling code performance with a \"useless\" if",
       "Just Let Me Write Digits",
+      "Human Emacs",
       "Closing a three-year-old issue using Rust arenas",
       "crates.io: development update",
-      "Human Emacs",
       "Evan's Jujutsu Tutorial",
       "A WWDC 26 Update on Building a Mac-assed App with SwiftUI",
       "Hacker Fables - A satirical cyberpunk novella you can read as a man page",
+      "How early SunOS did diskless workstations before NFS",
       "Know thine enemy: A critical engagement with AI-assisted software development",
       "IPv6 over drainage pipe",
       "WebExtension to query any HTML table with PRQL",
-      "How early SunOS did diskless workstations before NFS",
       "Overhauled homelab",
       "What are you doing this week?",
       "Don’t Use aria-label on Static Text Elements (2024)",
@@ -148,34 +148,38 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke 🔥1170pts 💬592",
-      "How to read more books 🔥500pts 💬262",
-      "The Graph That Should Be Front-Page News 🔥466pts 💬270",
-      "Grok uploaded my user directory to xAI's servers 🔥439pts 💬232",
+      "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke 🔥1187pts 💬604",
+      "How to read more books 🔥503pts 💬262",
+      "The Graph That Should Be Front-Page News 🔥476pts 💬279",
       "GhostLock, a stack-UAF that has existed in all Linux distributions for 15 years 🔥359pts 💬164",
-      "Tiny Emulators 🔥320pts 💬28",
-      "So you want to learn physics (second edition, 2021) 🔥294pts 💬60",
-      "Cyberpunk Comics, Manga and Graphic Novels 🔥271pts 💬119",
-      "Grok CLI uploaded the whole home directory to GCS 🔥260pts 💬101",
-      "A voxel Tokyo in real Japan time – ride the Yamanote line and study Japanese 🔥233pts 💬35",
-      "Backtrack-Free Cursive 🔥205pts 💬92",
-      "Interrail: 6,379Km and 13 Countries over 7 weeks 🔥173pts 💬115",
-      "DOGE is done. What happened to its records? 🔥157pts 💬92",
-      "The social physics of conversation: Communication patterns matter 🔥133pts 💬27",
-      "LAPD lets contract with surveillance giant Flock expire 🔥132pts 💬64",
-      "Precursor 🔥114pts 💬97",
-      "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop 🔥112pts 💬109",
-      "The art and engineering of Sega CD Silpheed 🔥104pts 💬17",
-      "Beavis Ultrasound PnP ISA Sound Card Replica 🔥90pts 💬34",
-      "Show HN: DOM-docx – HTML to native, editable Word docs (MIT) 🔥88pts 💬23",
-      "The 'absolute magic' of Morse code that still connects people globally 🔥74pts 💬32",
-      "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor 🔥67pts 💬43",
-      "Frieve Vinyl Explained – Microscopic stylus/groove physics simulation 🔥65pts 💬9",
+      "Tiny Emulators 🔥321pts 💬28",
+      "So you want to learn physics (second edition, 2021) 🔥297pts 💬60",
+      "Grok CLI uploaded the whole home directory to GCS 🔥275pts 💬107",
+      "Cyberpunk Comics, Manga and Graphic Novels 🔥272pts 💬120",
+      "A voxel Tokyo in real Japan time – ride the Yamanote line and study Japanese 🔥244pts 💬35",
+      "Backtrack-Free Cursive 🔥209pts 💬95",
+      "DOGE is done. What happened to its records? 🔥185pts 💬119",
+      "Interrail: 6,379Km and 13 Countries over 7 weeks 🔥174pts 💬117",
+      "LAPD lets contract with surveillance giant Flock expire 🔥148pts 💬76",
+      "The social physics of conversation: Communication patterns matter 🔥136pts 💬28",
+      "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop 🔥118pts 💬112",
+      "Precursor 🔥117pts 💬100",
+      "The art and engineering of Sega CD Silpheed 🔥117pts 💬19",
+      "Show HN: DOM-docx – HTML to native, editable Word docs (MIT) 🔥92pts 💬23",
+      "Beavis Ultrasound PnP ISA Sound Card Replica 🔥91pts 💬34",
+      "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor 🔥88pts 💬63",
+      "The 'absolute magic' of Morse code that still connects people globally 🔥75pts 💬37",
+      "Frieve Vinyl Explained – Microscopic stylus/groove physics simulation 🔥66pts 💬9",
       "Cursed circuits #6: reverse avalanche oscillator",
-      "Wikipedia escapes Category 1 designation under the UK Online Safety Act for now"
+      "Wikipedia escapes Category 1 designation under the UK Online Safety Act for now",
+      "Benchmarking 15 \"E-Waste\" GPUs with Modern Workloads"
     ],
     "hn_show": [
-      "Technical-debt score for dbt projects on Snowflake/BigQuery/Redshift — featured on Hacker News (🔥1pts)",
+      "AutoFlow – Turn screen recordings into user guides — featured on Hacker News (🔥1pts)",
+      "Hypercube – Context Transform Engine — featured on Hacker News (🔥1pts)",
+      "Clay Seal Identity – Agents need accountability — featured on Hacker News (🔥1pts)",
+      "Making native mobile apps on the phone for the phone — featured on Hacker News (🔥1pts)",
+      "Technical-debt score for dbt projects on Snowflake/BigQuery/Redshift — featured on Hacker News (🔥3pts)",
       "QuantumReckon – find your real cloud and AI spend, including tokens — featured on Hacker News (🔥1pts)",
       "Canvas, multiplayer HTML (MCP-first) — featured on Hacker News (🔥2pts)",
       "Rejit — featured on Hacker News (🔥2pts)",
@@ -186,14 +190,10 @@
       "Anonymous LLM proxy. Pay in crypto, no account needed — featured on Hacker News (🔥1pts)",
       "Topsoil – I turned my MacBook's notch into a dashboard for coding agent — featured on Hacker News (🔥1pts)",
       "Claude Organizer, folders and search for Claude.ai, all local — featured on Hacker News (🔥1pts)",
-      "Spellfolio – my stock market game with news events and inside info — featured on Hacker News (🔥2pts)",
+      "Spellfolio – my stock market game with news events and inside info — featured on Hacker News (🔥3pts)",
       "Containerized AI development with cross-compatibility — featured on Hacker News (🔥1pts)",
       "UniFi OS Server in Docker — featured on Hacker News (🔥3pts)",
-      "Taepdf – Turn your live DOM into a pixel-perfect PDF — featured on Hacker News (🔥1pts)",
-      "Jacquard, a programming language for AI-written, human-reviewed code — featured on Hacker News (🔥4pts)",
-      "HTML, CSS and JavaScript in the Terminal — featured on Hacker News (🔥3pts)",
-      "GraphCompose 2.0 – Java DSL for business PDFs, now split into modules — featured on Hacker News (🔥2pts)",
-      "Overplane: Containers and formal verification for AI code — featured on Hacker News (🔥3pts)"
+      "Taepdf – Turn your live DOM into a pixel-perfect PDF — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
       "Ask HN: How do you read programming books? — user asking for tool recommendation (🔥1pts)",
@@ -212,20 +212,20 @@
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
       "Ask HN: What is the best way to learn game logic programming for beginners? — user asking for tool recommendation (🔥2pts)",
-      "Show HN: HTML, CSS and JavaScript in the Terminal — user asking for tool recommendation (🔥3pts)",
+      "Show HN: HTML, CSS and JavaScript in the Terminal — user asking for tool recommendation (🔥4pts)",
       "Show HN: Harpist – convert any website into a refined and documented API — user asking for tool recommendation (🔥2pts)",
       "Show HN: OSS Web Based AI Video Studio (Vivijure) — user asking for tool recommendation (🔥2pts)",
       "Do you write with AI? Do you think people notice? — user asking for tool recommendation (🔥1pts)",
       "Ask HN: Would filesystem bookmarks be useful in your shell workflow? — user asking for tool recommendation (🔥4pts)",
       "Show HN: Kote – Capture and reuse engineering context from AI chats and Git — user asking for tool recommendation (🔥3pts)",
-      "Show HN: Skillscript – A declarative, sandboxed language for tool orchestration — user asking for tool recommendation (🔥16pts)",
+      "Show HN: Skillscript – A declarative, sandboxed language for tool orchestration — user asking for tool recommendation (🔥17pts)",
+      "Show HN: AutoFlow – Turn screen recordings into user guides — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Clay Seal Identity – Agents need accountability — user asking for tool recommendation (🔥1pts)",
       "Show HN: Build Rules for Claude Code, Cursor, and Codex — user asking for tool recommendation (🔥1pts)",
       "Show HN: Sleep external displays connected to a MacBook after closing lid — user asking for tool recommendation (🔥3pts)",
-      "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k — user asking for tool recommendation (🔥673pts)",
-      "Show HN: Pgnudge - tell your app which Postgres tables just changed — user asking for tool recommendation (🔥3pts)",
       "Datacentres need to consider alternatives to grid connection — user asking for tool recommendation (🔥1pts)",
       "An Alternative to Webmentions for the Emacs Carnival — user asking for tool recommendation (🔥1pts)",
-      "Show HN: Ant – A JavaScript runtime and ecosystem — user asking for tool recommendation (🔥323pts)"
+      "Show HN: Ant – A JavaScript runtime and ecosystem — user asking for tool recommendation (🔥324pts)"
     ],
     "hackernoon": [
       "66 Blog Posts To Learn About Beginners To Coding",
@@ -267,16 +267,16 @@
       "Podcast: Formal Methods for Every Engineer in an AI-Powered Future <img src=\"https://res.infoq.com/podcasts/formal-methods-ai-powered-future/en/smallimage/engineering-culture-podcast-thumbnail-1783939027592.jpg\"/><p>I"
     ],
     "google_trends": [
+      "earthquake",
+      "francia vs españa",
+      "earthquake now",
       "earthquake now los angeles",
       "crm stock",
-      "new york knicks",
       "donald trump irs lawsuit",
+      "new york knicks",
       "jaume munar",
       "regal princess crew search",
-      "paul wesley",
-      "cole hauser",
-      "storm",
-      "magda linette"
+      "paul wesley"
     ],
     "baidu": [
       "习近平将出席世界人工智能大会开幕式",
@@ -286,41 +286,41 @@
       "人均日通话降至8.7分钟",
       "《功夫女足》爆了 但周星驰有点偷懒",
       "日本民众集会举牌“中国对不起”",
-      "游客忘拉手刹轿车溜进赛里木湖",
-      "长鑫近2万员工每人或可分超百万",
       "重庆男子带“移动空调”江边钓鱼",
+      "中国首个禁售燃油车省份为何是海南",
+      "游客忘拉手刹轿车溜进赛里木湖",
       "“功夫女足和功夫差了十个少林足球”",
       "关于台风天的几个误区",
       "女子睡觉时被虫咬断一大把头发",
-      "中国首个禁售燃油车省份为何是海南",
+      "长鑫近2万员工每人或可分超百万",
       "周星驰的“炸裂”票房不可复制",
       "美股半导体大跌！闪迪跌超10%",
       "天津一医院主任通过APP答题受贿",
       "博主：《功夫女足》没那么烂",
-      "30岁女子嘴角长水疱未重视竟脑死亡",
-      "浙江富春江水电站17孔全开泄洪"
+      "浙江富春江水电站17孔全开泄洪",
+      "30岁女子嘴角长水疱未重视竟脑死亡"
     ],
     "wikipedia": [
-      "Israels",
-      "3rd Yokohama Film Festival",
-      "Conospermum densiflorum",
-      "List of Passions crew",
-      "Ultraman Gaia: The Battle in Hyperspace",
-      "Disgusting Food Museum",
-      "Frappé coffee",
-      "Soft Machine discography",
-      "Lament",
-      "Elis Lundholm",
-      "List of awards and nominations received by Passions",
-      "Israbluff",
-      "İzmir",
-      "2026 Swiss Open Gstaad – Singles",
-      "Harriot Kezia Hunt",
-      "Hidden Passions",
-      "Dorothy Carolin Bacon",
-      "Passions (TV series)",
-      "M7 (railcar)",
-      "List of foreign Danish Superliga players"
+      "Viggósdóttir",
+      "2026–27 CR Témouchent season",
+      "Transnational political party",
+      "List of foreign Danish Superliga players",
+      "Georgia national rugby union team",
+      "Cellius",
+      "Eyre Saitch",
+      "2026 Big 12 Conference football season",
+      "Cavia (company)",
+      "Rosé",
+      "Anatoliy Kokush",
+      "Parastasia pulupuluensis",
+      "German Volunteer Corps",
+      "Sienna Spiro",
+      "Kaiden McCarthy",
+      "Nydam Mose",
+      "WOW counties",
+      "Crea-Tech",
+      "Johan van Benthem (logician)",
+      "Lower Cape May Regional High School"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -405,31 +405,28 @@
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format"
     ],
     "github_topics": [
+      "github trending topic: macos",
+      "github trending topic: code quality",
       "github trending topic: css",
-      "github trending topic: javascript",
-      "github trending topic: awesome lists",
-      "github trending topic: scala",
-      "github trending topic: security-tools",
       "github trending topic: python",
       "github trending topic: growth-dummy",
-      "github trending topic: database",
-      "github trending topic: marketplace",
-      "github trending topic: compiler",
       "github trending topic: front end",
-      "github trending topic: code quality",
+      "github trending topic: database",
+      "github trending topic: gallery",
       "github trending topic: typescript",
-      "github trending topic: penetration-testing",
       "github trending topic: npm",
-      "github trending topic: cybersecurity",
       "github trending topic: project management",
-      "github trending topic: react",
-      "github trending topic: red-team",
-      "github trending topic: expense",
-      "github trending topic: chrome",
-      "github trending topic: quiz",
-      "github trending topic: infosec",
+      "github trending topic: machine-learning",
       "github trending topic: node.js",
-      "github trending topic: react native"
+      "github trending topic: ciscodevnet",
+      "github trending topic: compiler",
+      "github trending topic: chrome",
+      "github trending topic: javascript",
+      "github trending topic: scala",
+      "github trending topic: react",
+      "github trending topic: awesome lists",
+      "github trending topic: react native",
+      "github trending topic: llm"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -452,24 +449,6 @@
       "type": "tool",
       "name": "Viewer",
       "name_zh": "查看器"
-    },
-    {
-      "keyword": "Best Free QR Code Generator this year",
-      "matched": "qr",
-      "category": "productivity",
-      "subcat": "misc",
-      "type": "tool",
-      "name": "QR Code Generator",
-      "name_zh": "二维码生成器"
-    },
-    {
-      "keyword": "Best Free QR Code Generator this year",
-      "matched": "generator",
-      "category": "misc",
-      "subcat": "misc",
-      "type": "tool",
-      "name": "Generator",
-      "name_zh": "生成器"
     },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
@@ -524,6 +503,15 @@
       "type": "tool",
       "name": "Unit Converter",
       "name_zh": "单位换算"
+    },
+    {
+      "keyword": "tgt — npm package: tpl generator tool",
+      "matched": "generator",
+      "category": "misc",
+      "subcat": "misc",
+      "type": "tool",
+      "name": "Generator",
+      "name_zh": "生成器"
     },
     {
       "keyword": "packs — npm package: Static survey generator tool",
@@ -603,7 +591,6 @@
     "copilot-pull-request-reviewer",
     "推一下自己不到 100 用户的小中转站",
     "继续推广我的 gpt 中转站，注册就送 28.8$余额，已稳定运行俩月有余了 稳定不跑路",
-    "Best Free QR Code Generator this year",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -624,7 +611,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke 🔥1170pts 💬592",
+    "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke 🔥1187pts 💬604",
     "Ask HN: How do you read programming books? — user asking for tool recommendation (🔥1pts)",
     "Show HN: Aco – Appium Command-Line Operator — user asking for tool recommendation (🔥1pts)",
     "7 Things We Got Wrong Building a Finance Tool for Founders",
@@ -643,14 +630,13 @@
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "prettier — npm package: Prettier is an opinionated code formatter",
     "sass-formatter — npm package: TypeScript Sass formatter",
-    "paknevis — npm package: Paknevis.js is a persian text formatter tool.",
-    "github trending topic: security-tools"
+    "paknevis — npm package: Paknevis.js is a persian text formatter tool."
   ],
   "filter_stats": {
-    "raw_count": 191,
-    "valid_count": 46,
-    "rejected_count": 145,
-    "rejection_rate": 75.9,
+    "raw_count": 187,
+    "valid_count": 44,
+    "rejected_count": 143,
+    "rejection_rate": 76.5,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -660,16 +646,16 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "用 GPT Pro 20x 和 Claude Max 20x 的全部周限额跑 GPT5.6 Sol + Claude Fable 循环迭代，给富有科技做了个官网",
-      "Building a Secure Web Application with Python and Flask: A Step-by-Step Guide",
-      "Compare the Safest $2.500 Crypto Lending Options"
+      "How to Become a Data Analyst in 2026",
+      "Object in JavaScript"
     ]
   },
   "trait_analysis": {
-    "total_captured": 350,
-    "chatter_blocked": 10,
-    "chatter_rate": 2.9,
-    "tool_signals_found": 191,
-    "tool_signal_rate": 54.6,
+    "total_captured": 347,
+    "chatter_blocked": 13,
+    "chatter_rate": 3.7,
+    "tool_signals_found": 187,
+    "tool_signal_rate": 53.9,
     "chatter_samples": [
       {
         "text": "大家觉得什么时间宝宝最好带",
@@ -700,6 +686,26 @@
         ]
       },
       {
+        "text": "earthquake",
+        "category": "news",
+        "matched": [
+          [
+            "earthquake",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "earthquake now",
+        "category": "news",
+        "matched": [
+          [
+            "earthquake",
+            ""
+          ]
+        ]
+      },
+      {
         "text": "earthquake now los angeles",
         "category": "news",
         "matched": [
@@ -710,11 +716,18 @@
         ]
       },
       {
-        "text": "3rd Yokohama Film Festival",
+        "text": "2026–27 CR Témouchent season",
         "category": "entertainment",
         "matched": [
-          "Film",
-          "Festival"
+          "season"
+        ]
+      },
+      {
+        "text": "2026 Big 12 Conference football season",
+        "category": "entertainment",
+        "matched": [
+          "football",
+          "season"
         ]
       },
       {
@@ -724,27 +737,6 @@
           "imo",
           "imo",
           "imo"
-        ]
-      },
-      {
-        "text": "PAC-ACT: Post-training Actor-Critic for Action Chunking Transformers Precision i",
-        "category": "ad",
-        "matched": [
-          "offer"
-        ]
-      },
-      {
-        "text": "Conceptual Networks for Cross-Linguistic Idiomatic Expressions:A Feature-Based G",
-        "category": "chatter",
-        "matched": [
-          "vent"
-        ]
-      },
-      {
-        "text": "granturismo — npm package: generator tool",
-        "category": "chatter",
-        "matched": [
-          "rant"
         ]
       }
     ],
@@ -819,7 +811,7 @@
         "text": "用 GPT Pro 20x 和 Claude Max 20x 的全部周限额跑 GPT5.6 Sol + Claude Fable 循环迭代，给富有科技做了个官网",
         "confidence": 15,
         "features": [
-          "技术概念: ['Claude', 'GPT']"
+          "技术概念: ['GPT', 'Claude']"
         ]
       },
       {
@@ -838,26 +830,27 @@
         ]
       },
       {
-        "text": "Building a Secure Web Application with Python and Flask: A Step-by-Step Guide",
+        "text": "How to Become a Data Analyst in 2026",
+        "confidence": 30,
+        "features": [
+          "输入→输出链式: [('How to Become', 'to', '', '', '', '')]",
+          "需求表达: [('How to Become', 'to', '', '', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Object in JavaScript",
         "confidence": 15,
         "features": [
+          "技术概念: ['JavaScript']"
+        ]
+      },
+      {
+        "text": "Implementing Automated Testing for Web Applications with Python and Selenium: A Beginner's Guide",
+        "confidence": 60,
+        "features": [
+          "英文动作特征: ['Automated']",
+          "输入→输出链式: [('Automated', 'to', '', '', '', '')]",
           "技术概念: ['Python']"
-        ]
-      },
-      {
-        "text": "Compare the Safest $2.500 Crypto Lending Options",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('Crypto Lending', 'to', '', '', '', '')]",
-          "技术概念: ['Crypto']"
-        ]
-      },
-      {
-        "text": "Best Peer to Peer Deals for a $2.500 Crypto Loan",
-        "confidence": 35,
-        "features": [
-          "输入→输出链式: [('Peer to Peer', 'to', '', '', '', ''), ('Crypto Loan', 'to', '', '', '', '')]",
-          "技术概念: ['Crypto']"
         ]
       }
     ]
