@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-13T17:19:33.512629+00:00     ║
+║       启动时间: 2026-07-13T19:39:52.790809+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -27,7 +27,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 🌐 水系1: 开发者问答枢纽
 🔍 [2/25] Scraping GitHub Trending...
-  ✅ 14 repos
+  ✅ 12 repos
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 22 topics
+  ✅ 23 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 347
-  🚫 闲聊拦截: 13 条 (3.7%)
-  🧠 工具信号: 187 条 (53.9%)
+  原始信号总量: 346
+  🚫 闲聊拦截: 12 条 (3.5%)
+  🧠 工具信号: 177 条 (51.2%)
 
   📋 闲聊拦截样例:
      [chatter] 大家觉得什么时间宝宝最好带
-     [chatter] Spellfolio – my stock market game with news events and insid
+     [job] Ladderline – a local-first CLI for tracking career-ladder ev
+     [job] Show HN: We are giving away $100K > over the next 12 months 
      [job] JobVerify Earns a 64 Proof of Usefulness Score by Building a
      [entertainment] How I Built a 30,000-Person Ambassador Program From Scratch 
-     [news] earthquake
 
   🧠 工具信号样例:
      [置信度15%] awesome-llm-apps
@@ -99,8 +99,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 英文工具名词: ['viewer']
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
-     [置信度35%] Does Python have a ternary conditional operator?
-       ↳ 输入→输出链式: [('operator', 'to'
+     [置信度35%] Does Python have a ternary conditional o
 
 ✅ 雷达完成 — 17 条建议
 
@@ -109,15 +108,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 347 条
-     🚫 闲聊拦截: 13 条 (3.7%)
-     🧠 工具信号: 187 条 (53.9%)
+     原始抓取: 346 条
+     🚫 闲聊拦截: 12 条 (3.5%)
+     🧠 工具信号: 177 条 (51.2%)
      闲聊样例: 大家觉得什么时间宝宝最好带... [chatter]
      工具信号样例: awesome-llm-apps... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 187 → 有效 44
-     拒绝率: 76.5%
+     工具信号 177 → 有效 44
+     拒绝率: 75.1%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -154,7 +153,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-13T17:19:33.668897+00:00
+   Generated at: 2026-07-13T19:39:52.959888+00:00
    Already in catalog: 134 tools
    Previously produced: 0 tools
    Existing tool pages: 45 files
@@ -327,7 +326,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-13T17:19:33.512629+00:00 → 2026-07-13T17:19:45.894551+00:00
+  ⏱  耗时: 2026-07-13T19:39:52.790809+00:00 → 2026-07-13T19:40:07.311051+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
