@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-14T16:21:06.388968+00:00     ║
+║       启动时间: 2026-07-14T19:37:25.162423+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -27,7 +27,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 🌐 水系1: 开发者问答枢纽
 🔍 [2/25] Scraping GitHub Trending...
-  ✅ 18 repos
+  ✅ 17 repos
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 24 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -82,14 +82,14 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
   原始信号总量: 353
-  🚫 闲聊拦截: 11 条 (3.1%)
-  🧠 工具信号: 174 条 (49.3%)
+  🚫 闲聊拦截: 10 条 (2.8%)
+  🧠 工具信号: 182 条 (51.6%)
 
   📋 闲聊拦截样例:
-     [news] No Spanish reading crisis?
-     [entertainment] Show HN: Opening lines of famous literary works
-     [job] I built source-verified SAT score profiles for hiring — feat
-     [entertainment] Opening lines of famous literary works — featured on Hacker 
+     [news] S&P downgrades Oracle to BBB – only one notch above junk lev
+     [entertainment] Show HN: Opening lines of famous literary works 🔥107pts 💬70
+     [news] No Spanish reading crisis? 🔥66pts 💬106
+     [chatter] An Interactive Guide for Castlevania II: Simon's Quest — fea
      [ad] Ask HN: What is the one YouTube channel you recommend I subs
 
   🧠 工具信号样例:
@@ -98,10 +98,9 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
      [置信度35%] Does Python have a ternary conditional operator?
-       ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
- 
+       ↳ 输入→输出链式: [('operator', 'to',
 
-✅ 雷达完成 — 18 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
@@ -109,22 +108,19 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 353 条
-     🚫 闲聊拦截: 11 条 (3.1%)
-     🧠 工具信号: 174 条 (49.3%)
-     闲聊样例: No Spanish reading crisis?... [news]
+     🚫 闲聊拦截: 10 条 (2.8%)
+     🧠 工具信号: 182 条 (51.6%)
+     闲聊样例: S&P downgrades Oracle to BBB – only one notch abov... [news]
      工具信号样例: awesome-llm-apps... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 174 → 有效 39
-     拒绝率: 77.6%
+     工具信号 182 → 有效 36
+     拒绝率: 80.2%
 
-  📊 意图分类器审计 — 审查 18 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (15):
+  ✅ 通过 (14):
      [PASS  |  +55] LLM Tool  [?]
-     [WARN  |  +36] API Tester  [?]
-     [WARN  |  +30] Text Tools  [?]
-     [WARN  |  +45] Editor  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
@@ -134,8 +130,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
      [WARN  |  +45] Formatter  [?]
+     [WARN  |  +45] Editor  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
+     [WARN  |  +30] Text Tools  [?]
   🚫 拦截 (3):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
@@ -153,8 +151,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-07-14T16:21:06.499392+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-07-14T19:37:25.310266+00:00
    Already in catalog: 136 tools
    Previously produced: 0 tools
    Existing tool pages: 47 files
@@ -331,7 +329,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-14T16:21:06.388968+00:00 → 2026-07-14T16:21:20.871573+00:00
+  ⏱  耗时: 2026-07-14T19:37:25.162423+00:00 → 2026-07-14T19:37:37.585934+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
