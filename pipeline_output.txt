@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-14T10:53:14.413115+00:00     ║
+║       启动时间: 2026-07-14T14:02:48.141181+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 18 Show HN posts
+  ✅ 20 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -81,13 +81,13 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 353
-  🚫 闲聊拦截: 11 条 (3.1%)
-  🧠 工具信号: 184 条 (52.1%)
+  原始信号总量: 355
+  🚫 闲聊拦截: 12 条 (3.4%)
+  🧠 工具信号: 186 条 (52.4%)
 
   📋 闲聊拦截样例:
-     [entertainment] Coura AI – AI clothes changer for realistic outfit photos — 
-     [news] I built a site to see what politicians are beating S&P 500 —
+     [chatter] Testing Laravel Events and Listeners: Ensuring Reliable Asyn
+     [entertainment] Jukebox – Generate themes inspired by music cover art — feat
      [job] Show HN: We are giving away $100K > over the next 12 months 
      [ad] Ask HN: What is the one YouTube channel you recommend I subs
      [news] The AI Attribution Crisis Nobody Wants to Talk About
@@ -98,30 +98,29 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
      [置信度35%] Does Python have a ternary conditional operator?
-       ↳ 输入→输出链式: [('opera
+       ↳ 输入→输出链式: [('op
 
-✅ 雷达完成 — 18 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 353 条
-     🚫 闲聊拦截: 11 条 (3.1%)
-     🧠 工具信号: 184 条 (52.1%)
-     闲聊样例: Coura AI – AI clothes changer for realistic outfit... [entertainment]
+     原始抓取: 355 条
+     🚫 闲聊拦截: 12 条 (3.4%)
+     🧠 工具信号: 186 条 (52.4%)
+     闲聊样例: Testing Laravel Events and Listeners: Ensuring Rel... [chatter]
      工具信号样例: awesome-llm-apps... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 184 → 有效 42
-     拒绝率: 77.2%
+     工具信号 186 → 有效 42
+     拒绝率: 77.4%
 
-  📊 意图分类器审计 — 审查 18 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (15):
+  ✅ 通过 (14):
      [PASS  |  +55] LLM Tool  [?]
-     [PASS  |  +55] Token Analyzer  [?]
      [WARN  |  +30] Text Tools  [?]
      [WARN  |  +45] Editor  [?]
      [WARN  |  +45] Form Builder  [?]
@@ -152,8 +151,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-07-14T10:53:14.572458+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-07-14T14:02:48.277645+00:00
    Already in catalog: 136 tools
    Previously produced: 0 tools
    Existing tool pages: 47 files
@@ -330,7 +329,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-14T10:53:14.413115+00:00 → 2026-07-14T10:53:27.041856+00:00
+  ⏱  耗时: 2026-07-14T14:02:48.141181+00:00 → 2026-07-14T14:03:00.966781+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
