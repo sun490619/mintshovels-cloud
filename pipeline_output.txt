@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-15T08:27:38.197440+00:00     ║
+║       启动时间: 2026-07-15T10:57:33.005035+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -27,7 +27,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 🌐 水系1: 开发者问答枢纽
 🔍 [2/25] Scraping GitHub Trending...
-  ✅ 15 repos
+  ✅ 17 repos
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
@@ -43,7 +43,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [11/25] Fetching Hacker News (Algolia API)...
   ✅ 25 items
 🔍 [26] Scraping Show HN (Algolia)...
-  ✅ 16 Show HN posts
+  ✅ 15 Show HN posts
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 22 topics
+  ✅ 24 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,28 +81,27 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 343
-  🚫 闲聊拦截: 8 条 (2.3%)
-  🧠 工具信号: 170 条 (49.6%)
+  原始信号总量: 346
+  🚫 闲聊拦截: 11 条 (3.2%)
+  🧠 工具信号: 175 条 (50.6%)
 
   📋 闲聊拦截样例:
      [ad] Ask HN: What is the one YouTube channel you recommend I subs
-     [entertainment] best movies on netflix
-     [entertainment] nba standings
-     [news] “刘姥姥”去世 欧阳奋强等发文痛悼
+     [chatter] arrest warrant
+     [entertainment] dutton ranch season 2 paramount+
+     [entertainment] mayor of kingstown season 5
      [chatter] 国务院发文：未来5年涨工资、落实假期
 
   🧠 工具信号样例:
+     [置信度20%] DeepTutor
+       ↳ 输入→输出链式: [('DeepTutor', 'to', '', '', '', '')]
      [置信度15%] awesome-llm-apps
        ↳ 技术概念: ['llm']
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
      [置信度35%] Does Python have a ternary conditional operator?
        ↳ 输入→输出链式: [('operator', 'to', '', '', '', '')]
-       ↳ 技术概念: ['Python']
-     [置信度15%] What are metaclasses in Python?
-       ↳ 技术概念: ['Python']
-     [置信度25%] How do I m
+       ↳ 技术概念: ['
 
 ✅ 雷达完成 — 16 条建议
 
@@ -111,15 +110,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 343 条
-     🚫 闲聊拦截: 8 条 (2.3%)
-     🧠 工具信号: 170 条 (49.6%)
+     原始抓取: 346 条
+     🚫 闲聊拦截: 11 条 (3.2%)
+     🧠 工具信号: 175 条 (50.6%)
      闲聊样例: Ask HN: What is the one YouTube channel you recomm... [ad]
-     工具信号样例: awesome-llm-apps... [置信度15%]
+     工具信号样例: DeepTutor... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 170 → 有效 37
-     拒绝率: 78.2%
+     工具信号 175 → 有效 38
+     拒绝率: 78.3%
 
   📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
@@ -132,9 +131,9 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [PASS  |  +55] Generator  [?]
      [WARN  |  +37] Format Converter  [?]
      [PASS  |  +55] Converter  [?]
+     [PASS  |  +55] JSON Formatter  [?]
      [WARN  |  +45] Formatter  [?]
      [WARN  |  +45] Editor  [?]
-     [PASS  |  +55] JSON Formatter  [?]
      [PASS  |  +55] SQL Formatter  [?]
      [WARN  |  +30] Text Tools  [?]
   🚫 拦截 (3):
@@ -155,7 +154,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-07-15T08:27:38.337854+00:00
+   Generated at: 2026-07-15T10:57:33.176773+00:00
    Already in catalog: 137 tools
    Previously produced: 0 tools
    Existing tool pages: 48 files
@@ -334,7 +333,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-15T08:27:38.197440+00:00 → 2026-07-15T08:27:51.479591+00:00
+  ⏱  耗时: 2026-07-15T10:57:33.005035+00:00 → 2026-07-15T10:58:04.545656+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
