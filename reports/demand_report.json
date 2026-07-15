@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T21:43:58.173233+00:00",
+  "generated_at": "2026-07-15T22:08:14.977494+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -93,38 +93,38 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "What I learned building Stair Flow Director for a real creator workflow",
+      "Password Checker",
+      "AI's Guide to a Day of Chatting, Coding, and Pretending to Be Useful",
+      "Why Converting HTML to WordPress and Elementor Is Still Hard in 2026",
+      "How to Build and Publish an MCP Server",
+      "Xiaomi Open-Sources 38B Robotics-U0 Unifying Four Embodied Tasks",
       "AI Voice Fraud Hits $893M in 2025: How FBI’s New Category Changes Enterprise Defense",
       "How I Built an MLP Evaluator for a Novel Board Game",
       "The Future of Rust: Dominating Systems Programming in 2026",
       "What Is the Tesla Optimus Robot? 2026 Complete Guide",
       "55 Production-Ready Claude Prompts for Engineers",
-      "Are computers truly random? How chaos powers randomness.",
-      "Lattice: The Pure Rust LLM Engine Optimized for Apple Silicon",
-      "Block, Steer, Rewrite: a coding-agent guard hook has three responses, not one",
-      "Best Smartways to Buy Old Gmail Accounts In (PVA &amp; Aged)",
-      "Inkling: Thinking Machines lanza MoE de 975B parámetros y 1M contexto",
-      "Día 1: Spec-Driven Development (SDD): Construyendo un Comparador de Hipotecas",
-      "How to make coding skelton"
+      "Are computers truly random? How chaos powers randomness."
     ],
     "lobsters": [
       "SQLite should have (Rust-style) editions",
       "The Tower Keeps Rising",
       "You should probably check on your smart appliances",
+      "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing",
       "FreeBSD 16 Retires The Last Of Its GPL Code From Its Base System",
       "i've been thinking about null pointers",
-      "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing",
       "C Strings: A 50-Year Mistake",
       "a bunch of stuff i used to not know about K&amp;R C",
-      "How C++20 improved the for-loop syntax",
       "Your AI Is Not a Tool",
+      "How C++20 improved the for-loop syntax",
       "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
       "qr-swastika-avoider v0.1.0",
       "Comparing Obelisk with Temporal and Restate",
-      "AI Data Centers and the Concentration of Wealth",
       "Over the Edge 2.0: Microsoft’s Design Tactics Still Undermine Browser Choice",
+      "AI Data Centers and the Concentration of Wealth",
       "Empathy and delight mean nothing when the software is disrespectful",
-      "whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
       "Low Resource Computing 2026",
+      "whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
       "How to unionize your tech workplace",
       "The Memory Heist"
     ],
@@ -151,38 +151,40 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023) 🔥613pts 💬310",
-      "Inkling: Our Open-Weights Model 🔥409pts 💬103",
-      "Stripe and Advent have made a joint offer to acquire PayPal – sources 🔥262pts 💬138",
-      "Prioritize mental health, and why communication is so important 🔥253pts 💬203",
-      "Mysteries of Telegram Data Centers (2022) 🔥219pts 💬109",
-      "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU 🔥198pts 💬113",
-      "Towards a harness that can do anything 🔥147pts 💬73",
-      "My midlife crisis Corolla is fast, furious, and modded 🔥140pts 💬290",
-      "Collection of Digital Clock Designs 🔥129pts 💬31",
-      "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios) 🔥114pts 💬37",
-      "Open-source memory for coding agents, synced over SSH 🔥92pts 💬19",
-      "The Memory Heist 🔥81pts 💬9",
-      "Grok Build 🔥73pts 💬79",
-      "Today I Rescued 7,234 Old GIFs 🔥73pts 💬5",
-      "Duskers, the scary command line game, is getting a sequel 🔥63pts 💬11",
+      "Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023) 🔥619pts 💬313",
+      "Inkling: Our Open-Weights Model 🔥443pts 💬106",
+      "Stripe and Advent have made a joint offer to acquire PayPal – sources 🔥272pts 💬142",
+      "Prioritize mental health, and why communication is so important 🔥259pts 💬207",
+      "Mysteries of Telegram Data Centers (2022) 🔥222pts 💬111",
+      "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU 🔥199pts 💬117",
+      "Towards a harness that can do anything 🔥150pts 💬74",
+      "My midlife crisis Corolla is fast, furious, and modded 🔥142pts 💬300",
+      "Collection of Digital Clock Designs 🔥134pts 💬32",
+      "Briar is in maintenance mode 🔥133pts 💬89",
+      "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios) 🔥116pts 💬38",
+      "Grok Build 🔥95pts 💬107",
+      "Open-source memory for coding agents, synced over SSH 🔥94pts 💬19",
+      "The Memory Heist 🔥84pts 💬9",
+      "Today I Rescued 7,234 Old GIFs 🔥76pts 💬5",
+      "Duskers, the scary command line game, is getting a sequel 🔥66pts 💬12",
       "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
-      "Unsolved Problems in MLOps",
       "Voxatron",
-      "Launch HN: Coasty (YC S26) – An API for computer-use agents",
-      "Show HN: Capn-hook for coding agents – don't grep the same mystery twice",
-      "Who Is America's Homer?",
-      "Designing APIs for Agents",
       "Show HN: Firefox in WebAssembly",
+      "Designing APIs for Agents",
       "Book Prizes Don't Work How You Think",
+      "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
+      "Command Line Interface Guidelines",
+      "MITS: Rockets, Calculators, and Personal Computers",
       "How to organize 3 acquired companies into one coherent website"
     ],
     "hn_show": [
+      "Pullboard – a work queue for agents, built to run a quant desk — featured on Hacker News (🔥1pts)",
+      "Redis Rubix Bridge a HTTP API Redis Gateway — featured on Hacker News (🔥1pts)",
       "Autoportrait Playground – painting timelapses in the browser — featured on Hacker News (🔥1pts)",
       "Impossible to Pass Level 42 — featured on Hacker News (🔥2pts)",
       "GitHub Contribution Graph Painter — featured on Hacker News (🔥1pts)",
       "webcast.social – Got MP3s? Host your own radio show from the browser — featured on Hacker News (🔥1pts)",
-      "Firefox in WebAssembly — featured on Hacker News (🔥14pts)",
+      "Firefox in WebAssembly — featured on Hacker News (🔥26pts)",
       "PostgreSQL Now Supported in DBTrail — featured on Hacker News (🔥1pts)",
       "ScreenshotAPIs – screenshot/PDF API with credits that never expire — featured on Hacker News (🔥1pts)",
       "Spellsurf – Create words from words — featured on Hacker News (🔥4pts)",
@@ -195,19 +197,17 @@
       "NetBox plugin that turns config changes into Grafana annotations — featured on Hacker News (🔥1pts)",
       "OpenClaw for Your Health — featured on Hacker News (🔥3pts)",
       "Agent use 83.1% fewer turns; 16.7 percentage points higher success — featured on Hacker News (🔥1pts)",
-      "Filtering engine and DB for unpropagated kernel security patches — featured on Hacker News (🔥1pts)",
-      "Limits, an on-device iOS app for tracking AI usage limits — featured on Hacker News (🔥1pts)",
-      "Health.md, an Apple Health exporter for files and self-hosted APIs — featured on Hacker News (🔥1pts)"
+      "Filtering engine and DB for unpropagated kernel security patches — featured on Hacker News (🔥1pts)"
     ],
     "hn_ask_tools": [
+      "Show HN: Pullboard – a work queue for agents, built to run a quant desk — user asking for tool recommendation (🔥1pts)",
       "Show HN: Pgmig: Generate migrations between Postgres databases — user asking for tool recommendation (🔥1pts)",
       "Ask HN: Are the heaviest AI users of your team blowing past everyone else? — user asking for tool recommendation (🔥5pts)",
       "Show HN: Homestead – Build apps for you, your family, and your agents — user asking for tool recommendation (🔥3pts)",
       "Show HN: GLP-RAM – Chrome extension reducing the browser memory appetite — user asking for tool recommendation (🔥2pts)",
-      "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations — user asking for tool recommendation (🔥83pts)",
+      "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations — user asking for tool recommendation (🔥84pts)",
       "Show HN: I can't seem to text properly on an iPhone, so I built my own keyboard — user asking for tool recommendation (🔥2pts)",
       "Show HN: Town – Discord in a pixel town where the NPCs have skills — user asking for tool recommendation (🔥6pts)",
-      "Switching an LLM's tier changes its \"best tool\" answer about half the time — user asking for tool recommendation (🔥2pts)",
       "Ask HN: What is the one YouTube channel you recommend I subscribe to? — user asking for tool recommendation (🔥7pts)",
       "Show HN: DashApply – Your Complete Job Search Toolkit — user asking for tool recommendation (🔥3pts)",
       "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop — user asking for tool recommendation (🔥219pts)",
@@ -232,6 +232,12 @@
       "Memex – mindmap alternative to linkding, kerakeep and readeck — user asking for tool recommendation (🔥2pts)"
     ],
     "hackernoon": [
+      "AI Is Reshaping PR Forever: Here's How",
+      "OpenRouter Alternatives in 2026: Three AI Gateways Compared for Production Scale",
+      "Zoomex X Space Recap With Javier Mascherano and The World Cup Panel",
+      "56 Blog Posts To Learn About C",
+      "Pulse Security Debuts Operational Management Platform Built for Security Leaders",
+      "Insignary Launches Clarity On-Demand: SBOMs, No Annual Commitment Required",
       "The TechBeat: The 10 Best AI Tools for SOC 2 Compliance in 2026 (7/15/2026)",
       "145 Blog Posts To Learn About C Sharp",
       "Risk Ledger Raises $32M Led by Axiom Equity to Take Its Supply Chain Security Network to the US",
@@ -244,14 +250,7 @@
       "AI Is Forcing Us to Rethink the Economic Operating System",
       "Why AI Agents Fail on Messy Enterprise Data",
       "Your Ledger Stores Balances. I Built One That Stores Intentions.",
-      "The Machines That Dream in Physics",
-      "Claude Code vs Codex vs OpenCode: The Honest Verdict for Full-Stack Engineers",
-      "Who Pays When an AI Agent Makes the Wrong Purchase?",
-      "Running, Voice, and Inspiration: A Thought Precipitation System",
-      "The Most Expensive Way to Use AI",
-      "Texas AI Law Compliance: A Guide for Businesses",
-      "Qwythos-9B-v2 Fixes AI Repetition Without Hurting Reasoning",
-      "Migrating an AI Studio App to GitHub and Cloud Run"
+      "The Machines That Dream in Physics"
     ],
     "infoq": [
       "Stripe Benchmark Shows AI Agents Build Integrations but Struggle with Validation <img src=\"https://res.infoq.com/news/2026/07/stripe-ai-agents-benchmark/en/headerimage/generatedHeaderImage-1783301844753.jpg\"/><p>Stripe introduces a",
@@ -271,16 +270,16 @@
       "Java News Roundup: TornadoVM 5, JHipster, Google ADK, OmniFish Build of Payara, Introducing Vidocq <img src=\"https://res.infoq.com/news/2026/07/java-news-roundup-jul06-2026/en/headerimage/java-news-roundup-image-1783946170119.jpg\"/><p>This week's Ja"
     ],
     "google_trends": [
-      "giannis",
-      "howard stern layoffs",
-      "norah o donnell",
-      "donald trump us mint coin",
-      "copa america",
-      "argentine",
-      "图赫尔",
-      "messi goat",
-      "how old is jude bellingham",
-      "lamine yamal messi"
+      "patti labelle national anthem mlb",
+      "liga mx",
+      "espana",
+      "valentin barco",
+      "santa clarita fire",
+      "barcelona",
+      "espys",
+      "overwatch stadium mode development",
+      "lamine yamal",
+      "2018 world cup"
     ],
     "baidu": [
       "习近平在上海考察",
@@ -305,26 +304,26 @@
       "郑钦文晋级WTA250雅典赛8强"
     ],
     "wikipedia": [
-      "Jack Hall (trade unionist)",
-      "Chilean submarine Rucumilla",
-      "Obsession (2025 film)",
-      "Ivachino",
-      "Sriparna Roy",
-      "Marmozets",
-      "Kadnikovsky Uyezd",
-      "Odessa Drillers",
-      "James F. Fries",
-      "Escherichia virus T4",
-      "Lincoln Memorial Reflecting Pool",
-      "Weightlifting at the 2026 Central American and Caribbean Games",
-      "History of Toruń",
-      "Zarichne, Donetsk Oblast",
-      "Cultural capital",
-      "Hemiphractus kaylockae",
-      "Trescore Balneario school attack",
-      "Tenondé Porã",
-      "Black Dragons (gang)",
-      "Yakovenkove, Kharkiv Oblast"
+      "Hlongwane",
+      "Alonso Molina de Medrano",
+      "Writers workshop (activity)",
+      "The Mysterious Cities of Gold: Secret Paths",
+      "8th Legislative Yuan",
+      "Liga de Expansión MX",
+      "Ride or Die (2026 TV series)",
+      "The Tracey Ullman Show",
+      "Aniekan Uko",
+      "CKRY-FM",
+      "Plyussa",
+      "Gehad Madi",
+      "Ainthu Ainthu Ainthu",
+      "George Powe",
+      "Luga, Leningrad Oblast",
+      "Susan Hall",
+      "Frome railway station",
+      "Israel Palestine on Swedish TV 1958-1989",
+      "Swedish Indoor Athletics Championships",
+      "WCBS-TV"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -409,30 +408,30 @@
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format"
     ],
     "github_topics": [
-      "github trending topic: chrome",
-      "github trending topic: mtproto-proxy",
-      "github trending topic: npm",
+      "github trending topic: fixdiscord",
       "github trending topic: project management",
-      "github trending topic: compiler",
-      "github trending topic: cloudflare",
-      "github trending topic: react",
-      "github trending topic: node.js",
-      "github trending topic: javascript",
-      "github trending topic: code quality",
       "github trending topic: scala",
-      "github trending topic: proxy",
-      "github trending topic: websocket",
-      "github trending topic: python",
-      "github trending topic: awesome lists",
-      "github trending topic: websocket-proxy",
+      "github trending topic: discord-zapret",
+      "github trending topic: css",
       "github trending topic: typescript",
-      "github trending topic: react native",
+      "github trending topic: discordfix",
+      "github trending topic: discordzapret",
+      "github trending topic: zapret-discord",
+      "github trending topic: react",
+      "github trending topic: ticketing",
+      "github trending topic: code quality",
       "github trending topic: database",
-      "github trending topic: mtproto",
-      "github trending topic: anti-blocking",
+      "github trending topic: growth-dummy",
+      "github trending topic: node.js",
+      "github trending topic: awesome lists",
+      "github trending topic: compiler",
+      "github trending topic: react native",
+      "github trending topic: chrome",
+      "github trending topic: npm",
+      "github trending topic: zapret-discord-youtube",
+      "github trending topic: javascript",
       "github trending topic: front end",
-      "github trending topic: telegram",
-      "github trending topic: css"
+      "github trending topic: python"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -448,13 +447,40 @@
       "name_zh": "大模型工具"
     },
     {
-      "keyword": "Your AI Is Not a Tool",
+      "keyword": "What I learned building Stair Flow Director for a real creator workflow",
       "matched": "ai",
       "category": "ai",
       "subcat": "ai-chat",
       "type": "tool",
       "name": "AI Assistant",
       "name_zh": "AI助手"
+    },
+    {
+      "keyword": "Password Checker",
+      "matched": "word",
+      "category": "productivity",
+      "subcat": "office",
+      "type": "tool",
+      "name": "Word Counter",
+      "name_zh": "字数统计器"
+    },
+    {
+      "keyword": "Password Checker",
+      "matched": "password",
+      "category": "dev",
+      "subcat": "encode",
+      "type": "tool",
+      "name": "Password Generator",
+      "name_zh": "密码生成器"
+    },
+    {
+      "keyword": "Password Checker",
+      "matched": "check",
+      "category": "dev",
+      "subcat": "code",
+      "type": "tool",
+      "name": "Checker Tool",
+      "name_zh": "检测工具"
     },
     {
       "keyword": "AI notetakers — tool from ProductHunt",
@@ -585,6 +611,8 @@
   ],
   "all_keywords": [
     "awesome-llm-apps",
+    "What I learned building Stair Flow Director for a real creator workflow",
+    "Password Checker",
     "Your AI Is Not a Tool",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
@@ -608,7 +636,6 @@
     "Professional networking platforms — tool from ProductHunt",
     "Ask HN: What Are You Building with AI? — user asking for tool recommendation (🔥4pts)",
     "The TechBeat: The 10 Best AI Tools for SOC 2 Compliance in 2026 (7/15/2026)",
-    "Migrating an AI Studio App to GitHub and Cloud Run",
     "electra-base-discriminator",
     "electra-base-discriminator",
     "tgt — npm package: tpl generator tool",
@@ -625,10 +652,10 @@
     "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 174,
-    "valid_count": 39,
+    "raw_count": 175,
+    "valid_count": 40,
     "rejected_count": 135,
-    "rejection_rate": 77.6,
+    "rejection_rate": 77.1,
     "rejected_samples": [
       "DeepTutor",
       "What does the \"yield\" keyword do in Python?",
@@ -638,17 +665,24 @@
       "How do I create a directory, and any missing parent directories?",
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
-      "How I Built an MLP Evaluator for a Novel Board Game",
-      "The Future of Rust: Dominating Systems Programming in 2026"
+      "AI's Guide to a Day of Chatting, Coding, and Pretending to Be Useful",
+      "Why Converting HTML to WordPress and Elementor Is Still Hard in 2026"
     ]
   },
   "trait_analysis": {
-    "total_captured": 350,
-    "chatter_blocked": 9,
-    "chatter_rate": 2.6,
-    "tool_signals_found": 174,
-    "tool_signal_rate": 49.7,
+    "total_captured": 349,
+    "chatter_blocked": 10,
+    "chatter_rate": 2.9,
+    "tool_signals_found": 175,
+    "tool_signal_rate": 50.1,
     "chatter_samples": [
+      {
+        "text": "Xiaomi Open-Sources 38B Robotics-U0 Unifying Four Embodied Tasks",
+        "category": "chatter",
+        "matched": [
+          "fyi"
+        ]
+      },
       {
         "text": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Docum",
         "category": "news",
@@ -667,14 +701,14 @@
         ]
       },
       {
-        "text": "Stripe and Advent have made a joint offer to acquire PayPal – sources 🔥262pts 💬1",
+        "text": "Stripe and Advent have made a joint offer to acquire PayPal – sources 🔥272pts 💬1",
         "category": "chatter",
         "matched": [
           "vent"
         ]
       },
       {
-        "text": "My midlife crisis Corolla is fast, furious, and modded 🔥140pts 💬290",
+        "text": "My midlife crisis Corolla is fast, furious, and modded 🔥142pts 💬300",
         "category": "news",
         "matched": [
           [
@@ -691,10 +725,10 @@
         ]
       },
       {
-        "text": "Obsession (2025 film)",
+        "text": "patti labelle national anthem mlb",
         "category": "entertainment",
         "matched": [
-          "film"
+          "mlb"
         ]
       },
       {
@@ -788,46 +822,48 @@
         ]
       },
       {
+        "text": "What I learned building Stair Flow Director for a real creator workflow",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Director', 'to', '', '', '', ''), ('creator', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Password Checker",
+        "confidence": 40,
+        "features": [
+          "英文动作特征: ['Checker']",
+          "英文工具名词: ['checker']"
+        ]
+      },
+      {
+        "text": "AI's Guide to a Day of Chatting, Coding, and Pretending to Be Useful",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('Guide to a', 'to', '', '', '', ''), ('Pretending to Be', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Why Converting HTML to WordPress and Elementor Is Still Hard in 2026",
+        "confidence": 35,
+        "features": [
+          "输入→输出链式: [('HTML to WordPress', 'to', '', '', '', ''), ('Elementor', 'to', '', '', '', '')]",
+          "技术概念: ['HTML']"
+        ]
+      },
+      {
+        "text": "How to Build and Publish an MCP Server",
+        "confidence": 30,
+        "features": [
+          "输入→输出链式: [('How to Build', 'to', '', '', '', '')]",
+          "需求表达: [('How to Build', 'to', '', '', '', '', '', '')]"
+        ]
+      },
+      {
         "text": "How I Built an MLP Evaluator for a Novel Board Game",
         "confidence": 20,
         "features": [
           "输入→输出链式: [('Evaluator', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "The Future of Rust: Dominating Systems Programming in 2026",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['Rust']"
-        ]
-      },
-      {
-        "text": "55 Production-Ready Claude Prompts for Engineers",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['Claude']"
-        ]
-      },
-      {
-        "text": "Lattice: The Pure Rust LLM Engine Optimized for Apple Silicon",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['LLM', 'Rust']"
-        ]
-      },
-      {
-        "text": "Best Smartways to Buy Old Gmail Accounts In (PVA &amp; Aged)",
-        "confidence": 20,
-        "features": [
-          "输入→输出链式: [('Smartways to Buy', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "How to make coding skelton",
-        "confidence": 30,
-        "features": [
-          "输入→输出链式: [('How to make', 'to', '', '', '', ''), ('skelton', 'to', '', '', '', '')]",
-          "需求表达: [('How to make', 'to', '', '', '', '', '', '')]"
         ]
       }
     ]

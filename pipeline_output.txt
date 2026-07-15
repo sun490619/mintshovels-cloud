@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-15T19:23:32.325898+00:00     ║
+║       启动时间: 2026-07-15T22:08:14.824619+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -47,7 +47,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 20 articles
+  ✅ 19 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -59,7 +59,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 📖 水系4: 维基百科 & AI趋势
 🔍 [8/25] Fetching Wikipedia...
-  ✅ 19 pages
+  ✅ 20 pages
 🔍 [9/25] Fetching HuggingFace...
   ✅ 40 models
 🔍 [21/25] Fetching arXiv cs.AI...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 22 topics
+  ✅ 24 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 347
+  原始信号总量: 349
   🚫 闲聊拦截: 10 条 (2.9%)
-  🧠 工具信号: 173 条 (49.9%)
+  🧠 工具信号: 175 条 (50.1%)
 
   📋 闲聊拦截样例:
-     [ad] **Get $750 to Spend at Lululemon Now! Review – UK Email/Zip 
+     [chatter] Xiaomi Open-Sources 38B Robotics-U0 Unifying Four Embodied T
      [news] Microsoft Confirms Windows GDID Device Identifier That Canno
      [chatter] Inventing ELIZA - How the First Chatbot Shaped the Future of
      [chatter] Stripe and Advent have made a joint offer to acquire PayPal 
-     [news] My midlife crisis Corolla is fast, furious, and modded 🔥96pt
+     [news] My midlife crisis Corolla is fast, furious, and modded 🔥142p
 
   🧠 工具信号样例:
      [置信度20%] DeepTutor
@@ -99,29 +99,30 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
        ↳ 技术概念: ['llm']
      [置信度15%] What does the "yield" keyword do in Python?
        ↳ 技术概念: ['Python']
-    
 
-✅ 雷达完成 — 16 条建议
+✅ 雷达完成 — 19 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 347 条
+     原始抓取: 349 条
      🚫 闲聊拦截: 10 条 (2.9%)
-     🧠 工具信号: 173 条 (49.9%)
-     闲聊样例: **Get $750 to Spend at Lululemon Now! Review – UK ... [ad]
+     🧠 工具信号: 175 条 (50.1%)
+     闲聊样例: Xiaomi Open-Sources 38B Robotics-U0 Unifying Four ... [chatter]
      工具信号样例: DeepTutor... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 173 → 有效 40
-     拒绝率: 76.9%
+     工具信号 175 → 有效 40
+     拒绝率: 77.1%
 
-  📊 意图分类器审计 — 审查 16 条需求
+  📊 意图分类器审计 — 审查 19 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (13):
+  ✅ 通过 (15):
      [PASS  |  +55] LLM Tool  [?]
+     [PASS  |  +55] Password Generator  [?]
+     [PASS  |  +75] Checker Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
@@ -134,8 +135,9 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] SQL Formatter  [?]
      [WARN  |  +30] Text Tools  [?]
-  🚫 拦截 (3):
+  🚫 拦截 (4):
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
+     [BLOCK |  +10] Word Counter  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
 
@@ -151,17 +153,31 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 16 suggestions
-   Generated at: 2026-07-15T19:23:32.441924+00:00
+📊 Demand report loaded: 19 suggestions
+   Generated at: 2026-07-15T22:08:14.977494+00:00
    Already in catalog: 137 tools
    Previously produced: 0 tools
    Existing tool pages: 48 files
    Next shovel ID: shovel-083
    Next script ID: script-011
 
-✅ All suggested tools already exist in catalog. Nothing to produce.
+🔧 Producing 2 new tools:
+   • Word Counter (字数统计器) [productivity/office]
+   • Password Generator (密码生成器) [dev/encode]
 
-📋 Running tests on current codebase...
+  🛠  Producing: Word Counter → shovel-083
+     📄 Page: tools/word-counter.html
+     ✅ Gate check passed
+
+  🛠  Producing: Password Generator → shovel-084
+     📄 Page: tools/password-generator.html
+     ✅ Gate check passed
+  ✅ Inserted 2 entries into index.html
+
+  📝 Factory log updated
+
+==================================================
+🧪 TEST PHASE
 
 🧪 Running automated tests...
 ----------------------------------------
@@ -177,7 +193,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
   ✅ Lucide Icons CDN
   [TOOLS Database]
   ✅ TOOLS array defined
-  ✅ TOOLS entries (92)
+  ✅ TOOLS entries (94)
   ✅ Has Web Tools (🔧)
   ✅ Has Scripts (📜)
   ✅ Has Live tools
@@ -205,13 +221,32 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   📊 Results: 29✅ passed, 0❌ failed, 1⚠️ warnings (30 total)
 
+  🌐 Testing local server on port 9487...
+  ✅ Local server: HTTP 200, 396420 bytes
 
-✅ 工厂完成 — 本次生产 0 个工具
+✅ All tests passed!
+
+==================================================
+⏭️  Skipping deployment (--no-deploy)
+==================================================
+
+==================================================
+🏭 Pipeline complete!
+   New tools: 2
+   • shovel-083: Word Counter
+   • shovel-084: Password Generator
+   Tests: ✅ Passed
+==================================================
+
+
+✅ 工厂完成 — 本次生产 2 个工具
+   🛠  Producing: Word Counter → shovel-083
+   🛠  Producing: Password Generator → shovel-084
 
 ============================================================
 🔒 阶段 1.5: 车间门禁检查
 ============================================================
-   生产工具健康率: 0.0% (92 个工具, 92 个问题)
+   生产工具健康率: 0.0% (94 个工具, 94 个问题)
    问题文件: ['shovel-001: 文件缺失', 'shovel-002: 文件缺失', 'shovel-003: 文件缺失', 'shovel-007: 文件缺失', 'script-001: 文件缺失', 'shovel-005: 文件缺失', 'shovel-009: 文件缺失', 'script-002: 文件缺失', 'shovel-004: 文件缺失', 'shovel-006: 文件缺失']
    ⚠️ 门禁警告 — 健康率 0.0% 低于90%阈值
 
@@ -220,7 +255,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   📋 测试 index.html 结构...
-    ✅ TOOLS 数据库: 92 工具, 92 在线, 92 ready:true, 0 ready:false
+    ✅ TOOLS 数据库: 94 工具, 94 在线, 92 ready:true, 2 ready:false
 
   📄 测试独立工具页面...
     ✅ ai-assistant.html
@@ -256,6 +291,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ name-generator.html
     ✅ note-taker.html
     ✅ ocr-tool.html
+    ✅ password-generator.html
     ✅ pdf-editor.html
     ✅ prompt-optimizer.html
     ✅ proxy-tool.html
@@ -271,9 +307,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ viewer.html
     ✅ web-crawler.html
     ✅ web-scraper.html
+    ✅ word-counter.html
 
   🌐 本地服务器测试...
-    ✅ index.html — HTTP 200, 395360B
+    ✅ index.html — HTTP 200, 396420B
     ✅ tools/ai-assistant.html — HTTP 200
     ✅ tools/ai-generator.html — HTTP 200
     ✅ tools/audio-editor.html — HTTP 200
@@ -307,6 +344,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/name-generator.html — HTTP 200
     ✅ tools/note-taker.html — HTTP 200
     ✅ tools/ocr-tool.html — HTTP 200
+    ✅ tools/password-generator.html — HTTP 200
     ✅ tools/pdf-editor.html — HTTP 200
     ✅ tools/prompt-optimizer.html — HTTP 200
     ✅ tools/proxy-tool.html — HTTP 200
@@ -322,16 +360,17 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
     ✅ tools/viewer.html — HTTP 200
     ✅ tools/web-crawler.html — HTTP 200
     ✅ tools/web-scraper.html — HTTP 200
+    ✅ tools/word-counter.html — HTTP 200
 
-  📊 测试汇总: 105 通过, 0 失败
+  📊 测试汇总: 109 通过, 0 失败
 
   🏷️  标记新工具为 ready:true...
-    ✅ 没有待上线的工具
+    🚀 2 个新工具测试通过，已标记 ready:true 正式上线
 
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-15T19:23:32.325898+00:00 → 2026-07-15T19:23:44.969915+00:00
+  ⏱  耗时: 2026-07-15T22:08:14.824619+00:00 → 2026-07-15T22:08:26.491606+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
@@ -341,9 +380,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      ✅ generator: OK
      ✅ validator: OK
      ✅ analyzer: OK
-  🧪 测试: 105✅ 0❌
-  🔧 工具总数: 92
-  📄 独立页面: 48
+  🧪 测试: 109✅ 0❌
+  🔧 工具总数: 94
+  🏷️  新上线: 2 个工具 (已标记 ready:true)
+  📄 独立页面: 50
   🚀 部署: SKIPPED
   ✅ 全线通过
 ============================================================
