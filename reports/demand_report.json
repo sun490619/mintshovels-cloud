@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T03:16:50.399461+00:00",
+  "generated_at": "2026-07-15T05:18:40.499569+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -14,14 +14,6 @@
       {
         "repo": "apps/github-actions",
         "url": "https://github.com/apps/github-actions"
-      },
-      {
-        "repo": "Dicklesworthstone/destructive_command_guard",
-        "url": "https://github.com/Dicklesworthstone/destructive_command_guard"
-      },
-      {
-        "repo": "apps/dependabot",
-        "url": "https://github.com/apps/dependabot"
       },
       {
         "repo": "OpenCut-app/OpenCut",
@@ -90,52 +82,51 @@
       "How can I iterate over rows in a Pandas DataFrame?"
     ],
     "v2ex": [
-      "就想问一句，你们老婆也是上班电话是都默认静音，电话不接么？",
       "中医税？",
       "大家用中转站不怕被掺水么, 信息安全怎么保障",
-      "两天时间，今年白干了",
-      "codex 真的和 cc 性能差不多吗",
-      "土区续费这是长期 499 了吗",
       "有没有便宜点的宽带，一个月 139 真的受不了了",
-      "阿里云被人暴力破解了",
-      "GPT 今天是不是特别慢？和最近取消 5 小时限额有关吗？"
+      "土区续费这是长期 499 了吗",
+      "A ÷真的在作死，我这个 2 年老用户都准备跑路了",
+      "蚌埠住了，国内痔疮药都 tm 是中成药，艹",
+      "关于去医院看病开中成药问题,大家是怎么解决的",
+      "同时干超过 3 个，有点吃力"
     ],
     "devto": [
       "DEV Community: programming",
-      "Your Server Room Monitoring System Knows What Happened—But Does It Know Exactly When?",
-      "Compare Two Word Documents Using Python",
-      "Breaking Free From Walled Gardens: A Chinese LLM Deep Dive",
-      "How a frustrating school project led me to build my first CLI tool.",
-      "Bmup Multi-Asset Institute: Precision Strategies to Control the Future",
-      "9 MVP Development Mistakes That Quietly Delay Launch in 2026",
-      "Bonsai 27B corre en un iPhone con solo 3.9 GB de memoria",
-      "$60 refund for thousands of Australians",
-      "How to Vet an MVP Development Partner Before You Sign (2026 Checklist)",
-      "A 86k-Star Tool Maps Codebases Into Graphs. I Tested It on My Own Code.",
-      "I take long-term responsibility together with developers in Europe and the U.S.",
-      "AI Customer Service: No Coffee, Just Infinite Questions"
+      "Method Overriding?",
+      "Real-World Projects Enhance Learning Depth Compared to Traditional Course Completion in Programming",
+      "I moved 10 million rows in 9.9 seconds with pip install apitap",
+      "the 'smartest' model era is over: why pareto efficiency is the new ai standard",
+      "The Cheapest AI APIs I Discovered in 2026 as a Bootcamp Grad",
+      "GitLost: fuga de repos privados de GitHub vía inyección de prompts",
+      "Quick Python Tip: Unpack Dictionaries Directly Into Function Arguments (2026)",
+      "TIL: You can chain comparison operators in Python like math (2026)",
+      "Python Performance Tips: Make Your Code 10x Faster",
+      "Why Does obj.method() Automatically Receive self? A Deep Dive into Python Method Binding",
+      "Trusted European Digital Services – 2026 Edition\"",
+      "Your Coding Agent Says It's Done. Who Verified It?"
     ],
     "lobsters": [
       "You should probably check on your smart appliances",
       "Too many words about DIDs",
-      "whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
       "qr-swastika-avoider v0.1.0",
+      "whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
       "Jurassic Park computers in excruciating detail",
       "Just Let Me Write Digits",
       "6× faster binary search: from compiled code to mechanical sympathy",
       "Job queues are deceptively tricky",
       "git-absorb: git commit --fixup, but automatic",
       "lobste.rs is now running on SQLite",
-      "How my images are dithered",
-      "Temper Language",
       "How I use HTMX with Go",
+      "Temper Language",
+      "How my images are dithered",
       "The git history command deserves more attention",
       "Measuring input latency on Linux: X11 vs Wayland, VRR, and DXVK",
       "Hating AI in 2026",
       "Human Emacs",
+      "Empathy and delight mean nothing when the software is disrespectful",
       "Estimating the heights of New Yorkers from their scuff marks",
-      "Native inotify in FreeBSD",
-      "A Trusty Boot Key (Ventoy Alternative), for Bastille Day"
+      "The Memory Heist"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -160,51 +151,51 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Your 'app' could have been a webpage (so I fixed it for you) 🔥748pts 💬455",
-      "Bonsai 27B: A 27B-Class model that runs on a phone 🔥466pts 💬173",
-      "How to stop Claude from saying load-bearing 🔥449pts 💬513",
-      "Are we offloading too much of our thinking to AI? 🔥392pts 💬391",
-      "The Tower Keeps Rising 🔥365pts 💬173",
-      "Cursor 0day: When Full Disclosure Becomes the Only Protection Left 🔥271pts 💬120",
-      "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE 🔥190pts 💬81",
-      "I'm a USB-C Maximalist 🔥184pts 💬290",
-      "The largest available Minecraft world, totalling 15 TB 🔥173pts 💬58",
-      "Show HN: Opening lines of famous literary works 🔥145pts 💬87",
-      "Vancouver PD website features Quick Escape button that wipes itself from history 🔥142pts 💬55",
-      "The kids with phones are alright 🔥140pts 💬98",
-      "How I use HTMX with Go 🔥134pts 💬29",
-      "Dependabot version updates introduce default package cooldown 🔥114pts 💬70",
-      "The zero-cost fallacy: open-source software in the agentic era 🔥113pts 💬92",
-      "Financing the AI boom: from cash flows to debt [pdf] 🔥104pts 💬53",
-      "Data centers have hiked electricity prices on the public by $23B 🔥85pts 💬42",
-      "Guardian Angels: LLM Personalization for Productivity and Security 🔥62pts 💬11",
-      "LeMario: Training a JEPA World Model on Super Mario Bros 🔥61pts 💬8",
-      "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access 🔥55pts 💬21",
-      "Mathematical texts from a Maya site in Guatemala identify an ancient astronomer 🔥51pts 💬9",
-      "Unlocking the PSP's Dual Core Setup",
-      "Microsoft Patches a Record 570 Security Flaws",
-      "Solving 20 Erdős Problems with 20 Codex Accounts Running in Parallel",
-      "Global Warming at 3 °C by 2050? What's Behind the New German Climate Warning"
+      "Your 'app' could have been a webpage (so I fixed it for you) 🔥764pts 💬458",
+      "Bonsai 27B: A 27B-Class model that runs on a phone 🔥502pts 💬186",
+      "How to stop Claude from saying load-bearing 🔥475pts 💬523",
+      "Are we offloading too much of our thinking to AI? 🔥412pts 💬405",
+      "The Tower Keeps Rising 🔥407pts 💬181",
+      "Cursor 0day: When Full Disclosure Becomes the Only Protection Left 🔥306pts 💬145",
+      "I'm a USB-C Maximalist 🔥217pts 💬315",
+      "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE 🔥207pts 💬86",
+      "Vancouver PD website features Quick Escape button that wipes itself from history 🔥202pts 💬73",
+      "The largest available Minecraft world, totalling 15 TB 🔥184pts 💬61",
+      "The kids with phones are alright 🔥168pts 💬116",
+      "How I use HTMX with Go 🔥163pts 💬38",
+      "Jurassic Park computers in excruciating detail 🔥149pts 💬33",
+      "Data centers have hiked electricity prices on the public by $23B 🔥142pts 💬84",
+      "Dependabot version updates introduce default package cooldown 🔥142pts 💬82",
+      "The zero-cost fallacy: open-source software in the agentic era 🔥126pts 💬100",
+      "Financing the AI boom: from cash flows to debt [pdf] 🔥123pts 💬73",
+      "Solving 20 Erdős Problems with 20 Codex Accounts Running in Parallel 🔥92pts 💬36",
+      "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access 🔥89pts 💬38",
+      "Microsoft Patches a Record 570 Security Flaws 🔥75pts 💬34",
+      "Guardian Angels: LLM Personalization for Productivity and Security 🔥75pts 💬13",
+      "LeMario: Training a JEPA World Model on Super Mario Bros 🔥71pts 💬10",
+      "Mathematical texts from a Maya site in Guatemala identify an ancient astronomer 🔥62pts 💬16",
+      "Probably check on your smart appliances",
+      "The Estranged Worlds of J. G. Ballard"
     ],
     "hn_show": [
+      "Sogni Unlimited – flat-rate unlimited image/video on decentralized GPUs — featured on Hacker News (🔥1pts)",
+      "Workaround – review and clean up your GitHub stars — featured on Hacker News (🔥3pts)",
+      "I turned lender underwriting criteria into a 7-question quiz — featured on Hacker News (🔥2pts)",
+      "I open-sourced the portal I built for a client's vibe-coded apps — featured on Hacker News (🔥1pts)",
+      "GWZ – Git Workspace Zone (multi-repo that feels like plain Git) — featured on Hacker News (🔥4pts)",
       "Timeline Studio – Open-source AI video editing — featured on Hacker News (🔥1pts)",
       "PasteSheet – Turn a Google Sheet into a REST API and MCP Server — featured on Hacker News (🔥1pts)",
       "Samosa Chat - Run Qwen3.6-35B-A3B Locally on a 16 GB Mac — featured on Hacker News (🔥5pts)",
       "PullCard – Pull your AI coding style as a holographic trading card — featured on Hacker News (🔥1pts)",
       "I built an AI agent memory engine because Obsidian wasn't cutting it — featured on Hacker News (🔥1pts)",
       "Gomoku AI Edu – A Native macOS Gomoku Game with AI Opponent — featured on Hacker News (🔥1pts)",
-      "A web based VistaPro clone — featured on Hacker News (🔥1pts)",
+      "A web based VistaPro clone — featured on Hacker News (🔥2pts)",
       "Vehir – a platform built for AI agents: compiler, microkernel, CAS — featured on Hacker News (🔥3pts)",
-      "Digital De-Centralized Internship — featured on Hacker News (🔥2pts)",
-      "Asciitopia – a library of animated ASCII art patterns — featured on Hacker News (🔥3pts)",
+      "Digital De-Centralized Internship — featured on Hacker News (🔥3pts)",
+      "Asciitopia – a library of animated ASCII art patterns — featured on Hacker News (🔥4pts)",
       "Self-hosted Minecraft multi-server panel for vanilla and modpacks — featured on Hacker News (🔥2pts)",
       "Tilion – Stealth Browser Infrastructure for Agents — featured on Hacker News (🔥8pts)",
-      "DevQuest – live GitHub profile cards and a daily repository battle — featured on Hacker News (🔥3pts)",
-      "Mechacraft.io – Browser Vehicle Builder — featured on Hacker News (🔥3pts)",
-      "Pupul, portable and revocable memory you carry into any AI — featured on Hacker News (🔥2pts)",
-      "Voidfall – Space looter shooter in the browser — featured on Hacker News (🔥4pts)",
-      "Open-Source Puppeteer for After Effects — featured on Hacker News (🔥3pts)",
-      "A dashboard for tracking SK Hynix price gaps across exchanges — featured on Hacker News (🔥3pts)"
+      "DevQuest – live GitHub profile cards and a daily repository battle — featured on Hacker News (🔥3pts)"
     ],
     "hn_ask_tools": [
       "Show HN: GLP-RAM – Chrome extension reducing the browser memory appetite — user asking for tool recommendation (🔥2pts)",
@@ -223,19 +214,19 @@
       "Ask HN: What tool are you using for A/B tests and analyzing and documenting them — user asking for tool recommendation (🔥2pts)",
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
+      "Show HN: GWZ – Git Workspace Zone (multi-repo that feels like plain Git) — user asking for tool recommendation (🔥4pts)",
       "Show HN: Running over 80M tokens in one agent session with no compaction — user asking for tool recommendation (🔥3pts)",
       "Show HN: Replen – maps your repos to a knowledge graph to match open-source — user asking for tool recommendation (🔥1pts)",
       "Show HN: Aireceipts, itemized cost receipts for AI coding agents — user asking for tool recommendation (🔥1pts)",
       "Show HN: IChingPortal – Keyword search and news aggregator using the I Ching — user asking for tool recommendation (🔥3pts)",
       "Show HN: FixBugs – Reproduce production bugs and verify fixes — user asking for tool recommendation (🔥40pts)",
-      "Show HN: ContextVault – Shared memory layer for your AI and your team — user asking for tool recommendation (🔥11pts)",
       "Show HN: PalRoutes – Palworld 1.0 breeding routes from owned Pals — user asking for tool recommendation (🔥2pts)",
       "Show HN: Orbital PAI a personal AI assistant — user asking for tool recommendation (🔥1pts)",
       "Show HN: I built a smart proxy so your coding agent can run loose — user asking for tool recommendation (🔥1pts)",
       "Ask HN: PhDs, how have you organized your research visits? — user asking for tool recommendation (🔥2pts)",
       "Show HN: Proton – A pure Go GUI library with zero CGO and API immunity — user asking for tool recommendation (🔥3pts)",
       "Show HN:PandaClip a local mcp tool for an agents working state — user asking for tool recommendation (🔥3pts)",
-      "Show HN: Flashbang – DuckDuckGo bangs resolved locally with a Service Worker — user asking for tool recommendation (🔥12pts)",
+      "Show HN: Flashbang – DuckDuckGo bangs resolved locally with a Service Worker — user asking for tool recommendation (🔥15pts)",
       "Show HN: BeePub – A reading-first alternative to Calibre-Web — user asking for tool recommendation (🔥4pts)"
     ],
     "hackernoon": [
@@ -278,60 +269,60 @@
       "Podcast: Governance in the Age of AI: A Conversation with Sarah Wells <img src=\"https://res.infoq.com/podcasts/governance-age-ai/en/smallimage/the-infoq-podcast-logo-thumbnail-1783430790261.jpg\"/><p>In this podcast, Mich"
     ],
     "google_trends": [
-      "aroldis chapman",
-      "san diego airbnb photo discovery",
-      "charley crockett",
-      "mason miller",
-      "james wood",
-      "parent plus loan forgiveness changes",
-      "naval blockade",
-      "drew rasmussen",
-      "pete crow armstrong",
-      "luis arraez"
+      "molly shannon",
+      "fire pit",
+      "plex server problems",
+      "matt damon",
+      "cameron carr",
+      "paypal stock",
+      "kim mathers",
+      "ike barinholtz",
+      "robbie avila",
+      "aeropuerto"
     ],
     "baidu": [
       "总书记心中的“人民城市”",
-      "西北大学通报：贾浅浅硕士学位被撤销",
       "法国队淘汰 马克龙发声",
-      "暴雨、高温、强对流三预警齐发",
-      "法国1.5亿巨星灾难表现遭法媒怒批",
-      "“明珠七号”邮轮侧翻 造价过亿",
-      "守护公民个人身份信息安全",
-      "西北大学撤销贾浅浅副教授职称",
-      "上半年中国GDP同比增长4.7%‌",
-      "姆巴佩：我担全责",
-      "男子168万拍下“乾隆梅瓶”仅值250元",
-      "“存100万利息5.25%”系谣言",
-      "贾浅浅学术不端行为属实",
-      "姆巴佩心态崩了 肘击门将吃黄牌",
-      "广东女子2条腿被蚊子叮了126个包",
-      "李彦宏在《人民日报》撰文",
       "日本掉进自己挖的坑",
-      "中方连续两次追加发言 驳斥美国",
-      "入伏第一天 多地热“红”了",
-      "亚马尔九擒姆巴佩"
+      "暴雨、高温、强对流三预警齐发",
+      "贾浅浅向西北大学辞职",
+      "深圳地铁回应“辣眼睛”广告：马上改",
+      "守护公民个人身份信息安全",
+      "西北大学通报：贾浅浅硕士学位被撤销",
+      "岳父在芝麻酱下毒毒死女婿 逃跑被抓",
+      "租了18年房 退租被要求“恢复如新”",
+      "贾浅浅学术不端行为属实",
+      "“存100万利息5.25%”系谣言",
+      "法国1.5亿巨星灾难表现遭法媒怒批",
+      "外卖小哥脱下一只鞋救了一栋楼",
+      "男子168万拍下“乾隆梅瓶”仅值250元",
+      "曝DeepSeek计划明年上市",
+      "花8000元买80张彩票 没一张真的",
+      "“明珠七号”邮轮侧翻 造价过亿",
+      "西北大学撤销贾浅浅副教授职称",
+      "43码拖鞋放车内一周晒成了37码"
     ],
     "wikipedia": [
-      "Lesley Judd",
-      "Attack on Pearl Harbor in popular culture",
-      "Smith Islands",
-      "Honda CBX550F",
-      "Fred C. Babcock/Cecil M. Webb WMA",
-      "Doc Searls",
-      "Shirak Poghosyan",
-      "As Told by Ginger",
-      "Smith Island (South Shetland Islands)",
-      "Brauer tree",
-      "Stanisław Sośnicki",
-      "Alberto Jurado",
-      "Egor Kornev",
-      "As If (British TV series)",
-      "Smith Island (South Australia)",
-      "2018 FIFA World Cup",
-      "Mohamed Fathalla Difallah",
-      "Geomatics",
-      "A Short Story About Love",
-      "Boleslav Skhirtladze"
+      "State President of South Africa",
+      "Bruce Karatz",
+      "Avery Schreiber",
+      "Marijuana (word)",
+      "Spreckels",
+      "Cavinti",
+      "Blair Atholl Watermill",
+      "Star Fox games",
+      "Aizu Athletic Park Stadium",
+      "Star Fox games",
+      "List of five-wicket hauls in women's One Day International cricket",
+      "Schanuel's conjecture",
+      "Georgina Sparks",
+      "Big George",
+      "List of awards and nominations received by Jane Zhang",
+      "Betty Holberton",
+      "Belper North Mill",
+      "Jana Hawkes",
+      "Ruth Badger",
+      "Olena Tregub"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -416,28 +407,27 @@
       "paknevis — npm package: Paknevis.js is a persian text formatter tool."
     ],
     "github_topics": [
-      "github trending topic: react native",
-      "github trending topic: compiler",
-      "github trending topic: python",
+      "github trending topic: machine-learning",
+      "github trending topic: project management",
       "github trending topic: react",
       "github trending topic: npm",
-      "github trending topic: chrome",
-      "github trending topic: growth-dummy",
-      "github trending topic: typescript",
-      "github trending topic: css",
-      "github trending topic: database",
-      "github trending topic: front end",
-      "github trending topic: project management",
-      "github trending topic: ai-agents",
-      "github trending topic: open-source",
-      "github trending topic: javascript",
-      "github trending topic: node.js",
-      "github trending topic: mcp",
-      "github trending topic: llm",
       "github trending topic: scala",
+      "github trending topic: compiler",
+      "github trending topic: chrome",
+      "github trending topic: automation",
+      "github trending topic: database",
+      "github trending topic: react native",
+      "github trending topic: javascript",
+      "github trending topic: nodejs",
       "github trending topic: awesome lists",
-      "github trending topic: wiki",
-      "github trending topic: claude",
+      "github trending topic: front end",
+      "github trending topic: css",
+      "github trending topic: typescript",
+      "github trending topic: codex",
+      "github trending topic: html",
+      "github trending topic: python",
+      "github trending topic: postgresql",
+      "github trending topic: node.js",
       "github trending topic: code quality"
     ],
     "search_log_top": [],
@@ -452,15 +442,6 @@
       "type": "tool",
       "name": "LLM Tool",
       "name_zh": "大模型工具"
-    },
-    {
-      "keyword": "A 86k-Star Tool Maps Codebases Into Graphs. I Tested It on My Own Code.",
-      "matched": "graph",
-      "category": "productivity",
-      "subcat": "data",
-      "type": "tool",
-      "name": "Graph Tool",
-      "name_zh": "图形工具"
     },
     {
       "keyword": "AI Coding Agents — tool from ProductHunt",
@@ -497,6 +478,15 @@
       "type": "tool",
       "name": "Video Converter",
       "name_zh": "视频格式转换器"
+    },
+    {
+      "keyword": "Graphic design tools — tool from ProductHunt",
+      "matched": "graph",
+      "category": "productivity",
+      "subcat": "data",
+      "type": "tool",
+      "name": "Graph Tool",
+      "name_zh": "图形工具"
     },
     {
       "keyword": "Social \\u0026 Community — tool from ProductHunt",
@@ -591,8 +581,6 @@
   ],
   "all_keywords": [
     "awesome-llm-apps",
-    "How a frustrating school project led me to build my first CLI tool.",
-    "A 86k-Star Tool Maps Codebases Into Graphs. I Tested It on My Own Code.",
     "Engineering \\u0026 Development — tool from ProductHunt",
     "Vibe Coding Tools — tool from ProductHunt",
     "AI Coding Agents — tool from ProductHunt",
@@ -613,7 +601,7 @@
     "Social \\u0026 Community — tool from ProductHunt",
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
-    "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE 🔥190pts 💬81",
+    "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE 🔥207pts 💬86",
     "electra-base-discriminator",
     "electra-base-discriminator",
     "tgt — npm package: tpl generator tool",
@@ -630,10 +618,10 @@
     "paknevis — npm package: Paknevis.js is a persian text formatter tool."
   ],
   "filter_stats": {
-    "raw_count": 176,
-    "valid_count": 38,
-    "rejected_count": 138,
-    "rejection_rate": 78.4,
+    "raw_count": 171,
+    "valid_count": 36,
+    "rejected_count": 135,
+    "rejection_rate": 78.9,
     "rejected_samples": [
       "What does the \"yield\" keyword do in Python?",
       "Does Python have a ternary conditional operator?",
@@ -643,43 +631,19 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "大家用中转站不怕被掺水么, 信息安全怎么保障",
-      "GPT 今天是不是特别慢？和最近取消 5 小时限额有关吗？",
-      "Your Server Room Monitoring System Knows What Happened—But Does It Know Exactly When?"
+      "Real-World Projects Enhance Learning Depth Compared to Traditional Course Completion in Programming",
+      "I moved 10 million rows in 9.9 seconds with pip install apitap"
     ]
   },
   "trait_analysis": {
-    "total_captured": 350,
-    "chatter_blocked": 9,
-    "chatter_rate": 2.6,
-    "tool_signals_found": 176,
-    "tool_signal_rate": 50.3,
+    "total_captured": 346,
+    "chatter_blocked": 6,
+    "chatter_rate": 1.7,
+    "tool_signals_found": 171,
+    "tool_signal_rate": 49.4,
     "chatter_samples": [
       {
-        "text": "Breaking Free From Walled Gardens: A Chinese LLM Deep Dive",
-        "category": "news",
-        "matched": [
-          [
-            "Breaking",
-            ""
-          ]
-        ]
-      },
-      {
-        "text": "A Trusty Boot Key (Ventoy Alternative), for Bastille Day",
-        "category": "chatter",
-        "matched": [
-          "Vent"
-        ]
-      },
-      {
-        "text": "Show HN: Opening lines of famous literary works 🔥145pts 💬87",
-        "category": "entertainment",
-        "matched": [
-          "famous"
-        ]
-      },
-      {
-        "text": "Digital De-Centralized Internship — featured on Hacker News (🔥2pts)",
+        "text": "Digital De-Centralized Internship — featured on Hacker News (🔥3pts)",
         "category": "job",
         "matched": [
           "Internship"
@@ -693,10 +657,13 @@
         ]
       },
       {
-        "text": "姆巴佩心态崩了 肘击门将吃黄牌",
-        "category": "chatter",
+        "text": "State President of South Africa",
+        "category": "news",
         "matched": [
-          "心态"
+          [
+            "President",
+            ""
+          ]
         ]
       },
       {
@@ -791,49 +758,47 @@
         ]
       },
       {
-        "text": "GPT 今天是不是特别慢？和最近取消 5 小时限额有关吗？",
-        "confidence": 15,
+        "text": "Real-World Projects Enhance Learning Depth Compared to Traditional Course Completion in Programming",
+        "confidence": 20,
         "features": [
-          "技术概念: ['GPT']"
+          "输入→输出链式: [('Compared to Traditional', 'to', '', '', '', '')]"
         ]
       },
       {
-        "text": "Your Server Room Monitoring System Knows What Happened—But Does It Know Exactly When?",
+        "text": "I moved 10 million rows in 9.9 seconds with pip install apitap",
+        "confidence": 15,
+        "features": [
+          "技术概念: ['pip']"
+        ]
+      },
+      {
+        "text": "the 'smartest' model era is over: why pareto efficiency is the new ai standard",
+        "confidence": 20,
+        "features": [
+          "输入→输出链式: [('pareto efficiency', 'to', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "Quick Python Tip: Unpack Dictionaries Directly Into Function Arguments (2026)",
         "confidence": 35,
         "features": [
-          "输入→输出链式: [('Monitoring', 'to', '', '', '', '')]",
-          "英文工具名词: ['monitor']"
-        ]
-      },
-      {
-        "text": "Compare Two Word Documents Using Python",
-        "confidence": 15,
-        "features": [
+          "输入→输出链式: [('Into Function', 'to', '', '', '', '')]",
           "技术概念: ['Python']"
         ]
       },
       {
-        "text": "How a frustrating school project led me to build my first CLI tool.",
+        "text": "TIL: You can chain comparison operators in Python like math (2026)",
         "confidence": 35,
         "features": [
-          "输入→输出链式: [('me to build', 'to', '', '', '', ''), ('CLI tool', 'to', '', '', '', '')]",
-          "英文工具名词: ['tool']"
+          "输入→输出链式: [('operators', 'to', '', '', '', '')]",
+          "技术概念: ['Python']"
         ]
       },
       {
-        "text": "Bmup Multi-Asset Institute: Precision Strategies to Control the Future",
-        "confidence": 20,
+        "text": "Python Performance Tips: Make Your Code 10x Faster",
+        "confidence": 15,
         "features": [
-          "输入→输出链式: [('Strategies to Control', 'to', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "How to Vet an MVP Development Partner Before You Sign (2026 Checklist)",
-        "confidence": 55,
-        "features": [
-          "英文动作特征: ['Sign']",
-          "输入→输出链式: [('How to Vet', 'to', '', '', '', '')]",
-          "需求表达: [('How to Vet', 'to', '', '', '', '', '', '')]"
+          "技术概念: ['Python']"
         ]
       }
     ]
