@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-15T16:39:03.362872+00:00     ║
+║       启动时间: 2026-07-15T19:23:32.325898+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -59,7 +59,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 📖 水系4: 维基百科 & AI趋势
 🔍 [8/25] Fetching Wikipedia...
-  ✅ 20 pages
+  ✅ 19 pages
 🔍 [9/25] Fetching HuggingFace...
   ✅ 40 models
 🔍 [21/25] Fetching arXiv cs.AI...
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 21 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -82,15 +82,15 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
   原始信号总量: 347
-  🚫 闲聊拦截: 11 条 (3.2%)
-  🧠 工具信号: 178 条 (51.3%)
+  🚫 闲聊拦截: 10 条 (2.9%)
+  🧠 工具信号: 173 条 (49.9%)
 
   📋 闲聊拦截样例:
-     [news] My AI stack for developing products without breaking the ban
-     [chatter] Inventing ELIZA - How the First Chatbot Shaped the Future of
+     [ad] **Get $750 to Spend at Lululemon Now! Review – UK Email/Zip 
      [news] Microsoft Confirms Windows GDID Device Identifier That Canno
-     [entertainment] AI-powered sports analytics and social betting platform — fe
-     [ad] Ask HN: What is the one YouTube channel you recommend I subs
+     [chatter] Inventing ELIZA - How the First Chatbot Shaped the Future of
+     [chatter] Stripe and Advent have made a joint offer to acquire PayPal 
+     [news] My midlife crisis Corolla is fast, furious, and modded 🔥96pt
 
   🧠 工具信号样例:
      [置信度20%] DeepTutor
@@ -98,9 +98,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度15%] awesome-llm-apps
        ↳ 技术概念: ['llm']
      [置信度15%] What does the "yield" keyword do in Python?
-       ↳ 技术概念: ['Python'
+       ↳ 技术概念: ['Python']
+    
 
-✅ 雷达完成 — 17 条建议
+✅ 雷达完成 — 16 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
@@ -108,20 +109,19 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
   🧠 雷达特质识别 (v2.0) 摘要:
      原始抓取: 347 条
-     🚫 闲聊拦截: 11 条 (3.2%)
-     🧠 工具信号: 178 条 (51.3%)
-     闲聊样例: My AI stack for developing products without breaki... [news]
+     🚫 闲聊拦截: 10 条 (2.9%)
+     🧠 工具信号: 173 条 (49.9%)
+     闲聊样例: **Get $750 to Spend at Lululemon Now! Review – UK ... [ad]
      工具信号样例: DeepTutor... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 178 → 有效 39
-     拒绝率: 78.1%
+     工具信号 173 → 有效 40
+     拒绝率: 76.9%
 
-  📊 意图分类器审计 — 审查 17 条需求
+  📊 意图分类器审计 — 审查 16 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
+  ✅ 通过 (13):
      [PASS  |  +55] LLM Tool  [?]
-     [PASS  |  +70] PDF Editor  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
@@ -151,8 +151,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-15T16:39:03.523180+00:00
+📊 Demand report loaded: 16 suggestions
+   Generated at: 2026-07-15T19:23:32.441924+00:00
    Already in catalog: 137 tools
    Previously produced: 0 tools
    Existing tool pages: 48 files
@@ -331,7 +331,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-15T16:39:03.362872+00:00 → 2026-07-15T16:39:16.130395+00:00
+  ⏱  耗时: 2026-07-15T19:23:32.325898+00:00 → 2026-07-15T19:23:44.969915+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
