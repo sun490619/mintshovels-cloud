@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T21:57:38.352765+00:00",
+  "generated_at": "2026-07-16T22:09:43.956195+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
@@ -115,6 +115,7 @@
     ],
     "devto": [
       "DEV Community: programming",
+      "Building FocusAI: Simplifying Daily Task Planning with AWS Serverless and Amazon Bedrock",
       "Make Your AI List Its Assumptions Before It Edits Code",
       "AI Agent Infrastructure Is Splitting at the State Layer | Focused Labs",
       "Mastering Ubuntu Linux for Beginners: A Comprehensive Guide",
@@ -125,8 +126,7 @@
       "The First Barcode Scan Was a Pack of Gum",
       "Hallmark: Together AI Open-Sources an \"Anti-AI-Slop\" Tool for Web Design",
       "Legitimate Crypto Recovery Company, Hire Crypto Recovery Services, Zeus Crypto Recovery Services, Bitcoin Recovery Expert",
-      "React.js ~useEffect~",
-      "The Commit Code: A New Hope"
+      "React.js ~useEffect~"
     ],
     "lobsters": [
       "How Our Rust-to-Zig Rewrite is Going",
@@ -140,15 +140,15 @@
       "The LLM Critics Are Right. I Use LLMs Anyway",
       "What \"Memory Compiler\" Actually Means: From Bitcells to GDS Tiling",
       "Abstracting effects with continuations",
-      "Detecting Full Table Scans With SQLite",
       "We're Going to Make Out Like Bandits",
+      "Detecting Full Table Scans With SQLite",
       "You can't bug fix your way out of the vulnpocalypse",
       "perldelta - what is new for perl v5.44.0",
+      "The Zilog Z80 has turned 50",
       "clj-refactor.el 4.0",
       "Bring modern package management to Meson's native wrap ecosystem",
       "WHOOP 4.0 without a subscription",
-      "FreeBSD 16 Retires The Last Of Its GPL Code From Its Base System",
-      "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing"
+      "FreeBSD 16 Retires The Last Of Its GPL Code From Its Base System"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -173,31 +173,31 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Kimi K3: Open Frontier Intelligence 🔥871pts 💬525",
-      "Sony deletes more movies from the accounts of people who ‘bought’ them 🔥547pts 💬335",
-      "OnePlus halts operations in USA and Europe 🔥498pts 💬286",
-      "Microsoft Comic Chat is now open source 🔥427pts 💬96",
-      "How Our Rust-to-Zig Rewrite Is Going 🔥351pts 💬196",
-      "Decoy Font 🔥300pts 💬80",
-      "Ente – Opening Our Books 🔥214pts 💬83",
-      "NotebookLM is now Gemini Notebook 🔥182pts 💬104",
-      "The LLM Critics Are Right. I Use LLMs Anyway 🔥155pts 💬161",
-      "Goes-19 weather satellite enters Safe Hold mode 🔥140pts 💬69",
-      "Immersive Linear Algebra Book with Interactive Figures (2015) 🔥120pts 💬24",
-      "Detecting LLM-Generated Texts with “Classical” Machine Learning 🔥119pts 💬88",
-      "Guide to data tools landscape for developers 🔥100pts 💬31",
-      "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM 🔥80pts 💬52",
-      "Show HN: Leaves – A text-UI disk usage treemap visualizer 🔥57pts 💬17",
-      "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol 🔥56pts 💬39",
-      "LM Studio Bionic: the AI agent for open models 🔥56pts 💬17",
+      "Kimi K3: Open Frontier Intelligence 🔥890pts 💬533",
+      "Sony deletes more movies from the accounts of people who ‘bought’ them 🔥554pts 💬336",
+      "OnePlus halts operations in USA and Europe 🔥503pts 💬288",
+      "Microsoft Comic Chat is now open source 🔥431pts 💬99",
+      "How Our Rust-to-Zig Rewrite Is Going 🔥359pts 💬200",
+      "Decoy Font 🔥308pts 💬81",
+      "Ente – Opening Our Books 🔥216pts 💬83",
+      "NotebookLM is now Gemini Notebook 🔥189pts 💬106",
+      "The LLM Critics Are Right. I Use LLMs Anyway 🔥158pts 💬164",
+      "Goes-19 weather satellite enters Safe Hold mode 🔥141pts 💬70",
+      "Immersive Linear Algebra Book with Interactive Figures (2015) 🔥124pts 💬24",
+      "Detecting LLM-Generated Texts with “Classical” Machine Learning 🔥122pts 💬89",
+      "Guide to data tools landscape for developers 🔥102pts 💬31",
+      "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM 🔥81pts 💬52",
+      "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol 🔥65pts 💬49",
+      "LM Studio Bionic: the AI agent for open models 🔥63pts 💬18",
+      "Show HN: Leaves – A text-UI disk usage treemap visualizer 🔥58pts 💬18",
       "Pseudpocalypse",
-      "The privacy problems hidden in your period tracker",
       "CD sales growth outpaced vinyl in the first half of 2026",
+      "The privacy problems hidden in your period tracker",
       "Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone",
       "Optimizing Lua string literals to save 400 bytes",
       "AttoChess, a complete, playable chess program for 16-bit x86 DOS in 278 bytes",
-      "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
-      "Mathematics of Data Science"
+      "Mathematics of Data Science",
+      "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps"
     ],
     "hn_show": [
       "Vektorgeist- A platform for AI operators and their agent's — featured on Hacker News (🔥1pts)",
@@ -209,7 +209,7 @@
       "SeekinWeb – Check if AI agents can read your website — featured on Hacker News (🔥2pts)",
       "I built an offline PDF editor for Android, 25 tools, no server, no ads — featured on Hacker News (🔥1pts)",
       "HeimWall – Catch secrets before you paste them into Claude or Cursor — featured on Hacker News (🔥2pts)",
-      "Libretto PR agents – Automatically fix failing playwright scripts — featured on Hacker News (🔥6pts)",
+      "Libretto PR agents – Automatically fix failing playwright scripts — featured on Hacker News (🔥8pts)",
       "CreditKit, a Stripe usage-credits engine I kept rebuilding — featured on Hacker News (🔥2pts)",
       "I open-sourced a macOS native Markdown rendering engine — featured on Hacker News (🔥4pts)",
       "Animated map of US railroad and population growth — featured on Hacker News (🔥1pts)",
@@ -225,8 +225,8 @@
       "Show HN: I've built tldraw for HTML and Markdown pages (with encryption) — user asking for tool recommendation (🔥2pts)",
       "Show HN: Estratos – stacked memory system for AI assistants — user asking for tool recommendation (🔥3pts)",
       "Show HN: Marigold – Get more done with your agent — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Pokayoke – turn code conventions into checks for agents — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Glad-AI-Tor, the \"best\" AI tools judged by the crowd — user asking for tool recommendation (🔥2pts)",
+      "Show HN: Pokayoke – turn code conventions into checks for agents — user asking for tool recommendation (🔥3pts)",
+      "Show HN: Glad-AI-Tor, the \"best\" AI tools judged by the crowd — user asking for tool recommendation (🔥3pts)",
       "Show HN: Pullboard – a work queue for agents, built to run a quant desk — user asking for tool recommendation (🔥2pts)",
       "Show HN: Pgmig: Generate migrations between Postgres databases — user asking for tool recommendation (🔥2pts)",
       "Ask HN: What is the one YouTube channel you recommend I subscribe to? — user asking for tool recommendation (🔥7pts)",
@@ -245,14 +245,18 @@
       "As a dev, would you use a form backend tool? — user asking for tool recommendation (🔥2pts)",
       "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps — user asking for tool recommendation (🔥20pts)",
       "Show HN: Ratel, give agents unlimited tools and skills without context bloat — user asking for tool recommendation (🔥17pts)",
-      "Show HN: BambooGrid – Open-source web UI for power grid modeling and power flow — user asking for tool recommendation (🔥10pts)",
+      "Show HN: BambooGrid – Open-source web UI for power grid modeling and power flow — user asking for tool recommendation (🔥12pts)",
       "Show HN: Skillful, stop maintaining the same AI workflow in five places — user asking for tool recommendation (🔥2pts)",
-      "Show HN: uplpgsql – PL/pgSQL compiled to native code — user asking for tool recommendation (🔥8pts)",
+      "Show HN: uplpgsql – PL/pgSQL compiled to native code — user asking for tool recommendation (🔥9pts)",
       "Show HN: I built an open source alternative to Workflowy — user asking for tool recommendation (🔥3pts)",
       "Show HN:I built an open alternative to Simplify for autoapplying to LinkedIn job — user asking for tool recommendation (🔥5pts)",
-      "Show HN: I made ts-node alternative, ttsc/ttsx, a TypeScript-go toolchain — user asking for tool recommendation (🔥5pts)"
+      "Show HN: I made ts-node alternative, ttsc/ttsx, a TypeScript-go toolchain — user asking for tool recommendation (🔥6pts)"
     ],
     "hackernoon": [
+      "Your Plugin Call Doesn't Need an Isolate",
+      "The AI That Can Re-Write Its Own Brain: Why Inkling is the New Frontier for Open Weights",
+      "A Beginner's Guide to the Seedream-5-pro Model by Bytedance: What You Need to Know",
+      "232 Blog Posts To Learn About Cicd",
       "Something Important to Always Remember: You Are Not the Player",
       "The TechBeat: AI Coding Tip 026 - Assign a Persona to Every Skill Definition (7/16/2026)",
       "The Power of Primes and How to Harness It",
@@ -267,12 +271,7 @@
       "Narendra Mangala Named Distinguished Researcher of the Year at Global Leadership & Legacy Awards",
       "Bindu Madhavi Mangalampalli Participates as Speaker at GatherVerse AI Evolve Summit 2026 ",
       "Upwind vs. Wiz: Comparing Pricing, Runtime Security, and AI Protection",
-      "Logic Explained Networks and Tsetlin Machines: the future of (X)AI? ",
-      "What a Payment Protocol Bug Taught Me About Reconciliation at Scale",
-      "Friday Vibes: Vibe Coding a Hacker Game",
-      "Why Does Google AI Overviews Write Obituaries for Several Living Public Figures? AI Alignment?",
-      "Amnesia: What If a Messenger Was Designed to Forget?",
-      "Why Business Teams Need Governed AI Tools, Not Another Shadow IT Risk"
+      "Logic Explained Networks and Tsetlin Machines: the future of (X)AI? "
     ],
     "infoq": [
       "AWS Continuum to Enable Agentic Code Security for Enterprises <img src=\"https://res.infoq.com/news/2026/07/aws-continuum-code-security/en/headerimage/generatedHeaderImage-1784225072280.jpg\"/><p>Amazon Web Service",
@@ -292,6 +291,8 @@
       "Evolutionary Data through Schemaboi: Achieving Forward, Backwards, and Sideways Compatibility <img src=\"https://res.infoq.com/news/2026/07/durable-document-schema/en/headerimage/generatedHeaderImage-1784010959321.jpg\"/><p>Drawing from the endur"
     ],
     "google_trends": [
+      "san diego airbnb photo discovery",
+      "botafogo vs santos",
       "lewis hamilton",
       "chuck schumer",
       "us military testosterone screening",
@@ -299,9 +300,7 @@
       "mets vs phillies",
       "taylor farms",
       "ella langley denim darling campaign",
-      "house gop veterans bill delay",
-      "lewis hamilton kids",
-      "birkenstock repetto ballet clogs"
+      "house gop veterans bill delay"
     ],
     "baidu": [
       "人民的小事就是我们的大事",
@@ -314,38 +313,38 @@
       "TVB演员梁爱在老人院去世",
       "外露式、半隐藏门把手“集体回归”",
       "25岁民警为护群众与歹徒搏斗牺牲",
-      "男子150万白银存金店被拒还",
-      "天文台辟谣新疆惊现不明飞行物",
       "世界杯冠军奖金5000万美元 历史最高",
+      "天文台辟谣新疆惊现不明飞行物",
+      "格斗赛机器人头被打飞 甄子丹看呆",
       "蜜雪冰城新公司部分岗月薪可达2万5",
-      "极端天气为何越来越多",
+      "男子150万白银存金店被拒还",
       "盒马猫咪抱冬瓜宣传图被吐槽照骗",
       "巴菲特发出警告：市场已成“赌场”",
-      "格斗赛机器人头被打飞 甄子丹看呆",
+      "极端天气为何越来越多",
       "生娃基本不花钱 28个省份安排上了",
       "大导演为何越来越难让人满意"
     ],
     "wikipedia": [
-      "Whirlpool Evansville plant",
-      "Malik (clan)",
-      "Ivan Penev",
-      "A Monster Is Among Us",
-      "Kilometer 31",
-      "DaQuan Jeffries",
-      "Women's Entrepreneurship Day",
-      "United Methodist Church, Berkeley Road, Bristol",
-      "Whirlpool Evansville plant",
-      "Derrin",
-      "Alice Pignagnoli",
-      "Vanguard Animation",
-      "Killswitch Engage discography",
-      "Hitler's prophecy",
-      "Jonathan Medved",
-      "Lovelock Correctional Center",
-      "Sydney Sippe",
-      "Tridacna",
-      "World Trade Center Abu Dhabi",
-      "Anna Camp"
+      "Stanisław Brzóska",
+      "Kompania Piwowarska",
+      "Gil Gavbara",
+      "Holden commodore",
+      "Guardian of Piri",
+      "Polo Community High School",
+      "Karuppu (film)",
+      "Defender (video game)",
+      "Operation Whirlwind",
+      "Robert J. C. Young",
+      "Helen Ma (actress)",
+      "Koluchstyle",
+      "St John the Baptist Church, Harleston",
+      "Beşiktaş J.K. (men's basketball)",
+      "History of cricket to 1725",
+      "NBC Sports Group",
+      "El Líbero",
+      "Kollam City Police",
+      "List of members of the Camorra",
+      "2026 Armenian parliamentary election"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -430,28 +429,29 @@
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format"
     ],
     "github_topics": [
-      "github trending topic: react native",
+      "github trending topic: nextjs",
       "github trending topic: css",
-      "github trending topic: compiler",
-      "github trending topic: mecca-chameleon-hacks",
-      "github trending topic: mcp",
+      "github trending topic: react native",
       "github trending topic: javascript",
-      "github trending topic: project management",
-      "github trending topic: meccha-chameleon-tools",
+      "github trending topic: ai-agents",
+      "github trending topic: front end",
       "github trending topic: awesome lists",
-      "github trending topic: mecca-chameleon-mod",
+      "github trending topic: node.js",
+      "github trending topic: compiler",
+      "github trending topic: azuread",
+      "github trending topic: project management",
+      "github trending topic: react",
+      "github trending topic: npm",
+      "github trending topic: lyrics",
       "github trending topic: chrome",
       "github trending topic: python",
-      "github trending topic: node.js",
-      "github trending topic: llm",
-      "github trending topic: code quality",
+      "github trending topic: tailwindcss",
       "github trending topic: scala",
-      "github trending topic: react",
-      "github trending topic: front end",
-      "github trending topic: nodejs",
+      "github trending topic: code quality",
       "github trending topic: typescript",
-      "github trending topic: database",
-      "github trending topic: npm"
+      "github trending topic: claude",
+      "github trending topic: infra-module",
+      "github trending topic: database"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -648,7 +648,6 @@
     "Professional networking platforms — tool from ProductHunt",
     "The privacy problems hidden in your period tracker",
     "Let the Agent Complain: A Feedback Loop for Better AI Tools",
-    "Why Business Teams Need Governed AI Tools, Not Another Shadow IT Risk",
     "electra-base-discriminator",
     "electra-base-discriminator",
     "tgt — npm package: tpl generator tool",
@@ -662,14 +661,13 @@
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "paknevis — npm package: Paknevis.js is a persian text formatter tool.",
     "prettier — npm package: Prettier is an opinionated code formatter",
-    "sass-formatter — npm package: TypeScript Sass formatter",
-    "github trending topic: meccha-chameleon-tools"
+    "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 182,
-    "valid_count": 43,
-    "rejected_count": 139,
-    "rejection_rate": 76.4,
+    "raw_count": 183,
+    "valid_count": 41,
+    "rejected_count": 142,
+    "rejection_rate": 77.6,
     "rejected_samples": [
       "DeepTutor",
       "What does the \"yield\" keyword do in Python?",
@@ -685,16 +683,23 @@
   },
   "trait_analysis": {
     "total_captured": 354,
-    "chatter_blocked": 16,
-    "chatter_rate": 4.5,
-    "tool_signals_found": 182,
-    "tool_signal_rate": 51.4,
+    "chatter_blocked": 21,
+    "chatter_rate": 5.9,
+    "tool_signals_found": 183,
+    "tool_signal_rate": 51.7,
     "chatter_samples": [
       {
         "text": "字节 4 年美团 3 年，居然没面试",
         "category": "job",
         "matched": [
           "面试"
+        ]
+      },
+      {
+        "text": "Building FocusAI: Simplifying Daily Task Planning with AWS Serverless and Amazon",
+        "category": "chatter",
+        "matched": [
+          "fyi"
         ]
       },
       {
@@ -718,17 +723,7 @@
         ]
       },
       {
-        "text": "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Docum",
-        "category": "news",
-        "matched": [
-          [
-            "Confirms",
-            ""
-          ]
-        ]
-      },
-      {
-        "text": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol 🔥56pts 💬39",
+        "text": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol 🔥65pts 💬49",
         "category": "entertainment",
         "matched": [
           "Music"
