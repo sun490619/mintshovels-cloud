@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-16T03:23:37.290752+00:00     ║
+║       启动时间: 2026-07-16T08:25:52.950536+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -27,11 +27,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 🌐 水系1: 开发者问答枢纽
 🔍 [2/25] Scraping GitHub Trending...
-  ✅ 15 repos
+  ✅ 16 repos
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
-  ✅ 9 topics
+  ✅ 10 topics
 🔍 [12/25] Fetching Dev.to...
   ✅ 13 articles
 🔍 [13/25] Fetching Lobsters...
@@ -61,17 +61,17 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [8/25] Fetching Wikipedia...
   ✅ 20 pages
 🔍 [9/25] Fetching HuggingFace...
-  ✅ 40 models
+  ⚠️ Failed to fetch https://huggingface.co/api/models?sort=downloads&direction=-1&limit=20: The read operation timed out
 🔍 [21/25] Fetching arXiv cs.AI...
   ✅ 15 papers
 🔍 [22/25] Fetching Papers With Code...
-  ⚠️ Failed: Expecting value: line 1 column 1 (char 0)
+  ⚠️ Failed to fetch https://paperswithcode.com/api/v1/papers/?ordering=-paper_published&items_per_pa: The read operation timed out
 
 📦 水系5: 包注册中心 + 技术主题
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 23 topics
+  ✅ 21 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,49 +81,43 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 348
-  🚫 闲聊拦截: 15 条 (4.3%)
-  🧠 工具信号: 182 条 (52.3%)
+  原始信号总量: 318
+  🚫 闲聊拦截: 15 条 (4.7%)
+  🧠 工具信号: 183 条 (57.5%)
 
   📋 闲聊拦截样例:
+     [ad] I Built a Free Online PDF Toolkit That Doesn't Require Sign 
      [news] Microsoft Confirms Windows GDID Device Identifier That Canno
      [chatter] Inventing ELIZA - How the First Chatbot Shaped the Future of
      [chatter] Stripe and Advent have made a joint offer to acquire PayPal 
-     [ad] Ask HN: What is the one YouTube channel you recommend I subs
-     [news] existential war
+     [entertainment] The lost joy of music piracy 🔥227pts 💬109
 
   🧠 工具信号样例:
      [置信度20%] DeepTutor
-       ↳ 输入→输出链式: [('DeepTutor', 'to', '', '', '', '')]
-     [置信度15%] awesome-llm-apps
-       ↳ 技术概念: ['llm']
-     [置信度15%] What does the "yield" keyword do in Python?
-       ↳ 技术概念: ['Python']
-     [置信度35%] Does Python have a ternary conditio
+       ↳ 输入→输出链式: [('D
 
-✅ 雷达完成 — 18 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 348 条
-     🚫 闲聊拦截: 15 条 (4.3%)
-     🧠 工具信号: 182 条 (52.3%)
-     闲聊样例: Microsoft Confirms Windows GDID Device Identifier ... [news]
+     原始抓取: 318 条
+     🚫 闲聊拦截: 15 条 (4.7%)
+     🧠 工具信号: 183 条 (57.5%)
+     闲聊样例: I Built a Free Online PDF Toolkit That Doesn't Req... [ad]
      工具信号样例: DeepTutor... [置信度20%]
 
   📊 硬核过滤器统计:
-     工具信号 182 → 有效 40
-     拒绝率: 78.0%
+     工具信号 183 → 有效 38
+     拒绝率: 79.2%
 
-  📊 意图分类器审计 — 审查 18 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (15):
+  ✅ 通过 (14):
      [PASS  |  +55] LLM Tool  [?]
      [WARN  |  +36] API Tester  [?]
-     [PASS  |  +65] Tracker Tool  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
@@ -153,8 +147,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-07-16T03:23:37.477973+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-07-16T08:25:53.145850+00:00
    Already in catalog: 139 tools
    Previously produced: 0 tools
    Existing tool pages: 50 files
@@ -337,7 +331,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-16T03:23:37.290752+00:00 → 2026-07-16T03:23:49.325085+00:00
+  ⏱  耗时: 2026-07-16T08:25:52.950536+00:00 → 2026-07-16T08:26:35.360567+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
