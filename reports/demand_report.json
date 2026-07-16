@@ -1,12 +1,8 @@
 {
-  "generated_at": "2026-07-16T14:11:20.573736+00:00",
+  "generated_at": "2026-07-16T16:07:02.919144+00:00",
   "radar_version": "2.1",
   "sources": {
     "github_trending": [
-      {
-        "repo": "1c7/chinese-independent-developer",
-        "url": "https://github.com/1c7/chinese-independent-developer"
-      },
       {
         "repo": "apache/ossie",
         "url": "https://github.com/apache/ossie"
@@ -82,6 +78,10 @@
       {
         "repo": "Graphify-Labs/graphify",
         "url": "https://github.com/Graphify-Labs/graphify"
+      },
+      {
+        "repo": "codecrafters-io/build-your-own-x",
+        "url": "https://github.com/codecrafters-io/build-your-own-x"
       }
     ],
     "stackoverflow": [
@@ -107,48 +107,48 @@
       "做独立开发好难，能赚到钱更难，快一年半了一个付款用户都没有",
       "外面访问家里局域网最优雅的方式是？",
       "问题大了，昨天拼命瞪，今天怎么没有重置了？",
-      "夏天除了穿洞洞鞋，还能穿什么？",
       "大家都用的什么机房或者机场，最近我的无优化的搬瓦工卡的我受不了了",
+      "夏天除了穿洞洞鞋，还能穿什么？",
       "世界杯支持哪个球队哪个队就输",
-      "字节 4 年美团 3 年，居然没面试",
-      "vscode 迎来 1.129 新版本， UI 现代化重做"
+      "《当代码不再稀缺：程序员真正稀缺的是判断力》",
+      "字节 4 年美团 3 年，居然没面试"
     ],
     "devto": [
       "DEV Community: programming",
-      "🚀 Build better software with Code Healing AI.",
-      "AI Assistant: Just Another Day in the Digital Ether",
-      "Building a Secure Web Application from Scratch: A Beginner's Guide to Implementing OWASP Security Standards with Python and Flask",
-      "Dicts and Docs: The Value of Grammar and Documentation for LLM-Based Automation",
-      "Why \"It Worked on My Machine\" Still Happens in 2026",
-      "Mastering Linux Command Line Navigation for Beginners",
-      "One mistake no one has ever made. Right?",
-      "⚠️ Common Issues 🪲 with LLMs &amp; AI Agents 🤖 — and How to Fix Them 🛠️",
-      "The Most Interesting Bugs Aren’t in Software",
-      "Instant $2.500 Ethereum Financing With Zero Credit Check",
-      "A Windows Feature Can Blind Your EDR, and Cursor Will Run Whatever's Named git.exe",
-      "mempermudah aktivitas sehari-hari. Perangkat pintar, layanan berbasi"
+      "DARI PEMULA JADI MASTER—RAHASIA TRANSFORMASI PEMAIN BIASA MENJADI JUARA",
+      "Basic Array Methods In JS",
+      "Building AquaStat: Why We Started Tracking Data Center Water Usage",
+      "MCP Server Design Flaw Produces 11 CVEs Across 7,000+ Instances",
+      "How to Use DeepSeek API Without a Chinese Phone Number (Complete Guide)",
+      "#04 – Modules &amp; Modern Python Project Structure",
+      "Is Be10X Worth It for Working Professionals Learning AI?",
+      "My Honest Opinion on Be10X After Exploring the Course",
+      "Before Buying Be10X, Ask Yourself This One Question",
+      "Is Be10X an Advanced AI Course? Here's My Honest Take",
+      "What Is Llama AI and Who Made It? Complete 2026 Guide to Meta's Open AI Model",
+      "Exceptions To The Rescue in Micropython"
     ],
     "lobsters": [
+      "How Our Rust-to-Zig Rewrite is Going",
       "Linus Torvalds on LLM usage in kernel development",
       "SQLite should have (Rust-style) editions",
-      "How Our Rust-to-Zig Rewrite is Going",
       "Guix: creating a package from a binary",
       "Forgejo v16.0 is available",
-      "Abstracting effects with continuations",
       "What gdb frontend do you prefer (linux)",
-      "Detecting Full Table Scans With SQLite",
-      "The Tower Keeps Rising",
-      "Bring modern package management to Meson's native wrap ecosystem",
-      "FreeBSD 16 Retires The Last Of Its GPL Code From Its Base System",
-      "Your AI Is Not a Tool",
-      "The Day WhatsApp goes dark",
-      "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing",
       "README, not",
-      "The Long Tail of Work Left Until ActivityPub Has E2EE",
+      "Abstracting effects with continuations",
+      "Detecting Full Table Scans With SQLite",
+      "Bring modern package management to Meson's native wrap ecosystem",
+      "What \"Memory Compiler\" Actually Means: From Bitcells to GDS Tiling",
+      "Your AI Is Not a Tool",
+      "FreeBSD 16 Retires The Last Of Its GPL Code From Its Base System",
+      "The Tower Keeps Rising",
+      "perldelta - what is new for perl v5.44.0",
+      "Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing",
       "WHOOP 4.0 without a subscription",
-      "AI Data Centers and the Concentration of Wealth",
+      "The Long Tail of Work Left Until ActivityPub Has E2EE",
       "The Shape of Apps",
-      "You should probably check on your smart appliances"
+      "Why ML/OCaml are good for writing compilers (1998)"
     ],
     "producthunt": [
       "Engineering \\u0026 Development",
@@ -173,62 +173,62 @@
       "Professional networking platforms"
     ],
     "hacker_news": [
-      "Inkling: Our Open-Weights Model 🔥1090pts 💬269",
-      "The lost joy of music piracy 🔥521pts 💬338",
-      "Grok Build is open source 🔥519pts 💬554",
-      "Stripe and Advent have made a joint offer to acquire PayPal – sources 🔥470pts 💬277",
-      "SQLite should have (Rust-style) editions 🔥315pts 💬144",
-      "Governments, companies, nonprofits should invest in free, open source AI [pdf] 🔥243pts 💬85",
-      "OnePlus halts operations in USA and Europe 🔥233pts 💬133",
-      "SpaceX stock erases all its gains and slides below IPO price in intraday trading 🔥228pts 💬171",
-      "If you want to create a button from scratch, you must first create the universe 🔥188pts 💬91",
-      "Where are YC founders now? OpenAI and Anthropic, mostly 🔥163pts 💬73",
-      "1,300 Beautiful Wildlife Illustrations from the 19th Century Now Restored 🔥157pts 💬28",
-      "Bluesky Trademarks ATProto 🔥146pts 💬91",
-      "Teardown: A Generic 7-Port USB 3.0 Hub That Wasn't 🔥128pts 💬55",
-      "Reynard: A real Firefox web browser for iOS 13 or later 🔥100pts 💬27",
-      "The LLM Critics Are Right. I Use LLMs Anyway 🔥81pts 💬92",
-      "Ente – Opening Our Books 🔥75pts 💬18",
-      "Sony Deletes a Bunch More Movies from the Accounts of People Who 'Bought' Them 🔥73pts 💬34",
-      "A Beautiful Theory Falls to Ugly Data 🔥52pts 💬33",
-      "Let's Build PlanetScale from Scratch: Infrastructure",
-      "Let's build a simple interpreter for APL – part 1",
-      "Goes-19 weather satellite enters Safe Hold mode",
+      "Inkling: Our Open-Weights Model 🔥1133pts 💬277",
+      "The lost joy of music piracy 🔥598pts 💬397",
+      "Grok Build is open source 🔥549pts 💬581",
+      "OnePlus halts operations in USA and Europe 🔥356pts 💬193",
+      "SQLite should have (Rust-style) editions 🔥333pts 💬154",
+      "Governments, companies, nonprofits should invest in free, open source AI [pdf] 🔥260pts 💬94",
+      "Where are YC founders now? OpenAI and Anthropic, mostly 🔥251pts 💬142",
+      "Sony Deletes a Bunch More Movies from the Accounts of People Who 'Bought' Them 🔥249pts 💬129",
+      "Kimi K3 is now live 🔥226pts 💬108",
+      "If you want to create a button from scratch, you must first create the universe 🔥205pts 💬100",
+      "1,300 Beautiful Wildlife Illustrations from the 19th Century Now Restored 🔥189pts 💬31",
+      "Teardown: A Generic 7-Port USB 3.0 Hub That Wasn't 🔥163pts 💬72",
+      "Ente – Opening Our Books 🔥134pts 💬38",
+      "Making 768 servers look like 1 🔥131pts 💬54",
+      "How Our Rust-to-Zig Rewrite Is Going 🔥130pts 💬27",
+      "Reynard: A real Firefox web browser for iOS 13 or later 🔥126pts 💬34",
+      "Let's Build PlanetScale from Scratch: Infrastructure 🔥80pts 💬16",
+      "Goes-19 weather satellite enters Safe Hold mode 🔥71pts 💬38",
+      "Generative AI Is an Engineering Disaster",
+      "Show HN: I've built a words game based on binary search",
       "Track your workout from the iPhone Lock Screen",
-      "The Act and the Outcome of Creation",
+      "Let's build a simple interpreter for APL – part 1",
       "Panel meter calculator with floating point",
-      "How to organize 3 acquired companies into one coherent website"
+      "The Act and the Outcome of Creation",
+      "Introduction to KizunaShelf: A shelf for everything you love"
     ],
     "hn_show": [
-      "Notelet – open-source SwiftUI package to show release notes in iOS apps — featured on Hacker News (🔥1pts)",
-      "Fly a nano-drone from your terminal (Rust TUI) — featured on Hacker News (🔥1pts)",
-      "Wallflower – A Quiet Social Reader — featured on Hacker News (🔥1pts)",
-      "ChatGPT is finally good for frequent travelers — featured on Hacker News (🔥1pts)",
-      "Mac App to turn your computer into a hands-off coding agent — featured on Hacker News (🔥1pts)",
-      "Free 30-second score of your website's traffic-to-sales path — featured on Hacker News (🔥1pts)",
-      "AgentReady – MCP server that makes any docs site queryable by AI agents — featured on Hacker News (🔥1pts)",
-      "Fireplot – I built a take-home pay map to see if I should leave Belgium — featured on Hacker News (🔥2pts)",
-      "AI Law Tracker – one audited API for US, EU and global AI law — featured on Hacker News (🔥5pts)",
-      "SaaS isn't dead until we all stop using dbeaver — featured on Hacker News (🔥1pts)",
-      "Cortier – your AI negotiates dinner plans with your friends' AIs — featured on Hacker News (🔥3pts)",
-      "Companion eBook for The Odyssey audiobook narrated by AI Michael Caine — featured on Hacker News (🔥2pts)",
-      "We hid a backdoor in an LLM – $51,200 on finding it — featured on Hacker News (🔥2pts)",
-      "I built a house-hack calculator that told me to keep renting — featured on Hacker News (🔥2pts)",
-      "A bidirectional visual React IDE (live guest playground) — featured on Hacker News (🔥2pts)",
-      "Plarza – A social network for personal websites — featured on Hacker News (🔥3pts)",
-      "Real-Time Microphone Quality Scoring Using Web Audio API — featured on Hacker News (🔥3pts)",
-      "Marigold – Get more done with your agent — featured on Hacker News (🔥2pts)",
-      "I've built a words game based on binary search — featured on Hacker News (🔥11pts)"
+      "Leaves – a text-UI disk usage treemap visualizer — featured on Hacker News (🔥1pts)",
+      "Traceforce (YC S26) – Secure AI apps, one device at a time — featured on Hacker News (🔥1pts)",
+      "I built an open source alternative to Workflowy — featured on Hacker News (🔥1pts)",
+      "Open-source AI app builder you can embed into your own SaaS — featured on Hacker News (🔥1pts)",
+      "PokeTokenBar – Raise a Pokémon with your AI token usage — featured on Hacker News (🔥1pts)",
+      "Token Gobbler – the goofy game where you're the LLM — featured on Hacker News (🔥1pts)",
+      "A commerce Network built on UCP for agents to discover and Pay — featured on Hacker News (🔥1pts)",
+      "Tmux tab markers for Claude Code, Grok, and pi sessions — featured on Hacker News (🔥1pts)",
+      "Sentinel – open-source QA agent that reads your code before it clicks — featured on Hacker News (🔥3pts)",
+      "Docs.dev Your Own Hosted Docs Platform in Minutes — featured on Hacker News (🔥3pts)",
+      "A spectral live stream of NYC sunlight — featured on Hacker News (🔥2pts)",
+      "Ingestr CDC – open-source CDC replication in Go — featured on Hacker News (🔥1pts)",
+      "Democr.ai – self-hosted agentic AI runtime with audit and RBAC — featured on Hacker News (🔥1pts)",
+      "Trying to fix the web scraping industry's benchmark problem — featured on Hacker News (🔥11pts)",
+      "Title:  a zero-dependency, self-hosting JavaScript-to-native compiler — featured on Hacker News (🔥1pts)",
+      "Nous – give GTM agents one context graph across your tools — featured on Hacker News (🔥9pts)",
+      "QBasic Gorillas (Repeeled) — featured on Hacker News (🔥2pts)",
+      "Algotrek – Algorithms visualized, problem shape shifting and a tutor — featured on Hacker News (🔥2pts)",
+      "I built a Clojure runtime on top of Chez Scheme — featured on Hacker News (🔥2pts)"
     ],
     "hn_ask_tools": [
+      "Ask HN: Best meeting transcription daemon for macOS? — user asking for tool recommendation (🔥2pts)",
+      "Show HN: I've built tldraw for HTML and Markdown pages (with encryption) — user asking for tool recommendation (🔥1pts)",
+      "Show HN: Estratos – stacked memory system for AI assistants — user asking for tool recommendation (🔥2pts)",
       "Show HN: Marigold – Get more done with your agent — user asking for tool recommendation (🔥2pts)",
       "Show HN: Pokayoke – turn code conventions into checks for agents — user asking for tool recommendation (🔥2pts)",
       "Show HN: Glad-AI-Tor, the \"best\" AI tools judged by the crowd — user asking for tool recommendation (🔥2pts)",
       "Show HN: Pullboard – a work queue for agents, built to run a quant desk — user asking for tool recommendation (🔥2pts)",
       "Show HN: Pgmig: Generate migrations between Postgres databases — user asking for tool recommendation (🔥2pts)",
-      "Ask HN: Are the heaviest AI users of your team blowing past everyone else? — user asking for tool recommendation (🔥6pts)",
-      "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations — user asking for tool recommendation (🔥84pts)",
-      "Show HN: Town – Discord in a pixel town where the NPCs have skills — user asking for tool recommendation (🔥6pts)",
       "Ask HN: What is the one YouTube channel you recommend I subscribe to? — user asking for tool recommendation (🔥7pts)",
       "Show HN: DashApply – Your Complete Job Search Toolkit — user asking for tool recommendation (🔥3pts)",
       "Ask HN: How are you creating demo videos for your product? — user asking for tool recommendation (🔥1pts)",
@@ -237,20 +237,20 @@
       "Show HN: Open-source job search plugin for Claude Code — user asking for tool recommendation (🔥2pts)",
       "Show HN: An open source job search plugin for Claude Code — user asking for tool recommendation (🔥5pts)",
       "Show HN: Ctx, save tokens by loading only the relevant tools — user asking for tool recommendation (🔥8pts)",
+      "Show HN: Docs.dev Your Own Hosted Docs Platform in Minutes — user asking for tool recommendation (🔥3pts)",
+      "Show HN: Ingestr CDC – open-source CDC replication in Go — user asking for tool recommendation (🔥1pts)",
+      "Show HN: An MCP server that frames screen recordings and shots in Apple bezels — user asking for tool recommendation (🔥2pts)",
       "Show HN: Throttle – Local Claude Cockpit for macOS, now with remote control — user asking for tool recommendation (🔥2pts)",
       "Show HN: Vendo (YC S26) – Let your users add their own features to your product — user asking for tool recommendation (🔥2pts)",
       "As a dev, would you use a form backend tool? — user asking for tool recommendation (🔥2pts)",
-      "Show HN: Make senders work to get into your inbox — user asking for tool recommendation (🔥42pts)",
-      "I reverse-engineered the three biggest agent-memory tools — user asking for tool recommendation (🔥2pts)",
-      "Ask HN: What Are You Building with AI? — user asking for tool recommendation (🔥4pts)",
-      "Show HN: GWZ – Git Workspace Zone (multi-repo that feels like plain Git) — user asking for tool recommendation (🔥5pts)",
+      "Show HN: Traceforce (YC S26) – Secure AI apps, one device at a time — user asking for tool recommendation (🔥1pts)",
       "Show HN: Skillful, stop maintaining the same AI workflow in five places — user asking for tool recommendation (🔥2pts)",
-      "Show HN: uplpgsql – PL/pgSQL compiled to native code — user asking for tool recommendation (🔥4pts)",
+      "Show HN: uplpgsql – PL/pgSQL compiled to native code — user asking for tool recommendation (🔥6pts)",
+      "Show HN: I built an open source alternative to Workflowy — user asking for tool recommendation (🔥1pts)",
       "Show HN:I built an open alternative to Simplify for autoapplying to LinkedIn job — user asking for tool recommendation (🔥4pts)",
       "Show HN: I made ts-node alternative, ttsc/ttsx, a TypeScript-go toolchain — user asking for tool recommendation (🔥5pts)",
-      "Ask HN: Is anyone else feeling bad about Reddit's mechanisms — user asking for tool recommendation (🔥2pts)",
-      "Agentty – A drop-in alternative to claude-code, written in C++26. 11.0 MB binary — user asking for tool recommendation (🔥42pts)",
-      "Show HN: ForkUnion v3 – Faster OpenMP-style thread-pool for C, C++, Rust, & Zig — user asking for tool recommendation (🔥3pts)"
+      "Ask HN: Is anyone else feeling bad about Reddit's mechanisms — user asking for tool recommendation (🔥3pts)",
+      "Agentty – A drop-in alternative to claude-code, written in C++26. 11.0 MB binary — user asking for tool recommendation (🔥43pts)"
     ],
     "hackernoon": [
       "Ray Zhang Leads the Smart Contract Work Where Small Decisions Can Move Real Markets",
@@ -292,60 +292,60 @@
       "SwiftData Enhances Queries, Adds Support for External Types and Data Store Observation <img src=\"https://res.infoq.com/news/2026/07/swiftdata-27-whats-new/en/headerimage/swiftdata-27-whats-new-1784012905834.jpeg\"/><p>The 2027 release of "
     ],
     "google_trends": [
-      "gordie howe bridge dispute",
-      "marco rubio",
-      "crime",
-      "jake johnson",
-      "el niño",
-      "the hawk netflix",
-      "us open",
-      "hailey bieber gap jeans",
-      "klystron 9",
-      "adam lambert"
+      "spacex",
+      "new horizons kuiper belt mission",
+      "ann li",
+      "ian baker finch",
+      "today show",
+      "rklb",
+      "orcl stock",
+      "us mint",
+      "kimi k3",
+      "new england patriots"
     ],
     "baidu": [
       "人民的小事就是我们的大事",
-      "生娃基本不花钱 28个省份安排上了",
-      "世界杯冠军奖金5000万美元 历史最高",
-      "前一秒石库门 下一秒进未来",
-      "realme暂停中国市场业务",
-      "砸穿美民宅陨石携带外星生命催化剂",
-      "碳酸饮料卖不动了",
-      "电影《八仙》口碑",
-      "男子做胃肠镜突发心脏骤停成植物人",
-      "LV母公司掌门人被责令补税1.74亿元",
-      "德国主持人说辱华词语引众怒",
-      "天文台辟谣新疆惊现不明飞行物",
-      "又一名《西游记》演员离世",
-      "河南洛阳暴雨",
-      "周星驰回应《功夫女足》破纪录",
-      "西湖“世纪晚霞”夯爆了",
-      "韩国股市暴涨暴跌 散户快疯了",
       "我说这俩队这么难踢 原来是冠亚军",
-      "李在明警示：勿让年轻异性陪坐",
-      "格斗赛机器人头被打飞 甄子丹看呆"
+      "格斗赛机器人头被打飞 甄子丹看呆",
+      "前一秒石库门 下一秒进未来",
+      "又一名《西游记》演员离世",
+      "桂林山野外一废弃牛棚意外走红",
+      "男子做胃肠镜突发心脏骤停成植物人",
+      "电影《八仙》口碑",
+      "韩国股市暴涨暴跌 散户快疯了",
+      "外露式、半隐藏门把手“集体回归”",
+      "日产芯片超15亿块 什么概念",
+      "天文台辟谣新疆惊现不明飞行物",
+      "河南洛阳暴雨",
+      "蜜雪冰城新公司部分岗月薪可达2万5",
+      "巴菲特发出警告：市场已成“赌场”",
+      "盒马猫咪抱冬瓜宣传图被吐槽照骗",
+      "世界杯冠军奖金5000万美元 历史最高",
+      "广西发生疑似毒气中毒事件致4死",
+      "生娃基本不花钱 28个省份安排上了",
+      "大导演为何越来越难让人满意"
     ],
     "wikipedia": [
-      "Jalgaon",
-      "Jesper Cornelius",
-      "Pride in London",
-      "NFC North",
-      "List of K-1 champions",
-      "Hot Rock & Alternative Songs",
-      "American Israel Numismatic Association",
-      "Berlin State Opera",
-      "Lillian (given name)",
-      "Seguin, Texas",
-      "Pompton Lakes School District",
-      "Manel (footballer, born 1972)",
-      "Lists of schools in Mauritius",
-      "Declaration (The Alarm album)",
-      "Nicolae Ceaușescu",
-      "Warsaw 44",
-      "Your Mother Your Mother Your Mother",
-      "Final Descent (album)",
-      "Quack Pack",
-      "Linda Nosková"
+      "Mathias Mpuuga",
+      "Dhasmana (surname)",
+      "Tang campaigns against the Western Turks",
+      "Bowls at the 2026 Commonwealth Games",
+      "Stapleton International Airport",
+      "TeamTO",
+      "Carmen Menayo",
+      "Euchromius brunnealis",
+      "Akash (missile)",
+      "Warner Bros. Clockwork",
+      "Designation of workers by collar color",
+      "Rúben Dias",
+      "Lynching",
+      "VP-1",
+      "2004 Indian general election in Maharashtra",
+      "Sir Isaac Newton Sixth Form",
+      "New Kingdom of Granada",
+      "Dhadakebaaz",
+      "Derwentwater",
+      "Princess Alice of Bourbon-Parma (1849–1935)"
     ],
     "huggingface": [
       "all-MiniLM-L6-v2",
@@ -430,29 +430,30 @@
       "@microsoft/eslint-formatter-sarif — npm package: ESLint formatter for the SARIF (Static Analysis Results Interchange Format) v2.1.0 file format"
     ],
     "github_topics": [
-      "github trending topic: sec-criticidade-app-falso",
-      "github trending topic: automation",
-      "github trending topic: laravel-package",
-      "github trending topic: compiler",
-      "github trending topic: css",
-      "github trending topic: database",
-      "github trending topic: front end",
-      "github trending topic: chrome",
-      "github trending topic: react",
-      "github trending topic: self-hosted",
-      "github trending topic: node.js",
-      "github trending topic: mcp",
-      "github trending topic: npm",
-      "github trending topic: scala",
-      "github trending topic: rust",
-      "github trending topic: react native",
       "github trending topic: typescript",
+      "github trending topic: database",
       "github trending topic: project management",
-      "github trending topic: ai-agents",
       "github trending topic: awesome lists",
+      "github trending topic: chrome",
+      "github trending topic: scala",
       "github trending topic: javascript",
+      "github trending topic: mcp",
+      "github trending topic: css",
+      "github trending topic: python",
+      "github trending topic: rag",
+      "github trending topic: front end",
+      "github trending topic: claude-code",
+      "github trending topic: node.js",
+      "github trending topic: school-project",
+      "github trending topic: npm",
+      "github trending topic: llm",
+      "github trending topic: react native",
+      "github trending topic: legacy",
+      "github trending topic: original-work",
+      "github trending topic: react",
+      "github trending topic: portfolio-archive",
       "github trending topic: code quality",
-      "github trending topic: python"
+      "github trending topic: compiler"
     ],
     "search_log_top": [],
     "pain_points": []
@@ -648,7 +649,6 @@
     "Social Networking — tool from ProductHunt",
     "Professional networking platforms — tool from ProductHunt",
     "Panel meter calculator with floating point",
-    "Ask HN: What Are You Building with AI? — user asking for tool recommendation (🔥4pts)",
     "Let the Agent Complain: A Feedback Loop for Better AI Tools",
     "Why Business Teams Need Governed AI Tools, Not Another Shadow IT Risk",
     "electra-base-discriminator",
@@ -664,15 +664,13 @@
     "@sqltools/formatter — npm package: Formats SQL queries. Part of SQLTools",
     "paknevis — npm package: Paknevis.js is a persian text formatter tool.",
     "prettier — npm package: Prettier is an opinionated code formatter",
-    "sass-formatter — npm package: TypeScript Sass formatter",
-    "github trending topic: sec-criticidade-app-falso",
-    "github trending topic: laravel-package"
+    "sass-formatter — npm package: TypeScript Sass formatter"
   ],
   "filter_stats": {
-    "raw_count": 177,
-    "valid_count": 45,
-    "rejected_count": 132,
-    "rejection_rate": 74.6,
+    "raw_count": 181,
+    "valid_count": 42,
+    "rejected_count": 139,
+    "rejection_rate": 76.8,
     "rejected_samples": [
       "DeepTutor",
       "What does the \"yield\" keyword do in Python?",
@@ -683,31 +681,21 @@
       "What is the difference between @staticmethod and @classmethod in Python?",
       "How slicing in Python works",
       "大家都用的什么机房或者机场，最近我的无优化的搬瓦工卡的我受不了了",
-      "Building a Secure Web Application from Scratch: A Beginner's Guide to Implementing OWASP Security Standards with Python and Flask"
+      "Basic Array Methods In JS"
     ]
   },
   "trait_analysis": {
-    "total_captured": 355,
-    "chatter_blocked": 17,
-    "chatter_rate": 4.8,
-    "tool_signals_found": 177,
-    "tool_signal_rate": 49.9,
+    "total_captured": 356,
+    "chatter_blocked": 15,
+    "chatter_rate": 4.2,
+    "tool_signals_found": 181,
+    "tool_signal_rate": 50.8,
     "chatter_samples": [
       {
         "text": "字节 4 年美团 3 年，居然没面试",
         "category": "job",
         "matched": [
           "面试"
-        ]
-      },
-      {
-        "text": "Instant $2.500 Ethereum Financing With Zero Credit Check",
-        "category": "news",
-        "matched": [
-          [
-            "Ethereum",
-            ""
-          ]
         ]
       },
       {
@@ -721,17 +709,20 @@
         ]
       },
       {
-        "text": "The lost joy of music piracy 🔥521pts 💬338",
+        "text": "The lost joy of music piracy 🔥598pts 💬397",
         "category": "entertainment",
         "matched": [
           "music"
         ]
       },
       {
-        "text": "Stripe and Advent have made a joint offer to acquire PayPal – sources 🔥470pts 💬2",
-        "category": "chatter",
+        "text": "Generative AI Is an Engineering Disaster",
+        "category": "news",
         "matched": [
-          "vent"
+          [
+            "Disaster",
+            ""
+          ]
         ]
       },
       {
@@ -749,13 +740,6 @@
         ]
       },
       {
-        "text": "the hawk netflix",
-        "category": "entertainment",
-        "matched": [
-          "netflix"
-        ]
-      },
-      {
         "text": "电影《八仙》口碑",
         "category": "entertainment",
         "matched": [
@@ -763,10 +747,30 @@
         ]
       },
       {
-        "text": "Declaration (The Alarm album)",
-        "category": "entertainment",
+        "text": "盒马猫咪抱冬瓜宣传图被吐槽照骗",
+        "category": "chatter",
         "matched": [
-          "album"
+          "吐槽"
+        ]
+      },
+      {
+        "text": "2004 Indian general election in Maharashtra",
+        "category": "news",
+        "matched": [
+          [
+            "election",
+            ""
+          ]
+        ]
+      },
+      {
+        "text": "Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Ass",
+        "category": "news",
+        "matched": [
+          [
+            "Earthquake",
+            ""
+          ]
         ]
       }
     ],
@@ -852,35 +856,33 @@
         ]
       },
       {
-        "text": "Building a Secure Web Application from Scratch: A Beginner's Guide to Implementing OWASP Security St",
-        "confidence": 35,
+        "text": "Basic Array Methods In JS",
+        "confidence": 15,
         "features": [
-          "输入→输出链式: [('Guide to Implementing', 'to', '', '', '', '')]",
+          "技术概念: ['JS']"
+        ]
+      },
+      {
+        "text": "How to Use DeepSeek API Without a Chinese Phone Number (Complete Guide)",
+        "confidence": 45,
+        "features": [
+          "输入→输出链式: [('How to Use', 'to', '', '', '', '')]",
+          "技术概念: ['API']",
+          "需求表达: [('How to Use', 'to', '', '', '', '', '', '')]"
+        ]
+      },
+      {
+        "text": "#04 – Modules &amp; Modern Python Project Structure",
+        "confidence": 15,
+        "features": [
           "技术概念: ['Python']"
         ]
       },
       {
-        "text": "Dicts and Docs: The Value of Grammar and Documentation for LLM-Based Automation",
-        "confidence": 60,
+        "text": "What Is Llama AI and Who Made It? Complete 2026 Guide to Meta's Open AI Model",
+        "confidence": 20,
         "features": [
-          "英文动作特征: ['Automation']",
-          "输入→输出链式: [('Automation', 'to', '', '', '', '')]",
-          "技术概念: ['LLM']"
-        ]
-      },
-      {
-        "text": "⚠️ Common Issues 🪲 with LLMs &amp; AI Agents 🤖 — and How to Fix Them 🛠️",
-        "confidence": 30,
-        "features": [
-          "输入→输出链式: [('How to Fix', 'to', '', '', '', '')]",
-          "需求表达: [('How to Fix', 'to', '', '', '', '', '', '')]"
-        ]
-      },
-      {
-        "text": "A Windows Feature Can Blind Your EDR, and Cursor Will Run Whatever's Named git.exe",
-        "confidence": 15,
-        "features": [
-          "技术概念: ['git']"
+          "输入→输出链式: [('Guide to Meta', 'to', '', '', '', '')]"
         ]
       }
     ]
