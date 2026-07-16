@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-16T16:23:53.036978+00:00     ║
+║       启动时间: 2026-07-16T19:23:29.254980+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -71,7 +71,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [28] Scraping npm registry search...
   ✅ 30 npm packages
 🔍 [29] Scraping GitHub Topics...
-  ✅ 24 topics
+  ✅ 22 topics
 🔍 [3/25] Analyzing search logs...
   ✅ 0 queries
 
@@ -81,16 +81,16 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 356
-  🚫 闲聊拦截: 18 条 (5.1%)
-  🧠 工具信号: 182 条 (51.1%)
+  原始信号总量: 354
+  🚫 闲聊拦截: 14 条 (4.0%)
+  🧠 工具信号: 184 条 (52.0%)
 
   📋 闲聊拦截样例:
      [job] 字节 4 年美团 3 年，居然没面试
-     [job] Can the Best Artificial Intelligence Course in Mumbai Really
      [news] Microsoft Confirms Windows GDID Device Identifier That Canno
-     [entertainment] The lost joy of music piracy 🔥610pts 💬405
+     [entertainment] The lost joy of music piracy 🔥714pts 💬476
      [chatter] Show HN: Pokayoke – turn code conventions into checks for ag
+     [ad] Ask HN: What is the one YouTube channel you recommend I subs
 
   🧠 工具信号样例:
      [置信度15%] copilot-pull-request-reviewer
@@ -100,29 +100,30 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [置信度20%] DeepTutor
        ↳ 输入→输出链式: [('DeepTutor', 'to', '', '', '', '')]
      [置信度15%] What does the "yield" keyword do in Python?
-       ↳ 技术概
+       ↳ 技术概念
 
-✅ 雷达完成 — 18 条建议
+✅ 雷达完成 — 17 条建议
 
 ============================================================
 🔍 阶段 0.5: 需求过滤审计（意图分类器打分）
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 356 条
-     🚫 闲聊拦截: 18 条 (5.1%)
-     🧠 工具信号: 182 条 (51.1%)
+     原始抓取: 354 条
+     🚫 闲聊拦截: 14 条 (4.0%)
+     🧠 工具信号: 184 条 (52.0%)
      闲聊样例: 字节 4 年美团 3 年，居然没面试... [job]
      工具信号样例: copilot-pull-request-reviewer... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 182 → 有效 44
-     拒绝率: 75.8%
+     工具信号 184 → 有效 42
+     拒绝率: 77.2%
 
-  📊 意图分类器审计 — 审查 18 条需求
+  📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
   ✅ 通过 (13):
      [PASS  |  +55] LLM Tool  [?]
+     [WARN  |  +45] Editor  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
@@ -132,14 +133,12 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [PASS  |  +55] Converter  [?]
      [PASS  |  +55] JSON Formatter  [?]
      [WARN  |  +45] Formatter  [?]
-     [WARN  |  +45] Editor  [?]
      [PASS  |  +55] SQL Formatter  [?]
      [WARN  |  +30] Text Tools  [?]
-  🚫 拦截 (5):
+  🚫 拦截 (4):
      [BLOCK |  +20] Viewer  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
-     [BLOCK |  +29] Calculator  [?]  ← 多维评分 29 低于门槛 30
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
 
 ============================================================
@@ -154,8 +153,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🏭 MintShovels Auto Factory
 ==================================================
-📊 Demand report loaded: 18 suggestions
-   Generated at: 2026-07-16T16:23:53.195483+00:00
+📊 Demand report loaded: 17 suggestions
+   Generated at: 2026-07-16T19:23:29.410551+00:00
    Already in catalog: 139 tools
    Previously produced: 0 tools
    Existing tool pages: 50 files
@@ -338,7 +337,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-16T16:23:53.036978+00:00 → 2026-07-16T16:24:10.675722+00:00
+  ⏱  耗时: 2026-07-16T19:23:29.254980+00:00 → 2026-07-16T19:23:40.941895+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
