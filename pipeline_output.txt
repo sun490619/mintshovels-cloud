@@ -1,7 +1,7 @@
 
 ╔══════════════════════════════════════════════════════════╗
 ║       MintShovels 全自动流水线 — 采集→雷达→工厂→门禁→测试→部署     ║
-║       启动时间: 2026-07-16T08:25:52.950536+00:00     ║
+║       启动时间: 2026-07-16T11:06:12.112142+00:00     ║
 ╚══════════════════════════════════════════════════════════╝
 
 ============================================================
@@ -27,7 +27,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 
 🌐 水系1: 开发者问答枢纽
 🔍 [2/25] Scraping GitHub Trending...
-  ✅ 16 repos
+  ✅ 20 repos
 🔍 [5/25] Fetching Stack Overflow...
   ✅ 15 questions
 🔍 [4/25] Fetching V2EX...
@@ -47,7 +47,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [27] Scraping HN tool requests...
   ✅ 30 tool-related Ask HN posts
 🔍 [30] Fetching HackerNoon...
-  ✅ 19 articles
+  ✅ 20 articles
 🔍 [31] Fetching InfoQ...
   ✅ 15 articles
 
@@ -61,11 +61,11 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🔍 [8/25] Fetching Wikipedia...
   ✅ 20 pages
 🔍 [9/25] Fetching HuggingFace...
-  ⚠️ Failed to fetch https://huggingface.co/api/models?sort=downloads&direction=-1&limit=20: The read operation timed out
+  ✅ 40 models
 🔍 [21/25] Fetching arXiv cs.AI...
   ✅ 15 papers
 🔍 [22/25] Fetching Papers With Code...
-  ⚠️ Failed to fetch https://paperswithcode.com/api/v1/papers/?ordering=-paper_published&items_per_pa: The read operation timed out
+  ⚠️ Failed: Expecting value: line 1 column 1 (char 0)
 
 📦 水系5: 包注册中心 + 技术主题
 🔍 [28] Scraping npm registry search...
@@ -81,20 +81,25 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 🧠 阶段 A: 工具特质自动识别 + 闲聊二次过滤
 ============================================================
-  原始信号总量: 318
-  🚫 闲聊拦截: 15 条 (4.7%)
-  🧠 工具信号: 183 条 (57.5%)
+  原始信号总量: 353
+  🚫 闲聊拦截: 15 条 (4.2%)
+  🧠 工具信号: 172 条 (48.7%)
 
   📋 闲聊拦截样例:
-     [ad] I Built a Free Online PDF Toolkit That Doesn't Require Sign 
      [news] Microsoft Confirms Windows GDID Device Identifier That Canno
-     [chatter] Inventing ELIZA - How the First Chatbot Shaped the Future of
      [chatter] Stripe and Advent have made a joint offer to acquire PayPal 
-     [entertainment] The lost joy of music piracy 🔥227pts 💬109
+     [entertainment] The lost joy of music piracy 🔥376pts 💬228
+     [job] High-Bandwidth Flash offers efficient storage for model weig
+     [chatter] Pokayoke – turn code conventions into checks for agents — fe
 
   🧠 工具信号样例:
+     [置信度15%] copilot-pull-request-reviewer
+       ↳ 英文工具名词: ['viewer']
+     [置信度15%] awesome-llm-apps
+       ↳ 技术概念: ['llm']
      [置信度20%] DeepTutor
-       ↳ 输入→输出链式: [('D
+       ↳ 输入→输出链式: [('DeepTutor', 'to', '', '', '', '')]
+     [置信度15%] What does 
 
 ✅ 雷达完成 — 17 条建议
 
@@ -103,21 +108,20 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 
   🧠 雷达特质识别 (v2.0) 摘要:
-     原始抓取: 318 条
-     🚫 闲聊拦截: 15 条 (4.7%)
-     🧠 工具信号: 183 条 (57.5%)
-     闲聊样例: I Built a Free Online PDF Toolkit That Doesn't Req... [ad]
-     工具信号样例: DeepTutor... [置信度20%]
+     原始抓取: 353 条
+     🚫 闲聊拦截: 15 条 (4.2%)
+     🧠 工具信号: 172 条 (48.7%)
+     闲聊样例: Microsoft Confirms Windows GDID Device Identifier ... [news]
+     工具信号样例: copilot-pull-request-reviewer... [置信度15%]
 
   📊 硬核过滤器统计:
-     工具信号 183 → 有效 38
-     拒绝率: 79.2%
+     工具信号 172 → 有效 42
+     拒绝率: 75.6%
 
   📊 意图分类器审计 — 审查 17 条需求
   ──────────────────────────────────────────────────────────────────────
-  ✅ 通过 (14):
+  ✅ 通过 (13):
      [PASS  |  +55] LLM Tool  [?]
-     [WARN  |  +36] API Tester  [?]
      [WARN  |  +45] Form Builder  [?]
      [PASS  |  +70] Video Converter  [?]
      [PASS  |  +55] Graph Tool  [?]
@@ -130,7 +134,8 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
      [WARN  |  +45] Editor  [?]
      [PASS  |  +55] SQL Formatter  [?]
      [WARN  |  +30] Text Tools  [?]
-  🚫 拦截 (3):
+  🚫 拦截 (4):
+     [BLOCK |  +20] Viewer  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +20] AI Assistant  [?]  ← 多维评分 20 低于门槛 30
      [BLOCK |  +10] Note Taker  [?]  ← 多维评分 10 低于门槛 30
      [BLOCK |  +29] Survey Builder  [?]  ← 多维评分 29 低于门槛 30
@@ -148,7 +153,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 🏭 MintShovels Auto Factory
 ==================================================
 📊 Demand report loaded: 17 suggestions
-   Generated at: 2026-07-16T08:25:53.145850+00:00
+   Generated at: 2026-07-16T11:06:12.328150+00:00
    Already in catalog: 139 tools
    Previously produced: 0 tools
    Existing tool pages: 50 files
@@ -331,7 +336,7 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/mints
 ============================================================
 📊 流水线报告
 ============================================================
-  ⏱  耗时: 2026-07-16T08:25:52.950536+00:00 → 2026-07-16T08:26:35.360567+00:00
+  ⏱  耗时: 2026-07-16T11:06:12.112142+00:00 → 2026-07-16T11:06:24.469819+00:00
   📊 数据采集: WARN
   📡 雷达: OK
   🏭 工厂: OK
